@@ -1,0 +1,33 @@
+# provides: SYNOPSYS STAR-RC
+# depends: 
+
+# test if we are already loaded
+if [ "x${STARRC}" != "x" ]; then
+
+    if [ ${STARRC} != "C-2010.06" ]; then
+	unset STARRC
+    fi
+
+fi
+
+if [ "x${STARRC}" = "x" ]; then
+
+    if [ `uname` = 'Linux' ]; then
+	export STARRC_HOME=/remote/SCRATCH_fs01/apps/starrc
+	if [ `uname -i` = 'x86_64' ];then
+	  export PATH=$PATH:${STARRC_HOME}/amd64_starrc/bin
+	else
+	  export PATH=$PATH:${STARRC_HOME}/linux_starrc/bin
+	fi
+    fi
+				
+    if [ `uname` = 'SunOS' ]; then
+	echo "Not installed"
+    fi
+	
+set STARRC = 2010.09
+    if [ ! -e ~/.hushlogin  ]; then
+	echo "loaded SYNOPSYS STAR-RC	(${STARRC})"
+    fi
+
+fi

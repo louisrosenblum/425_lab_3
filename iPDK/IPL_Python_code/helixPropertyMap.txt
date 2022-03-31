@@ -1,0 +1,238 @@
+;
+; Helix property map for cni baseKit
+;
+
+ParamDefaultMap
+(
+    Width(wf)
+    Length(lf)
+    Fingers(fr)
+    Rows(rw)
+    ContactRing(guardRing)
+    Ruleset(ruleset)
+    LibraryList(LibraryList)
+) ; End ParamDefaultMap
+
+LayerMap
+(
+    Text(text)
+    TerminalText(text)
+    Bbox(bbox)
+    Flightline(flightLine)
+    Dummy(flightLine)	
+    Nwell(nwell)
+    Twell(twell)
+    Pwell(pwell)
+    Od2(od2)
+    Rpo(rpo)
+) ; End LayerMap
+
+CellCapabilities
+(
+    Abuttable(Nmos NmosH Pmos PmosH)
+    
+    ContactRingable(Nmos NmosDiffPair NmosDiffPair1 NmosH NmosHDiffPair NmosHDiffPair1 
+                    Pmos PmosDiffPair PmosDiffPair1 PmosH PmosHDiffPair PmosHDiffPair1)
+                    	
+    RowStackable(Pmos Nmos PmosH NmosH PmosDiffPair NmosDiffPair
+                 PmosHDiffPair NmosHDiffPair PmosDiffPair1 NmosDiffPair1 PmosHDiffPair1
+                 NmosHDiffPair1 NVaractor NVaractorH pnp2 pnp5 pnp10 SilNPolyRes SilPPolyRes       
+                 SilNDiffRes SilPDiffRes unSilNPolyRes unSilPPolyRes unSilNDiffRes unSilPDiffRes     
+                 SilNPolyResPair SilPPolyResPair SilNDiffResPair SilPDiffResPair unSilNPolyResPair 
+                 unSilPPolyResPair unSilNDiffResPair unSilPDiffResPair vpatternCell)
+                 	
+    RuleSettable(bandgap3x3pnp10 bandgap4x3pnp10 bandgap5x5pnp5 bandgap3x3 bandgap4x3 bandgap5x5 CombCapacitor Pmos Nmos PmosH NmosH 
+                 PmosDiffPair NmosDiffPair PmosHDiffPair NmosHDiffPair PmosDiffPair1 NmosDiffPair1
+                 PmosHDiffPair1 NmosHDiffPair1 NVaractor NVaractorH pnp2 pnp5 pnp10 
+                 SilNPolyRes SilPPolyRes SilNDiffRes SilPDiffRes unSilNPolyRes unSilPPolyRes 
+                 unSilNDiffRes unSilPDiffRes SilNPolyResPair SilPPolyResPair SilNDiffResPair   
+                 SilPDiffResPair unSilNPolyResPair unSilPPolyResPair unSilNDiffResPair 
+                 unSilPDiffResPair SpiralInductor patternCell vpatternCell)
+                 
+    UseLibraryList(patternCell vpatternCell)
+) ; End CellCapabilities
+
+CellMaps
+(
+    ; List of CellMap sections.  Each CellMap section contains a TermMap subsection,
+    ; which indicates how terminal of a Logical Cell are mapped to the ones of the 
+    ; corresponding Physical Cell.
+    ; (Logical refers to Netlist. Physical refers to Layout.)
+    ; CellMap section can also contain an optional ParamMap subsection, in which 
+    ; selected parameter mappings from the ParamDefaultMap can be overridden.
+
+    CellMap(Name(patternCell)  TermMap(none))
+    
+    CellMap(Name(vpatternCell)
+        TermMap(none)
+        ParamMap(Width(wf) Length(lf) Fingers(fr) Rows(rw))    
+    )
+
+    CellMap(Name(bandgap3x3pnp10)
+      	TermMap(Term(Collector C) Term(Base B) Term(Emitter E) Term(Emitter1 E1))
+    )
+        
+    CellMap(Name(bandgap4x3pnp10)
+        TermMap(Term(Collector C) Term(Base B) Term(Emitter E) Term(Emitter1 E1) Term(Emitter2 E2))
+    )
+    
+    CellMap(Name(bandgap5x5pnp5)
+        TermMap(Term(Collector C) Term(Base B) Term(Emitter E) Term(Emitter1 E1))
+    )
+   
+    CellMap(Name(bandgap3x3)
+      	TermMap(Term(Collector C) Term(Base B) Term(Emitter E) Term(Emitter1 E1))
+    )
+        
+    CellMap(Name(bandgap4x3)
+        TermMap(Term(Collector C) Term(Base B) Term(Emitter E) Term(Emitter1 E1) Term(Emitter2 E2))
+    )
+    
+    CellMap(Name(bandgap5x5)
+        TermMap(Term(Collector C) Term(Base B) Term(Emitter E) Term(Emitter1 E1))
+    )
+
+    CellMap(Name(CombCapacitor)
+        TermMap(Term(Pos PLUS) Term(Neg MINUS))
+    )   
+    
+    CellMap(Name(Nmos)
+	TermMap(Term(Drain D) Term(Gate G) Term(Source S) Term(Sub B))
+    )
+    
+    CellMap(Name(NmosDiffPair)
+	    TermMap(Term(Drain D0) Term(Gate G0) Term(Drain1 D1) Term(Gate1 G1) Term(Source S) Term(Sub B))
+    )
+    
+    CellMap(Name(NmosDiffPair1)
+        TermMap(Term(Drain D0) Term(Gate G0) Term(Drain1 D1) Term(Gate1 G1) Term(Source S) Term(Sub B))
+    )
+    
+    CellMap(Name(NmosH)
+    	TermMap(Term(Drain D) Term(Gate G) Term(Source S) Term(Sub B))
+    )
+    
+    CellMap(Name(NmosHDiffPair)
+    	TermMap(Term(Drain D0) Term(Gate G0) Term(Drain1 D1) Term(Gate1 G1) Term(Source S) Term(Sub B))
+    )
+    
+    CellMap(Name(NmosHDiffPair1)
+        TermMap(Term(Drain D0) Term(Gate G0) Term(Drain1 D1) Term(Gate1 G1) Term(Source S) Term(Sub B))
+    )    
+    
+    CellMap(Name(NVaractor)
+        TermMap(Term(Drain D) Term(Gate G) Term(Source S) Term(Sub B))
+    )
+        
+    CellMap(Name(NVaractorH)
+        TermMap(Term(Drain D) Term(Gate G) Term(Source S) Term(Sub B))
+    )
+    
+    CellMap(Name(Pmos)
+    	TermMap(Term(Drain D) Term(Gate G) Term(Source S) Term(Sub B))
+    )
+    
+    CellMap(Name(PmosDiffPair)
+    	TermMap(Term(Drain D0) Term(Gate G0) Term(Drain1 D1) Term(Gate1 G1) Term(Source S) Term(Sub B))
+    )
+
+    CellMap(Name(PmosDiffPair1)
+        TermMap(Term(Drain D0) Term(Gate G0) Term(Drain1 D1) Term(Gate1 G1) Term(Source S) Term(Sub B))
+    )
+    
+    CellMap(Name(PmosH)
+    	TermMap(Term(Drain D) Term(Gate G) Term(Source S) Term(Sub B))
+    )
+    
+    CellMap(Name(PmosHDiffPair)
+    	TermMap(Term(Drain D0) Term(Gate G0) Term(Drain1 D1) Term(Gate1 G1) Term(Source S) Term(Sub B))
+    )
+    
+    CellMap(Name(PmosHDiffPair1)
+        TermMap(Term(Drain D0) Term(Gate G0) Term(Drain1 D1) Term(Gate1 G1) Term(Source S) Term(Sub B))
+    )
+    
+    CellMap(Name(pnp10)
+        TermMap(Term(Collector C) Term(Base B) Term(Emitter E))
+    )
+    
+    CellMap(Name(pnp2)
+        TermMap(Term(Collector C) Term(Base B) Term(Emitter E))
+    )
+    
+    CellMap(Name(pnp5)
+        TermMap(Term(Collector C) Term(Base B) Term(Emitter E))
+    )
+    
+    CellMap(Name(ResistorUnit)
+    	TermMap(Term(Pos PLUS) Term(Neg MINUS))
+    )
+    
+    CellMap(Name(SilNDiffRes)
+    	TermMap(Term(Pos PLUS) Term(Neg MINUS))
+    )
+    
+    CellMap(Name(SilNDiffResPair)
+    	TermMap(Term(Pos PLUS1) Term(Neg MINUS1) Term(Pos1 PLUS2) Term(Neg1 MINUS2))
+    )
+    
+    CellMap(Name(SilNPolyRes)
+    	TermMap(Term(Pos PLUS) Term(Neg MINUS))
+    )
+    
+    CellMap(Name(SilNPolyResPair)
+        TermMap(Term(Pos PLUS1) Term(Neg MINUS1) Term(Pos1 PLUS2) Term(Neg1 MINUS2))
+    )
+    
+    CellMap(Name(SilPDiffRes)
+    	TermMap(Term(Pos PLUS) Term(Neg MINUS))
+    )
+    
+    CellMap(Name(SilPDiffResPair)
+        TermMap(Term(Pos PLUS1) Term(Neg MINUS1) Term(Pos1 PLUS2) Term(Neg1 MINUS2))
+    )
+    
+    CellMap(Name(SilPPolyRes)
+    	TermMap(Term(Pos PLUS) Term(Neg MINUS))
+    )
+    
+    CellMap(Name(SilPPolyResPair)
+        TermMap(Term(Pos PLUS1) Term(Neg MINUS1) Term(Pos1 PLUS2) Term(Neg1 MINUS2))
+    )
+    
+    CellMap(Name(SpiralInductor)
+        TermMap(Term(Pos PLUS) Term(Neg MINUS))
+    )
+    
+    CellMap(Name(unSilNDiffRes)
+    	TermMap(Term(Pos PLUS) Term(Neg MINUS))
+    )
+    
+    CellMap(Name(unSilNDiffResPair)
+        TermMap(Term(Pos PLUS1) Term(Neg MINUS1) Term(Pos1 PLUS2) Term(Neg1 MINUS2))
+    )
+    
+    CellMap(Name(unSilNPolyRes)
+    	TermMap(Term(Pos PLUS) Term(Neg MINUS))
+    )
+    
+    CellMap(Name(unSilNPolyResPair)
+    	TermMap(Term(Pos PLUS1) Term(Neg MINUS1) Term(Pos1 PLUS2) Term(Neg1 MINUS2))
+    )
+    
+    CellMap(Name(unSilPDiffRes)
+    	TermMap(Term(Pos PLUS) Term(Neg MINUS))
+    )
+    
+    CellMap(Name(unSilPDiffResPair)
+        TermMap(Term(Pos PLUS1) Term(Neg MINUS1) Term(Pos1 PLUS2) Term(Neg1 MINUS2))
+    )
+    
+    CellMap(Name(unSilPPolyRes)
+    	TermMap(Term(Pos PLUS) Term(Neg MINUS))
+    )
+              
+    CellMap(Name(unSilPPolyResPair)
+	    TermMap(Term(Pos PLUS1) Term(Neg MINUS1) Term(Pos1 PLUS2) Term(Neg1 MINUS2))
+    )
+) ; End CellMaps

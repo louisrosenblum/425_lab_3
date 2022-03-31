@@ -1,0 +1,34 @@
+####generated with SAED
+
+db::setPrefValue leActiveLPP -value "8 4294967295" -scope user
+
+source [oa::getPath [oa::LibFind SAED_PDK_32_28]]/../scripts/callbacks/Mos.tcl
+source [oa::getPath [oa::LibFind SAED_PDK_32_28]]/../scripts/callbacks/AbutContact.tcl
+source [oa::getPath [oa::LibFind SAED_PDK_32_28]]/../scripts/callbacks/ArrayInstContact.tcl
+source [oa::getPath [oa::LibFind SAED_PDK_32_28]]/../scripts/callbacks/Contact.tcl
+source [oa::getPath [oa::LibFind SAED_PDK_32_28]]/../scripts/callbacks/Resistor.tcl
+source [oa::getPath [oa::LibFind SAED_PDK_32_28]]/../scripts/callbacks/ND.tcl
+source [oa::getPath [oa::LibFind SAED_PDK_32_28]]/../scripts/callbacks/PD.tcl
+source [oa::getPath [oa::LibFind SAED_PDK_32_28]]/../scripts/callbacks/VNPN.tcl
+source [oa::getPath [oa::LibFind SAED_PDK_32_28]]/../scripts/callbacks/VPNP.tcl
+source [oa::getPath [oa::LibFind SAED_PDK_32_28]]/../scripts/callbacks/Rndiff.tcl
+source [oa::getPath [oa::LibFind SAED_PDK_32_28]]/../scripts/callbacks/BandGap.tcl
+
+
+
+###################################################################################
+# getPDKVersion is a procedure gives the information about PDK
+# Outputs:
+# ---------
+# Prints the PDK library name and release date on console
+#
+###################################################################################
+proc getPDKVersion { } {
+    puts "\t#######################################"
+    puts "\tPDK Name\t\t: SAED_PDK32_28"
+    puts "\tPDK Release Date\t: 20-01-2011"
+    puts "\tPDK Created Build\t: D-2009.12"
+    puts "\t#######################################\n"
+}
+getPDKVersion
+

@@ -1,0 +1,63 @@
+<?xml version="1.0"?>
+<file-format name="synopsysPDK" version="1.0">
+<process name="SAED 32/28nm" default="true">
+<application name="PVE" prefPrefix="xt">
+<variant name="1P10M" title="1-Poly 10-Metal" default="true">
+	<pveJob name="DRC" jobType="DRC">
+		<tool name="ICV" default="true">
+			<preference name="RunsetFile" valueType="path">
+				<value>./icv/drc/saed32nm_1p9m_drc_rules.rs</value>
+			</preference>
+			<preference name="LoadRunset" visible="false">
+				<value>true</value>
+			</preference>
+			<!--
+			<preference name="Variables" valueType="custom" visible="true" mutable="true" required="true">
+			<item name="WIDTH_RULES" valueType="string" visible="true" mutable="true" scope="environment">"true"</item>
+			<item name="AREA_RULES" valueType="string" visible="true" mutable="true" scope="environment">"true"</item>
+			</preference>
+			-->
+		</tool>
+	</pveJob>
+
+	<pveJob name="LVS" jobType="LVS">
+		<preference name="LayDBFormat" visible="true" required="true" valueType="string">
+			<value>OpenAccess</value>
+		</preference>
+		<preference name="SchDBFormat" visible="true" required="true" valueType="string">
+			<value>OpenAccess</value>
+		</preference>
+		<tool name="ICV" default="true">
+			<preference name="RunsetFile" visible="true" mutable="false" required="true" valueType="path" override="true">
+			<value>./icv/lvs/saed32nm_1p9m_lvs_rules.rs</value>
+			</preference>
+			<preference name="xtLVSICVOptions" required="true">
+			<value>-sf SPICE -ndg -quiet=0</value>
+			</preference>
+			<preference name="RunsetOptions" valueType="custom">
+			<item section="OPTIONS" name="IGNORE_CASE">FALSE</item>
+			</preference>
+		</tool>
+	</pveJob>
+
+	<pveJob name="LPE" jobType="LPE">
+		<preference name="ViewOutput"><value>true</value></preference>
+		<tool name="StarRC" default="true">
+			<preference name="RunsetFile" required="true">
+				<value>./starrc/icv_cmd</value>
+			</preference>
+			<preference name="RunsetOptions" valueType="custom" visible="true" mutable="true">
+			<item name="xref" visible="true" mutable="false">yes</item>
+			<item name="oa_remove_spicecard_prefix" visible="true" mutable="true">no</item>
+			</preference>
+		</tool>
+	</pveJob>
+</variant>
+
+</application>
+</process>
+</file-format>
+
+
+
+

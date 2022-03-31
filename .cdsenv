@@ -1,0 +1,5 @@
+ddserv	showWhatsNew	string	"6.1.5"
+license	ADEL_UseNextLicense	string	"always"
+license	VSEL_UseNextLicense	string	"always"
+layout	xSnapSpacing	float	0.0025
+layout	ySnapSpacing	float	0.0025

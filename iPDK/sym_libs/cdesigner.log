@@ -1,0 +1,132 @@
+[09:42:07.42] /o Custom Designer (TM) Version F-2011.09-2
+              /c Build  (OPT) Config 1870340 compiled on Fri Oct 21 04:24:21 2011 for ia32 RHEL4.0 U6
+              /c Invocation: /remote/SCRATCH_fs01/apps/cdesigner/F-2011.09-SP2/linux/platform/bin/cdesigner
+              /c Execution time: Sat Dec 17 09:42:05 2011
+              /c Host: stud185-2
+              /c 
+              /c Copyright © 2004-2011 Synopsys, Inc. All rights reserved.
+              /c Your use of this program is subject to the terms and conditions of a written license agreement between you, or your company, and Synopsys.
+              /c 
+[09:42:14.33] /i db::setAttr geometry -of [gi::getWindows 0] -value 600x300+5+494
+[09:42:18.44] /# gi::executeAction dmShowLibraryManager -in [gi::getWindows 0]
+[09:42:18.45] /i dm::showLibraryManager
+[09:42:18.55] /r giWindowGeometry 600x600+50+75
+[09:42:18.57] /o oa:0x1552ab38
+[09:42:18.91] /i db::setAttr geometry -of [gi::getWindows 1] -value 653x600+50+75
+[09:42:19.15] /i gi::setItemSelection {libs} -index {snpsDefTechLib} -in [gi::getWindows 1]
+[09:42:21.10] /# gi::executeAction dbShowTechnologyManager -in [gi::getWindows 1]
+[09:42:21.10] /i db::showManageTechnology
+[09:42:21.20] /r giWindowGeometry 350x400
+[09:42:21.20] /# gi::setItemSelection {techTechnologyManagerLibWidget} -index {{analogLib}} -in [gi::getWindows 2]
+[09:42:21.20] /# gi::setItemSelection {techTechnologyManagerLibWidget} -index {} -in [gi::getWindows 2]
+[09:42:21.20] /# gi::setItemSelection {techTechnologyManagerLibWidget} -index {{snpsDefTechLib}} -in [gi::getWindows 2]
+[09:42:21.20] /o oa:0x155f5ce8
+[09:42:21.55] /i db::setAttr geometry -of [gi::getWindows 2] -value 450x400+5+49
+[09:42:22.34] /i gi::executeAction dbTechnologyFileExport -in [gi::getWindows 2]
+[09:42:22.38] /i gi::setActiveDialog [gi::getDialogs {dbExportTechnology} -parent [gi::getWindows 2]]
+[09:42:22.67] /i db::setAttr geometry -of [gi::getDialogs {dbExportTechnology} -parent [gi::getWindows 2]] -value 505x400+5+73
+[09:42:30.35] /i gi::setField {fileName} -value {snpsDef.tf} -in [gi::getDialogs {dbExportTechnology} -parent [gi::getWindows 2]]
+[09:42:30.49] /i gi::pressButton {ok} -in [gi::getDialogs {dbExportTechnology} -parent [gi::getWindows 2]]
+[09:42:32.15] /i gi::executeAction giCloseWindow -in [gi::getWindows 2]
+[09:42:32.17] /i gi::setActiveWindow 1
+[09:42:32.17] /i gi::setActiveWindow 1 -raise true
+[09:43:21.39] /# gi::executeAction dbShowTechnologyManager -in [gi::getWindows 1]
+[09:43:21.39] /i db::showManageTechnology
+[09:43:21.45] /r giWindowGeometry 350x400
+[09:43:21.46] /# gi::setItemSelection {techTechnologyManagerLibWidget} -index {{analogLib}} -in [gi::getWindows 3]
+[09:43:21.46] /# gi::setItemSelection {techTechnologyManagerLibWidget} -index {} -in [gi::getWindows 3]
+[09:43:21.46] /# gi::setItemSelection {techTechnologyManagerLibWidget} -index {{snpsDefTechLib}} -in [gi::getWindows 3]
+[09:43:21.46] /o oa:0x155ea8d0
+[09:43:21.79] /i db::setAttr geometry -of [gi::getWindows 3] -value 450x400+5+49
+[09:43:23.01] /i db::setAttr geometry -of [gi::getWindows 3] -value 450x400+149+143
+[09:43:24.22] /i gi::executeAction dbTechnologyFileExport -in [gi::getWindows 3]
+[09:43:24.25] /i gi::setActiveDialog [gi::getDialogs {dbExportTechnology} -parent [gi::getWindows 3]]
+[09:43:24.54] /i db::setAttr geometry -of [gi::getDialogs {dbExportTechnology} -parent [gi::getWindows 3]] -value 505x400+149+192
+[09:43:24.85] /i gi::closeWindows [gi::getDialogs {dbExportTechnology} -parent [gi::getWindows 3]]
+[09:43:25.43] /i gi::executeAction dbTechnologyFileImport -in [gi::getWindows 3]
+[09:43:25.47] /i gi::setActiveDialog [gi::getDialogs {dbImportTechnology} -parent [gi::getWindows 3]]
+[09:43:25.76] /i db::setAttr geometry -of [gi::getDialogs {dbImportTechnology} -parent [gi::getWindows 3]] -value 478x400+135+167
+[09:43:26.61] /i gi::pressButton {fileNameBrowse} -in [gi::getDialogs {dbImportTechnology} -parent [gi::getWindows 3]]
+[09:43:27.70] /r giFileDialog accept snpsDef.tf
+[09:43:28.48] /i gi::setField {overwriteMode} -value {true} -in [gi::getDialogs {dbImportTechnology} -parent [gi::getWindows 3]]
+[09:43:29.22] /i gi::pressButton {ok} -in [gi::getDialogs {dbImportTechnology} -parent [gi::getWindows 3]]
+[09:43:29.23] /e Error: Layer number 240 already exists (TECH-012)
+[09:43:29.31] /r giDialog gi::setActiveDialog [gi::getDialogs {giPrompt}]
+[09:43:29.57] /r giDialog db::setAttr geometry -of [gi::getDialogs {giPrompt}] -value 324x112+558+394
+[09:43:30.28] /r giDialog gi::pressButton {close} -in [gi::getDialogs {giPrompt}]
+[09:43:30.28] /r giDialog gi::closeWindows [gi::getDialogs {giPrompt}]
+[09:43:31.08] /i gi::setActiveWindow 0
+[09:43:31.08] /i gi::setActiveWindow 0 -raise true
+[09:43:35.47] /i gi::setActiveDialog [gi::getDialogs {dbImportTechnology} -parent [gi::getWindows 3]]
+[09:43:37.76] /i gi::pressButton {cancel} -in [gi::getDialogs {dbImportTechnology} -parent [gi::getWindows 3]]
+[09:43:37.77] /i gi::setActiveWindow 3
+[09:43:37.77] /i gi::setActiveWindow 3 -raise true
+[09:43:39.49] /i gi::executeAction giCloseWindow -in [gi::getWindows 3]
+[09:43:39.50] /# gi::closeWindows [gi::getDialogs {dbExportTechnology} -parent [gi::getWindows 3]]
+[09:43:39.51] /i gi::setActiveWindow 0
+[09:43:39.51] /i gi::setActiveWindow 0 -raise true
+[09:43:40.50] /i gi::setActiveWindow 1
+[09:43:40.50] /i gi::setActiveWindow 1 -raise true
+[09:43:40.55] /i gi::setItemSelection {libs} -index {sample} -in [gi::getWindows 1]
+[09:43:40.82] /i gi::setItemSelection {libs} -index {snpsDefTechLib} -in [gi::getWindows 1]
+[09:44:01.65] /# gi::executeAction dbShowTechnologyManager -in [gi::getWindows 1]
+[09:44:01.65] /i db::showManageTechnology
+[09:44:01.71] /r giWindowGeometry 350x400
+[09:44:01.71] /# gi::setItemSelection {techTechnologyManagerLibWidget} -index {{analogLib}} -in [gi::getWindows 4]
+[09:44:01.71] /# gi::setItemSelection {techTechnologyManagerLibWidget} -index {} -in [gi::getWindows 4]
+[09:44:01.71] /# gi::setItemSelection {techTechnologyManagerLibWidget} -index {{snpsDefTechLib}} -in [gi::getWindows 4]
+[09:44:01.71] /o oa:0x155840a8
+[09:44:02.04] /i db::setAttr geometry -of [gi::getWindows 4] -value 450x400+5+49
+[09:44:05.86] /i gi::executeAction dbTechnologyFileImport -in [gi::getWindows 4]
+[09:44:05.90] /i gi::setActiveDialog [gi::getDialogs {dbImportTechnology} -parent [gi::getWindows 4]]
+[09:44:06.19] /i db::setAttr geometry -of [gi::getDialogs {dbImportTechnology} -parent [gi::getWindows 4]] -value 478x400+5+49
+[09:44:09.00] /i gi::setField {replaceMode} -value {true} -in [gi::getDialogs {dbImportTechnology} -parent [gi::getWindows 4]]
+[09:44:09.72] /i gi::pressButton {apply} -in [gi::getDialogs {dbImportTechnology} -parent [gi::getWindows 4]]
+[09:44:09.82] /m Information: Technology file snpsDef.tf is successfully imported into lib snpsDefTechLib. (TECH_IO-099)
+[09:44:10.94] /i gi::setActiveWindow 0
+[09:44:10.94] /i gi::setActiveWindow 0 -raise true
+[09:44:15.64] /i gi::pressButton {ok} -in [gi::getDialogs {dbImportTechnology} -parent [gi::getWindows 4]]
+[09:44:15.67] /# gi::setActiveWindow 4 -raise true
+[09:44:15.67] /# gi::setActiveWindow 4 -raise true
+[09:44:15.74] /e Error: Cannot unset DefaultManufacturingGrid attribute because it is not set (TECH-012)
+[09:44:15.78] /r giDialog gi::setActiveDialog [gi::getDialogs {giPrompt}]
+[09:44:16.07] /r giDialog db::setAttr geometry -of [gi::getDialogs {giPrompt}] -value 324x112+558+394
+[09:44:17.29] /r giDialog gi::pressButton {close} -in [gi::getDialogs {giPrompt}]
+[09:44:17.29] /r giDialog gi::closeWindows [gi::getDialogs {giPrompt}]
+[09:44:18.28] /i gi::setActiveDialog [gi::getDialogs {dbImportTechnology} -parent [gi::getWindows 4]]
+[09:44:18.48] /i gi::pressButton {apply} -in [gi::getDialogs {dbImportTechnology} -parent [gi::getWindows 4]]
+[09:44:18.59] /e Error: Cannot unset DefaultManufacturingGrid attribute because it is not set (TECH-012)
+[09:44:18.63] /r giDialog gi::setActiveDialog [gi::getDialogs {giPrompt}]
+[09:44:18.92] /r giDialog db::setAttr geometry -of [gi::getDialogs {giPrompt}] -value 324x112+558+394
+[09:44:19.59] /r giDialog gi::pressButton {close} -in [gi::getDialogs {giPrompt}]
+[09:44:19.59] /r giDialog gi::closeWindows [gi::getDialogs {giPrompt}]
+[09:44:20.89] /i gi::setActiveWindow 0
+[09:44:20.89] /i gi::setActiveWindow 0 -raise true
+[09:44:26.00] /i gi::setActiveDialog [gi::getDialogs {dbImportTechnology} -parent [gi::getWindows 4]]
+[09:44:26.14] /i gi::setField {overwriteMode} -value {true} -in [gi::getDialogs {dbImportTechnology} -parent [gi::getWindows 4]]
+[09:44:55.66] /i gi::pressButton {ok} -in [gi::getDialogs {dbImportTechnology} -parent [gi::getWindows 4]]
+[09:44:55.70] /# gi::setActiveWindow 4 -raise true
+[09:44:55.70] /# gi::setActiveWindow 4 -raise true
+[09:44:55.73] /m Information: Technology file snpsDef.tf is successfully imported into lib snpsDefTechLib. (TECH_IO-099)
+[09:44:58.35] /i gi::executeAction dbTechnologyFileExport -in [gi::getWindows 4]
+[09:44:58.39] /i gi::setActiveDialog [gi::getDialogs {dbExportTechnology} -parent [gi::getWindows 4]]
+[09:44:58.68] /i db::setAttr geometry -of [gi::getDialogs {dbExportTechnology} -parent [gi::getWindows 4]] -value 505x400+5+73
+[09:45:02.05] /i gi::setField {fileName} -value {s.tf} -in [gi::getDialogs {dbExportTechnology} -parent [gi::getWindows 4]]
+[09:45:02.13] /i gi::pressButton {ok} -in [gi::getDialogs {dbExportTechnology} -parent [gi::getWindows 4]]
+[09:45:30.40] /i gi::executeAction giCloseWindow -in [gi::getWindows 4]
+[09:45:31.66] /i gi::setActiveWindow 1
+[09:45:31.66] /i gi::setActiveWindow 1 -raise true
+[09:45:32.90] /i gi::executeAction giCloseWindow -in [gi::getWindows 1]
+[09:45:39.05] /i gi::setActiveWindow 0
+[09:45:39.05] /i gi::setActiveWindow 0 -raise true
+[09:48:15.19] /i gi::executeAction giCloseWindow -in [gi::getWindows 0]
+[09:48:15.51] /r giDialog db::setAttr geometry -of [gi::getDialogs {deExitDialog}] -value 344x223+15+79
+[09:48:15.88] /r giDialog gi::setActiveDialog [gi::getDialogs {deExitDialog}]
+[09:48:15.97] /r giDialog gi::pressButton {ok} -in [gi::getDialogs {deExitDialog}]
+[09:48:15.97] /r giDialog gi::closeWindows [gi::getDialogs {deExitDialog}]
+[09:48:15.97] /o 
+[09:48:16.04] /r giDialog gi::setActiveDialog [gi::getDialogs {dbCloseTechs}]
+[09:48:16.93] /r giDialog gi::pressButton {okButton} -in [gi::getDialogs {dbCloseTechs}]
+[09:48:16.99] /o Shutdown time: Sat Dec 17 09:48:16 2011
+[09:48:16.99] /o Elapsed session real time: 6.15 minutes
+[09:48:16.99] /o Session terminated. Log is at /remote/SCRATCH_fs01/PDK_copy/SAED_PDK_32/sym_libs/cdesigner.log

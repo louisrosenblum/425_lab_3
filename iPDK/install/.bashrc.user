@@ -1,0 +1,35 @@
+
+a_hercules.B-2008.09-SP1
+a_hspice.C-2009.03-SP1
+a_cdesigner.2009.12
+source star-rcxt2010
+
+
+##################### SAED32_28_PDK ####################
+
+export SAED32_28_PDK=/remote/SCRATCH_fs01/PDK/SAED_PDK_32
+
+########################################################
+
+
+#################################################################### PCells ###################################################################################
+CNI_ROOT=/remote/SCRATCH_fs01/apps/pdk/pycell;export CNI_ROOT
+OA_COMPILER=gcc411;export OA_COMPILER
+CNI_PLAT_ROOT=${CNI_ROOT}/plat_linux_gcc411_32;export CNI_PLAT_ROOT
+CNI_DISPLAY_DIR=${CNI_ROOT}/tech/cni130/santanaDisplay;export CNI_DISPLAY_DIR
+PATH=${CNI_PLAT_ROOT}/3rd/bin:${CNI_PLAT_ROOT}/3rd/oa/bin/linux_rhel30_gcc411_32/opt:${CNI_PLAT_ROOT}/bin:${CNI_ROOT}/bin:${PATH};export PATH
+CNI_LOG_DEFAULT=/dev/null;export CNI_LOG_DEFAULT
+PYTHONHOME=${CNI_PLAT_ROOT}/3rd;export PYTHONHOME
+PYTHONPATH=${CNI_ROOT}/pylib:${CNI_PLAT_ROOT}/pyext:${CNI_PLAT_ROOT}/lib:.:${PYTHONPATH};export PYTHONPATH
+LD_LIBRARY_PATH=${CNI_PLAT_ROOT}/3rd/lib:${CNI_PLAT_ROOT}/3rd/oa/lib/linux_rhel30_gcc411_32/opt:${CNI_PLAT_ROOT}/lib:${LD_LIBRARY_PATH};export LD_LIBRARY_PATH
+OA_PLUGIN_PATH=${CNI_PLAT_ROOT}/3rd/oa/data/plugins:${OA_PLUGIN_PATH};export OA_PLUGIN_PATH
+###############################################################################################################################################################
+
+
+
+############################### icv ###################################
+alias icv="/remote/apps/synopsys/icv_2009.12-SP2/bin/IA.32/icv"
+ICV_HOME_DIR=/remote/apps/synopsys/icv_2009.12-SP2;export ICV_HOME_DIR;
+ICV_HOME_DIR=/remote/apps/synopsys/icv_2009.12-SP2;export ICV_HOME_DIR;
+export PATH=$PATH:/remote/apps/synopsys/icv_2009.12-SP2/bin/IA.32/
+#######################################################################

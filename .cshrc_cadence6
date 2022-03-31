@@ -1,0 +1,41 @@
+setenv CDS_INST_DIR /usr/local/cadence
+setenv IC /usr/local/cadence/IC617
+#
+#setenv MMSIM /usr/local/cadence/MMSIM141
+setenv CDS /usr/local/cadence
+setenv CDS_LIC_FILE 5280@enlicense6.eas.asu.edu
+setenv CDS_Netlisting_Mode Analog
+setenv LD_LIBRARY_PATH /usr/local/cadence/MMSIM141/tools.lnx86/lib:/usr/local/synopsys/hspice_2015.06/hspice/linux:/usr/local/cadence/IC617/tools/lib:/usr/lib:/usr/local/agilent/ADS2014_01/lib/linux_x86
+#
+##
+setenv CDK_DIR /usr/local/cadence/NCSU/ncsu-cdk-1.6.0.beta
+#
+##
+set path = (/usr/local/cadence/IC617/tools.lnx86/dfII/bin $path)
+set path = (/usr/local/cadence/ETS120/bin $path)
+set path = (/usr/local/synopsys/starrc_2015.06/bin $path)
+set path = (/usr/local/synopsys/starrc_2015.06/linux64_starrc/bin $path)
+set path = (/usr/local/synopsys/starrc_2015.06/linux64_starrc/bin/64bit $path)
+set path = (/usr/local/cadence/edi91/bin $path)
+set path = (/usr/local/synopsys/primetime_2015.06/bin $path)
+setenv MGC_HOME /usr/local/mentor/calibre/aoi_cal_2015.2_36.27
+set path = ( /usr/local/mentor/calibre/aoi_cal_2015.2_36.27/bin $path)
+#
+##
+setenv PDK_DIR  /afs/asu.edu/class/e/e/e/eee625a/iPDK/SAED_PDK_32_28  
+##setenv SYNOPSYS_SYSTYPE AMD.64
+setenv LM_LICENSE_FILE      27020@enlicense9.eas.asu.edu
+setenv SYNOPSYS_SYSTYPE     LINUX.64
+setenv ICV_HOME_DIR         /usr/local/synopsys/icv_2018.06-SP1/icvalidator/O-2018.06-SP1
+set path = ( $path  \
+        $ICV_HOME_DIR/bin/LINUX.64 \
+. )
+####setenv HERCULES_HOME_DIR /usr/local/synopsys/hercules_2008.09_SP5
+####set path = ( $HERCULES_HOME_DIR/bin/AMD.64 $path )
+####
+#####
+######
+#setenv PDK_DIR ~/FreePDK45/
+#
+##setenv MGC_HOME /usr/local/mentor/calibre/aoi_cal_2015.2_36.27
+#set path = (/usr/local/mentor/calibre/aoi_cal_2015.2_36.27/bin $path)

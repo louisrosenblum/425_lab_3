@@ -1,0 +1,8 @@
+DEFINE basic     /usr/local/cadence/NCSU/SRC/FreePDK45/ncsu_basekit/lib/basic
+DEFINE  SAED_PDK_32_28    ./iPDK/SAED_PDK_32_28  
+DEFINE sample             ./iPDK/sym_libs/sample
+DEFINE analogLib          ./iPDK/sym_libs/analogLib
+DEFINE saed32nm_rvt  ./saed32nm_rvt 
+DEFINE saed32nm_lvt  ./saed32nm_lvt 
+DEFINE saed32nm_hvt  ./saed32nm_hvt 
+#Removed by ddDeleteObj: DEFINE Lab_1 /afs/asu.edu/users/p/d/c/pdcurtis/425_lab/Lab_1
