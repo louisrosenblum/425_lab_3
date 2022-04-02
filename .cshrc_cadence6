@@ -3,7 +3,7 @@ setenv IC /usr/local/cadence/IC617
 #
 #setenv MMSIM /usr/local/cadence/MMSIM141
 setenv CDS /usr/local/cadence
-setenv CDS_LIC_FILE 5280@enlicense6.eas.asu.edu
+setenv CDS_LIC_FILE 5280@enlicense4.eas.asu.edu
 setenv CDS_Netlisting_Mode Analog
 setenv LD_LIBRARY_PATH /usr/local/cadence/MMSIM141/tools.lnx86/lib:/usr/local/synopsys/hspice_2015.06/hspice/linux:/usr/local/cadence/IC617/tools/lib:/usr/lib:/usr/local/agilent/ADS2014_01/lib/linux_x86
 #

@@ -6,3 +6,4 @@ DEFINE saed32nm_rvt  ./saed32nm_rvt
 DEFINE saed32nm_lvt  ./saed32nm_lvt 
 DEFINE saed32nm_hvt  ./saed32nm_hvt 
 #Removed by ddDeleteObj: DEFINE Lab_1 /afs/asu.edu/users/p/d/c/pdcurtis/425_lab/Lab_1
+DEFINE Lab4 /afs/asu.edu/users/a/l/r/alrosen2/425_lab/Lab4

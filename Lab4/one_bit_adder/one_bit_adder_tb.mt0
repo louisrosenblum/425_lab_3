@@ -1,0 +1,8 @@
+$DATA1 SOURCE='HSPICE' VERSION='K-2015.06-2 linux64'
+.TITLE '# test bench for one bit adder simulation'
+ t_rise_cout      t_fall_cout      tphl_cout        tplh_cout       
+ t_rise_sum       t_fall_sum       tphl_sum         tplh_sum        
+ temper           alter#          
+  1.681e-11        1.739e-11          failed           failed       
+  3.228e-10        3.643e-11          failed           failed       
+   25.0000        1               
