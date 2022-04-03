@@ -10,8 +10,8 @@ Using: /usr/local/synopsys/hspice_2015.06/hspice/linux64/hspice  -i 'one_bit_add
   Command line options: /usr/local/synopsys/hspice_2015.06/hspice/linux64/hspice -i one_bit_adder_tb.sp
  lic:  
  lic: FLEXlm: v11.2.1 
- lic: USER:   alrosen2             HOSTNAME: eecad1.eas.asu.edu 
- lic: HOSTID: 54bf6489acfb         PID:      12607 
+ lic: USER:   alrosen2             HOSTNAME: eecad101 
+ lic: HOSTID: "e4434bdac7cd"       PID:      153177 
  lic: Using FLEXlm license file: 
  lic: 27020@enlicense9.eas.asu.edu 
  lic: Checkout 1 hspice 
@@ -3429,7 +3429,7 @@ Using: /usr/local/synopsys/hspice_2015.06/hspice/linux64/hspice  -i 'one_bit_add
     PTVFBSDOFF =      0 
     WEB        = 7.5e+05 
     WEC        = -1e+05 
-    KVTH0WE    = 9.371e-07 
+    KVTH0WE    = 5.624e-07 
     K2WE       =      0 
     KU0WE      =      0 
     SCREF      = 2.5e-06 
@@ -3854,7 +3854,7 @@ Using: /usr/local/synopsys/hspice_2015.06/hspice/linux64/hspice  -i 'one_bit_add
     PTVFBSDOFF =      0 
     WEB        = 7.5e+05 
     WEC        = -1e+05 
-    KVTH0WE    = 1.398e-06 
+    KVTH0WE    = 6.295e-07 
     K2WE       =      0 
     KU0WE      =      0 
     SCREF      = 2.5e-06 
@@ -4279,7 +4279,7 @@ Using: /usr/local/synopsys/hspice_2015.06/hspice/linux64/hspice  -i 'one_bit_add
     PTVFBSDOFF =      0 
     WEB        = 7.5e+05 
     WEC        = -1e+05 
-    KVTH0WE    = 1.422e-06 
+    KVTH0WE    = 6.34e-07 
     K2WE       =      0 
     KU0WE      =      0 
     SCREF      = 2.5e-06 
@@ -4704,7 +4704,7 @@ Using: /usr/local/synopsys/hspice_2015.06/hspice/linux64/hspice  -i 'one_bit_add
     PTVFBSDOFF =      0 
     WEB        = 7.5e+05 
     WEC        = -1e+05 
-    KVTH0WE    = 4.757e-06 
+    KVTH0WE    = 1.103e-06 
     K2WE       =      0 
     KU0WE      =      0 
     SCREF      = 2.5e-06 
@@ -5129,7 +5129,7 @@ Using: /usr/local/synopsys/hspice_2015.06/hspice/linux64/hspice  -i 'one_bit_add
     PTVFBSDOFF =      0 
     WEB        = 7.5e+05 
     WEC        = -1e+05 
-    KVTH0WE    = 1.919e-06 
+    KVTH0WE    = 7.01e-07 
     K2WE       =      0 
     KU0WE      =      0 
     SCREF      = 2.5e-06 
@@ -5554,7 +5554,7 @@ Using: /usr/local/synopsys/hspice_2015.06/hspice/linux64/hspice  -i 'one_bit_add
     PTVFBSDOFF =      0 
     WEB        = 7.5e+05 
     WEC        = -1e+05 
-    KVTH0WE    = 2.686e-06 
+    KVTH0WE    = 8.122e-07 
     K2WE       =      0 
     KU0WE      =      0 
     SCREF      = 2.5e-06 
@@ -5979,7 +5979,7 @@ Using: /usr/local/synopsys/hspice_2015.06/hspice/linux64/hspice  -i 'one_bit_add
     PTVFBSDOFF =      0 
     WEB        = 7.5e+05 
     WEC        = -1e+05 
-    KVTH0WE    = 4.871e-06 
+    KVTH0WE    = 1.124e-06 
     K2WE       =      0 
     KU0WE      =      0 
     SCREF      = 2.5e-06 
@@ -5993,7 +5993,7 @@ Using: /usr/local/synopsys/hspice_2015.06/hspice/linux64/hspice  -i 'one_bit_add
     PKVTH0WE   =      0 
     PK2WE      =      0 
     PKU0WE     =      0 
-  **info** (one_bit_adder_tb.sp:25) DC voltage reset to initial transient source value              in source        0:v1                  new dc=  0.0000D+00
+  **info** (one_bit_adder_tb.sp:25) DC voltage reset to initial transient source value              in source        0:v1                  new dc=  0.1050D+01
   **warning** (one_bit_adder_tb.sp:21) Both nodes of element vgnd are connected together; Line ignored.
   
       
@@ -6014,25 +6014,25 @@ Using: /usr/local/synopsys/hspice_2015.06/hspice/linux64/hspice  -i 'one_bit_add
  ****** operating point status is voltage   simulation time is     0.     
      node    =voltage       node    =voltage       node    =voltage
 
- + 0:a       =   0.       0:b       =   0.       0:cin     =   1.0500 
- + 0:cout    =  11.3820u  0:sum     =   1.0497   0:vdd!    =   1.0500 
- + 1:net033  =   5.2284m  1:net038  =   5.4672m  1:net054  = 320.0421u
- + 1:net058  =   2.6532m  1:net059  =   5.4672m  1:net060  =   1.0499 
- + 1:net061  =   1.0499   1:net11   =   1.0500   1:net15   =   1.0500 
- + 1:net19   =   1.0500   1:net23   =   1.0354   1:net32   = 138.8618m
- + 1:net33   =   1.0500 
+ + 0:a       =   1.0500   0:b       =   1.0500   0:cin     =   1.0500 
+ + 0:cout    =   1.0489   0:sum     =   1.0487   0:vdd!    =   1.0500 
+ + 1:net033  =  18.7549n  1:net038  = 221.4109u  1:net054  = 369.5991u
+ + 1:net058  =  73.8304u  1:net059  = 147.6341u  1:net060  = 788.3548m
+ + 1:net061  = 989.3192m  1:net11   = 843.5713m  1:net15   =   3.4726u
+ + 1:net19   = 236.7410m  1:net23   =   1.7079u  1:net32   =   1.7518u
+ + 1:net33   = 848.3209m
 
  ******
  # test bench for one bit adder simulation
 
  ****** transient analysis tnom=  25.000 temp=  25.000 ******
- t_rise_cout=  16.8097p  targ=   8.0590n   trig=   8.0422n
- t_fall_cout=  17.3921p  targ=  10.0414n   trig=  10.0240n
+ t_rise_cout=   6.0198n  targ=  11.0229n   trig=   5.0031n
+ t_fall_cout=  -3.9683n  targ=   4.0599n   trig=   8.0283n
   **warning** (one_bit_adder_tb.sp:31) .MEASURE  tphl_cout never reached the trigger value, Measurement failed! 
    tphl_cout= failed                          trig= not found
    tplh_cout= failed                          trig= not found
- t_rise_sum= 322.8384p  targ=  10.6035n   trig=  10.2807n
- t_fall_sum=  36.4266p  targ=   8.1027n   trig=   8.0663n
+ t_rise_sum=   1.0226n  targ=   7.0273n   trig=   6.0047n
+ t_fall_sum=  35.4300p  targ=   5.0644n   trig=   5.0290n
    tphl_sum= failed                          trig= not found
    tplh_sum= failed                          trig= not found
 
@@ -6046,17 +6046,17 @@ Using: /usr/local/synopsys/hspice_2015.06/hspice/linux64/hspice  -i 'one_bit_add
   
  ******  Machine Information  ******
  CPU:
- model name	: Intel(R) Xeon(R) E-2136 CPU @ 3.30GHz
- cpu MHz	: 909.191
+ model name	: Intel(R) Xeon(R) Silver 4214 CPU @ 2.20GHz
+ cpu MHz	: 1393.798
   
  OS:
- Linux version 3.10.0-1160.49.1.el7.x86_64 (mockbuild@x86-vm-43.build.eng.bos.redhat.com) (gcc version 4.8.5 20150623 (Red Hat 4.8.5-44) (GCC) ) #1 SMP Tue Nov 9 16:09:48 UTC 2021
+ Linux version 3.10.0-1160.36.2.el7.x86_64 (mockbuild@x86-040.build.eng.bos.redhat.com) (gcc version 4.8.5 20150623 (Red Hat 4.8.5-44) (GCC) ) #1 SMP Thu Jul 8 02:53:40 UTC 2021
 
 
   ******  HSPICE Threads Information  ******
 
   Command Line Threads Count :     1
-  Available CPU Count        :    12
+  Available CPU Count        :    48
   Actual Threads Count       :     1
 
 
@@ -6078,19 +6078,19 @@ Using: /usr/local/synopsys/hspice_2015.06/hspice/linux64/hspice  -i 'one_bit_add
   ******  Runtime Statistics (seconds)  ******
 
   analysis           time    # points   tot. iter  conv.iter
-  op point           0.00           1          10
-  transient          0.05        6001         638         237 rev=         0
-  readin             0.02
-  errchk             0.04
-  setup              0.03
+  op point           0.15           1          14
+  transient          0.11        8001        1478         545 rev=        22
+  readin             0.05
+  errchk             0.09
+  setup              0.16
   output             0.00
 
 
            peak memory used        239.19 megabytes
-           total cpu time            0.14 seconds
-           total elapsed time        1.06 seconds
-           job started at     12:13:33 04/02/2022
-           job ended   at     12:13:34 04/02/2022
+           total cpu time            0.53 seconds
+           total elapsed time        1.14 seconds
+           job started at     10:05:28 04/03/2022
+           job ended   at     10:05:30 04/03/2022
 
 
  lic: Release hspice token(s) 
