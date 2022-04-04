@@ -1,0 +1,321 @@
+Sun Apr  3 14:37:55 2022
+
+                                  ICV_Engine 
+
+          Version O-2018.06-SP1 for linux64 - Jul 23, 2018 cl#4289877
+
+                    Copyright (c) 1996 - 2018 Synopsys, Inc.
+   This software and the associated documentation are proprietary to Synopsys,
+ Inc. This software may only be used in accordance with the terms and conditions
+ of a written license agreement with Synopsys, Inc. All other use, reproduction,
+            or distribution of this software is strictly prohibited.
+
+
+
+Running Multi-Threaded code with 2 shared thread(s)
+
+Runset file ......................  ../iPDK/icv/lvs/saed32nm_1p9m_lvs_rules.rs
+Current Directory ................  /afs/asu.edu/users/j/n/e/jneuenda/425_proj/425_lab/lvs
+Hostname .........................  eecad3.eas.asu.edu
+Platform type ....................  LINUX.64
+GDSII input file name ............  /afs/asu.edu/users/j/n/e/jneuenda/425_proj/425_lab/lvs/one_bit_adder_Leg1.gdsOut
+GDSII block name .................  one_bit_adder_Leg1
+Run details ......................  /afs/asu.edu/users/j/n/e/jneuenda/425_proj/425_lab/lvs/run_details
+Group file directory .............  /afs/asu.edu/users/j/n/e/jneuenda/425_proj/425_lab/lvs/run_details/group
+Check reference structures .......  no
+
+single pass sequential reading.
+openaccess_options() at ../iPDK/icv/lvs/saed32nm_1p9m_lvs_rules.rs:71
+openaccess_options(view = "layout", layer_mapping_file = "./techfiles/saed32nm_1p9m_gdsout.map")
+
+library() at ../iPDK/icv/lvs/saed32nm_1p9m_lvs_rules.rs:78
+library(library_name = "CELLNAME.gds", format = GDSII, cell = "resistor")
+
+schematic() at ../iPDK/icv/lvs/saed32nm_1p9m_lvs_rules.rs:88
+schem_netl_fh = schematic(schematic_file = { { filename = "CELLNAME.sp", format = SPICE } })
+
+error_options() at ../iPDK/icv/lvs/saed32nm_1p9m_lvs_rules.rs:95
+error_options(db_path = "./TOPCELLNAME_err", create_vue_output = true)
+
+run_options() at ../iPDK/icv/lvs/saed32nm_1p9m_lvs_rules.rs:98
+run_options(instance_prefix = "X", uppercase = false)
+
+hierarchy_options() at ../iPDK/icv/lvs/saed32nm_1p9m_lvs_rules.rs:103
+hierarchy_options(flatten = { "*" })
+
+resolution_options() at ../iPDK/icv/lvs/saed32nm_1p9m_lvs_rules.rs:105
+resolution_options(snap_resolution = 0.001)
+
+text_options() at ../iPDK/icv/lvs/saed32nm_1p9m_lvs_rules.rs:106
+text_options(net_prefix = "N", layout_power = { "VDD", "VDD12", "VDD22", "VDD2", "VDDG", "VDDH", "VDDL", "VDDIO" }, layout_ground = { "VSS", "VSS12", "VDD22", "VSSIO" })
+
+net_options() at ../iPDK/icv/lvs/saed32nm_1p9m_lvs_rules.rs:111
+net_options(schematic_power = { "VDD", "VDD12", "VDD22", "VDD2", "VDDG", "VDDH", "VDDL", "VDDIO" }, schematic_ground = { "VSS", "VSS12", "VDD22", "VDD2", "VDDH", "VDDL", "VDDIO" }, schematic_global = { "VDD", "VDD12", "VDD22", "VSS", "VSS12", "VDD22", "VDD2", "VDDG", "VDDH", "VDDL", "VDDIO", "VSSIO" })
+
+prototype_options() at ../iPDK/icv/lvs/saed32nm_1p9m_lvs_rules.rs:116
+prototype_options(false)
+
+[Generated Command]
+drc_black_box_options()
+
+[Generated Command]
+incremental_options()
+
+[Generated Command]
+layout_drawn_options()
+
+[Generated Command]
+layout_grid_options()
+
+[Generated Command]
+layout_integrity_options()
+
+[Generated Command]
+hierarchy_auto_options()
+
+[Generated Command]
+compatibility_options()
+
+   Prescan Library Time=0:00:00  User=0.01 Sys=0.01 Mem=16.896
+
+   Scan Hierarchy Time=0:00:00  User=0.00 Sys=0.00 Mem=13.803
+
+   Read Library Time=0:00:00  User=0.00 Sys=0.01 Mem=25.066
+
+     Find Top Cell Time=0:00:00  User=0.00 Sys=0.00 Mem=21.817
+
+    Create Hierarchy Tree Phase: 0 Time=0:00:00  User=0.00 Sys=0.00 Mem=22.817
+
+  Set 1 schematic file cells to NO_EXPLODE
+Prototype Placement Pass 1
+Preprocessing group files...
+Preprocess Step 1 : Exploding
+Find duplicate placements in cells
+    Create Hierarchy Tree Phase: 1 Time=0:00:00  User=0.01 Sys=0.00 Mem=20.442
+
+     Determine Region Time=0:00:00  User=0.00 Sys=0.00 Mem=18.317
+
+     Create Layer Setup Time=0:00:00  User=0.00 Sys=0.00 Mem=18.224
+
+0 Total errors found.
+    Create Hierarchy Tree Phase: 2 Time=0:00:00  User=0.00 Sys=0.01 Mem=21.193
+
+   Create Hierarchy Tree Time=0:00:00  User=0.02 Sys=0.02 Mem=22.817
+
+Sun Apr  3 14:38:00 2022
+
+                                  ICV_Engine 
+
+          Version O-2018.06-SP1 for linux64 - Jul 23, 2018 cl#4289877
+
+                    Copyright (c) 1996 - 2018 Synopsys, Inc.
+   This software and the associated documentation are proprietary to Synopsys,
+ Inc. This software may only be used in accordance with the terms and conditions
+ of a written license agreement with Synopsys, Inc. All other use, reproduction,
+            or distribution of this software is strictly prohibited.
+
+
+
+Running Multi-Threaded code with 2 shared thread(s)
+single pass sequential reading.
+      Pairing Iteration 1 Time=0:00:00  User=0.00 Sys=0.00 Mem=16.021
+
+     Pairing Time=0:00:00  User=0.00 Sys=0.00 Mem=16.021
+
+    Combined VCELL Time=0:00:00  User=0.00 Sys=0.00 Mem=16.021
+
+Preprocess Step 11 : Post-VCell Explodes
+    Post VCell Time=0:00:00  User=0.00 Sys=0.00 Mem=15.021
+
+     Write Instance Name Time=0:00:00  User=0.00 Sys=0.00 Mem=14.959
+
+    Create Layer Setup Time=0:00:00  User=0.00 Sys=0.00 Mem=14.974
+
+    
+Hierarchy Cleanup Time=0:00:00  User=0.00 Sys=0.00 Mem=16.912
+
+   Optimize Hierarchy Tree Time=0:00:00  User=0.00 Sys=0.00 Mem=16.912
+
+Reading error hierarchy _hrchy2_part0hrchy.0001 ...
+   Elapsed Time=0:00:00  User=0.00 Sys=0.00 Mem=14.881
+
+Hierarchy Cleanup
+   Check Time=0:00:00  User=0.00 Sys=0.01 Mem=13.912
+
+Sun Apr  3 14:38:01 2022
+
+                                  ICV_Engine 
+
+          Version O-2018.06-SP1 for linux64 - Jul 23, 2018 cl#4289877
+
+                    Copyright (c) 1996 - 2018 Synopsys, Inc.
+   This software and the associated documentation are proprietary to Synopsys,
+ Inc. This software may only be used in accordance with the terms and conditions
+ of a written license agreement with Synopsys, Inc. All other use, reproduction,
+            or distribution of this software is strictly prohibited.
+
+
+
+Running Multi-Threaded code with 2 shared thread(s)
+single pass sequential reading.
+Sun Apr  3 14:38:02 2022
+
+                                  ICV_Engine 
+
+          Version O-2018.06-SP1 for linux64 - Jul 23, 2018 cl#4289877
+
+                    Copyright (c) 1996 - 2018 Synopsys, Inc.
+   This software and the associated documentation are proprietary to Synopsys,
+ Inc. This software may only be used in accordance with the terms and conditions
+ of a written license agreement with Synopsys, Inc. All other use, reproduction,
+            or distribution of this software is strictly prohibited.
+
+
+
+Running Multi-Threaded code with 2 shared thread(s)
+single pass sequential reading.
+Reading error hierarchy error._hier.0001 ...
+   Elapsed Time=0:00:00  User=0.00 Sys=0.00 Mem=12.756
+
+extract_devices() at saed32nm_1p9m_lvs_rules.rs:1267
+device_db = extract_devices(my_devices)
+Creating netlisting connect database ...
+   Check Time=0:00:00  User=0.01 Sys=0.01 Mem=20.122
+
+pex_generate_results() at saed32nm_1p9m_lvs_rules.rs:2168
+pex_generate_results(pex_matrix = pex_matrix, layout_database = mw_handle, pex_process_map_file = pex_process_handle, pex_runset_report_file = pex_report_handle, pex_lpp_map_file = pex_lpp_handle)
+  Function: pex_generate_results
+  Inputs: ptap.polygonlayer.0001, pwell.polygonlayer.0014, pwell_cont.polygonlayer.0001, ntap.polygonlayer.0001, nwnr.polygonlayer.0014, nwell_cont.polygonlayer.0001, m1.polygonlayer.0002, nsd.polygonlayer.0009, codiff.polygonlayer.0001, psd.polygonlayer.0008, nsdr.polygonlayer.0003, psdr.polygonlayer.0004, nsdv.polygonlayer.0001, psdv.polygonlayer.0001, ngatepl.polygonlayer.0001, copoly.polygonlayer.0001, pgatepl.polygonlayer.0001, ngate_12.polygonlayer.0005, ponr.polygonlayer.0006, pgate_12.polygonlayer.0003, ngate_25.polygonlayer.0003, pgate_25.polygonlayer.0003, ngate_18.polygonlayer.0003, pgate_18.polygonlayer.0003, ngate_12_lvt.polygonlayer.0003, pgate_12_lvt.polygonlayer.0003, ngate_12_hvt.polygonlayer.0003, pgate_12_hvt.polygonlayer.0003, m2.polygonlayer.0002, via1.polygonlayer.0001, m3.polygonlayer.0002, via2.polygonlayer.0001, m4.polygonlayer.0002, via3.polygonlayer.0001, m5.polygonlayer.0002, via4.polygonlayer.0001, m6.polygonlayer.0002, via5.polygonlayer.0001, m7.polygonlayer.0002, via6.polygonlayer.0001, m8.polygonlayer.0002, via7.polygonlayer.0001, m9.polygonlayer.0002, via8.polygonlayer.0001, mrdl.polygonlayer.0001, viardl.polygonlayer.0001, l_0V_BJT_BASE.polygonlayer.0003, l_0V_BJT_BASE_cont.polygonlayer.0002, l_0V_BJT_COLL.polygonlayer.0003, l_0V_BJT_COLL_cont.polygonlayer.0002, l_0V_BJT_EMIT.polygonlayer.0003, l_0V_BJT_EMIT_cont.polygonlayer.0001, l_0V_BJT_COLL_NPN.polygonlayer.0003, l_0V_BJT_COLL_cont_NPN.polygonlayer.0002, l_0V_BJT_EMIT_NPN.polygonlayer.0006, l_0V_BJT_BASE_NPN.polygonlayer.0005, l_0V_BJT_BASE_cont_NPN.polygonlayer.0002, term_3.polygonlayer.0003, term_4.polygonlayer.0003, subtie.polygonlayer.0002, psub.polygonlayer.0002, subtie_scon.polygonlayer.0001, m1pin_marker.polygonlayer.0001, m2pin_marker.polygonlayer.0001, m3pin_marker.polygonlayer.0001, m4pin_marker.polygonlayer.0001, m5pin_marker.polygonlayer.0001, m6pin_marker.polygonlayer.0001, m7pin_marker.polygonlayer.0001, m8pin_marker.polygonlayer.0001, m9pin_marker.polygonlayer.0001, pdores.polygonlayer.0005, ndores.polygonlayer.0004, ppores.polygonlayer.0004, npores.polygonlayer.0004, ppores_sblk.polygonlayer.0003, npores_sblk.polygonlayer.0003, ndiffdio.polygonlayer.0003, pdiffdio.polygonlayer.0003, body_3.polygonlayer.0003, body_4.polygonlayer.0003
+Input layer "nsdv.polygonlayer.0001" is empty.
+Input layer "psdv.polygonlayer.0001" is empty.
+Input layer "ngatepl.polygonlayer.0001" is empty.
+Input layer "pgatepl.polygonlayer.0001" is empty.
+Input layer "ngate_25.polygonlayer.0003" is empty.
+Input layer "pgate_25.polygonlayer.0003" is empty.
+Input layer "ngate_18.polygonlayer.0003" is empty.
+Input layer "pgate_18.polygonlayer.0003" is empty.
+Input layer "ngate_12_lvt.polygonlayer.0003" is empty.
+Input layer "pgate_12_lvt.polygonlayer.0003" is empty.
+Input layer "ngate_12_hvt.polygonlayer.0003" is empty.
+Input layer "pgate_12_hvt.polygonlayer.0003" is empty.
+Input layer "m3.polygonlayer.0002" is empty.
+Input layer "via2.polygonlayer.0001" is empty.
+Input layer "m4.polygonlayer.0002" is empty.
+Input layer "via3.polygonlayer.0001" is empty.
+Input layer "m5.polygonlayer.0002" is empty.
+Input layer "via4.polygonlayer.0001" is empty.
+Input layer "m6.polygonlayer.0002" is empty.
+Input layer "via5.polygonlayer.0001" is empty.
+Input layer "m7.polygonlayer.0002" is empty.
+Input layer "via6.polygonlayer.0001" is empty.
+Input layer "m8.polygonlayer.0002" is empty.
+Input layer "via7.polygonlayer.0001" is empty.
+Input layer "m9.polygonlayer.0002" is empty.
+Input layer "via8.polygonlayer.0001" is empty.
+Input layer "mrdl.polygonlayer.0001" is empty.
+Input layer "viardl.polygonlayer.0001" is empty.
+Input layer "l_0V_BJT_BASE.polygonlayer.0003" is empty.
+Input layer "l_0V_BJT_BASE_cont.polygonlayer.0002" is empty.
+Input layer "l_0V_BJT_COLL.polygonlayer.0003" is empty.
+Input layer "l_0V_BJT_COLL_cont.polygonlayer.0002" is empty.
+Input layer "l_0V_BJT_EMIT.polygonlayer.0003" is empty.
+Input layer "l_0V_BJT_EMIT_cont.polygonlayer.0001" is empty.
+Input layer "l_0V_BJT_COLL_NPN.polygonlayer.0003" is empty.
+Input layer "l_0V_BJT_COLL_cont_NPN.polygonlayer.0002" is empty.
+Input layer "l_0V_BJT_EMIT_NPN.polygonlayer.0006" is empty.
+Input layer "l_0V_BJT_BASE_NPN.polygonlayer.0005" is empty.
+Input layer "l_0V_BJT_BASE_cont_NPN.polygonlayer.0002" is empty.
+Input layer "term_3.polygonlayer.0003" is empty.
+Input layer "term_4.polygonlayer.0003" is empty.
+Input layer "m2pin_marker.polygonlayer.0001" is empty.
+Input layer "m3pin_marker.polygonlayer.0001" is empty.
+Input layer "m4pin_marker.polygonlayer.0001" is empty.
+Input layer "m5pin_marker.polygonlayer.0001" is empty.
+Input layer "m6pin_marker.polygonlayer.0001" is empty.
+Input layer "m7pin_marker.polygonlayer.0001" is empty.
+Input layer "m8pin_marker.polygonlayer.0001" is empty.
+Input layer "m9pin_marker.polygonlayer.0001" is empty.
+Input layer "pdores.polygonlayer.0005" is empty.
+Input layer "ndores.polygonlayer.0004" is empty.
+Input layer "ppores.polygonlayer.0004" is empty.
+Input layer "npores.polygonlayer.0004" is empty.
+Input layer "ppores_sblk.polygonlayer.0003" is empty.
+Input layer "npores_sblk.polygonlayer.0003" is empty.
+Input layer "ndiffdio.polygonlayer.0003" is empty.
+Input layer "pdiffdio.polygonlayer.0003" is empty.
+Input layer "body_3.polygonlayer.0003" is empty.
+Input layer "body_4.polygonlayer.0003" is empty.
+Using default technology file "hx2mw.tf" to create extract view library
+Start to load technology file hx2mw.tf.
+Technology file hx2mw.tf has been loaded successfully.
+Set "n105" cell flag to Standard Cell
+Set "p105" cell flag to Standard Cell
+Set "one_bit_adder_Leg1" cell flag to Standard Cell
+========== Cache Usage Status ==========
+Initial cache size:              16384K bytes
+Largest cache size:              18432K bytes
+Current cache size:              16384K bytes
+
+Largest number of cache blocks:     3
+Current number of cache blocks:     1
+Current number of cache pages:   4096
+========================================
+
+
+Milkyway db session terminated successfully!
+
+
+ Milkyway memory usage: 176.164M
+   Check Time=0:00:17  User=0.12 Sys=0.15 Mem=206.095
+
+netlist() at saed32nm_1p9m_lvs_rules.rs:1268
+layout_netl_fh = netlist(device_db)
+
+Generating micron-based NDB ...
+
+
+
+                                  ICV_Netlist 
+
+          Version O-2018.06-SP1 for linux64 - Jul 23, 2018 cl#4289877
+
+                    Copyright (c) 1996 - 2018 Synopsys, Inc.
+   This software and the associated documentation are proprietary to Synopsys,
+ Inc. This software may only be used in accordance with the terms and conditions
+ of a written license agreement with Synopsys, Inc. All other use, reproduction,
+            or distribution of this software is strictly prohibited.
+
+ Netlisting Time=0:00:00  User=0.01 Sys=0.03 Mem=5.179
+
+   Check Time=0:00:01  User=0.00 Sys=0.00 Mem=15.943
+
+compare() at saed32nm_1p9m_lvs_rules.rs:1415
+xref_db_h = compare(state = compare_settings, schematic = schem_netl_fh, layout = layout_netl_fh, user_functions_file = ICV_RUN_FILE_DIR1 + "/Include/functions.rs", memory_array_compare = (DECK_TYPE == "PEX_DECK") ? (false) : (true), write_equiv_netlists = ALL, action_on_error = EXPLODE, remove_dangling_net = LAYOUT_UNTEXTED, multiply_width = false, push_down_pins = false)
+Comparing schematic and layout netlists.
+   Check Time=0:00:11  User=0.01 Sys=0.01 Mem=17.990
+
+write_xref_spice() at saed32nm_1p9m_lvs_rules.rs:1433
+write_xref_spice(device_db, xref_db = xref_db_h, output_file = spice_netlist_fh)
+
+ Generating SPICE file "block".
+
+
+                                  ICV_Netlist 
+
+          Version O-2018.06-SP1 for linux64 - Jul 23, 2018 cl#4289877
+
+                    Copyright (c) 1996 - 2018 Synopsys, Inc.
+   This software and the associated documentation are proprietary to Synopsys,
+ Inc. This software may only be used in accordance with the terms and conditions
+ of a written license agreement with Synopsys, Inc. All other use, reproduction,
+            or distribution of this software is strictly prohibited.
+
+ Netlisting Time=0:00:01  User=0.02 Sys=0.02 Mem=5.202
+
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=15.943
+
+Reading error hierarchy error._hier.0001 ...
+ Elapsed Time=0:00:00  User=0.00 Sys=0.00 Mem=15.928
+
+  File Cleanup Time=0:00:00  User=0.00 Sys=0.00 Mem=16.927
+

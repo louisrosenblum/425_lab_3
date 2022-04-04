@@ -1,0 +1,126 @@
+* XREF SPICE	Sun Apr  3 22:08:51 2022	one_bit_adder_Leg4
+* icv_netlist Version RHEL64 O-2018.06-SP1.4289877 2018/07/23
+
+* Top of hierarchy  cell=one_bit_adder_Leg4
+.subckt one_bit_adder_Leg4 Cin A B Sum Cout gnd! vdd!
+M_MM8 net23 A gnd! gnd! n105  l=3e-08 w=2.1e-07 nf=1 m=1 ad=2.079e-14 as=1.281e-14
++	 ps=3.32e-07 pd=6.18e-07 SCC=0.00502309 SCA=37.3901 SCB=0.0330274 nrd=0.471429
++	 nrs=0.290476
+M_MM9 net23 B gnd! gnd! n105  l=3e-08 w=2.1e-07 nf=1 m=1 ad=2.079e-14 as=1.281e-14
++	 ps=3.32e-07 pd=6.18e-07 SCC=0.00500812 SCA=36.5733 SCB=0.0317232 nrd=0.471429
++	 nrs=0.290476
+M_MM7 net15 Cin net23 gnd! n105  l=3e-08 w=4.2e-07 nf=1 m=1 ad=4.074e-14 as=2.562e-14
++	 ps=5.42e-07 pd=1.034e-06 SCC=0.00933257 SCA=82.6629 SCB=0.0334756 nrd=0.230952
++	 nrs=0.145238
+M_MM1 net15 A net32 gnd! n105  l=3e-08 w=4.2e-07 nf=1 m=1 ad=2.562e-14 as=2.562e-14
++	 ps=5.42e-07 pd=5.42e-07 SCC=0.00933203 SCA=82.327 SCB=0.0331754 nrd=0.145238
++	 nrs=0.145238
+M_MM6 net32 B gnd! gnd! n105  l=3e-08 w=4.2e-07 nf=1 m=1 ad=2.562e-14 as=4.284e-14
++	 ps=1.044e-06 pd=5.42e-07 SCC=0.00933185 SCA=82.0643 SCB=0.0329958 nrd=0.145238
++	 nrs=0.242857
+M_MM11 Cout net15 gnd! gnd! n105  l=3e-08 w=4.2e-07 nf=1 m=1 ad=4.242e-14 as=4.242e-14
++	 ps=1.042e-06 pd=1.042e-06 SCC=0.00933178 SCA=81.6856 SCB=0.0328262 nrd=0.240476
++	 nrs=0.240476
+M_MM17 net033 A gnd! gnd! n105  l=3e-08 w=2.18e-07 nf=1 m=1 ad=2.18e-14 as=1.3298e-14
++	 ps=3.4e-07 pd=6.36e-07 SCC=0.00513444 SCA=34.1361 SCB=0.029869 nrd=0.458716
++	 nrs=0.279817
+M_MM18 net033 B gnd! gnd! n105  l=3e-08 w=2.18e-07 nf=1 m=1 ad=1.3298e-14 as=1.3298e-14
++	 ps=3.4e-07 pd=3.4e-07 SCC=0.00513444 SCA=34.1361 SCB=0.029869 nrd=0.279817
++	 nrs=0.279817
+M_MM19 net033 Cin gnd! gnd! n105  l=3e-08 w=2.18e-07 nf=1 m=1 ad=1.3298e-14 as=2.2236e-14
++	 ps=6.4e-07 pd=3.4e-07 SCC=0.00513444 SCA=34.1361 SCB=0.029869 nrd=0.279817
++	 nrs=0.46789
+M_ld_M10 net017 net15 net033 gnd! n105  l=3e-08 w=3.27e-07 nf=1 m=1 ad=3.3354e-14 as=1.9947e-14
++	 ps=4.49e-07 pd=8.58e-07 SCC=0.00726419 SCA=49.1826 SCB=0.0320343 nrd=0.311927
++	 nrs=0.186544
+M_ld_M11 net017 net15 net033 gnd! n105  l=3e-08 w=3.27e-07 nf=1 m=1 ad=3.3354e-14 as=1.9947e-14
++	 ps=4.49e-07 pd=8.58e-07 SCC=0.00726419 SCA=49.1826 SCB=0.0320343 nrd=0.311927
++	 nrs=0.186544
+M_ld_M12 net058 B gnd! gnd! n105  l=3e-08 w=4.89e-07 nf=1 m=1 ad=4.9878e-14 as=2.9829e-14
++	 ps=6.11e-07 pd=1.182e-06 SCC=0.0105348 SCA=156.196 SCB=0.0320121 nrd=0.208589
++	 nrs=0.124744
+M_ld_M13 net058 B gnd! gnd! n105  l=3e-08 w=4.89e-07 nf=1 m=1 ad=2.9829e-14 as=2.9829e-14
++	 ps=6.11e-07 pd=6.11e-07 SCC=0.0105348 SCA=156.196 SCB=0.0320121 nrd=0.124744
++	 nrs=0.124744
+M_ld_M14 net059 A net058 gnd! n105  l=3e-08 w=4.89e-07 nf=1 m=1 ad=2.9829e-14 as=2.9829e-14
++	 ps=6.11e-07 pd=6.11e-07 SCC=0.0105348 SCA=157.222 SCB=0.0320631 nrd=0.124744
++	 nrs=0.124744
+M_ld_M15 net059 A net058 gnd! n105  l=3e-08 w=4.89e-07 nf=1 m=1 ad=4.8411e-14 as=2.9829e-14
++	 ps=6.11e-07 pd=1.176e-06 SCC=0.0105348 SCA=157.362 SCB=0.0321 nrd=0.202454
++	 nrs=0.124744
+M_ld_M16 net017 Cin net059 gnd! n105  l=3e-08 w=4.89e-07 nf=1 m=1 ad=2.9829e-14 as=4.9878e-14
++	 ps=1.182e-06 pd=6.11e-07 SCC=0.0105349 SCA=157.74 SCB=0.0322696 nrd=0.124744
++	 nrs=0.208589
+M_ld_M17 net017 Cin net059 gnd! n105  l=3e-08 w=4.89e-07 nf=1 m=1 ad=2.9829e-14 as=4.9389e-14
++	 ps=1.18e-06 pd=6.11e-07 SCC=0.010535 SCA=158.003 SCB=0.0324492 nrd=0.124744
++	 nrs=0.206544
+M_ld_M18 Sum net017 gnd! gnd! n105  l=3e-08 w=3.38e-07 nf=1 m=1 ad=3.4476e-14 as=2.0618e-14
++	 ps=4.6e-07 pd=8.8e-07 SCC=0.00750833 SCA=54.1048 SCB=0.0334226 nrd=0.301775
++	 nrs=0.180473
+M_ld_M19 Sum net017 gnd! gnd! n105  l=3e-08 w=3.38e-07 nf=1 m=1 ad=2.0618e-14 as=2.0618e-14
++	 ps=4.6e-07 pd=4.6e-07 SCC=0.00751334 SCA=54.6941 SCB=0.0342335 nrd=0.180473
++	 nrs=0.180473
+M_ld_M20 Sum net017 gnd! gnd! n105  l=3e-08 w=3.38e-07 nf=1 m=1 ad=2.0618e-14 as=3.4476e-14
++	 ps=8.8e-07 pd=4.6e-07 SCC=0.0075283 SCA=55.5109 SCB=0.0355376 nrd=0.180473
++	 nrs=0.301775
+M_MM0 net11 A vdd! vdd! p105  l=3e-08 w=2.52e-07 nf=1 m=1 ad=2.4444e-14 as=1.5372e-14
++	 ps=3.74e-07 pd=6.98e-07 SCC=0.0245225 SCA=171.872 SCB=0.0950327 nrd=0.384921
++	 nrs=0.242063
+M_MM2 net11 B vdd! vdd! p105  l=3e-08 w=2.52e-07 nf=1 m=1 ad=2.4948e-14 as=1.5372e-14
++	 ps=3.74e-07 pd=7.02e-07 SCC=0.0174826 SCA=111.449 SCB=0.0903717 nrd=0.392857
++	 nrs=0.242063
+M_MM5 net15 Cin net11 vdd! p105  l=3e-08 w=5.04e-07 nf=1 m=1 ad=4.6368e-14 as=3.0744e-14
++	 ps=6.26e-07 pd=1.192e-06 SCC=0.00884699 SCA=80.451 SCB=0.0551204 nrd=0.18254
++	 nrs=0.121032
+M_MM4 net15 A net33 vdd! p105  l=3e-08 w=5.04e-07 nf=1 m=1 ad=3.0744e-14 as=3.0744e-14
++	 ps=6.26e-07 pd=6.26e-07 SCC=0.00821743 SCA=76.43 SCB=0.0494715 nrd=0.121032
++	 nrs=0.121032
+M_MM3 net33 B vdd! vdd! p105  l=3e-08 w=5.04e-07 nf=1 m=1 ad=3.0744e-14 as=5.1408e-14
++	 ps=1.212e-06 pd=6.26e-07 SCC=0.00798674 SCA=74.0809 SCB=0.0455073 nrd=0.121032
++	 nrs=0.202381
+M_MM10 Cout net15 vdd! vdd! p105  l=3e-08 w=5.04e-07 nf=1 m=1 ad=5.0904e-14 as=5.0904e-14
++	 ps=1.21e-06 pd=1.21e-06 SCC=0.0124788 SCA=97.9533 SCB=0.059766 nrd=0.200397
++	 nrs=0.200397
+M_MM12 net19 A vdd! vdd! p105  l=3e-08 w=5.22e-07 nf=1 m=1 ad=5.22e-14 as=3.1842e-14
++	 ps=6.44e-07 pd=1.244e-06 SCC=0.012726 SCA=106.324 SCB=0.0575888 nrd=0.191571
++	 nrs=0.116858
+M_MM13 net19 B vdd! vdd! p105  l=3e-08 w=5.22e-07 nf=1 m=1 ad=3.1842e-14 as=3.1842e-14
++	 ps=6.44e-07 pd=6.44e-07 SCC=0.012725 SCA=105.933 SCB=0.0571866 nrd=0.116858
++	 nrs=0.116858
+M_MM14 net19 Cin vdd! vdd! p105  l=3e-08 w=5.22e-07 nf=1 m=1 ad=3.1842e-14 as=5.3244e-14
++	 ps=1.248e-06 pd=6.44e-07 SCC=0.0127246 SCA=105.631 SCB=0.0569445 nrd=0.116858
++	 nrs=0.195402
+M_ld_M30 net017 net15 net19 vdd! p105  l=3e-08 w=3.92e-07 nf=1 m=1 ad=3.9984e-14 as=2.3912e-14
++	 ps=5.14e-07 pd=9.88e-07 SCC=0.0112841 SCA=76.876 SCB=0.0584347 nrd=0.260204
++	 nrs=0.155612
+M_ld_M31 net017 net15 net19 vdd! p105  l=3e-08 w=3.92e-07 nf=1 m=1 ad=3.9984e-14 as=2.3912e-14
++	 ps=5.14e-07 pd=9.88e-07 SCC=0.0112841 SCA=76.9114 SCB=0.0584699 nrd=0.260204
++	 nrs=0.155612
+M_ld_M32 net061 B vdd! vdd! p105  l=3e-08 w=5.87e-07 nf=1 m=1 ad=5.9874e-14 as=3.5807e-14
++	 ps=7.09e-07 pd=1.378e-06 SCC=0.0133122 SCA=163.582 SCB=0.0554512 nrd=0.173765
++	 nrs=0.103918
+M_ld_M33 net061 B vdd! vdd! p105  l=3e-08 w=5.87e-07 nf=1 m=1 ad=3.5807e-14 as=3.5807e-14
++	 ps=7.09e-07 pd=7.09e-07 SCC=0.0133132 SCA=163.973 SCB=0.0558534 nrd=0.103918
++	 nrs=0.103918
+M_ld_M34 net060 A net061 vdd! p105  l=3e-08 w=5.87e-07 nf=1 m=1 ad=3.5807e-14 as=3.5807e-14
++	 ps=7.09e-07 pd=7.09e-07 SCC=0.0133164 SCA=164.492 SCB=0.056514 nrd=0.103918
++	 nrs=0.103918
+M_ld_M35 net060 A net061 vdd! p105  l=3e-08 w=5.87e-07 nf=1 m=1 ad=5.8113e-14 as=3.5807e-14
++	 ps=7.09e-07 pd=1.372e-06 SCC=0.0133258 SCA=165.201 SCB=0.0575839 nrd=0.168654
++	 nrs=0.103918
+M_ld_M36 net017 Cin net060 vdd! p105  l=3e-08 w=5.87e-07 nf=1 m=1 ad=3.5807e-14 as=5.9874e-14
++	 ps=1.378e-06 pd=7.09e-07 SCC=0.0134353 SCA=167.696 SCB=0.0619279 nrd=0.103918
++	 nrs=0.173765
+M_ld_M37 net017 Cin net060 vdd! p105  l=3e-08 w=5.87e-07 nf=1 m=1 ad=3.5807e-14 as=5.9287e-14
++	 ps=1.376e-06 pd=7.09e-07 SCC=0.013666 SCA=170.045 SCB=0.0658921 nrd=0.103918
++	 nrs=0.172061
+M_ld_M38 Sum net017 vdd! vdd! p105  l=3e-08 w=4.05e-07 nf=1 m=1 ad=4.131e-14 as=2.4705e-14
++	 ps=5.27e-07 pd=1.014e-06 SCC=0.0139971 SCA=95.7391 SCB=0.0821817 nrd=0.251852
++	 nrs=0.150617
+M_ld_M39 Sum net017 vdd! vdd! p105  l=3e-08 w=4.05e-07 nf=1 m=1 ad=2.4705e-14 as=2.4705e-14
++	 ps=5.27e-07 pd=5.27e-07 SCC=0.0177768 SCA=113.852 SCB=0.090226 nrd=0.150617
++	 nrs=0.150617
+M_ld_M40 Sum net017 vdd! vdd! p105  l=3e-08 w=4.05e-07 nf=1 m=1 ad=2.4705e-14 as=4.131e-14
++	 ps=1.014e-06 pd=5.27e-07 SCC=0.0248167 SCA=174.276 SCB=0.094887 nrd=0.150617
++	 nrs=0.251852
+.ends one_bit_adder_Leg4

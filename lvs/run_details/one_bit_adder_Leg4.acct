@@ -1,0 +1,8 @@
+one_bit_adder_Leg4
+	Cell Level Device Counts
+		NMOS[n105] = 20
+		PMOS[p105] = 20
+
+********  DEVICE EXTRACTION STATS    TOPBLOCK = one_bit_adder_Leg4  *******
+		NMOS[n105] = 20
+		PMOS[p105] = 20

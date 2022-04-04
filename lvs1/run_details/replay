@@ -1,0 +1,926 @@
+#
+# runset is ../iPDK/icv/lvs/saed32nm_1p9m_lvs_rules.rs
+#
+runset_csum = 35950
+num_hosts = 2
+events {
+S 504.0.0.506.0.0 1977 1
+# eecad3.eas.asu.edu(1):       987  1 _nettran_sch
+S 509.0.0 1991 0
+# eecad3.eas.asu.edu(0):       696  1 _prescan_library
+F 509.0.0 1991 0
+S 511.0.0 1997 0
+# eecad3.eas.asu.edu(0):       691  1 _scan_hierarchy
+F 511.0.0 1997 0
+S 513.0.0 2001 0
+# eecad3.eas.asu.edu(0):      8171  1 _read_library_segment
+F 513.0.0 2001 0
+S 515.0.0 2008 0
+# eecad3.eas.asu.edu(0):      4852  1 _create_hierarchy_tree
+F 515.0.0 2008 0
+F 504.0.0.506.0.0 1977 1
+F 0 0 0
+F 0 0 1
+S 578.0.0 2220 0
+# eecad3.eas.asu.edu(0):      1297  1 _optimize_hierarchy_tree
+S 577.0.0 2217 1
+# eecad3.eas.asu.edu(1):       730  1 _generate_sibling_refref
+F 577.0.0 2217 1
+S 683.0.0 2542 1
+# eecad3.eas.asu.edu(1):      3437  1 _create_layer_dp
+F 683.0.0 2542 1
+S 669.0.0 2501 1
+# eecad3.eas.asu.edu(1):      3393  1 _create_layer_dp
+F 669.0.0 2501 1
+S 625.0.0 2380 1
+# eecad3.eas.asu.edu(1):      3396  1 _create_layer_dp
+F 625.0.0 2380 1
+S 620.0.0 2363 1
+# eecad3.eas.asu.edu(1):      3404  1 _create_layer_dp
+F 620.0.0 2363 1
+S 615.0.0 2346 1
+# eecad3.eas.asu.edu(1):      3396  1 _create_layer_dp
+F 615.0.0 2346 1
+S 610.0.0 2329 1
+# eecad3.eas.asu.edu(1):      3396  1 _create_layer_dp
+F 610.0.0 2329 1
+S 599.0.0 2296 1
+# eecad3.eas.asu.edu(1):      3402  1 _create_layer_dp
+F 599.0.0 2296 1
+S 594.0.0 2279 1
+# eecad3.eas.asu.edu(1):      3402  1 _create_layer_dp
+F 594.0.0 2279 1
+S 589.0.0 2262 1
+# eecad3.eas.asu.edu(1):      3402  1 _create_layer_dp
+F 589.0.0 2262 1
+S 584.0.0 2239 1
+# eecad3.eas.asu.edu(1):      3406  1 _create_layer_dp
+F 584.0.0 2239 1
+S 2839.0.0.2847.0.0 11723 1
+# eecad3.eas.asu.edu(1):      6722  2 _translate_database_to_netlist_remote
+F 578.0.0 2220 0
+S 580.0.0 2230 0
+# eecad3.eas.asu.edu(0):       893  1 _hierarchy_cleanup
+F 2839.0.0.2847.0.0 11723 1
+S 684.0.0 2547 1
+# eecad3.eas.asu.edu(1):      3442  1 _optimize_layer_dp
+F 684.0.0 2547 1
+S 671.0.0 2508 1
+# eecad3.eas.asu.edu(1):      3398  1 _optimize_layer_dp
+F 671.0.0 2508 1
+S 627.0.0 2387 1
+# eecad3.eas.asu.edu(1):      3401  1 _optimize_layer_dp
+F 627.0.0 2387 1
+S 622.0.0 2370 1
+# eecad3.eas.asu.edu(1):      3409  1 _optimize_layer_dp
+F 622.0.0 2370 1
+S 617.0.0 2353 1
+# eecad3.eas.asu.edu(1):      3401  1 _optimize_layer_dp
+F 617.0.0 2353 1
+S 612.0.0 2336 1
+# eecad3.eas.asu.edu(1):      3401  1 _optimize_layer_dp
+F 612.0.0 2336 1
+S 601.0.0 2303 1
+# eecad3.eas.asu.edu(1):      3407  1 _optimize_layer_dp
+F 601.0.0 2303 1
+S 596.0.0 2286 1
+# eecad3.eas.asu.edu(1):      3407  1 _optimize_layer_dp
+F 596.0.0 2286 1
+S 591.0.0 2269 1
+# eecad3.eas.asu.edu(1):      3407  1 _optimize_layer_dp
+F 591.0.0 2269 1
+S 586.0.0 2251 1
+# eecad3.eas.asu.edu(1):      3411  1 _optimize_layer_dp
+F 586.0.0 2251 1
+S 2773.0.0 11450 1
+# eecad3.eas.asu.edu(1):      1698  2 _dev_update_vue_file
+F 580.0.0 2230 0
+F 2773.0.0 11450 1
+S 581.0.0 2233 1
+# eecad3.eas.asu.edu(1):       986  1 _update_and_pushdown_refref
+F 581.0.0 2233 1
+S 2300.0.0 9792 1
+# eecad3.eas.asu.edu(1):      1577  1 _cell_extent
+F 2300.0.0 9792 1
+S 1144.0.0 3662 1
+# eecad3.eas.asu.edu(1):      1888  1 _text_polygon
+F 1144.0.0 3662 1
+S 1028.0.0 3397 1
+# eecad3.eas.asu.edu(1):       881  1 _buildsub
+F 1028.0.0 3397 1
+S 1067.0.0 3501 1
+# eecad3.eas.asu.edu(1):      1209  1 _copy
+F 1067.0.0 3501 1
+S 899.0.0 3073 1
+# eecad3.eas.asu.edu(1):      1567  1 _tag_violation
+F 899.0.0 3073 1
+S 897.0.0 3068 1
+# eecad3.eas.asu.edu(1):      1567  1 _tag_violation
+F 897.0.0 3068 1
+S 895.0.0 3063 1
+# eecad3.eas.asu.edu(1):      1567  1 _tag_violation
+F 895.0.0 3063 1
+S 893.0.0 3058 1
+# eecad3.eas.asu.edu(1):      1567  1 _tag_violation
+F 893.0.0 3058 1
+S 891.0.0 3053 1
+# eecad3.eas.asu.edu(1):      1566  1 _tag_violation
+F 891.0.0 3053 1
+S 845.0.0 2909 1
+# eecad3.eas.asu.edu(1):      1020  1 _cell_extent
+F 845.0.0 2909 1
+S 847.0.0 2915 1
+# eecad3.eas.asu.edu(1):      2158  1 _size
+F 847.0.0 2915 1
+S 791.0.0 2800 1
+# eecad3.eas.asu.edu(1):       944  1 _copy
+F 791.0.0 2800 1
+S 789.0.0 2795 1
+# eecad3.eas.asu.edu(1):       936  1 _copy
+F 789.0.0 2795 1
+S 773.0.0 2762 1
+# eecad3.eas.asu.edu(1):       936  1 _copy
+F 773.0.0 2762 1
+S 945.0.0 3200 1
+# eecad3.eas.asu.edu(1):      1192  1 _copy
+F 945.0.0 3200 1
+S 771.0.0 2757 1
+# eecad3.eas.asu.edu(1):       936  1 _copy
+F 771.0.0 2757 1
+S 943.0.0 3195 1
+# eecad3.eas.asu.edu(1):      1192  1 _copy
+F 943.0.0 3195 1
+S 769.0.0 2752 1
+# eecad3.eas.asu.edu(1):       936  1 _copy
+F 769.0.0 2752 1
+S 1013.0.0 3359 1
+# eecad3.eas.asu.edu(1):      1114  1 _copy
+F 1013.0.0 3359 1
+S 868.0.0 2991 1
+# eecad3.eas.asu.edu(1):      1200  1 _copy
+F 868.0.0 2991 1
+S 761.0.0 2735 1
+# eecad3.eas.asu.edu(1):       944  1 _copy
+F 761.0.0 2735 1
+S 759.0.0 2730 1
+# eecad3.eas.asu.edu(1):       944  1 _copy
+F 759.0.0 2730 1
+S 757.0.0 2725 1
+# eecad3.eas.asu.edu(1):       944  1 _copy
+F 757.0.0 2725 1
+S 1031.0.0 3405 1
+# eecad3.eas.asu.edu(1):      1165  1 _boolean_not_q
+F 1031.0.0 3405 1
+S 1033.0.0 3411 1
+# eecad3.eas.asu.edu(1):      1205  1 _copy
+F 1033.0.0 3411 1
+S 1037.0.0 3420 1
+# eecad3.eas.asu.edu(1):      1219  1 _copy
+F 1037.0.0 3420 1
+S 1039.0.0 3425 1
+# eecad3.eas.asu.edu(1):      1204  1 _copy
+F 1039.0.0 3425 1
+S 1041.0.0 3430 1
+# eecad3.eas.asu.edu(1):      1206  1 _copy
+F 1041.0.0 3430 1
+S 934.0.0 3167 1
+# eecad3.eas.asu.edu(1):      1169  1 _boolean_not_q
+F 934.0.0 3167 1
+S 755.0.0 2720 1
+# eecad3.eas.asu.edu(1):       948  1 _copy
+F 755.0.0 2720 1
+S 850.0.0 2924 1
+# eecad3.eas.asu.edu(1):      1173  1 _boolean_not_q
+F 850.0.0 2924 1
+S 2206.0.0 9117 1
+# eecad3.eas.asu.edu(1):       689  1 _exploded_bulk_layer_in_via_cell
+F 2206.0.0 9117 1
+S 854.0.0 2934 1
+# eecad3.eas.asu.edu(1):      2554  1 _copy
+F 854.0.0 2934 1
+S 1052.0.0 3467 1
+# eecad3.eas.asu.edu(1):      2484  1 _level_one_q
+F 1052.0.0 3467 1
+S 1053.0.0 3471 1
+# eecad3.eas.asu.edu(1):      1609  1 _select_donut_hole
+F 1053.0.0 3471 1
+S 1057.0.0 3480 1
+# eecad3.eas.asu.edu(1):      1141  1 _copy
+F 1057.0.0 3480 1
+S 582.0.0 2235 1
+# eecad3.eas.asu.edu(1):       762  1 _create_substrate_layer
+F 582.0.0 2235 1
+S 1163.0.0 3701 1
+# eecad3.eas.asu.edu(1):      1214  1 _empty_layer
+F 1163.0.0 3701 1
+S 1160.0.0 3695 1
+# eecad3.eas.asu.edu(1):      1460  1 _empty_layer
+F 1160.0.0 3695 1
+S 1158.0.0 3691 1
+# eecad3.eas.asu.edu(1):      1460  1 _empty_layer
+F 1158.0.0 3691 1
+S 1156.0.0 3687 1
+# eecad3.eas.asu.edu(1):      1460  1 _empty_layer
+F 1156.0.0 3687 1
+S 1154.0.0 3683 1
+# eecad3.eas.asu.edu(1):      1460  1 _empty_layer
+F 1154.0.0 3683 1
+S 1152.0.0 3679 1
+# eecad3.eas.asu.edu(1):      1460  1 _empty_layer
+F 1152.0.0 3679 1
+S 1150.0.0 3675 1
+# eecad3.eas.asu.edu(1):      1460  1 _empty_layer
+F 1150.0.0 3675 1
+S 1148.0.0 3671 1
+# eecad3.eas.asu.edu(1):      1460  1 _empty_layer
+F 1148.0.0 3671 1
+S 1146.0.0 3667 1
+# eecad3.eas.asu.edu(1):      1460  1 _empty_layer
+F 1146.0.0 3667 1
+S 1133.0.0 3634 1
+# eecad3.eas.asu.edu(1):       858  1 _empty_layer
+F 1133.0.0 3634 1
+S 1131.0.0 3630 1
+# eecad3.eas.asu.edu(1):       858  1 _empty_layer
+F 1131.0.0 3630 1
+S 1129.0.0 3626 1
+# eecad3.eas.asu.edu(1):      2021  1 _empty_layer
+F 1129.0.0 3626 1
+S 1127.0.0 3622 1
+# eecad3.eas.asu.edu(1):      2021  1 _empty_layer
+F 1127.0.0 3622 1
+S 1125.0.0 3618 1
+# eecad3.eas.asu.edu(1):      1137  1 _empty_layer
+F 1125.0.0 3618 1
+S 1123.0.0 3614 1
+# eecad3.eas.asu.edu(1):      1137  1 _empty_layer
+F 1123.0.0 3614 1
+S 1121.0.0 3610 1
+# eecad3.eas.asu.edu(1):       911  1 _empty_layer
+F 1121.0.0 3610 1
+S 1119.0.0 3606 1
+# eecad3.eas.asu.edu(1):      1199  1 _empty_layer
+F 1119.0.0 3606 1
+S 1117.0.0 3602 1
+# eecad3.eas.asu.edu(1):      1199  1 _empty_layer
+F 1117.0.0 3602 1
+S 1115.0.0 3598 1
+# eecad3.eas.asu.edu(1):      1199  1 _empty_layer
+F 1115.0.0 3598 1
+S 1113.0.0 3594 1
+# eecad3.eas.asu.edu(1):      1178  1 _empty_layer
+F 1113.0.0 3594 1
+S 1111.0.0 3590 1
+# eecad3.eas.asu.edu(1):      1187  1 _empty_layer
+F 1111.0.0 3590 1
+S 1109.0.0 3586 1
+# eecad3.eas.asu.edu(1):      1187  1 _empty_layer
+F 1109.0.0 3586 1
+S 1107.0.0 3582 1
+# eecad3.eas.asu.edu(1):      1187  1 _empty_layer
+F 1107.0.0 3582 1
+S 1105.0.0 3578 1
+# eecad3.eas.asu.edu(1):       899  1 _empty_layer
+F 1105.0.0 3578 1
+S 1103.0.0 3574 1
+# eecad3.eas.asu.edu(1):      1222  1 _empty_layer
+F 1103.0.0 3574 1
+S 1101.0.0 3570 1
+# eecad3.eas.asu.edu(1):       934  1 _empty_layer
+F 1101.0.0 3570 1
+S 1099.0.0 3566 1
+# eecad3.eas.asu.edu(1):      1222  1 _empty_layer
+F 1099.0.0 3566 1
+S 1097.0.0 3562 1
+# eecad3.eas.asu.edu(1):       934  1 _empty_layer
+F 1097.0.0 3562 1
+S 1095.0.0 3558 1
+# eecad3.eas.asu.edu(1):      1218  1 _empty_layer
+F 1095.0.0 3558 1
+S 1093.0.0 3554 1
+# eecad3.eas.asu.edu(1):       930  1 _empty_layer
+F 1093.0.0 3554 1
+S 1091.0.0 3550 1
+# eecad3.eas.asu.edu(1):       930  1 _empty_layer
+F 1091.0.0 3550 1
+S 1089.0.0 3546 1
+# eecad3.eas.asu.edu(1):      2248  1 _empty_layer
+F 1089.0.0 3546 1
+S 1087.0.0 3542 1
+# eecad3.eas.asu.edu(1):      2075  1 _empty_layer
+F 1087.0.0 3542 1
+S 1085.0.0 3538 1
+# eecad3.eas.asu.edu(1):       908  1 _empty_layer
+F 1085.0.0 3538 1
+S 1083.0.0 3534 1
+# eecad3.eas.asu.edu(1):      1172  1 _empty_layer
+F 1083.0.0 3534 1
+S 1081.0.0 3530 1
+# eecad3.eas.asu.edu(1):      2241  1 _empty_layer
+F 1081.0.0 3530 1
+S 1079.0.0 3526 1
+# eecad3.eas.asu.edu(1):      2241  1 _empty_layer
+F 1079.0.0 3526 1
+S 1077.0.0 3522 1
+# eecad3.eas.asu.edu(1):       903  1 _empty_layer
+F 1077.0.0 3522 1
+S 1075.0.0 3518 1
+# eecad3.eas.asu.edu(1):      1155  1 _empty_layer
+F 1075.0.0 3518 1
+S 1073.0.0 3514 1
+# eecad3.eas.asu.edu(1):       901  1 _empty_layer
+F 1073.0.0 3514 1
+S 1071.0.0 3510 1
+# eecad3.eas.asu.edu(1):       806  1 _empty_layer
+F 1071.0.0 3510 1
+S 1069.0.0 3506 1
+# eecad3.eas.asu.edu(1):      1155  1 _empty_layer
+F 1069.0.0 3506 1
+S 1065.0.0 3497 1
+# eecad3.eas.asu.edu(1):      1160  1 _empty_layer
+F 1065.0.0 3497 1
+S 1063.0.0 3493 1
+# eecad3.eas.asu.edu(1):      1152  1 _empty_layer
+F 1063.0.0 3493 1
+S 1061.0.0 3489 1
+# eecad3.eas.asu.edu(1):      2221  1 _empty_layer
+F 1061.0.0 3489 1
+S 1059.0.0 3485 1
+# eecad3.eas.asu.edu(1):      2032  1 _empty_layer
+F 1059.0.0 3485 1
+S 1055.0.0 3476 1
+# eecad3.eas.asu.edu(1):      1257  1 _empty_layer
+F 1055.0.0 3476 1
+S 1049.0.0 3461 1
+# eecad3.eas.asu.edu(1):      1144  1 _empty_layer
+F 1049.0.0 3461 1
+S 1035.0.0 3416 1
+# eecad3.eas.asu.edu(1):       773  1 _empty_layer
+F 1035.0.0 3416 1
+S 1026.0.0 3393 1
+# eecad3.eas.asu.edu(1):      1150  1 _empty_layer
+F 1026.0.0 3393 1
+S 1024.0.0 3389 1
+# eecad3.eas.asu.edu(1):      1149  1 _empty_layer
+F 1024.0.0 3389 1
+S 1022.0.0 3385 1
+# eecad3.eas.asu.edu(1):      1150  1 _empty_layer
+F 1022.0.0 3385 1
+S 1020.0.0 3381 1
+# eecad3.eas.asu.edu(1):      1149  1 _empty_layer
+F 1020.0.0 3381 1
+S 1007.0.0 3343 1
+# eecad3.eas.asu.edu(1):       864  1 _empty_layer
+F 1007.0.0 3343 1
+S 1005.0.0 3339 1
+# eecad3.eas.asu.edu(1):      1155  1 _empty_layer
+F 1005.0.0 3339 1
+S 1003.0.0 3335 1
+# eecad3.eas.asu.edu(1):       904  1 _empty_layer
+F 1003.0.0 3335 1
+S 1001.0.0 3331 1
+# eecad3.eas.asu.edu(1):       904  1 _empty_layer
+F 1001.0.0 3331 1
+S 999.0.0 3327 1
+# eecad3.eas.asu.edu(1):      1144  1 _empty_layer
+F 999.0.0 3327 1
+S 997.0.0 3323 1
+# eecad3.eas.asu.edu(1):      1144  1 _empty_layer
+F 997.0.0 3323 1
+S 995.0.0 3319 1
+# eecad3.eas.asu.edu(1):      1142  1 _empty_layer
+F 995.0.0 3319 1
+S 993.0.0 3315 1
+# eecad3.eas.asu.edu(1):       857  1 _empty_layer
+F 993.0.0 3315 1
+S 991.0.0 3311 1
+# eecad3.eas.asu.edu(1):       857  1 _empty_layer
+F 991.0.0 3311 1
+S 989.0.0 3307 1
+# eecad3.eas.asu.edu(1):      1144  1 _empty_layer
+F 989.0.0 3307 1
+S 987.0.0 3303 1
+# eecad3.eas.asu.edu(1):      1144  1 _empty_layer
+F 987.0.0 3303 1
+S 985.0.0 3299 1
+# eecad3.eas.asu.edu(1):      2025  1 _empty_layer
+F 985.0.0 3299 1
+S 983.0.0 3295 1
+# eecad3.eas.asu.edu(1):      2025  1 _empty_layer
+F 983.0.0 3295 1
+S 981.0.0 3291 1
+# eecad3.eas.asu.edu(1):      1142  1 _empty_layer
+F 981.0.0 3291 1
+S 979.0.0 3287 1
+# eecad3.eas.asu.edu(1):       899  1 _empty_layer
+F 979.0.0 3287 1
+S 977.0.0 3283 1
+# eecad3.eas.asu.edu(1):       899  1 _empty_layer
+F 977.0.0 3283 1
+S 975.0.0 3279 1
+# eecad3.eas.asu.edu(1):       804  1 _empty_layer
+F 975.0.0 3279 1
+S 973.0.0 3275 1
+# eecad3.eas.asu.edu(1):      1149  1 _empty_layer
+F 973.0.0 3275 1
+S 971.0.0 3271 1
+# eecad3.eas.asu.edu(1):      1149  1 _empty_layer
+F 971.0.0 3271 1
+S 959.0.0 3229 1
+# eecad3.eas.asu.edu(1):       844  1 _empty_layer
+F 959.0.0 3229 1
+S 957.0.0 3225 1
+# eecad3.eas.asu.edu(1):       844  1 _empty_layer
+F 957.0.0 3225 1
+S 955.0.0 3221 1
+# eecad3.eas.asu.edu(1):       844  1 _empty_layer
+F 955.0.0 3221 1
+S 953.0.0 3217 1
+# eecad3.eas.asu.edu(1):       844  1 _empty_layer
+F 953.0.0 3217 1
+S 951.0.0 3213 1
+# eecad3.eas.asu.edu(1):       844  1 _empty_layer
+F 951.0.0 3213 1
+S 949.0.0 3209 1
+# eecad3.eas.asu.edu(1):       844  1 _empty_layer
+F 949.0.0 3209 1
+S 947.0.0 3205 1
+# eecad3.eas.asu.edu(1):       844  1 _empty_layer
+F 947.0.0 3205 1
+S 922.0.0 3121 1
+# eecad3.eas.asu.edu(1):      1160  1 _empty_layer
+F 922.0.0 3121 1
+S 920.0.0 3117 1
+# eecad3.eas.asu.edu(1):      1160  1 _empty_layer
+F 920.0.0 3117 1
+S 918.0.0 3113 1
+# eecad3.eas.asu.edu(1):      1160  1 _empty_layer
+F 918.0.0 3113 1
+S 916.0.0 3109 1
+# eecad3.eas.asu.edu(1):      1160  1 _empty_layer
+F 916.0.0 3109 1
+S 914.0.0 3105 1
+# eecad3.eas.asu.edu(1):      1153  1 _empty_layer
+F 914.0.0 3105 1
+S 912.0.0 3101 1
+# eecad3.eas.asu.edu(1):      1153  1 _empty_layer
+F 912.0.0 3101 1
+S 910.0.0 3097 1
+# eecad3.eas.asu.edu(1):      1153  1 _empty_layer
+F 910.0.0 3097 1
+S 908.0.0 3093 1
+# eecad3.eas.asu.edu(1):      1153  1 _empty_layer
+F 908.0.0 3093 1
+S 902.0.0 3079 1
+# eecad3.eas.asu.edu(1):       816  1 _empty_layer
+F 902.0.0 3079 1
+S 900.0.0 3075 1
+# eecad3.eas.asu.edu(1):       816  1 _empty_layer
+F 900.0.0 3075 1
+S 882.0.0 3020 1
+# eecad3.eas.asu.edu(1):       866  1 _empty_layer
+F 882.0.0 3020 1
+S 880.0.0 3016 1
+# eecad3.eas.asu.edu(1):       866  1 _empty_layer
+F 880.0.0 3016 1
+S 878.0.0 3012 1
+# eecad3.eas.asu.edu(1):      1157  1 _empty_layer
+F 878.0.0 3012 1
+S 876.0.0 3008 1
+# eecad3.eas.asu.edu(1):      1157  1 _empty_layer
+F 876.0.0 3008 1
+S 874.0.0 3004 1
+# eecad3.eas.asu.edu(1):      1146  1 _empty_layer
+F 874.0.0 3004 1
+S 872.0.0 3000 1
+# eecad3.eas.asu.edu(1):      1146  1 _empty_layer
+F 872.0.0 3000 1
+S 870.0.0 2996 1
+# eecad3.eas.asu.edu(1):      1142  1 _empty_layer
+F 870.0.0 2996 1
+S 852.0.0 2930 1
+# eecad3.eas.asu.edu(1):      2017  1 _empty_layer
+F 852.0.0 2930 1
+S 843.0.0 2905 1
+# eecad3.eas.asu.edu(1):       774  1 _empty_layer
+F 843.0.0 2905 1
+S 841.0.0 2901 1
+# eecad3.eas.asu.edu(1):       768  1 _empty_layer
+F 841.0.0 2901 1
+S 839.0.0 2897 1
+# eecad3.eas.asu.edu(1):       762  1 _empty_layer
+F 839.0.0 2897 1
+S 837.0.0 2893 1
+# eecad3.eas.asu.edu(1):       772  1 _empty_layer
+F 837.0.0 2893 1
+S 835.0.0 2889 1
+# eecad3.eas.asu.edu(1):       765  1 _empty_layer
+F 835.0.0 2889 1
+S 833.0.0 2885 1
+# eecad3.eas.asu.edu(1):       774  1 _empty_layer
+F 833.0.0 2885 1
+S 831.0.0 2881 1
+# eecad3.eas.asu.edu(1):       765  1 _empty_layer
+F 831.0.0 2881 1
+S 829.0.0 2877 1
+# eecad3.eas.asu.edu(1):       771  1 _empty_layer
+F 829.0.0 2877 1
+S 827.0.0 2873 1
+# eecad3.eas.asu.edu(1):       762  1 _empty_layer
+F 827.0.0 2873 1
+S 825.0.0 2869 1
+# eecad3.eas.asu.edu(1):       762  1 _empty_layer
+F 825.0.0 2869 1
+S 823.0.0 2865 1
+# eecad3.eas.asu.edu(1):       762  1 _empty_layer
+F 823.0.0 2865 1
+S 821.0.0 2861 1
+# eecad3.eas.asu.edu(1):       762  1 _empty_layer
+F 821.0.0 2861 1
+S 819.0.0 2857 1
+# eecad3.eas.asu.edu(1):       762  1 _empty_layer
+F 819.0.0 2857 1
+S 817.0.0 2853 1
+# eecad3.eas.asu.edu(1):       762  1 _empty_layer
+F 817.0.0 2853 1
+S 815.0.0 2849 1
+# eecad3.eas.asu.edu(1):       762  1 _empty_layer
+F 815.0.0 2849 1
+S 813.0.0 2845 1
+# eecad3.eas.asu.edu(1):       762  1 _empty_layer
+F 813.0.0 2845 1
+S 811.0.0 2841 1
+# eecad3.eas.asu.edu(1):       762  1 _empty_layer
+F 811.0.0 2841 1
+S 809.0.0 2837 1
+# eecad3.eas.asu.edu(1):       771  1 _empty_layer
+F 809.0.0 2837 1
+S 807.0.0 2833 1
+# eecad3.eas.asu.edu(1):       771  1 _empty_layer
+F 807.0.0 2833 1
+S 805.0.0 2829 1
+# eecad3.eas.asu.edu(1):       765  1 _empty_layer
+F 805.0.0 2829 1
+S 803.0.0 2825 1
+# eecad3.eas.asu.edu(1):       765  1 _empty_layer
+F 803.0.0 2825 1
+S 801.0.0 2821 1
+# eecad3.eas.asu.edu(1):       765  1 _empty_layer
+F 801.0.0 2821 1
+S 799.0.0 2817 1
+# eecad3.eas.asu.edu(1):       765  1 _empty_layer
+F 799.0.0 2817 1
+S 797.0.0 2813 1
+# eecad3.eas.asu.edu(1):       765  1 _empty_layer
+F 797.0.0 2813 1
+S 795.0.0 2809 1
+# eecad3.eas.asu.edu(1):       765  1 _empty_layer
+F 795.0.0 2809 1
+S 793.0.0 2805 1
+# eecad3.eas.asu.edu(1):       765  1 _empty_layer
+F 793.0.0 2805 1
+S 787.0.0 2791 1
+# eecad3.eas.asu.edu(1):       759  1 _empty_layer
+F 787.0.0 2791 1
+S 785.0.0 2787 1
+# eecad3.eas.asu.edu(1):       759  1 _empty_layer
+F 785.0.0 2787 1
+S 783.0.0 2783 1
+# eecad3.eas.asu.edu(1):       759  1 _empty_layer
+F 783.0.0 2783 1
+S 781.0.0 2779 1
+# eecad3.eas.asu.edu(1):       759  1 _empty_layer
+F 781.0.0 2779 1
+S 779.0.0 2775 1
+# eecad3.eas.asu.edu(1):       759  1 _empty_layer
+F 779.0.0 2775 1
+S 777.0.0 2771 1
+# eecad3.eas.asu.edu(1):       759  1 _empty_layer
+F 777.0.0 2771 1
+S 775.0.0 2767 1
+# eecad3.eas.asu.edu(1):       759  1 _empty_layer
+F 775.0.0 2767 1
+S 767.0.0 2748 1
+# eecad3.eas.asu.edu(1):       765  1 _empty_layer
+F 767.0.0 2748 1
+S 765.0.0 2744 1
+# eecad3.eas.asu.edu(1):       774  1 _empty_layer
+F 765.0.0 2744 1
+S 763.0.0 2740 1
+# eecad3.eas.asu.edu(1):       774  1 _empty_layer
+F 763.0.0 2740 1
+S 753.0.0 2714 1
+# eecad3.eas.asu.edu(1):      2204  1 _empty_layer
+F 753.0.0 2714 1
+S 750.0.0 2706 1
+# eecad3.eas.asu.edu(1):      2204  1 _empty_layer
+F 750.0.0 2706 1
+S 747.0.0 2698 1
+# eecad3.eas.asu.edu(1):      2207  1 _empty_layer
+F 747.0.0 2698 1
+S 744.0.0 2690 1
+# eecad3.eas.asu.edu(1):      2192  1 _empty_layer
+F 744.0.0 2690 1
+S 741.0.0 2682 1
+# eecad3.eas.asu.edu(1):      2192  1 _empty_layer
+F 741.0.0 2682 1
+S 738.0.0 2674 1
+# eecad3.eas.asu.edu(1):      2192  1 _empty_layer
+F 738.0.0 2674 1
+S 735.0.0 2666 1
+# eecad3.eas.asu.edu(1):      2192  1 _empty_layer
+F 735.0.0 2666 1
+S 732.0.0 2658 1
+# eecad3.eas.asu.edu(1):      2192  1 _empty_layer
+F 732.0.0 2658 1
+S 729.0.0 2650 1
+# eecad3.eas.asu.edu(1):      2192  1 _empty_layer
+F 729.0.0 2650 1
+S 726.0.0 2642 1
+# eecad3.eas.asu.edu(1):      2192  1 _empty_layer
+F 726.0.0 2642 1
+S 723.0.0 2634 1
+# eecad3.eas.asu.edu(1):      2192  1 _empty_layer
+F 723.0.0 2634 1
+S 720.0.0 2626 1
+# eecad3.eas.asu.edu(1):      2192  1 _empty_layer
+F 720.0.0 2626 1
+S 717.0.0 2618 1
+# eecad3.eas.asu.edu(1):      2198  1 _empty_layer
+F 717.0.0 2618 1
+S 714.0.0 2610 1
+# eecad3.eas.asu.edu(1):      2192  1 _empty_layer
+F 714.0.0 2610 1
+S 711.0.0 2602 1
+# eecad3.eas.asu.edu(1):      2198  1 _empty_layer
+F 711.0.0 2602 1
+S 708.0.0 2594 1
+# eecad3.eas.asu.edu(1):      2195  1 _empty_layer
+F 708.0.0 2594 1
+S 705.0.0 2586 1
+# eecad3.eas.asu.edu(1):      2201  1 _empty_layer
+F 705.0.0 2586 1
+S 702.0.0 2578 1
+# eecad3.eas.asu.edu(1):      2195  1 _empty_layer
+F 702.0.0 2578 1
+S 700.0.0 2574 1
+# eecad3.eas.asu.edu(1):      2224  1 _empty_layer
+F 700.0.0 2574 1
+S 698.0.0 2571 1
+# eecad3.eas.asu.edu(1):      2224  1 _empty_layer
+F 698.0.0 2571 1
+S 696.0.0 2568 1
+# eecad3.eas.asu.edu(1):      2224  1 _empty_layer
+F 696.0.0 2568 1
+S 694.0.0 2565 1
+# eecad3.eas.asu.edu(1):      2224  1 _empty_layer
+F 694.0.0 2565 1
+S 692.0.0 2562 1
+# eecad3.eas.asu.edu(1):      2224  1 _empty_layer
+F 692.0.0 2562 1
+S 690.0.0 2559 1
+# eecad3.eas.asu.edu(1):      2224  1 _empty_layer
+F 690.0.0 2559 1
+S 688.0.0 2556 1
+# eecad3.eas.asu.edu(1):      2224  1 _empty_layer
+F 688.0.0 2556 1
+S 686.0.0 2553 1
+# eecad3.eas.asu.edu(1):      2224  1 _empty_layer
+F 686.0.0 2553 1
+S 680.0.0 2535 1
+# eecad3.eas.asu.edu(1):      2201  1 _empty_layer
+F 680.0.0 2535 1
+S 677.0.0 2527 1
+# eecad3.eas.asu.edu(1):      2201  1 _empty_layer
+F 677.0.0 2527 1
+S 674.0.0 2519 1
+# eecad3.eas.asu.edu(1):      2195  1 _empty_layer
+F 674.0.0 2519 1
+S 666.0.0 2494 1
+# eecad3.eas.asu.edu(1):      2192  1 _empty_layer
+F 666.0.0 2494 1
+S 663.0.0 2486 1
+# eecad3.eas.asu.edu(1):      2192  1 _empty_layer
+F 663.0.0 2486 1
+S 660.0.0 2478 1
+# eecad3.eas.asu.edu(1):      2195  1 _empty_layer
+F 660.0.0 2478 1
+S 657.0.0 2470 1
+# eecad3.eas.asu.edu(1):      2192  1 _empty_layer
+F 657.0.0 2470 1
+S 654.0.0 2462 1
+# eecad3.eas.asu.edu(1):      2195  1 _empty_layer
+F 654.0.0 2462 1
+S 651.0.0 2454 1
+# eecad3.eas.asu.edu(1):      2192  1 _empty_layer
+F 651.0.0 2454 1
+S 648.0.0 2446 1
+# eecad3.eas.asu.edu(1):      2195  1 _empty_layer
+F 648.0.0 2446 1
+S 645.0.0 2438 1
+# eecad3.eas.asu.edu(1):      2192  1 _empty_layer
+F 645.0.0 2438 1
+S 642.0.0 2430 1
+# eecad3.eas.asu.edu(1):      2198  1 _empty_layer
+F 642.0.0 2430 1
+S 639.0.0 2422 1
+# eecad3.eas.asu.edu(1):      2192  1 _empty_layer
+F 639.0.0 2422 1
+S 636.0.0 2414 1
+# eecad3.eas.asu.edu(1):      2198  1 _empty_layer
+F 636.0.0 2414 1
+S 633.0.0 2406 1
+# eecad3.eas.asu.edu(1):      2192  1 _empty_layer
+F 633.0.0 2406 1
+S 630.0.0 2398 1
+# eecad3.eas.asu.edu(1):      2198  1 _empty_layer
+F 630.0.0 2398 1
+S 607.0.0 2322 1
+# eecad3.eas.asu.edu(1):      2197  1 _empty_layer
+F 607.0.0 2322 1
+S 604.0.0 2314 1
+# eecad3.eas.asu.edu(1):      2206  1 _empty_layer
+F 604.0.0 2314 1
+S 576.0.0 2214 1
+# eecad3.eas.asu.edu(1):       349  1 _empty_layer
+F 576.0.0 2214 1
+S 1044.0.0 3440 1
+# eecad3.eas.asu.edu(1):      1595  1 _boolean_and_q
+F 1044.0.0 3440 1
+S 1047.0.0 3453 1
+# eecad3.eas.asu.edu(1):      1599  1 _boolean_and_q
+F 1047.0.0 3453 1
+S 1136.0.0 3641 1
+# eecad3.eas.asu.edu(1):      1177  1 _boolean_not_q
+F 1136.0.0 3641 1
+S 1138.0.0 3647 1
+# eecad3.eas.asu.edu(1):       960  1 _copy
+F 1138.0.0 3647 1
+S 931.0.0 3156 1
+# eecad3.eas.asu.edu(1):      1593  1 _boolean_and_q
+F 931.0.0 3156 1
+S 857.0.0 2944 1
+# eecad3.eas.asu.edu(1):      1595  1 _boolean_and_q
+F 857.0.0 2944 1
+S 928.0.0 3143 1
+# eecad3.eas.asu.edu(1):      1595  1 _boolean_and_q
+F 928.0.0 3143 1
+S 1142.0.0 3657 1
+# eecad3.eas.asu.edu(1):       954  1 _copy
+F 1142.0.0 3657 1
+S 863.0.0 2970 1
+# eecad3.eas.asu.edu(1):      1597  1 _boolean_and_q
+F 863.0.0 2970 1
+S 885.0.0 3029 1
+# eecad3.eas.asu.edu(1):      1591  1 _boolean_and_q
+F 885.0.0 3029 1
+S 904.0.0 3083 1
+# eecad3.eas.asu.edu(1):      1260  1 _copy
+F 904.0.0 3083 1
+S 1011.0.0 3353 1
+# eecad3.eas.asu.edu(1):      1011  1 _copy
+F 1011.0.0 3353 1
+S 1018.0.0 3375 1
+# eecad3.eas.asu.edu(1):      1178  1 _boolean_not_q
+F 1018.0.0 3375 1
+S 961.0.0 3233 1
+# eecad3.eas.asu.edu(1):      1008  1 _copy
+F 961.0.0 3233 1
+S 966.0.0 3250 1
+# eecad3.eas.asu.edu(1):      1593  1 _boolean_and_q
+F 966.0.0 3250 1
+S 860.0.0 2957 1
+# eecad3.eas.asu.edu(1):      1595  1 _boolean_and_q
+F 860.0.0 2957 1
+S 925.0.0 3130 1
+# eecad3.eas.asu.edu(1):      1597  1 _boolean_and_q
+F 925.0.0 3130 1
+S 1140.0.0 3652 1
+# eecad3.eas.asu.edu(1):       954  1 _copy
+F 1140.0.0 3652 1
+S 866.0.0 2983 1
+# eecad3.eas.asu.edu(1):      1595  1 _boolean_and_q
+F 866.0.0 2983 1
+S 888.0.0 3042 1
+# eecad3.eas.asu.edu(1):      1591  1 _boolean_and_q
+F 888.0.0 3042 1
+S 936.0.0 3173 1
+# eecad3.eas.asu.edu(1):      1065  1 _boolean_or_list
+F 936.0.0 3173 1
+S 941.0.0 3189 1
+# eecad3.eas.asu.edu(1):      1186  1 _boolean_not_q
+F 941.0.0 3189 1
+S 938.0.0 3180 1
+# eecad3.eas.asu.edu(1):      1186  1 _boolean_not_q
+F 938.0.0 3180 1
+S 906.0.0 3088 1
+# eecad3.eas.asu.edu(1):      1258  1 _copy
+F 906.0.0 3088 1
+S 1214.0.0 3954 1
+# eecad3.eas.asu.edu(1):      4555  1 _preprocess_device_layer
+F 1214.0.0 3954 1
+S 1484.0.0 5360 1
+# eecad3.eas.asu.edu(1):      4561  1 _preprocess_device_layer
+F 1484.0.0 5360 1
+S 1009.0.0 3347 1
+# eecad3.eas.asu.edu(1):      1010  1 _copy
+F 1009.0.0 3347 1
+S 1015.0.0 3366 1
+# eecad3.eas.asu.edu(1):      1178  1 _boolean_not_q
+F 1015.0.0 3366 1
+S 2208.0.0 9121 1
+# eecad3.eas.asu.edu(1):      1068  1 _merge_device_layer
+F 2208.0.0 9121 1
+S 2210.0.0 9127 1
+# eecad3.eas.asu.edu(1):      1055  1 _merge_device_layer
+F 2210.0.0 9127 1
+S 2212.0.0 9133 1
+# eecad3.eas.asu.edu(1):      1125  1 _merge_device_layer
+F 2212.0.0 9133 1
+S 2222.0.0 9163 1
+# eecad3.eas.asu.edu(1):       896  1 _merge_device_layer
+F 2222.0.0 9163 1
+S 2224.0.0 9169 1
+# eecad3.eas.asu.edu(1):       896  1 _merge_device_layer
+F 2224.0.0 9169 1
+S 2242.0.0 9223 1
+# eecad3.eas.asu.edu(1):      1216  1 _merge_device_layer
+F 2242.0.0 9223 1
+S 2244.0.0 9229 1
+# eecad3.eas.asu.edu(1):      1216  1 _merge_device_layer
+F 2244.0.0 9229 1
+S 2250.0.0 9247 1
+# eecad3.eas.asu.edu(1):       915  1 _merge_device_layer
+F 2250.0.0 9247 1
+S 2252.0.0 9253 1
+# eecad3.eas.asu.edu(1):       915  1 _merge_device_layer
+F 2252.0.0 9253 1
+S 2281.0.0 9334 1
+# eecad3.eas.asu.edu(1):      1021  1 _merge_device_layer
+F 2281.0.0 9334 1
+S 2282.0.0 9336 1
+# eecad3.eas.asu.edu(1):      1032  1 _pulldown
+F 2282.0.0 9336 1
+S 2278.0.0 9326 1
+# eecad3.eas.asu.edu(1):      1021  1 _merge_device_layer
+F 2278.0.0 9326 1
+S 2279.0.0 9328 1
+# eecad3.eas.asu.edu(1):      1035  1 _pulldown
+F 2279.0.0 9328 1
+S 963.0.0 3239 1
+# eecad3.eas.asu.edu(1):      1008  1 _copy
+F 963.0.0 3239 1
+S 969.0.0 3263 1
+# eecad3.eas.asu.edu(1):      1593  1 _boolean_and_q
+F 969.0.0 3263 1
+S 2285.0.0 9673 1
+# eecad3.eas.asu.edu(1):     22819  1 _connect_q
+F 2285.0.0 9673 1
+S 2288.0.0 9704 1
+# eecad3.eas.asu.edu(1):      8511  1 _text
+F 2288.0.0 9704 1
+S 2291.0.0 9727 1
+# eecad3.eas.asu.edu(1):      9446  1 _process_text_opens
+F 2291.0.0 9727 1
+S 2298.0.0 9769 1
+# eecad3.eas.asu.edu(1):      2889  1 _create_ports
+F 2298.0.0 9769 1
+S 2409.0.0 10171 1
+# eecad3.eas.asu.edu(1):     78874  2 _mos
+F 2409.0.0 10171 1
+S 2313.0.0 9843 1
+# eecad3.eas.asu.edu(1):     78611  2 _mos
+F 2313.0.0 9843 1
+S 2734.0.0 11251 1
+# eecad3.eas.asu.edu(1):      2887  1 _connect_device
+F 0 0 0
+F 2734.0.0 11251 1
+S 2738.0.0 11275 0
+# eecad3.eas.asu.edu(0):      2067  1 _create_netlist_cdb
+S 2736.0.0 11266 1
+# eecad3.eas.asu.edu(1):      1816  1 _dev_create_acct
+F 2738.0.0 11275 0
+S 4539.0.0 17379 0
+# eecad3.eas.asu.edu(0):     10406  1 _write_extract_view
+F 2736.0.0 11266 1
+S 2772.0.0 11448 1
+# eecad3.eas.asu.edu(1):      9492  1 _write_vue_info
+F 4539.0.0 17379 0
+S 2787.0.0 11496 0
+# eecad3.eas.asu.edu(0):      1032  1 _do_ndb
+F 2787.0.0 11496 0
+S 2875.0.0 11846 0
+# eecad3.eas.asu.edu(0):     16775  2 _do_compare_remote
+F 2772.0.0 11448 1
+S 2793.0.0 11514 1
+# eecad3.eas.asu.edu(1):      5482  2 _translate_database_to_netlist_remote
+F 2793.0.0 11514 1
+F 0 0 1
+F 2875.0.0 11846 0
+S 2886.0.0 11873 0
+# eecad3.eas.asu.edu(0):      1650  1 _do_spice
+F 2886.0.0 11873 0
+S 4568.0.0 17485 0
+# eecad3.eas.asu.edu(0):       372  1 _accumulate_results
+F 4568.0.0 17485 0
+}

@@ -1,0 +1,4 @@
+one_bit_adder_Leg1.gdsOut one_bit_adder_Leg1 one_bit_adder_Leg1 SPICE GDSII /usr/local/synopsys/icv_2018.06-SP1/icvalidator/O-2018.06-SP1/bin/LINUX.64/icv ../iPDK/icv/drc/saed32nm_1p9m_drc_rules.rs -vue -stc -sf -i -f -c 
+schematic=one_bit_adder_Leg1.cdl
+ICV_HOME_DIR=/usr/local/synopsys/icv_2018.06-SP1/icvalidator/O-2018.06-SP1
+ICV_INCLUDES=UNSET

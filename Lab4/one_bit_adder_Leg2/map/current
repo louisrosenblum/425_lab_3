@@ -1,0 +1,15 @@
+( ( nil
+  version "2.1"
+  mapType "incremental"
+  blockName "one_bit_adder"
+  repList "auCdl schematic"
+  stopList "auCdl"
+  globalList "gnd! vdd!"
+  hierDelim "."
+  netlistDir "/afs/asu.edu/users/a/l/r/alrosen2/425_lab/Lab4/one_bit_adder"
+ )
+( model
+( "Lab4/one_bit_adder/schematic" "one_bit_adder" )
+ )
+( "one_bit_adder" "ihnl/cds0/map" )
+ )

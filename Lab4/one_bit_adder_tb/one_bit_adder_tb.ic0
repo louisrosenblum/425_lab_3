@@ -1,0 +1,32 @@
+* "simulator" "HSPICE" 
+* "version" "K-2015.06-2 linux64"
+* "format" "HSP"
+* "rundate" "10:05:28 04/03/2022 "
+* "netlist" "one_bit_adder_tb.sp "
+* "runtitle" "# test bench for one bit adder simulation"
+* time =    0.            
+* temperature =   25.0000        
+*** BEGIN: Saved Operating Point ***                     
+.option 
++ gmindc=   1.0000p       
+.nodeset
++ a =   1.0500        
++ b =   1.0500        
++ cin =   1.0500        
++ cout =   1.0489        
++ sum =   1.0487        
++ vdd! =   1.0500        
++ xone_bit_adder.net033 =  18.7549n       
++ xone_bit_adder.net038 = 221.4109u       
++ xone_bit_adder.net054 = 369.5991u       
++ xone_bit_adder.net058 =  73.8304u       
++ xone_bit_adder.net059 = 147.6341u       
++ xone_bit_adder.net060 = 788.3548m       
++ xone_bit_adder.net061 = 989.3192m       
++ xone_bit_adder.net11 = 843.5713m       
++ xone_bit_adder.net15 =   3.4726u       
++ xone_bit_adder.net19 = 236.7410m       
++ xone_bit_adder.net23 =   1.7079u       
++ xone_bit_adder.net32 =   1.7518u       
++ xone_bit_adder.net33 = 848.3209m       
+***   END: Saved Operating Point ***                     

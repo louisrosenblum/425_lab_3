@@ -1,0 +1,27 @@
+{NETLIST one_bit_adder_Leg1
+{VERSION 2 0 0}
+
+{CELL one_bit_adder_Leg1
+    {PORT A vdd! gnd! B CoutNot Cin }
+    {INST M8=p105 {TYPE MOS} {COORD x=0.608 y=1.118 }{PROP n="p105" Length=0.03 Width=0.504 Mult=1 }
+	{PIN N9=DRN Cin=GATE CoutNot=SRC vdd!=BULK }}
+    {INST M3=n105 {TYPE MOS} {COORD x=0.608 y=0.360 }{PROP n="n105" Length=0.03 Width=0.42 Mult=1 }
+	{PIN CoutNot=DRN Cin=GATE N6=SRC gnd!=BULK }}
+    {INST M9=p105 {TYPE MOS} {COORD x=0.760 y=1.118 }{PROP n="p105" Length=0.03 Width=0.504 Mult=1 }
+	{PIN N11=DRN A=GATE CoutNot=SRC vdd!=BULK }}
+    {INST M10=p105 {TYPE MOS} {COORD x=0.912 y=1.118 }{PROP n="p105" Length=0.03 Width=0.504 Mult=1 }
+	{PIN N11=DRN B=GATE vdd!=SRC vdd!=BULK }}
+    {INST M4=n105 {TYPE MOS} {COORD x=0.760 y=0.360 }{PROP n="n105" Length=0.03 Width=0.42 Mult=1 }
+	{PIN N10=DRN A=GATE CoutNot=SRC gnd!=BULK }}
+    {INST M5=n105 {TYPE MOS} {COORD x=0.912 y=0.360 }{PROP n="n105" Length=0.03 Width=0.42 Mult=1 }
+	{PIN N10=DRN B=GATE gnd!=SRC gnd!=BULK }}
+    {INST M6=p105 {TYPE MOS} {COORD x=0.152 y=1.244 }{PROP n="p105" Length=0.03 Width=0.252 Mult=1 }
+	{PIN N9=DRN A=GATE vdd!=SRC vdd!=BULK }}
+    {INST M1=n105 {TYPE MOS} {COORD x=0.152 y=0.255 }{PROP n="n105" Length=0.03 Width=0.21 Mult=1 }
+	{PIN N6=DRN A=GATE gnd!=SRC gnd!=BULK }}
+    {INST M7=p105 {TYPE MOS} {COORD x=0.304 y=1.244 }{PROP n="p105" Length=0.03 Width=0.252 Mult=1 }
+	{PIN N9=DRN B=GATE vdd!=SRC vdd!=BULK }}
+    {INST M2=n105 {TYPE MOS} {COORD x=0.304 y=0.255 }{PROP n="n105" Length=0.03 Width=0.21 Mult=1 }
+	{PIN N6=DRN B=GATE gnd!=SRC gnd!=BULK }}
+}
+}

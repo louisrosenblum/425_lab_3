@@ -1,0 +1,569 @@
+Sun Apr  3 22:08:12 2022
+
+                                  ICV_Engine 
+
+          Version O-2018.06-SP1 for linux64 - Jul 23, 2018 cl#4289877
+
+                    Copyright (c) 1996 - 2018 Synopsys, Inc.
+   This software and the associated documentation are proprietary to Synopsys,
+ Inc. This software may only be used in accordance with the terms and conditions
+ of a written license agreement with Synopsys, Inc. All other use, reproduction,
+            or distribution of this software is strictly prohibited.
+
+
+
+Running Multi-Threaded code with 2 shared thread(s)
+
+Runset file ......................  ../iPDK/icv/lvs/saed32nm_1p9m_lvs_rules.rs
+Current Directory ................  /afs/asu.edu/users/j/n/e/jneuenda/425_proj/425_lab/lvs
+Hostname .........................  eecad3.eas.asu.edu
+Platform type ....................  LINUX.64
+GDSII input file name ............  /afs/asu.edu/users/j/n/e/jneuenda/425_proj/425_lab/lvs/one_bit_adder_Leg4.gdsOut
+GDSII block name .................  one_bit_adder_Leg4
+Run details ......................  /afs/asu.edu/users/j/n/e/jneuenda/425_proj/425_lab/lvs/run_details
+Group file directory .............  /afs/asu.edu/users/j/n/e/jneuenda/425_proj/425_lab/lvs/run_details/group
+Check reference structures .......  no
+
+single pass sequential reading.
+openaccess_options() at ../iPDK/icv/lvs/saed32nm_1p9m_lvs_rules.rs:71
+openaccess_options(view = "layout", layer_mapping_file = "./techfiles/saed32nm_1p9m_gdsout.map")
+
+library() at ../iPDK/icv/lvs/saed32nm_1p9m_lvs_rules.rs:78
+library(library_name = "CELLNAME.gds", format = GDSII, cell = "resistor")
+
+schematic() at ../iPDK/icv/lvs/saed32nm_1p9m_lvs_rules.rs:88
+schem_netl_fh = schematic(schematic_file = { { filename = "CELLNAME.sp", format = SPICE } })
+
+error_options() at ../iPDK/icv/lvs/saed32nm_1p9m_lvs_rules.rs:95
+error_options(db_path = "./TOPCELLNAME_err", create_vue_output = true)
+
+run_options() at ../iPDK/icv/lvs/saed32nm_1p9m_lvs_rules.rs:98
+run_options(instance_prefix = "X", uppercase = false)
+
+hierarchy_options() at ../iPDK/icv/lvs/saed32nm_1p9m_lvs_rules.rs:103
+hierarchy_options(flatten = { "*" })
+
+resolution_options() at ../iPDK/icv/lvs/saed32nm_1p9m_lvs_rules.rs:105
+resolution_options(snap_resolution = 0.001)
+
+text_options() at ../iPDK/icv/lvs/saed32nm_1p9m_lvs_rules.rs:106
+text_options(net_prefix = "N", layout_power = { "VDD", "VDD12", "VDD22", "VDD2", "VDDG", "VDDH", "VDDL", "VDDIO" }, layout_ground = { "VSS", "VSS12", "VDD22", "VSSIO" })
+
+net_options() at ../iPDK/icv/lvs/saed32nm_1p9m_lvs_rules.rs:111
+net_options(schematic_power = { "VDD", "VDD12", "VDD22", "VDD2", "VDDG", "VDDH", "VDDL", "VDDIO" }, schematic_ground = { "VSS", "VSS12", "VDD22", "VDD2", "VDDH", "VDDL", "VDDIO" }, schematic_global = { "VDD", "VDD12", "VDD22", "VSS", "VSS12", "VDD22", "VDD2", "VDDG", "VDDH", "VDDL", "VDDIO", "VSSIO" })
+
+prototype_options() at ../iPDK/icv/lvs/saed32nm_1p9m_lvs_rules.rs:116
+prototype_options(false)
+
+[Generated Command]
+drc_black_box_options()
+
+[Generated Command]
+incremental_options()
+
+[Generated Command]
+layout_drawn_options()
+
+[Generated Command]
+layout_grid_options()
+
+[Generated Command]
+layout_integrity_options()
+
+[Generated Command]
+hierarchy_auto_options()
+
+[Generated Command]
+compatibility_options()
+
+   Prescan Library Time=0:00:00  User=0.00 Sys=0.00 Mem=16.896
+
+   Scan Hierarchy Time=0:00:00  User=0.00 Sys=0.00 Mem=13.803
+
+   Read Library Time=0:00:00  User=0.00 Sys=0.00 Mem=25.457
+
+     Find Top Cell Time=0:00:00  User=0.00 Sys=0.00 Mem=21.817
+
+    Create Hierarchy Tree Phase: 0 Time=0:00:00  User=0.00 Sys=0.00 Mem=22.817
+
+  Set 1 schematic file cells to NO_EXPLODE
+Prototype Placement Pass 1
+Preprocessing group files...
+Preprocess Step 1 : Exploding
+Find duplicate placements in cells
+    Create Hierarchy Tree Phase: 1 Time=0:00:00  User=0.01 Sys=0.00 Mem=20.442
+
+     Determine Region Time=0:00:00  User=0.00 Sys=0.00 Mem=18.317
+
+     Create Layer Setup Time=0:00:00  User=0.00 Sys=0.00 Mem=18.224
+
+0 Total errors found.
+    Create Hierarchy Tree Phase: 2 Time=0:00:00  User=0.00 Sys=0.01 Mem=21.193
+
+   Create Hierarchy Tree Time=0:00:00  User=0.01 Sys=0.02 Mem=22.817
+
+Sun Apr  3 22:08:17 2022
+
+                                  ICV_Engine 
+
+          Version O-2018.06-SP1 for linux64 - Jul 23, 2018 cl#4289877
+
+                    Copyright (c) 1996 - 2018 Synopsys, Inc.
+   This software and the associated documentation are proprietary to Synopsys,
+ Inc. This software may only be used in accordance with the terms and conditions
+ of a written license agreement with Synopsys, Inc. All other use, reproduction,
+            or distribution of this software is strictly prohibited.
+
+
+
+Running Multi-Threaded code with 2 shared thread(s)
+single pass sequential reading.
+      Pairing Iteration 1 Time=0:00:00  User=0.00 Sys=0.00 Mem=16.021
+
+     Pairing Time=0:00:00  User=0.00 Sys=0.00 Mem=16.021
+
+    Combined VCELL Time=0:00:00  User=0.00 Sys=0.01 Mem=16.021
+
+Preprocess Step 11 : Post-VCell Explodes
+    Post VCell Time=0:00:00  User=0.00 Sys=0.00 Mem=15.021
+
+     Write Instance Name Time=0:00:00  User=0.00 Sys=0.00 Mem=14.959
+
+    Create Layer Setup Time=0:00:00  User=0.00 Sys=0.00 Mem=14.974
+
+    
+Hierarchy Cleanup Time=0:00:00  User=0.00 Sys=0.01 Mem=16.912
+
+   Optimize Hierarchy Tree Time=0:00:00  User=0.01 Sys=0.02 Mem=16.912
+
+Reading error hierarchy _hrchy2_part0hrchy.0001 ...
+   Elapsed Time=0:00:00  User=0.00 Sys=0.00 Mem=14.881
+
+Hierarchy Cleanup
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=13.912
+
+Sun Apr  3 22:08:18 2022
+
+                                  ICV_Engine 
+
+          Version O-2018.06-SP1 for linux64 - Jul 23, 2018 cl#4289877
+
+                    Copyright (c) 1996 - 2018 Synopsys, Inc.
+   This software and the associated documentation are proprietary to Synopsys,
+ Inc. This software may only be used in accordance with the terms and conditions
+ of a written license agreement with Synopsys, Inc. All other use, reproduction,
+            or distribution of this software is strictly prohibited.
+
+
+
+Running Multi-Threaded code with 2 shared thread(s)
+single pass sequential reading.
+Reading error hierarchy error._hier.0001 ...
+   Elapsed Time=0:00:00  User=0.00 Sys=0.00 Mem=12.756
+
+assign() at saed32nm_1p9m_lvs_rules.rs:121
+NWELLi = assign({ { == 1 } })
+Find invisible cell one_bit_adder_Leg4
+ 0 0
+A total of 0 relations are recorded
+   Check Time=0:00:00  User=0.00 Sys=0.01 Mem=13.959
+
+init_device_matrix() at saed32nm_1p9m_lvs_rules.rs:835
+my_devices = init_device_matrix(c_db)
+  Function: init_device_matrix
+  Outputs: _ICV_FLAT_PROPERTY_.polygonlayer.0001
+1 unique polygon written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=12.974
+
+text_origin() at saed32nm_1p9m_lvs_rules.rs:636
+m1pin_marker = text_origin(M1PIN_text, shape_size = 0.01, text = { "*" }, cells = { "*" })
+  Function: text_origin
+  Inputs: M1PIN_text.textlayer.0003.TEXT
+  Outputs: m1pin_marker.polygonlayer.0001
+7 unique polygons written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=16.239
+
+   Tagging Time=0:00:00  User=0.00 Sys=0.00 Mem=14.943
+
+   Tagging Time=0:00:00  User=0.00 Sys=0.00 Mem=15.959
+
+   Tagging Time=0:00:00  User=0.00 Sys=0.00 Mem=15.959
+
+copy() at saed32nm_1p9m_lvs_rules.rs:247
+via1 = copy(VIA1i)
+  Function: copy
+  Inputs: VIA1i.polygonlayer.0003
+  Outputs: via1.polygonlayer.0001
+13 unique polygons written.
+   Check Time=0:00:00  User=0.00 Sys=0.01 Mem=14.974
+
+copy() at saed32nm_1p9m_lvs_rules.rs:246
+co = copy(COi)
+  Function: copy
+  Inputs: COi.polygonlayer.0003
+  Outputs: co.polygonlayer.0001
+76 unique polygons written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=14.974
+
+copy() at saed32nm_1p9m_lvs_rules.rs:235
+m1 = copy(M1i)
+  Function: copy
+  Inputs: M1i.polygonlayer.0003
+  Outputs: m1.polygonlayer.0001
+26 unique polygons written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=14.974
+
+not() at saed32nm_1p9m_lvs_rules.rs:415:command replaced with an internal copy command.
+m1 = m1 not rm1
+  Function: not
+  Inputs: m1.polygonlayer.0001
+  Outputs: m1.polygonlayer.0002
+26 unique polygons written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=14.974
+
+not() at saed32nm_1p9m_lvs_rules.rs:322:command replaced with an internal copy command.
+ponr = not(po, rmark)
+  Function: not
+  Inputs: po.polygonlayer.0001
+  Outputs: ponr.polygonlayer.0001
+29 unique polygons written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=14.974
+
+copy() at saed32nm_1p9m_lvs_rules.rs:225
+pimp = copy(PIMPi)
+  Function: copy
+  Inputs: PIMPi.polygonlayer.0003
+  Outputs: pimp.polygonlayer.0001
+2 unique polygons written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=14.974
+
+not() at saed32nm_1p9m_lvs_rules.rs:395
+copoly = not(co, diff)
+  Function: not
+  Inputs: co.polygonlayer.0001, diff.polygonlayer.0001, 
+  Outputs: copoly.polygonlayer.0001
+    Setup Time=0:00:00  User=0.00 Sys=0.00 Mem=22.660
+    Large Cell Time=0:00:00  User=0.00 Sys=0.00 Mem=23.879
+20 unique polygons written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=23.879
+
+copy() at saed32nm_1p9m_lvs_rules.rs:221
+nwell = copy(NWELLi)
+  Function: copy
+  Inputs: NWELLi.polygonlayer.0003
+  Outputs: nwell.polygonlayer.0001
+1 unique polygon written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=15.052
+
+not() at saed32nm_1p9m_lvs_rules.rs:300
+pwell = not(bulk, nwell)
+  Function: not
+  Inputs: bulk.polygonlayer.0001, nwell.polygonlayer.0001, 
+  Outputs: pwell.polygonlayer.0001
+    Setup Time=0:00:00  User=0.00 Sys=0.01 Mem=23.159
+    Large Cell Time=0:00:00  User=0.00 Sys=0.00 Mem=24.315
+1 unique polygon written.
+   Check Time=0:00:00  User=0.00 Sys=0.01 Mem=24.315
+
+extract_devices() at saed32nm_1p9m_lvs_rules.rs:1267
+device_db = extract_devices(my_devices)
+  Function: extract_devices
+Remove bulk layer from via cells ...
+1 unique polygon written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=17.645
+
+assign() at saed32nm_1p9m_lvs_rules.rs:121
+NWELLi = assign({ { == 1 } })
+  Function: assign
+  Outputs: SUBSTRATE
+1 unique polygon written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=15.083
+
+extract_devices() at saed32nm_1p9m_lvs_rules.rs:1267
+device_db = extract_devices(my_devices)
+   Check Time=0:00:00  User=0.01 Sys=0.00 Mem=16.099
+
+and() at saed32nm_1p9m_lvs_rules.rs:430:Duplicate command replaced with an internal copy command.
+pdif = pimp and diff
+  Function: and
+  Inputs: pdiff.polygonlayer.0001
+  Outputs: pdif.polygonlayer.0001
+9 unique polygons written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=15.052
+
+and() at saed32nm_1p9m_lvs_rules.rs:433
+pgate_v = po and pdif
+  Function: and
+  Inputs: po.polygonlayer.0001, pdif.polygonlayer.0001, 
+  Outputs: pgate_v.polygonlayer.0001
+    Setup Time=0:00:00  User=0.00 Sys=0.00 Mem=21.440
+    Large Cell Time=0:00:00  User=0.00 Sys=0.00 Mem=22.612
+20 unique polygons written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=22.612
+
+connect() at saed32nm_1p9m_lvs_rules.rs:651
+c_db = connect(connect_items = { { { ptap, pwell }, pwell_cont }, { { ntap, nwnr }, nwell_cont }, { { m1, nsd }, codiff }, { { m1, psd }, codiff }, { { m1, ntap }, codiff }, { { m1, ptap }, codiff }, { { m1, nsdr }, codiff }, { { m1, psdr }, codiff }, { { m1, nsdv }, codiff }, { { m1, psdv }, codiff }, { { m1, ngatepl }, copoly }, { { m1, pgatepl }, copoly }, { ngate_12, ponr }, { pgate_12, ponr }, { ngate_25, ponr }, { pgate_25, ponr }, { ngate_18, ponr }, { pgate_18, ponr }, { ngate_12_lvt, ponr }, { pgate_12_lvt, ponr }, { ngate_12_hvt, ponr }, { pgate_12_hvt, ponr }, { { m1, ponr }, copoly }, { { m2, m1 }, via1 }, { { m3, m2 }, via2 }, { { m4, m3 }, via3 }, { { m5, m4 }, via4 }, { { m6, m5 }, via5 }, { { m7, m6 }, via6 }, { { m8, m7 }, via7 }, { { m9, m8 }, via8 }, { { mrdl, m9 }, viardl }, { { l_0V_BJT_BASE, m1 }, l_0V_BJT_BASE_cont }, { { l_0V_BJT_COLL, m1 }, l_0V_BJT_COLL_cont }, { { l_0V_BJT_EMIT, m1 }, l_0V_BJT_EMIT_cont }, { { l_0V_BJT_COLL_NPN, m1 }, l_0V_BJT_COLL_cont_NPN }, { { l_0V_BJT_EMIT_NPN, m1 }, codiff }, { { l_0V_BJT_BASE_NPN, m1 }, l_0V_BJT_BASE_cont_NPN }, { { m5, term_3 }, via4 }, { { m4, term_3 }, m4 }, { { m3, term_3 }, via3 }, { { m6, term_4 }, via5 }, { { m5, term_4 }, m5 }, { { m4, term_4 }, via4 }, { { subtie, psub }, subtie_scon }, { m1pin_marker, m1 }, { m2pin_marker, m2 }, { m3pin_marker, m3 }, { m4pin_marker, m4 }, { m5pin_marker, m5 }, { m6pin_marker, m6 }, { m7pin_marker, m7 }, { m8pin_marker, m8 }, { m9pin_marker, m9 } })
+Layer "nsdv.polygonlayer.0001" is empty.
+Layer "psdv.polygonlayer.0001" is empty.
+Layer "ngatepl.polygonlayer.0001" is empty.
+Layer "pgatepl.polygonlayer.0001" is empty.
+Layer "ngate_25.polygonlayer.0003" is empty.
+Layer "pgate_25.polygonlayer.0003" is empty.
+Layer "ngate_18.polygonlayer.0003" is empty.
+Layer "pgate_18.polygonlayer.0003" is empty.
+Layer "ngate_12_lvt.polygonlayer.0003" is empty.
+Layer "pgate_12_lvt.polygonlayer.0003" is empty.
+Layer "ngate_12_hvt.polygonlayer.0003" is empty.
+Layer "pgate_12_hvt.polygonlayer.0003" is empty.
+Layer "m3.polygonlayer.0002" is empty.
+Layer "via2.polygonlayer.0001" is empty.
+Layer "m4.polygonlayer.0002" is empty.
+Layer "via3.polygonlayer.0001" is empty.
+Layer "m5.polygonlayer.0002" is empty.
+Layer "via4.polygonlayer.0001" is empty.
+Layer "m6.polygonlayer.0002" is empty.
+Layer "via5.polygonlayer.0001" is empty.
+Layer "m7.polygonlayer.0002" is empty.
+Layer "via6.polygonlayer.0001" is empty.
+Layer "m8.polygonlayer.0002" is empty.
+Layer "via7.polygonlayer.0001" is empty.
+Layer "m9.polygonlayer.0002" is empty.
+Layer "via8.polygonlayer.0001" is empty.
+Layer "mrdl.polygonlayer.0001" is empty.
+Layer "viardl.polygonlayer.0001" is empty.
+Layer "l_0V_BJT_BASE.polygonlayer.0003" is empty.
+Layer "l_0V_BJT_BASE_cont.polygonlayer.0002" is empty.
+Layer "l_0V_BJT_COLL.polygonlayer.0003" is empty.
+Layer "l_0V_BJT_COLL_cont.polygonlayer.0002" is empty.
+Layer "l_0V_BJT_EMIT.polygonlayer.0003" is empty.
+Layer "l_0V_BJT_EMIT_cont.polygonlayer.0001" is empty.
+Layer "l_0V_BJT_COLL_NPN.polygonlayer.0003" is empty.
+Layer "l_0V_BJT_COLL_cont_NPN.polygonlayer.0002" is empty.
+Layer "l_0V_BJT_EMIT_NPN.polygonlayer.0006" is empty.
+Layer "l_0V_BJT_BASE_NPN.polygonlayer.0005" is empty.
+Layer "l_0V_BJT_BASE_cont_NPN.polygonlayer.0002" is empty.
+Layer "term_3.polygonlayer.0003" is empty.
+Layer "term_4.polygonlayer.0003" is empty.
+Layer "m2pin_marker.polygonlayer.0001" is empty.
+Layer "m3pin_marker.polygonlayer.0001" is empty.
+Layer "m4pin_marker.polygonlayer.0001" is empty.
+Layer "m5pin_marker.polygonlayer.0001" is empty.
+Layer "m6pin_marker.polygonlayer.0001" is empty.
+Layer "m7pin_marker.polygonlayer.0001" is empty.
+Layer "m8pin_marker.polygonlayer.0001" is empty.
+Layer "m9pin_marker.polygonlayer.0001" is empty.
+    Setup Time=0:00:00  User=0.00 Sys=0.01 Mem=72.138
+    Large Cell Time=0:00:00  User=0.00 Sys=0.00 Mem=79.580
+   Check Time=0:00:00  User=0.00 Sys=0.01 Mem=79.580
+
+text_net() at saed32nm_1p9m_lvs_rules.rs:748
+c_db = text_net(connect_sequence = c_db, rename_prefix = "N", text_layer_items = { { m1pin_marker, M1PIN_text }, { m2pin_marker, M2PIN_text }, { m3pin_marker, M3PIN_text }, { m4pin_marker, M4PIN_text }, { m5pin_marker, M5PIN_text }, { m6pin_marker, M6PIN_text }, { m7pin_marker, M7PIN_text }, { m8pin_marker, M8PIN_text }, { m9pin_marker, M9PIN_text } }, attach_text = ALL)
+    Text Time=0:00:00  User=0.00 Sys=0.00 Mem=25.027
+
+Input layer "m2pin_marker.polygonlayer.0001" is empty.
+    Text Time=0:00:00  User=0.00 Sys=0.00 Mem=22.606
+
+Input layer "m3pin_marker.polygonlayer.0001" is empty.
+    Text Time=0:00:00  User=0.00 Sys=0.00 Mem=22.606
+
+Input layer "m4pin_marker.polygonlayer.0001" is empty.
+    Text Time=0:00:00  User=0.00 Sys=0.00 Mem=22.606
+
+Input layer "m5pin_marker.polygonlayer.0001" is empty.
+    Text Time=0:00:00  User=0.00 Sys=0.00 Mem=22.606
+
+Input layer "m6pin_marker.polygonlayer.0001" is empty.
+    Text Time=0:00:00  User=0.00 Sys=0.00 Mem=23.606
+
+Input layer "m7pin_marker.polygonlayer.0001" is empty.
+    Text Time=0:00:00  User=0.00 Sys=0.00 Mem=24.606
+
+Input layer "m8pin_marker.polygonlayer.0001" is empty.
+    Text Time=0:00:00  User=0.00 Sys=0.00 Mem=24.606
+
+Input layer "m9pin_marker.polygonlayer.0001" is empty.
+    Text Time=0:00:00  User=0.00 Sys=0.00 Mem=24.606
+
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=26.637
+
+text_net() at saed32nm_1p9m_lvs_rules.rs:748
+c_db = text_net(connect_sequence = c_db, rename_prefix = "N", text_layer_items = { { m1pin_marker, M1PIN_text }, { m2pin_marker, M2PIN_text }, { m3pin_marker, M3PIN_text }, { m4pin_marker, M4PIN_text }, { m5pin_marker, M5PIN_text }, { m6pin_marker, M6PIN_text }, { m7pin_marker, M7PIN_text }, { m8pin_marker, M8PIN_text }, { m9pin_marker, M9PIN_text } }, attach_text = ALL)
+Completed opens check. Now merging/renaming nets based on text.
+   Check Time=0:00:00  User=0.00 Sys=0.01 Mem=24.559
+
+create_ports() at saed32nm_1p9m_lvs_rules.rs:765
+c_db = create_ports(connect_sequence = c_db, port_items = { { m1pin_marker, m1pin_marker }, { m2pin_marker, m2pin_marker }, { m3pin_marker, m3pin_marker }, { m4pin_marker, m4pin_marker }, { m5pin_marker, m5pin_marker }, { m6pin_marker, m6pin_marker }, { m7pin_marker, m7pin_marker }, { m8pin_marker, m8pin_marker }, { m9pin_marker, m9pin_marker } })
+Input layer "m2pin_marker.polygonlayer.0001" is empty.
+Input layer "m3pin_marker.polygonlayer.0001" is empty.
+Input layer "m4pin_marker.polygonlayer.0001" is empty.
+Input layer "m5pin_marker.polygonlayer.0001" is empty.
+Input layer "m6pin_marker.polygonlayer.0001" is empty.
+Input layer "m7pin_marker.polygonlayer.0001" is empty.
+Input layer "m8pin_marker.polygonlayer.0001" is empty.
+Input layer "m9pin_marker.polygonlayer.0001" is empty.
+7 new ports created
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=27.448
+
+foreach(loop 1 out of 5) at saed32nm_1p9m_lvs_rules.rs:1050
+  nmos() at saed32nm_1p9m_lvs_rules.rs:1052
+nmos(my_devices, nm.n, nsd, nm.g, nsd, { { nm.b } }, merge_parallel = true, properties = { { "l", DOUBLE, MICRO }, { "w", DOUBLE, MICRO }, { "nf", DOUBLE }, { "m", DOUBLE }, { "ad", DOUBLE, PICO }, { "as", DOUBLE, PICO }, { "ps", DOUBLE, MICRO }, { "pd", DOUBLE, MICRO }, { "SCC", DOUBLE, NONE }, { "SCA", DOUBLE, NONE }, { "SCB", DOUBLE, NONE }, { "nrd", DOUBLE, NONE }, { "nrs", DOUBLE, NONE } }, property_function = prop_mos, processing_layer_hash = { "key1" => { pwell } })
+  Function: nmos
+  Inputs: ngate_12.polygonlayer.0005, nsd.polygonlayer.0009, nsd.polygonlayer.0009, pwell.polygonlayer.0014, ngate_12.polygonlayer.0004, pwell.polygonlayer.0003
+nmos(my_devices, nm.n, nsd, nm.g, nsd, { { nm.b } }, merge_parallel = true, properties = { { \"l\", DOUBLE, MICRO }, { \"w\", DOUBLE, MICRO }, { \"nf\", DOUBLE }, { \"m\", DOUBLE }, { \"ad\", DOUBLE, PICO }, { \"as\", DOUBLE, PICO }, { \"ps\", DOUBLE, MICRO }, { \"pd\", DOUBLE, MICRO }, { \"SCC\", DOUBLE, NONE }, { \"SCA\", DOUBLE, NONE }, { \"SCB\", DOUBLE, NONE }, { \"nrd\", DOUBLE, NONE }, { \"nrs\", DOUBLE, NONE } }, property_function = prop_mos, processing_layer_hash = { \"key1\" => { pwell } })
+Extracted 20 unique 4-terminal "n105" devices.
+   Check Time=0:00:00  User=0.03 Sys=0.00 Mem=35.539
+
+extract_devices() at saed32nm_1p9m_lvs_rules.rs:1267
+device_db = extract_devices(my_devices)
+  Function: extract_devices
+Connecting devices ...
+   Device Connect Time=0:00:00  User=0.00 Sys=0.01 Mem=25.528
+
+extract_devices() at saed32nm_1p9m_lvs_rules.rs:1267
+device_db = extract_devices(my_devices)
+Creating netlisting connect database ...
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=24.637
+
+pex_generate_results() at saed32nm_1p9m_lvs_rules.rs:2168
+pex_generate_results(pex_matrix = pex_matrix, layout_database = mw_handle, pex_process_map_file = pex_process_handle, pex_runset_report_file = pex_report_handle, pex_lpp_map_file = pex_lpp_handle)
+  Function: pex_generate_results
+  Inputs: ptap.polygonlayer.0001, pwell.polygonlayer.0014, pwell_cont.polygonlayer.0001, ntap.polygonlayer.0001, nwnr.polygonlayer.0014, nwell_cont.polygonlayer.0001, m1.polygonlayer.0002, nsd.polygonlayer.0009, codiff.polygonlayer.0001, psd.polygonlayer.0008, nsdr.polygonlayer.0003, psdr.polygonlayer.0004, nsdv.polygonlayer.0001, psdv.polygonlayer.0001, ngatepl.polygonlayer.0001, copoly.polygonlayer.0001, pgatepl.polygonlayer.0001, ngate_12.polygonlayer.0005, ponr.polygonlayer.0006, pgate_12.polygonlayer.0003, ngate_25.polygonlayer.0003, pgate_25.polygonlayer.0003, ngate_18.polygonlayer.0003, pgate_18.polygonlayer.0003, ngate_12_lvt.polygonlayer.0003, pgate_12_lvt.polygonlayer.0003, ngate_12_hvt.polygonlayer.0003, pgate_12_hvt.polygonlayer.0003, m2.polygonlayer.0002, via1.polygonlayer.0001, m3.polygonlayer.0002, via2.polygonlayer.0001, m4.polygonlayer.0002, via3.polygonlayer.0001, m5.polygonlayer.0002, via4.polygonlayer.0001, m6.polygonlayer.0002, via5.polygonlayer.0001, m7.polygonlayer.0002, via6.polygonlayer.0001, m8.polygonlayer.0002, via7.polygonlayer.0001, m9.polygonlayer.0002, via8.polygonlayer.0001, mrdl.polygonlayer.0001, viardl.polygonlayer.0001, l_0V_BJT_BASE.polygonlayer.0003, l_0V_BJT_BASE_cont.polygonlayer.0002, l_0V_BJT_COLL.polygonlayer.0003, l_0V_BJT_COLL_cont.polygonlayer.0002, l_0V_BJT_EMIT.polygonlayer.0003, l_0V_BJT_EMIT_cont.polygonlayer.0001, l_0V_BJT_COLL_NPN.polygonlayer.0003, l_0V_BJT_COLL_cont_NPN.polygonlayer.0002, l_0V_BJT_EMIT_NPN.polygonlayer.0006, l_0V_BJT_BASE_NPN.polygonlayer.0005, l_0V_BJT_BASE_cont_NPN.polygonlayer.0002, term_3.polygonlayer.0003, term_4.polygonlayer.0003, subtie.polygonlayer.0002, psub.polygonlayer.0002, subtie_scon.polygonlayer.0001, m1pin_marker.polygonlayer.0001, m2pin_marker.polygonlayer.0001, m3pin_marker.polygonlayer.0001, m4pin_marker.polygonlayer.0001, m5pin_marker.polygonlayer.0001, m6pin_marker.polygonlayer.0001, m7pin_marker.polygonlayer.0001, m8pin_marker.polygonlayer.0001, m9pin_marker.polygonlayer.0001, pdores.polygonlayer.0005, ndores.polygonlayer.0004, ppores.polygonlayer.0004, npores.polygonlayer.0004, ppores_sblk.polygonlayer.0003, npores_sblk.polygonlayer.0003, ndiffdio.polygonlayer.0003, pdiffdio.polygonlayer.0003, body_3.polygonlayer.0003, body_4.polygonlayer.0003
+Input layer "nsdv.polygonlayer.0001" is empty.
+Input layer "psdv.polygonlayer.0001" is empty.
+Input layer "ngatepl.polygonlayer.0001" is empty.
+Input layer "pgatepl.polygonlayer.0001" is empty.
+Input layer "ngate_25.polygonlayer.0003" is empty.
+Input layer "pgate_25.polygonlayer.0003" is empty.
+Input layer "ngate_18.polygonlayer.0003" is empty.
+Input layer "pgate_18.polygonlayer.0003" is empty.
+Input layer "ngate_12_lvt.polygonlayer.0003" is empty.
+Input layer "pgate_12_lvt.polygonlayer.0003" is empty.
+Input layer "ngate_12_hvt.polygonlayer.0003" is empty.
+Input layer "pgate_12_hvt.polygonlayer.0003" is empty.
+Input layer "m3.polygonlayer.0002" is empty.
+Input layer "via2.polygonlayer.0001" is empty.
+Input layer "m4.polygonlayer.0002" is empty.
+Input layer "via3.polygonlayer.0001" is empty.
+Input layer "m5.polygonlayer.0002" is empty.
+Input layer "via4.polygonlayer.0001" is empty.
+Input layer "m6.polygonlayer.0002" is empty.
+Input layer "via5.polygonlayer.0001" is empty.
+Input layer "m7.polygonlayer.0002" is empty.
+Input layer "via6.polygonlayer.0001" is empty.
+Input layer "m8.polygonlayer.0002" is empty.
+Input layer "via7.polygonlayer.0001" is empty.
+Input layer "m9.polygonlayer.0002" is empty.
+Input layer "via8.polygonlayer.0001" is empty.
+Input layer "mrdl.polygonlayer.0001" is empty.
+Input layer "viardl.polygonlayer.0001" is empty.
+Input layer "l_0V_BJT_BASE.polygonlayer.0003" is empty.
+Input layer "l_0V_BJT_BASE_cont.polygonlayer.0002" is empty.
+Input layer "l_0V_BJT_COLL.polygonlayer.0003" is empty.
+Input layer "l_0V_BJT_COLL_cont.polygonlayer.0002" is empty.
+Input layer "l_0V_BJT_EMIT.polygonlayer.0003" is empty.
+Input layer "l_0V_BJT_EMIT_cont.polygonlayer.0001" is empty.
+Input layer "l_0V_BJT_COLL_NPN.polygonlayer.0003" is empty.
+Input layer "l_0V_BJT_COLL_cont_NPN.polygonlayer.0002" is empty.
+Input layer "l_0V_BJT_EMIT_NPN.polygonlayer.0006" is empty.
+Input layer "l_0V_BJT_BASE_NPN.polygonlayer.0005" is empty.
+Input layer "l_0V_BJT_BASE_cont_NPN.polygonlayer.0002" is empty.
+Input layer "term_3.polygonlayer.0003" is empty.
+Input layer "term_4.polygonlayer.0003" is empty.
+Input layer "m2pin_marker.polygonlayer.0001" is empty.
+Input layer "m3pin_marker.polygonlayer.0001" is empty.
+Input layer "m4pin_marker.polygonlayer.0001" is empty.
+Input layer "m5pin_marker.polygonlayer.0001" is empty.
+Input layer "m6pin_marker.polygonlayer.0001" is empty.
+Input layer "m7pin_marker.polygonlayer.0001" is empty.
+Input layer "m8pin_marker.polygonlayer.0001" is empty.
+Input layer "m9pin_marker.polygonlayer.0001" is empty.
+Input layer "pdores.polygonlayer.0005" is empty.
+Input layer "ndores.polygonlayer.0004" is empty.
+Input layer "ppores.polygonlayer.0004" is empty.
+Input layer "npores.polygonlayer.0004" is empty.
+Input layer "ppores_sblk.polygonlayer.0003" is empty.
+Input layer "npores_sblk.polygonlayer.0003" is empty.
+Input layer "ndiffdio.polygonlayer.0003" is empty.
+Input layer "pdiffdio.polygonlayer.0003" is empty.
+Input layer "body_3.polygonlayer.0003" is empty.
+Input layer "body_4.polygonlayer.0003" is empty.
+Using default technology file "hx2mw.tf" to create extract view library
+Start to load technology file hx2mw.tf.
+Technology file hx2mw.tf has been loaded successfully.
+Set "n105" cell flag to Standard Cell
+Set "p105" cell flag to Standard Cell
+Set "one_bit_adder_Leg4" cell flag to Standard Cell
+========== Cache Usage Status ==========
+Initial cache size:              16384K bytes
+Largest cache size:              18432K bytes
+Current cache size:              16384K bytes
+
+Largest number of cache blocks:     3
+Current number of cache blocks:     1
+Current number of cache pages:   4096
+========================================
+
+
+Milkyway db session terminated successfully!
+
+
+ Milkyway memory usage: 176.180M
+   Check Time=0:00:17  User=0.09 Sys=0.17 Mem=208.577
+
+netlist() at saed32nm_1p9m_lvs_rules.rs:1268
+layout_netl_fh = netlist(device_db)
+
+Generating micron-based NDB ...
+
+
+
+                                  ICV_Netlist 
+
+          Version O-2018.06-SP1 for linux64 - Jul 23, 2018 cl#4289877
+
+                    Copyright (c) 1996 - 2018 Synopsys, Inc.
+   This software and the associated documentation are proprietary to Synopsys,
+ Inc. This software may only be used in accordance with the terms and conditions
+ of a written license agreement with Synopsys, Inc. All other use, reproduction,
+            or distribution of this software is strictly prohibited.
+
+ Netlisting Time=0:00:01  User=0.01 Sys=0.03 Mem=5.179
+
+   Check Time=0:00:01  User=0.00 Sys=0.01 Mem=17.161
+
+compare() at saed32nm_1p9m_lvs_rules.rs:1415
+xref_db_h = compare(state = compare_settings, schematic = schem_netl_fh, layout = layout_netl_fh, user_functions_file = ICV_RUN_FILE_DIR1 + "/Include/functions.rs", memory_array_compare = (DECK_TYPE == "PEX_DECK") ? (false) : (true), write_equiv_netlists = ALL, action_on_error = EXPLODE, remove_dangling_net = LAYOUT_UNTEXTED, multiply_width = false, push_down_pins = false)
+Comparing schematic and layout netlists.
+   Check Time=0:00:11  User=0.01 Sys=0.00 Mem=19.208
+
+write_xref_spice() at saed32nm_1p9m_lvs_rules.rs:1433
+write_xref_spice(device_db, xref_db = xref_db_h, output_file = spice_netlist_fh)
+
+ Generating SPICE file "block".
+
+
+                                  ICV_Netlist 
+
+          Version O-2018.06-SP1 for linux64 - Jul 23, 2018 cl#4289877
+
+                    Copyright (c) 1996 - 2018 Synopsys, Inc.
+   This software and the associated documentation are proprietary to Synopsys,
+ Inc. This software may only be used in accordance with the terms and conditions
+ of a written license agreement with Synopsys, Inc. All other use, reproduction,
+            or distribution of this software is strictly prohibited.
+
+one_bit_adder_Leg4:	  22 device names failed to cross-reference
+		22 member of a merged device
+		0 removed during compare
+		0 unmatched and failed to compare
+		0 could not be cross-referenced
+		0 unrecognized layout name
+ Netlisting Time=0:00:01  User=0.00 Sys=0.01 Mem=5.311
+
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=17.161
+
+Reading error hierarchy error._hier.0001 ...
+ Elapsed Time=0:00:00  User=0.00 Sys=0.00 Mem=17.146
+
+  File Cleanup Time=0:00:00  User=0.00 Sys=0.00 Mem=18.146
+

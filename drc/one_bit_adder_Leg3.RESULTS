@@ -1,0 +1,111 @@
+                               RESULTS: CLEAN
+
+                      ####  #      #####   ###   #   #
+                     #      #      #      #   #  ##  #
+                     #      #      ####   #####  # # #
+                     #      #      #      #   #  #  ##
+                      ####  #####  #####  #   #  #   #
+
+===========================================================================
+
+
+---------------------------------------------------------------------------
+ICV Execution
+---------------------------------------------------------------------------
+
+
+                                 IC Validator 
+
+          Version O-2018.06-SP1 for linux64 - Jul 23, 2018 cl#4289877
+
+                    Copyright (c) 1996 - 2018 Synopsys, Inc.
+   This software and the associated documentation are proprietary to Synopsys,
+ Inc. This software may only be used in accordance with the terms and conditions
+ of a written license agreement with Synopsys, Inc. All other use, reproduction,
+            or distribution of this software is strictly prohibited.
+
+Called as: /usr/local/synopsys/icv_2018.06-SP1/icvalidator/O-2018.06-SP1/bin/LINUX.64/icv -vue -c one_bit_adder_Leg3 -i one_bit_adder_Leg3.gdsOut -f GDSII -s one_bit_adder_Leg3.cdl -sf SPICE -stc one_bit_adder_Leg3 ../iPDK/icv/drc/saed32nm_1p9m_drc_rules.rs
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+User name:        jneuenda
+Layout format:    GDSII
+Input file name:  one_bit_adder_Leg3.gdsOut
+Top cell name:    one_bit_adder_Leg3
+Time started:     2022/04/03 08:39:40PM
+Time ended:       2022/04/03 08:39:58PM
+
+
+---------------------------------------------------------------------------
+Results Summary
+---------------------------------------------------------------------------
+
+Rule and DRC Error Summary
+
+425 total rules were run.
+0 rules NOT EXECUTED.
+0 rules have violations.
+There are 0 total violations.
+Refer to one_bit_adder_Leg3.LAYOUT_ERRORS
+
+
+---------------------------------------------------------------------------
+Assign Layer Statistics
+---------------------------------------------------------------------------
+
+Utilized Assign Layers = 33
+ Empty Utilized Assign Layers = 24
+ Non-Empty Utilized Assign Layers = 9
+Pruned Assign Layers = 53
+
+
+---------------------------------------------------------------------------
+Run Configuration
+---------------------------------------------------------------------------
+
+run_options()
+ verbose_results_file = { }
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+hierarchy_options()
+ delete = { }
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+error_options()
+ error_limit_per_check = 1000000
+ match_errors = { }
+ match_errors_processing_mode = CELL_LEVEL
+ match_errors_tolerance = 0.0000
+ violation_options = { }
+ report_empty_violations = false
+ clean_classifications = { }
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Distributed Processing
+ Distributed Cores = 2
+
+ eecad3.eas.asu.edu (2/12)
+   Commands: 2 in parallel, maximum
+   Model: Intel(R) Xeon(R) E-2136 CPU @ 3.30GHz
+   CPU:   12 cpu 4300 MHz
+   Cores: 6 HT
+   RAM:   32 Gb
+   Swap:  16 Gb
+
+
+---------------------------------------------------------------------------
+Performance Statistics
+---------------------------------------------------------------------------
+
+IC Validator Run Time = 0:00:18
+Peak Single Command Memory = 46.177
+Peak Disk Usage = 10.106
+
+Distributed Host Memory Usage
+ eecad3.eas.asu.edu (2/12)  ....  Average=3.86 Mb, Peak=51 Mb / 32 Gb
+
+Overall Distributed Utilization: not available
+IC Validator is done.

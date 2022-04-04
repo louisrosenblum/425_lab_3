@@ -1,0 +1,14 @@
+ICV_HOME_DIR      = /usr/local/synopsys/icv_2018.06-SP1/icvalidator/O-2018.06-SP1
+ICV_COORDS_BIT    = 32
+WORKING_DIR       = .
+INLIB             = one_bit_adder_Leg4.gdsOut
+INLIB_PATH        = 
+BLOCK             = one_bit_adder_Leg4
+PYDB_PATH         = run_details/pydb
+RUN_DETAILS_DIR   = run_details
+NDB_PATH          = run_details/.ndb
+REPORT_LAYOUT_ERRORS = HIERARCHICAL
+FORMAT            = GDSII
+SCHEMATIC_FORMAT  = ICV
+GROUP_PATH        = run_details/group
+RUNSET_FILE_NAME  = saed32nm_1p9m_drc_rules.rs

@@ -1,0 +1,14 @@
+Virtuoso Framework License (111) was checked out successfully. Total checkout time was 0.05s.
+*INFO* (icLic-302) License Virtuoso_Schematic_Editor_XL ("Schematics XL") was used to run Schematics L.
+Running Artist Hierarchical Netlisting ...
+WARNING (OSSHNL-117): Ignoring switch view 'schematic' of cell 'vdd' in library 'basic', as it does not contain
+any instance. To netlist this cell, add this switch view to the stop list or to
+ignore any specific instance set the property 'nlAction' to value "ignore" on
+this cell view.
+
+WARNING (OSSHNL-117): Ignoring switch view 'schematic' of cell 'gnd' in library 'basic', as it does not contain
+any instance. To netlist this cell, add this switch view to the stop list or to
+ignore any specific instance set the property 'nlAction' to value "ignore" on
+this cell view.
+
+End netlisting Apr  3 09:52:12 2022

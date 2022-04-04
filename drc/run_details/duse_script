@@ -1,0 +1,8 @@
+#! /bin/sh
+total=0
+pathsize=`du -s --block-size=1 /afs/asu.edu/users/j/n/e/jneuenda/425_proj/425_lab/drc/run_details | awk '{print $1}'`
+total=$(($total+$pathsize))
+pathsize=`du -s --block-size=1 /afs/asu.edu/users/j/n/e/jneuenda/425_proj/425_lab/drc/one_bit_adder_Leg4.LAYOUT_ERRORS | awk '{print $1}'`
+total=$(($total+$pathsize))
+echo $total > /afs/asu.edu/users/j/n/e/jneuenda/425_proj/425_lab/drc/run_details/duse_master.tmp && \
+mv /afs/asu.edu/users/j/n/e/jneuenda/425_proj/425_lab/drc/run_details/duse_master.tmp /afs/asu.edu/users/j/n/e/jneuenda/425_proj/425_lab/drc/run_details/duse_master

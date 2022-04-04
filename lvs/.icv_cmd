@@ -1,0 +1,8 @@
+one_bit_adder_Leg4.gdsOut one_bit_adder_Leg4 one_bit_adder_Leg4 SPICE GDSII /usr/local/synopsys/icv_2018.06-SP1/icvalidator/O-2018.06-SP1/bin/LINUX.64/icv ../iPDK/icv/lvs/saed32nm_1p9m_lvs_rules.rs -vue -stc -sf -i -f -c 
+schematic=netlist.sp
+ICV_HOME_DIR=/usr/local/synopsys/icv_2018.06-SP1/icvalidator/O-2018.06-SP1
+ICV_INCLUDES=UNSET
+nettran_command= icv_nettran -sp netlist.sp -cell one_bit_adder_Leg4 -dupCell USE_MULTIPLE -sp-ndbConnect -quiet -logFile run_details/icv_nettran.log -globalNets VDD VDD12 VDD22 VSS VSS12 VDD22 VDD2 VDDG VDDH VDDL VDDIO VSSIO  -wireLog run_details/nettran_wire.log -dupCellReportFile run_details/nettran_dupCell.log  -outName /.netlist_database_sch -outType ndb -ndb-noOrgname -ndb-micron
+one_bit_adder_Leg4
+/afs/asu.edu/users/j/n/e/jneuenda/425_proj/425_lab/lvs/run_details
+Complete

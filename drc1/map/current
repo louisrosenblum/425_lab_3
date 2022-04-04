@@ -1,0 +1,15 @@
+( ( nil
+  version "2.1"
+  mapType "incremental"
+  blockName "one_bit_adder_Leg1"
+  repList "cdl schematic cmos_sch gate_sch cmos.sch gate.sch symbol"
+  stopList "cdl"
+  globalList "gnd! vdd!"
+  hierDelim "."
+  netlistDir "/afs/asu.edu/users/j/n/e/jneuenda/425_proj/425_lab/drc"
+ )
+( model
+( "Lab4/one_bit_adder_Leg1/schematic" "one_bit_adder_Leg1" )
+ )
+( "one_bit_adder_Leg1" "ihnl/cds0/map" )
+ )

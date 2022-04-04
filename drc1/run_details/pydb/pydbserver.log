@@ -1,0 +1,59 @@
+
+                                  PYDB_Server 
+
+          Version O-2018.06-SP1 for linux64 - Jul 23, 2018 cl#4289877
+
+                    Copyright (c) 2007 - 2018 Synopsys, Inc.
+   This software and the associated documentation are proprietary to Synopsys,
+ Inc. This software may only be used in accordance with the terms and conditions
+ of a written license agreement with Synopsys, Inc. All other use, reproduction,
+            or distribution of this software is strictly prohibited.
+
+variable width coordinate support enabled.
+Removing old database /afs/asu.edu/users/j/n/e/jneuenda/425_proj/425_lab/drc/run_details/pydb/PYDB_one_bit_adder_Leg1
+Listening for connections on port 7247
+PYDB_Server Started on host eecad3.eas.asu.edu, Sun 04/03/2022 14:30:50
+Verified current licenses.
+SQLite page_size=65536
+SQLite cache_size=65536
+SQLite mmap_size=0
+SQLite journal_mode=OFF
+SQLite version 3.10.0
+Client eecad3.eas.asu.edu(20165):17 connected (1 total client)
+Client eecad3.eas.asu.edu(20225):18 connected (2 total clients)
+Client eecad3.eas.asu.edu(20226):19 connected (3 total clients)
+Client eecad3.eas.asu.edu(20225):18 disconnected (2 clients remain)
+Client eecad3.eas.asu.edu(20225):18 connected (3 total clients)
+Client eecad3.eas.asu.edu(20226):19 disconnected (2 clients remain)
+Client eecad3.eas.asu.edu(20226):19 connected (3 total clients)
+Client eecad3.eas.asu.edu(20226):19 disconnected (2 clients remain)
+Client eecad3.eas.asu.edu(20225):18 disconnected (1 client remains)
+Generating /afs/asu.edu/users/j/n/e/jneuenda/425_proj/425_lab/drc/one_bit_adder_Leg1.LAYOUT_ERRORS
+  Generation Time=0:00:00  User=0.00 Sys=0.01 Mem=0.507
+Shutdown requested by client eecad3.eas.asu.edu(20165):17
+0 clients remain connected
+Overall server Time=0:00:14  User=0.04 Sys=0.05 Mem=0.507 SQLite=6.523 Unpooled=0.000
+
+                                  PYDB_Server 
+
+          Version O-2018.06-SP1 for linux64 - Jul 23, 2018 cl#4289877
+
+                    Copyright (c) 2007 - 2018 Synopsys, Inc.
+   This software and the associated documentation are proprietary to Synopsys,
+ Inc. This software may only be used in accordance with the terms and conditions
+ of a written license agreement with Synopsys, Inc. All other use, reproduction,
+            or distribution of this software is strictly prohibited.
+
+variable width coordinate support enabled.
+Listening for connections on port 8636
+PYDB_Server Started on host eecad3.eas.asu.edu, Sun 04/03/2022 14:31:14
+Verified current licenses.
+SQLite page_size=65536
+SQLite cache_size=65536
+SQLite mmap_size=0
+SQLite journal_mode=OFF
+SQLite version 3.10.0
+Client eecad3.eas.asu.edu(18809):16 connected (1 total client)
+Shutdown requested by client eecad3.eas.asu.edu(18809):16
+0 clients remain connected
+Overall server Time=0:00:32  User=0.01 Sys=0.01 Mem=0.359 SQLite=6.460 Unpooled=0.000

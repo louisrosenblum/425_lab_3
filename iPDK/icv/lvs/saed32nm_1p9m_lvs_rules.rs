@@ -64,7 +64,7 @@ inter : newtype enum of {
 DECK_TYPE : string = "PEX_DECK";
 CROSS_REFERENCE : string = "yes";
 ICV_RUN_FILE_DIR: string = ".";
-ICV_RUN_FILE_DIR1: string = "/afs/asu.edu/users/c/h/o/chocken/425_lab/iPDK/icv/lvs";
+ICV_RUN_FILE_DIR1: string = "/afs/asu.edu/users/j/n/e/jneuenda/425_proj/425_lab/iPDK/icv/lvs";
 
 
 

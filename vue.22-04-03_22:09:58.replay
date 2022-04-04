@@ -1,0 +1,20 @@
+# Sun Apr 3 22:09:58 2022
+
+# icv_vue: RHEL64 O-2018.06-SP1.4289877 2018/07/23
+
+# Hostname     : eecad3.eas.asu.edu
+# Platform type: LINUX.64
+
+# Called as: 
+# /usr/local/synopsys/icv_2018.06-SP1/icvalidator/O-2018.06-SP1/bin/LINUX.64/icv_vue.bin -lay virtuoso -layArgs curWinID 3 curLibName Lab4 curCellName one_bit_adder_Leg4 curViewName layout vuePidAryLength 0 -sch composer -schArgs curWinID 2 curLibName Lab4 curCellName one_bit_adder_Leg4 curViewName schematic vuePidAryLength 0 -skill 
+
+vue_set {runsetFileField} {iPDK/icv/drc/saed32nm_1p9m_drc_rules.rs}
+vue_set {binaryNameField} {icv -vue -c one_bit_adder_Leg4 -i one_bit_adder_Leg4.gdsOut -f GDSII -s one_bit_adder_Leg4.cdl -sf SPICE -stc one_bit_adder_Leg4 iPDK/icv/drc/saed32nm_1p9m_drc_rules.rs}
+vue_set {runDirectoryField} {/afs/asu.edu/users/j/n/e/jneuenda/425_proj/425_lab/}
+vue_set {runDirectoryField} {/afs/asu.edu/users/j/n/e/jneuenda/425_proj/425_lab/d}
+vue_set {runDirectoryField} {/afs/asu.edu/users/j/n/e/jneuenda/425_proj/425_lab/dr}
+vue_set {runDirectoryField} {/afs/asu.edu/users/j/n/e/jneuenda/425_proj/425_lab/drc}
+vue_click {importLayInfoPb}
+vue_click {executeButton}
+vue_wait {HiExecPage}
+vue_close {HiMain}

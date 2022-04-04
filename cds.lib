@@ -6,4 +6,23 @@ DEFINE saed32nm_rvt  ./saed32nm_rvt
 DEFINE saed32nm_lvt  ./saed32nm_lvt 
 DEFINE saed32nm_hvt  ./saed32nm_hvt 
 #Removed by ddDeleteObj: DEFINE Lab_1 /afs/asu.edu/users/p/d/c/pdcurtis/425_lab/Lab_1
-DEFINE Lab4 /afs/asu.edu/users/a/l/r/alrosen2/425_lab/Lab4
+DEFINE Lab4 /afs/asu.edu/users/j/n/e/jneuenda/425_proj/425_lab/Lab4
+#Removed by ddDeleteObj: DEFINE VUE_HILITE_ztDTEy /tmp/jneuenda_vue_GKCggm/VUE_HILITE_ztDTEy
+#Removed by ddDeleteObj: DEFINE VUE_HILITE_mY169P /tmp/jneuenda_vue_GKCggm/VUE_HILITE_mY169P
+#Removed by ddDeleteObj: DEFINE VUE_HILITE_TioQfu /tmp/jneuenda_vue_Aw15kN/VUE_HILITE_TioQfu
+#Removed by ddDeleteObj: DEFINE VUE_HILITE_AvT82V /tmp/jneuenda_vue_B1mILq/VUE_HILITE_AvT82V
+#Removed by ddDeleteObj: DEFINE VUE_HILITE_rGl7gv /tmp/jneuenda_vue_ruFdl5/VUE_HILITE_rGl7gv
+#Removed by ddDeleteObj: DEFINE VUE_HILITE_hoOexz /tmp/jneuenda_vue_oUSCFI/VUE_HILITE_hoOexz
+#Removed by ddDeleteObj: DEFINE VUE_HILITE_6LSMEL /tmp/jneuenda_vue_CAPlMB/VUE_HILITE_6LSMEL
+#Removed by ddDeleteObj: DEFINE VUE_HILITE_Fk41ej /tmp/jneuenda_vue_Zn56bQ/VUE_HILITE_Fk41ej
+#Removed by ddDeleteObj: DEFINE VUE_HILITE_pmAjl8 /tmp/jneuenda_vue_Zn56bQ/VUE_HILITE_pmAjl8
+#Removed by ddDeleteObj: DEFINE VUE_HILITE_ImKGxv /tmp/jneuenda_vue_qGMCLT/VUE_HILITE_ImKGxv
+#Removed by ddDeleteObj: DEFINE VUE_HILITE_sBbU4e /tmp/jneuenda_vue_LoK3Tv/VUE_HILITE_sBbU4e
+DEFINE VUE_HILITE_NDYxXq /tmp/jneuenda_vue_LoK3Tv/VUE_HILITE_NDYxXq
+#Removed by ddDeleteObj: DEFINE VUE_HILITE_Q3KsnG /tmp/jneuenda_vue_oYHLq4/VUE_HILITE_Q3KsnG
+#Removed by ddDeleteObj: DEFINE VUE_HILITE_urVPbB /tmp/jneuenda_vue_oYHLq4/VUE_HILITE_urVPbB
+#Removed by ddDeleteObj: DEFINE VUE_HILITE_PQkQqk /tmp/jneuenda_vue_9BEBOs/VUE_HILITE_PQkQqk
+#Removed by ddDeleteObj: DEFINE VUE_HILITE_FFumxz /tmp/jneuenda_vue_d1hLNa/VUE_HILITE_FFumxz
+#Removed by ddDeleteObj: DEFINE VUE_HILITE_9ENcsI /tmp/jneuenda_vue_d1hLNa/VUE_HILITE_9ENcsI
+#Removed by ddDeleteObj: DEFINE VUE_HILITE_lHn0Bx /tmp/jneuenda_vue_x0Yzok/VUE_HILITE_lHn0Bx
+#Removed by ddDeleteObj: DEFINE VUE_HILITE_G4hqIj /tmp/jneuenda_vue_tj9aHu/VUE_HILITE_G4hqIj

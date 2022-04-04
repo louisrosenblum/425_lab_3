@@ -1,0 +1,133 @@
+                         LVS Compare Results: PASS
+
+                          ####   ###    ####   ####
+                         #   #  #   #  #      #
+                         ####   #####  #####  #####
+                         #      #   #      #      #
+                         #      #   #  ####   #### 
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+                     DRC and Extraction Results: CLEAN
+
+                      ####  #      #####   ###   #   #
+                     #      #      #      #   #  ##  #
+                     #      #      ####   #####  # # #
+                     #      #      #      #   #  #  ##
+                      ####  #####  #####  #   #  #   #
+
+===========================================================================
+
+
+---------------------------------------------------------------------------
+ICV Execution
+---------------------------------------------------------------------------
+
+
+                                 IC Validator 
+
+          Version O-2018.06-SP1 for linux64 - Jul 23, 2018 cl#4289877
+
+                    Copyright (c) 1996 - 2018 Synopsys, Inc.
+   This software and the associated documentation are proprietary to Synopsys,
+ Inc. This software may only be used in accordance with the terms and conditions
+ of a written license agreement with Synopsys, Inc. All other use, reproduction,
+            or distribution of this software is strictly prohibited.
+
+Called as: /usr/local/synopsys/icv_2018.06-SP1/icvalidator/O-2018.06-SP1/bin/LINUX.64/icv -vue -c one_bit_adder_Leg4 -i one_bit_adder_Leg4.gdsOut -f GDSII -s netlist.sp -sf SPICE -stc one_bit_adder_Leg4 ../iPDK/icv/lvs/saed32nm_1p9m_lvs_rules.rs
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+User name:        jneuenda
+Layout format:    GDSII
+Input file name:  one_bit_adder_Leg4.gdsOut
+Top cell name:    one_bit_adder_Leg4
+Time started:     2022/04/03 10:08:04PM
+Time ended:       2022/04/03 10:08:54PM
+
+
+---------------------------------------------------------------------------
+Results Summary
+---------------------------------------------------------------------------
+
+Compare Error Summary
+Refer to one_bit_adder_Leg4.LVS_ERRORS.
+
+LVS Compare Result: PASS
+TOP equivalence point:
+		[one_bit_adder_Leg4, one_bit_adder_Leg4]
+
+    1 successful equivalencies
+    0 failed equivalencies
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+LVS Device Extraction Error Summary
+
+7 total rules were run.
+0 rules NOT EXECUTED.
+0 rules have violations.
+There are 0 total violations.
+Refer to one_bit_adder_Leg4.LAYOUT_ERRORS
+
+
+---------------------------------------------------------------------------
+Assign Layer Statistics
+---------------------------------------------------------------------------
+
+Utilized Assign Layers = 54
+ Empty Utilized Assign Layers = 44
+ Non-Empty Utilized Assign Layers = 10
+Pruned Assign Layers = 38
+
+
+---------------------------------------------------------------------------
+Run Configuration
+---------------------------------------------------------------------------
+
+run_options()
+ verbose_results_file = { }
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+hierarchy_options()
+ delete = { }
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+error_options()
+ error_limit_per_check = 100
+ match_errors = { }
+ match_errors_processing_mode = CELL_LEVEL
+ match_errors_tolerance = 0.0000
+ violation_options = { }
+ report_empty_violations = false
+ clean_classifications = { }
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Distributed Processing
+ Distributed Cores = 2
+
+ eecad3.eas.asu.edu (2/12)
+   Commands: 2 in parallel, maximum
+   Model: Intel(R) Xeon(R) E-2136 CPU @ 3.30GHz
+   CPU:   12 cpu 4299 MHz
+   Cores: 6 HT
+   RAM:   32 Gb
+   Swap:  16 Gb
+
+
+---------------------------------------------------------------------------
+Performance Statistics
+---------------------------------------------------------------------------
+
+IC Validator Run Time = 0:00:50
+Peak Single Command Memory = 208.577
+Peak Disk Usage = 0.705
+
+Distributed Host Memory Usage
+ eecad3.eas.asu.edu (2/12)  ....  Average=38.19 Mb, Peak=80 Mb / 32 Gb
+
+Overall Distributed Utilization: not available
+IC Validator is done.

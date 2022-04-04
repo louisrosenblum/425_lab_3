@@ -1,0 +1,36 @@
+* XREF SPICE	Sun Apr  3 14:38:33 2022	one_bit_adder_Leg1
+* icv_netlist Version RHEL64 O-2018.06-SP1.4289877 2018/07/23
+
+* Top of hierarchy  cell=one_bit_adder_Leg1
+.subckt one_bit_adder_Leg1 B A Cin gnd! CoutNot vdd!
+M_MM8 net23 A gnd! gnd! n105  l=3e-08 w=2.1e-07 nf=1 m=1 ad=2.079e-14 as=1.281e-14
++	 ps=3.32e-07 pd=6.18e-07 SCC=0.00502315 SCA=38.8616 SCB=0.0332441 nrd=0.471429
++	 nrs=0.290476
+M_MM9 net23 B gnd! gnd! n105  l=3e-08 w=2.1e-07 nf=1 m=1 ad=2.079e-14 as=1.281e-14
++	 ps=3.32e-07 pd=6.18e-07 SCC=0.0050083 SCA=38.2884 SCB=0.032092 nrd=0.471429
++	 nrs=0.290476
+M_MM7 CoutNot Cin net23 gnd! n105  l=3e-08 w=4.2e-07 nf=1 m=1 ad=2.562e-14 as=4.074e-14
++	 ps=1.034e-06 pd=5.42e-07 SCC=0.00933427 SCA=85.0894 SCB=0.0345216 nrd=0.145238
++	 nrs=0.230952
+M_MM1 CoutNot A net32 gnd! n105  l=3e-08 w=4.2e-07 nf=1 m=1 ad=2.562e-14 as=2.562e-14
++	 ps=5.42e-07 pd=5.42e-07 SCC=0.00933724 SCA=85.2877 SCB=0.0349148 nrd=0.145238
++	 nrs=0.145238
+M_MM6 net32 B gnd! gnd! n105  l=3e-08 w=4.2e-07 nf=1 m=1 ad=2.562e-14 as=4.284e-14
++	 ps=1.044e-06 pd=5.42e-07 SCC=0.0093476 SCA=85.7574 SCB=0.0358562 nrd=0.145238
++	 nrs=0.242857
+M_MM0 net11 A vdd! vdd! p105  l=3e-08 w=2.52e-07 nf=1 m=1 ad=2.4444e-14 as=1.5372e-14
++	 ps=3.74e-07 pd=6.98e-07 SCC=0.0246461 SCA=177.976 SCB=0.102102 nrd=0.384921
++	 nrs=0.242063
+M_MM2 net11 B vdd! vdd! p105  l=3e-08 w=2.52e-07 nf=1 m=1 ad=2.4948e-14 as=1.5372e-14
++	 ps=3.74e-07 pd=7.02e-07 SCC=0.0178369 SCA=119.902 SCB=0.101405 nrd=0.392857
++	 nrs=0.242063
+M_MM5 CoutNot Cin net11 vdd! p105  l=3e-08 w=5.04e-07 nf=1 m=1 ad=4.6368e-14 as=3.0744e-14
++	 ps=6.26e-07 pd=1.192e-06 SCC=0.0114529 SCA=100.683 SCB=0.0791801 nrd=0.18254
++	 nrs=0.121032
+M_MM4 CoutNot A net33 vdd! p105  l=3e-08 w=5.04e-07 nf=1 m=1 ad=3.0744e-14 as=3.0744e-14
++	 ps=6.26e-07 pd=6.26e-07 SCC=0.014603 SCA=114.776 SCB=0.0815755 nrd=0.121032
++	 nrs=0.121032
+M_MM3 net33 B vdd! vdd! p105  l=3e-08 w=5.04e-07 nf=1 m=1 ad=3.0744e-14 as=5.1408e-14
++	 ps=1.212e-06 pd=6.26e-07 SCC=0.0214122 SCA=172.85 SCB=0.0822723 nrd=0.121032
++	 nrs=0.202381
+.ends one_bit_adder_Leg1

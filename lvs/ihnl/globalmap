@@ -1,0 +1,10 @@
+CADENCE IHNL11140
+$model
+Lab4/one_bit_adder_Leg4/schematic one_bit_adder_Leg4
+$endmodel
+$net
+gnd! gnd!
+vdd! vdd!
+$endnet
+$param
+$endparam

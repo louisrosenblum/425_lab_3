@@ -1,0 +1,31 @@
+
+                                  ICV_Master 
+
+          Version O-2018.06-SP1 for linux64 - Jul 23, 2018 cl#4289877
+
+                    Copyright (c) 1996 - 2018 Synopsys, Inc.
+   This software and the associated documentation are proprietary to Synopsys,
+ Inc. This software may only be used in accordance with the terms and conditions
+ of a written license agreement with Synopsys, Inc. All other use, reproduction,
+            or distribution of this software is strictly prohibited.
+
+Called as: /usr/local/synopsys/icv_2018.06-SP1/icvalidator/O-2018.06-SP1/bin/LINUX.64/icv -vue -c one_bit_adder_Leg4 -i one_bit_adder_Leg4.gdsOut -f GDSII -s netlist.sp -sf SPICE -stc one_bit_adder_Leg4 ../iPDK/icv/lvs/saed32nm_1p9m_lvs_rules.rs
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+User name:        jneuenda
+Layout format:    GDSII
+Input file name:  one_bit_adder_Leg4.gdsOut
+Top cell name:    one_bit_adder_Leg4
+Time started:     2022/04/03 10:08:17PM
+
+--------------------------------------------------------------------------------
+                             Rules to be Executed                               
+--------------------------------------------------------------------------------
+
+@ "Interact of HVTIMP and DIFF_25 is not allowed"
+@ "Interact of HVTIMP and LVTIMP is not allowed"
+@ "Interact of HVTIMP and diff_18 is not allowed"
+@ "Interact of LVTIMP and DIFF_25 is not allowed"
+@ "Interact of LVTIMP and diff_18 is not allowed"
+@ "Violation"

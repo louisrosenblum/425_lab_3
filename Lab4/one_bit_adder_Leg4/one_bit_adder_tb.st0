@@ -1,0 +1,67 @@
+****** HSPICE -- K-2015.06-2 linux64 (Jun 25 2015) ******
+ Input File: one_bit_adder_tb.sp
+ lic:
+ lic: FLEXlm: v11.2.1
+ lic: USER:   alrosen2             HOSTNAME: eecad101
+ lic: HOSTID: "e4434bdac7cd"       PID:      153177
+ lic: Using FLEXlm license file:
+ lic: 27020@enlicense9.eas.asu.edu
+ lic: Checkout 1 hspice
+ lic: License/Maintenance for hspice will expire on 18-jun-2022/2020.12
+ lic: 7(in_use)/150(total) FLOATING license(s) on SERVER 27020@enlicense9.eas.asu.edu
+ lic:
+ init: begin read circuit files,  cpu clock=  3.40E-01
+       option search = /usr/local/synopsys/hspice_2015.06/hspice/parts/
+                         ad
+       option search = /usr/local/synopsys/hspice_2015.06/hspice/parts/
+                         ad
+       option search = /usr/local/synopsys/hspice_2015.06/hspice/parts/
+                         behave
+       option search = /usr/local/synopsys/hspice_2015.06/hspice/parts/
+                         bjt
+       option search = /usr/local/synopsys/hspice_2015.06/hspice/parts/
+                         burr_brn
+       option search = /usr/local/synopsys/hspice_2015.06/hspice/parts/
+                         comlinear
+       option search = /usr/local/synopsys/hspice_2015.06/hspice/parts/
+                         dio
+       option search = /usr/local/synopsys/hspice_2015.06/hspice/parts/
+                         fet
+       option search = /usr/local/synopsys/hspice_2015.06/hspice/parts/
+                         lin_tech
+       option search = /usr/local/synopsys/hspice_2015.06/hspice/parts/
+                         pci
+       option search = /usr/local/synopsys/hspice_2015.06/hspice/parts/
+                         signet
+       option search = /usr/local/synopsys/hspice_2015.06/hspice/parts/
+                         ti
+       option search = /usr/local/synopsys/hspice_2015.06/hspice/parts/
+                         tline
+       option search = /usr/local/synopsys/hspice_2015.06/hspice/parts/
+                         xilinx
+       option runlvl
+       option post
+ init: end read circuit files,  cpu clock=  3.50E-01 peak memory=       236 mb
+ init: begin check errors,  cpu clock=  3.50E-01
+ init: end check errors,  cpu clock=  4.40E-01 peak memory=       239 mb
+ init: begin setup matrix, pivot=     0 cpu clock=  4.40E-01
+       establish matrix -- done,  cpu clock=  4.40E-01 peak memory=       239 mb
+       re-order matrix -- done,  cpu clock=  4.40E-01 peak memory=       239 mb
+ init: end setup matrix,  cpu clock=  6.00E-01 peak memory=       239 mb
+ dcop: begin dcop,  cpu clock=  6.00E-01
+ dcop: end dcop,  cpu clock=  6.80E-01 peak memory=       239 mb  tot_iter=      14
+ output: one_bit_adder_tb.mt0
+ sweep: tran tran0    begin, stop_t=  1.60E-08 #sweeps=8001 cpu clock=  7.20E-01
+ tran: time= 1.7167E-09 tot_iter=     162 conv_iter=      60 cpu clock= 7.40E-01
+ tran: time= 3.2043E-09 tot_iter=     311 conv_iter=     113 cpu clock= 7.50E-01
+ tran: time= 4.9333E-09 tot_iter=     453 conv_iter=     166 cpu clock= 7.60E-01
+ tran: time= 6.4655E-09 tot_iter=     654 conv_iter=     238 cpu clock= 7.80E-01
+ tran: time= 8.0000E-09 tot_iter=     739 conv_iter=     272 cpu clock= 7.80E-01
+ tran: time= 9.6603E-09 tot_iter=     877 conv_iter=     323 cpu clock= 7.90E-01
+ tran: time= 1.1200E-08 tot_iter=    1053 conv_iter=     387 cpu clock= 8.10E-01
+ tran: time= 1.2929E-08 tot_iter=    1195 conv_iter=     439 cpu clock= 8.20E-01
+ tran: time= 1.4460E-08 tot_iter=    1395 conv_iter=     511 cpu clock= 8.30E-01
+ tran: time= 1.6000E-08 tot_iter=    1476 conv_iter=     544 cpu clock= 8.30E-01
+ sweep: tran tran0    end,  cpu clock=  8.30E-01 peak memory=       234 mb
+>info:         ***** hspice job concluded
+ lic: Release hspice token(s)

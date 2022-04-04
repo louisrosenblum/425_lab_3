@@ -1,0 +1,13 @@
+
+
+*******************************************************************************
+* Main Circuit Netlist:                                                       *
+*                                                                             *
+* Library: Lab4                                                               *
+* Cell   : one_bit_adder_Leg1                                                 *
+* View   : schematic                                                          *
+* Last Time Saved: Apr  3 11:30:04 2022                                       *
+*******************************************************************************
+.subckt one_bit_adder_Leg1 CoutNot A B Cin
+*.PININFO CoutNot:O A:I B:I Cin:I 
+.ends one_bit_adder_Leg1

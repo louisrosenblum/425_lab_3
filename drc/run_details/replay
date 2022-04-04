@@ -1,0 +1,2977 @@
+#
+# runset is ../iPDK/icv/drc/saed32nm_1p9m_drc_rules.rs
+#
+runset_csum = 40684
+num_hosts = 2
+events {
+S 334.0.0 1236 0
+# eecad3.eas.asu.edu(0):       693  1 _prescan_library
+F 334.0.0 1236 0
+S 336.0.0 1243 0
+# eecad3.eas.asu.edu(0):       688  1 _scan_hierarchy
+F 336.0.0 1243 0
+S 338.0.0 1247 0
+# eecad3.eas.asu.edu(0):      6493  1 _read_library_segment
+F 338.0.0 1247 0
+S 340.0.0 1254 0
+# eecad3.eas.asu.edu(0):      4154  1 _create_hierarchy_tree
+F 340.0.0 1254 0
+S 403.0.0 1468 0
+# eecad3.eas.asu.edu(0):      1294  1 _optimize_hierarchy_tree
+S 402.0.0 1466 1
+# eecad3.eas.asu.edu(1):       727  1 _generate_sibling_refref
+F 402.0.0 1466 1
+S 463.0.0 1620 1
+# eecad3.eas.asu.edu(1):      3317  1 _create_layer_dp
+F 463.0.0 1620 1
+S 433.0.0 1569 1
+# eecad3.eas.asu.edu(1):      3317  1 _create_layer_dp
+F 433.0.0 1569 1
+S 430.0.0 1558 1
+# eecad3.eas.asu.edu(1):      3325  1 _create_layer_dp
+F 430.0.0 1558 1
+S 427.0.0 1547 1
+# eecad3.eas.asu.edu(1):      3317  1 _create_layer_dp
+F 427.0.0 1547 1
+S 424.0.0 1536 1
+# eecad3.eas.asu.edu(1):      3317  1 _create_layer_dp
+F 424.0.0 1536 1
+S 418.0.0 1522 1
+# eecad3.eas.asu.edu(1):      3323  1 _create_layer_dp
+F 418.0.0 1522 1
+S 415.0.0 1511 1
+# eecad3.eas.asu.edu(1):      3323  1 _create_layer_dp
+F 415.0.0 1511 1
+S 412.0.0 1500 1
+# eecad3.eas.asu.edu(1):      3323  1 _create_layer_dp
+F 412.0.0 1500 1
+S 408.0.0 1485 1
+# eecad3.eas.asu.edu(1):      3327  1 _create_layer_dp
+F 408.0.0 1485 1
+S 461.0.0 1617 1
+# eecad3.eas.asu.edu(1):      2189  1 _empty_layer
+F 461.0.0 1617 1
+S 459.0.0 1614 1
+# eecad3.eas.asu.edu(1):      2195  1 _empty_layer
+F 459.0.0 1614 1
+S 457.0.0 1611 1
+# eecad3.eas.asu.edu(1):      2189  1 _empty_layer
+F 457.0.0 1611 1
+S 455.0.0 1608 1
+# eecad3.eas.asu.edu(1):      2195  1 _empty_layer
+F 455.0.0 1608 1
+S 453.0.0 1605 1
+# eecad3.eas.asu.edu(1):      2189  1 _empty_layer
+F 453.0.0 1605 1
+S 451.0.0 1602 1
+# eecad3.eas.asu.edu(1):      2195  1 _empty_layer
+F 451.0.0 1602 1
+S 449.0.0 1599 1
+# eecad3.eas.asu.edu(1):      2189  1 _empty_layer
+F 449.0.0 1599 1
+S 446.0.0 1595 1
+# eecad3.eas.asu.edu(1):      2189  1 _empty_layer
+F 446.0.0 1595 1
+S 444.0.0 1592 1
+# eecad3.eas.asu.edu(1):      2195  1 _empty_layer
+F 444.0.0 1592 1
+S 442.0.0 1589 1
+# eecad3.eas.asu.edu(1):      2189  1 _empty_layer
+F 442.0.0 1589 1
+S 440.0.0 1586 1
+# eecad3.eas.asu.edu(1):      2195  1 _empty_layer
+F 440.0.0 1586 1
+S 438.0.0 1583 1
+# eecad3.eas.asu.edu(1):      2189  1 _empty_layer
+F 438.0.0 1583 1
+S 436.0.0 1580 1
+# eecad3.eas.asu.edu(1):      2195  1 _empty_layer
+F 436.0.0 1580 1
+S 401.0.0 1461 1
+# eecad3.eas.asu.edu(1):       752  1 _grid_check_hierarchy
+F 401.0.0 1461 1
+F 0 0 1
+F 403.0.0 1468 0
+S 405.0.0 1478 0
+# eecad3.eas.asu.edu(0):       890  1 _hierarchy_cleanup
+F 405.0.0 1478 0
+S 406.0.0 1481 1
+# eecad3.eas.asu.edu(1):       983  1 _update_and_pushdown_refref
+F 406.0.0 1481 1
+S 2217.0.0 7424 1
+# eecad3.eas.asu.edu(1):      2217  1 _tag_violation
+F 2217.0.0 7424 1
+S 2215.0.0 7419 1
+# eecad3.eas.asu.edu(1):      1253  1 _tag_violation
+F 2215.0.0 7419 1
+S 2213.0.0 7414 1
+# eecad3.eas.asu.edu(1):      2620  1 _tag_violation
+F 2213.0.0 7414 1
+S 2211.0.0 7409 1
+# eecad3.eas.asu.edu(1):      2558  1 _tag_violation
+F 2211.0.0 7409 1
+S 2209.0.0 7404 1
+# eecad3.eas.asu.edu(1):      2222  1 _tag_violation
+F 2209.0.0 7404 1
+S 2207.0.0 7399 1
+# eecad3.eas.asu.edu(1):      2625  1 _tag_violation
+F 2207.0.0 7399 1
+S 2205.0.0 7394 1
+# eecad3.eas.asu.edu(1):      2558  1 _tag_violation
+F 2205.0.0 7394 1
+S 2203.0.0 7389 1
+# eecad3.eas.asu.edu(1):      2222  1 _tag_violation
+F 2203.0.0 7389 1
+S 2201.0.0 7384 1
+# eecad3.eas.asu.edu(1):      2625  1 _tag_violation
+F 2201.0.0 7384 1
+S 2199.0.0 7379 1
+# eecad3.eas.asu.edu(1):      2566  1 _tag_violation
+F 2199.0.0 7379 1
+S 2197.0.0 7374 1
+# eecad3.eas.asu.edu(1):      2245  1 _tag_violation
+F 2197.0.0 7374 1
+S 2195.0.0 7369 1
+# eecad3.eas.asu.edu(1):      1277  1 _tag_violation
+F 2195.0.0 7369 1
+S 2193.0.0 7364 1
+# eecad3.eas.asu.edu(1):      1321  1 _tag_violation
+F 2193.0.0 7364 1
+S 2191.0.0 7359 1
+# eecad3.eas.asu.edu(1):      1207  1 _tag_violation
+F 2191.0.0 7359 1
+S 2189.0.0 7354 1
+# eecad3.eas.asu.edu(1):      1320  1 _tag_violation
+F 2189.0.0 7354 1
+S 2187.0.0 7349 1
+# eecad3.eas.asu.edu(1):      1206  1 _tag_violation
+F 2187.0.0 7349 1
+S 2185.0.0 7344 1
+# eecad3.eas.asu.edu(1):      1456  1 _tag_violation
+F 2185.0.0 7344 1
+S 2183.0.0 7339 1
+# eecad3.eas.asu.edu(1):      1462  1 _tag_violation
+F 2183.0.0 7339 1
+S 2181.0.0 7334 1
+# eecad3.eas.asu.edu(1):      1915  1 _tag_violation
+F 2181.0.0 7334 1
+S 2179.0.0 7329 1
+# eecad3.eas.asu.edu(1):      1915  1 _tag_violation
+F 2179.0.0 7329 1
+S 2177.0.0 7324 1
+# eecad3.eas.asu.edu(1):      1034  1 _tag_violation
+F 2177.0.0 7324 1
+S 2175.0.0 7319 1
+# eecad3.eas.asu.edu(1):      1034  1 _tag_violation
+F 2175.0.0 7319 1
+S 2173.0.0 7314 1
+# eecad3.eas.asu.edu(1):      2539  1 _tag_violation
+F 2173.0.0 7314 1
+S 2171.0.0 7309 1
+# eecad3.eas.asu.edu(1):      2539  1 _tag_violation
+F 2171.0.0 7309 1
+S 2169.0.0 7304 1
+# eecad3.eas.asu.edu(1):      2246  1 _tag_violation
+F 2169.0.0 7304 1
+S 2167.0.0 7299 1
+# eecad3.eas.asu.edu(1):      1064  1 _tag_violation
+F 2167.0.0 7299 1
+S 2165.0.0 7294 1
+# eecad3.eas.asu.edu(1):      1334  1 _tag_violation
+F 2165.0.0 7294 1
+S 2163.0.0 7289 1
+# eecad3.eas.asu.edu(1):      1488  1 _tag_violation
+F 2163.0.0 7289 1
+S 2161.0.0 7284 1
+# eecad3.eas.asu.edu(1):      1111  1 _tag_violation
+F 2161.0.0 7284 1
+S 2159.0.0 7279 1
+# eecad3.eas.asu.edu(1):      1918  1 _tag_violation
+F 2159.0.0 7279 1
+S 2157.0.0 7274 1
+# eecad3.eas.asu.edu(1):      1918  1 _tag_violation
+F 2157.0.0 7274 1
+S 2155.0.0 7269 1
+# eecad3.eas.asu.edu(1):      1034  1 _tag_violation
+F 2155.0.0 7269 1
+S 2153.0.0 7264 1
+# eecad3.eas.asu.edu(1):      1034  1 _tag_violation
+F 2153.0.0 7264 1
+S 2151.0.0 7259 1
+# eecad3.eas.asu.edu(1):      2539  1 _tag_violation
+F 2151.0.0 7259 1
+S 2149.0.0 7254 1
+# eecad3.eas.asu.edu(1):      2539  1 _tag_violation
+F 2149.0.0 7254 1
+S 2147.0.0 7249 1
+# eecad3.eas.asu.edu(1):      2639  1 _tag_violation
+F 2147.0.0 7249 1
+S 2145.0.0 7244 1
+# eecad3.eas.asu.edu(1):      2249  1 _tag_violation
+F 2145.0.0 7244 1
+S 2143.0.0 7239 1
+# eecad3.eas.asu.edu(1):      2250  1 _tag_violation
+F 2143.0.0 7239 1
+S 2141.0.0 7234 1
+# eecad3.eas.asu.edu(1):      2637  1 _tag_violation
+F 2141.0.0 7234 1
+S 2139.0.0 7229 1
+# eecad3.eas.asu.edu(1):      2638  1 _tag_violation
+F 2139.0.0 7229 1
+S 2137.0.0 7224 1
+# eecad3.eas.asu.edu(1):      2248  1 _tag_violation
+F 2137.0.0 7224 1
+S 2135.0.0 7219 1
+# eecad3.eas.asu.edu(1):      1061  1 _tag_violation
+F 2135.0.0 7219 1
+S 2133.0.0 7214 1
+# eecad3.eas.asu.edu(1):      1488  1 _tag_violation
+F 2133.0.0 7214 1
+S 2131.0.0 7209 1
+# eecad3.eas.asu.edu(1):      1111  1 _tag_violation
+F 2131.0.0 7209 1
+S 2129.0.0 7204 1
+# eecad3.eas.asu.edu(1):      1918  1 _tag_violation
+F 2129.0.0 7204 1
+S 2127.0.0 7199 1
+# eecad3.eas.asu.edu(1):      1918  1 _tag_violation
+F 2127.0.0 7199 1
+S 2125.0.0 7194 1
+# eecad3.eas.asu.edu(1):      1034  1 _tag_violation
+F 2125.0.0 7194 1
+S 2123.0.0 7189 1
+# eecad3.eas.asu.edu(1):      1034  1 _tag_violation
+F 2123.0.0 7189 1
+S 2121.0.0 7184 1
+# eecad3.eas.asu.edu(1):      2539  1 _tag_violation
+F 2121.0.0 7184 1
+S 2119.0.0 7179 1
+# eecad3.eas.asu.edu(1):      2539  1 _tag_violation
+F 2119.0.0 7179 1
+S 2117.0.0 7174 1
+# eecad3.eas.asu.edu(1):      2639  1 _tag_violation
+F 2117.0.0 7174 1
+S 2115.0.0 7169 1
+# eecad3.eas.asu.edu(1):      2249  1 _tag_violation
+F 2115.0.0 7169 1
+S 2113.0.0 7164 1
+# eecad3.eas.asu.edu(1):      2250  1 _tag_violation
+F 2113.0.0 7164 1
+S 2111.0.0 7159 1
+# eecad3.eas.asu.edu(1):      2637  1 _tag_violation
+F 2111.0.0 7159 1
+S 2109.0.0 7154 1
+# eecad3.eas.asu.edu(1):      2638  1 _tag_violation
+F 2109.0.0 7154 1
+S 2107.0.0 7149 1
+# eecad3.eas.asu.edu(1):      2248  1 _tag_violation
+F 2107.0.0 7149 1
+S 2105.0.0 7144 1
+# eecad3.eas.asu.edu(1):      1061  1 _tag_violation
+F 2105.0.0 7144 1
+S 2103.0.0 7139 1
+# eecad3.eas.asu.edu(1):      1488  1 _tag_violation
+F 2103.0.0 7139 1
+S 2101.0.0 7134 1
+# eecad3.eas.asu.edu(1):      1111  1 _tag_violation
+F 2101.0.0 7134 1
+S 2099.0.0 7129 1
+# eecad3.eas.asu.edu(1):      1918  1 _tag_violation
+F 2099.0.0 7129 1
+S 2097.0.0 7124 1
+# eecad3.eas.asu.edu(1):      1918  1 _tag_violation
+F 2097.0.0 7124 1
+S 2095.0.0 7119 1
+# eecad3.eas.asu.edu(1):      1034  1 _tag_violation
+F 2095.0.0 7119 1
+S 2093.0.0 7114 1
+# eecad3.eas.asu.edu(1):      1034  1 _tag_violation
+F 2093.0.0 7114 1
+S 2091.0.0 7109 1
+# eecad3.eas.asu.edu(1):      2539  1 _tag_violation
+F 2091.0.0 7109 1
+S 2089.0.0 7104 1
+# eecad3.eas.asu.edu(1):      2539  1 _tag_violation
+F 2089.0.0 7104 1
+S 2087.0.0 7099 1
+# eecad3.eas.asu.edu(1):      2639  1 _tag_violation
+F 2087.0.0 7099 1
+S 2085.0.0 7094 1
+# eecad3.eas.asu.edu(1):      2249  1 _tag_violation
+F 2085.0.0 7094 1
+S 2083.0.0 7089 1
+# eecad3.eas.asu.edu(1):      2250  1 _tag_violation
+F 2083.0.0 7089 1
+S 2081.0.0 7084 1
+# eecad3.eas.asu.edu(1):      2637  1 _tag_violation
+F 2081.0.0 7084 1
+S 2079.0.0 7079 1
+# eecad3.eas.asu.edu(1):      2638  1 _tag_violation
+F 2079.0.0 7079 1
+S 2077.0.0 7074 1
+# eecad3.eas.asu.edu(1):      2248  1 _tag_violation
+F 2077.0.0 7074 1
+S 2075.0.0 7069 1
+# eecad3.eas.asu.edu(1):      1061  1 _tag_violation
+F 2075.0.0 7069 1
+S 2073.0.0 7064 1
+# eecad3.eas.asu.edu(1):      1488  1 _tag_violation
+F 2073.0.0 7064 1
+S 2071.0.0 7059 1
+# eecad3.eas.asu.edu(1):      1111  1 _tag_violation
+F 2071.0.0 7059 1
+S 2069.0.0 7054 1
+# eecad3.eas.asu.edu(1):      1918  1 _tag_violation
+F 2069.0.0 7054 1
+S 2067.0.0 7049 1
+# eecad3.eas.asu.edu(1):      1918  1 _tag_violation
+F 2067.0.0 7049 1
+S 2065.0.0 7044 1
+# eecad3.eas.asu.edu(1):      1034  1 _tag_violation
+F 2065.0.0 7044 1
+S 2063.0.0 7039 1
+# eecad3.eas.asu.edu(1):      1034  1 _tag_violation
+F 2063.0.0 7039 1
+S 2061.0.0 7034 1
+# eecad3.eas.asu.edu(1):      2539  1 _tag_violation
+F 2061.0.0 7034 1
+S 2059.0.0 7029 1
+# eecad3.eas.asu.edu(1):      2539  1 _tag_violation
+F 2059.0.0 7029 1
+S 2057.0.0 7024 1
+# eecad3.eas.asu.edu(1):      2639  1 _tag_violation
+F 2057.0.0 7024 1
+S 2055.0.0 7019 1
+# eecad3.eas.asu.edu(1):      2249  1 _tag_violation
+F 2055.0.0 7019 1
+S 2053.0.0 7014 1
+# eecad3.eas.asu.edu(1):      2250  1 _tag_violation
+F 2053.0.0 7014 1
+S 2051.0.0 7009 1
+# eecad3.eas.asu.edu(1):      2637  1 _tag_violation
+F 2051.0.0 7009 1
+S 2049.0.0 7004 1
+# eecad3.eas.asu.edu(1):      2638  1 _tag_violation
+F 2049.0.0 7004 1
+S 2047.0.0 6999 1
+# eecad3.eas.asu.edu(1):      2248  1 _tag_violation
+F 2047.0.0 6999 1
+S 2045.0.0 6994 1
+# eecad3.eas.asu.edu(1):      1061  1 _tag_violation
+F 2045.0.0 6994 1
+S 2043.0.0 6989 1
+# eecad3.eas.asu.edu(1):      1488  1 _tag_violation
+F 2043.0.0 6989 1
+S 2041.0.0 6984 1
+# eecad3.eas.asu.edu(1):      1111  1 _tag_violation
+F 2041.0.0 6984 1
+S 2039.0.0 6979 1
+# eecad3.eas.asu.edu(1):      1918  1 _tag_violation
+F 2039.0.0 6979 1
+S 2037.0.0 6974 1
+# eecad3.eas.asu.edu(1):      1918  1 _tag_violation
+F 2037.0.0 6974 1
+S 2035.0.0 6969 1
+# eecad3.eas.asu.edu(1):      1034  1 _tag_violation
+F 2035.0.0 6969 1
+S 2033.0.0 6964 1
+# eecad3.eas.asu.edu(1):      1034  1 _tag_violation
+F 2033.0.0 6964 1
+S 2031.0.0 6959 1
+# eecad3.eas.asu.edu(1):      2539  1 _tag_violation
+F 2031.0.0 6959 1
+S 2029.0.0 6954 1
+# eecad3.eas.asu.edu(1):      2539  1 _tag_violation
+F 2029.0.0 6954 1
+S 2027.0.0 6949 1
+# eecad3.eas.asu.edu(1):      2639  1 _tag_violation
+F 2027.0.0 6949 1
+S 2025.0.0 6944 1
+# eecad3.eas.asu.edu(1):      2249  1 _tag_violation
+F 2025.0.0 6944 1
+S 2023.0.0 6939 1
+# eecad3.eas.asu.edu(1):      2250  1 _tag_violation
+F 2023.0.0 6939 1
+S 2021.0.0 6934 1
+# eecad3.eas.asu.edu(1):      2637  1 _tag_violation
+F 2021.0.0 6934 1
+S 2019.0.0 6929 1
+# eecad3.eas.asu.edu(1):      2638  1 _tag_violation
+F 2019.0.0 6929 1
+S 2017.0.0 6924 1
+# eecad3.eas.asu.edu(1):      2248  1 _tag_violation
+F 2017.0.0 6924 1
+S 2015.0.0 6919 1
+# eecad3.eas.asu.edu(1):      1061  1 _tag_violation
+F 2015.0.0 6919 1
+S 2013.0.0 6914 1
+# eecad3.eas.asu.edu(1):      1488  1 _tag_violation
+F 2013.0.0 6914 1
+S 2011.0.0 6909 1
+# eecad3.eas.asu.edu(1):      1111  1 _tag_violation
+F 2011.0.0 6909 1
+S 2009.0.0 6904 1
+# eecad3.eas.asu.edu(1):      1918  1 _tag_violation
+F 2009.0.0 6904 1
+S 2007.0.0 6899 1
+# eecad3.eas.asu.edu(1):      1918  1 _tag_violation
+F 2007.0.0 6899 1
+S 2005.0.0 6894 1
+# eecad3.eas.asu.edu(1):      1034  1 _tag_violation
+F 2005.0.0 6894 1
+S 2003.0.0 6889 1
+# eecad3.eas.asu.edu(1):      1034  1 _tag_violation
+F 2003.0.0 6889 1
+S 2001.0.0 6884 1
+# eecad3.eas.asu.edu(1):      2539  1 _tag_violation
+F 2001.0.0 6884 1
+S 1999.0.0 6879 1
+# eecad3.eas.asu.edu(1):      2539  1 _tag_violation
+F 1999.0.0 6879 1
+S 1997.0.0 6874 1
+# eecad3.eas.asu.edu(1):      2639  1 _tag_violation
+F 1997.0.0 6874 1
+S 1995.0.0 6869 1
+# eecad3.eas.asu.edu(1):      2249  1 _tag_violation
+F 1995.0.0 6869 1
+S 1993.0.0 6864 1
+# eecad3.eas.asu.edu(1):      2250  1 _tag_violation
+F 1993.0.0 6864 1
+S 1991.0.0 6859 1
+# eecad3.eas.asu.edu(1):      2637  1 _tag_violation
+F 1991.0.0 6859 1
+S 1989.0.0 6854 1
+# eecad3.eas.asu.edu(1):      2638  1 _tag_violation
+F 1989.0.0 6854 1
+S 1987.0.0 6849 1
+# eecad3.eas.asu.edu(1):      2248  1 _tag_violation
+F 1987.0.0 6849 1
+S 1985.0.0 6844 1
+# eecad3.eas.asu.edu(1):      1061  1 _tag_violation
+F 1985.0.0 6844 1
+S 1724.0.0 5829 1
+# eecad3.eas.asu.edu(1):      2369  1 _tag_violation
+F 1724.0.0 5829 1
+S 1722.0.0 5824 1
+# eecad3.eas.asu.edu(1):      2367  1 _tag_violation
+F 1722.0.0 5824 1
+S 1720.0.0 5819 1
+# eecad3.eas.asu.edu(1):      2368  1 _tag_violation
+F 1720.0.0 5819 1
+S 1718.0.0 5814 1
+# eecad3.eas.asu.edu(1):      2366  1 _tag_violation
+F 1718.0.0 5814 1
+S 1716.0.0 5809 1
+# eecad3.eas.asu.edu(1):      2735  1 _tag_violation
+F 1716.0.0 5809 1
+S 1714.0.0 5804 1
+# eecad3.eas.asu.edu(1):      2735  1 _tag_violation
+F 1714.0.0 5804 1
+S 1712.0.0 5799 1
+# eecad3.eas.asu.edu(1):      1057  1 _tag_violation
+F 1712.0.0 5799 1
+S 1710.0.0 5794 1
+# eecad3.eas.asu.edu(1):      1167  1 _tag_violation
+F 1710.0.0 5794 1
+S 1708.0.0 5789 1
+# eecad3.eas.asu.edu(1):      2244  1 _tag_violation
+F 1708.0.0 5789 1
+S 1706.0.0 5784 1
+# eecad3.eas.asu.edu(1):      1069  1 _tag_violation
+S 1704.0.0 5779 0
+# eecad3.eas.asu.edu(0):      2647  1 _tag_violation
+F 1706.0.0 5784 1
+S 1702.0.0 5774 1
+# eecad3.eas.asu.edu(1):      1527  1 _tag_violation
+F 1702.0.0 5774 1
+S 1700.0.0 5769 1
+# eecad3.eas.asu.edu(1):      1528  1 _tag_violation
+F 1700.0.0 5769 1
+S 1698.0.0 5764 1
+# eecad3.eas.asu.edu(1):      1529  1 _tag_violation
+F 1704.0.0 5779 0
+S 1696.0.0 5759 0
+# eecad3.eas.asu.edu(0):      1528  1 _tag_violation
+F 1698.0.0 5764 1
+S 1694.0.0 5754 1
+# eecad3.eas.asu.edu(1):      2653  1 _tag_violation
+F 1696.0.0 5759 0
+S 1692.0.0 5749 0
+# eecad3.eas.asu.edu(0):      1057  1 _tag_violation
+F 1694.0.0 5754 1
+S 1690.0.0 5744 1
+# eecad3.eas.asu.edu(1):      1167  1 _tag_violation
+F 1692.0.0 5749 0
+S 1688.0.0 5739 0
+# eecad3.eas.asu.edu(0):      2631  1 _tag_violation
+F 1690.0.0 5744 1
+S 1686.0.0 5734 1
+# eecad3.eas.asu.edu(1):      2631  1 _tag_violation
+F 1688.0.0 5739 0
+S 1684.0.0 5729 0
+# eecad3.eas.asu.edu(0):      2483  1 _tag_violation
+F 1686.0.0 5734 1
+S 1682.0.0 5724 1
+# eecad3.eas.asu.edu(1):      2481  1 _tag_violation
+F 1684.0.0 5729 0
+S 1680.0.0 5719 0
+# eecad3.eas.asu.edu(0):      2483  1 _tag_violation
+F 1682.0.0 5724 1
+S 1678.0.0 5714 1
+# eecad3.eas.asu.edu(1):      2481  1 _tag_violation
+F 1680.0.0 5719 0
+S 1676.0.0 5709 0
+# eecad3.eas.asu.edu(0):      1042  1 _tag_violation
+F 1678.0.0 5714 1
+S 1674.0.0 5704 1
+# eecad3.eas.asu.edu(1):      1042  1 _tag_violation
+F 1676.0.0 5709 0
+S 1672.0.0 5699 0
+# eecad3.eas.asu.edu(0):      1042  1 _tag_violation
+F 1674.0.0 5704 1
+S 1670.0.0 5694 1
+# eecad3.eas.asu.edu(1):      1042  1 _tag_violation
+F 1672.0.0 5699 0
+S 1668.0.0 5689 0
+# eecad3.eas.asu.edu(0):      2245  1 _tag_violation
+F 1670.0.0 5694 1
+S 1666.0.0 5684 1
+# eecad3.eas.asu.edu(1):      1068  1 _tag_violation
+F 1668.0.0 5689 0
+S 1664.0.0 5679 0
+# eecad3.eas.asu.edu(0):      2648  1 _tag_violation
+F 1666.0.0 5684 1
+S 1662.0.0 5674 1
+# eecad3.eas.asu.edu(1):      1527  1 _tag_violation
+F 1664.0.0 5679 0
+S 1660.0.0 5669 0
+# eecad3.eas.asu.edu(0):      1528  1 _tag_violation
+F 1662.0.0 5674 1
+S 1658.0.0 5664 1
+# eecad3.eas.asu.edu(1):      1529  1 _tag_violation
+F 1660.0.0 5669 0
+S 1656.0.0 5659 0
+# eecad3.eas.asu.edu(0):      1528  1 _tag_violation
+F 1658.0.0 5664 1
+S 1654.0.0 5654 1
+# eecad3.eas.asu.edu(1):      2653  1 _tag_violation
+F 1656.0.0 5659 0
+S 1652.0.0 5649 0
+# eecad3.eas.asu.edu(0):      1057  1 _tag_violation
+F 1654.0.0 5654 1
+S 1650.0.0 5644 1
+# eecad3.eas.asu.edu(1):      1167  1 _tag_violation
+F 1652.0.0 5649 0
+S 1648.0.0 5639 0
+# eecad3.eas.asu.edu(0):      2631  1 _tag_violation
+F 1650.0.0 5644 1
+S 1646.0.0 5634 1
+# eecad3.eas.asu.edu(1):      2631  1 _tag_violation
+F 1648.0.0 5639 0
+S 1644.0.0 5629 0
+# eecad3.eas.asu.edu(0):      2369  1 _tag_violation
+F 1646.0.0 5634 1
+S 1642.0.0 5624 1
+# eecad3.eas.asu.edu(1):      2367  1 _tag_violation
+F 1644.0.0 5629 0
+S 1640.0.0 5619 0
+# eecad3.eas.asu.edu(0):      2369  1 _tag_violation
+F 1642.0.0 5624 1
+S 1638.0.0 5614 1
+# eecad3.eas.asu.edu(1):      2367  1 _tag_violation
+F 1640.0.0 5619 0
+S 1636.0.0 5609 0
+# eecad3.eas.asu.edu(0):      1042  1 _tag_violation
+F 1638.0.0 5614 1
+S 1624.0.0 5566 1
+# eecad3.eas.asu.edu(1):      1042  1 _tag_violation
+F 1636.0.0 5609 0
+S 1620.0.0 5555 0
+# eecad3.eas.asu.edu(0):      2245  1 _tag_violation
+F 1624.0.0 5566 1
+S 1618.0.0 5550 1
+# eecad3.eas.asu.edu(1):      1068  1 _tag_violation
+F 1620.0.0 5555 0
+S 1616.0.0 5545 0
+# eecad3.eas.asu.edu(0):      2648  1 _tag_violation
+F 1618.0.0 5550 1
+S 1614.0.0 5540 1
+# eecad3.eas.asu.edu(1):      1527  1 _tag_violation
+F 1616.0.0 5545 0
+S 1612.0.0 5535 0
+# eecad3.eas.asu.edu(0):      1528  1 _tag_violation
+F 1614.0.0 5540 1
+S 1610.0.0 5530 1
+# eecad3.eas.asu.edu(1):      1529  1 _tag_violation
+F 1612.0.0 5535 0
+S 1608.0.0 5525 0
+# eecad3.eas.asu.edu(0):      1528  1 _tag_violation
+F 1610.0.0 5530 1
+S 1606.0.0 5520 1
+# eecad3.eas.asu.edu(1):      2653  1 _tag_violation
+F 1608.0.0 5525 0
+S 1604.0.0 5515 0
+# eecad3.eas.asu.edu(0):      1057  1 _tag_violation
+F 1606.0.0 5520 1
+S 1602.0.0 5510 1
+# eecad3.eas.asu.edu(1):      1167  1 _tag_violation
+F 1604.0.0 5515 0
+S 1600.0.0 5505 0
+# eecad3.eas.asu.edu(0):      2631  1 _tag_violation
+F 1602.0.0 5510 1
+S 1598.0.0 5500 1
+# eecad3.eas.asu.edu(1):      2631  1 _tag_violation
+F 1600.0.0 5505 0
+S 1596.0.0 5495 0
+# eecad3.eas.asu.edu(0):      2369  1 _tag_violation
+F 1598.0.0 5500 1
+S 1594.0.0 5490 1
+# eecad3.eas.asu.edu(1):      2367  1 _tag_violation
+F 1596.0.0 5495 0
+S 1592.0.0 5485 0
+# eecad3.eas.asu.edu(0):      2369  1 _tag_violation
+F 1594.0.0 5490 1
+S 1590.0.0 5480 1
+# eecad3.eas.asu.edu(1):      2367  1 _tag_violation
+F 1592.0.0 5485 0
+S 1588.0.0 5475 0
+# eecad3.eas.asu.edu(0):      1042  1 _tag_violation
+F 1590.0.0 5480 1
+S 1586.0.0 5470 1
+# eecad3.eas.asu.edu(1):      1042  1 _tag_violation
+F 1588.0.0 5475 0
+S 1584.0.0 5465 0
+# eecad3.eas.asu.edu(0):      1042  1 _tag_violation
+F 1586.0.0 5470 1
+S 1582.0.0 5460 1
+# eecad3.eas.asu.edu(1):      1042  1 _tag_violation
+F 1584.0.0 5465 0
+S 1580.0.0 5455 0
+# eecad3.eas.asu.edu(0):      2245  1 _tag_violation
+F 1580.0.0 5455 0
+F 1582.0.0 5460 1
+S 1578.0.0 5450 0
+# eecad3.eas.asu.edu(0):      1068  1 _tag_violation
+S 1576.0.0 5445 1
+# eecad3.eas.asu.edu(1):      2648  1 _tag_violation
+F 1578.0.0 5450 0
+F 1576.0.0 5445 1
+S 1574.0.0 5440 0
+# eecad3.eas.asu.edu(0):      1527  1 _tag_violation
+S 1572.0.0 5435 1
+# eecad3.eas.asu.edu(1):      1528  1 _tag_violation
+F 1572.0.0 5435 1
+S 1570.0.0 5430 1
+# eecad3.eas.asu.edu(1):      1529  1 _tag_violation
+F 1574.0.0 5440 0
+S 1568.0.0 5425 0
+# eecad3.eas.asu.edu(0):      1528  1 _tag_violation
+F 1570.0.0 5430 1
+S 1566.0.0 5420 1
+# eecad3.eas.asu.edu(1):      2653  1 _tag_violation
+F 1568.0.0 5425 0
+S 1564.0.0 5415 0
+# eecad3.eas.asu.edu(0):      1057  1 _tag_violation
+F 1566.0.0 5420 1
+S 1562.0.0 5410 1
+# eecad3.eas.asu.edu(1):      1167  1 _tag_violation
+F 1564.0.0 5415 0
+S 1560.0.0 5405 0
+# eecad3.eas.asu.edu(0):      2631  1 _tag_violation
+F 1562.0.0 5410 1
+S 1558.0.0 5400 1
+# eecad3.eas.asu.edu(1):      2631  1 _tag_violation
+F 1560.0.0 5405 0
+S 1556.0.0 5395 0
+# eecad3.eas.asu.edu(0):      2369  1 _tag_violation
+F 1558.0.0 5400 1
+S 1554.0.0 5390 1
+# eecad3.eas.asu.edu(1):      2367  1 _tag_violation
+F 1556.0.0 5395 0
+S 1552.0.0 5385 0
+# eecad3.eas.asu.edu(0):      2369  1 _tag_violation
+F 1554.0.0 5390 1
+S 1550.0.0 5380 1
+# eecad3.eas.asu.edu(1):      2367  1 _tag_violation
+F 1552.0.0 5385 0
+S 1548.0.0 5375 0
+# eecad3.eas.asu.edu(0):      1042  1 _tag_violation
+F 1550.0.0 5380 1
+S 1546.0.0 5370 1
+# eecad3.eas.asu.edu(1):      1042  1 _tag_violation
+F 1548.0.0 5375 0
+S 1544.0.0 5365 0
+# eecad3.eas.asu.edu(0):      1042  1 _tag_violation
+F 1546.0.0 5370 1
+S 1542.0.0 5360 1
+# eecad3.eas.asu.edu(1):      1042  1 _tag_violation
+F 1544.0.0 5365 0
+S 1540.0.0 5355 0
+# eecad3.eas.asu.edu(0):      2245  1 _tag_violation
+F 1542.0.0 5360 1
+S 1538.0.0 5350 1
+# eecad3.eas.asu.edu(1):      1068  1 _tag_violation
+F 1540.0.0 5355 0
+S 1536.0.0 5345 0
+# eecad3.eas.asu.edu(0):      2648  1 _tag_violation
+F 1538.0.0 5350 1
+S 1534.0.0 5340 1
+# eecad3.eas.asu.edu(1):      1527  1 _tag_violation
+F 1536.0.0 5345 0
+S 1532.0.0 5335 0
+# eecad3.eas.asu.edu(0):      1528  1 _tag_violation
+F 1534.0.0 5340 1
+S 1530.0.0 5330 1
+# eecad3.eas.asu.edu(1):      1529  1 _tag_violation
+F 1532.0.0 5335 0
+S 1528.0.0 5325 0
+# eecad3.eas.asu.edu(0):      1528  1 _tag_violation
+F 1530.0.0 5330 1
+S 1526.0.0 5320 1
+# eecad3.eas.asu.edu(1):      2653  1 _tag_violation
+F 1528.0.0 5325 0
+S 1524.0.0 5315 0
+# eecad3.eas.asu.edu(0):      1057  1 _tag_violation
+F 1526.0.0 5320 1
+S 1522.0.0 5310 1
+# eecad3.eas.asu.edu(1):      1167  1 _tag_violation
+F 1524.0.0 5315 0
+S 1520.0.0 5305 0
+# eecad3.eas.asu.edu(0):      2631  1 _tag_violation
+F 1522.0.0 5310 1
+S 1518.0.0 5300 1
+# eecad3.eas.asu.edu(1):      2631  1 _tag_violation
+F 1520.0.0 5305 0
+S 1516.0.0 5295 0
+# eecad3.eas.asu.edu(0):      2367  1 _tag_violation
+F 1518.0.0 5300 1
+S 1514.0.0 5290 1
+# eecad3.eas.asu.edu(1):      2369  1 _tag_violation
+F 1516.0.0 5295 0
+S 1512.0.0 5285 0
+# eecad3.eas.asu.edu(0):      2367  1 _tag_violation
+F 1514.0.0 5290 1
+S 1510.0.0 5280 1
+# eecad3.eas.asu.edu(1):      2369  1 _tag_violation
+F 1512.0.0 5285 0
+S 1508.0.0 5275 0
+# eecad3.eas.asu.edu(0):      1042  1 _tag_violation
+F 1510.0.0 5280 1
+S 1506.0.0 5270 1
+# eecad3.eas.asu.edu(1):      1042  1 _tag_violation
+F 1508.0.0 5275 0
+S 1504.0.0 5265 0
+# eecad3.eas.asu.edu(0):      1042  1 _tag_violation
+F 1506.0.0 5270 1
+S 1502.0.0 5260 1
+# eecad3.eas.asu.edu(1):      1042  1 _tag_violation
+F 1504.0.0 5265 0
+S 1500.0.0 5255 0
+# eecad3.eas.asu.edu(0):      2245  1 _tag_violation
+F 1502.0.0 5260 1
+S 1498.0.0 5250 1
+# eecad3.eas.asu.edu(1):      1068  1 _tag_violation
+F 1500.0.0 5255 0
+S 1496.0.0 5245 0
+# eecad3.eas.asu.edu(0):      2648  1 _tag_violation
+F 1498.0.0 5250 1
+S 1494.0.0 5240 1
+# eecad3.eas.asu.edu(1):      1527  1 _tag_violation
+F 1496.0.0 5245 0
+S 1492.0.0 5235 0
+# eecad3.eas.asu.edu(0):      1528  1 _tag_violation
+F 1494.0.0 5240 1
+S 1490.0.0 5230 1
+# eecad3.eas.asu.edu(1):      1529  1 _tag_violation
+F 1492.0.0 5235 0
+S 1488.0.0 5225 0
+# eecad3.eas.asu.edu(0):      1528  1 _tag_violation
+F 1490.0.0 5230 1
+S 1486.0.0 5220 1
+# eecad3.eas.asu.edu(1):      2653  1 _tag_violation
+F 1488.0.0 5225 0
+S 1484.0.0 5215 0
+# eecad3.eas.asu.edu(0):      1057  1 _tag_violation
+F 1486.0.0 5220 1
+S 1482.0.0 5210 1
+# eecad3.eas.asu.edu(1):      1167  1 _tag_violation
+F 1484.0.0 5215 0
+S 1480.0.0 5205 0
+# eecad3.eas.asu.edu(0):      2631  1 _tag_violation
+F 1482.0.0 5210 1
+S 1478.0.0 5200 1
+# eecad3.eas.asu.edu(1):      2631  1 _tag_violation
+F 1480.0.0 5205 0
+S 1476.0.0 5195 0
+# eecad3.eas.asu.edu(0):      2367  1 _tag_violation
+F 1478.0.0 5200 1
+S 1474.0.0 5190 1
+# eecad3.eas.asu.edu(1):      2369  1 _tag_violation
+F 1476.0.0 5195 0
+S 1472.0.0 5185 0
+# eecad3.eas.asu.edu(0):      2367  1 _tag_violation
+F 1474.0.0 5190 1
+S 1470.0.0 5180 1
+# eecad3.eas.asu.edu(1):      2369  1 _tag_violation
+F 1472.0.0 5185 0
+S 1468.0.0 5175 0
+# eecad3.eas.asu.edu(0):      1042  1 _tag_violation
+F 1470.0.0 5180 1
+S 1466.0.0 5170 1
+# eecad3.eas.asu.edu(1):      1042  1 _tag_violation
+F 1468.0.0 5175 0
+S 1464.0.0 5165 0
+# eecad3.eas.asu.edu(0):      1042  1 _tag_violation
+F 1466.0.0 5170 1
+S 1462.0.0 5160 1
+# eecad3.eas.asu.edu(1):      1042  1 _tag_violation
+F 1464.0.0 5165 0
+S 1460.0.0 5155 0
+# eecad3.eas.asu.edu(0):      2245  1 _tag_violation
+F 1462.0.0 5160 1
+S 1458.0.0 5150 1
+# eecad3.eas.asu.edu(1):      1068  1 _tag_violation
+F 1460.0.0 5155 0
+S 1456.0.0 5145 0
+# eecad3.eas.asu.edu(0):      2648  1 _tag_violation
+F 1458.0.0 5150 1
+S 1454.0.0 5140 1
+# eecad3.eas.asu.edu(1):      1527  1 _tag_violation
+F 1456.0.0 5145 0
+S 1452.0.0 5135 0
+# eecad3.eas.asu.edu(0):      1528  1 _tag_violation
+F 1454.0.0 5140 1
+S 1450.0.0 5130 1
+# eecad3.eas.asu.edu(1):      1529  1 _tag_violation
+F 1452.0.0 5135 0
+S 1448.0.0 5125 0
+# eecad3.eas.asu.edu(0):      1528  1 _tag_violation
+F 1450.0.0 5130 1
+S 1446.0.0 5120 1
+# eecad3.eas.asu.edu(1):      2653  1 _tag_violation
+F 1448.0.0 5125 0
+S 1444.0.0 5115 0
+# eecad3.eas.asu.edu(0):      1057  1 _tag_violation
+F 1446.0.0 5120 1
+S 1442.0.0 5110 1
+# eecad3.eas.asu.edu(1):      1167  1 _tag_violation
+F 1444.0.0 5115 0
+S 1440.0.0 5105 0
+# eecad3.eas.asu.edu(0):      2631  1 _tag_violation
+F 1442.0.0 5110 1
+S 1438.0.0 5100 1
+# eecad3.eas.asu.edu(1):      2631  1 _tag_violation
+F 1440.0.0 5105 0
+S 1436.0.0 5095 0
+# eecad3.eas.asu.edu(0):      2367  1 _tag_violation
+F 1438.0.0 5100 1
+S 1434.0.0 5090 1
+# eecad3.eas.asu.edu(1):      2369  1 _tag_violation
+F 1436.0.0 5095 0
+S 1432.0.0 5085 0
+# eecad3.eas.asu.edu(0):      2367  1 _tag_violation
+F 1434.0.0 5090 1
+S 1430.0.0 5080 1
+# eecad3.eas.asu.edu(1):      2369  1 _tag_violation
+F 1432.0.0 5085 0
+S 1428.0.0 5075 0
+# eecad3.eas.asu.edu(0):      1042  1 _tag_violation
+F 1430.0.0 5080 1
+S 1426.0.0 5070 1
+# eecad3.eas.asu.edu(1):      1042  1 _tag_violation
+F 1428.0.0 5075 0
+S 1424.0.0 5065 0
+# eecad3.eas.asu.edu(0):      1042  1 _tag_violation
+F 1426.0.0 5070 1
+S 1422.0.0 5060 1
+# eecad3.eas.asu.edu(1):      1042  1 _tag_violation
+F 1424.0.0 5065 0
+S 1420.0.0 5055 0
+# eecad3.eas.asu.edu(0):      2245  1 _tag_violation
+F 1422.0.0 5060 1
+S 1418.0.0 5050 1
+# eecad3.eas.asu.edu(1):      1068  1 _tag_violation
+F 1420.0.0 5055 0
+S 1416.0.0 5045 0
+# eecad3.eas.asu.edu(0):      2648  1 _tag_violation
+F 1418.0.0 5050 1
+S 1359.0.0 4867 1
+# eecad3.eas.asu.edu(1):      2631  1 _tag_violation
+F 1416.0.0 5045 0
+S 1078.0.0 3818 0
+# eecad3.eas.asu.edu(0):      2214  1 _tag_violation
+F 1359.0.0 4867 1
+S 1076.0.0 3813 1
+# eecad3.eas.asu.edu(1):      2214  1 _tag_violation
+F 1078.0.0 3818 0
+S 822.0.0 2852 0
+# eecad3.eas.asu.edu(0):      3246  1 _tag_violation
+F 1076.0.0 3813 1
+S 820.0.0 2847 1
+# eecad3.eas.asu.edu(1):      3244  1 _tag_violation
+F 822.0.0 2852 0
+S 818.0.0 2842 0
+# eecad3.eas.asu.edu(0):      3246  1 _tag_violation
+F 820.0.0 2847 1
+S 816.0.0 2837 1
+# eecad3.eas.asu.edu(1):      3244  1 _tag_violation
+F 818.0.0 2842 0
+S 790.0.0 2748 0
+# eecad3.eas.asu.edu(0):      2631  1 _tag_violation
+F 816.0.0 2837 1
+S 788.0.0 2743 1
+# eecad3.eas.asu.edu(1):      2673  1 _tag_violation
+F 790.0.0 2748 0
+S 786.0.0 2738 0
+# eecad3.eas.asu.edu(0):      2611  1 _tag_violation
+F 788.0.0 2743 1
+S 784.0.0 2733 1
+# eecad3.eas.asu.edu(1):      1493  1 _tag_violation
+F 786.0.0 2738 0
+S 782.0.0 2728 0
+# eecad3.eas.asu.edu(0):      2919  1 _tag_violation
+F 784.0.0 2733 1
+S 780.0.0 2723 1
+# eecad3.eas.asu.edu(1):      2381  1 _tag_violation
+F 782.0.0 2728 0
+S 778.0.0 2718 0
+# eecad3.eas.asu.edu(0):      2812  1 _tag_violation
+F 780.0.0 2723 1
+S 776.0.0 2713 1
+# eecad3.eas.asu.edu(1):      2691  1 _tag_violation
+F 778.0.0 2718 0
+S 774.0.0 2708 0
+# eecad3.eas.asu.edu(0):      2690  1 _tag_violation
+F 776.0.0 2713 1
+S 772.0.0 2703 1
+# eecad3.eas.asu.edu(1):      1034  1 _tag_violation
+F 774.0.0 2708 0
+S 770.0.0 2698 0
+# eecad3.eas.asu.edu(0):      2263  1 _tag_violation
+F 772.0.0 2703 1
+S 768.0.0 2693 1
+# eecad3.eas.asu.edu(1):      2767  1 _tag_violation
+F 770.0.0 2698 0
+S 766.0.0 2688 0
+# eecad3.eas.asu.edu(0):      2649  1 _tag_violation
+F 768.0.0 2693 1
+S 764.0.0 2683 1
+# eecad3.eas.asu.edu(1):      2628  1 _tag_violation
+F 766.0.0 2688 0
+S 762.0.0 2678 0
+# eecad3.eas.asu.edu(0):      2881  1 _tag_violation
+F 764.0.0 2683 1
+S 760.0.0 2673 1
+# eecad3.eas.asu.edu(1):      2260  1 _tag_violation
+F 762.0.0 2678 0
+S 758.0.0 2668 0
+# eecad3.eas.asu.edu(0):      2531  1 _tag_violation
+F 760.0.0 2673 1
+S 756.0.0 2663 1
+# eecad3.eas.asu.edu(1):      1281  1 _tag_violation
+F 758.0.0 2668 0
+S 754.0.0 2658 0
+# eecad3.eas.asu.edu(0):      1265  1 _tag_violation
+F 756.0.0 2663 1
+S 752.0.0 2653 1
+# eecad3.eas.asu.edu(1):      1171  1 _tag_violation
+F 754.0.0 2658 0
+S 750.0.0 2648 0
+# eecad3.eas.asu.edu(0):      2774  1 _tag_violation
+F 752.0.0 2653 1
+S 748.0.0 2643 1
+# eecad3.eas.asu.edu(1):      2538  1 _tag_violation
+F 750.0.0 2648 0
+S 746.0.0 2638 0
+# eecad3.eas.asu.edu(0):      2266  1 _tag_violation
+F 748.0.0 2643 1
+S 744.0.0 2633 1
+# eecad3.eas.asu.edu(1):      2652  1 _tag_violation
+F 746.0.0 2638 0
+S 742.0.0 2628 0
+# eecad3.eas.asu.edu(0):      1265  1 _tag_violation
+F 744.0.0 2633 1
+S 740.0.0 2623 1
+# eecad3.eas.asu.edu(1):      1171  1 _tag_violation
+F 742.0.0 2628 0
+S 738.0.0 2618 0
+# eecad3.eas.asu.edu(0):      2774  1 _tag_violation
+F 740.0.0 2623 1
+S 736.0.0 2613 1
+# eecad3.eas.asu.edu(1):      2538  1 _tag_violation
+F 738.0.0 2618 0
+S 734.0.0 2608 0
+# eecad3.eas.asu.edu(0):      2266  1 _tag_violation
+F 736.0.0 2613 1
+S 732.0.0 2603 1
+# eecad3.eas.asu.edu(1):      2652  1 _tag_violation
+F 734.0.0 2608 0
+S 627.0.0 2206 0
+# eecad3.eas.asu.edu(0):      2747  1 _tag_violation
+F 732.0.0 2603 1
+S 625.0.0 2201 1
+# eecad3.eas.asu.edu(1):      2747  1 _tag_violation
+F 627.0.0 2206 0
+S 564.0.0 1983 0
+# eecad3.eas.asu.edu(0):      2770  1 _tag_violation
+F 625.0.0 2201 1
+S 562.0.0 1978 1
+# eecad3.eas.asu.edu(1):      2549  1 _tag_violation
+F 564.0.0 1983 0
+S 560.0.0 1973 0
+# eecad3.eas.asu.edu(0):      2898  1 _tag_violation
+F 562.0.0 1978 1
+S 558.0.0 1968 1
+# eecad3.eas.asu.edu(1):      3010  1 _tag_violation
+F 560.0.0 1973 0
+S 556.0.0 1963 0
+# eecad3.eas.asu.edu(0):      3012  1 _tag_violation
+F 558.0.0 1968 1
+S 554.0.0 1958 1
+# eecad3.eas.asu.edu(1):      2786  1 _tag_violation
+F 556.0.0 1963 0
+S 552.0.0 1953 0
+# eecad3.eas.asu.edu(0):      2248  1 _tag_violation
+F 554.0.0 1958 1
+S 550.0.0 1948 1
+# eecad3.eas.asu.edu(1):      2649  1 _tag_violation
+F 552.0.0 1953 0
+S 471.0.0 1636 0
+# eecad3.eas.asu.edu(0):      1020  1 _cell_extent
+F 550.0.0 1948 1
+S 464.0.0 1625 1
+# eecad3.eas.asu.edu(1):      3322  1 _optimize_layer_dp
+F 471.0.0 1636 0
+S 473.0.0 1641 0
+# eecad3.eas.asu.edu(0):      1516  1 _oversize_q
+F 473.0.0 1641 0
+S 434.0.0 1574 0
+# eecad3.eas.asu.edu(0):      3322  1 _optimize_layer_dp
+F 464.0.0 1625 1
+S 1730.0.0 5845 1
+# eecad3.eas.asu.edu(1):      6008  1 _external_q
+F 434.0.0 1574 0
+S 1375.0.0 4909 0
+# eecad3.eas.asu.edu(0):      1212  1 _size_chain_q
+F 1730.0.0 5845 1
+S 1732.0.0 5857 1
+# eecad3.eas.asu.edu(1):      2244  1 _tag_violation
+F 1375.0.0 4909 0
+S 1377.0.0 4916 0
+# eecad3.eas.asu.edu(0):      6917  1 _external_q
+F 1377.0.0 4916 0
+S 1379.0.0 4928 0
+# eecad3.eas.asu.edu(0):      2653  1 _tag_violation
+F 1379.0.0 4928 0
+F 1732.0.0 5857 1
+S 1365.0.0 4880 0
+# eecad3.eas.asu.edu(0):      2487  1 _level_one_q
+S 1361.0.0 4871 1
+# eecad3.eas.asu.edu(1):      1538  1 _area_q
+F 1365.0.0 4880 0
+S 1366.0.0 4884 0
+# eecad3.eas.asu.edu(0):      1610  1 _select_donut_hole
+F 1361.0.0 4871 1
+S 1363.0.0 4876 1
+# eecad3.eas.asu.edu(1):      1167  1 _tag_violation
+F 1366.0.0 4884 0
+S 1368.0.0 4889 0
+# eecad3.eas.asu.edu(0):      2171  1 _level_one_q
+F 1368.0.0 4889 0
+S 1369.0.0 4893 0
+# eecad3.eas.asu.edu(0):      1596  1 _select_donut_hole
+F 1369.0.0 4893 0
+S 1371.0.0 4899 0
+# eecad3.eas.asu.edu(0):      1484  1 _boolean_not_q
+F 1371.0.0 4899 0
+S 1373.0.0 4905 0
+# eecad3.eas.asu.edu(0):      1057  1 _tag_violation
+F 1373.0.0 4905 0
+F 1363.0.0 4876 1
+S 1268.0.0 4508 0
+# eecad3.eas.asu.edu(0):      6000  1 _external_q
+S 1263.0.0 4495 1
+# eecad3.eas.asu.edu(1):      2309  1 _find_wide_q
+F 1263.0.0 4495 1
+S 1274.0.0 4531 1
+# eecad3.eas.asu.edu(1):      1219  1 _copy
+F 1268.0.0 4508 0
+S 1270.0.0 4520 0
+# eecad3.eas.asu.edu(0):      2245  1 _tag_violation
+F 1274.0.0 4531 1
+S 1313.0.0 4694 1
+# eecad3.eas.asu.edu(1):      5938  1 _external_q
+F 1313.0.0 4694 1
+S 1309.0.0 4675 1
+# eecad3.eas.asu.edu(1):      1168  1 _boolean_not_q
+F 1309.0.0 4675 1
+S 1311.0.0 4682 1
+# eecad3.eas.asu.edu(1):      6764  1 _external_q
+F 1311.0.0 4682 1
+S 1314.0.0 4704 1
+# eecad3.eas.asu.edu(1):      1404  1 _boolean_or
+F 1270.0.0 4520 0
+S 1408.0.0 5020 0
+# eecad3.eas.asu.edu(0):      1032  1 _copy
+F 1314.0.0 4704 1
+S 1316.0.0 4709 1
+# eecad3.eas.asu.edu(1):      1042  1 _tag_violation
+F 1408.0.0 5020 0
+S 1407.0.0 5017 0
+# eecad3.eas.asu.edu(0):      1038  1 _copy
+F 1407.0.0 5017 0
+S 1410.0.0 5026 0
+# eecad3.eas.asu.edu(0):      2159  1 _interacting_edge_q
+F 1410.0.0 5026 0
+S 1412.0.0 5034 0
+# eecad3.eas.asu.edu(0):      2536  1 _adjacent_edge_q
+F 1412.0.0 5034 0
+S 1414.0.0 5040 0
+# eecad3.eas.asu.edu(0):      1527  1 _tag_violation
+F 1414.0.0 5040 0
+F 1316.0.0 4709 1
+S 1273.0.0 4528 0
+# eecad3.eas.asu.edu(0):      1223  1 _copy
+S 1272.0.0 4525 1
+# eecad3.eas.asu.edu(1):      1223  1 _copy
+F 1272.0.0 4525 1
+S 1389.0.0 4959 1
+# eecad3.eas.asu.edu(1):      1041  1 _copy
+F 1273.0.0 4528 0
+S 1280.0.0 4551 0
+# eecad3.eas.asu.edu(0):      1187  1 _boolean_not_q
+F 1389.0.0 4959 1
+S 1391.0.0 4965 1
+# eecad3.eas.asu.edu(1):      1045  1 _boolean_not_q
+F 1280.0.0 4551 0
+S 1304.0.0 4655 0
+# eecad3.eas.asu.edu(0):      5944  1 _external_q
+F 1391.0.0 4965 1
+S 1393.0.0 4972 1
+# eecad3.eas.asu.edu(1):      1778  1 _interacting_edge_q
+F 1304.0.0 4655 0
+S 1300.0.0 4636 0
+# eecad3.eas.asu.edu(0):      1018  1 _boolean_not_q
+F 1393.0.0 4972 1
+S 1395.0.0 4980 1
+# eecad3.eas.asu.edu(1):      2546  1 _adjacent_edge_q
+F 1300.0.0 4636 0
+S 1302.0.0 4643 0
+# eecad3.eas.asu.edu(0):      6774  1 _external_q
+F 1302.0.0 4643 0
+S 1305.0.0 4665 0
+# eecad3.eas.asu.edu(0):      1404  1 _boolean_or
+F 1395.0.0 4980 1
+S 1397.0.0 4986 1
+# eecad3.eas.asu.edu(1):      1529  1 _tag_violation
+F 1305.0.0 4665 0
+S 1307.0.0 4670 0
+# eecad3.eas.asu.edu(0):      1042  1 _tag_violation
+F 1307.0.0 4670 0
+F 1397.0.0 4986 1
+S 1278.0.0 4544 0
+# eecad3.eas.asu.edu(0):      1191  1 _boolean_not_q
+S 1398.0.0 4988 1
+# eecad3.eas.asu.edu(1):      1041  1 _copy
+F 1278.0.0 4544 0
+F 1398.0.0 4988 1
+S 1400.0.0 4994 0
+# eecad3.eas.asu.edu(0):      1045  1 _boolean_not_q
+S 1295.0.0 4616 1
+# eecad3.eas.asu.edu(1):      5947  1 _external_q
+F 1400.0.0 4994 0
+S 1402.0.0 5001 0
+# eecad3.eas.asu.edu(0):      1778  1 _interacting_edge_q
+F 1295.0.0 4616 1
+S 1291.0.0 4597 1
+# eecad3.eas.asu.edu(1):      1019  1 _boolean_not_q
+F 1402.0.0 5001 0
+S 1404.0.0 5009 0
+# eecad3.eas.asu.edu(0):      2543  1 _adjacent_edge_q
+F 1291.0.0 4597 1
+S 1293.0.0 4604 1
+# eecad3.eas.asu.edu(1):      6777  1 _external_q
+F 1293.0.0 4604 1
+S 1296.0.0 4626 1
+# eecad3.eas.asu.edu(1):      1406  1 _boolean_or
+F 1404.0.0 5009 0
+S 1406.0.0 5015 0
+# eecad3.eas.asu.edu(0):      1528  1 _tag_violation
+F 1296.0.0 4626 1
+S 1298.0.0 4631 1
+# eecad3.eas.asu.edu(1):      1042  1 _tag_violation
+F 1406.0.0 5015 0
+S 1271.0.0 4522 0
+# eecad3.eas.asu.edu(0):      1226  1 _copy
+F 1298.0.0 4631 1
+S 1264.0.0 4499 1
+# eecad3.eas.asu.edu(1):      1457  1 _copy
+F 1271.0.0 4522 0
+S 1276.0.0 4537 0
+# eecad3.eas.asu.edu(0):      1195  1 _boolean_not_q
+F 1264.0.0 4499 1
+S 1266.0.0 4504 1
+# eecad3.eas.asu.edu(1):      1068  1 _tag_violation
+F 1276.0.0 4537 0
+S 1286.0.0 4577 0
+# eecad3.eas.asu.edu(0):      5952  1 _external_q
+F 1286.0.0 4577 0
+S 1282.0.0 4558 0
+# eecad3.eas.asu.edu(0):      1023  1 _boolean_not_q
+F 1282.0.0 4558 0
+S 1284.0.0 4565 0
+# eecad3.eas.asu.edu(0):      6783  1 _external_q
+F 1284.0.0 4565 0
+S 1287.0.0 4587 0
+# eecad3.eas.asu.edu(0):      1406  1 _boolean_or
+F 1287.0.0 4587 0
+S 1289.0.0 4592 0
+# eecad3.eas.asu.edu(0):      1041  1 _tag_violation
+F 1289.0.0 4592 0
+F 1266.0.0 4504 1
+S 1380.0.0 4930 0
+# eecad3.eas.asu.edu(0):      1043  1 _copy
+S 1259.0.0 4481 1
+# eecad3.eas.asu.edu(1):      5282  1 _internal_q
+F 1380.0.0 4930 0
+S 1382.0.0 4936 0
+# eecad3.eas.asu.edu(0):      1039  1 _boolean_not_q
+F 1382.0.0 4936 0
+S 1384.0.0 4943 0
+# eecad3.eas.asu.edu(0):      1770  1 _interacting_edge_q
+F 1384.0.0 4943 0
+S 1386.0.0 4951 0
+# eecad3.eas.asu.edu(0):      2543  1 _adjacent_edge_q
+F 1259.0.0 4481 1
+S 1261.0.0 4491 1
+# eecad3.eas.asu.edu(1):      2648  1 _tag_violation
+F 1386.0.0 4951 0
+S 1388.0.0 4957 0
+# eecad3.eas.asu.edu(0):      1528  1 _tag_violation
+F 1388.0.0 4957 0
+F 1261.0.0 4491 1
+S 1317.0.0 4711 0
+# eecad3.eas.asu.edu(0):      3068  1 _copy
+S 1726.0.0 5833 1
+# eecad3.eas.asu.edu(1):      2113  1 _rectangles_q
+F 1317.0.0 4711 0
+S 1324.0.0 4736 0
+# eecad3.eas.asu.edu(0):      4987  1 _internal_q
+F 1726.0.0 5833 1
+S 1728.0.0 5841 1
+# eecad3.eas.asu.edu(1):      1289  1 _tag_violation
+F 1324.0.0 4736 0
+S 1331.0.0 4762 0
+# eecad3.eas.asu.edu(0):      1106  1 _merge_dirty_layer
+F 1331.0.0 4762 0
+S 1333.0.0 4767 0
+# eecad3.eas.asu.edu(0):      1246  1 _boolean_not_q
+F 1333.0.0 4767 0
+S 1349.0.0 4828 0
+# eecad3.eas.asu.edu(0):      2900  1 _copy
+F 1349.0.0 4828 0
+S 1351.0.0 4833 0
+# eecad3.eas.asu.edu(0):      6192  1 _external_q
+F 1351.0.0 4833 0
+S 1353.0.0 4845 0
+# eecad3.eas.asu.edu(0):      2367  1 _tag_violation
+F 1353.0.0 4845 0
+F 1728.0.0 5841 1
+S 1325.0.0 4744 0
+# eecad3.eas.asu.edu(0):      1106  1 _merge_dirty_layer
+S 1319.0.0 4716 1
+# eecad3.eas.asu.edu(1):      4989  1 _internal_q
+F 1325.0.0 4744 0
+S 1327.0.0 4749 0
+# eecad3.eas.asu.edu(0):      1246  1 _boolean_not_q
+F 1327.0.0 4749 0
+S 1339.0.0 4790 0
+# eecad3.eas.asu.edu(0):      2900  1 _copy
+F 1339.0.0 4790 0
+S 1341.0.0 4795 0
+# eecad3.eas.asu.edu(0):      6193  1 _external_q
+F 1319.0.0 4716 1
+S 1328.0.0 4753 1
+# eecad3.eas.asu.edu(1):      1108  1 _merge_dirty_layer
+F 1328.0.0 4753 1
+S 1330.0.0 4758 1
+# eecad3.eas.asu.edu(1):      1248  1 _boolean_not_q
+F 1341.0.0 4795 0
+S 1343.0.0 4807 0
+# eecad3.eas.asu.edu(0):      2367  1 _tag_violation
+F 1330.0.0 4758 1
+S 1344.0.0 4809 1
+# eecad3.eas.asu.edu(1):      2902  1 _copy
+F 1344.0.0 4809 1
+S 1346.0.0 4814 1
+# eecad3.eas.asu.edu(1):      6190  1 _external_q
+F 1346.0.0 4814 1
+S 1348.0.0 4826 1
+# eecad3.eas.asu.edu(1):      2369  1 _tag_violation
+F 1343.0.0 4807 0
+F 1348.0.0 4826 1
+S 1320.0.0 4724 0
+# eecad3.eas.asu.edu(0):      1108  1 _merge_dirty_layer
+S 1763.0.0 5998 1
+# eecad3.eas.asu.edu(1):      3475  1 _copy
+F 1763.0.0 5998 1
+S 431.0.0 1563 1
+# eecad3.eas.asu.edu(1):      3330  1 _optimize_layer_dp
+F 1320.0.0 4724 0
+S 1322.0.0 4729 0
+# eecad3.eas.asu.edu(0):      1248  1 _boolean_not_q
+F 1322.0.0 4729 0
+S 1334.0.0 4771 0
+# eecad3.eas.asu.edu(0):      2902  1 _copy
+F 1334.0.0 4771 0
+S 1336.0.0 4776 0
+# eecad3.eas.asu.edu(0):      6191  1 _external_q
+F 431.0.0 1563 1
+S 1933.0.0 6607 1
+# eecad3.eas.asu.edu(1):      2555  1 _covered_by_q
+F 1336.0.0 4776 0
+S 1338.0.0 4788 0
+# eecad3.eas.asu.edu(0):      2369  1 _tag_violation
+F 1933.0.0 6607 1
+S 1928.0.0 6590 1
+# eecad3.eas.asu.edu(1):      2553  1 _covered_by_q
+F 1928.0.0 6590 1
+S 1914.0.0 6550 1
+# eecad3.eas.asu.edu(1):      1510  1 _boolean_not_q
+F 1914.0.0 6550 1
+S 1916.0.0 6556 1
+# eecad3.eas.asu.edu(1):      1034  1 _tag_violation
+F 1916.0.0 6556 1
+S 1906.0.0 6522 1
+# eecad3.eas.asu.edu(1):      6603  1 _enclose_q
+F 1338.0.0 4788 0
+S 1868.0.0 6374 0
+# eecad3.eas.asu.edu(0):      1778  1 _rectangles_q
+F 1906.0.0 6522 1
+S 1908.0.0 6534 1
+# eecad3.eas.asu.edu(1):      2539  1 _tag_violation
+F 1868.0.0 6374 0
+S 1871.0.0 6386 0
+# eecad3.eas.asu.edu(0):      1245  1 _copy
+F 1871.0.0 6386 0
+S 1922.0.0 6572 0
+# eecad3.eas.asu.edu(0):      3316  1 _covered_by_q
+F 1922.0.0 6572 0
+S 1924.0.0 6578 0
+# eecad3.eas.asu.edu(0):      1918  1 _tag_violation
+F 1924.0.0 6578 0
+S 1890.0.0 6455 0
+# eecad3.eas.asu.edu(0):      6091  1 _external_q
+F 1908.0.0 6534 1
+S 1870.0.0 6383 1
+# eecad3.eas.asu.edu(1):      1243  1 _copy
+F 1890.0.0 6455 0
+S 1892.0.0 6467 0
+# eecad3.eas.asu.edu(0):      2250  1 _tag_violation
+F 1870.0.0 6383 1
+S 1963.0.0 6744 1
+# eecad3.eas.asu.edu(1):      5827  1 _external_q
+F 1963.0.0 6744 1
+S 1964.0.0 6754 1
+# eecad3.eas.asu.edu(1):       971  1 _boolean_or
+F 1964.0.0 6754 1
+S 1966.0.0 6760 1
+# eecad3.eas.asu.edu(1):      2807  1 _select_q
+F 1966.0.0 6760 1
+S 1968.0.0 6770 1
+# eecad3.eas.asu.edu(1):      2794  1 _select_q
+F 1968.0.0 6770 1
+S 1950.0.0 6677 1
+# eecad3.eas.asu.edu(1):      5828  1 _external_q
+F 1950.0.0 6677 1
+S 1952.0.0 6690 1
+# eecad3.eas.asu.edu(1):      2801  1 _select_q
+F 1952.0.0 6690 1
+S 1954.0.0 6700 1
+# eecad3.eas.asu.edu(1):      2794  1 _select_q
+F 1954.0.0 6700 1
+S 1898.0.0 6488 1
+# eecad3.eas.asu.edu(1):      6927  1 _external_q
+F 1898.0.0 6488 1
+S 1900.0.0 6500 1
+# eecad3.eas.asu.edu(1):      2639  1 _tag_violation
+F 1892.0.0 6467 0
+S 1894.0.0 6471 0
+# eecad3.eas.asu.edu(0):      6093  1 _external_q
+F 1900.0.0 6500 1
+S 1869.0.0 6380 1
+# eecad3.eas.asu.edu(1):      1243  1 _copy
+F 1869.0.0 6380 1
+S 1956.0.0 6709 1
+# eecad3.eas.asu.edu(1):      5827  1 _external_q
+F 1894.0.0 6471 0
+S 1896.0.0 6483 0
+# eecad3.eas.asu.edu(0):      2249  1 _tag_violation
+F 1956.0.0 6709 1
+S 1957.0.0 6719 1
+# eecad3.eas.asu.edu(1):       971  1 _boolean_or
+F 1957.0.0 6719 1
+S 1959.0.0 6725 1
+# eecad3.eas.asu.edu(1):      2807  1 _select_q
+F 1959.0.0 6725 1
+S 1961.0.0 6735 1
+# eecad3.eas.asu.edu(1):      2794  1 _select_q
+F 1961.0.0 6735 1
+S 1944.0.0 6645 1
+# eecad3.eas.asu.edu(1):      5828  1 _external_q
+F 1944.0.0 6645 1
+S 1946.0.0 6658 1
+# eecad3.eas.asu.edu(1):      2801  1 _select_q
+F 1946.0.0 6658 1
+S 1948.0.0 6668 1
+# eecad3.eas.asu.edu(1):      2794  1 _select_q
+F 1948.0.0 6668 1
+S 1886.0.0 6439 1
+# eecad3.eas.asu.edu(1):      6880  1 _external_q
+F 1886.0.0 6439 1
+S 1888.0.0 6451 1
+# eecad3.eas.asu.edu(1):      2637  1 _tag_violation
+F 1896.0.0 6483 0
+S 1882.0.0 6422 0
+# eecad3.eas.asu.edu(0):      6876  1 _external_q
+F 1888.0.0 6451 1
+S 1878.0.0 6405 1
+# eecad3.eas.asu.edu(1):      6045  1 _external_q
+F 1882.0.0 6422 0
+S 1884.0.0 6434 0
+# eecad3.eas.asu.edu(0):      2638  1 _tag_violation
+F 1878.0.0 6405 1
+S 1880.0.0 6417 1
+# eecad3.eas.asu.edu(1):      2248  1 _tag_violation
+F 1884.0.0 6434 0
+F 1880.0.0 6417 1
+S 1872.0.0 6389 0
+# eecad3.eas.asu.edu(0):      1105  1 _boolean_or_list
+S 1355.0.0 4850 1
+# eecad3.eas.asu.edu(1):      6862  1 _external_q
+F 1872.0.0 6389 0
+S 1874.0.0 6395 0
+# eecad3.eas.asu.edu(0):      1642  1 _boolean_not_q
+F 1355.0.0 4850 1
+S 1357.0.0 4862 1
+# eecad3.eas.asu.edu(1):      2631  1 _tag_violation
+F 1874.0.0 6395 0
+S 1876.0.0 6401 0
+# eecad3.eas.asu.edu(0):      1061  1 _tag_violation
+F 1357.0.0 4862 1
+S 428.0.0 1552 1
+# eecad3.eas.asu.edu(1):      3322  1 _optimize_layer_dp
+F 1876.0.0 6401 0
+S 425.0.0 1541 0
+# eecad3.eas.asu.edu(0):      3322  1 _optimize_layer_dp
+F 425.0.0 1541 0
+S 1857.0.0 6341 0
+# eecad3.eas.asu.edu(0):      1548  1 _oversize_q
+F 428.0.0 1552 1
+S 1734.0.0 5878 1
+# eecad3.eas.asu.edu(1):      5332  1 _connect_q
+F 1857.0.0 6341 0
+S 1858.0.0 6345 0
+# eecad3.eas.asu.edu(0):       986  1 _boolean_or
+F 1858.0.0 6345 0
+S 1860.0.0 6351 0
+# eecad3.eas.asu.edu(0):      1505  1 _boolean_not_q
+F 1860.0.0 6351 0
+S 1862.0.0 6357 0
+# eecad3.eas.asu.edu(0):      1150  1 _tag_violation
+F 1862.0.0 6357 0
+S 1931.0.0 6600 0
+# eecad3.eas.asu.edu(0):      2555  1 _covered_by_q
+F 1931.0.0 6600 0
+S 1934.0.0 6611 0
+# eecad3.eas.asu.edu(0):      1005  1 _boolean_or
+F 1934.0.0 6611 0
+S 1926.0.0 6583 0
+# eecad3.eas.asu.edu(0):      2553  1 _covered_by_q
+F 1734.0.0 5878 1
+S 1736.0.0 5882 1
+# eecad3.eas.asu.edu(1):      6151  1 _external_q
+F 1926.0.0 6583 0
+S 1929.0.0 6594 0
+# eecad3.eas.asu.edu(0):      1005  1 _boolean_or
+F 1929.0.0 6594 0
+F 1736.0.0 5882 1
+S 1738.0.0 5894 0
+# eecad3.eas.asu.edu(0):      2300  1 _tag_violation
+S 1936.0.0 6617 1
+# eecad3.eas.asu.edu(1):      1621  1 _boolean_and_q
+F 1936.0.0 6617 1
+S 1937.0.0 6623 1
+# eecad3.eas.asu.edu(1):      1467  1 _copy
+F 1937.0.0 6623 1
+S 1939.0.0 6628 1
+# eecad3.eas.asu.edu(1):      1111  1 _tag_violation
+F 1738.0.0 5894 0
+F 1939.0.0 6628 1
+S 1918.0.0 6561 0
+# eecad3.eas.asu.edu(0):      3316  1 _covered_by_q
+S 1910.0.0 6539 1
+# eecad3.eas.asu.edu(1):      1510  1 _boolean_not_q
+F 1918.0.0 6561 0
+S 1920.0.0 6567 0
+# eecad3.eas.asu.edu(0):      1918  1 _tag_violation
+F 1910.0.0 6539 1
+S 1912.0.0 6545 1
+# eecad3.eas.asu.edu(1):      1034  1 _tag_violation
+F 1920.0.0 6567 0
+F 1912.0.0 6545 1
+S 1902.0.0 6505 0
+# eecad3.eas.asu.edu(0):      6603  1 _enclose_q
+S 1842.0.0 6290 1
+# eecad3.eas.asu.edu(1):      2873  1 _select_q
+F 1842.0.0 6290 1
+S 1844.0.0 6300 1
+# eecad3.eas.asu.edu(1):      3136  1 _covered_by_q
+F 1902.0.0 6505 0
+S 1904.0.0 6517 0
+# eecad3.eas.asu.edu(0):      2539  1 _tag_violation
+F 1844.0.0 6300 1
+S 1846.0.0 6306 1
+# eecad3.eas.asu.edu(1):      1890  1 _tag_violation
+F 1904.0.0 6517 0
+F 1846.0.0 6306 1
+S 1838.0.0 6273 0
+# eecad3.eas.asu.edu(0):      6579  1 _enclose_q
+S 1834.0.0 6262 1
+# eecad3.eas.asu.edu(1):      1436  1 _boolean_not_q
+F 1838.0.0 6273 0
+S 1840.0.0 6285 0
+# eecad3.eas.asu.edu(0):      2513  1 _tag_violation
+F 1834.0.0 6262 1
+S 1836.0.0 6268 1
+# eecad3.eas.asu.edu(1):      1032  1 _tag_violation
+F 1840.0.0 6285 0
+F 1836.0.0 6268 1
+S 1226.0.0 4371 0
+# eecad3.eas.asu.edu(0):      1212  1 _size_chain_q
+S 1216.0.0 4342 1
+# eecad3.eas.asu.edu(1):      2487  1 _level_one_q
+F 1216.0.0 4342 1
+S 1217.0.0 4346 1
+# eecad3.eas.asu.edu(1):      1610  1 _select_donut_hole
+F 1226.0.0 4371 0
+S 1228.0.0 4378 0
+# eecad3.eas.asu.edu(0):      6920  1 _external_q
+F 1217.0.0 4346 1
+S 1219.0.0 4351 1
+# eecad3.eas.asu.edu(1):      2171  1 _level_one_q
+F 1228.0.0 4378 0
+S 1230.0.0 4390 0
+# eecad3.eas.asu.edu(0):      2654  1 _tag_violation
+F 1219.0.0 4351 1
+S 1220.0.0 4355 1
+# eecad3.eas.asu.edu(1):      1596  1 _select_donut_hole
+F 1220.0.0 4355 1
+S 1222.0.0 4361 1
+# eecad3.eas.asu.edu(1):      1484  1 _boolean_not_q
+F 1222.0.0 4361 1
+S 1224.0.0 4367 1
+# eecad3.eas.asu.edu(1):      1057  1 _tag_violation
+F 1230.0.0 4390 0
+F 1224.0.0 4367 1
+S 1212.0.0 4333 0
+# eecad3.eas.asu.edu(0):      1535  1 _area_q
+S 1126.0.0 3992 1
+# eecad3.eas.asu.edu(1):      5085  1 _internal_q
+F 1212.0.0 4333 0
+S 1214.0.0 4338 0
+# eecad3.eas.asu.edu(0):      1166  1 _tag_violation
+F 1126.0.0 3992 1
+S 1122.0.0 3976 1
+# eecad3.eas.asu.edu(1):      5998  1 _external_q
+F 1122.0.0 3976 1
+S 1124.0.0 3988 1
+# eecad3.eas.asu.edu(1):      2244  1 _tag_violation
+F 1214.0.0 4338 0
+F 1124.0.0 3988 1
+S 1117.0.0 3963 0
+# eecad3.eas.asu.edu(0):      2809  1 _find_wide_q
+S 1113.0.0 3949 1
+# eecad3.eas.asu.edu(1):      5279  1 _internal_q
+F 1117.0.0 3963 0
+S 1940.0.0 6630 0
+# eecad3.eas.asu.edu(0):      1207  1 _copy
+F 1113.0.0 3949 1
+S 1115.0.0 3959 1
+# eecad3.eas.asu.edu(1):      2647  1 _tag_violation
+F 1940.0.0 6630 0
+S 1942.0.0 6636 0
+# eecad3.eas.asu.edu(0):      2797  1 _select_q
+F 1942.0.0 6636 0
+S 1978.0.0 6820 0
+# eecad3.eas.asu.edu(0):      2998  1 _select_q
+F 1978.0.0 6820 0
+S 1976.0.0 6810 0
+# eecad3.eas.asu.edu(0):      2998  1 _select_q
+F 1976.0.0 6810 0
+S 1974.0.0 6800 0
+# eecad3.eas.asu.edu(0):      2998  1 _select_q
+F 1115.0.0 3959 1
+S 1972.0.0 6790 1
+# eecad3.eas.asu.edu(1):      2998  1 _select_q
+F 1974.0.0 6800 0
+S 1970.0.0 6780 0
+# eecad3.eas.asu.edu(0):      3001  1 _select_q
+F 1972.0.0 6790 1
+S 1249.0.0 4450 1
+# eecad3.eas.asu.edu(1):      1235  1 _copy
+F 1970.0.0 6780 0
+S 1979.0.0 6827 0
+# eecad3.eas.asu.edu(0):      1363  1 _boolean_or_list
+F 1249.0.0 4450 1
+S 1251.0.0 4456 1
+# eecad3.eas.asu.edu(1):      1200  1 _boolean_not_q
+F 1979.0.0 6827 0
+S 1981.0.0 6833 0
+# eecad3.eas.asu.edu(0):      2001  1 _boolean_not_q
+F 1251.0.0 4456 1
+S 1253.0.0 4463 1
+# eecad3.eas.asu.edu(1):      2159  1 _interacting_edge_q
+F 1981.0.0 6833 0
+F 1253.0.0 4463 1
+S 1255.0.0 4471 0
+# eecad3.eas.asu.edu(0):      2543  1 _adjacent_edge_q
+S 1983.0.0 6839 1
+# eecad3.eas.asu.edu(1):      1484  1 _tag_violation
+F 1255.0.0 4471 0
+S 1257.0.0 4477 0
+# eecad3.eas.asu.edu(0):      1528  1 _tag_violation
+F 1983.0.0 6839 1
+S 1240.0.0 4421 1
+# eecad3.eas.asu.edu(1):      1235  1 _copy
+F 1257.0.0 4477 0
+S 1231.0.0 4392 0
+# eecad3.eas.asu.edu(0):      1236  1 _copy
+F 1231.0.0 4392 0
+S 1233.0.0 4398 0
+# eecad3.eas.asu.edu(0):      1047  1 _boolean_not_q
+F 1240.0.0 4421 1
+S 1242.0.0 4427 1
+# eecad3.eas.asu.edu(1):      1053  1 _boolean_not_q
+F 1233.0.0 4398 0
+S 1235.0.0 4405 0
+# eecad3.eas.asu.edu(0):      1770  1 _interacting_edge_q
+F 1242.0.0 4427 1
+S 1244.0.0 4434 1
+# eecad3.eas.asu.edu(1):      1778  1 _interacting_edge_q
+F 1235.0.0 4405 0
+S 1237.0.0 4413 0
+# eecad3.eas.asu.edu(0):      2543  1 _adjacent_edge_q
+F 1244.0.0 4434 1
+S 1246.0.0 4442 1
+# eecad3.eas.asu.edu(1):      2546  1 _adjacent_edge_q
+F 1237.0.0 4413 0
+S 1239.0.0 4419 0
+# eecad3.eas.asu.edu(0):      1528  1 _tag_violation
+F 1246.0.0 4442 1
+S 1248.0.0 4448 1
+# eecad3.eas.asu.edu(1):      1529  1 _tag_violation
+F 1239.0.0 4419 0
+F 1248.0.0 4448 1
+S 1135.0.0 4029 0
+# eecad3.eas.asu.edu(0):      1218  1 _copy
+S 1134.0.0 4026 1
+# eecad3.eas.asu.edu(1):      1222  1 _copy
+F 1135.0.0 4029 0
+S 1170.0.0 4178 0
+# eecad3.eas.asu.edu(0):      5933  1 _external_q
+F 1134.0.0 4026 1
+S 1141.0.0 4049 1
+# eecad3.eas.asu.edu(1):      1187  1 _boolean_not_q
+F 1170.0.0 4178 0
+S 1622.0.0 5560 0
+# eecad3.eas.asu.edu(0):      1219  1 _copy
+F 1141.0.0 4049 1
+S 1163.0.0 4146 1
+# eecad3.eas.asu.edu(1):      5941  1 _external_q
+F 1622.0.0 5560 0
+S 1631.0.0 5589 0
+# eecad3.eas.asu.edu(0):      5944  1 _external_q
+F 1163.0.0 4146 1
+S 1161.0.0 4134 1
+# eecad3.eas.asu.edu(1):      6766  1 _external_q
+F 1631.0.0 5589 0
+S 1632.0.0 5599 0
+# eecad3.eas.asu.edu(0):      1412  1 _copy
+F 1161.0.0 4134 1
+S 1164.0.0 4156 1
+# eecad3.eas.asu.edu(1):      1430  1 _boolean_or
+F 1632.0.0 5599 0
+S 1634.0.0 5604 0
+# eecad3.eas.asu.edu(0):      1270  1 _tag_violation
+F 1164.0.0 4156 1
+S 1166.0.0 4161 1
+# eecad3.eas.asu.edu(1):      1040  1 _tag_violation
+F 1634.0.0 5604 0
+S 1168.0.0 4166 0
+# eecad3.eas.asu.edu(0):      6758  1 _external_q
+F 1166.0.0 4161 1
+S 1133.0.0 4023 1
+# eecad3.eas.asu.edu(1):      1222  1 _copy
+F 1168.0.0 4166 0
+S 1171.0.0 4188 0
+# eecad3.eas.asu.edu(0):      1414  1 _boolean_or
+F 1133.0.0 4023 1
+S 1139.0.0 4042 1
+# eecad3.eas.asu.edu(1):      1191  1 _boolean_not_q
+F 1139.0.0 4042 1
+S 1156.0.0 4114 1
+# eecad3.eas.asu.edu(1):      5943  1 _external_q
+F 1171.0.0 4188 0
+S 1173.0.0 4193 0
+# eecad3.eas.asu.edu(0):      1040  1 _tag_violation
+F 1156.0.0 4114 1
+S 1152.0.0 4095 1
+# eecad3.eas.asu.edu(1):      1027  1 _boolean_not_q
+F 1152.0.0 4095 1
+S 1154.0.0 4102 1
+# eecad3.eas.asu.edu(1):      6773  1 _external_q
+F 1154.0.0 4102 1
+S 1157.0.0 4124 1
+# eecad3.eas.asu.edu(1):      1434  1 _boolean_or
+F 1157.0.0 4124 1
+S 1159.0.0 4129 1
+# eecad3.eas.asu.edu(1):      1040  1 _tag_violation
+F 1173.0.0 4193 0
+F 1159.0.0 4129 1
+S 1621.0.0 5557 0
+# eecad3.eas.asu.edu(0):      1222  1 _copy
+S 1132.0.0 4020 1
+# eecad3.eas.asu.edu(1):      1225  1 _copy
+F 1621.0.0 5557 0
+S 1626.0.0 5570 0
+# eecad3.eas.asu.edu(0):      5947  1 _external_q
+F 1132.0.0 4020 1
+S 1137.0.0 4035 1
+# eecad3.eas.asu.edu(1):      1195  1 _boolean_not_q
+F 1626.0.0 5570 0
+S 1627.0.0 5580 0
+# eecad3.eas.asu.edu(0):      1414  1 _copy
+F 1137.0.0 4035 1
+S 1147.0.0 4075 1
+# eecad3.eas.asu.edu(1):      5948  1 _external_q
+F 1627.0.0 5580 0
+S 1629.0.0 5585 0
+# eecad3.eas.asu.edu(0):      1270  1 _tag_violation
+F 1147.0.0 4075 1
+S 1143.0.0 4056 1
+# eecad3.eas.asu.edu(1):      1031  1 _boolean_not_q
+F 1143.0.0 4056 1
+S 1145.0.0 4063 1
+# eecad3.eas.asu.edu(1):      6781  1 _external_q
+F 1145.0.0 4063 1
+S 1148.0.0 4085 1
+# eecad3.eas.asu.edu(1):      1436  1 _boolean_or
+F 1148.0.0 4085 1
+S 1150.0.0 4090 1
+# eecad3.eas.asu.edu(1):      1040  1 _tag_violation
+F 1629.0.0 5585 0
+F 1150.0.0 4090 1
+S 1127.0.0 4000 0
+# eecad3.eas.asu.edu(0):      1227  1 _copy
+S 1118.0.0 3967 1
+# eecad3.eas.asu.edu(1):      1457  1 _copy
+F 1127.0.0 4000 0
+S 1129.0.0 4006 0
+# eecad3.eas.asu.edu(0):      6947  1 _external_q
+F 1118.0.0 3967 1
+S 1120.0.0 3972 1
+# eecad3.eas.asu.edu(1):      1068  1 _tag_violation
+F 1129.0.0 4006 0
+S 1131.0.0 4018 0
+# eecad3.eas.asu.edu(0):      2616  1 _tag_violation
+F 1131.0.0 4018 0
+F 1120.0.0 3972 1
+S 1109.0.0 3935 0
+# eecad3.eas.asu.edu(0):      3607  1 _internal_q
+S 1174.0.0 4195 1
+# eecad3.eas.asu.edu(1):      3068  1 _copy
+F 1174.0.0 4195 1
+S 1181.0.0 4220 1
+# eecad3.eas.asu.edu(1):      4987  1 _internal_q
+F 1109.0.0 3935 0
+S 1111.0.0 3945 0
+# eecad3.eas.asu.edu(0):      1495  1 _tag_violation
+F 1181.0.0 4220 1
+S 1188.0.0 4246 1
+# eecad3.eas.asu.edu(1):      1107  1 _merge_dirty_layer
+F 1111.0.0 3945 0
+S 1182.0.0 4228 0
+# eecad3.eas.asu.edu(0):      1106  1 _merge_dirty_layer
+F 1188.0.0 4246 1
+S 1190.0.0 4251 1
+# eecad3.eas.asu.edu(1):      1247  1 _boolean_not_q
+F 1182.0.0 4228 0
+S 1184.0.0 4233 0
+# eecad3.eas.asu.edu(0):      1246  1 _boolean_not_q
+F 1190.0.0 4251 1
+S 1206.0.0 4312 1
+# eecad3.eas.asu.edu(1):      2901  1 _copy
+F 1206.0.0 4312 1
+S 1208.0.0 4317 1
+# eecad3.eas.asu.edu(1):      6196  1 _external_q
+F 1184.0.0 4233 0
+S 1196.0.0 4274 0
+# eecad3.eas.asu.edu(0):      2900  1 _copy
+F 1208.0.0 4317 1
+S 1210.0.0 4329 1
+# eecad3.eas.asu.edu(1):      2368  1 _tag_violation
+F 1196.0.0 4274 0
+S 1198.0.0 4279 0
+# eecad3.eas.asu.edu(0):      6196  1 _external_q
+F 1198.0.0 4279 0
+S 1200.0.0 4291 0
+# eecad3.eas.asu.edu(0):      2367  1 _tag_violation
+F 1200.0.0 4291 0
+F 1210.0.0 4329 1
+S 1176.0.0 4200 0
+# eecad3.eas.asu.edu(0):      4989  1 _internal_q
+S 1848.0.0 6311 1
+# eecad3.eas.asu.edu(1):      2873  1 _select_q
+F 1848.0.0 6311 1
+S 1850.0.0 6321 1
+# eecad3.eas.asu.edu(1):      3240  1 _covered_by_q
+F 1850.0.0 6321 1
+S 1852.0.0 6327 1
+# eecad3.eas.asu.edu(1):      1896  1 _tag_violation
+F 1176.0.0 4200 0
+S 1185.0.0 4237 0
+# eecad3.eas.asu.edu(0):      1109  1 _merge_dirty_layer
+F 1185.0.0 4237 0
+S 1187.0.0 4242 0
+# eecad3.eas.asu.edu(0):      1249  1 _boolean_not_q
+F 1852.0.0 6327 1
+S 1177.0.0 4208 1
+# eecad3.eas.asu.edu(1):      1108  1 _merge_dirty_layer
+F 1187.0.0 4242 0
+S 1201.0.0 4293 0
+# eecad3.eas.asu.edu(0):      2903  1 _copy
+F 1201.0.0 4293 0
+S 1203.0.0 4298 0
+# eecad3.eas.asu.edu(0):      6194  1 _external_q
+F 1177.0.0 4208 1
+S 1179.0.0 4213 1
+# eecad3.eas.asu.edu(1):      1248  1 _boolean_not_q
+F 1203.0.0 4298 0
+S 1205.0.0 4310 0
+# eecad3.eas.asu.edu(0):      2370  1 _tag_violation
+F 1179.0.0 4213 1
+S 1191.0.0 4255 1
+# eecad3.eas.asu.edu(1):      2902  1 _copy
+F 1191.0.0 4255 1
+S 1193.0.0 4260 1
+# eecad3.eas.asu.edu(1):      6194  1 _external_q
+F 1193.0.0 4260 1
+S 1195.0.0 4272 1
+# eecad3.eas.asu.edu(1):      2369  1 _tag_violation
+F 1205.0.0 4310 0
+S 1776.0.0 6039 0
+# eecad3.eas.asu.edu(0):      5056  1 _internal_q
+F 1195.0.0 4272 1
+S 1080.0.0 3822 1
+# eecad3.eas.asu.edu(1):      5050  1 _internal_q
+F 1776.0.0 6039 0
+S 1782.0.0 6063 0
+# eecad3.eas.asu.edu(0):      2803  1 _select_q
+F 1080.0.0 3822 1
+S 1082.0.0 3833 1
+# eecad3.eas.asu.edu(1):      2787  1 _select_q
+F 1782.0.0 6063 0
+S 1784.0.0 6072 0
+# eecad3.eas.asu.edu(0):      1540  1 _oversize_q
+F 1082.0.0 3833 1
+S 1084.0.0 3843 1
+# eecad3.eas.asu.edu(1):      2798  1 _select_q
+F 1784.0.0 6072 0
+S 1786.0.0 6079 0
+# eecad3.eas.asu.edu(0):      6558  1 _enclose_q
+F 1084.0.0 3843 1
+S 1090.0.0 3868 1
+# eecad3.eas.asu.edu(1):      5102  1 _internal_q
+F 1090.0.0 3868 1
+S 1086.0.0 3853 1
+# eecad3.eas.asu.edu(1):      2787  1 _select_q
+F 1086.0.0 3853 1
+S 1088.0.0 3862 1
+# eecad3.eas.asu.edu(1):      1533  1 _oversize_q
+F 1786.0.0 6079 0
+S 1788.0.0 6091 0
+# eecad3.eas.asu.edu(0):      2620  1 _tag_violation
+F 1088.0.0 3862 1
+S 1092.0.0 3879 1
+# eecad3.eas.asu.edu(1):      1677  1 _not_edge_q
+F 1092.0.0 3879 1
+S 1094.0.0 3885 1
+# eecad3.eas.asu.edu(1):      2123  1 _length_edge_q
+F 1094.0.0 3885 1
+S 1096.0.0 3891 1
+# eecad3.eas.asu.edu(1):      1428  1 _tag_violation
+F 1096.0.0 3891 1
+S 963.0.0 3356 1
+# eecad3.eas.asu.edu(1):      1538  1 _area_q
+F 1788.0.0 6091 0
+S 848.0.0 2920 0
+# eecad3.eas.asu.edu(0):      2964  1 _center_to_center_q
+F 963.0.0 3356 1
+S 965.0.0 3361 1
+# eecad3.eas.asu.edu(1):      1167  1 _tag_violation
+F 848.0.0 2920 0
+S 850.0.0 2926 0
+# eecad3.eas.asu.edu(0):      1625  1 _tag_violation
+F 965.0.0 3361 1
+S 844.0.0 2910 1
+# eecad3.eas.asu.edu(1):      2961  1 _center_to_center_q
+F 850.0.0 2926 0
+S 841.0.0 2901 0
+# eecad3.eas.asu.edu(0):      2240  1 _find_wide_q
+F 841.0.0 2901 0
+S 1777.0.0 6047 0
+# eecad3.eas.asu.edu(0):      1222  1 _copy
+F 844.0.0 2910 1
+S 846.0.0 2916 1
+# eecad3.eas.asu.edu(1):      1624  1 _tag_violation
+F 1777.0.0 6047 0
+S 1806.0.0 6158 0
+# eecad3.eas.asu.edu(0):      2173  1 _select_q
+F 1806.0.0 6158 0
+S 1808.0.0 6168 0
+# eecad3.eas.asu.edu(0):      2922  1 _covered_by_q
+F 1808.0.0 6168 0
+S 1810.0.0 6174 0
+# eecad3.eas.asu.edu(0):      1868  1 _tag_violation
+F 846.0.0 2916 1
+S 1798.0.0 6130 1
+# eecad3.eas.asu.edu(1):      1183  1 _boolean_not_q
+F 1810.0.0 6174 0
+S 1794.0.0 6113 0
+# eecad3.eas.asu.edu(0):      6603  1 _enclose_q
+F 1798.0.0 6130 1
+S 1800.0.0 6137 1
+# eecad3.eas.asu.edu(1):      2794  1 _select_q
+F 1794.0.0 6113 0
+S 1796.0.0 6125 0
+# eecad3.eas.asu.edu(0):      2505  1 _tag_violation
+F 1800.0.0 6137 1
+S 1802.0.0 6147 1
+# eecad3.eas.asu.edu(1):      2935  1 _covered_by_q
+F 1802.0.0 6147 1
+S 1804.0.0 6153 1
+# eecad3.eas.asu.edu(1):      1881  1 _tag_violation
+F 1804.0.0 6153 1
+S 1778.0.0 6050 1
+# eecad3.eas.asu.edu(1):      1002  1 _boolean_or
+F 1796.0.0 6125 0
+S 984.0.0 3417 0
+# eecad3.eas.asu.edu(0):      1229  1 _copy
+F 984.0.0 3417 0
+S 986.0.0 3423 0
+# eecad3.eas.asu.edu(0):      1021  1 _boolean_not_q
+F 1778.0.0 6050 1
+S 1780.0.0 6056 1
+# eecad3.eas.asu.edu(1):      1202  1 _boolean_not_q
+F 986.0.0 3423 0
+S 979.0.0 3401 0
+# eecad3.eas.asu.edu(0):      1225  1 _copy
+F 979.0.0 3401 0
+S 981.0.0 3407 0
+# eecad3.eas.asu.edu(0):      1025  1 _boolean_not_q
+F 1780.0.0 6056 1
+S 1790.0.0 6096 1
+# eecad3.eas.asu.edu(1):      6580  1 _enclose_q
+F 981.0.0 3407 0
+S 983.0.0 3413 0
+# eecad3.eas.asu.edu(0):      2018  1 _find_wide_q
+F 1790.0.0 6096 1
+S 1792.0.0 6108 1
+# eecad3.eas.asu.edu(1):      2509  1 _tag_violation
+F 983.0.0 3413 0
+S 842.0.0 2905 0
+# eecad3.eas.asu.edu(0):      1230  1 _copy
+F 842.0.0 2905 0
+S 852.0.0 2930 0
+# eecad3.eas.asu.edu(0):      2946  1 _center_to_center_q
+F 852.0.0 2930 0
+S 854.0.0 2936 0
+# eecad3.eas.asu.edu(0):      1602  1 _tag_violation
+F 1792.0.0 6108 1
+S 796.0.0 2766 1
+# eecad3.eas.asu.edu(1):      1940  1 _rectangles_q
+F 854.0.0 2936 0
+S 792.0.0 2752 0
+# eecad3.eas.asu.edu(0):      5271  1 _internal_q
+F 792.0.0 2752 0
+F 796.0.0 2766 1
+S 797.0.0 2772 0
+# eecad3.eas.asu.edu(0):      3271  1 _copy
+S 794.0.0 2762 1
+# eecad3.eas.asu.edu(1):      2647  1 _tag_violation
+F 797.0.0 2772 0
+S 799.0.0 2777 0
+# eecad3.eas.asu.edu(0):      5363  1 _internal_q
+F 799.0.0 2777 0
+S 801.0.0 2787 0
+# eecad3.eas.asu.edu(0):      2646  1 _tag_violation
+F 794.0.0 2762 1
+S 500.0.0 1750 1
+# eecad3.eas.asu.edu(1):      1587  1 _boolean_and_q
+F 801.0.0 2787 0
+S 872.0.0 3003 0
+# eecad3.eas.asu.edu(0):      3315  1 _copy
+F 872.0.0 3003 0
+S 883.0.0 3045 0
+# eecad3.eas.asu.edu(0):      5103  1 _internal_q
+F 500.0.0 1750 1
+S 874.0.0 3008 1
+# eecad3.eas.asu.edu(1):      5105  1 _internal_q
+F 883.0.0 3045 0
+S 885.0.0 3056 0
+# eecad3.eas.asu.edu(0):      1101  1 _boolean_not_q
+F 874.0.0 3008 1
+S 876.0.0 3019 1
+# eecad3.eas.asu.edu(1):      1258  1 _boolean_not_q
+F 885.0.0 3056 0
+S 886.0.0 3060 0
+# eecad3.eas.asu.edu(0):      2918  1 _copy
+F 886.0.0 3060 0
+S 888.0.0 3065 0
+# eecad3.eas.asu.edu(0):      6200  1 _external_q
+F 876.0.0 3019 1
+S 877.0.0 3023 1
+# eecad3.eas.asu.edu(1):      2920  1 _copy
+F 877.0.0 3023 1
+S 879.0.0 3028 1
+# eecad3.eas.asu.edu(1):      6204  1 _external_q
+F 879.0.0 3028 1
+S 881.0.0 3040 1
+# eecad3.eas.asu.edu(1):      2384  1 _tag_violation
+F 888.0.0 3065 0
+S 890.0.0 3077 0
+# eecad3.eas.asu.edu(0):      2382  1 _tag_violation
+F 881.0.0 3040 1
+S 802.0.0 2789 1
+# eecad3.eas.asu.edu(1):      2108  1 _select
+F 890.0.0 3077 0
+S 419.0.0 1527 0
+# eecad3.eas.asu.edu(0):      3328  1 _optimize_layer_dp
+F 802.0.0 2789 1
+S 808.0.0 2810 1
+# eecad3.eas.asu.edu(1):       981  1 _boolean_or
+F 808.0.0 2810 1
+S 810.0.0 2816 1
+# eecad3.eas.asu.edu(1):      1212  1 _boolean_not_q
+F 810.0.0 2816 1
+S 812.0.0 2822 1
+# eecad3.eas.asu.edu(1):      5376  1 _internal_q
+F 419.0.0 1527 0
+S 714.0.0 2530 0
+# eecad3.eas.asu.edu(0):      6000  1 _external_q
+F 812.0.0 2822 1
+S 814.0.0 2832 1
+# eecad3.eas.asu.edu(1):      2635  1 _tag_violation
+F 714.0.0 2530 0
+S 716.0.0 2542 0
+# eecad3.eas.asu.edu(0):      2264  1 _tag_violation
+F 814.0.0 2832 1
+S 698.0.0 2465 1
+# eecad3.eas.asu.edu(1):      5280  1 _internal_q
+F 716.0.0 2542 0
+S 803.0.0 2793 0
+# eecad3.eas.asu.edu(0):      3269  1 _copy
+F 803.0.0 2793 0
+S 805.0.0 2798 0
+# eecad3.eas.asu.edu(0):      5362  1 _internal_q
+F 805.0.0 2798 0
+S 807.0.0 2808 0
+# eecad3.eas.asu.edu(0):      2645  1 _tag_violation
+F 698.0.0 2465 1
+S 700.0.0 2475 1
+# eecad3.eas.asu.edu(1):      2650  1 _tag_violation
+F 700.0.0 2475 1
+S 416.0.0 1516 1
+# eecad3.eas.asu.edu(1):      3328  1 _optimize_layer_dp
+F 807.0.0 2808 0
+S 413.0.0 1505 0
+# eecad3.eas.asu.edu(0):      3328  1 _optimize_layer_dp
+F 416.0.0 1516 1
+S 680.0.0 2397 1
+# eecad3.eas.asu.edu(1):      1826  1 _boolean_and_q
+F 413.0.0 1505 0
+S 1760.0.0 5984 0
+# eecad3.eas.asu.edu(0):      4286  1 _external_corner_q
+F 680.0.0 2397 1
+S 682.0.0 2405 1
+# eecad3.eas.asu.edu(1):      1036  1 _tag_violation
+F 1760.0.0 5984 0
+S 1762.0.0 5996 0
+# eecad3.eas.asu.edu(0):      1917  1 _tag_violation
+F 682.0.0 2405 1
+S 1752.0.0 5950 1
+# eecad3.eas.asu.edu(1):      6909  1 _external_q
+F 1762.0.0 5996 0
+S 906.0.0 3141 0
+# eecad3.eas.asu.edu(0):      5065  1 _internal_q
+F 906.0.0 3141 0
+S 908.0.0 3152 0
+# eecad3.eas.asu.edu(0):      6992  1 _external_q
+F 1752.0.0 5950 1
+S 1754.0.0 5962 1
+# eecad3.eas.asu.edu(1):      2789  1 _tag_violation
+F 908.0.0 3152 0
+S 910.0.0 3164 0
+# eecad3.eas.asu.edu(0):      2716  1 _tag_violation
+F 1754.0.0 5962 1
+S 902.0.0 3125 1
+# eecad3.eas.asu.edu(1):      6844  1 _external_q
+F 910.0.0 3164 0
+S 726.0.0 2581 0
+# eecad3.eas.asu.edu(0):      1599  1 _boolean_and_q
+F 902.0.0 3125 1
+S 904.0.0 3137 1
+# eecad3.eas.asu.edu(1):      2631  1 _tag_violation
+F 726.0.0 2581 0
+S 728.0.0 2590 0
+# eecad3.eas.asu.edu(0):      1844  1 _boolean_and_q
+F 728.0.0 2590 0
+S 730.0.0 2598 0
+# eecad3.eas.asu.edu(0):      1161  1 _tag_violation
+F 904.0.0 3137 1
+S 722.0.0 2564 1
+# eecad3.eas.asu.edu(1):      6251  1 _internal2_q
+F 730.0.0 2598 0
+S 694.0.0 2449 0
+# eecad3.eas.asu.edu(0):      6251  1 _internal2_q
+F 722.0.0 2564 1
+S 724.0.0 2576 1
+# eecad3.eas.asu.edu(1):      2486  1 _tag_violation
+F 694.0.0 2449 0
+S 696.0.0 2461 0
+# eecad3.eas.asu.edu(0):      2486  1 _tag_violation
+F 696.0.0 2461 0
+S 684.0.0 2410 0
+# eecad3.eas.asu.edu(0):      1599  1 _boolean_and_q
+F 724.0.0 2576 1
+S 649.0.0 2287 1
+# eecad3.eas.asu.edu(1):      2483  1 _level_one_q
+F 649.0.0 2287 1
+S 650.0.0 2291 1
+# eecad3.eas.asu.edu(1):      1606  1 _select_donut_hole
+F 684.0.0 2410 0
+S 686.0.0 2419 0
+# eecad3.eas.asu.edu(0):      1848  1 _boolean_and_q
+F 650.0.0 2291 1
+S 652.0.0 2296 1
+# eecad3.eas.asu.edu(1):      1570  1 _area_q
+F 686.0.0 2419 0
+S 688.0.0 2427 0
+# eecad3.eas.asu.edu(0):      1161  1 _tag_violation
+F 652.0.0 2296 1
+S 654.0.0 2301 1
+# eecad3.eas.asu.edu(1):      1173  1 _tag_violation
+F 688.0.0 2427 0
+F 654.0.0 2301 1
+S 645.0.0 2278 0
+# eecad3.eas.asu.edu(0):      1545  1 _area_q
+S 619.0.0 2178 1
+# eecad3.eas.asu.edu(1):      2013  1 _find_wide_q
+F 619.0.0 2178 1
+S 621.0.0 2184 1
+# eecad3.eas.asu.edu(1):      6041  1 _external_q
+F 645.0.0 2278 0
+S 647.0.0 2283 0
+# eecad3.eas.asu.edu(0):      1168  1 _tag_violation
+F 621.0.0 2184 1
+S 623.0.0 2196 1
+# eecad3.eas.asu.edu(1):      2251  1 _tag_violation
+F 647.0.0 2283 0
+S 615.0.0 2162 0
+# eecad3.eas.asu.edu(0):      5996  1 _external_q
+F 623.0.0 2196 1
+S 571.0.0 2001 1
+# eecad3.eas.asu.edu(1):      5280  1 _internal_q
+F 615.0.0 2162 0
+S 617.0.0 2174 0
+# eecad3.eas.asu.edu(0):      2246  1 _tag_violation
+F 571.0.0 2001 1
+S 573.0.0 2011 1
+# eecad3.eas.asu.edu(1):      2650  1 _tag_violation
+F 617.0.0 2174 0
+F 573.0.0 2011 1
+S 498.0.0 1741 0
+# eecad3.eas.asu.edu(0):      1591  1 _boolean_and_q
+S 487.0.0 1697 1
+# eecad3.eas.asu.edu(1):      1169  1 _boolean_not_q
+F 498.0.0 1741 0
+S 1817.0.0 6196 0
+# eecad3.eas.asu.edu(0):      2550  1 _covered_by_q
+F 487.0.0 1697 1
+S 856.0.0 2940 1
+# eecad3.eas.asu.edu(1):      5873  1 _external_q
+F 1817.0.0 6196 0
+S 1815.0.0 6189 0
+# eecad3.eas.asu.edu(0):      2836  1 _covered_by_q
+F 856.0.0 2940 1
+S 1756.0.0 5967 1
+# eecad3.eas.asu.edu(1):      4281  1 _external_corner_q
+F 1815.0.0 6189 0
+S 1819.0.0 6203 0
+# eecad3.eas.asu.edu(0):      1980  1 _boolean_and_q
+F 1756.0.0 5967 1
+S 1758.0.0 5979 1
+# eecad3.eas.asu.edu(1):      1916  1 _tag_violation
+F 1819.0.0 6203 0
+S 1821.0.0 6211 0
+# eecad3.eas.asu.edu(0):      1269  1 _tag_violation
+F 1758.0.0 5979 1
+S 1853.0.0 6329 1
+# eecad3.eas.asu.edu(1):      4307  1 _enclose
+F 1821.0.0 6211 0
+S 1811.0.0 6176 0
+# eecad3.eas.asu.edu(0):      6189  1 _enclose
+F 1853.0.0 6329 1
+S 1855.0.0 6337 1
+# eecad3.eas.asu.edu(1):      1857  1 _tag_violation
+F 1811.0.0 6176 0
+S 1813.0.0 6184 0
+# eecad3.eas.asu.edu(0):      2702  1 _tag_violation
+F 1855.0.0 6337 1
+S 480.0.0 1667 1
+# eecad3.eas.asu.edu(1):      1597  1 _boolean_and_q
+F 1813.0.0 6184 0
+S 478.0.0 1658 0
+# eecad3.eas.asu.edu(0):      1597  1 _boolean_and_q
+F 480.0.0 1667 1
+S 501.0.0 1756 1
+# eecad3.eas.asu.edu(1):      1020  1 _copy
+F 478.0.0 1658 0
+S 506.0.0 1777 0
+# eecad3.eas.asu.edu(0):      1020  1 _copy
+F 501.0.0 1756 1
+S 574.0.0 2013 1
+# eecad3.eas.asu.edu(1):      3082  1 _copy
+F 506.0.0 1777 0
+S 565.0.0 1985 0
+# eecad3.eas.asu.edu(0):      1207  1 _copy
+F 574.0.0 2013 1
+S 581.0.0 2038 1
+# eecad3.eas.asu.edu(1):      5005  1 _internal_q
+F 565.0.0 1985 0
+S 576.0.0 2018 0
+# eecad3.eas.asu.edu(0):      5007  1 _internal_q
+F 581.0.0 2038 1
+S 599.0.0 2107 1
+# eecad3.eas.asu.edu(1):      1120  1 _merge_dirty_layer
+F 599.0.0 2107 1
+S 601.0.0 2112 1
+# eecad3.eas.asu.edu(1):      1262  1 _boolean_not_q
+F 576.0.0 2018 0
+S 596.0.0 2098 0
+# eecad3.eas.asu.edu(0):      1122  1 _merge_dirty_layer
+F 601.0.0 2112 1
+S 609.0.0 2140 1
+# eecad3.eas.asu.edu(1):      3147  1 _copy
+F 596.0.0 2098 0
+S 598.0.0 2103 0
+# eecad3.eas.asu.edu(0):      1116  1 _boolean_not_q
+F 609.0.0 2140 1
+S 611.0.0 2146 1
+# eecad3.eas.asu.edu(1):      7052  1 _external_q
+F 598.0.0 2103 0
+S 603.0.0 2118 0
+# eecad3.eas.asu.edu(0):      3149  1 _copy
+F 603.0.0 2118 0
+S 605.0.0 2124 0
+# eecad3.eas.asu.edu(0):      7054  1 _external_q
+F 611.0.0 2146 1
+S 613.0.0 2158 1
+# eecad3.eas.asu.edu(1):      2759  1 _tag_violation
+F 605.0.0 2124 0
+S 607.0.0 2136 0
+# eecad3.eas.asu.edu(0):      2761  1 _tag_violation
+F 613.0.0 2158 1
+S 577.0.0 2026 1
+# eecad3.eas.asu.edu(1):      1123  1 _merge_dirty_layer
+F 607.0.0 2136 0
+S 582.0.0 2046 0
+# eecad3.eas.asu.edu(0):      1121  1 _merge_dirty_layer
+F 577.0.0 2026 1
+S 579.0.0 2031 1
+# eecad3.eas.asu.edu(1):      1117  1 _boolean_not_q
+F 582.0.0 2046 0
+S 584.0.0 2051 0
+# eecad3.eas.asu.edu(0):      1115  1 _boolean_not_q
+F 579.0.0 2031 1
+S 585.0.0 2055 1
+# eecad3.eas.asu.edu(1):      3149  1 _copy
+F 584.0.0 2051 0
+S 591.0.0 2078 0
+# eecad3.eas.asu.edu(0):      3147  1 _copy
+F 585.0.0 2055 1
+S 587.0.0 2062 1
+# eecad3.eas.asu.edu(1):      7056  1 _external_q
+F 591.0.0 2078 0
+S 593.0.0 2084 0
+# eecad3.eas.asu.edu(0):      7052  1 _external_q
+F 587.0.0 2062 1
+S 589.0.0 2074 1
+# eecad3.eas.asu.edu(1):      2761  1 _tag_violation
+F 593.0.0 2084 0
+S 595.0.0 2096 0
+# eecad3.eas.asu.edu(0):      2759  1 _tag_violation
+F 595.0.0 2096 0
+F 589.0.0 2074 1
+S 676.0.0 2380 0
+# eecad3.eas.asu.edu(0):      6010  1 _external_q
+S 660.0.0 2315 1
+# eecad3.eas.asu.edu(1):      5280  1 _internal_q
+F 676.0.0 2380 0
+F 660.0.0 2315 1
+S 662.0.0 2325 0
+# eecad3.eas.asu.edu(0):      2650  1 _tag_violation
+S 678.0.0 2392 1
+# eecad3.eas.asu.edu(1):      2264  1 _tag_violation
+F 662.0.0 2325 0
+F 678.0.0 2392 1
+S 476.0.0 1652 0
+# eecad3.eas.asu.edu(0):       969  1 _boolean_or
+S 409.0.0 1493 1
+# eecad3.eas.asu.edu(1):      3332  1 _optimize_layer_dp
+F 476.0.0 1652 0
+S 710.0.0 2514 0
+# eecad3.eas.asu.edu(0):      6565  1 _enclose_q
+F 710.0.0 2514 0
+S 712.0.0 2526 0
+# eecad3.eas.asu.edu(0):      2647  1 _tag_violation
+F 409.0.0 1493 1
+S 532.0.0 1872 1
+# eecad3.eas.asu.edu(1):      2489  1 _level_one_q
+F 532.0.0 1872 1
+S 533.0.0 1876 1
+# eecad3.eas.asu.edu(1):      1613  1 _select_donut_hole
+F 533.0.0 1876 1
+S 535.0.0 1881 1
+# eecad3.eas.asu.edu(1):      1566  1 _area_q
+F 712.0.0 2526 0
+S 528.0.0 1863 0
+# eecad3.eas.asu.edu(0):      1537  1 _area_q
+F 535.0.0 1881 1
+S 537.0.0 1886 1
+# eecad3.eas.asu.edu(1):      1175  1 _tag_violation
+F 528.0.0 1863 0
+S 530.0.0 1868 0
+# eecad3.eas.asu.edu(0):      1169  1 _tag_violation
+F 530.0.0 1868 0
+S 524.0.0 1849 0
+# eecad3.eas.asu.edu(0):      5281  1 _internal_q
+F 537.0.0 1886 1
+S 508.0.0 1783 1
+# eecad3.eas.asu.edu(1):      1620  1 _boolean_and_q
+F 524.0.0 1849 0
+S 526.0.0 1859 0
+# eecad3.eas.asu.edu(0):      2650  1 _tag_violation
+F 508.0.0 1783 1
+S 510.0.0 1792 1
+# eecad3.eas.asu.edu(1):      1610  1 _boolean_and_q
+F 510.0.0 1792 1
+S 512.0.0 1801 1
+# eecad3.eas.asu.edu(1):      1182  1 _boolean_not_q
+F 512.0.0 1801 1
+S 520.0.0 1833 1
+# eecad3.eas.asu.edu(1):      6826  1 _external_q
+F 520.0.0 1833 1
+S 522.0.0 1845 1
+# eecad3.eas.asu.edu(1):      3300  1 _tag_violation
+F 526.0.0 1859 0
+F 522.0.0 1845 1
+S 538.0.0 1888 0
+# eecad3.eas.asu.edu(0):      1024  1 _copy
+S 496.0.0 1732 1
+# eecad3.eas.asu.edu(1):      1598  1 _boolean_and_q
+F 538.0.0 1888 0
+S 540.0.0 1911 0
+# eecad3.eas.asu.edu(0):      5654  1 _connect_q
+F 496.0.0 1732 1
+S 706.0.0 2497 1
+# eecad3.eas.asu.edu(1):      6554  1 _enclose_q
+F 706.0.0 2497 1
+S 708.0.0 2509 1
+# eecad3.eas.asu.edu(1):      2763  1 _tag_violation
+F 708.0.0 2509 1
+S 641.0.0 2262 1
+# eecad3.eas.asu.edu(1):      6584  1 _enclose_q
+F 540.0.0 1911 0
+S 546.0.0 1931 0
+# eecad3.eas.asu.edu(0):      6131  1 _external_q
+F 641.0.0 2262 1
+S 643.0.0 2274 1
+# eecad3.eas.asu.edu(1):      2764  1 _tag_violation
+F 546.0.0 1931 0
+S 548.0.0 1943 0
+# eecad3.eas.asu.edu(0):      2276  1 _tag_violation
+F 643.0.0 2274 1
+S 542.0.0 1915 1
+# eecad3.eas.asu.edu(1):      6116  1 _external_q
+F 548.0.0 1943 0
+S 484.0.0 1685 0
+# eecad3.eas.asu.edu(0):      1598  1 _boolean_and_q
+F 484.0.0 1685 0
+S 718.0.0 2547 0
+# eecad3.eas.asu.edu(0):      6889  1 _external_q
+F 718.0.0 2547 0
+S 720.0.0 2559 0
+# eecad3.eas.asu.edu(0):      2881  1 _tag_violation
+F 542.0.0 1915 1
+S 544.0.0 1927 1
+# eecad3.eas.asu.edu(1):      2271  1 _tag_violation
+F 720.0.0 2559 0
+S 664.0.0 2330 0
+# eecad3.eas.asu.edu(0):      6562  1 _enclose_q
+F 544.0.0 1927 1
+S 633.0.0 2228 1
+# eecad3.eas.asu.edu(1):      6649  1 _enclose_q
+F 664.0.0 2330 0
+S 666.0.0 2342 0
+# eecad3.eas.asu.edu(0):      2763  1 _tag_violation
+F 633.0.0 2228 1
+S 635.0.0 2240 1
+# eecad3.eas.asu.edu(1):      2765  1 _tag_violation
+F 666.0.0 2342 0
+F 635.0.0 2240 1
+S 475.0.0 1648 0
+# eecad3.eas.asu.edu(0):      1174  1 _boolean_not_q
+S 672.0.0 2364 1
+# eecad3.eas.asu.edu(1):      6565  1 _enclose_q
+F 475.0.0 1648 0
+S 503.0.0 1762 0
+# eecad3.eas.asu.edu(0):      1619  1 _boolean_and_q
+F 672.0.0 2364 1
+S 674.0.0 2376 1
+# eecad3.eas.asu.edu(1):      2647  1 _tag_violation
+F 503.0.0 1762 0
+S 505.0.0 1771 0
+# eecad3.eas.asu.edu(0):      1610  1 _boolean_and_q
+F 505.0.0 1771 0
+S 514.0.0 1808 0
+# eecad3.eas.asu.edu(0):      1182  1 _boolean_not_q
+F 674.0.0 2376 1
+S 494.0.0 1723 1
+# eecad3.eas.asu.edu(1):      1597  1 _boolean_and_q
+F 514.0.0 1808 0
+S 516.0.0 1815 0
+# eecad3.eas.asu.edu(0):      6826  1 _external_q
+F 494.0.0 1723 1
+S 1823.0.0 6216 1
+# eecad3.eas.asu.edu(1):      1592  1 _boolean_and_q
+F 516.0.0 1815 0
+S 518.0.0 1827 0
+# eecad3.eas.asu.edu(0):      3300  1 _tag_violation
+F 1823.0.0 6216 1
+S 1826.0.0 6228 1
+# eecad3.eas.asu.edu(1):      6638  1 _enclose_q
+F 1826.0.0 6228 1
+S 1828.0.0 6240 1
+# eecad3.eas.asu.edu(1):      2893  1 _tag_violation
+F 518.0.0 1827 0
+S 1824.0.0 6222 0
+# eecad3.eas.asu.edu(0):      1011  1 _copy
+F 1828.0.0 6240 1
+S 668.0.0 2347 1
+# eecad3.eas.asu.edu(1):      6554  1 _enclose_q
+F 1824.0.0 6222 0
+S 1830.0.0 6245 0
+# eecad3.eas.asu.edu(0):      6642  1 _enclose_q
+F 668.0.0 2347 1
+S 670.0.0 2359 1
+# eecad3.eas.asu.edu(1):      2763  1 _tag_violation
+F 1830.0.0 6245 0
+S 1832.0.0 6257 0
+# eecad3.eas.asu.edu(0):      2893  1 _tag_violation
+F 1832.0.0 6257 0
+S 637.0.0 2245 0
+# eecad3.eas.asu.edu(0):      6583  1 _enclose_q
+F 670.0.0 2359 1
+S 482.0.0 1676 1
+# eecad3.eas.asu.edu(1):      1597  1 _boolean_and_q
+F 482.0.0 1676 1
+S 702.0.0 2480 1
+# eecad3.eas.asu.edu(1):      6562  1 _enclose_q
+F 637.0.0 2245 0
+S 639.0.0 2257 0
+# eecad3.eas.asu.edu(0):      2764  1 _tag_violation
+F 702.0.0 2480 1
+S 704.0.0 2492 1
+# eecad3.eas.asu.edu(1):      2763  1 _tag_violation
+F 704.0.0 2492 1
+S 690.0.0 2432 1
+# eecad3.eas.asu.edu(1):      6889  1 _external_q
+F 639.0.0 2257 0
+S 629.0.0 2211 0
+# eecad3.eas.asu.edu(0):      6648  1 _enclose_q
+F 690.0.0 2432 1
+S 692.0.0 2444 1
+# eecad3.eas.asu.edu(1):      2881  1 _tag_violation
+F 629.0.0 2211 0
+S 631.0.0 2223 0
+# eecad3.eas.asu.edu(0):      2765  1 _tag_violation
+F 692.0.0 2444 1
+S 485.0.0 1691 1
+# eecad3.eas.asu.edu(1):       967  1 _boolean_or
+F 631.0.0 2223 0
+S 567.0.0 1991 0
+# eecad3.eas.asu.edu(0):      1475  1 _boolean_not_q
+F 485.0.0 1691 1
+S 491.0.0 1713 1
+# eecad3.eas.asu.edu(1):      1710  1 _and_edge_q
+F 567.0.0 1991 0
+S 569.0.0 1997 0
+# eecad3.eas.asu.edu(0):      1388  1 _tag_violation
+F 491.0.0 1713 1
+S 656.0.0 2305 1
+# eecad3.eas.asu.edu(1):      2028  1 _length_edge_q
+F 656.0.0 2305 1
+S 658.0.0 2311 1
+# eecad3.eas.asu.edu(1):      1762  1 _tag_violation
+F 658.0.0 2311 1
+S 489.0.0 1704 1
+# eecad3.eas.asu.edu(1):      1588  1 _boolean_and_q
+F 569.0.0 1997 0
+F 0 0 0
+F 489.0.0 1704 1
+S 1864.0.0 6362 0
+# eecad3.eas.asu.edu(0):      1817  1 _boolean_and_q
+S 1744.0.0 5915 1
+# eecad3.eas.asu.edu(1):      5066  1 _internal_q
+F 1744.0.0 5915 1
+S 1746.0.0 5926 1
+# eecad3.eas.asu.edu(1):      1222  1 _boolean_not_q
+F 1864.0.0 6362 0
+S 1866.0.0 6370 0
+# eecad3.eas.asu.edu(0):      1490  1 _tag_violation
+F 1746.0.0 5926 1
+S 1748.0.0 5933 1
+# eecad3.eas.asu.edu(1):      6958  1 _external_q
+F 1748.0.0 5933 1
+S 1750.0.0 5945 1
+# eecad3.eas.asu.edu(1):      3247  1 _tag_violation
+F 1866.0.0 6370 0
+F 1750.0.0 5945 1
+S 1764.0.0 6001 0
+# eecad3.eas.asu.edu(0):      3478  1 _copy
+S 1740.0.0 5899 1
+# eecad3.eas.asu.edu(1):      6910  1 _external_q
+F 1764.0.0 6001 0
+S 1766.0.0 6007 0
+# eecad3.eas.asu.edu(0):      7353  1 _external_q
+F 1740.0.0 5899 1
+S 1742.0.0 5911 1
+# eecad3.eas.asu.edu(1):      3245  1 _tag_violation
+F 1766.0.0 6007 0
+S 1769.0.0 6021 0
+# eecad3.eas.asu.edu(0):      1193  1 _merge_dirty_layer
+F 1769.0.0 6021 0
+S 1768.0.0 6019 0
+# eecad3.eas.asu.edu(0):      1193  1 _merge_dirty_layer
+F 1768.0.0 6019 0
+S 1770.0.0 6023 0
+# eecad3.eas.asu.edu(0):      1133  1 _boolean_or
+F 1770.0.0 6023 0
+S 1767.0.0 6017 0
+# eecad3.eas.asu.edu(0):      1099  1 _merge_dirty_layer
+F 1767.0.0 6017 0
+S 1772.0.0 6029 0
+# eecad3.eas.asu.edu(0):      1630  1 _boolean_not_q
+F 1772.0.0 6029 0
+S 1774.0.0 6035 0
+# eecad3.eas.asu.edu(0):      2346  1 _tag_violation
+F 1742.0.0 5911 1
+S 967.0.0 3365 1
+# eecad3.eas.asu.edu(1):      1419  1 _area_q
+F 1774.0.0 6035 0
+S 953.0.0 3330 0
+# eecad3.eas.asu.edu(0):      1747  1 _coincident_edge_q
+F 967.0.0 3365 1
+S 969.0.0 3371 1
+# eecad3.eas.asu.edu(1):      1653  1 _boolean_not_q
+F 953.0.0 3330 0
+S 959.0.0 3346 0
+# eecad3.eas.asu.edu(0):      2326  1 _adjacent_edge_q
+F 969.0.0 3371 1
+S 971.0.0 3377 1
+# eecad3.eas.asu.edu(1):      2145  1 _tag_violation
+F 959.0.0 3346 0
+S 961.0.0 3352 0
+# eecad3.eas.asu.edu(0):      1922  1 _tag_violation
+F 961.0.0 3352 0
+F 971.0.0 3377 1
+S 955.0.0 3336 0
+# eecad3.eas.asu.edu(0):      2326  1 _adjacent_edge_q
+S 949.0.0 3313 1
+# eecad3.eas.asu.edu(1):      6558  1 _enclose_q
+F 955.0.0 3336 0
+S 957.0.0 3342 0
+# eecad3.eas.asu.edu(0):      1922  1 _tag_violation
+F 949.0.0 3313 1
+S 951.0.0 3325 1
+# eecad3.eas.asu.edu(1):      2949  1 _tag_violation
+F 957.0.0 3342 0
+S 912.0.0 3168 0
+# eecad3.eas.asu.edu(0):      2018  1 _find_wide_q
+F 951.0.0 3325 1
+S 892.0.0 3082 1
+# eecad3.eas.asu.edu(1):      2799  1 _select_q
+F 912.0.0 3168 0
+S 945.0.0 3296 0
+# eecad3.eas.asu.edu(0):      6589  1 _enclose_q
+F 892.0.0 3082 1
+S 894.0.0 3092 1
+# eecad3.eas.asu.edu(1):      2813  1 _select_q
+F 945.0.0 3296 0
+S 947.0.0 3308 0
+# eecad3.eas.asu.edu(0):      2954  1 _tag_violation
+F 894.0.0 3092 1
+S 920.0.0 3200 1
+# eecad3.eas.asu.edu(1):      2289  1 _connect_q
+F 947.0.0 3308 0
+S 896.0.0 3102 0
+# eecad3.eas.asu.edu(0):      3047  1 _copy
+F 896.0.0 3102 0
+S 1097.0.0 3893 0
+# eecad3.eas.asu.edu(0):      1028  1 _copy
+F 1097.0.0 3893 0
+S 1101.0.0 3908 0
+# eecad3.eas.asu.edu(0):      5100  1 _internal_q
+F 920.0.0 3200 1
+S 922.0.0 3205 1
+# eecad3.eas.asu.edu(1):      3488  1 _explode_rotation
+F 1101.0.0 3908 0
+S 921.0.0 3202 0
+# eecad3.eas.asu.edu(0):      3491  1 _explode_rotation
+F 922.0.0 3205 1
+S 1099.0.0 3899 1
+# eecad3.eas.asu.edu(1):      2783  1 _select_q
+F 921.0.0 3202 0
+S 924.0.0 3211 0
+# eecad3.eas.asu.edu(0):      7305  1 _external_q
+F 1099.0.0 3899 1
+S 1103.0.0 3919 1
+# eecad3.eas.asu.edu(1):      1671  1 _not_edge_q
+F 1103.0.0 3919 1
+S 1105.0.0 3925 1
+# eecad3.eas.asu.edu(1):      2177  1 _length_edge_q
+F 1105.0.0 3925 1
+S 1107.0.0 3931 1
+# eecad3.eas.asu.edu(1):      1882  1 _tag_violation
+F 924.0.0 3211 0
+S 935.0.0 3257 0
+# eecad3.eas.asu.edu(0):      1193  1 _merge_dirty_layer
+F 935.0.0 3257 0
+S 925.0.0 3221 0
+# eecad3.eas.asu.edu(0):      1193  1 _merge_dirty_layer
+F 925.0.0 3221 0
+S 937.0.0 3262 0
+# eecad3.eas.asu.edu(0):      1195  1 _boolean_not_q
+F 937.0.0 3262 0
+S 930.0.0 3233 0
+# eecad3.eas.asu.edu(0):      2840  1 _select_q
+F 1107.0.0 3931 1
+S 926.0.0 3223 1
+# eecad3.eas.asu.edu(1):      1153  1 _copy
+F 930.0.0 3233 0
+S 932.0.0 3243 0
+# eecad3.eas.asu.edu(0):      6656  1 _enclose_q
+F 926.0.0 3223 1
+S 928.0.0 3228 1
+# eecad3.eas.asu.edu(1):      1338  1 _tag_violation
+F 932.0.0 3243 0
+S 934.0.0 3255 0
+# eecad3.eas.asu.edu(0):      3424  1 _tag_violation
+F 928.0.0 3228 1
+S 939.0.0 3269 1
+# eecad3.eas.asu.edu(1):      2222  1 _select_q
+F 934.0.0 3255 0
+S 895.0.0 3099 0
+# eecad3.eas.asu.edu(0):      3050  1 _copy
+F 895.0.0 3099 0
+F 939.0.0 3269 1
+S 941.0.0 3279 0
+# eecad3.eas.asu.edu(0):      6659  1 _enclose_q
+S 898.0.0 3108 1
+# eecad3.eas.asu.edu(1):      6896  1 _external_q
+F 941.0.0 3279 0
+S 943.0.0 3291 0
+# eecad3.eas.asu.edu(0):      3423  1 _tag_violation
+F 898.0.0 3108 1
+S 900.0.0 3120 1
+# eecad3.eas.asu.edu(1):      3575  1 _tag_violation
+F 900.0.0 3120 1
+S 914.0.0 3175 1
+# eecad3.eas.asu.edu(1):      1228  1 _boolean_not_q
+F 943.0.0 3291 0
+S 862.0.0 2963 0
+# eecad3.eas.asu.edu(0):      6025  1 _external_q
+F 914.0.0 3175 1
+S 916.0.0 3182 1
+# eecad3.eas.asu.edu(1):      6590  1 _enclose_q
+F 862.0.0 2963 0
+S 864.0.0 2975 0
+# eecad3.eas.asu.edu(0):      2703  1 _tag_violation
+F 916.0.0 3182 1
+S 918.0.0 3194 1
+# eecad3.eas.asu.edu(1):      2965  1 _tag_violation
+F 864.0.0 2975 0
+S 858.0.0 2953 0
+# eecad3.eas.asu.edu(0):      1478  1 _boolean_not_q
+F 918.0.0 3194 1
+S 823.0.0 2854 1
+# eecad3.eas.asu.edu(1):      3057  1 _copy
+F 823.0.0 2854 1
+S 825.0.0 2859 1
+# eecad3.eas.asu.edu(1):      6119  1 _internal_q
+F 858.0.0 2953 0
+S 860.0.0 2959 0
+# eecad3.eas.asu.edu(0):      1611  1 _tag_violation
+F 860.0.0 2959 0
+S 492.0.0 1717 0
+# eecad3.eas.asu.edu(0):      1232  1 _copy
+F 492.0.0 1717 0
+S 973.0.0 3381 0
+# eecad3.eas.asu.edu(0):      2035  1 _find_wide_q
+F 973.0.0 3381 0
+S 987.0.0 3427 0
+# eecad3.eas.asu.edu(0):      1238  1 _copy
+F 987.0.0 3427 0
+S 989.0.0 3433 0
+# eecad3.eas.asu.edu(0):      1035  1 _boolean_not_q
+F 989.0.0 3433 0
+S 991.0.0 3440 0
+# eecad3.eas.asu.edu(0):      1191  1 _boolean_not_q
+F 825.0.0 2859 1
+S 834.0.0 2883 1
+# eecad3.eas.asu.edu(1):      1420  1 _merge_dirty_layer
+F 834.0.0 2883 1
+S 833.0.0 2881 1
+# eecad3.eas.asu.edu(1):      1420  1 _merge_dirty_layer
+F 991.0.0 3440 0
+S 994.0.0 3451 0
+# eecad3.eas.asu.edu(0):      3145  1 _copy
+F 833.0.0 2881 1
+S 832.0.0 2879 1
+# eecad3.eas.asu.edu(1):      1420  1 _merge_dirty_layer
+F 994.0.0 3451 0
+S 831.0.0 2877 0
+# eecad3.eas.asu.edu(0):      1420  1 _merge_dirty_layer
+F 832.0.0 2879 1
+S 830.0.0 2875 1
+# eecad3.eas.asu.edu(1):      1420  1 _merge_dirty_layer
+F 830.0.0 2875 1
+S 829.0.0 2873 1
+# eecad3.eas.asu.edu(1):      1420  1 _merge_dirty_layer
+F 831.0.0 2877 0
+S 828.0.0 2871 0
+# eecad3.eas.asu.edu(0):      1420  1 _merge_dirty_layer
+F 829.0.0 2873 1
+S 827.0.0 2869 1
+# eecad3.eas.asu.edu(1):      1420  1 _merge_dirty_layer
+F 828.0.0 2871 0
+S 826.0.0 2867 0
+# eecad3.eas.asu.edu(0):      1093  1 _merge_dirty_layer
+F 827.0.0 2869 1
+S 835.0.0 2885 1
+# eecad3.eas.asu.edu(1):      1461  1 _boolean_or_list
+F 826.0.0 2867 0
+S 865.0.0 2977 0
+# eecad3.eas.asu.edu(0):      1080  1 _copy
+F 835.0.0 2885 1
+S 837.0.0 2891 1
+# eecad3.eas.asu.edu(1):      1412  1 _boolean_not_q
+F 865.0.0 2977 0
+S 867.0.0 2983 0
+# eecad3.eas.asu.edu(0):      1189  1 _boolean_not_q
+F 867.0.0 2983 0
+S 869.0.0 2989 0
+# eecad3.eas.asu.edu(0):      6088  1 _external_q
+F 837.0.0 2891 1
+S 839.0.0 2897 1
+# eecad3.eas.asu.edu(1):      1945  1 _tag_violation
+F 869.0.0 2989 0
+S 871.0.0 3001 0
+# eecad3.eas.asu.edu(0):      2710  1 _tag_violation
+F 871.0.0 3001 0
+F 839.0.0 2897 1
+S 1024.0.0 3601 0
+# eecad3.eas.asu.edu(0):      3146  1 _copy
+S 1019.0.0 3576 1
+# eecad3.eas.asu.edu(1):      1725  1 _grow_q
+F 1024.0.0 3601 0
+S 1026.0.0 3608 0
+# eecad3.eas.asu.edu(0):      6732  1 _external_q
+F 1019.0.0 3576 1
+S 1020.0.0 3580 1
+# eecad3.eas.asu.edu(1):      3148  1 _copy
+F 1026.0.0 3608 0
+S 1028.0.0 3621 0
+# eecad3.eas.asu.edu(0):      2856  1 _select_q
+F 1020.0.0 3580 1
+S 1022.0.0 3587 1
+# eecad3.eas.asu.edu(1):      6733  1 _external_q
+F 1028.0.0 3621 0
+S 974.0.0 3385 0
+# eecad3.eas.asu.edu(0):      1230  1 _copy
+F 974.0.0 3385 0
+S 1047.0.0 3711 0
+# eecad3.eas.asu.edu(0):      1189  1 _boolean_not_q
+F 1047.0.0 3711 0
+F 1022.0.0 3587 1
+S 1023.0.0 3597 0
+# eecad3.eas.asu.edu(0):      1727  1 _grow_q
+S 1049.0.0 3717 1
+# eecad3.eas.asu.edu(1):      3147  1 _copy
+F 1023.0.0 3597 0
+S 1030.0.0 3631 0
+# eecad3.eas.asu.edu(0):      2244  1 _select_q
+F 1049.0.0 3717 1
+S 976.0.0 3391 1
+# eecad3.eas.asu.edu(1):      1032  1 _boolean_not_q
+F 1030.0.0 3631 0
+S 1031.0.0 3638 0
+# eecad3.eas.asu.edu(0):      1045  1 _boolean_or
+F 976.0.0 3391 1
+S 978.0.0 3397 1
+# eecad3.eas.asu.edu(1):      2022  1 _find_wide_q
+F 1031.0.0 3638 0
+S 1060.0.0 3775 0
+# eecad3.eas.asu.edu(0):      1257  1 _copy
+F 978.0.0 3397 1
+S 1033.0.0 3644 1
+# eecad3.eas.asu.edu(1):      1197  1 _boolean_not_q
+F 1060.0.0 3775 0
+S 1062.0.0 3780 0
+# eecad3.eas.asu.edu(0):      1566  1 _tag_violation
+F 1033.0.0 3644 1
+S 1035.0.0 3650 1
+# eecad3.eas.asu.edu(1):      3147  1 _copy
+F 1035.0.0 3650 1
+S 997.0.0 3467 1
+# eecad3.eas.asu.edu(1):      3146  1 _copy
+F 997.0.0 3467 1
+S 1040.0.0 3675 1
+# eecad3.eas.asu.edu(1):      6733  1 _external_q
+F 1040.0.0 3675 1
+S 1044.0.0 3698 1
+# eecad3.eas.asu.edu(1):      2859  1 _select_q
+F 1044.0.0 3698 1
+S 999.0.0 3474 1
+# eecad3.eas.asu.edu(1):      6730  1 _external_q
+F 1062.0.0 3780 0
+S 992.0.0 3444 0
+# eecad3.eas.asu.edu(0):      1725  1 _grow_q
+F 999.0.0 3474 1
+S 1004.0.0 3501 1
+# eecad3.eas.asu.edu(1):      2855  1 _select_q
+F 992.0.0 3444 0
+S 993.0.0 3448 0
+# eecad3.eas.asu.edu(0):      3144  1 _copy
+F 1004.0.0 3501 1
+S 1010.0.0 3532 1
+# eecad3.eas.asu.edu(1):      3142  1 _copy
+F 993.0.0 3448 0
+S 1037.0.0 3656 0
+# eecad3.eas.asu.edu(0):      6732  1 _external_q
+F 1010.0.0 3532 1
+S 1054.0.0 3742 1
+# eecad3.eas.asu.edu(1):      6731  1 _external_q
+F 1037.0.0 3656 0
+S 1038.0.0 3666 0
+# eecad3.eas.asu.edu(0):      1727  1 _grow_q
+F 1054.0.0 3742 1
+S 1058.0.0 3765 1
+# eecad3.eas.asu.edu(1):      2853  1 _select_q
+F 1038.0.0 3666 0
+S 1042.0.0 3688 0
+# eecad3.eas.asu.edu(0):      2859  1 _select_q
+F 1058.0.0 3765 1
+S 1012.0.0 3539 1
+# eecad3.eas.asu.edu(1):      5207  1 _external_q
+F 1042.0.0 3688 0
+S 1045.0.0 3705 0
+# eecad3.eas.asu.edu(0):      1047  1 _boolean_or
+F 1012.0.0 3539 1
+S 1017.0.0 3566 1
+# eecad3.eas.asu.edu(1):      2849  1 _select_q
+F 1045.0.0 3705 0
+S 1069.0.0 3796 0
+# eecad3.eas.asu.edu(0):      1281  1 _copy
+F 1017.0.0 3566 1
+S 996.0.0 3457 1
+# eecad3.eas.asu.edu(1):      5208  1 _external_q
+F 996.0.0 3457 1
+S 1000.0.0 3484 1
+# eecad3.eas.asu.edu(1):      1725  1 _grow_q
+F 1069.0.0 3796 0
+S 1071.0.0 3801 0
+# eecad3.eas.asu.edu(0):      1566  1 _tag_violation
+F 1000.0.0 3484 1
+S 1002.0.0 3491 1
+# eecad3.eas.asu.edu(1):      2856  1 _select_q
+F 1002.0.0 3491 1
+S 1005.0.0 3508 1
+# eecad3.eas.asu.edu(1):      1042  1 _boolean_or
+F 1005.0.0 3508 1
+S 1063.0.0 3782 1
+# eecad3.eas.asu.edu(1):      1263  1 _copy
+F 1063.0.0 3782 1
+S 1065.0.0 3787 1
+# eecad3.eas.asu.edu(1):      1565  1 _tag_violation
+F 1071.0.0 3801 0
+S 1006.0.0 3511 0
+# eecad3.eas.asu.edu(0):      1721  1 _grow_q
+F 1065.0.0 3787 1
+F 0 0 1
+F 1006.0.0 3511 0
+S 1007.0.0 3515 0
+# eecad3.eas.asu.edu(0):      3144  1 _copy
+F 1007.0.0 3515 0
+S 1051.0.0 3723 0
+# eecad3.eas.asu.edu(0):      6732  1 _external_q
+S 1009.0.0 3522 1
+# eecad3.eas.asu.edu(1):      5208  1 _external_q
+F 1009.0.0 3522 1
+S 1013.0.0 3549 1
+# eecad3.eas.asu.edu(1):      1725  1 _grow_q
+F 1051.0.0 3723 0
+S 1052.0.0 3733 0
+# eecad3.eas.asu.edu(0):      1727  1 _grow_q
+F 1013.0.0 3549 1
+S 1015.0.0 3556 1
+# eecad3.eas.asu.edu(1):      2850  1 _select_q
+F 1052.0.0 3733 0
+S 1056.0.0 3755 0
+# eecad3.eas.asu.edu(0):      2853  1 _select_q
+F 1015.0.0 3556 1
+S 1018.0.0 3573 1
+# eecad3.eas.asu.edu(1):      1038  1 _boolean_or
+F 1056.0.0 3755 0
+S 1059.0.0 3772 0
+# eecad3.eas.asu.edu(0):      1043  1 _boolean_or
+F 1018.0.0 3573 1
+S 1066.0.0 3789 1
+# eecad3.eas.asu.edu(1):      1253  1 _copy
+F 1059.0.0 3772 0
+S 1072.0.0 3803 0
+# eecad3.eas.asu.edu(0):      1255  1 _copy
+F 1066.0.0 3789 1
+S 1068.0.0 3794 1
+# eecad3.eas.asu.edu(1):      1565  1 _tag_violation
+F 1072.0.0 3803 0
+S 1074.0.0 3808 0
+# eecad3.eas.asu.edu(0):      1566  1 _tag_violation
+F 1074.0.0 3808 0
+F 1068.0.0 3794 1
+S 2220.0.0 7429 0
+# eecad3.eas.asu.edu(0):       372  1 _accumulate_results
+F 2220.0.0 7429 0
+}

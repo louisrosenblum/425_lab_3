@@ -1,0 +1,5 @@
+
+/* top equiv */
+equiv_options({{"one_bit_adder_Leg1", "one_bit_adder_Leg1"}});
+
+/* Generated system equivalence points are listed in this section */
