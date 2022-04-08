@@ -1,0 +1,15 @@
+( ( nil
+  version "2.1"
+  mapType "incremental"
+  blockName "d_flip_flop"
+  repList "auCdl schematic"
+  stopList "auCdl"
+  globalList "gnd! vdd!"
+  hierDelim "."
+  netlistDir "/afs/asu.edu/users/a/l/r/alrosen2/425_lab/Lab4/d_flip_flop"
+ )
+( model
+( "Lab4/d_flip_flop/schematic" "d_flip_flop" )
+ )
+( "d_flip_flop" "ihnl/cds0/map" )
+ )

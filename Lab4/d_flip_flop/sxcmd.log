@@ -1,0 +1,95 @@
+### CustomExplorer log file, revision K-2015.06-1 (build 07/22/15) ###
+### created at 17:06:36 on Thu Apr  7 2022 (Linux AMD64) ###
+### Host Name: eecad100   User ID: alrosen2   PID: 22351   ###
+wv_start_log
+# (0) running in waveview only mode
+# (0) SW_SX_PERL_LIB defined
+# (0) SW_SX_TCL_LIB defined
+# (0) HOME defined
+wv_move_window CustomWaveView 0 0
+wv_resize_window CustomWaveView 800 400
+wv_move_window CustomWaveView 0 30
+wv_resize_window CustomWaveView 1920 1016
+wv_move_window CustomWaveView -10 19
+wv_resize_window CustomWaveView 800 400
+wv_resize_window CustomWaveView 1920 1016
+wv_select_toolbar_item {Import Waveform File}
+wv_move_dialog FileDialog 745 202
+wv_select_dialog FileDialog
+wv_set_text FileDialog.FileName {}
+wv_select_list_item FileDialog.FileList d_flip_flop_tb.tr0
+wv_press_button FileDialog.Ok
+wv_select_tree_item MainWindow.hierview {D0:d_flip_flop_tb.tr0}
+wv_dclick_tree_item MainWindow.hierview {D0:d_flip_flop_tb.tr0}
+wv_select_tree_item MainWindow.hierview {D0:d_flip_flop_tb.tr0}
+wv_select_tree_item MainWindow.hierview {D0:d_flip_flop_tb.tr0/toplevel}
+wv_select_list_item MainWindow.sigview v(clk)
+wv_dclick_list_item MainWindow.sigview v(clk)
+wv_select_list_item MainWindow.sigview v(d)
+wv_dclick_list_item MainWindow.sigview v(d)
+wv_select_list_item MainWindow.sigview v(q)
+wv_dclick_list_item MainWindow.sigview v(q)
+wv_select_wv_item {WV1.ICON.measurement tool}
+wv_move_dialog MeasurementTool 10 45
+wv_move_dialog MeasurementTool 617 181
+wv_select_dialog MeasurementTool
+wv_release_wv_item WV1 149 13
+wv_move_dialog MeasurementTool 615 181
+wv_move_dialog MeasurementTool 604 179
+wv_move_dialog MeasurementTool 584 177
+wv_move_dialog MeasurementTool 549 175
+wv_move_dialog MeasurementTool 521 172
+wv_move_dialog MeasurementTool 473 169
+wv_move_dialog MeasurementTool 435 168
+wv_move_dialog MeasurementTool 405 166
+wv_move_dialog MeasurementTool 396 165
+wv_move_dialog MeasurementTool 384 165
+wv_move_dialog MeasurementTool 383 165
+wv_move_dialog MeasurementTool 385 162
+wv_move_dialog MeasurementTool 388 161
+wv_move_dialog MeasurementTool 406 156
+wv_move_dialog MeasurementTool 441 148
+wv_move_dialog MeasurementTool 549 135
+wv_move_dialog MeasurementTool 578 134
+wv_move_dialog MeasurementTool 628 132
+wv_move_dialog MeasurementTool 654 132
+wv_move_dialog MeasurementTool 711 136
+wv_move_dialog MeasurementTool 781 143
+wv_move_dialog MeasurementTool 800 147
+wv_move_dialog MeasurementTool 817 150
+wv_move_dialog MeasurementTool 886 169
+wv_move_dialog MeasurementTool 899 173
+wv_move_dialog MeasurementTool 945 188
+wv_move_dialog MeasurementTool 982 200
+wv_move_dialog MeasurementTool 1003 205
+wv_move_dialog MeasurementTool 1039 213
+wv_move_dialog MeasurementTool 1070 221
+wv_move_dialog MeasurementTool 1103 226
+wv_move_dialog MeasurementTool 1122 229
+wv_move_dialog MeasurementTool 1129 230
+wv_move_dialog MeasurementTool 1140 235
+wv_move_dialog MeasurementTool 1147 237
+wv_move_dialog MeasurementTool 1160 241
+wv_move_dialog MeasurementTool 1170 243
+wv_move_dialog MeasurementTool 1172 245
+wv_move_dialog MeasurementTool 1178 246
+wv_move_dialog MeasurementTool 1181 248
+wv_move_dialog MeasurementTool 1189 252
+wv_move_dialog MeasurementTool 1190 252
+wv_move_dialog MeasurementTool 1193 253
+wv_move_dialog MeasurementTool 1197 254
+wv_move_dialog MeasurementTool 1199 255
+wv_move_dialog MeasurementTool 1201 255
+wv_move_dialog MeasurementTool 1202 255
+wv_move_dialog MeasurementTool 1202 256
+# selected MeasurementTool.RefSignal v(clk) d_flip_flop_tb.tr0
+wv_select_combox_item MeasurementTool.RefSignal {v(clk) d_flip_flop_tb.tr0}
+# selected MeasurementTool.Signal v(q) d_flip_flop_tb.tr0
+wv_select_combox_item MeasurementTool.Signal {v(q) d_flip_flop_tb.tr0}
+wv_set_radio MeasurementTool.RiseEdge
+wv_set_radio MeasurementTool.SameEdge
+wv_press_button MeasurementTool.Ok
+wv_close_window CustomWaveView
+wv_move_dialog Confirmation 868 487
+wv_select_dialog Confirmation
+# wv_press_button Confirmation.Ok

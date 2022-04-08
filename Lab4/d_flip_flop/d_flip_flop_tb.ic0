@@ -1,0 +1,24 @@
+* "simulator" "HSPICE" 
+* "version" "K-2015.06-2 linux64"
+* "format" "HSP"
+* "rundate" "17:06:32 04/07/2022 "
+* "netlist" "d_flip_flop_tb.sp "
+* "runtitle" "# test bench for d-flip-flop simulation"
+* time =    0.            
+* temperature =   25.0000        
+*** BEGIN: Saved Operating Point ***                     
+.option 
++ gmindc=   1.0000p       
+.nodeset
++ clk =   1.0500        
++ d =   0.            
++ q = 402.7306m       
++ vdd! =   1.0500        
++ xd_flip_flop.net05 = 169.6791u       
++ xd_flip_flop.net11 = 468.2158m       
++ xd_flip_flop.net12 = 468.2158m       
++ xd_flip_flop.net13 = 512.2434m       
++ xd_flip_flop.net20 = 699.1621m       
++ xd_flip_flop.net7 = 467.7330m       
++ xd_flip_flop.net8 = 479.0441m       
+***   END: Saved Operating Point ***                     
