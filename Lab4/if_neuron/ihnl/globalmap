@@ -1,0 +1,15 @@
+CADENCE IHNL11140
+$model
+Lab4/and2/schematic and2
+Lab4/or3/schematic or3
+Lab4/four_bit_adder/schematic four_bit_adder
+Lab4/d_flip_flop/schematic d_flip_flop
+Lab4/one_bit_adder/schematic one_bit_adder
+Lab4/if_neuron/schematic if_neuron
+$endmodel
+$net
+gnd! gnd!
+vdd! vdd!
+$endnet
+$param
+$endparam
