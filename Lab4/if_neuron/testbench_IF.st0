@@ -1,0 +1,71 @@
+****** HSPICE -- K-2015.06-2 linux64 (Jun 25 2015) ******
+ Input File: testbench_IF.sp
+ lic:
+ lic: FLEXlm: v11.2.1
+ lic: USER:   alrosen2             HOSTNAME: eecad101
+ lic: HOSTID: "e4434bdac7cf"       PID:      203080
+ lic: Using FLEXlm license file:
+ lic: 27020@enlicense9.eas.asu.edu
+ lic: Checkout 1 hspice
+ lic: License/Maintenance for hspice will expire on 18-jun-2022/2020.12
+ lic: 7(in_use)/150(total) FLOATING license(s) on SERVER 27020@enlicense9.eas.asu.edu
+ lic:
+ init: begin read circuit files,  cpu clock=  3.90E-01
+       option search = /usr/local/synopsys/hspice_2015.06/hspice/parts/
+                         ad
+       option search = /usr/local/synopsys/hspice_2015.06/hspice/parts/
+                         ad
+       option search = /usr/local/synopsys/hspice_2015.06/hspice/parts/
+                         behave
+       option search = /usr/local/synopsys/hspice_2015.06/hspice/parts/
+                         bjt
+       option search = /usr/local/synopsys/hspice_2015.06/hspice/parts/
+                         burr_brn
+       option search = /usr/local/synopsys/hspice_2015.06/hspice/parts/
+                         comlinear
+       option search = /usr/local/synopsys/hspice_2015.06/hspice/parts/
+                         dio
+       option search = /usr/local/synopsys/hspice_2015.06/hspice/parts/
+                         fet
+       option search = /usr/local/synopsys/hspice_2015.06/hspice/parts/
+                         lin_tech
+       option search = /usr/local/synopsys/hspice_2015.06/hspice/parts/
+                         pci
+       option search = /usr/local/synopsys/hspice_2015.06/hspice/parts/
+                         signet
+       option search = /usr/local/synopsys/hspice_2015.06/hspice/parts/
+                         ti
+       option search = /usr/local/synopsys/hspice_2015.06/hspice/parts/
+                         tline
+       option search = /usr/local/synopsys/hspice_2015.06/hspice/parts/
+                         xilinx
+       option runlvl
+       option measdgt =     5.00
+       option post
+ init: end read circuit files,  cpu clock=  4.10E-01 peak memory=       237 mb
+ init: begin check errors,  cpu clock=  4.10E-01
+ **warning**  No DC path to ground from node        1:                net028
+ init: end check errors,  cpu clock=  7.60E-01 peak memory=       243 mb
+ init: begin setup matrix, pivot=     0 cpu clock=  7.60E-01
+       establish matrix -- done,  cpu clock=  7.70E-01 peak memory=       244 mb
+       re-order matrix -- done,  cpu clock=  7.70E-01 peak memory=       244 mb
+ init: end setup matrix,  cpu clock=  7.70E-01 peak memory=       245 mb
+ dcop: begin dcop,  cpu clock=  7.70E-01
+ dcop: begin pseudo transient
+ dcop: end pseudo transient
+ dcop: end dcop,  cpu clock=  2.15E+00 peak memory=       245 mb  tot_iter=     864
+ output: testbench_IF.mt0
+ sweep: tran tran0    begin, stop_t=  3.50E-08 #sweeps=**** cpu clock=  2.16E+00
+ tran: time= 3.5101E-09 tot_iter=    1258 conv_iter=     458 cpu clock= 3.11E+00
+ tran: time= 7.0000E-09 tot_iter=    2609 conv_iter=     938 cpu clock= 4.04E+00
+ tran: time= 1.0500E-08 tot_iter=    3933 conv_iter=    1410 cpu clock= 5.05E+00
+ tran: time= 1.4015E-08 tot_iter=    5268 conv_iter=    1886 cpu clock= 6.05E+00
+ tran: time= 1.7500E-08 tot_iter=    6567 conv_iter=    2351 cpu clock= 6.99E+00
+ tran: time= 2.1000E-08 tot_iter=    7896 conv_iter=    2823 cpu clock= 8.06E+00
+ tran: time= 2.4500E-08 tot_iter=    9202 conv_iter=    3288 cpu clock= 8.98E+00
+ tran: time= 2.8000E-08 tot_iter=   10526 conv_iter=    3762 cpu clock= 1.00E+01
+ tran: time= 3.1500E-08 tot_iter=   11859 conv_iter=    4236 cpu clock= 1.09E+01
+ tran: time= 3.5000E-08 tot_iter=   13160 conv_iter=    4702 cpu clock= 1.19E+01
+ sweep: tran tran0    end,  cpu clock=  1.19E+01 peak memory=       245 mb
+>info:         ***** hspice job concluded
+ lic: Release hspice token(s)
