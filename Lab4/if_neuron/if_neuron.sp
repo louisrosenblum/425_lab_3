@@ -4,7 +4,7 @@
 * Library Name:  Lab4
 * Top Cell Name: if_neuron
 * View Name:     schematic
-* Netlisted on:  Apr 15 14:29:27 2022
+* Netlisted on:  Apr 19 17:10:46 2022
 ************************************************************************
 
 *.BIPOLAR
@@ -138,11 +138,11 @@ xMM1 net8 net7 vdd! vdd! p105 m=1 w=504n l=30n ad=10.5f as=10.5f pd=310n ps=310n
 .SUBCKT and2 A B F
 *.PININFO A:I B:I F:O
 xMM5 F net7 gnd! gnd! n105 m=1 w=420n l=30n ad=10.5f as=10.5f pd=310n ps=310n
-xMM3 net17 B gnd! gnd! n105 m=1 w=840n l=30n ad=10.5f as=10.5f pd=310n ps=310n
-xMM0 net7 A net17 gnd! n105 m=1 w=840n l=30n ad=10.5f as=10.5f pd=310n ps=310n
-xMM4 F net7 net12 net12 p105 m=1 w=504n l=30n ad=10.5f as=10.5f pd=310n ps=310n
-xMM2 net7 B net8 net18 p105 m=1 w=252n l=30n ad=10.5f as=10.5f pd=310n ps=310n
-xMM1 net7 A net8 net19 p105 m=1 w=252n l=30n ad=10.5f as=10.5f pd=310n ps=310n
+xMM6 net7 A net013 gnd! n105 m=1 w=840n l=30n ad=10.5f as=10.5f pd=310n ps=310n
+xMM7 net013 B gnd! gnd! n105 m=1 w=840n l=30n ad=10.5f as=10.5f pd=310n ps=310n
+xMM4 F net7 vdd! vdd! p105 m=1 w=504n l=30n ad=10.5f as=10.5f pd=310n ps=310n
+xMM9 net7 B vdd! net015 p105 m=1 w=252n l=30n ad=10.5f as=10.5f pd=310n ps=310n
+xMM8 net7 A vdd! net016 p105 m=1 w=252n l=30n ad=10.5f as=10.5f pd=310n ps=310n
 .ENDS
 
 ************************************************************************
@@ -153,17 +153,17 @@ xMM1 net7 A net8 net19 p105 m=1 w=252n l=30n ad=10.5f as=10.5f pd=310n ps=310n
 
 .SUBCKT or3 A B C F
 *.PININFO A:I B:I C:I F:O
-xMM6 F net10 net15 net15 p105 m=1 w=504n l=30n ad=10.5f as=10.5f pd=310n ps=310n
-xMM2 net10 C net18 net23 p105 m=1 w=1.512u l=30n ad=10.5f as=10.5f pd=310n 
+xMM12 net016 B net017 vdd! p105 m=1 w=1.512u l=30n ad=10.5f as=10.5f pd=310n 
 + ps=310n
-xMM1 net18 B net19 net22 p105 m=1 w=1.512u l=30n ad=10.5f as=10.5f pd=310n 
+xMM11 net017 A vdd! vdd! p105 m=1 w=1.512u l=30n ad=10.5f as=10.5f pd=310n 
 + ps=310n
-xMM0 net19 A net20 net21 p105 m=1 w=1.512u l=30n ad=10.5f as=10.5f pd=310n 
+xMM13 net10 C net016 vdd! p105 m=1 w=1.512u l=30n ad=10.5f as=10.5f pd=310n 
 + ps=310n
+xMM6 F net10 vdd! vdd! p105 m=1 w=504n l=30n ad=10.5f as=10.5f pd=310n ps=310n
+xMM8 net10 A gnd! gnd! n105 m=1 w=140n l=30n ad=10.5f as=10.5f pd=310n ps=310n
 xMM7 F net10 gnd! gnd! n105 m=1 w=420n l=30n ad=10.5f as=10.5f pd=310n ps=310n
-xMM5 net10 C gnd! gnd! n105 m=1 w=140n l=30n ad=10.5f as=10.5f pd=310n ps=310n
-xMM4 net10 B gnd! gnd! n105 m=1 w=140n l=30n ad=10.5f as=10.5f pd=310n ps=310n
-xMM3 net10 A gnd! gnd! n105 m=1 w=140n l=30n ad=10.5f as=10.5f pd=310n ps=310n
+xMM10 net10 C gnd! gnd! n105 m=1 w=140n l=30n ad=10.5f as=10.5f pd=310n ps=310n
+xMM9 net10 B gnd! gnd! n105 m=1 w=140n l=30n ad=10.5f as=10.5f pd=310n ps=310n
 .ENDS
 
 ************************************************************************
@@ -172,28 +172,28 @@ xMM3 net10 A gnd! gnd! n105 m=1 w=140n l=30n ad=10.5f as=10.5f pd=310n ps=310n
 * View Name:    schematic
 ************************************************************************
 
-.SUBCKT if_neuron CLK F W0 W1 W2 W3 X0<0> X0<1> X0<2> X0<3> X1<0> X1<1> X1<2> 
-+ X1<3> X2<0> X2<1> X2<2> X2<3> X3<0> X3<1> X3<2> X3<3>
+.SUBCKT if_neuron CLK Cout1 Cout2 Cout3 F W0 W1 W2 W3 X0<0> X0<1> X0<2> X0<3> 
++ X1<0> X1<1> X1<2> X1<3> X2<0> X2<1> X2<2> X2<3> X3<0> X3<1> X3<2> X3<3>
 *.PININFO CLK:I W0:I W1:I W2:I W3:I X0<0>:I X0<1>:I X0<2>:I X0<3>:I X1<0>:I 
 *.PININFO X1<1>:I X1<2>:I X1<3>:I X2<0>:I X2<1>:I X2<2>:I X2<3>:I X3<0>:I 
-*.PININFO X3<1>:I X3<2>:I X3<3>:I F:O
-XI44 net081 net080 net079 net078 net076 net075 net074 net073 net096 net085 
+*.PININFO X3<1>:I X3<2>:I X3<3>:I Cout1:O Cout2:O Cout3:O F:O
+XI44 net069 net080 net079 net078 net076 net075 net074 net073 Cout3 net085 
 + net086 net087 net088 / four_bit_adder
-XI33 net46 net45 net38 net068 net069 net070 net071 net072 net061 net062 net063 
-+ net064 net065 / four_bit_adder
-XI0 net17 net18 net70 net69 net62 net85 net54 net53 net77 net78 net79 net80 
-+ net81 / four_bit_adder
-XI46 net028 net067 F / d_flip_flop
-XI43 net028 net061 net084 / d_flip_flop
-XI42 net028 net065 net073 / d_flip_flop
-XI41 net028 net064 net074 / d_flip_flop
-XI40 net028 net063 net075 / d_flip_flop
-XI39 net028 net062 net076 / d_flip_flop
-XI38 net028 net77 net077 / d_flip_flop
-XI37 net028 net81 net078 / d_flip_flop
-XI36 net028 net80 net079 / d_flip_flop
-XI35 net028 net79 net080 / d_flip_flop
-XI34 net028 net78 net081 / d_flip_flop
+XI33 net46 net45 net38 net049 net052 net070 net060 net0135 net061 net062 
++ net063 net064 net065 / four_bit_adder
+XI0 net046 net041 net042 net043 net045 net048 net050 net0103 net058 net057 
++ net0102 net0101 net098 / four_bit_adder
+XI46 CLK net067 F / d_flip_flop
+XI43 CLK net061 Cout2 / d_flip_flop
+XI42 CLK net065 net073 / d_flip_flop
+XI41 CLK net064 net074 / d_flip_flop
+XI40 CLK net063 net075 / d_flip_flop
+XI39 CLK net062 net076 / d_flip_flop
+XI38 CLK net058 Cout1 / d_flip_flop
+XI37 CLK net098 net078 / d_flip_flop
+XI36 CLK net0101 net079 / d_flip_flop
+XI35 CLK net0102 net080 / d_flip_flop
+XI34 CLK net057 net069 / d_flip_flop
 XI32 CLK X3<3> net20 / d_flip_flop
 XI29 CLK X3<2> net25 / d_flip_flop
 XI28 CLK X3<1> net27 / d_flip_flop
@@ -209,23 +209,23 @@ XI9 CLK X1<0> net64 / d_flip_flop
 XI8 CLK X0<3> net67 / d_flip_flop
 XI5 CLK X0<2> net72 / d_flip_flop
 XI3 CLK X0<1> net75 / d_flip_flop
-XI1 CLK X0<0> net76 / d_flip_flop
-XI31 net20 W3 net072 / and2
-XI30 net25 W3 net071 / and2
+XI1 CLK X0<0> net0108 / d_flip_flop
+XI31 net20 W3 net0135 / and2
+XI30 net25 W3 net060 / and2
 XI27 net27 W3 net070 / and2
-XI26 net32 W3 net069 / and2
-XI23 net35 W2 net068 / and2
+XI26 net32 W3 net052 / and2
+XI23 net35 W2 net049 / and2
 XI22 net40 W2 net38 / and2
 XI19 net43 W2 net45 / and2
 XI18 net48 W2 net46 / and2
-XI15 net51 W1 net53 / and2
-XI14 net56 W1 net54 / and2
-XI11 net59 W1 net85 / and2
-XI10 net64 W1 net62 / and2
-XI7 net67 W0 net69 / and2
-XI6 net72 W0 net70 / and2
-XI4 net75 W0 net18 / and2
-XI2 net76 W0 net17 / and2
-XI45 net077 net096 net084 net067 / or3
+XI15 net51 W1 net0103 / and2
+XI14 net56 W1 net050 / and2
+XI11 net59 W1 net048 / and2
+XI10 net64 W1 net045 / and2
+XI7 net67 W0 net043 / and2
+XI6 net72 W0 net042 / and2
+XI4 net75 W0 net041 / and2
+XI2 net0108 W0 net046 / and2
+XI47 Cout1 Cout3 Cout2 net067 / or3
 .ENDS
 

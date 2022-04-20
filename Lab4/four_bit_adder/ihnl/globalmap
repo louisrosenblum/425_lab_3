@@ -1,0 +1,11 @@
+CADENCE IHNL11140
+$model
+Lab4/four_bit_adder/schematic four_bit_adder
+Lab4/one_bit_adder/schematic one_bit_adder
+$endmodel
+$net
+gnd! gnd!
+vdd! vdd!
+$endnet
+$param
+$endparam

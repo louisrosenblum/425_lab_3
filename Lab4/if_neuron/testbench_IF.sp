@@ -2,7 +2,7 @@
 .OPTION
 
 **Change your period here**
-.param period=0.5n
+.param period=2n
 
 **Change the library path to your path**
 .lib '/afs/asu.edu/users/a/l/r/alrosen2/425_lab/iPDK/hspice/saed32nm.lib'SS
@@ -39,9 +39,8 @@
 Vgnd gnd! 0 DC=0
 Vvdd vdd! 0 DC=1.05
 
-xif_neuron CLK F W0 W1 W2 W3 X0<0> X0<1> X0<2> X0<3> X1<0> X1<1> X1<2> 
-+ X1<3> X2<0> X2<1> X2<2> X2<3> X3<0> X3<1> X3<2> X3<3> if_neuron
-
+xif_neuron CLK Cout1 Cout2 Cout3 F W0 W1 W2 W3 X0<0> X0<1> X0<2> X0<3> 
++ X1<0> X1<1> X1<2> X1<3> X2<0> X2<1> X2<2> X2<3> X3<0> X3<1> X3<2> X3<3> if_neuron
 .SUBCKT INVx04 a y
 *.PININFO a:I y:O
 XMM0 y a gnd! gnd! n105 m=1 w=1.419u l=30n ad=10.5f as=10.5f pd=310n ps=310n

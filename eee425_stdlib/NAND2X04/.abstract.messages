@@ -1,0 +1,16 @@
+cUiAddMessageView {NAND2x04} {abstract.pin} {514} {(ABS-514): Cell NAND2x04: The prBoundary has been created successfully.}
+cUiAddMessageView {NAND2x04} {abstract.pin} {515} {(ABS-515): Cell NAND2x04: The prBoundary does not enclose all cellview geometries. This is because not all layers with geometry for calculating prBoundary have been specified in the "Using geometry on layers" field on the "Boundary" tab. Ensure that all the required layers have been specified in this field.}
+cUiAddMessageView {NAND2x04} {abstract.pin} {505} {(ABS-505): Cell NAND2x04: The pin a has been created for the label a at (1129,898).}
+cUiAddMessageView {NAND2x04} {abstract.pin} {505} {(ABS-505): Cell NAND2x04: The pin b has been created for the label b at (513,897).}
+cUiAddMessageView {NAND2x04} {abstract.pin} {505} {(ABS-505): Cell NAND2x04: The pin gnd! has been created for the label gnd! at (69,-2).}
+cUiAddMessageView {NAND2x04} {abstract.pin} {505} {(ABS-505): Cell NAND2x04: The pin vcc! has been created for the label vcc! at (229,1512).}
+cUiAddMessageView {NAND2x04} {abstract.pin} {505} {(ABS-505): Cell NAND2x04: The pin y has been created for the label y at (1475,859).}
+cUiAddMessageView {NAND2x04} {abstract.pin} {503} {(ABS-503): Cell NAND2x04: 5 pins have been created.}
+cUiAddMessageView {NAND2x04} {abstract.ext} {602} {(ABS-602): Cell NAND2x04: extracting 5 nets}
+cUiAddMessageView {NAND2x04} {abstract.ext} {604} {(ABS-604): Cell NAND2x04: extracting the net a, 1 of 5.}
+cUiAddMessageView {NAND2x04} {abstract.ext} {604} {(ABS-604): Cell NAND2x04: extracting the net b, 2 of 5.}
+cUiAddMessageView {NAND2x04} {abstract.ext} {604} {(ABS-604): Cell NAND2x04: extracting the net y, 3 of 5.}
+cUiAddMessageView {NAND2x04} {abstract.ext} {604} {(ABS-604): Cell NAND2x04: extracting the net gnd!, 4 of 5.}
+cUiAddMessageView {NAND2x04} {abstract.ext} {604} {(ABS-604): Cell NAND2x04: extracting the net vcc!, 5 of 5.}
+cUiAddMessageView {NAND2x04} {abstract} {326} {(ABS-326): Unable to get the logical view of Cell NAND2x04, Bus Annotation of Abstract can not be done}
+cUiAddMessageView {NAND2x04} {abstract} {914} {(ABS-914): Cell NAND2x04: predefined site CoreSite will be used}

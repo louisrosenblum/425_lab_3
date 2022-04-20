@@ -1,0 +1,78 @@
+* "simulator" "HSPICE" 
+* "version" "K-2015.06-2 linux64"
+* "format" "HSP"
+* "rundate" "14:16:50 04/18/2022 "
+* "netlist" "four_bit_adder_tb.sp "
+* "runtitle" "# test bench for four bit adder simulation"
+* time =    0.            
+* temperature =   25.0000        
+*** BEGIN: Saved Operating Point ***                     
+.option 
++ gmindc=   1.0000p       
+.nodeset
++ a0 =   1.0500        
++ a1 =   1.0500        
++ a2 =   1.0500        
++ a3 =   1.0500        
++ b0 =   1.0500        
++ b1 =   1.0500        
++ b2 =   1.0500        
++ b3 =   1.0500        
++ cout =   1.0489        
++ sum0 = 335.1243u       
++ sum1 =   1.0487        
++ sum2 =   1.0487        
++ sum3 =   1.0487        
++ vdd! =   1.0500        
++ xfour_bit_adder.net30 =   1.0489        
++ xfour_bit_adder.net32 =   1.0489        
++ xfour_bit_adder.net35 =   1.0489        
++ xfour_bit_adder.xi3.net033 =  18.7491n       
++ xfour_bit_adder.xi3.net038 = 222.5800u       
++ xfour_bit_adder.xi3.net058 =  74.1980u       
++ xfour_bit_adder.xi3.net059 = 148.3693u       
++ xfour_bit_adder.xi3.net060 = 787.6220m       
++ xfour_bit_adder.xi3.net061 = 989.1728m       
++ xfour_bit_adder.xi3.net11 = 842.9088m       
++ xfour_bit_adder.xi3.net15 =   3.4787u       
++ xfour_bit_adder.xi3.net19 = 236.9585m       
++ xfour_bit_adder.xi3.net23 =   1.7102u       
++ xfour_bit_adder.xi3.net32 =   1.7549u       
++ xfour_bit_adder.xi3.net33 = 848.3209m       
++ xfour_bit_adder.xi2.net033 =  18.7491n       
++ xfour_bit_adder.xi2.net038 = 222.5800u       
++ xfour_bit_adder.xi2.net058 =  74.1980u       
++ xfour_bit_adder.xi2.net059 = 148.3693u       
++ xfour_bit_adder.xi2.net060 = 787.6220m       
++ xfour_bit_adder.xi2.net061 = 989.1728m       
++ xfour_bit_adder.xi2.net11 = 842.9088m       
++ xfour_bit_adder.xi2.net15 =   3.4787u       
++ xfour_bit_adder.xi2.net19 = 236.9585m       
++ xfour_bit_adder.xi2.net23 =   1.7102u       
++ xfour_bit_adder.xi2.net32 =   1.7549u       
++ xfour_bit_adder.xi2.net33 = 848.3209m       
++ xfour_bit_adder.xi1.net033 =  18.7491n       
++ xfour_bit_adder.xi1.net038 = 222.5817u       
++ xfour_bit_adder.xi1.net058 =  74.1985u       
++ xfour_bit_adder.xi1.net059 = 148.3703u       
++ xfour_bit_adder.xi1.net060 = 787.6210m       
++ xfour_bit_adder.xi1.net061 = 989.1726m       
++ xfour_bit_adder.xi1.net11 = 842.9079m       
++ xfour_bit_adder.xi1.net15 =   3.4787u       
++ xfour_bit_adder.xi1.net19 = 236.9588m       
++ xfour_bit_adder.xi1.net23 =   1.7102u       
++ xfour_bit_adder.xi1.net32 =   1.7549u       
++ xfour_bit_adder.xi1.net33 = 848.3209m       
++ xfour_bit_adder.xi0.net033 =   1.6454m       
++ xfour_bit_adder.xi0.net038 =   1.0430        
++ xfour_bit_adder.xi0.net058 =   1.2360m       
++ xfour_bit_adder.xi0.net059 =   2.4731m       
++ xfour_bit_adder.xi0.net060 =   1.0430        
++ xfour_bit_adder.xi0.net061 =   1.0466        
++ xfour_bit_adder.xi0.net11 = 185.7172m       
++ xfour_bit_adder.xi0.net15 =  66.4233u       
++ xfour_bit_adder.xi0.net19 =   1.0458        
++ xfour_bit_adder.xi0.net23 =  16.9042n       
++ xfour_bit_adder.xi0.net32 =  33.2268u       
++ xfour_bit_adder.xi0.net33 = 848.3319m       
+***   END: Saved Operating Point ***                     
