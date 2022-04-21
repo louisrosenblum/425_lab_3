@@ -1,0 +1,14 @@
+********************************************************************************
+Product   : Virtuoso(R) XStream In
+Program   : @(#)$CDS: strmin version 6.1.7-64b 07/10/2018 19:55 (sjfhw317) $
+          : sub-version  IC6.1.7-64b.500.21 
+Started at: 20-Apr-2022  18:17:58
+User Name : jneuenda
+Host Name : eecad103
+Directory : /afs/asu.edu/users/j/n/e/jneuenda/425_proj_final/425_lab_3
+CADENCE Design Systems, Inc.
+********************************************************************************
+Info: Cellview Rev Num:99,  Tech Rev Num:59
+
+ERROR (XSTRM-74): Translation cannot be continued because layer mapping cannot be done. This is because the layer map is not specified by the '-layerMap' option and the technology library 'SAED_PDK_32_28' also does not contain 'SAED_PDK_32_28.layermap'. Additionally, automatic layer mapping cannot be done because the technology file is opened in read-only mode due to the library 'Lab4' being attached to it. Use a layer map file to continue.
+INFO (XSTRM-273): Translation failed. '1' error(s) and '0' warning(s) found.
