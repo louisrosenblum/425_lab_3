@@ -1,0 +1,510 @@
+
+
+                                 IC Validator 
+
+          Version O-2018.06-SP1 for linux64 - Jul 23, 2018 cl#4289877
+
+                    Copyright (c) 1996 - 2018 Synopsys, Inc.
+   This software and the associated documentation are proprietary to Synopsys,
+ Inc. This software may only be used in accordance with the terms and conditions
+ of a written license agreement with Synopsys, Inc. All other use, reproduction,
+            or distribution of this software is strictly prohibited.
+
+Called as: icv -rc /afs/asu.edu/users/j/n/e/jneuenda/425_proj_final/425_lab_3/lvs_new/icv_vi_rcfile -sf SPICE -c if_neuron_shortRun -stc if_neuron_shortRun -s /afs/asu.edu/users/j/n/e/jneuenda/425_proj_final/425_lab_3/if_neuron_shortRun.cdl -i /afs/asu.edu/users/j/n/e/jneuenda/425_proj_final/425_lab_3/if_neuron_shortRun.gds /afs/asu.edu/users/j/n/e/jneuenda/425_proj_final/425_lab_3/iPDK/icv/lvs/saed32nm_1p9m_lvs_rules.rs
+
+
+
+
+
+
+
+Parsing runset "/afs/asu.edu/users/j/n/e/jneuenda/425_proj_final/425_lab_3/iPDK/icv/lvs/saed32nm_1p9m_lvs_rules.rs"
+
+/afs/asu.edu/users/j/n/e/jneuenda/425_proj_final/425_lab_3/iPDK/icv/lvs/saed32nm_1p9m_lvs_rules.rs:1266: warning: ICV device extraction settings for write_property_to, processing_layer_hash_map, and pin_map has been automated. As of the 2016.06 release this behavior is the default and can be disabled with "-D ICV_REVERT_DEVICE_PROPERTY_DEPENDENCY_ANALYSIS". 
+/afs/asu.edu/users/j/n/e/jneuenda/425_proj_final/425_lab_3/iPDK/icv/lvs/saed32nm_1p9m_lvs_rules.rs:1267: warning: The default of "precision" argument in netlist() is now the engine maximum.  Use "-D ICV_REVERT_NETLIST_DEFAULT_PRECISION" to restore the original behavior.
+/afs/asu.edu/users/j/n/e/jneuenda/425_proj_final/425_lab_3/iPDK/icv/lvs/saed32nm_1p9m_lvs_rules.rs:1414: warning: Some LVS reports will be changed in future release. Set environment variable 'ICV_ENABLE_LVS_REPORT_IN_IDENTICAL_STRING' to see new LVS reports.
+/afs/asu.edu/users/j/n/e/jneuenda/425_proj_final/425_lab_3/iPDK/icv/lvs/saed32nm_1p9m_lvs_rules.rs:1414: warning: compare(action_on_error = EXPLODE) will be retired in future release.
+Parsing finished
+Saved runset to cache: /afs/asu.edu/users/j/n/e/jneuenda/.icvrscache/cba1caaa42a77ba6cac163e61e940f84-F4AFC301-D05D-4C0D-B166-FA6FDC34EDE9-eecad6.eas.asu.edu-31943.rscache
+Runset Compile Time=0:00:06 User=3.67 Sys=0.13 Mem=492.387
+
+
+
+                                  ICV_Master 
+
+          Version O-2018.06-SP1 for linux64 - Jul 23, 2018 cl#4289877
+
+                    Copyright (c) 1996 - 2018 Synopsys, Inc.
+   This software and the associated documentation are proprietary to Synopsys,
+ Inc. This software may only be used in accordance with the terms and conditions
+ of a written license agreement with Synopsys, Inc. All other use, reproduction,
+            or distribution of this software is strictly prohibited.
+
+
+Called as: icv -rc /afs/asu.edu/users/j/n/e/jneuenda/425_proj_final/425_lab_3/lvs_new/icv_vi_rcfile -sf SPICE -c if_neuron_shortRun -stc if_neuron_shortRun -s /afs/asu.edu/users/j/n/e/jneuenda/425_proj_final/425_lab_3/if_neuron_shortRun.cdl -i /afs/asu.edu/users/j/n/e/jneuenda/425_proj_final/425_lab_3/if_neuron_shortRun.gds /afs/asu.edu/users/j/n/e/jneuenda/425_proj_final/425_lab_3/iPDK/icv/lvs/saed32nm_1p9m_lvs_rules.rs
+ 
+
+Using user-specified ICV_INCLUDES setting as:
+Not set
+
+Virtual Machine Init Time=0:00:00 User=0.03 Sys=0.01 Mem=492.387
+
+
+Checked out necessary DP licenses.
+Host startup done: 2 successes, 0 failures.
+	eecad6.eas.asu.edu: 2 total cores, maximum 2 commands in parallel.
+Selecting "eecad6.eas.asu.edu" as Primary host
+
+System Startup Time=0:00:03 User=0.00 Sys=0.05 Mem=492.387
+
+
+Command execution begins.  Details recorded in the summary and log files:
+    /afs/asu.edu/users/j/n/e/jneuenda/425_proj_final/425_lab_3/lvs_new/run_details/if_neuron_shortRun.sum
+    /afs/asu.edu/users/j/n/e/jneuenda/425_proj_final/425_lab_3/lvs_new/run_details/saed32nm_1p9m_lvs_rules.dp.log
+
+Running ...
+  ICV_Engine run is   1% complete.    Elapsed Time=0:00:03
+  ICV_Engine run is   2% complete.    Elapsed Time=0:00:07
+  ICV_Engine run is   3% complete.    Elapsed Time=0:00:07
+  ICV_Engine run is   4% complete.    Elapsed Time=0:00:07
+  ICV_Engine run is   5% complete.    Elapsed Time=0:00:08
+  ICV_Engine run is  10% complete.    Elapsed Time=0:00:08
+  ICV_Engine run is  15% complete.    Elapsed Time=0:00:09
+  ICV_Engine run is  20% complete.    Elapsed Time=0:00:09
+  ICV_Engine run is  25% complete.    Elapsed Time=0:00:09
+  ICV_Engine run is  30% complete.    Elapsed Time=0:00:10
+  ICV_Engine run is  35% complete.    Elapsed Time=0:00:10
+  ICV_Engine run is  40% complete.    Elapsed Time=0:00:10
+  ICV_Engine run is  45% complete.    Elapsed Time=0:00:10
+  ICV_Engine run is  50% complete.    Elapsed Time=0:00:10
+  ICV_Engine run is  55% complete.    Elapsed Time=0:00:10
+  ICV_Engine run is  60% complete.    Elapsed Time=0:00:10
+  ICV_Engine run is  65% complete.    Elapsed Time=0:00:10
+  ICV_Engine run is  70% complete.    Elapsed Time=0:00:10
+  ICV_Engine run is  75% complete.    Elapsed Time=0:00:10
+  ICV_Engine run is  80% complete.    Elapsed Time=0:00:10
+  ICV_Engine run is  85% complete.    Elapsed Time=0:00:10
+  ICV_Engine run is  90% complete.    Elapsed Time=0:00:10
+  ICV_Engine run is  95% complete.    Elapsed Time=0:00:10
+
+Generating micron-based NDB ...
+
+
+
+                                  ICV_Netlist 
+
+          Version O-2018.06-SP1 for linux64 - Jul 23, 2018 cl#4289877
+
+                    Copyright (c) 1996 - 2018 Synopsys, Inc.
+   This software and the associated documentation are proprietary to Synopsys,
+ Inc. This software may only be used in accordance with the terms and conditions
+ of a written license agreement with Synopsys, Inc. All other use, reproduction,
+            or distribution of this software is strictly prohibited.
+
+ Netlisting Time=0:00:01  User=0.02 Sys=0.01 Mem=5.990
+
+   Check Time=0:00:01  User=0.00 Sys=0.00 Mem=18.146
+
+Comparing schematic and layout netlists.
+LVS compare start time    : 2022-04-27 00:37:20
+  ICV_Compare run is   0% complete.    Elapsed Time=0:00:05
+  ICV_Compare run is   5% complete.    Elapsed Time=0:00:05
+  ICV_Compare run is  10% complete.    Elapsed Time=0:00:05
+  ICV_Compare run is  15% complete.    Elapsed Time=0:00:05
+  ICV_Compare run is  20% complete.    Elapsed Time=0:00:05
+  ICV_Compare run is  25% complete.    Elapsed Time=0:00:05
+  ICV_Compare run is  30% complete.    Elapsed Time=0:00:05
+  ICV_Compare run is 100% complete.    Elapsed Time=0:00:09
+LVS compare end time      : 2022-04-27 00:37:30
+Total runtime for LVS compare Time=0:00:10  User=0.10 Sys=0.15 Mem=30.434
+   Check Time=0:00:10  User=0.03 Sys=0.00 Mem=20.193
+
+  ICV_Engine run is 100% complete.    Elapsed Time=0:00:37
+
+Completing error storage...
+  Overall error storage time: None
+
+Generating if_neuron_shortRun.LAYOUT_ERRORS...
+  Generation Time=0:00:00  User=0.00 Sys=0.00 Mem=0.507
+
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=3.068
+
+-------------
+
+IC Validator Run: Time=0:00:46
+
+IC Validator Machine Memory Report
+eecad6.eas.asu.edu : Average = 47.10(Mb), Peak = 81(Mb)
+
+Overall Disk Usage Disk=0.018
+Overall engine Time=0:00:53 Highest command Mem=221.826 
+
+Overall Master Mem=503.910
+IC Validator is done.
+ERROR: File name specified for option 'OA_DEVICE_MAPPING_FILE':
+       '/afs/asu.edu/users/j/n/e/jneuenda/425_proj_final/425_lab_3/starrc/saed32nm_1p9m_device.map'
+       does not exist. (SX-0966)
+
+
+                                 IC Validator 
+
+          Version O-2018.06-SP1 for linux64 - Jul 23, 2018 cl#4289877
+
+                    Copyright (c) 1996 - 2018 Synopsys, Inc.
+   This software and the associated documentation are proprietary to Synopsys,
+ Inc. This software may only be used in accordance with the terms and conditions
+ of a written license agreement with Synopsys, Inc. All other use, reproduction,
+            or distribution of this software is strictly prohibited.
+
+Called as: icv -rc /afs/asu.edu/users/j/n/e/jneuenda/425_proj_final/425_lab_3/lvs_new/icv_vi_rcfile -sf SPICE -c if_neuron_shortRun -stc if_neuron_shortRun -s /afs/asu.edu/users/j/n/e/jneuenda/425_proj_final/425_lab_3/if_neuron_shortRun.cdl -i /afs/asu.edu/users/j/n/e/jneuenda/425_proj_final/425_lab_3/if_neuron_shortRun.gds /afs/asu.edu/users/j/n/e/jneuenda/425_proj_final/425_lab_3/iPDK/icv/lvs/saed32nm_1p9m_lvs_rules.rs
+
+
+
+
+
+
+
+Parsing runset "/afs/asu.edu/users/j/n/e/jneuenda/425_proj_final/425_lab_3/iPDK/icv/lvs/saed32nm_1p9m_lvs_rules.rs"
+
+/afs/asu.edu/users/j/n/e/jneuenda/425_proj_final/425_lab_3/iPDK/icv/lvs/saed32nm_1p9m_lvs_rules.rs:1266: warning: ICV device extraction settings for write_property_to, processing_layer_hash_map, and pin_map has been automated. As of the 2016.06 release this behavior is the default and can be disabled with "-D ICV_REVERT_DEVICE_PROPERTY_DEPENDENCY_ANALYSIS". 
+/afs/asu.edu/users/j/n/e/jneuenda/425_proj_final/425_lab_3/iPDK/icv/lvs/saed32nm_1p9m_lvs_rules.rs:1267: warning: The default of "precision" argument in netlist() is now the engine maximum.  Use "-D ICV_REVERT_NETLIST_DEFAULT_PRECISION" to restore the original behavior.
+/afs/asu.edu/users/j/n/e/jneuenda/425_proj_final/425_lab_3/iPDK/icv/lvs/saed32nm_1p9m_lvs_rules.rs:1414: warning: Some LVS reports will be changed in future release. Set environment variable 'ICV_ENABLE_LVS_REPORT_IN_IDENTICAL_STRING' to see new LVS reports.
+/afs/asu.edu/users/j/n/e/jneuenda/425_proj_final/425_lab_3/iPDK/icv/lvs/saed32nm_1p9m_lvs_rules.rs:1414: warning: compare(action_on_error = EXPLODE) will be retired in future release.
+Loaded runset from cache: /afs/asu.edu/users/j/n/e/jneuenda/.icvrscache/cba1caaa42a77ba6cac163e61e940f84-F4AFC301-D05D-4C0D-B166-FA6FDC34EDE9-eecad6.eas.asu.edu-31943.rscache
+Cached Runset Compile Time=0:00:01 User=0.31 Sys=0.01 Mem=326.734
+
+
+
+                                  ICV_Master 
+
+          Version O-2018.06-SP1 for linux64 - Jul 23, 2018 cl#4289877
+
+                    Copyright (c) 1996 - 2018 Synopsys, Inc.
+   This software and the associated documentation are proprietary to Synopsys,
+ Inc. This software may only be used in accordance with the terms and conditions
+ of a written license agreement with Synopsys, Inc. All other use, reproduction,
+            or distribution of this software is strictly prohibited.
+
+
+Called as: icv -rc /afs/asu.edu/users/j/n/e/jneuenda/425_proj_final/425_lab_3/lvs_new/icv_vi_rcfile -sf SPICE -c if_neuron_shortRun -stc if_neuron_shortRun -s /afs/asu.edu/users/j/n/e/jneuenda/425_proj_final/425_lab_3/if_neuron_shortRun.cdl -i /afs/asu.edu/users/j/n/e/jneuenda/425_proj_final/425_lab_3/if_neuron_shortRun.gds /afs/asu.edu/users/j/n/e/jneuenda/425_proj_final/425_lab_3/iPDK/icv/lvs/saed32nm_1p9m_lvs_rules.rs
+ 
+
+Using user-specified ICV_INCLUDES setting as:
+Not set
+
+Virtual Machine Init Time=0:00:00 User=0.01 Sys=0.00 Mem=326.734
+
+
+Checked out necessary DP licenses.
+Host startup done: 2 successes, 0 failures.
+	eecad6.eas.asu.edu: 2 total cores, maximum 2 commands in parallel.
+Selecting "eecad6.eas.asu.edu" as Primary host
+
+System Startup Time=0:00:03 User=0.00 Sys=0.02 Mem=326.734
+
+
+Command execution begins.  Details recorded in the summary and log files:
+    /afs/asu.edu/users/j/n/e/jneuenda/425_proj_final/425_lab_3/lvs_new/run_details/if_neuron_shortRun.sum
+    /afs/asu.edu/users/j/n/e/jneuenda/425_proj_final/425_lab_3/lvs_new/run_details/saed32nm_1p9m_lvs_rules.dp.log
+
+Running ...
+  ICV_Engine run is   1% complete.    Elapsed Time=0:00:03
+  ICV_Engine run is   2% complete.    Elapsed Time=0:00:07
+  ICV_Engine run is   3% complete.    Elapsed Time=0:00:07
+  ICV_Engine run is   4% complete.    Elapsed Time=0:00:07
+  ICV_Engine run is   5% complete.    Elapsed Time=0:00:09
+  ICV_Engine run is  10% complete.    Elapsed Time=0:00:09
+  ICV_Engine run is  15% complete.    Elapsed Time=0:00:10
+  ICV_Engine run is  20% complete.    Elapsed Time=0:00:10
+  ICV_Engine run is  25% complete.    Elapsed Time=0:00:10
+  ICV_Engine run is  30% complete.    Elapsed Time=0:00:10
+  ICV_Engine run is  35% complete.    Elapsed Time=0:00:10
+  ICV_Engine run is  40% complete.    Elapsed Time=0:00:10
+  ICV_Engine run is  45% complete.    Elapsed Time=0:00:10
+  ICV_Engine run is  50% complete.    Elapsed Time=0:00:10
+  ICV_Engine run is  55% complete.    Elapsed Time=0:00:10
+  ICV_Engine run is  60% complete.    Elapsed Time=0:00:10
+  ICV_Engine run is  65% complete.    Elapsed Time=0:00:10
+  ICV_Engine run is  70% complete.    Elapsed Time=0:00:10
+  ICV_Engine run is  75% complete.    Elapsed Time=0:00:10
+  ICV_Engine run is  80% complete.    Elapsed Time=0:00:10
+  ICV_Engine run is  85% complete.    Elapsed Time=0:00:10
+  ICV_Engine run is  90% complete.    Elapsed Time=0:00:10
+  ICV_Engine run is  95% complete.    Elapsed Time=0:00:10
+
+Generating micron-based NDB ...
+
+
+
+                                  ICV_Netlist 
+
+          Version O-2018.06-SP1 for linux64 - Jul 23, 2018 cl#4289877
+
+                    Copyright (c) 1996 - 2018 Synopsys, Inc.
+   This software and the associated documentation are proprietary to Synopsys,
+ Inc. This software may only be used in accordance with the terms and conditions
+ of a written license agreement with Synopsys, Inc. All other use, reproduction,
+            or distribution of this software is strictly prohibited.
+
+ Netlisting Time=0:00:01  User=0.03 Sys=0.02 Mem=5.990
+
+   Check Time=0:00:01  User=0.00 Sys=0.00 Mem=15.943
+
+Comparing schematic and layout netlists.
+LVS compare start time    : 2022-04-27 00:44:08
+  ICV_Compare run is   0% complete.    Elapsed Time=0:00:06
+  ICV_Compare run is   5% complete.    Elapsed Time=0:00:06
+  ICV_Compare run is  10% complete.    Elapsed Time=0:00:06
+  ICV_Compare run is  15% complete.    Elapsed Time=0:00:06
+  ICV_Compare run is  20% complete.    Elapsed Time=0:00:06
+  ICV_Compare run is  25% complete.    Elapsed Time=0:00:07
+  ICV_Compare run is  30% complete.    Elapsed Time=0:00:07
+  ICV_Compare run is 100% complete.    Elapsed Time=0:00:10
+LVS compare end time      : 2022-04-27 00:44:19
+Total runtime for LVS compare Time=0:00:11  User=0.11 Sys=0.16 Mem=30.450
+   Check Time=0:00:12  User=0.03 Sys=0.02 Mem=17.990
+
+  ICV_Engine run is 100% complete.    Elapsed Time=0:00:45
+
+Completing error storage...
+  Overall error storage time: None
+
+Generating if_neuron_shortRun.LAYOUT_ERRORS...
+  Generation Time=0:00:00  User=0.00 Sys=0.00 Mem=0.507
+
+   Check Time=0:00:01  User=0.00 Sys=0.00 Mem=3.068
+
+-------------
+
+IC Validator Run: Time=0:00:50
+
+IC Validator Machine Memory Report
+eecad6.eas.asu.edu : Average = 40.11(Mb), Peak = 93(Mb)
+
+Overall Disk Usage Disk=1.727
+Overall engine Time=0:00:56 Highest command Mem=218.266 
+
+Overall Master Mem=349.945
+IC Validator is done.
+                                        
+                                  StarRC (TM)
+                                        
+               Version K-2015.06-SP1 for linux64 - Jul 15, 2015 
+                                        
+                    Copyright (c) 1999 - 2015 Synopsys, Inc.
+   This software and the associated documentation are proprietary to Synopsys,
+ Inc. This software may only be used in accordance with the terms and conditions
+ of a written license agreement with Synopsys, Inc. All other use, reproduction,
+            or distribution of this software is strictly prohibited.
+
+ExecName: /usr/local/synopsys/starrc_2015.06/linux64_starrc/bin/StarXtract
+Version: K-2015.06-SP1
+Built on: Jul 15 2015 23:06:57
+Start Time: Wed Apr 27 00:44:32 2022
+
+Host ............ eecad6.eas.asu.edu
+
+xTractorName:/usr/local/synopsys/starrc_2015.06/linux64_starrc/bin/xTractor
+Version: K-2015.06-SP1
+Built on: Jul 15 2015 23:07:08
+WARNING: TOP BLOCK "if_neuron_shortRun if_neuron_shortRun U
+         if_neuron_shortRun.if_neuron_shortRun.bincdb E::if_neuron_shortRun U
+         if_neuron_shortRun.if_neuron_shortRun.bincdb E" does not compare. LVS is not clean. (SX-1745)
+WARNING: TOP BLOCK "if_neuron_shortRun if_neuron_shortRun U
+         if_neuron_shortRun.if_neuron_shortRun.bincdb E::if_neuron_shortRun U
+         if_neuron_shortRun.if_neuron_shortRun.bincdb E" does not compare. LVS is not clean. (SX-1745)
+
+Block ........... if_neuron_shortRun
+Star Directory .. /afs/asu.edu/users/j/n/e/jneuenda/425_proj_final/425_lab_3/starrc/star
+Milkyway DB ..... /afs/asu.edu/users/j/n/e/jneuenda/425_proj_final/425_lab_3/lvs_new/XTROUT
+ Ref Libs Report is skipped.
+WARNING: DENSITY_BASED_THICKNESS: YES is ignored since there is no thickness variation modeling. (SX-0685)
+
+Map Layers:  Wed Apr 27 00:45:13 2022
+WARNING: Database layer "l_0V_BJT_EMIT_NPN" is not included in MAPPING_FILE. Mapping to
+ "SUBSTRATE". (SX-1818)
+WARNING: Database gate layer "ngate_12" is not included in MAPPING_FILE. Mapping to "POLY".
+ (SX-1816)
+WARNING: Database gate layer "pgate_12" is not included in MAPPING_FILE. Mapping to "POLY".
+ (SX-1816)
+WARNING: Database gate layer "ngate_12_lvt" is not included in MAPPING_FILE. Mapping to "POLY".
+ (SX-1816)
+WARNING: Database gate layer "pgate_12_lvt" is not included in MAPPING_FILE. Mapping to "POLY".
+ (SX-1816)
+WARNING: Database gate layer "ngate_12_hvt" is not included in MAPPING_FILE. Mapping to "POLY".
+ (SX-1816)
+WARNING: Database gate layer "pgate_12_hvt" is not included in MAPPING_FILE. Mapping to "POLY".
+ (SX-1816)
+WARNING: Database layer "l_0V_BJT_BASE" is not included in MAPPING_FILE. Mapping to "SUBSTRATE".
+ (SX-1818)
+WARNING: Database layer "l_0V_BJT_COLL" is not included in MAPPING_FILE. Mapping to "SUBSTRATE".
+ (SX-1818)
+WARNING: Database layer "l_0V_BJT_EMIT" is not included in MAPPING_FILE. Mapping to "SUBSTRATE".
+ (SX-1818)
+WARNING: Database layer "l_0V_BJT_COLL_NPN" is not included in MAPPING_FILE. Mapping to
+ "SUBSTRATE". (SX-1818)
+WARNING: Database layer "l_0V_BJT_BASE_NPN" is not included in MAPPING_FILE. Mapping to
+ "SUBSTRATE". (SX-1818)
+WARNING: MOS gate and diffusion layers are co-vertical to each other or to a third layer like field
+         poly. Check your process cross-section and see if the nxtgrd file is correct. (SX-1848)
+WARNING: The precedence is not set for ignored cap layer: nwnr (SX-1794)
+WARNING: The precedence is not set for ignored cap layer: pwell (SX-1794)
+WARNING: The precedence is not set for layers mapped to substrate in the mapping file when
+         TRANSLATE_RETAIN_BULK_LAYERS:YES or CONLY is specified in your command file. Accuracy can
+         be affected. Check the order of substrate layer and set precedence for them in your
+ mapping
+         file whenever the TRANSLATE_RETAIN_BULK_LAYERS:YES or CONLY command is used. (SX-1790)
+WARNING: Setting RPV*AREA value of 1e-6 for pwell_cont (SX-1873)
+WARNING: Setting RPV*AREA value of 1e-6 for nwell_cont (SX-1873)
+  Warnings: 18    Errors: 0    (See file summary/layers.sum)
+  Layers        Elp=00:00:02 Cpu=00:00:00 Usr=0.3    Sys=0.0    Mem=293.7 
+Done
+
+Create Models:  Wed Apr 27 00:45:16 2022
+  Warnings: 0    Errors: 0
+  Models        Elp=00:00:00 Cpu=00:00:00 Usr=0.0    Sys=0.0    Mem=180.9 
+Done
+
+Build HN:  Wed Apr 27 00:45:18 2022
+  Warnings: 0    Errors: 0
+  HN            Elp=00:00:01 Cpu=00:00:00 Usr=0.1    Sys=0.0    Mem=309.8 
+Done
+
+Build XrefHN:  Wed Apr 27 00:45:22 2022
+WARNING: TOP BLOCK "if_neuron_shortRun if_neuron_shortRun U
+         if_neuron_shortRun.if_neuron_shortRun.bincdb E::if_neuron_shortRun U
+         if_neuron_shortRun.if_neuron_shortRun.bincdb E" does not compare. LVS is not clean.
+ (SX-1745)
+WARNING: Without NETLIST_DEVICE_LOCATION_ORIENTATION, PLACEMENT_INFO_FILE will always report
+ angle=0
+         for devices. (SX-1260)
+  Warnings: 2    Errors: 0    (See file summary/xrefhn.sum)
+  XrefHN        Elp=00:00:01 Cpu=00:00:00 Usr=0.0    Sys=0.0    Mem=201.3 
+Done
+
+Process Cells:  Wed Apr 27 00:45:25 2022
+  Warnings: 0    Errors: 0
+  Cells         Elp=00:00:03 Cpu=00:00:00 Usr=0.2    Sys=0.1    Mem=293.5 
+Done
+
+Translate DB:  Wed Apr 27 00:45:30 2022
+  Warnings: 0    Errors: 0
+  Translate     Elp=00:00:02 Cpu=00:00:00 Usr=0.0    Sys=0.0    Mem=197.9 
+Done
+
+XinMerge DB:  Wed Apr 27 00:45:34 2022
+  Warnings: 0    Errors: 0
+  XinMerge      Elp=00:00:01 Cpu=00:00:00 Usr=0.0    Sys=0.0    Mem=202.0 
+Done
+
+Netlist Setup:  Wed Apr 27 00:45:36 2022
+  Warnings: 0    Errors: 0
+  NetlistSetup  Elp=00:00:00 Cpu=00:00:00 Usr=0.0    Sys=0.0    Mem=197.3 
+Done
+
+Partition_part1 DB:  Wed Apr 27 00:45:41 2022
+Completed   0%  Time=00:00:00  RemainingTime=00:00:00  Mem=181.625
+Completed  10%  Time=00:00:00  RemainingTime=00:00:00  Mem=181.688
+Completed  20%  Time=00:00:00  RemainingTime=00:00:00  Mem=181.938
+Completed  40%  Time=00:00:00  RemainingTime=00:00:00  Mem=182.312
+Completed  60%  Time=00:00:00  RemainingTime=00:00:00  Mem=182.688
+Completed  80%  Time=00:00:00  RemainingTime=00:00:00  Mem=183.125
+Completed 100%  Time=00:00:00  RemainingTime=00:00:00  Mem=183.496
+  Warnings: 0    Errors: 0
+  Partition_part1 Elp=00:00:02 Cpu=00:00:00 Usr=0.0    Sys=0.0    Mem=199.9 
+Done
+
+PartitionPP:  Wed Apr 27 00:45:44 2022
+  Warnings: 0    Errors: 0
+  PartitionPP   Elp=00:00:01 Cpu=00:00:00 Usr=0.0    Sys=0.0    Mem=181.6 
+Done
+
+xTract_part1 DB:  Wed Apr 27 00:45:47 2022
+Extracting partition 1
+Completed   0%  Time=00:00:00  RemainingTime=00:00:01  Mem=290.754
+Completed   1%  Time=00:00:00  RemainingTime=00:00:00  Mem=290.754
+Completed   2%  Time=00:00:00  RemainingTime=00:00:00  Mem=290.754
+Completed   3%  Time=00:00:00  RemainingTime=00:00:00  Mem=290.754
+Completed   4%  Time=00:00:00  RemainingTime=00:00:00  Mem=290.754
+Completed   5%  Time=00:00:00  RemainingTime=00:00:00  Mem=290.754
+Completed  10%  Time=00:00:00  RemainingTime=00:00:00  Mem=290.977
+Completed  15%  Time=00:00:00  RemainingTime=00:00:00  Mem=291.246
+Completed  20%  Time=00:00:00  RemainingTime=00:00:00  Mem=291.469
+Suppression: (EX-356) suppressed over 100 times
+Completed  25%  Time=00:00:00  RemainingTime=00:00:00  Mem=291.473
+Completed  30%  Time=00:00:00  RemainingTime=00:00:00  Mem=291.695
+Completed  35%  Time=00:00:00  RemainingTime=00:00:00  Mem=292.289
+Completed  40%  Time=00:00:00  RemainingTime=00:00:00  Mem=292.742
+Completed  45%  Time=00:00:00  RemainingTime=00:00:00  Mem=292.965
+Completed  50%  Time=00:00:00  RemainingTime=00:00:00  Mem=293.234
+Completed  55%  Time=00:00:00  RemainingTime=00:00:00  Mem=293.457
+Completed  60%  Time=00:00:01  RemainingTime=00:00:00  Mem=293.688
+Completed  65%  Time=00:00:01  RemainingTime=00:00:00  Mem=293.688
+Completed  70%  Time=00:00:01  RemainingTime=00:00:00  Mem=293.688
+Completed  75%  Time=00:00:01  RemainingTime=00:00:00  Mem=293.688
+Completed  80%  Time=00:00:01  RemainingTime=00:00:00  Mem=293.91
+Completed  85%  Time=00:00:02  RemainingTime=00:00:00  Mem=293.91
+Completed  90%  Time=00:00:02  RemainingTime=00:00:00  Mem=293.91
+Completed  95%  Time=00:00:02  RemainingTime=00:00:00  Mem=293.91
+Completed 100%  Time=00:00:02  RemainingTime=00:00:00  Mem=293.906
+Extracted 3279888 capacitors, 29976 resistors, 0 reluctors, 28043 nodes
+Reduced to 19737 nodes,  (29.6188%)
+Reduced to 18602 resistors,  (37.9437%)
+Reduced to 8091 capacitors: 0 Cc and 8091 Cg (99.7533%)
+  Warnings: 0    Errors: 0
+  xTract_part1  Elp=00:00:06 Cpu=00:00:03 Usr=3.4    Sys=0.2    Mem=293.9 
+Done
+
+xTract Post Process DB:  Wed Apr 27 00:45:59 2022
+Completed   0%  Time=00:00:00  RemainingTime=00:00:00  Mem=179.824
+Completed  10%  Time=00:00:00  RemainingTime=00:00:00  Mem=179.824
+Completed  20%  Time=00:00:00  RemainingTime=00:00:00  Mem=179.824
+Completed  40%  Time=00:00:00  RemainingTime=00:00:00  Mem=179.824
+Completed  60%  Time=00:00:00  RemainingTime=00:00:00  Mem=179.824
+Completed  80%  Time=00:00:00  RemainingTime=00:00:00  Mem=179.824
+Completed 100%  Time=00:00:00  RemainingTime=00:00:00  Mem=179.824
+  Warnings: 0    Errors: 0
+  xTractPP      Elp=00:00:02 Cpu=00:00:00 Usr=0.1    Sys=0.1    Mem=179.8 
+Done
+
+Report Violations:  Wed Apr 27 00:46:05 2022
+  Warnings: 0    Errors: 0
+  ReportViolations Elp=00:00:00 Cpu=00:00:00 Usr=0.0    Sys=0.0    Mem=0.0   
+Done
+
+Netlist DB:  Wed Apr 27 00:46:08 2022
+Completed   0%  Time=00:00:00  RemainingTime=00:00:00  Mem=211.527
+Completed   2%  Time=00:00:00  RemainingTime=00:00:00  Mem=211.719
+Completed   4%  Time=00:00:00  RemainingTime=00:00:00  Mem=211.906
+Completed   6%  Time=00:00:00  RemainingTime=00:00:00  Mem=212.094
+Completed   8%  Time=00:00:00  RemainingTime=00:00:00  Mem=212.281
+Completed  10%  Time=00:00:00  RemainingTime=00:00:00  Mem=212.406
+Completed  20%  Time=00:00:00  RemainingTime=00:00:00  Mem=213.094
+Completed  30%  Time=00:00:00  RemainingTime=00:00:00  Mem=213.656
+Completed  40%  Time=00:00:00  RemainingTime=00:00:00  Mem=213.906
+Completed  50%  Time=00:00:00  RemainingTime=00:00:00  Mem=214.219
+Completed  60%  Time=00:00:00  RemainingTime=00:00:00  Mem=214.766
+Completed  70%  Time=00:00:00  RemainingTime=00:00:00  Mem=215.016
+Completed  80%  Time=00:00:00  RemainingTime=00:00:00  Mem=215.391
+Completed  90%  Time=00:00:00  RemainingTime=00:00:00  Mem=215.578
+Completed 100%  Time=00:00:00  RemainingTime=00:00:00  Mem=215.578
+  Warnings: 0    Errors: 0
+  Netlist       Elp=00:00:04 Cpu=00:00:00 Usr=0.2    Sys=0.2    Mem=215.6 
+Done
+  
+Layers           Elp=00:00:02 Cpu=00:00:00 Usr=0.3    Sys=0.0    Mem=293.7 
+Models           Elp=00:00:00 Cpu=00:00:00 Usr=0.0    Sys=0.0    Mem=180.9 
+HN               Elp=00:00:01 Cpu=00:00:00 Usr=0.1    Sys=0.0    Mem=309.8 
+XrefHN           Elp=00:00:01 Cpu=00:00:00 Usr=0.0    Sys=0.0    Mem=201.3 
+Cells            Elp=00:00:03 Cpu=00:00:00 Usr=0.2    Sys=0.1    Mem=293.5 
+Translate        Elp=00:00:02 Cpu=00:00:00 Usr=0.0    Sys=0.0    Mem=197.9 
+XinMerge         Elp=00:00:01 Cpu=00:00:00 Usr=0.0    Sys=0.0    Mem=202.0 
+NetlistSetup     Elp=00:00:00 Cpu=00:00:00 Usr=0.0    Sys=0.0    Mem=197.3 
+Partition_part1  Elp=00:00:02 Cpu=00:00:00 Usr=0.0    Sys=0.0    Mem=199.9 
+PartitionPP      Elp=00:00:01 Cpu=00:00:00 Usr=0.0    Sys=0.0    Mem=181.6 
+xTract_part1     Elp=00:00:06 Cpu=00:00:03 Usr=3.4    Sys=0.2    Mem=293.9 
+xTractPP         Elp=00:00:02 Cpu=00:00:00 Usr=0.1    Sys=0.1    Mem=179.8 
+ReportViolations Elp=00:00:00 Cpu=00:00:00 Usr=0.0    Sys=0.0    Mem=0.0   
+Netlist          Elp=00:00:04 Cpu=00:00:00 Usr=0.2    Sys=0.2    Mem=215.6 
+  
+Done          Elp=00:00:25 Cpu=00:00:04 Usr=4.3    Sys=0.6    Mem=309.8 

@@ -1,0 +1,1645 @@
+{NETLIST if_neuron_shortRun
+{VERSION 2 0 0}
+
+{CELL if_neuron_shortRun
+    {PORT X0<0> X3<1> X2<3> F X2<1> X1<3> W0 X1<1> X0<3> 
+      W1 gnd! vdd! X0<1> X3<2> W2 CLK X3<0> X2<2> W3 
+      X2<0> X1<2> X1<0> X0<2> X3<3> }
+    {INST Parallel#4=n105 {TYPE MOS} {PROP Length=0.03 Width=1.404 }
+	{PIN F=DRN N209=GATE gnd!=SRC gnd!=BULK }}
+    {INST Parallel#241=p105 {TYPE MOS} {PROP Length=0.03 Width=1.512 }
+	{PIN N392=DRN N208=GATE vdd!=SRC vdd!=BULK }}
+    {INST M67=n105 {TYPE MOS} {COORD x=17.656 y=14.694 }{PROP n="n105" Length=0.03 Width=0.42 Mult=1 }
+	{PIN N300=DRN N225=GATE gnd!=SRC gnd!=BULK }}
+    {INST M85=n105 {TYPE MOS} {COORD x=17.048 y=14.554 }{PROP n="n105" Length=0.03 Width=0.14 Mult=1 }
+	{PIN N225=DRN N216=GATE gnd!=SRC gnd!=BULK }}
+    {INST Parallel#336=p105 {TYPE MOS} {PROP Length=0.03 Width=1.512 }
+	{PIN N393=DRN N214=GATE N392=SRC vdd!=BULK }}
+    {INST M680=p105 {TYPE MOS} {COORD x=17.200 y=16.256 }{PROP n="p105" Length=0.03 Width=0.504 Mult=1 }
+	{PIN vdd!=DRN N227=GATE N216=SRC vdd!=BULK }}
+    {INST Parallel#48=p105 {TYPE MOS} {PROP Length=0.03 Width=1.674 }
+	{PIN F=DRN N209=GATE vdd!=SRC vdd!=BULK }}
+    {INST M685=p105 {TYPE MOS} {COORD x=17.656 y=15.452 }{PROP n="p105" Length=0.03 Width=0.504 Mult=1 }
+	{PIN N300=DRN N225=GATE vdd!=SRC vdd!=BULK }}
+    {INST M59=n105 {TYPE MOS} {COORD x=17.200 y=17.014 }{PROP n="n105" Length=0.03 Width=0.42 Mult=1 }
+	{PIN N216=DRN N227=GATE gnd!=SRC gnd!=BULK }}
+    {INST Parallel#266=p105 {TYPE MOS} {PROP Length=0.03 Width=1.512 }
+	{PIN N393=DRN N216=GATE N225=SRC vdd!=BULK }}
+    {INST Parallel#208=n105 {TYPE MOS} {PROP Length=0.03 Width=0.94 }
+	{PIN N209=DRN N217=GATE gnd!=SRC gnd!=BULK }}
+    {INST M408=n105 {TYPE MOS} {COORD x=13.495 y=4.958 }{PROP n="n105" Length=0.03 Width=0.42 Mult=1 }
+	{PIN N214=DRN N76=GATE N83=SRC gnd!=BULK }}
+    {INST Parallel#172=n105 {TYPE MOS} {PROP Length=0.03 Width=0.654 }
+	{PIN N312=DRN N227=GATE N232=SRC gnd!=BULK }}
+    {INST Parallel#149=p105 {TYPE MOS} {PROP Length=0.03 Width=1.128 }
+	{PIN vdd!=DRN N217=GATE N209=SRC vdd!=BULK }}
+    {INST Parallel#28=n105 {TYPE MOS} {PROP Length=0.03 Width=1.404 }
+	{PIN N208=DRN N203=GATE gnd!=SRC gnd!=BULK }}
+    {INST M86=n105 {TYPE MOS} {COORD x=16.744 y=13.974 }{PROP n="n105" Length=0.03 Width=0.42 Mult=1 }
+	{PIN F=DRN N215=GATE N217=SRC gnd!=BULK }}
+    {INST M42=n105 {TYPE MOS} {COORD x=18.872 y=13.974 }{PROP n="n105" Length=0.03 Width=0.42 Mult=1 }
+	{PIN N300=DRN N215=GATE N231=SRC gnd!=BULK }}
+    {INST M83=n105 {TYPE MOS} {COORD x=16.744 y=17.014 }{PROP n="n105" Length=0.03 Width=0.42 Mult=1 }
+	{PIN N365=DRN N210=GATE N227=SRC gnd!=BULK }}
+    {INST M89=n105 {TYPE MOS} {COORD x=16.592 y=14.554 }{PROP n="n105" Length=0.03 Width=0.14 Mult=1 }
+	{PIN N225=DRN N214=GATE gnd!=SRC gnd!=BULK }}
+    {INST M95=n105 {TYPE MOS} {COORD x=16.136 y=14.554 }{PROP n="n105" Length=0.03 Width=0.14 Mult=1 }
+	{PIN N225=DRN N208=GATE gnd!=SRC gnd!=BULK }}
+    {INST Parallel#56=n105 {TYPE MOS} {PROP Length=0.03 Width=1.404 }
+	{PIN N214=DRN N86=GATE gnd!=SRC gnd!=BULK }}
+    {INST Parallel#75=p105 {TYPE MOS} {PROP Length=0.03 Width=1.674 }
+	{PIN vdd!=DRN N203=GATE N208=SRC vdd!=BULK }}
+    {INST M706=p105 {TYPE MOS} {COORD x=16.592 y=16.256 }{PROP n="p105" Length=0.03 Width=0.504 Mult=1 }
+	{PIN N394=DRN N218=GATE N227=SRC vdd!=BULK }}
+    {INST Parallel#135=p105 {TYPE MOS} {PROP Length=0.03 Width=1.674 }
+	{PIN vdd!=DRN N86=GATE N214=SRC vdd!=BULK }}
+    {INST M707=p105 {TYPE MOS} {COORD x=16.744 y=16.256 }{PROP n="p105" Length=0.03 Width=0.504 Mult=1 }
+	{PIN N427=DRN N210=GATE N227=SRC vdd!=BULK }}
+    {INST M115=n105 {TYPE MOS} {COORD x=13.495 y=17.080 }{PROP n="n105" Length=0.03 Width=0.42 Mult=1 }
+	{PIN N208=DRN N181=GATE N196=SRC gnd!=BULK }}
+    {INST Parallel#188=p105 {TYPE MOS} {PROP Length=0.03 Width=0.784 }
+	{PIN N395=DRN N227=GATE N232=SRC vdd!=BULK }}
+    {INST M82=n105 {TYPE MOS} {COORD x=16.592 y=17.014 }{PROP n="n105" Length=0.03 Width=0.42 Mult=1 }
+	{PIN N311=DRN N218=GATE N227=SRC gnd!=BULK }}
+    {INST M43=n105 {TYPE MOS} {COORD x=18.568 y=13.974 }{PROP n="n105" Length=0.03 Width=0.42 Mult=1 }
+	{PIN N226=DRN N231=GATE gnd!=SRC gnd!=BULK }}
+    {INST M1113=p105 {TYPE MOS} {COORD x=11.975 y=5.716 }{PROP n="p105" Length=0.03 Width=0.504 Mult=1 }
+	{PIN N276=DRN N76=GATE N75=SRC vdd!=BULK }}
+    {INST M170=n105 {TYPE MOS} {COORD x=11.063 y=17.080 }{PROP n="n105" Length=0.03 Width=0.42 Mult=1 }
+	{PIN N181=DRN CLK=GATE gnd!=SRC gnd!=BULK }}
+    {INST M1105=p105 {TYPE MOS} {COORD x=12.735 y=5.716 }{PROP n="p105" Length=0.03 Width=0.504 Mult=1 }
+	{PIN N276=DRN N76=GATE N83=SRC vdd!=BULK }}
+    {INST Parallel#316=n105 {TYPE MOS} {PROP Length=0.03 Width=0.94 }
+	{PIN N86=DRN N83=GATE gnd!=SRC gnd!=BULK }}
+    {INST M789=p105 {TYPE MOS} {COORD x=11.975 y=17.838 }{PROP n="p105" Length=0.03 Width=0.504 Mult=1 }
+	{PIN N310=DRN N181=GATE N180=SRC vdd!=BULK }}
+    {INST M690=p105 {TYPE MOS} {COORD x=17.504 y=13.216 }{PROP n="p105" Length=0.03 Width=0.504 Mult=1 }
+	{PIN N299=DRN N215=GATE N217=SRC vdd!=BULK }}
+    {INST Parallel#347=n105 {TYPE MOS} {PROP Length=0.03 Width=0.978 }
+	{PIN N313=DRN N218=GATE N232=SRC gnd!=BULK }}
+    {INST M720=p105 {TYPE MOS} {COORD x=16.136 y=16.130 }{PROP n="p105" Length=0.03 Width=0.252 Mult=1 }
+	{PIN N394=DRN N210=GATE vdd!=SRC vdd!=BULK }}
+    {INST M61=n105 {TYPE MOS} {COORD x=17.656 y=17.115 }{PROP n="n105" Length=0.03 Width=0.218 Mult=1 }
+	{PIN N312=DRN N219=GATE gnd!=SRC gnd!=BULK }}
+    {INST Parallel#259=p105 {TYPE MOS} {PROP Length=0.03 Width=1.674 }
+	{PIN vdd!=DRN N205=GATE N210=SRC vdd!=BULK }}
+    {INST M760=p105 {TYPE MOS} {COORD x=12.735 y=17.838 }{PROP n="p105" Length=0.03 Width=0.504 Mult=1 }
+	{PIN N310=DRN N181=GATE N196=SRC vdd!=BULK }}
+    {INST M54=n105 {TYPE MOS} {COORD x=17.200 y=17.734 }{PROP n="n105" Length=0.03 Width=0.42 Mult=1 }
+	{PIN N218=DRN N228=GATE gnd!=SRC gnd!=BULK }}
+    {INST M429=n105 {TYPE MOS} {COORD x=11.063 y=4.958 }{PROP n="n105" Length=0.03 Width=0.42 Mult=1 }
+	{PIN N76=DRN CLK=GATE gnd!=SRC gnd!=BULK }}
+    {INST Parallel#169=n105 {TYPE MOS} {PROP Length=0.03 Width=0.94 }
+	{PIN N203=DRN N196=GATE gnd!=SRC gnd!=BULK }}
+    {INST Parallel#317=p105 {TYPE MOS} {PROP Length=0.03 Width=1.215 }
+	{PIN N315=DRN N232=GATE vdd!=SRC vdd!=BULK }}
+    {INST Parallel#190=p105 {TYPE MOS} {PROP Length=0.03 Width=1.174 }
+	{PIN N397=DRN N210=GATE N396=SRC vdd!=BULK }}
+    {INST M21=n105 {TYPE MOS} {COORD x=19.176 y=13.974 }{PROP n="n105" Length=0.03 Width=0.42 Mult=1 }
+	{PIN N215=DRN CLK=GATE gnd!=SRC gnd!=BULK }}
+    {INST M663=p105 {TYPE MOS} {COORD x=18.568 y=13.216 }{PROP n="p105" Length=0.03 Width=0.504 Mult=1 }
+	{PIN vdd!=DRN N231=GATE N226=SRC vdd!=BULK }}
+    {INST M62=n105 {TYPE MOS} {COORD x=17.808 y=17.115 }{PROP n="n105" Length=0.03 Width=0.218 Mult=1 }
+	{PIN N312=DRN N218=GATE gnd!=SRC gnd!=BULK }}
+    {INST Parallel#191=n105 {TYPE MOS} {PROP Length=0.03 Width=0.978 }
+	{PIN N314=DRN N210=GATE N313=SRC gnd!=BULK }}
+    {INST M60=n105 {TYPE MOS} {COORD x=17.504 y=17.115 }{PROP n="n105" Length=0.03 Width=0.218 Mult=1 }
+	{PIN N312=DRN N210=GATE gnd!=SRC gnd!=BULK }}
+    {INST M806=p105 {TYPE MOS} {COORD x=11.063 y=17.838 }{PROP n="p105" Length=0.03 Width=0.504 Mult=1 }
+	{PIN vdd!=DRN CLK=GATE N181=SRC vdd!=BULK }}
+    {INST M424=n105 {TYPE MOS} {COORD x=11.367 y=4.958 }{PROP n="n105" Length=0.03 Width=0.42 Mult=1 }
+	{PIN N237=DRN N76=GATE N75=SRC gnd!=BULK }}
+    {INST M682=p105 {TYPE MOS} {COORD x=17.656 y=16.270 }{PROP n="p105" Length=0.03 Width=0.522 Mult=1 }
+	{PIN N395=DRN N219=GATE vdd!=SRC vdd!=BULK }}
+    {INST Parallel#198=p105 {TYPE MOS} {PROP Length=0.03 Width=1.128 }
+	{PIN vdd!=DRN N83=GATE N86=SRC vdd!=BULK }}
+    {INST M81=n105 {TYPE MOS} {COORD x=16.896 y=17.014 }{PROP n="n105" Length=0.03 Width=0.42 Mult=1 }
+	{PIN N365=DRN N219=GATE gnd!=SRC gnd!=BULK }}
+    {INST M705=p105 {TYPE MOS} {COORD x=16.896 y=16.256 }{PROP n="p105" Length=0.03 Width=0.504 Mult=1 }
+	{PIN N427=DRN N219=GATE vdd!=SRC vdd!=BULK }}
+    {INST M80=n105 {TYPE MOS} {COORD x=16.288 y=17.119 }{PROP n="n105" Length=0.03 Width=0.21 Mult=1 }
+	{PIN N311=DRN N219=GATE gnd!=SRC gnd!=BULK }}
+    {INST M157=n105 {TYPE MOS} {COORD x=11.367 y=17.080 }{PROP n="n105" Length=0.03 Width=0.42 Mult=1 }
+	{PIN N238=DRN N181=GATE N180=SRC gnd!=BULK }}
+    {INST M664=p105 {TYPE MOS} {COORD x=18.264 y=13.216 }{PROP n="p105" Length=0.03 Width=0.504 Mult=1 }
+	{PIN N299=DRN N215=GATE N231=SRC vdd!=BULK }}
+    {INST M675=p105 {TYPE MOS} {COORD x=17.200 y=18.492 }{PROP n="p105" Length=0.03 Width=0.504 Mult=1 }
+	{PIN vdd!=DRN N228=GATE N218=SRC vdd!=BULK }}
+    {INST M1118=p105 {TYPE MOS} {COORD x=11.063 y=5.716 }{PROP n="p105" Length=0.03 Width=0.504 Mult=1 }
+	{PIN vdd!=DRN CLK=GATE N76=SRC vdd!=BULK }}
+    {INST Parallel#141=p105 {TYPE MOS} {PROP Length=0.03 Width=1.128 }
+	{PIN vdd!=DRN N196=GATE N203=SRC vdd!=BULK }}
+    {INST Parallel#5=n105 {TYPE MOS} {PROP Length=0.03 Width=1.404 }
+	{PIN N210=DRN N205=GATE gnd!=SRC gnd!=BULK }}
+    {INST M683=p105 {TYPE MOS} {COORD x=17.808 y=16.270 }{PROP n="p105" Length=0.03 Width=0.522 Mult=1 }
+	{PIN N395=DRN N218=GATE vdd!=SRC vdd!=BULK }}
+    {INST M110=n105 {TYPE MOS} {COORD x=13.495 y=19.400 }{PROP n="n105" Length=0.03 Width=0.42 Mult=1 }
+	{PIN N210=DRN N187=GATE N198=SRC gnd!=BULK }}
+    {INST M681=p105 {TYPE MOS} {COORD x=17.504 y=16.270 }{PROP n="p105" Length=0.03 Width=0.522 Mult=1 }
+	{PIN N395=DRN N210=GATE vdd!=SRC vdd!=BULK }}
+    {INST M642=p105 {TYPE MOS} {COORD x=19.176 y=13.216 }{PROP n="p105" Length=0.03 Width=0.504 Mult=1 }
+	{PIN vdd!=DRN CLK=GATE N215=SRC vdd!=BULK }}
+    {INST Parallel#279=n105 {TYPE MOS} {PROP Length=0.03 Width=1.014 }
+	{PIN N315=DRN N232=GATE gnd!=SRC gnd!=BULK }}
+    {INST Parallel#244=p105 {TYPE MOS} {PROP Length=0.03 Width=1.174 }
+	{PIN N396=DRN N218=GATE N232=SRC vdd!=BULK }}
+    {INST M93=n105 {TYPE MOS} {COORD x=16.136 y=17.119 }{PROP n="n105" Length=0.03 Width=0.21 Mult=1 }
+	{PIN N311=DRN N210=GATE gnd!=SRC gnd!=BULK }}
+    {INST M704=p105 {TYPE MOS} {COORD x=16.288 y=16.130 }{PROP n="p105" Length=0.03 Width=0.252 Mult=1 }
+	{PIN N394=DRN N219=GATE vdd!=SRC vdd!=BULK }}
+    {INST Parallel#77=p105 {TYPE MOS} {PROP Length=0.03 Width=0.754 }
+	{PIN N310=DRN N179=GATE vdd!=SRC vdd!=BULK }}
+    {INST M237=n105 {TYPE MOS} {COORD x=7.101 y=17.014 }{PROP n="n105" Length=0.03 Width=0.42 Mult=1 }
+	{PIN N238=DRN N164=GATE gnd!=SRC gnd!=BULK }}
+    {INST M1112=p105 {TYPE MOS} {COORD x=11.671 y=5.716 }{PROP n="p105" Length=0.03 Width=0.504 Mult=1 }
+	{PIN vdd!=DRN N75=GATE N74=SRC vdd!=BULK }}
+    {INST M498=n105 {TYPE MOS} {COORD x=7.101 y=4.849 }{PROP n="n105" Length=0.03 Width=0.42 Mult=1 }
+	{PIN N237=DRN N63=GATE gnd!=SRC gnd!=BULK }}
+    {INST M807=p105 {TYPE MOS} {COORD x=11.063 y=18.642 }{PROP n="p105" Length=0.03 Width=0.504 Mult=1 }
+	{PIN vdd!=DRN CLK=GATE N187=SRC vdd!=BULK }}
+    {INST Parallel#240=n105 {TYPE MOS} {PROP Length=0.03 Width=0.94 }
+	{PIN N205=DRN N198=GATE gnd!=SRC gnd!=BULK }}
+    {INST Parallel#113=n105 {TYPE MOS} {PROP Length=0.03 Width=0.628 }
+	{PIN N276=DRN N74=GATE gnd!=SRC gnd!=BULK }}
+    {INST Parallel#79=n105 {TYPE MOS} {PROP Length=0.03 Width=0.628 }
+	{PIN N299=DRN N226=GATE gnd!=SRC gnd!=BULK }}
+    {INST M703=p105 {TYPE MOS} {COORD x=16.744 y=18.492 }{PROP n="p105" Length=0.03 Width=0.504 Mult=1 }
+	{PIN N430=DRN N211=GATE N228=SRC vdd!=BULK }}
+    {INST Parallel#104=p105 {TYPE MOS} {PROP Length=0.03 Width=1.674 }
+	{PIN vdd!=DRN N88=GATE N219=SRC vdd!=BULK }}
+    {INST M792=p105 {TYPE MOS} {COORD x=11.975 y=18.642 }{PROP n="p105" Length=0.03 Width=0.504 Mult=1 }
+	{PIN N337=DRN N187=GATE N186=SRC vdd!=BULK }}
+    {INST M702=p105 {TYPE MOS} {COORD x=16.592 y=18.492 }{PROP n="p105" Length=0.03 Width=0.504 Mult=1 }
+	{PIN N406=DRN N220=GATE N228=SRC vdd!=BULK }}
+    {INST M788=p105 {TYPE MOS} {COORD x=11.671 y=17.838 }{PROP n="p105" Length=0.03 Width=0.504 Mult=1 }
+	{PIN vdd!=DRN N180=GATE N179=SRC vdd!=BULK }}
+    {INST Parallel#306=n105 {TYPE MOS} {PROP Length=0.03 Width=0.628 }
+	{PIN N310=DRN N179=GATE gnd!=SRC gnd!=BULK }}
+    {INST M78=n105 {TYPE MOS} {COORD x=16.592 y=17.734 }{PROP n="n105" Length=0.03 Width=0.42 Mult=1 }
+	{PIN N338=DRN N220=GATE N228=SRC gnd!=BULK }}
+    {INST M425=n105 {TYPE MOS} {COORD x=11.671 y=4.958 }{PROP n="n105" Length=0.03 Width=0.42 Mult=1 }
+	{PIN N74=DRN N75=GATE gnd!=SRC gnd!=BULK }}
+    {INST M151=n105 {TYPE MOS} {COORD x=11.367 y=19.400 }{PROP n="n105" Length=0.03 Width=0.42 Mult=1 }
+	{PIN N309=DRN N187=GATE N186=SRC gnd!=BULK }}
+    {INST M891=p105 {TYPE MOS} {COORD x=7.101 y=16.256 }{PROP n="p105" Length=0.03 Width=0.504 Mult=1 }
+	{PIN N238=DRN N164=GATE vdd!=SRC vdd!=BULK }}
+    {INST M403=n105 {TYPE MOS} {COORD x=13.495 y=7.278 }{PROP n="n105" Length=0.03 Width=0.42 Mult=1 }
+	{PIN N219=DRN N82=GATE N85=SRC gnd!=BULK }}
+    {INST Parallel#41=p105 {TYPE MOS} {PROP Length=0.03 Width=0.784 }
+	{PIN N408=DRN N228=GATE N233=SRC vdd!=BULK }}
+    {INST Parallel#196=n105 {TYPE MOS} {PROP Length=0.03 Width=0.978 }
+	{PIN N314=DRN N219=GATE gnd!=SRC gnd!=BULK }}
+    {INST M79=n105 {TYPE MOS} {COORD x=16.744 y=17.734 }{PROP n="n105" Length=0.03 Width=0.42 Mult=1 }
+	{PIN N369=DRN N211=GATE N228=SRC gnd!=BULK }}
+    {INST M168=n105 {TYPE MOS} {COORD x=11.063 y=19.400 }{PROP n="n105" Length=0.03 Width=0.42 Mult=1 }
+	{PIN N187=DRN CLK=GATE gnd!=SRC gnd!=BULK }}
+    {INST M764=p105 {TYPE MOS} {COORD x=12.735 y=18.642 }{PROP n="p105" Length=0.03 Width=0.504 Mult=1 }
+	{PIN N337=DRN N187=GATE N198=SRC vdd!=BULK }}
+    {INST M1169=p105 {TYPE MOS} {COORD x=7.101 y=4.091 }{PROP n="p105" Length=0.03 Width=0.504 Mult=1 }
+	{PIN N237=DRN N63=GATE vdd!=SRC vdd!=BULK }}
+    {INST Parallel#344=p105 {TYPE MOS} {PROP Length=0.03 Width=1.128 }
+	{PIN vdd!=DRN N198=GATE N205=SRC vdd!=BULK }}
+    {INST Parallel#265=p105 {TYPE MOS} {PROP Length=0.03 Width=0.754 }
+	{PIN N276=DRN N74=GATE vdd!=SRC vdd!=BULK }}
+    {INST Parallel#192=p105 {TYPE MOS} {PROP Length=0.03 Width=0.754 }
+	{PIN N299=DRN N226=GATE vdd!=SRC vdd!=BULK }}
+    {INST Parallel#182=n105 {TYPE MOS} {PROP Length=0.03 Width=1.404 }
+	{PIN N219=DRN N88=GATE gnd!=SRC gnd!=BULK }}
+    {INST M158=n105 {TYPE MOS} {COORD x=11.671 y=17.080 }{PROP n="n105" Length=0.03 Width=0.42 Mult=1 }
+	{PIN N179=DRN N180=GATE gnd!=SRC gnd!=BULK }}
+    {INST Parallel#304=n105 {TYPE MOS} {PROP Length=0.03 Width=0.654 }
+	{PIN N341=DRN N228=GATE N233=SRC gnd!=BULK }}
+    {INST Parallel#214=p105 {TYPE MOS} {PROP Length=0.03 Width=1.174 }
+	{PIN N397=DRN N219=GATE vdd!=SRC vdd!=BULK }}
+    {INST M670=p105 {TYPE MOS} {COORD x=17.200 y=19.296 }{PROP n="p105" Length=0.03 Width=0.504 Mult=1 }
+	{PIN vdd!=DRN N230=GATE N220=SRC vdd!=BULK }}
+    {INST M677=p105 {TYPE MOS} {COORD x=17.656 y=18.478 }{PROP n="p105" Length=0.03 Width=0.522 Mult=1 }
+	{PIN N408=DRN N221=GATE vdd!=SRC vdd!=BULK }}
+    {INST M791=p105 {TYPE MOS} {COORD x=11.671 y=18.642 }{PROP n="p105" Length=0.03 Width=0.504 Mult=1 }
+	{PIN vdd!=DRN N186=GATE N185=SRC vdd!=BULK }}
+    {INST Parallel#335=p105 {TYPE MOS} {PROP Length=0.03 Width=1.128 }
+	{PIN vdd!=DRN N85=GATE N88=SRC vdd!=BULK }}
+    {INST Parallel#199=p105 {TYPE MOS} {PROP Length=0.03 Width=1.215 }
+	{PIN N350=DRN N233=GATE vdd!=SRC vdd!=BULK }}
+    {INST M501=n105 {TYPE MOS} {COORD x=6.493 y=4.849 }{PROP n="n105" Length=0.03 Width=0.42 Mult=1 }
+	{PIN N266=DRN N62=GATE N63=SRC gnd!=BULK }}
+    {INST M55=n105 {TYPE MOS} {COORD x=17.504 y=17.633 }{PROP n="n105" Length=0.03 Width=0.218 Mult=1 }
+	{PIN N341=DRN N211=GATE gnd!=SRC gnd!=BULK }}
+    {INST M1119=p105 {TYPE MOS} {COORD x=11.063 y=6.520 }{PROP n="p105" Length=0.03 Width=0.504 Mult=1 }
+	{PIN vdd!=DRN CLK=GATE N82=SRC vdd!=BULK }}
+    {INST Parallel#178=n105 {TYPE MOS} {PROP Length=0.03 Width=0.628 }
+	{PIN N337=DRN N185=GATE gnd!=SRC gnd!=BULK }}
+    {INST Parallel#16=n105 {TYPE MOS} {PROP Length=0.03 Width=1.014 }
+	{PIN N309=DRN N169=GATE gnd!=SRC gnd!=BULK }}
+    {INST M499=n105 {TYPE MOS} {COORD x=6.645 y=4.849 }{PROP n="n105" Length=0.03 Width=0.42 Mult=1 }
+	{PIN N360=DRN N54=GATE N63=SRC gnd!=BULK }}
+    {INST Parallel#51=p105 {TYPE MOS} {PROP Length=0.03 Width=0.784 }
+	{PIN N389=DRN N164=GATE N169=SRC vdd!=BULK }}
+    {INST M244=n105 {TYPE MOS} {COORD x=6.493 y=17.014 }{PROP n="n105" Length=0.03 Width=0.42 Mult=1 }
+	{PIN N305=DRN N162=GATE N164=SRC gnd!=BULK }}
+    {INST M701=p105 {TYPE MOS} {COORD x=16.896 y=18.492 }{PROP n="p105" Length=0.03 Width=0.504 Mult=1 }
+	{PIN N430=DRN N221=GATE vdd!=SRC vdd!=BULK }}
+    {INST M56=n105 {TYPE MOS} {COORD x=17.656 y=17.633 }{PROP n="n105" Length=0.03 Width=0.218 Mult=1 }
+	{PIN N341=DRN N221=GATE gnd!=SRC gnd!=BULK }}
+    {INST Parallel#311=n105 {TYPE MOS} {PROP Length=0.03 Width=1.404 }
+	{PIN N211=DRN N204=GATE gnd!=SRC gnd!=BULK }}
+    {INST M1116=p105 {TYPE MOS} {COORD x=11.975 y=6.520 }{PROP n="p105" Length=0.03 Width=0.504 Mult=1 }
+	{PIN N277=DRN N82=GATE N81=SRC vdd!=BULK }}
+    {INST M111=n105 {TYPE MOS} {COORD x=13.495 y=20.120 }{PROP n="n105" Length=0.03 Width=0.42 Mult=1 }
+	{PIN N211=DRN N184=GATE N197=SRC gnd!=BULK }}
+    {INST Parallel#173=n105 {TYPE MOS} {PROP Length=0.03 Width=0.654 }
+	{PIN N306=DRN N164=GATE N169=SRC gnd!=BULK }}
+    {INST M1173=p105 {TYPE MOS} {COORD x=6.493 y=4.091 }{PROP n="p105" Length=0.03 Width=0.504 Mult=1 }
+	{PIN N372=DRN N62=GATE N63=SRC vdd!=BULK }}
+    {INST M719=p105 {TYPE MOS} {COORD x=16.136 y=18.618 }{PROP n="p105" Length=0.03 Width=0.252 Mult=1 }
+	{PIN N406=DRN N211=GATE vdd!=SRC vdd!=BULK }}
+    {INST Parallel#294=n105 {TYPE MOS} {PROP Length=0.03 Width=0.978 }
+	{PIN N345=DRN N211=GATE N344=SRC gnd!=BULK }}
+    {INST M242=n105 {TYPE MOS} {COORD x=6.645 y=17.014 }{PROP n="n105" Length=0.03 Width=0.42 Mult=1 }
+	{PIN N364=DRN N154=GATE N164=SRC gnd!=BULK }}
+    {INST M1171=p105 {TYPE MOS} {COORD x=6.645 y=4.091 }{PROP n="p105" Length=0.03 Width=0.504 Mult=1 }
+	{PIN N422=DRN N54=GATE N63=SRC vdd!=BULK }}
+    {INST M678=p105 {TYPE MOS} {COORD x=17.808 y=18.478 }{PROP n="p105" Length=0.03 Width=0.522 Mult=1 }
+	{PIN N408=DRN N220=GATE vdd!=SRC vdd!=BULK }}
+    {INST M895=p105 {TYPE MOS} {COORD x=6.493 y=16.256 }{PROP n="p105" Length=0.03 Width=0.504 Mult=1 }
+	{PIN N388=DRN N162=GATE N164=SRC vdd!=BULK }}
+    {INST M700=p105 {TYPE MOS} {COORD x=16.288 y=18.618 }{PROP n="p105" Length=0.03 Width=0.252 Mult=1 }
+	{PIN N406=DRN N221=GATE vdd!=SRC vdd!=BULK }}
+    {INST M893=p105 {TYPE MOS} {COORD x=6.645 y=16.256 }{PROP n="p105" Length=0.03 Width=0.504 Mult=1 }
+	{PIN N426=DRN N154=GATE N164=SRC vdd!=BULK }}
+    {INST M44=n105 {TYPE MOS} {COORD x=17.200 y=20.054 }{PROP n="n105" Length=0.03 Width=0.42 Mult=1 }
+	{PIN N220=DRN N230=GATE gnd!=SRC gnd!=BULK }}
+    {INST M152=n105 {TYPE MOS} {COORD x=11.671 y=19.400 }{PROP n="n105" Length=0.03 Width=0.42 Mult=1 }
+	{PIN N185=DRN N186=GATE gnd!=SRC gnd!=BULK }}
+    {INST Parallel#55=n105 {TYPE MOS} {PROP Length=0.03 Width=0.94 }
+	{PIN N88=DRN N85=GATE gnd!=SRC gnd!=BULK }}
+    {INST Parallel#6=p105 {TYPE MOS} {PROP Length=0.03 Width=0.754 }
+	{PIN N337=DRN N185=GATE vdd!=SRC vdd!=BULK }}
+    {INST Parallel#118=n105 {TYPE MOS} {PROP Length=0.03 Width=1.014 }
+	{PIN N350=DRN N233=GATE gnd!=SRC gnd!=BULK }}
+    {INST Parallel#111=p105 {TYPE MOS} {PROP Length=0.03 Width=1.215 }
+	{PIN N309=DRN N169=GATE vdd!=SRC vdd!=BULK }}
+    {INST M427=n105 {TYPE MOS} {COORD x=11.063 y=7.278 }{PROP n="n105" Length=0.03 Width=0.42 Mult=1 }
+	{PIN N82=DRN CLK=GATE gnd!=SRC gnd!=BULK }}
+    {INST M418=n105 {TYPE MOS} {COORD x=11.367 y=7.278 }{PROP n="n105" Length=0.03 Width=0.42 Mult=1 }
+	{PIN N274=DRN N82=GATE N81=SRC gnd!=BULK }}
+    {INST M57=n105 {TYPE MOS} {COORD x=17.808 y=17.633 }{PROP n="n105" Length=0.03 Width=0.218 Mult=1 }
+	{PIN N341=DRN N220=GATE gnd!=SRC gnd!=BULK }}
+    {INST M92=n105 {TYPE MOS} {COORD x=16.136 y=17.629 }{PROP n="n105" Length=0.03 Width=0.21 Mult=1 }
+	{PIN N338=DRN N211=GATE gnd!=SRC gnd!=BULK }}
+    {INST Parallel#334=p105 {TYPE MOS} {PROP Length=0.03 Width=1.674 }
+	{PIN vdd!=DRN N204=GATE N211=SRC vdd!=BULK }}
+    {INST Parallel#132=n105 {TYPE MOS} {PROP Length=0.03 Width=0.978 }
+	{PIN N344=DRN N220=GATE N233=SRC gnd!=BULK }}
+    {INST Parallel#69=p105 {TYPE MOS} {PROP Length=0.03 Width=0.784 }
+	{PIN N373=DRN N63=GATE N70=SRC vdd!=BULK }}
+    {INST Parallel#160=p105 {TYPE MOS} {PROP Length=0.03 Width=1.174 }
+	{PIN N411=DRN N211=GATE N410=SRC vdd!=BULK }}
+    {INST M1109=p105 {TYPE MOS} {COORD x=12.735 y=6.520 }{PROP n="p105" Length=0.03 Width=0.504 Mult=1 }
+	{PIN N277=DRN N82=GATE N85=SRC vdd!=BULK }}
+    {INST Parallel#25=n105 {TYPE MOS} {PROP Length=0.03 Width=0.654 }
+	{PIN N268=DRN N63=GATE N70=SRC gnd!=BULK }}
+    {INST M76=n105 {TYPE MOS} {COORD x=16.288 y=17.629 }{PROP n="n105" Length=0.03 Width=0.21 Mult=1 }
+	{PIN N338=DRN N221=GATE gnd!=SRC gnd!=BULK }}
+    {INST M676=p105 {TYPE MOS} {COORD x=17.504 y=18.478 }{PROP n="p105" Length=0.03 Width=0.522 Mult=1 }
+	{PIN N408=DRN N211=GATE vdd!=SRC vdd!=BULK }}
+    {INST Parallel#90=p105 {TYPE MOS} {PROP Length=0.03 Width=1.174 }
+	{PIN N410=DRN N220=GATE N233=SRC vdd!=BULK }}
+    {INST M77=n105 {TYPE MOS} {COORD x=16.896 y=17.734 }{PROP n="n105" Length=0.03 Width=0.42 Mult=1 }
+	{PIN N369=DRN N221=GATE gnd!=SRC gnd!=BULK }}
+    {INST M419=n105 {TYPE MOS} {COORD x=11.671 y=7.278 }{PROP n="n105" Length=0.03 Width=0.42 Mult=1 }
+	{PIN N80=DRN N81=GATE gnd!=SRC gnd!=BULK }}
+    {INST Parallel#291=n105 {TYPE MOS} {PROP Length=0.03 Width=0.628 }
+	{PIN N277=DRN N80=GATE gnd!=SRC gnd!=BULK }}
+    {INST M265=n105 {TYPE MOS} {COORD x=4.256 y=18.600 }{PROP n="n105" Length=0.03 Width=0.42 Mult=1 }
+	{PIN N154=DRN N150=GATE gnd!=SRC gnd!=BULK }}
+    {INST Parallel#74=n105 {TYPE MOS} {PROP Length=0.03 Width=0.654 }
+	{PIN N343=DRN N230=GATE N235=SRC gnd!=BULK }}
+    {INST M783=p105 {TYPE MOS} {COORD x=11.975 y=20.878 }{PROP n="p105" Length=0.03 Width=0.504 Mult=1 }
+	{PIN N336=DRN N184=GATE N183=SRC vdd!=BULK }}
+    {INST M1155=p105 {TYPE MOS} {COORD x=7.709 y=4.105 }{PROP n="p105" Length=0.03 Width=0.522 Mult=1 }
+	{PIN N373=DRN N62=GATE vdd!=SRC vdd!=BULK }}
+    {INST M907=p105 {TYPE MOS} {COORD x=6.189 y=16.130 }{PROP n="p105" Length=0.03 Width=0.252 Mult=1 }
+	{PIN N388=DRN N155=GATE vdd!=SRC vdd!=BULK }}
+    {INST M1156=p105 {TYPE MOS} {COORD x=7.557 y=4.105 }{PROP n="p105" Length=0.03 Width=0.522 Mult=1 }
+	{PIN N373=DRN N55=GATE vdd!=SRC vdd!=BULK }}
+    {INST M804=p105 {TYPE MOS} {COORD x=11.063 y=20.878 }{PROP n="p105" Length=0.03 Width=0.504 Mult=1 }
+	{PIN vdd!=DRN CLK=GATE N184=SRC vdd!=BULK }}
+    {INST Parallel#139=p105 {TYPE MOS} {PROP Length=0.03 Width=1.174 }
+	{PIN N391=DRN N162=GATE N169=SRC vdd!=BULK }}
+    {INST M238=n105 {TYPE MOS} {COORD x=7.405 y=17.115 }{PROP n="n105" Length=0.03 Width=0.218 Mult=1 }
+	{PIN N306=DRN N154=GATE gnd!=SRC gnd!=BULK }}
+    {INST Parallel#21=p105 {TYPE MOS} {PROP Length=0.03 Width=1.174 }
+	{PIN N411=DRN N221=GATE vdd!=SRC vdd!=BULK }}
+    {INST M169=n105 {TYPE MOS} {COORD x=11.063 y=20.120 }{PROP n="n105" Length=0.03 Width=0.42 Mult=1 }
+	{PIN N184=DRN CLK=GATE gnd!=SRC gnd!=BULK }}
+    {INST M886=p105 {TYPE MOS} {COORD x=7.101 y=18.492 }{PROP n="p105" Length=0.03 Width=0.504 Mult=1 }
+	{PIN vdd!=DRN N165=GATE N162=SRC vdd!=BULK }}
+    {INST M235=n105 {TYPE MOS} {COORD x=7.101 y=17.734 }{PROP n="n105" Length=0.03 Width=0.42 Mult=1 }
+	{PIN N162=DRN N165=GATE gnd!=SRC gnd!=BULK }}
+    {INST Parallel#88=p105 {TYPE MOS} {PROP Length=0.03 Width=0.784 }
+	{PIN N409=DRN N230=GATE N235=SRC vdd!=BULK }}
+    {INST M1179=p105 {TYPE MOS} {COORD x=6.037 y=3.965 }{PROP n="p105" Length=0.03 Width=0.252 Mult=1 }
+	{PIN N372=DRN N54=GATE vdd!=SRC vdd!=BULK }}
+    {INST M752=p105 {TYPE MOS} {COORD x=12.735 y=20.878 }{PROP n="p105" Length=0.03 Width=0.504 Mult=1 }
+	{PIN N336=DRN N184=GATE N197=SRC vdd!=BULK }}
+    {INST M221=n105 {TYPE MOS} {COORD x=7.709 y=17.115 }{PROP n="n105" Length=0.03 Width=0.218 Mult=1 }
+	{PIN N306=DRN N162=GATE gnd!=SRC gnd!=BULK }}
+    {INST M509=n105 {TYPE MOS} {COORD x=6.037 y=4.954 }{PROP n="n105" Length=0.03 Width=0.21 Mult=1 }
+	{PIN N266=DRN N54=GATE gnd!=SRC gnd!=BULK }}
+    {INST M698=p105 {TYPE MOS} {COORD x=16.592 y=19.296 }{PROP n="p105" Length=0.03 Width=0.504 Mult=1 }
+	{PIN N407=DRN N223=GATE N230=SRC vdd!=BULK }}
+    {INST M699=p105 {TYPE MOS} {COORD x=16.744 y=19.296 }{PROP n="p105" Length=0.03 Width=0.504 Mult=1 }
+	{PIN N431=DRN N213=GATE N230=SRC vdd!=BULK }}
+    {INST M1164=p105 {TYPE MOS} {COORD x=7.101 y=6.327 }{PROP n="p105" Length=0.03 Width=0.504 Mult=1 }
+	{PIN vdd!=DRN N65=GATE N62=SRC vdd!=BULK }}
+    {INST M222=n105 {TYPE MOS} {COORD x=7.557 y=17.115 }{PROP n="n105" Length=0.03 Width=0.218 Mult=1 }
+	{PIN N306=DRN N155=GATE gnd!=SRC gnd!=BULK }}
+    {INST Parallel#94=p105 {TYPE MOS} {PROP Length=0.03 Width=1.174 }
+	{PIN N391=DRN N154=GATE N390=SRC vdd!=BULK }}
+    {INST M892=p105 {TYPE MOS} {COORD x=7.405 y=16.270 }{PROP n="p105" Length=0.03 Width=0.522 Mult=1 }
+	{PIN N389=DRN N154=GATE vdd!=SRC vdd!=BULK }}
+    {INST Parallel#40=n105 {TYPE MOS} {PROP Length=0.03 Width=0.978 }
+	{PIN N308=DRN N162=GATE N169=SRC gnd!=BULK }}
+    {INST M492=n105 {TYPE MOS} {COORD x=7.101 y=5.569 }{PROP n="n105" Length=0.03 Width=0.42 Mult=1 }
+	{PIN gnd!=DRN N65=GATE N62=SRC gnd!=BULK }}
+    {INST M1178=p105 {TYPE MOS} {COORD x=6.189 y=3.965 }{PROP n="p105" Length=0.03 Width=0.252 Mult=1 }
+	{PIN N372=DRN N55=GATE vdd!=SRC vdd!=BULK }}
+    {INST M494=n105 {TYPE MOS} {COORD x=7.405 y=4.950 }{PROP n="n105" Length=0.03 Width=0.218 Mult=1 }
+	{PIN N268=DRN N54=GATE gnd!=SRC gnd!=BULK }}
+    {INST Parallel#3=p105 {TYPE MOS} {PROP Length=0.03 Width=1.174 }
+	{PIN N375=DRN N54=GATE N374=SRC vdd!=BULK }}
+    {INST Parallel#35=p105 {TYPE MOS} {PROP Length=0.03 Width=1.674 }
+	{PIN vdd!=DRN N87=GATE N221=SRC vdd!=BULK }}
+    {INST M404=n105 {TYPE MOS} {COORD x=13.495 y=7.998 }{PROP n="n105" Length=0.03 Width=0.42 Mult=1 }
+	{PIN N221=DRN N79=GATE N84=SRC gnd!=BULK }}
+    {INST Parallel#275=p105 {TYPE MOS} {PROP Length=0.03 Width=1.174 }
+	{PIN N375=DRN N62=GATE N70=SRC vdd!=BULK }}
+    {INST M508=n105 {TYPE MOS} {COORD x=6.189 y=4.954 }{PROP n="n105" Length=0.03 Width=0.21 Mult=1 }
+	{PIN N266=DRN N55=GATE gnd!=SRC gnd!=BULK }}
+    {INST Parallel#89=n105 {TYPE MOS} {PROP Length=0.03 Width=1.404 }
+	{PIN N221=DRN N87=GATE gnd!=SRC gnd!=BULK }}
+    {INST M951=p105 {TYPE MOS} {COORD x=4.256 y=7.197 }{PROP n="p105" Length=0.03 Width=0.504 Mult=1 }
+	{PIN vdd!=DRN N51=GATE N54=SRC vdd!=BULK }}
+    {INST M868=p105 {TYPE MOS} {COORD x=7.709 y=16.270 }{PROP n="p105" Length=0.03 Width=0.522 Mult=1 }
+	{PIN N389=DRN N162=GATE vdd!=SRC vdd!=BULK }}
+    {INST Parallel#223=p105 {TYPE MOS} {PROP Length=0.03 Width=1.128 }
+	{PIN vdd!=DRN N197=GATE N204=SRC vdd!=BULK }}
+    {INST M518=n105 {TYPE MOS} {COORD x=4.256 y=6.440 }{PROP n="n105" Length=0.03 Width=0.42 Mult=1 }
+	{PIN gnd!=DRN N51=GATE N54=SRC gnd!=BULK }}
+    {INST M478=n105 {TYPE MOS} {COORD x=7.709 y=4.950 }{PROP n="n105" Length=0.03 Width=0.218 Mult=1 }
+	{PIN N268=DRN N62=GATE gnd!=SRC gnd!=BULK }}
+    {INST M500=n105 {TYPE MOS} {COORD x=6.797 y=4.849 }{PROP n="n105" Length=0.03 Width=0.42 Mult=1 }
+	{PIN N360=DRN N55=GATE gnd!=SRC gnd!=BULK }}
+    {INST Parallel#151=n105 {TYPE MOS} {PROP Length=0.03 Width=0.978 }
+	{PIN N308=DRN N154=GATE N307=SRC gnd!=BULK }}
+    {INST M479=n105 {TYPE MOS} {COORD x=7.557 y=4.950 }{PROP n="n105" Length=0.03 Width=0.218 Mult=1 }
+	{PIN N268=DRN N55=GATE gnd!=SRC gnd!=BULK }}
+    {INST M869=p105 {TYPE MOS} {COORD x=7.557 y=16.270 }{PROP n="p105" Length=0.03 Width=0.522 Mult=1 }
+	{PIN N389=DRN N155=GATE vdd!=SRC vdd!=BULK }}
+    {INST M71=n105 {TYPE MOS} {COORD x=16.744 y=20.054 }{PROP n="n105" Length=0.03 Width=0.42 Mult=1 }
+	{PIN N371=DRN N213=GATE N230=SRC gnd!=BULK }}
+    {INST Parallel#156=n105 {TYPE MOS} {PROP Length=0.03 Width=0.94 }
+	{PIN N204=DRN N197=GATE gnd!=SRC gnd!=BULK }}
+    {INST M252=n105 {TYPE MOS} {COORD x=6.037 y=17.119 }{PROP n="n105" Length=0.03 Width=0.21 Mult=1 }
+	{PIN N305=DRN N154=GATE gnd!=SRC gnd!=BULK }}
+    {INST Parallel#60=n105 {TYPE MOS} {PROP Length=0.03 Width=0.978 }
+	{PIN N272=DRN N54=GATE N270=SRC gnd!=BULK }}
+    {INST M1172=p105 {TYPE MOS} {COORD x=6.797 y=4.091 }{PROP n="p105" Length=0.03 Width=0.504 Mult=1 }
+	{PIN N422=DRN N55=GATE vdd!=SRC vdd!=BULK }}
+    {INST M70=n105 {TYPE MOS} {COORD x=16.592 y=20.054 }{PROP n="n105" Length=0.03 Width=0.42 Mult=1 }
+	{PIN N340=DRN N223=GATE N230=SRC gnd!=BULK }}
+    {INST Parallel#31=n105 {TYPE MOS} {PROP Length=0.03 Width=0.978 }
+	{PIN N345=DRN N221=GATE gnd!=SRC gnd!=BULK }}
+    {INST Parallel#318=n105 {TYPE MOS} {PROP Length=0.03 Width=0.978 }
+	{PIN N272=DRN N62=GATE N70=SRC gnd!=BULK }}
+    {INST Parallel#187=p105 {TYPE MOS} {PROP Length=0.03 Width=1.215 }
+	{PIN N274=DRN N70=GATE vdd!=SRC vdd!=BULK }}
+    {INST M243=n105 {TYPE MOS} {COORD x=6.797 y=17.014 }{PROP n="n105" Length=0.03 Width=0.42 Mult=1 }
+	{PIN N364=DRN N155=GATE gnd!=SRC gnd!=BULK }}
+    {INST M894=p105 {TYPE MOS} {COORD x=6.797 y=16.256 }{PROP n="p105" Length=0.03 Width=0.504 Mult=1 }
+	{PIN N426=DRN N155=GATE vdd!=SRC vdd!=BULK }}
+    {INST M908=p105 {TYPE MOS} {COORD x=6.037 y=16.130 }{PROP n="p105" Length=0.03 Width=0.252 Mult=1 }
+	{PIN N388=DRN N154=GATE vdd!=SRC vdd!=BULK }}
+    {INST M1115=p105 {TYPE MOS} {COORD x=11.671 y=6.520 }{PROP n="p105" Length=0.03 Width=0.504 Mult=1 }
+	{PIN vdd!=DRN N81=GATE N80=SRC vdd!=BULK }}
+    {INST Parallel#258=p105 {TYPE MOS} {PROP Length=0.03 Width=0.754 }
+	{PIN N277=DRN N80=GATE vdd!=SRC vdd!=BULK }}
+    {INST Parallel#19=n105 {TYPE MOS} {PROP Length=0.03 Width=1.014 }
+	{PIN N274=DRN N70=GATE gnd!=SRC gnd!=BULK }}
+    {INST M919=p105 {TYPE MOS} {COORD x=4.256 y=19.357 }{PROP n="p105" Length=0.03 Width=0.504 Mult=1 }
+	{PIN vdd!=DRN N150=GATE N154=SRC vdd!=BULK }}
+    {INST M154=n105 {TYPE MOS} {COORD x=11.367 y=20.120 }{PROP n="n105" Length=0.03 Width=0.42 Mult=1 }
+	{PIN N333=DRN N184=GATE N183=SRC gnd!=BULK }}
+    {INST M251=n105 {TYPE MOS} {COORD x=6.189 y=17.119 }{PROP n="n105" Length=0.03 Width=0.21 Mult=1 }
+	{PIN N305=DRN N155=GATE gnd!=SRC gnd!=BULK }}
+    {INST M1170=p105 {TYPE MOS} {COORD x=7.405 y=4.105 }{PROP n="p105" Length=0.03 Width=0.522 Mult=1 }
+	{PIN N373=DRN N54=GATE vdd!=SRC vdd!=BULK }}
+    {INST M782=p105 {TYPE MOS} {COORD x=11.671 y=20.878 }{PROP n="p105" Length=0.03 Width=0.504 Mult=1 }
+	{PIN vdd!=DRN N183=GATE N182=SRC vdd!=BULK }}
+    {INST Parallel#226=n105 {TYPE MOS} {PROP Length=0.03 Width=0.84 }
+	{PIN N319=DRN N135=GATE N150=SRC gnd!=BULK }}
+    {INST M673=p105 {TYPE MOS} {COORD x=17.808 y=19.310 }{PROP n="p105" Length=0.03 Width=0.522 Mult=1 }
+	{PIN N409=DRN N223=GATE vdd!=SRC vdd!=BULK }}
+    {INST Parallel#80=p105 {TYPE MOS} {PROP Length=0.03 Width=0.252 }
+	{PIN vdd!=DRN W2=GATE N51=SRC vdd!=BULK }}
+    {INST Parallel#17=p105 {TYPE MOS} {PROP Length=0.03 Width=1.174 }
+	{PIN N374=DRN N55=GATE vdd!=SRC vdd!=BULK }}
+    {INST M672=p105 {TYPE MOS} {COORD x=17.656 y=19.310 }{PROP n="p105" Length=0.03 Width=0.522 Mult=1 }
+	{PIN N409=DRN N224=GATE vdd!=SRC vdd!=BULK }}
+    {INST M495=n105 {TYPE MOS} {COORD x=6.645 y=5.569 }{PROP n="n105" Length=0.03 Width=0.42 Mult=1 }
+	{PIN N361=DRN N56=GATE N65=SRC gnd!=BULK }}
+    {INST Parallel#340=n105 {TYPE MOS} {PROP Length=0.03 Width=1.404 }
+	{PIN N213=DRN N206=GATE gnd!=SRC gnd!=BULK }}
+    {INST M47=n105 {TYPE MOS} {COORD x=17.808 y=20.155 }{PROP n="n105" Length=0.03 Width=0.218 Mult=1 }
+	{PIN N343=DRN N223=GATE gnd!=SRC gnd!=BULK }}
+    {INST Parallel#107=p105 {TYPE MOS} {PROP Length=0.03 Width=0.252 }
+	{PIN vdd!=DRN W0=GATE N150=SRC vdd!=BULK }}
+    {INST M46=n105 {TYPE MOS} {COORD x=17.656 y=20.155 }{PROP n="n105" Length=0.03 Width=0.218 Mult=1 }
+	{PIN N343=DRN N224=GATE gnd!=SRC gnd!=BULK }}
+    {INST M428=n105 {TYPE MOS} {COORD x=11.063 y=7.998 }{PROP n="n105" Length=0.03 Width=0.42 Mult=1 }
+	{PIN N79=DRN CLK=GATE gnd!=SRC gnd!=BULK }}
+    {INST M281=n105 {TYPE MOS} {COORD x=4.256 y=12.520 }{PROP n="n105" Length=0.03 Width=0.42 Mult=1 }
+	{PIN N155=DRN N145=GATE gnd!=SRC gnd!=BULK }}
+    {INST Parallel#61=p105 {TYPE MOS} {PROP Length=0.03 Width=1.174 }
+	{PIN N412=DRN N223=GATE N235=SRC vdd!=BULK }}
+    {INST Parallel#71=p105 {TYPE MOS} {PROP Length=0.03 Width=1.174 }
+	{PIN N413=DRN N213=GATE N412=SRC vdd!=BULK }}
+    {INST Parallel#127=p105 {TYPE MOS} {PROP Length=0.03 Width=1.128 }
+	{PIN vdd!=DRN N84=GATE N87=SRC vdd!=BULK }}
+    {INST M534=n105 {TYPE MOS} {COORD x=4.256 y=0.360 }{PROP n="n105" Length=0.03 Width=0.42 Mult=1 }
+	{PIN gnd!=DRN N46=GATE N55=SRC gnd!=BULK }}
+    {INST M665=p105 {TYPE MOS} {COORD x=17.200 y=21.533 }{PROP n="p105" Length=0.03 Width=0.504 Mult=1 }
+	{PIN vdd!=DRN N229=GATE N223=SRC vdd!=BULK }}
+    {INST Parallel#238=p105 {TYPE MOS} {PROP Length=0.03 Width=0.784 }
+	{PIN N400=DRN N165=GATE N170=SRC vdd!=BULK }}
+    {INST Parallel#43=n105 {TYPE MOS} {PROP Length=0.03 Width=1.014 }
+	{PIN N333=DRN N170=GATE gnd!=SRC gnd!=BULK }}
+    {INST M421=n105 {TYPE MOS} {COORD x=11.367 y=7.998 }{PROP n="n105" Length=0.03 Width=0.42 Mult=1 }
+	{PIN N275=DRN N79=GATE N78=SRC gnd!=BULK }}
+    {INST M890=p105 {TYPE MOS} {COORD x=6.493 y=18.492 }{PROP n="p105" Length=0.03 Width=0.504 Mult=1 }
+	{PIN N398=DRN N163=GATE N165=SRC vdd!=BULK }}
+    {INST Parallel#161=n105 {TYPE MOS} {PROP Length=0.03 Width=1.014 }
+	{PIN N352=DRN N235=GATE gnd!=SRC gnd!=BULK }}
+    {INST M776=p105 {TYPE MOS} {COORD x=12.735 y=8.756 }{PROP n="p105" Length=0.03 Width=0.504 Mult=1 }
+	{PIN N292=DRN N79=GATE N84=SRC vdd!=BULK }}
+    {INST Parallel#87=n105 {TYPE MOS} {PROP Length=0.03 Width=0.654 }
+	{PIN N269=DRN N65=GATE N71=SRC gnd!=BULK }}
+    {INST Parallel#177=n105 {TYPE MOS} {PROP Length=0.03 Width=0.628 }
+	{PIN N336=DRN N182=GATE gnd!=SRC gnd!=BULK }}
+    {INST Parallel#63=n105 {TYPE MOS} {PROP Length=0.03 Width=0.978 }
+	{PIN N348=DRN N223=GATE N235=SRC gnd!=BULK }}
+    {INST M696=p105 {TYPE MOS} {COORD x=16.288 y=19.170 }{PROP n="p105" Length=0.03 Width=0.252 Mult=1 }
+	{PIN N407=DRN N224=GATE vdd!=SRC vdd!=BULK }}
+    {INST M671=p105 {TYPE MOS} {COORD x=17.504 y=19.310 }{PROP n="p105" Length=0.03 Width=0.522 Mult=1 }
+	{PIN N409=DRN N213=GATE vdd!=SRC vdd!=BULK }}
+    {INST Parallel#331=p105 {TYPE MOS} {PROP Length=0.03 Width=1.674 }
+	{PIN vdd!=DRN N206=GATE N213=SRC vdd!=BULK }}
+    {INST Parallel#309=n105 {TYPE MOS} {PROP Length=0.03 Width=0.978 }
+	{PIN N307=DRN N155=GATE gnd!=SRC gnd!=BULK }}
+    {INST M45=n105 {TYPE MOS} {COORD x=17.504 y=20.155 }{PROP n="n105" Length=0.03 Width=0.218 Mult=1 }
+	{PIN N343=DRN N213=GATE gnd!=SRC gnd!=BULK }}
+    {INST M810=p105 {TYPE MOS} {COORD x=11.063 y=8.756 }{PROP n="p105" Length=0.03 Width=0.504 Mult=1 }
+	{PIN vdd!=DRN CLK=GATE N79=SRC vdd!=BULK }}
+    {INST M935=p105 {TYPE MOS} {COORD x=4.256 y=13.277 }{PROP n="p105" Length=0.03 Width=0.504 Mult=1 }
+	{PIN vdd!=DRN N145=GATE N155=SRC vdd!=BULK }}
+    {INST Parallel#297=n105 {TYPE MOS} {PROP Length=0.03 Width=0.978 }
+	{PIN N270=DRN N55=GATE gnd!=SRC gnd!=BULK }}
+    {INST M1168=p105 {TYPE MOS} {COORD x=6.493 y=6.327 }{PROP n="p105" Length=0.03 Width=0.504 Mult=1 }
+	{PIN N376=DRN N64=GATE N65=SRC vdd!=BULK }}
+    {INST M68=n105 {TYPE MOS} {COORD x=16.288 y=20.159 }{PROP n="n105" Length=0.03 Width=0.21 Mult=1 }
+	{PIN N340=DRN N224=GATE gnd!=SRC gnd!=BULK }}
+    {INST Parallel#251=n105 {TYPE MOS} {PROP Length=0.03 Width=0.978 }
+	{PIN N349=DRN N213=GATE N348=SRC gnd!=BULK }}
+    {INST M888=p105 {TYPE MOS} {COORD x=6.645 y=18.492 }{PROP n="p105" Length=0.03 Width=0.504 Mult=1 }
+	{PIN N428=DRN N156=GATE N165=SRC vdd!=BULK }}
+    {INST M1195=p105 {TYPE MOS} {COORD x=4.256 y=1.117 }{PROP n="p105" Length=0.03 Width=0.504 Mult=1 }
+	{PIN vdd!=DRN N46=GATE N55=SRC vdd!=BULK }}
+    {INST M103=n105 {TYPE MOS} {COORD x=13.495 y=22.440 }{PROP n="n105" Length=0.03 Width=0.42 Mult=1 }
+	{PIN N213=DRN N190=GATE N199=SRC gnd!=BULK }}
+    {INST M69=n105 {TYPE MOS} {COORD x=16.896 y=20.054 }{PROP n="n105" Length=0.03 Width=0.42 Mult=1 }
+	{PIN N371=DRN N224=GATE gnd!=SRC gnd!=BULK }}
+    {INST M155=n105 {TYPE MOS} {COORD x=11.671 y=20.120 }{PROP n="n105" Length=0.03 Width=0.42 Mult=1 }
+	{PIN N182=DRN N183=GATE gnd!=SRC gnd!=BULK }}
+    {INST Parallel#303=p105 {TYPE MOS} {PROP Length=0.03 Width=1.215 }
+	{PIN N333=DRN N170=GATE vdd!=SRC vdd!=BULK }}
+    {INST M801=p105 {TYPE MOS} {COORD x=11.975 y=8.756 }{PROP n="p105" Length=0.03 Width=0.504 Mult=1 }
+	{PIN N292=DRN N79=GATE N78=SRC vdd!=BULK }}
+    {INST M241=n105 {TYPE MOS} {COORD x=6.493 y=17.734 }{PROP n="n105" Length=0.03 Width=0.42 Mult=1 }
+	{PIN N321=DRN N163=GATE N165=SRC gnd!=BULK }}
+    {INST M697=p105 {TYPE MOS} {COORD x=16.896 y=19.296 }{PROP n="p105" Length=0.03 Width=0.504 Mult=1 }
+	{PIN N431=DRN N224=GATE vdd!=SRC vdd!=BULK }}
+    {INST Parallel#289=p105 {TYPE MOS} {PROP Length=0.03 Width=1.215 }
+	{PIN N352=DRN N235=GATE vdd!=SRC vdd!=BULK }}
+    {INST Parallel#339=p105 {TYPE MOS} {PROP Length=0.03 Width=0.784 }
+	{PIN N378=DRN N65=GATE N71=SRC vdd!=BULK }}
+    {INST Parallel#329=p105 {TYPE MOS} {PROP Length=0.03 Width=0.754 }
+	{PIN N336=DRN N182=GATE vdd!=SRC vdd!=BULK }}
+    {INST Parallel#325=p105 {TYPE MOS} {PROP Length=0.03 Width=1.174 }
+	{PIN N390=DRN N155=GATE vdd!=SRC vdd!=BULK }}
+    {INST M718=p105 {TYPE MOS} {COORD x=16.136 y=19.170 }{PROP n="p105" Length=0.03 Width=0.252 Mult=1 }
+	{PIN N407=DRN N213=GATE vdd!=SRC vdd!=BULK }}
+    {INST M239=n105 {TYPE MOS} {COORD x=6.645 y=17.734 }{PROP n="n105" Length=0.03 Width=0.42 Mult=1 }
+	{PIN N366=DRN N156=GATE N165=SRC gnd!=BULK }}
+    {INST M1166=p105 {TYPE MOS} {COORD x=6.645 y=6.327 }{PROP n="p105" Length=0.03 Width=0.504 Mult=1 }
+	{PIN N423=DRN N56=GATE N65=SRC vdd!=BULK }}
+    {INST Parallel#168=n105 {TYPE MOS} {PROP Length=0.03 Width=0.94 }
+	{PIN N87=DRN N84=GATE gnd!=SRC gnd!=BULK }}
+    {INST Parallel#288=p105 {TYPE MOS} {PROP Length=0.03 Width=0.252 }
+	{PIN vdd!=DRN N39=GATE N51=SRC vdd!=BULK }}
+    {INST M49=n105 {TYPE MOS} {COORD x=17.200 y=20.775 }{PROP n="n105" Length=0.03 Width=0.42 Mult=1 }
+	{PIN N223=DRN N229=GATE gnd!=SRC gnd!=BULK }}
+    {INST Parallel#307=n105 {TYPE MOS} {PROP Length=0.03 Width=0.654 }
+	{PIN N324=DRN N165=GATE N170=SRC gnd!=BULK }}
+    {INST Parallel#37=p105 {TYPE MOS} {PROP Length=0.03 Width=0.252 }
+	{PIN vdd!=DRN N135=GATE N150=SRC vdd!=BULK }}
+    {INST M497=n105 {TYPE MOS} {COORD x=6.493 y=5.569 }{PROP n="n105" Length=0.03 Width=0.42 Mult=1 }
+	{PIN N267=DRN N64=GATE N65=SRC gnd!=BULK }}
+    {INST M90=n105 {TYPE MOS} {COORD x=16.136 y=20.159 }{PROP n="n105" Length=0.03 Width=0.21 Mult=1 }
+	{PIN N340=DRN N213=GATE gnd!=SRC gnd!=BULK }}
+    {INST Parallel#73=n105 {TYPE MOS} {PROP Length=0.03 Width=0.84 }
+	{PIN N265=DRN N39=GATE N51=SRC gnd!=BULK }}
+    {INST Parallel#142=n105 {TYPE MOS} {PROP Length=0.03 Width=0.628 }
+	{PIN N292=DRN N77=GATE gnd!=SRC gnd!=BULK }}
+    {INST M864=p105 {TYPE MOS} {COORD x=7.709 y=18.478 }{PROP n="p105" Length=0.03 Width=0.522 Mult=1 }
+	{PIN N400=DRN N163=GATE vdd!=SRC vdd!=BULK }}
+    {INST Parallel#124=p105 {TYPE MOS} {PROP Length=0.03 Width=0.252 }
+	{PIN vdd!=DRN W1=GATE N145=SRC vdd!=BULK }}
+    {INST M865=p105 {TYPE MOS} {COORD x=7.557 y=18.478 }{PROP n="p105" Length=0.03 Width=0.522 Mult=1 }
+	{PIN N400=DRN N157=GATE vdd!=SRC vdd!=BULK }}
+    {INST M422=n105 {TYPE MOS} {COORD x=11.671 y=7.998 }{PROP n="n105" Length=0.03 Width=0.42 Mult=1 }
+	{PIN N77=DRN N78=GATE gnd!=SRC gnd!=BULK }}
+    {INST Parallel#126=n105 {TYPE MOS} {PROP Length=0.03 Width=1.404 }
+	{PIN gnd!=DRN N40=GATE N39=SRC gnd!=BULK }}
+    {INST Parallel#29=p105 {TYPE MOS} {PROP Length=0.03 Width=1.174 }
+	{PIN N382=DRN N64=GATE N71=SRC vdd!=BULK }}
+    {INST M694=p105 {TYPE MOS} {COORD x=16.592 y=21.533 }{PROP n="p105" Length=0.03 Width=0.504 Mult=1 }
+	{PIN N418=DRN gnd!=GATE N229=SRC vdd!=BULK }}
+    {INST Parallel#163=p105 {TYPE MOS} {PROP Length=0.03 Width=0.252 }
+	{PIN vdd!=DRN N127=GATE N145=SRC vdd!=BULK }}
+    {INST Parallel#176=p105 {TYPE MOS} {PROP Length=0.03 Width=1.215 }
+	{PIN N275=DRN N71=GATE vdd!=SRC vdd!=BULK }}
+    {INST Parallel#162=n105 {TYPE MOS} {PROP Length=0.03 Width=0.978 }
+	{PIN N273=DRN N64=GATE N71=SRC gnd!=BULK }}
+    {INST M1176=p105 {TYPE MOS} {COORD x=6.189 y=6.453 }{PROP n="p105" Length=0.03 Width=0.252 Mult=1 }
+	{PIN N376=DRN N57=GATE vdd!=SRC vdd!=BULK }}
+    {INST M1177=p105 {TYPE MOS} {COORD x=6.037 y=6.453 }{PROP n="p105" Length=0.03 Width=0.252 Mult=1 }
+	{PIN N376=DRN N56=GATE vdd!=SRC vdd!=BULK }}
+    {INST M805=p105 {TYPE MOS} {COORD x=11.063 y=21.682 }{PROP n="p105" Length=0.03 Width=0.504 Mult=1 }
+	{PIN vdd!=DRN CLK=GATE N190=SRC vdd!=BULK }}
+    {INST Parallel#246=n105 {TYPE MOS} {PROP Length=0.03 Width=1.014 }
+	{PIN N275=DRN N71=GATE gnd!=SRC gnd!=BULK }}
+    {INST M240=n105 {TYPE MOS} {COORD x=6.797 y=17.734 }{PROP n="n105" Length=0.03 Width=0.42 Mult=1 }
+	{PIN N366=DRN N157=GATE gnd!=SRC gnd!=BULK }}
+    {INST M236=n105 {TYPE MOS} {COORD x=7.405 y=17.633 }{PROP n="n105" Length=0.03 Width=0.218 Mult=1 }
+	{PIN N324=DRN N156=GATE gnd!=SRC gnd!=BULK }}
+    {INST Parallel#217=p105 {TYPE MOS} {PROP Length=0.03 Width=1.174 }
+	{PIN N413=DRN N224=GATE vdd!=SRC vdd!=BULK }}
+    {INST M167=n105 {TYPE MOS} {COORD x=11.063 y=22.440 }{PROP n="n105" Length=0.03 Width=0.42 Mult=1 }
+	{PIN N190=DRN CLK=GATE gnd!=SRC gnd!=BULK }}
+    {INST M786=p105 {TYPE MOS} {COORD x=11.975 y=21.682 }{PROP n="p105" Length=0.03 Width=0.504 Mult=1 }
+	{PIN N358=DRN N190=GATE N189=SRC vdd!=BULK }}
+    {INST M1151=p105 {TYPE MOS} {COORD x=7.709 y=6.313 }{PROP n="p105" Length=0.03 Width=0.522 Mult=1 }
+	{PIN N378=DRN N64=GATE vdd!=SRC vdd!=BULK }}
+    {INST M1167=p105 {TYPE MOS} {COORD x=6.797 y=6.327 }{PROP n="p105" Length=0.03 Width=0.504 Mult=1 }
+	{PIN N423=DRN N57=GATE vdd!=SRC vdd!=BULK }}
+    {INST M250=n105 {TYPE MOS} {COORD x=6.037 y=17.629 }{PROP n="n105" Length=0.03 Width=0.21 Mult=1 }
+	{PIN N321=DRN N156=GATE gnd!=SRC gnd!=BULK }}
+    {INST M148=n105 {TYPE MOS} {COORD x=11.367 y=22.440 }{PROP n="n105" Length=0.03 Width=0.42 Mult=1 }
+	{PIN N335=DRN N190=GATE N189=SRC gnd!=BULK }}
+    {INST Parallel#134=n105 {TYPE MOS} {PROP Length=0.03 Width=0.84 }
+	{PIN N265=DRN W2=GATE gnd!=SRC gnd!=BULK }}
+    {INST Parallel#237=p105 {TYPE MOS} {PROP Length=0.03 Width=1.174 }
+	{PIN N404=DRN N156=GATE N402=SRC vdd!=BULK }}
+    {INST Parallel#278=n105 {TYPE MOS} {PROP Length=0.03 Width=0.84 }
+	{PIN N257=DRN N31=GATE N46=SRC gnd!=BULK }}
+    {INST M123=n105 {TYPE MOS} {COORD x=13.495 y=10.318 }{PROP n="n105" Length=0.03 Width=0.42 Mult=1 }
+	{PIN N224=DRN N175=GATE N194=SRC gnd!=BULK }}
+    {INST Parallel#293=p105 {TYPE MOS} {PROP Length=0.03 Width=1.174 }
+	{PIN N404=DRN N163=GATE N170=SRC vdd!=BULK }}
+    {INST M905=p105 {TYPE MOS} {COORD x=6.189 y=18.618 }{PROP n="p105" Length=0.03 Width=0.252 Mult=1 }
+	{PIN N398=DRN N157=GATE vdd!=SRC vdd!=BULK }}
+    {INST M756=p105 {TYPE MOS} {COORD x=12.735 y=21.682 }{PROP n="p105" Length=0.03 Width=0.504 Mult=1 }
+	{PIN N358=DRN N190=GATE N199=SRC vdd!=BULK }}
+    {INST Parallel#99=n105 {TYPE MOS} {PROP Length=0.03 Width=0.84 }
+	{PIN N319=DRN W0=GATE gnd!=SRC gnd!=BULK }}
+    {INST Parallel#10=n105 {TYPE MOS} {PROP Length=0.03 Width=0.978 }
+	{PIN N330=DRN N163=GATE N170=SRC gnd!=BULK }}
+    {INST M889=p105 {TYPE MOS} {COORD x=6.797 y=18.492 }{PROP n="p105" Length=0.03 Width=0.504 Mult=1 }
+	{PIN N428=DRN N157=GATE vdd!=SRC vdd!=BULK }}
+    {INST M475=n105 {TYPE MOS} {COORD x=7.557 y=5.468 }{PROP n="n105" Length=0.03 Width=0.218 Mult=1 }
+	{PIN N269=DRN N57=GATE gnd!=SRC gnd!=BULK }}
+    {INST Parallel#200=n105 {TYPE MOS} {PROP Length=0.03 Width=0.978 }
+	{PIN N330=DRN N156=GATE N327=SRC gnd!=BULK }}
+    {INST M493=n105 {TYPE MOS} {COORD x=7.405 y=5.468 }{PROP n="n105" Length=0.03 Width=0.218 Mult=1 }
+	{PIN N269=DRN N56=GATE gnd!=SRC gnd!=BULK }}
+    {INST M506=n105 {TYPE MOS} {COORD x=6.189 y=5.464 }{PROP n="n105" Length=0.03 Width=0.21 Mult=1 }
+	{PIN N267=DRN N57=GATE gnd!=SRC gnd!=BULK }}
+    {INST M507=n105 {TYPE MOS} {COORD x=6.037 y=5.464 }{PROP n="n105" Length=0.03 Width=0.21 Mult=1 }
+	{PIN N267=DRN N56=GATE gnd!=SRC gnd!=BULK }}
+    {INST M887=p105 {TYPE MOS} {COORD x=7.405 y=18.478 }{PROP n="p105" Length=0.03 Width=0.522 Mult=1 }
+	{PIN N400=DRN N156=GATE vdd!=SRC vdd!=BULK }}
+    {INST M920=p105 {TYPE MOS} {COORD x=4.256 y=20.163 }{PROP n="p105" Length=0.03 Width=0.504 Mult=1 }
+	{PIN vdd!=DRN N151=GATE N156=SRC vdd!=BULK }}
+    {INST Parallel#70=p105 {TYPE MOS} {PROP Length=0.03 Width=0.252 }
+	{PIN vdd!=DRN W3=GATE N46=SRC vdd!=BULK }}
+    {INST M881=p105 {TYPE MOS} {COORD x=7.101 y=19.296 }{PROP n="p105" Length=0.03 Width=0.504 Mult=1 }
+	{PIN vdd!=DRN N168=GATE N163=SRC vdd!=BULK }}
+    {INST Parallel#215=p105 {TYPE MOS} {PROP Length=0.03 Width=1.674 }
+	{PIN vdd!=DRN N201=GATE N224=SRC vdd!=BULK }}
+    {INST M952=p105 {TYPE MOS} {COORD x=4.256 y=8.003 }{PROP n="p105" Length=0.03 Width=0.504 Mult=1 }
+	{PIN vdd!=DRN N52=GATE N56=SRC vdd!=BULK }}
+    {INST M1159=p105 {TYPE MOS} {COORD x=7.101 y=7.131 }{PROP n="p105" Length=0.03 Width=0.504 Mult=1 }
+	{PIN vdd!=DRN N67=GATE N64=SRC vdd!=BULK }}
+    {INST M496=n105 {TYPE MOS} {COORD x=6.797 y=5.569 }{PROP n="n105" Length=0.03 Width=0.42 Mult=1 }
+	{PIN N361=DRN N57=GATE gnd!=SRC gnd!=BULK }}
+    {INST Parallel#13=p105 {TYPE MOS} {PROP Length=0.03 Width=0.252 }
+	{PIN vdd!=DRN N31=GATE N46=SRC vdd!=BULK }}
+    {INST M261=n105 {TYPE MOS} {COORD x=4.256 y=20.920 }{PROP n="n105" Length=0.03 Width=0.42 Mult=1 }
+	{PIN N156=DRN N151=GATE gnd!=SRC gnd!=BULK }}
+    {INST M304=n105 {TYPE MOS} {COORD x=2.584 y=18.600 }{PROP n="n105" Length=0.03 Width=0.42 Mult=1 }
+	{PIN N135=DRN N94=GATE N121=SRC gnd!=BULK }}
+    {INST M225=n105 {TYPE MOS} {COORD x=7.101 y=20.054 }{PROP n="n105" Length=0.03 Width=0.42 Mult=1 }
+	{PIN N163=DRN N168=GATE gnd!=SRC gnd!=BULK }}
+    {INST Parallel#213=n105 {TYPE MOS} {PROP Length=0.03 Width=1.404 }
+	{PIN N224=DRN N201=GATE gnd!=SRC gnd!=BULK }}
+    {INST M514=n105 {TYPE MOS} {COORD x=4.256 y=8.760 }{PROP n="n105" Length=0.03 Width=0.42 Mult=1 }
+	{PIN gnd!=DRN N52=GATE N56=SRC gnd!=BULK }}
+    {INST M487=n105 {TYPE MOS} {COORD x=7.101 y=7.889 }{PROP n="n105" Length=0.03 Width=0.42 Mult=1 }
+	{PIN gnd!=DRN N67=GATE N64=SRC gnd!=BULK }}
+    {INST M217=n105 {TYPE MOS} {COORD x=7.709 y=17.633 }{PROP n="n105" Length=0.03 Width=0.218 Mult=1 }
+	{PIN N324=DRN N163=GATE gnd!=SRC gnd!=BULK }}
+    {INST M218=n105 {TYPE MOS} {COORD x=7.557 y=17.633 }{PROP n="n105" Length=0.03 Width=0.218 Mult=1 }
+	{PIN N324=DRN N157=GATE gnd!=SRC gnd!=BULK }}
+    {INST M74=n105 {TYPE MOS} {COORD x=16.592 y=20.775 }{PROP n="n105" Length=0.03 Width=0.42 Mult=1 }
+	{PIN N339=DRN gnd!=GATE N229=SRC gnd!=BULK }}
+    {INST Parallel#47=n105 {TYPE MOS} {PROP Length=0.03 Width=0.654 }
+	{PIN N342=DRN N229=GATE N234=SRC gnd!=BULK }}
+    {INST M1152=p105 {TYPE MOS} {COORD x=7.557 y=6.313 }{PROP n="p105" Length=0.03 Width=0.522 Mult=1 }
+	{PIN N378=DRN N57=GATE vdd!=SRC vdd!=BULK }}
+    {INST M1165=p105 {TYPE MOS} {COORD x=7.405 y=6.313 }{PROP n="p105" Length=0.03 Width=0.522 Mult=1 }
+	{PIN N378=DRN N56=GATE vdd!=SRC vdd!=BULK }}
+    {INST Parallel#322=p105 {TYPE MOS} {PROP Length=0.03 Width=1.674 }
+	{PIN vdd!=DRN N136=GATE N135=SRC vdd!=BULK }}
+    {INST M548=n105 {TYPE MOS} {COORD x=2.584 y=6.440 }{PROP n="n105" Length=0.03 Width=0.42 Mult=1 }
+	{PIN N39=DRN N7=GATE N28=SRC gnd!=BULK }}
+    {INST M249=n105 {TYPE MOS} {COORD x=6.189 y=17.629 }{PROP n="n105" Length=0.03 Width=0.21 Mult=1 }
+	{PIN N321=DRN N157=GATE gnd!=SRC gnd!=BULK }}
+    {INST Parallel#20=p105 {TYPE MOS} {PROP Length=0.03 Width=1.128 }
+	{PIN vdd!=DRN N199=GATE N206=SRC vdd!=BULK }}
+    {INST Parallel#181=n105 {TYPE MOS} {PROP Length=0.03 Width=0.84 }
+	{PIN N297=DRN N127=GATE N145=SRC gnd!=BULK }}
+    {INST Parallel#93=p105 {TYPE MOS} {PROP Length=0.03 Width=1.174 }
+	{PIN N382=DRN N56=GATE N380=SRC vdd!=BULK }}
+    {INST Parallel#119=n105 {TYPE MOS} {PROP Length=0.03 Width=1.404 }
+	{PIN N135=DRN N136=GATE gnd!=SRC gnd!=BULK }}
+    {INST M906=p105 {TYPE MOS} {COORD x=6.037 y=18.618 }{PROP n="p105" Length=0.03 Width=0.252 Mult=1 }
+	{PIN N398=DRN N156=GATE vdd!=SRC vdd!=BULK }}
+    {INST Parallel#95=n105 {TYPE MOS} {PROP Length=0.03 Width=0.978 }
+	{PIN N349=DRN N224=GATE gnd!=SRC gnd!=BULK }}
+    {INST M695=p105 {TYPE MOS} {COORD x=16.744 y=21.533 }{PROP n="p105" Length=0.03 Width=0.504 Mult=1 }
+	{PIN N433=DRN N212=GATE N229=SRC vdd!=BULK }}
+    {INST Parallel#239=n105 {TYPE MOS} {PROP Length=0.03 Width=0.94 }
+	{PIN N206=DRN N199=GATE gnd!=SRC gnd!=BULK }}
+    {INST Parallel#283=p105 {TYPE MOS} {PROP Length=0.03 Width=0.754 }
+	{PIN N292=DRN N77=GATE vdd!=SRC vdd!=BULK }}
+    {INST Parallel#46=p105 {TYPE MOS} {PROP Length=0.03 Width=0.784 }
+	{PIN N419=DRN N229=GATE N234=SRC vdd!=BULK }}
+    {INST M75=n105 {TYPE MOS} {COORD x=16.744 y=20.775 }{PROP n="n105" Length=0.03 Width=0.42 Mult=1 }
+	{PIN N370=DRN N212=GATE N229=SRC gnd!=BULK }}
+    {INST M800=p105 {TYPE MOS} {COORD x=11.671 y=8.756 }{PROP n="p105" Length=0.03 Width=0.504 Mult=1 }
+	{PIN vdd!=DRN N78=GATE N77=SRC vdd!=BULK }}
+    {INST Parallel#145=p105 {TYPE MOS} {PROP Length=0.03 Width=1.674 }
+	{PIN vdd!=DRN N40=GATE N39=SRC vdd!=BULK }}
+    {INST M474=n105 {TYPE MOS} {COORD x=7.709 y=5.468 }{PROP n="n105" Length=0.03 Width=0.218 Mult=1 }
+	{PIN N269=DRN N64=GATE gnd!=SRC gnd!=BULK }}
+    {INST Parallel#269=n105 {TYPE MOS} {PROP Length=0.03 Width=0.978 }
+	{PIN N273=DRN N56=GATE N271=SRC gnd!=BULK }}
+    {INST Parallel#203=n105 {TYPE MOS} {PROP Length=0.03 Width=1.404 }
+	{PIN gnd!=DRN N32=GATE N31=SRC gnd!=BULK }}
+    {INST Parallel#230=p105 {TYPE MOS} {PROP Length=0.03 Width=1.674 }
+	{PIN vdd!=DRN N207=GATE N212=SRC vdd!=BULK }}
+    {INST M163=n105 {TYPE MOS} {COORD x=11.367 y=10.318 }{PROP n="n105" Length=0.03 Width=0.42 Mult=1 }
+	{PIN N290=DRN N175=GATE N174=SRC gnd!=BULK }}
+    {INST M1097=p105 {TYPE MOS} {COORD x=0.152 y=7.198 }{PROP n="p105" Length=0.03 Width=0.504 Mult=1 }
+	{PIN vdd!=DRN CLK=GATE N7=SRC vdd!=BULK }}
+    {INST M1188=p105 {TYPE MOS} {COORD x=4.256 y=1.923 }{PROP n="p105" Length=0.03 Width=0.504 Mult=1 }
+	{PIN vdd!=DRN N47=GATE N57=SRC vdd!=BULK }}
+    {INST Parallel#8=n105 {TYPE MOS} {PROP Length=0.03 Width=0.654 }
+	{PIN N284=DRN N67=GATE N72=SRC gnd!=BULK }}
+    {INST M717=p105 {TYPE MOS} {COORD x=16.136 y=21.659 }{PROP n="p105" Length=0.03 Width=0.252 Mult=1 }
+	{PIN N418=DRN N212=GATE vdd!=SRC vdd!=BULK }}
+    {INST Parallel#76=p105 {TYPE MOS} {PROP Length=0.03 Width=1.128 }
+	{PIN vdd!=DRN N28=GATE N40=SRC vdd!=BULK }}
+    {INST M99=n105 {TYPE MOS} {COORD x=13.495 y=23.160 }{PROP n="n105" Length=0.03 Width=0.42 Mult=1 }
+	{PIN N212=DRN N193=GATE N200=SRC gnd!=BULK }}
+    {INST Parallel#310=n105 {TYPE MOS} {PROP Length=0.03 Width=1.404 }
+	{PIN N127=DRN N128=GATE gnd!=SRC gnd!=BULK }}
+    {INST Parallel#112=n105 {TYPE MOS} {PROP Length=0.03 Width=0.84 }
+	{PIN N257=DRN W3=GATE gnd!=SRC gnd!=BULK }}
+    {INST M229=n105 {TYPE MOS} {COORD x=6.645 y=20.054 }{PROP n="n105" Length=0.03 Width=0.42 Mult=1 }
+	{PIN N368=DRN N160=GATE N168=SRC gnd!=BULK }}
+    {INST M1089=p105 {TYPE MOS} {COORD x=0.152 y=19.358 }{PROP n="p105" Length=0.03 Width=0.504 Mult=1 }
+	{PIN vdd!=DRN CLK=GATE N94=SRC vdd!=BULK }}
+    {INST Parallel#131=p105 {TYPE MOS} {PROP Length=0.03 Width=0.252 }
+	{PIN vdd!=DRN N41=GATE N52=SRC vdd!=BULK }}
+    {INST M1037=p105 {TYPE MOS} {COORD x=1.824 y=7.198 }{PROP n="p105" Length=0.03 Width=0.504 Mult=1 }
+	{PIN N263=DRN N7=GATE N28=SRC vdd!=BULK }}
+    {INST Parallel#137=n105 {TYPE MOS} {PROP Length=0.03 Width=0.978 }
+	{PIN N327=DRN N157=GATE gnd!=SRC gnd!=BULK }}
+    {INST M491=n105 {TYPE MOS} {COORD x=6.493 y=7.889 }{PROP n="n105" Length=0.03 Width=0.42 Mult=1 }
+	{PIN N282=DRN N66=GATE N67=SRC gnd!=BULK }}
+    {INST M668=p105 {TYPE MOS} {COORD x=17.808 y=21.519 }{PROP n="p105" Length=0.03 Width=0.522 Mult=1 }
+	{PIN N419=DRN gnd!=GATE vdd!=SRC vdd!=BULK }}
+    {INST M385=n105 {TYPE MOS} {COORD x=0.456 y=18.600 }{PROP n="n105" Length=0.03 Width=0.42 Mult=1 }
+	{PIN X0<3>=DRN N94=GATE N109=SRC gnd!=BULK }}
+    {INST Parallel#268=n105 {TYPE MOS} {PROP Length=0.03 Width=0.84 }
+	{PIN N297=DRN W1=GATE gnd!=SRC gnd!=BULK }}
+    {INST M51=n105 {TYPE MOS} {COORD x=17.656 y=20.674 }{PROP n="n105" Length=0.03 Width=0.218 Mult=1 }
+	{PIN N342=DRN N222=GATE gnd!=SRC gnd!=BULK }}
+    {INST Parallel#114=p105 {TYPE MOS} {PROP Length=0.03 Width=0.754 }
+	{PIN N358=DRN N188=GATE vdd!=SRC vdd!=BULK }}
+    {INST Parallel#157=n105 {TYPE MOS} {PROP Length=0.03 Width=0.84 }
+	{PIN N280=DRN N41=GATE N52=SRC gnd!=BULK }}
+    {INST Parallel#254=p105 {TYPE MOS} {PROP Length=0.03 Width=0.784 }
+	{PIN N379=DRN N67=GATE N72=SRC vdd!=BULK }}
+    {INST M1163=p105 {TYPE MOS} {COORD x=6.493 y=7.131 }{PROP n="p105" Length=0.03 Width=0.504 Mult=1 }
+	{PIN N377=DRN N66=GATE N67=SRC vdd!=BULK }}
+    {INST Parallel#171=n105 {TYPE MOS} {PROP Length=0.03 Width=0.94 }
+	{PIN N201=DRN N194=GATE gnd!=SRC gnd!=BULK }}
+    {INST Parallel#36=p105 {TYPE MOS} {PROP Length=0.03 Width=0.252 }
+	{PIN vdd!=DRN W2=GATE N52=SRC vdd!=BULK }}
+    {INST M72=n105 {TYPE MOS} {COORD x=16.288 y=20.670 }{PROP n="n105" Length=0.03 Width=0.21 Mult=1 }
+	{PIN N339=DRN N222=GATE gnd!=SRC gnd!=BULK }}
+    {INST M809=p105 {TYPE MOS} {COORD x=11.063 y=9.560 }{PROP n="p105" Length=0.03 Width=0.504 Mult=1 }
+	{PIN vdd!=DRN CLK=GATE N175=SRC vdd!=BULK }}
+    {INST Parallel#130=p105 {TYPE MOS} {PROP Length=0.03 Width=1.174 }
+	{PIN N420=DRN gnd!=GATE N234=SRC vdd!=BULK }}
+    {INST Parallel#158=n105 {TYPE MOS} {PROP Length=0.03 Width=0.94 }
+	{PIN N136=DRN N121=GATE gnd!=SRC gnd!=BULK }}
+    {INST Parallel#222=p105 {TYPE MOS} {PROP Length=0.03 Width=1.215 }
+	{PIN N351=DRN N234=GATE vdd!=SRC vdd!=BULK }}
+    {INST Parallel#245=n105 {TYPE MOS} {PROP Length=0.03 Width=1.014 }
+	{PIN N335=DRN N172=GATE gnd!=SRC gnd!=BULK }}
+    {INST Parallel#100=n105 {TYPE MOS} {PROP Length=0.03 Width=0.978 }
+	{PIN N271=DRN N57=GATE gnd!=SRC gnd!=BULK }}
+    {INST Parallel#332=n105 {TYPE MOS} {PROP Length=0.03 Width=1.404 }
+	{PIN N212=DRN N207=GATE gnd!=SRC gnd!=BULK }}
+    {INST M772=p105 {TYPE MOS} {COORD x=12.735 y=9.560 }{PROP n="p105" Length=0.03 Width=0.504 Mult=1 }
+	{PIN N293=DRN N175=GATE N194=SRC vdd!=BULK }}
+    {INST Parallel#102=p105 {TYPE MOS} {PROP Length=0.03 Width=0.252 }
+	{PIN vdd!=DRN W0=GATE N151=SRC vdd!=BULK }}
+    {INST M231=n105 {TYPE MOS} {COORD x=6.493 y=20.054 }{PROP n="n105" Length=0.03 Width=0.42 Mult=1 }
+	{PIN N323=DRN N166=GATE N168=SRC gnd!=BULK }}
+    {INST M73=n105 {TYPE MOS} {COORD x=16.896 y=20.775 }{PROP n="n105" Length=0.03 Width=0.42 Mult=1 }
+	{PIN N370=DRN N222=GATE gnd!=SRC gnd!=BULK }}
+    {INST M613=n105 {TYPE MOS} {COORD x=0.152 y=6.440 }{PROP n="n105" Length=0.03 Width=0.42 Mult=1 }
+	{PIN gnd!=DRN CLK=GATE N7=SRC gnd!=BULK }}
+    {INST M530=n105 {TYPE MOS} {COORD x=4.256 y=2.680 }{PROP n="n105" Length=0.03 Width=0.42 Mult=1 }
+	{PIN gnd!=DRN N47=GATE N57=SRC gnd!=BULK }}
+    {INST M1161=p105 {TYPE MOS} {COORD x=6.645 y=7.131 }{PROP n="p105" Length=0.03 Width=0.504 Mult=1 }
+	{PIN N424=DRN N58=GATE N67=SRC vdd!=BULK }}
+    {INST M785=p105 {TYPE MOS} {COORD x=11.671 y=21.682 }{PROP n="p105" Length=0.03 Width=0.504 Mult=1 }
+	{PIN vdd!=DRN N189=GATE N188=SRC vdd!=BULK }}
+    {INST Parallel#270=n105 {TYPE MOS} {PROP Length=0.03 Width=0.94 }
+	{PIN gnd!=DRN N28=GATE N40=SRC gnd!=BULK }}
+    {INST M885=p105 {TYPE MOS} {COORD x=6.493 y=19.296 }{PROP n="p105" Length=0.03 Width=0.504 Mult=1 }
+	{PIN N399=DRN N166=GATE N168=SRC vdd!=BULK }}
+    {INST Parallel#58=p105 {TYPE MOS} {PROP Length=0.03 Width=1.174 }
+	{PIN N421=DRN N212=GATE N420=SRC vdd!=BULK }}
+    {INST Parallel#144=p105 {TYPE MOS} {PROP Length=0.03 Width=0.252 }
+	{PIN vdd!=DRN N137=GATE N151=SRC vdd!=BULK }}
+    {INST M936=p105 {TYPE MOS} {COORD x=4.256 y=14.083 }{PROP n="p105" Length=0.03 Width=0.504 Mult=1 }
+	{PIN vdd!=DRN N146=GATE N157=SRC vdd!=BULK }}
+    {INST Parallel#136=n105 {TYPE MOS} {PROP Length=0.03 Width=0.654 }
+	{PIN N326=DRN N168=GATE N172=SRC gnd!=BULK }}
+    {INST Parallel#274=p105 {TYPE MOS} {PROP Length=0.03 Width=1.674 }
+	{PIN vdd!=DRN N32=GATE N31=SRC vdd!=BULK }}
+    {INST M612=n105 {TYPE MOS} {COORD x=0.456 y=6.440 }{PROP n="n105" Length=0.03 Width=0.42 Mult=1 }
+	{PIN X2<3>=DRN N7=GATE N19=SRC gnd!=BULK }}
+    {INST M1051=p105 {TYPE MOS} {COORD x=1.064 y=19.358 }{PROP n="p105" Length=0.03 Width=0.504 Mult=1 }
+	{PIN N317=DRN N94=GATE N109=SRC vdd!=BULK }}
+    {INST M1017=p105 {TYPE MOS} {COORD x=1.824 y=19.358 }{PROP n="p105" Length=0.03 Width=0.504 Mult=1 }
+	{PIN N317=DRN N94=GATE N121=SRC vdd!=BULK }}
+    {INST M50=n105 {TYPE MOS} {COORD x=17.504 y=20.674 }{PROP n="n105" Length=0.03 Width=0.218 Mult=1 }
+	{PIN N342=DRN N212=GATE gnd!=SRC gnd!=BULK }}
+    {INST M386=n105 {TYPE MOS} {COORD x=0.152 y=18.600 }{PROP n="n105" Length=0.03 Width=0.42 Mult=1 }
+	{PIN N94=DRN CLK=GATE gnd!=SRC gnd!=BULK }}
+    {INST Parallel#115=n105 {TYPE MOS} {PROP Length=0.03 Width=0.84 }
+	{PIN N320=DRN N137=GATE N151=SRC gnd!=BULK }}
+    {INST M667=p105 {TYPE MOS} {COORD x=17.656 y=21.519 }{PROP n="p105" Length=0.03 Width=0.522 Mult=1 }
+	{PIN N419=DRN N222=GATE vdd!=SRC vdd!=BULK }}
+    {INST M568=n105 {TYPE MOS} {COORD x=2.584 y=0.360 }{PROP n="n105" Length=0.03 Width=0.42 Mult=1 }
+	{PIN N31=DRN N3=GATE N24=SRC gnd!=BULK }}
+    {INST M91=n105 {TYPE MOS} {COORD x=16.136 y=20.670 }{PROP n="n105" Length=0.03 Width=0.21 Mult=1 }
+	{PIN N339=DRN N212=GATE gnd!=SRC gnd!=BULK }}
+    {INST M883=p105 {TYPE MOS} {COORD x=6.645 y=19.296 }{PROP n="p105" Length=0.03 Width=0.504 Mult=1 }
+	{PIN N429=DRN N160=GATE N168=SRC vdd!=BULK }}
+    {INST Parallel#321=n105 {TYPE MOS} {PROP Length=0.03 Width=0.628 }
+	{PIN N358=DRN N188=GATE gnd!=SRC gnd!=BULK }}
+    {INST Parallel#195=p105 {TYPE MOS} {PROP Length=0.03 Width=1.174 }
+	{PIN N402=DRN N157=GATE vdd!=SRC vdd!=BULK }}
+    {INST M692=p105 {TYPE MOS} {COORD x=16.288 y=21.659 }{PROP n="p105" Length=0.03 Width=0.252 Mult=1 }
+	{PIN N418=DRN N222=GATE vdd!=SRC vdd!=BULK }}
+    {INST Parallel#82=p105 {TYPE MOS} {PROP Length=0.03 Width=1.674 }
+	{PIN vdd!=DRN N128=GATE N127=SRC vdd!=BULK }}
+    {INST M693=p105 {TYPE MOS} {COORD x=16.896 y=21.533 }{PROP n="p105" Length=0.03 Width=0.504 Mult=1 }
+	{PIN N433=DRN N222=GATE vdd!=SRC vdd!=BULK }}
+    {INST Parallel#26=n105 {TYPE MOS} {PROP Length=0.03 Width=0.978 }
+	{PIN N347=DRN N212=GATE N346=SRC gnd!=BULK }}
+    {INST M172=n105 {TYPE MOS} {COORD x=11.063 y=10.318 }{PROP n="n105" Length=0.03 Width=0.42 Mult=1 }
+	{PIN N175=DRN CLK=GATE gnd!=SRC gnd!=BULK }}
+    {INST Parallel#346=n105 {TYPE MOS} {PROP Length=0.03 Width=1.014 }
+	{PIN N351=DRN N234=GATE gnd!=SRC gnd!=BULK }}
+    {INST Parallel#323=p105 {TYPE MOS} {PROP Length=0.03 Width=0.784 }
+	{PIN N401=DRN N168=GATE N172=SRC vdd!=BULK }}
+    {INST M324=n105 {TYPE MOS} {COORD x=2.584 y=12.520 }{PROP n="n105" Length=0.03 Width=0.42 Mult=1 }
+	{PIN N127=DRN N90=GATE N117=SRC gnd!=BULK }}
+    {INST M52=n105 {TYPE MOS} {COORD x=17.808 y=20.674 }{PROP n="n105" Length=0.03 Width=0.218 Mult=1 }
+	{PIN N342=DRN gnd!=GATE gnd!=SRC gnd!=BULK }}
+    {INST Parallel#154=n105 {TYPE MOS} {PROP Length=0.03 Width=0.978 }
+	{PIN N346=DRN gnd!=GATE N234=SRC gnd!=BULK }}
+    {INST M149=n105 {TYPE MOS} {COORD x=11.671 y=22.440 }{PROP n="n105" Length=0.03 Width=0.42 Mult=1 }
+	{PIN N188=DRN N189=GATE gnd!=SRC gnd!=BULK }}
+    {INST Parallel#308=p105 {TYPE MOS} {PROP Length=0.03 Width=1.128 }
+	{PIN vdd!=DRN N194=GATE N201=SRC vdd!=BULK }}
+    {INST M798=p105 {TYPE MOS} {COORD x=11.975 y=9.560 }{PROP n="p105" Length=0.03 Width=0.504 Mult=1 }
+	{PIN N293=DRN N175=GATE N174=SRC vdd!=BULK }}
+    {INST M1083=p105 {TYPE MOS} {COORD x=1.064 y=7.198 }{PROP n="p105" Length=0.03 Width=0.504 Mult=1 }
+	{PIN N263=DRN N7=GATE N19=SRC vdd!=BULK }}
+    {INST Parallel#12=p105 {TYPE MOS} {PROP Length=0.03 Width=1.174 }
+	{PIN N380=DRN N57=GATE vdd!=SRC vdd!=BULK }}
+    {INST Parallel#96=p105 {TYPE MOS} {PROP Length=0.03 Width=1.128 }
+	{PIN vdd!=DRN N121=GATE N136=SRC vdd!=BULK }}
+    {INST Parallel#66=p105 {TYPE MOS} {PROP Length=0.03 Width=1.215 }
+	{PIN N335=DRN N172=GATE vdd!=SRC vdd!=BULK }}
+    {INST M274=n105 {TYPE MOS} {COORD x=4.256 y=14.840 }{PROP n="n105" Length=0.03 Width=0.42 Mult=1 }
+	{PIN N157=DRN N146=GATE gnd!=SRC gnd!=BULK }}
+    {INST M666=p105 {TYPE MOS} {COORD x=17.504 y=21.519 }{PROP n="p105" Length=0.03 Width=0.522 Mult=1 }
+	{PIN N419=DRN N212=GATE vdd!=SRC vdd!=BULK }}
+    {INST M489=n105 {TYPE MOS} {COORD x=6.645 y=7.889 }{PROP n="n105" Length=0.03 Width=0.42 Mult=1 }
+	{PIN N362=DRN N58=GATE N67=SRC gnd!=BULK }}
+    {INST Parallel#343=p105 {TYPE MOS} {PROP Length=0.03 Width=0.754 }
+	{PIN N293=DRN N173=GATE vdd!=SRC vdd!=BULK }}
+    {INST Parallel#211=p105 {TYPE MOS} {PROP Length=0.03 Width=0.754 }
+	{PIN N263=DRN N18=GATE vdd!=SRC vdd!=BULK }}
+    {INST M748=p105 {TYPE MOS} {COORD x=12.735 y=23.918 }{PROP n="p105" Length=0.03 Width=0.504 Mult=1 }
+	{PIN N359=DRN N193=GATE N200=SRC vdd!=BULK }}
+    {INST Parallel#233=n105 {TYPE MOS} {PROP Length=0.03 Width=0.978 }
+	{PIN N332=DRN N160=GATE N329=SRC gnd!=BULK }}
+    {INST M226=n105 {TYPE MOS} {COORD x=7.405 y=20.155 }{PROP n="n105" Length=0.03 Width=0.218 Mult=1 }
+	{PIN N326=DRN N160=GATE gnd!=SRC gnd!=BULK }}
+    {INST M1148=p105 {TYPE MOS} {COORD x=7.557 y=7.145 }{PROP n="p105" Length=0.03 Width=0.522 Mult=1 }
+	{PIN N379=DRN N59=GATE vdd!=SRC vdd!=BULK }}
+    {INST Parallel#103=p105 {TYPE MOS} {PROP Length=0.03 Width=1.674 }
+	{PIN vdd!=DRN N138=GATE N137=SRC vdd!=BULK }}
+    {INST M505=n105 {TYPE MOS} {COORD x=6.037 y=7.994 }{PROP n="n105" Length=0.03 Width=0.21 Mult=1 }
+	{PIN N282=DRN N58=GATE gnd!=SRC gnd!=BULK }}
+    {INST M246=n105 {TYPE MOS} {COORD x=6.037 y=20.159 }{PROP n="n105" Length=0.03 Width=0.21 Mult=1 }
+	{PIN N323=DRN N160=GATE gnd!=SRC gnd!=BULK }}
+    {INST M797=p105 {TYPE MOS} {COORD x=11.671 y=9.560 }{PROP n="p105" Length=0.03 Width=0.504 Mult=1 }
+	{PIN vdd!=DRN N174=GATE N173=SRC vdd!=BULK }}
+    {INST M1050=p105 {TYPE MOS} {COORD x=0.760 y=19.358 }{PROP n="p105" Length=0.03 Width=0.504 Mult=1 }
+	{PIN vdd!=DRN N109=GATE N108=SRC vdd!=BULK }}
+    {INST M896=p105 {TYPE MOS} {COORD x=7.101 y=9.368 }{PROP n="p105" Length=0.03 Width=0.504 Mult=1 }
+	{PIN vdd!=DRN N69=GATE N66=SRC vdd!=BULK }}
+    {INST Parallel#67=n105 {TYPE MOS} {PROP Length=0.03 Width=1.014 }
+	{PIN N290=DRN N72=GATE gnd!=SRC gnd!=BULK }}
+    {INST M510=n105 {TYPE MOS} {COORD x=4.256 y=9.480 }{PROP n="n105" Length=0.03 Width=0.42 Mult=1 }
+	{PIN gnd!=DRN N53=GATE N58=SRC gnd!=BULK }}
+    {INST M1228=p105 {TYPE MOS} {COORD x=1.824 y=1.118 }{PROP n="p105" Length=0.03 Width=0.504 Mult=1 }
+	{PIN N256=DRN N3=GATE N24=SRC vdd!=BULK }}
+    {INST M299=n105 {TYPE MOS} {COORD x=2.584 y=20.920 }{PROP n="n105" Length=0.03 Width=0.42 Mult=1 }
+	{PIN N137=DRN N95=GATE N122=SRC gnd!=BULK }}
+    {INST M1093=p105 {TYPE MOS} {COORD x=0.152 y=13.278 }{PROP n="p105" Length=0.03 Width=0.504 Mult=1 }
+	{PIN vdd!=DRN CLK=GATE N90=SRC vdd!=BULK }}
+    {INST M227=n105 {TYPE MOS} {COORD x=7.101 y=20.775 }{PROP n="n105" Length=0.03 Width=0.42 Mult=1 }
+	{PIN N166=DRN N167=GATE gnd!=SRC gnd!=BULK }}
+    {INST Parallel#341=p105 {TYPE MOS} {PROP Length=0.03 Width=1.128 }
+	{PIN vdd!=DRN N24=GATE N32=SRC vdd!=BULK }}
+    {INST Parallel#78=n105 {TYPE MOS} {PROP Length=0.03 Width=0.978 }
+	{PIN N332=DRN N166=GATE N172=SRC gnd!=BULK }}
+    {INST M166=n105 {TYPE MOS} {COORD x=11.063 y=23.160 }{PROP n="n105" Length=0.03 Width=0.42 Mult=1 }
+	{PIN N193=DRN CLK=GATE gnd!=SRC gnd!=BULK }}
+    {INST Parallel#248=p105 {TYPE MOS} {PROP Length=0.03 Width=1.128 }
+	{PIN vdd!=DRN N200=GATE N207=SRC vdd!=BULK }}
+    {INST Parallel#212=n105 {TYPE MOS} {PROP Length=0.03 Width=0.84 }
+	{PIN N320=DRN W0=GATE gnd!=SRC gnd!=BULK }}
+    {INST M1162=p105 {TYPE MOS} {COORD x=6.797 y=7.131 }{PROP n="p105" Length=0.03 Width=0.504 Mult=1 }
+	{PIN N424=DRN N59=GATE vdd!=SRC vdd!=BULK }}
+    {INST Parallel#302=p105 {TYPE MOS} {PROP Length=0.03 Width=1.174 }
+	{PIN N383=DRN N58=GATE N381=SRC vdd!=BULK }}
+    {INST M504=n105 {TYPE MOS} {COORD x=6.189 y=7.994 }{PROP n="n105" Length=0.03 Width=0.21 Mult=1 }
+	{PIN N282=DRN N59=GATE gnd!=SRC gnd!=BULK }}
+    {INST M861=p105 {TYPE MOS} {COORD x=7.557 y=19.310 }{PROP n="p105" Length=0.03 Width=0.522 Mult=1 }
+	{PIN N401=DRN N161=GATE vdd!=SRC vdd!=BULK }}
+    {INST Parallel#128=n105 {TYPE MOS} {PROP Length=0.03 Width=0.94 }
+	{PIN N128=DRN N117=GATE gnd!=SRC gnd!=BULK }}
+    {INST M620=n105 {TYPE MOS} {COORD x=0.456 y=0.360 }{PROP n="n105" Length=0.03 Width=0.42 Mult=1 }
+	{PIN X3<3>=DRN N3=GATE N11=SRC gnd!=BULK }}
+    {INST M918=p105 {TYPE MOS} {COORD x=4.256 y=22.397 }{PROP n="p105" Length=0.03 Width=0.504 Mult=1 }
+	{PIN vdd!=DRN N152=GATE N160=SRC vdd!=BULK }}
+    {INST Parallel#206=n105 {TYPE MOS} {PROP Length=0.03 Width=0.84 }
+	{PIN N280=DRN W2=GATE gnd!=SRC gnd!=BULK }}
+    {INST Parallel#57=n105 {TYPE MOS} {PROP Length=0.03 Width=0.628 }
+	{PIN N317=DRN N108=GATE gnd!=SRC gnd!=BULK }}
+    {INST Parallel#276=p105 {TYPE MOS} {PROP Length=0.03 Width=1.674 }
+	{PIN vdd!=DRN N42=GATE N41=SRC vdd!=BULK }}
+    {INST M1082=p105 {TYPE MOS} {COORD x=0.760 y=7.198 }{PROP n="p105" Length=0.03 Width=0.504 Mult=1 }
+	{PIN vdd!=DRN N19=GATE N18=SRC vdd!=BULK }}
+    {INST Parallel#140=n105 {TYPE MOS} {PROP Length=0.03 Width=0.628 }
+	{PIN N293=DRN N173=GATE gnd!=SRC gnd!=BULK }}
+    {INST Parallel#281=n105 {TYPE MOS} {PROP Length=0.03 Width=0.628 }
+	{PIN N263=DRN N18=GATE gnd!=SRC gnd!=BULK }}
+    {INST M393=n105 {TYPE MOS} {COORD x=0.456 y=12.520 }{PROP n="n105" Length=0.03 Width=0.42 Mult=1 }
+	{PIN X1<3>=DRN N90=GATE N101=SRC gnd!=BULK }}
+    {INST Parallel#218=n105 {TYPE MOS} {PROP Length=0.03 Width=0.978 }
+	{PIN N288=DRN N66=GATE N72=SRC gnd!=BULK }}
+    {INST M884=p105 {TYPE MOS} {COORD x=6.797 y=19.296 }{PROP n="p105" Length=0.03 Width=0.504 Mult=1 }
+	{PIN N429=DRN N161=GATE vdd!=SRC vdd!=BULK }}
+    {INST M903=p105 {TYPE MOS} {COORD x=6.189 y=19.170 }{PROP n="p105" Length=0.03 Width=0.252 Mult=1 }
+	{PIN N399=DRN N161=GATE vdd!=SRC vdd!=BULK }}
+    {INST Parallel#42=n105 {TYPE MOS} {PROP Length=0.03 Width=1.404 }
+	{PIN N137=DRN N138=GATE gnd!=SRC gnd!=BULK }}
+    {INST M543=n105 {TYPE MOS} {COORD x=2.584 y=8.760 }{PROP n="n105" Length=0.03 Width=0.42 Mult=1 }
+	{PIN N41=DRN N8=GATE N29=SRC gnd!=BULK }}
+    {INST M860=p105 {TYPE MOS} {COORD x=7.709 y=19.310 }{PROP n="p105" Length=0.03 Width=0.522 Mult=1 }
+	{PIN N401=DRN N166=GATE vdd!=SRC vdd!=BULK }}
+    {INST M1248=p105 {TYPE MOS} {COORD x=0.152 y=1.118 }{PROP n="p105" Length=0.03 Width=0.504 Mult=1 }
+	{PIN vdd!=DRN CLK=GATE N3=SRC vdd!=BULK }}
+    {INST M164=n105 {TYPE MOS} {COORD x=11.671 y=10.318 }{PROP n="n105" Length=0.03 Width=0.42 Mult=1 }
+	{PIN N173=DRN N174=GATE gnd!=SRC gnd!=BULK }}
+    {INST M361=n105 {TYPE MOS} {COORD x=0.760 y=18.600 }{PROP n="n105" Length=0.03 Width=0.42 Mult=1 }
+	{PIN N108=DRN N109=GATE gnd!=SRC gnd!=BULK }}
+    {INST Parallel#273=p105 {TYPE MOS} {PROP Length=0.03 Width=1.674 }
+	{PIN vdd!=DRN N202=GATE N222=SRC vdd!=BULK }}
+    {INST M482=n105 {TYPE MOS} {COORD x=7.101 y=8.610 }{PROP n="n105" Length=0.03 Width=0.42 Mult=1 }
+	{PIN gnd!=DRN N69=GATE N66=SRC gnd!=BULK }}
+    {INST M1175=p105 {TYPE MOS} {COORD x=6.037 y=7.005 }{PROP n="p105" Length=0.03 Width=0.252 Mult=1 }
+	{PIN N377=DRN N58=GATE vdd!=SRC vdd!=BULK }}
+    {INST Parallel#290=n105 {TYPE MOS} {PROP Length=0.03 Width=0.978 }
+	{PIN N288=DRN N58=GATE N286=SRC gnd!=BULK }}
+    {INST M1027=p105 {TYPE MOS} {COORD x=1.824 y=13.278 }{PROP n="p105" Length=0.03 Width=0.504 Mult=1 }
+	{PIN N295=DRN N90=GATE N117=SRC vdd!=BULK }}
+    {INST M882=p105 {TYPE MOS} {COORD x=7.405 y=19.310 }{PROP n="p105" Length=0.03 Width=0.522 Mult=1 }
+	{PIN N401=DRN N160=GATE vdd!=SRC vdd!=BULK }}
+    {INST M394=n105 {TYPE MOS} {COORD x=0.152 y=12.520 }{PROP n="n105" Length=0.03 Width=0.42 Mult=1 }
+	{PIN N90=DRN CLK=GATE gnd!=SRC gnd!=BULK }}
+    {INST Parallel#175=p105 {TYPE MOS} {PROP Length=0.03 Width=0.252 }
+	{PIN vdd!=DRN N33=GATE N47=SRC vdd!=BULK }}
+    {INST M122=n105 {TYPE MOS} {COORD x=13.495 y=11.038 }{PROP n="n105" Length=0.03 Width=0.42 Mult=1 }
+	{PIN N222=DRN N178=GATE N195=SRC gnd!=BULK }}
+    {INST Parallel#1=n105 {TYPE MOS} {PROP Length=0.03 Width=0.94 }
+	{PIN gnd!=DRN N24=GATE N32=SRC gnd!=BULK }}
+    {INST M488=n105 {TYPE MOS} {COORD x=7.405 y=7.990 }{PROP n="n105" Length=0.03 Width=0.218 Mult=1 }
+	{PIN N284=DRN N58=GATE gnd!=SRC gnd!=BULK }}
+    {INST Parallel#324=n105 {TYPE MOS} {PROP Length=0.03 Width=0.94 }
+	{PIN N207=DRN N200=GATE gnd!=SRC gnd!=BULK }}
+    {INST Parallel#242=n105 {TYPE MOS} {PROP Length=0.03 Width=0.84 }
+	{PIN N260=DRN N33=GATE N47=SRC gnd!=BULK }}
+    {INST M1244=p105 {TYPE MOS} {COORD x=1.064 y=1.118 }{PROP n="p105" Length=0.03 Width=0.504 Mult=1 }
+	{PIN N256=DRN N3=GATE N11=SRC vdd!=BULK }}
+    {INST M780=p105 {TYPE MOS} {COORD x=11.975 y=23.918 }{PROP n="p105" Length=0.03 Width=0.504 Mult=1 }
+	{PIN N359=DRN N193=GATE N192=SRC vdd!=BULK }}
+    {INST M904=p105 {TYPE MOS} {COORD x=6.037 y=19.170 }{PROP n="p105" Length=0.03 Width=0.252 Mult=1 }
+	{PIN N399=DRN N160=GATE vdd!=SRC vdd!=BULK }}
+    {INST Parallel#247=n105 {TYPE MOS} {PROP Length=0.03 Width=0.978 }
+	{PIN N347=DRN N222=GATE gnd!=SRC gnd!=BULK }}
+    {INST Parallel#342=p105 {TYPE MOS} {PROP Length=0.03 Width=0.252 }
+	{PIN vdd!=DRN N129=GATE N146=SRC vdd!=BULK }}
+    {INST Parallel#224=p105 {TYPE MOS} {PROP Length=0.03 Width=1.215 }
+	{PIN N290=DRN N72=GATE vdd!=SRC vdd!=BULK }}
+    {INST M947=p105 {TYPE MOS} {COORD x=4.256 y=10.237 }{PROP n="p105" Length=0.03 Width=0.504 Mult=1 }
+	{PIN vdd!=DRN N53=GATE N58=SRC vdd!=BULK }}
+    {INST M470=n105 {TYPE MOS} {COORD x=7.709 y=7.990 }{PROP n="n105" Length=0.03 Width=0.218 Mult=1 }
+	{PIN N284=DRN N66=GATE gnd!=SRC gnd!=BULK }}
+    {INST Parallel#287=p105 {TYPE MOS} {PROP Length=0.03 Width=0.252 }
+	{PIN vdd!=DRN W3=GATE N47=SRC vdd!=BULK }}
+    {INST Parallel#83=p105 {TYPE MOS} {PROP Length=0.03 Width=1.174 }
+	{PIN N405=DRN N166=GATE N172=SRC vdd!=BULK }}
+    {INST M490=n105 {TYPE MOS} {COORD x=6.797 y=7.889 }{PROP n="n105" Length=0.03 Width=0.42 Mult=1 }
+	{PIN N362=DRN N59=GATE gnd!=SRC gnd!=BULK }}
+    {INST M257=n105 {TYPE MOS} {COORD x=4.256 y=21.640 }{PROP n="n105" Length=0.03 Width=0.42 Mult=1 }
+	{PIN N160=DRN N152=GATE gnd!=SRC gnd!=BULK }}
+    {INST M145=n105 {TYPE MOS} {COORD x=11.367 y=23.160 }{PROP n="n105" Length=0.03 Width=0.42 Mult=1 }
+	{PIN N334=DRN N193=GATE N192=SRC gnd!=BULK }}
+    {INST M1067=p105 {TYPE MOS} {COORD x=1.064 y=13.278 }{PROP n="p105" Length=0.03 Width=0.504 Mult=1 }
+	{PIN N295=DRN N90=GATE N101=SRC vdd!=BULK }}
+    {INST M876=p105 {TYPE MOS} {COORD x=7.101 y=21.533 }{PROP n="p105" Length=0.03 Width=0.504 Mult=1 }
+	{PIN vdd!=DRN N167=GATE N166=SRC vdd!=BULK }}
+    {INST M1174=p105 {TYPE MOS} {COORD x=6.189 y=7.005 }{PROP n="p105" Length=0.03 Width=0.252 Mult=1 }
+	{PIN N377=DRN N59=GATE vdd!=SRC vdd!=BULK }}
+    {INST M210=n105 {TYPE MOS} {COORD x=7.557 y=20.155 }{PROP n="n105" Length=0.03 Width=0.218 Mult=1 }
+	{PIN N326=DRN N161=GATE gnd!=SRC gnd!=BULK }}
+    {INST Parallel#220=p105 {TYPE MOS} {PROP Length=0.03 Width=1.174 }
+	{PIN N405=DRN N160=GATE N403=SRC vdd!=BULK }}
+    {INST M1160=p105 {TYPE MOS} {COORD x=7.405 y=7.145 }{PROP n="p105" Length=0.03 Width=0.522 Mult=1 }
+	{PIN N379=DRN N58=GATE vdd!=SRC vdd!=BULK }}
+    {INST Parallel#81=n105 {TYPE MOS} {PROP Length=0.03 Width=1.404 }
+	{PIN gnd!=DRN N42=GATE N41=SRC gnd!=BULK }}
+    {INST Parallel#338=n105 {TYPE MOS} {PROP Length=0.03 Width=0.84 }
+	{PIN N303=DRN N129=GATE N146=SRC gnd!=BULK }}
+    {INST M245=n105 {TYPE MOS} {COORD x=6.189 y=20.159 }{PROP n="n105" Length=0.03 Width=0.21 Mult=1 }
+	{PIN N323=DRN N161=GATE gnd!=SRC gnd!=BULK }}
+    {INST Parallel#22=p105 {TYPE MOS} {PROP Length=0.03 Width=1.174 }
+	{PIN N421=DRN N222=GATE vdd!=SRC vdd!=BULK }}
+    {INST M803=p105 {TYPE MOS} {COORD x=11.063 y=23.918 }{PROP n="p105" Length=0.03 Width=0.504 Mult=1 }
+	{PIN vdd!=DRN CLK=GATE N193=SRC vdd!=BULK }}
+    {INST M593=n105 {TYPE MOS} {COORD x=0.760 y=6.440 }{PROP n="n105" Length=0.03 Width=0.42 Mult=1 }
+	{PIN gnd!=DRN N19=GATE N18=SRC gnd!=BULK }}
+    {INST M1147=p105 {TYPE MOS} {COORD x=7.709 y=7.145 }{PROP n="p105" Length=0.03 Width=0.522 Mult=1 }
+	{PIN N379=DRN N66=GATE vdd!=SRC vdd!=BULK }}
+    {INST M471=n105 {TYPE MOS} {COORD x=7.557 y=7.990 }{PROP n="n105" Length=0.03 Width=0.218 Mult=1 }
+	{PIN N284=DRN N59=GATE gnd!=SRC gnd!=BULK }}
+    {INST M621=n105 {TYPE MOS} {COORD x=0.152 y=0.360 }{PROP n="n105" Length=0.03 Width=0.42 Mult=1 }
+	{PIN gnd!=DRN CLK=GATE N3=SRC gnd!=BULK }}
+    {INST Parallel#231=p105 {TYPE MOS} {PROP Length=0.03 Width=1.128 }
+	{PIN vdd!=DRN N117=GATE N128=SRC vdd!=BULK }}
+    {INST Parallel#2=n105 {TYPE MOS} {PROP Length=0.03 Width=1.404 }
+	{PIN N222=DRN N202=GATE gnd!=SRC gnd!=BULK }}
+    {INST M209=n105 {TYPE MOS} {COORD x=7.709 y=20.155 }{PROP n="n105" Length=0.03 Width=0.218 Mult=1 }
+	{PIN N326=DRN N166=GATE gnd!=SRC gnd!=BULK }}
+    {INST Parallel#105=p105 {TYPE MOS} {PROP Length=0.03 Width=0.252 }
+	{PIN vdd!=DRN W1=GATE N146=SRC vdd!=BULK }}
+    {INST Parallel#179=p105 {TYPE MOS} {PROP Length=0.03 Width=1.174 }
+	{PIN N383=DRN N66=GATE N72=SRC vdd!=BULK }}
+    {INST M230=n105 {TYPE MOS} {COORD x=6.797 y=20.054 }{PROP n="n105" Length=0.03 Width=0.42 Mult=1 }
+	{PIN N368=DRN N161=GATE gnd!=SRC gnd!=BULK }}
+    {INST Parallel#229=p105 {TYPE MOS} {PROP Length=0.03 Width=0.754 }
+	{PIN N317=DRN N108=GATE vdd!=SRC vdd!=BULK }}
+    {INST M486=n105 {TYPE MOS} {COORD x=6.493 y=8.610 }{PROP n="n105" Length=0.03 Width=0.42 Mult=1 }
+	{PIN N283=DRN gnd!=GATE N69=SRC gnd!=BULK }}
+    {INST M373=n105 {TYPE MOS} {COORD x=0.760 y=12.520 }{PROP n="n105" Length=0.03 Width=0.42 Mult=1 }
+	{PIN N100=DRN N101=GATE gnd!=SRC gnd!=BULK }}
+    {INST M779=p105 {TYPE MOS} {COORD x=11.671 y=23.918 }{PROP n="p105" Length=0.03 Width=0.504 Mult=1 }
+	{PIN vdd!=DRN N192=GATE N191=SRC vdd!=BULK }}
+    {INST Parallel#33=n105 {TYPE MOS} {PROP Length=0.03 Width=0.84 }
+	{PIN N356=DRN N139=GATE N152=SRC gnd!=BULK }}
+    {INST Parallel#148=p105 {TYPE MOS} {PROP Length=0.03 Width=1.128 }
+	{PIN vdd!=DRN N195=GATE N202=SRC vdd!=BULK }}
+    {INST Parallel#62=p105 {TYPE MOS} {PROP Length=0.03 Width=0.784 }
+	{PIN N415=DRN N167=GATE N171=SRC vdd!=BULK }}
+    {INST M605=n105 {TYPE MOS} {COORD x=0.760 y=0.360 }{PROP n="n105" Length=0.03 Width=0.42 Mult=1 }
+	{PIN gnd!=DRN N11=GATE N10=SRC gnd!=BULK }}
+    {INST M383=n105 {TYPE MOS} {COORD x=0.456 y=20.920 }{PROP n="n105" Length=0.03 Width=0.42 Mult=1 }
+	{PIN X0<2>=DRN N95=GATE N111=SRC gnd!=BULK }}
+    {INST Parallel#68=p105 {TYPE MOS} {PROP Length=0.03 Width=1.128 }
+	{PIN vdd!=DRN N29=GATE N42=SRC vdd!=BULK }}
+    {INST Parallel#14=n105 {TYPE MOS} {PROP Length=0.03 Width=0.94 }
+	{PIN N138=DRN N122=GATE gnd!=SRC gnd!=BULK }}
+    {INST Parallel#301=p105 {TYPE MOS} {PROP Length=0.03 Width=0.754 }
+	{PIN N359=DRN N191=GATE vdd!=SRC vdd!=BULK }}
+    {INST M146=n105 {TYPE MOS} {COORD x=11.671 y=23.160 }{PROP n="n105" Length=0.03 Width=0.42 Mult=1 }
+	{PIN N191=DRN N192=GATE gnd!=SRC gnd!=BULK }}
+    {INST Parallel#345=p105 {TYPE MOS} {PROP Length=0.03 Width=0.754 }
+	{PIN N295=DRN N100=GATE vdd!=SRC vdd!=BULK }}
+    {INST Parallel#65=p105 {TYPE MOS} {PROP Length=0.03 Width=1.215 }
+	{PIN N334=DRN N171=GATE vdd!=SRC vdd!=BULK }}
+    {INST Parallel#315=n105 {TYPE MOS} {PROP Length=0.03 Width=0.94 }
+	{PIN N202=DRN N195=GATE gnd!=SRC gnd!=BULK }}
+    {INST Parallel#85=n105 {TYPE MOS} {PROP Length=0.03 Width=0.84 }
+	{PIN N281=DRN N43=GATE N53=SRC gnd!=BULK }}
+    {INST Parallel#292=p105 {TYPE MOS} {PROP Length=0.03 Width=0.784 }
+	{PIN N385=DRN N69=GATE N73=SRC vdd!=BULK }}
+    {INST M232=n105 {TYPE MOS} {COORD x=6.645 y=20.775 }{PROP n="n105" Length=0.03 Width=0.42 Mult=1 }
+	{PIN N367=DRN N158=GATE N167=SRC gnd!=BULK }}
+    {INST M898=p105 {TYPE MOS} {COORD x=6.645 y=9.368 }{PROP n="p105" Length=0.03 Width=0.504 Mult=1 }
+	{PIN N425=DRN N60=GATE N69=SRC vdd!=BULK }}
+    {INST M234=n105 {TYPE MOS} {COORD x=6.493 y=20.775 }{PROP n="n105" Length=0.03 Width=0.42 Mult=1 }
+	{PIN N322=DRN gnd!=GATE N167=SRC gnd!=BULK }}
+    {INST Parallel#147=p105 {TYPE MOS} {PROP Length=0.03 Width=0.754 }
+	{PIN N256=DRN N10=GATE vdd!=SRC vdd!=BULK }}
+    {INST M1079=p105 {TYPE MOS} {COORD x=1.064 y=8.002 }{PROP n="p105" Length=0.03 Width=0.504 Mult=1 }
+	{PIN N278=DRN N8=GATE N21=SRC vdd!=BULK }}
+    {INST M1016=p105 {TYPE MOS} {COORD x=1.824 y=20.162 }{PROP n="p105" Length=0.03 Width=0.504 Mult=1 }
+	{PIN N353=DRN N95=GATE N122=SRC vdd!=BULK }}
+    {INST Parallel#72=n105 {TYPE MOS} {PROP Length=0.03 Width=0.94 }
+	{PIN gnd!=DRN N29=GATE N42=SRC gnd!=BULK }}
+    {INST Parallel#186=n105 {TYPE MOS} {PROP Length=0.03 Width=0.628 }
+	{PIN N359=DRN N191=GATE gnd!=SRC gnd!=BULK }}
+    {INST M931=p105 {TYPE MOS} {COORD x=4.256 y=16.317 }{PROP n="p105" Length=0.03 Width=0.504 Mult=1 }
+	{PIN vdd!=DRN N147=GATE N161=SRC vdd!=BULK }}
+    {INST Parallel#326=p105 {TYPE MOS} {PROP Length=0.03 Width=0.252 }
+	{PIN vdd!=DRN W0=GATE N152=SRC vdd!=BULK }}
+    {INST Parallel#185=p105 {TYPE MOS} {PROP Length=0.03 Width=1.174 }
+	{PIN N381=DRN N59=GATE vdd!=SRC vdd!=BULK }}
+    {INST M1088=p105 {TYPE MOS} {COORD x=0.152 y=20.162 }{PROP n="p105" Length=0.03 Width=0.504 Mult=1 }
+	{PIN vdd!=DRN CLK=GATE N95=SRC vdd!=BULK }}
+    {INST M900=p105 {TYPE MOS} {COORD x=6.493 y=9.368 }{PROP n="p105" Length=0.03 Width=0.504 Mult=1 }
+	{PIN N384=DRN gnd!=GATE N69=SRC vdd!=BULK }}
+    {INST Parallel#201=n105 {TYPE MOS} {PROP Length=0.03 Width=0.628 }
+	{PIN N295=DRN N100=GATE gnd!=SRC gnd!=BULK }}
+    {INST Parallel#183=p105 {TYPE MOS} {PROP Length=0.03 Width=1.674 }
+	{PIN vdd!=DRN N131=GATE N129=SRC vdd!=BULK }}
+    {INST Parallel#97=n105 {TYPE MOS} {PROP Length=0.03 Width=1.014 }
+	{PIN N334=DRN N171=GATE gnd!=SRC gnd!=BULK }}
+    {INST M1184=p105 {TYPE MOS} {COORD x=4.256 y=4.157 }{PROP n="p105" Length=0.03 Width=0.504 Mult=1 }
+	{PIN vdd!=DRN N48=GATE N59=SRC vdd!=BULK }}
+    {INST M1036=p105 {TYPE MOS} {COORD x=1.824 y=8.002 }{PROP n="p105" Length=0.03 Width=0.504 Mult=1 }
+	{PIN N278=DRN N8=GATE N29=SRC vdd!=BULK }}
+    {INST M808=p105 {TYPE MOS} {COORD x=11.063 y=11.796 }{PROP n="p105" Length=0.03 Width=0.504 Mult=1 }
+	{PIN vdd!=DRN CLK=GATE N178=SRC vdd!=BULK }}
+    {INST Parallel#320=n105 {TYPE MOS} {PROP Length=0.03 Width=0.628 }
+	{PIN N256=DRN N10=GATE gnd!=SRC gnd!=BULK }}
+    {INST Parallel#260=p105 {TYPE MOS} {PROP Length=0.03 Width=0.252 }
+	{PIN vdd!=DRN N139=GATE N152=SRC vdd!=BULK }}
+    {INST M1047=p105 {TYPE MOS} {COORD x=1.064 y=20.162 }{PROP n="p105" Length=0.03 Width=0.504 Mult=1 }
+	{PIN N353=DRN N95=GATE N111=SRC vdd!=BULK }}
+    {INST M318=n105 {TYPE MOS} {COORD x=2.584 y=14.840 }{PROP n="n105" Length=0.03 Width=0.42 Mult=1 }
+	{PIN N129=DRN N91=GATE N118=SRC gnd!=BULK }}
+    {INST Parallel#286=n105 {TYPE MOS} {PROP Length=0.03 Width=0.84 }
+	{PIN N260=DRN W3=GATE gnd!=SRC gnd!=BULK }}
+    {INST M1096=p105 {TYPE MOS} {COORD x=0.152 y=8.002 }{PROP n="p105" Length=0.03 Width=0.504 Mult=1 }
+	{PIN vdd!=DRN CLK=GATE N8=SRC vdd!=BULK }}
+    {INST M273=n105 {TYPE MOS} {COORD x=4.256 y=15.560 }{PROP n="n105" Length=0.03 Width=0.42 Mult=1 }
+	{PIN N161=DRN N147=GATE gnd!=SRC gnd!=BULK }}
+    {INST M878=p105 {TYPE MOS} {COORD x=6.645 y=21.533 }{PROP n="p105" Length=0.03 Width=0.504 Mult=1 }
+	{PIN N432=DRN N158=GATE N167=SRC vdd!=BULK }}
+    {INST M384=n105 {TYPE MOS} {COORD x=0.152 y=20.920 }{PROP n="n105" Length=0.03 Width=0.42 Mult=1 }
+	{PIN N95=DRN CLK=GATE gnd!=SRC gnd!=BULK }}
+    {INST Parallel#243=n105 {TYPE MOS} {PROP Length=0.03 Width=1.404 }
+	{PIN N129=DRN N131=GATE gnd!=SRC gnd!=BULK }}
+    {INST M526=n105 {TYPE MOS} {COORD x=4.256 y=3.400 }{PROP n="n105" Length=0.03 Width=0.42 Mult=1 }
+	{PIN gnd!=DRN N48=GATE N59=SRC gnd!=BULK }}
+    {INST M795=p105 {TYPE MOS} {COORD x=11.975 y=11.796 }{PROP n="p105" Length=0.03 Width=0.504 Mult=1 }
+	{PIN N298=DRN N178=GATE N177=SRC vdd!=BULK }}
+    {INST M768=p105 {TYPE MOS} {COORD x=12.735 y=11.796 }{PROP n="p105" Length=0.03 Width=0.504 Mult=1 }
+	{PIN N298=DRN N178=GATE N195=SRC vdd!=BULK }}
+    {INST Parallel#204=p105 {TYPE MOS} {PROP Length=0.03 Width=0.252 }
+	{PIN vdd!=DRN W2=GATE N53=SRC vdd!=BULK }}
+    {INST Parallel#138=p105 {TYPE MOS} {PROP Length=0.03 Width=1.174 }
+	{PIN N403=DRN N161=GATE vdd!=SRC vdd!=BULK }}
+    {INST Parallel#27=p105 {TYPE MOS} {PROP Length=0.03 Width=1.674 }
+	{PIN vdd!=DRN N34=GATE N33=SRC vdd!=BULK }}
+    {INST Parallel#49=n105 {TYPE MOS} {PROP Length=0.03 Width=0.654 }
+	{PIN N325=DRN N167=GATE N171=SRC gnd!=BULK }}
+    {INST M171=n105 {TYPE MOS} {COORD x=11.063 y=11.038 }{PROP n="n105" Length=0.03 Width=0.42 Mult=1 }
+	{PIN N178=DRN CLK=GATE gnd!=SRC gnd!=BULK }}
+    {INST M880=p105 {TYPE MOS} {COORD x=6.493 y=21.533 }{PROP n="p105" Length=0.03 Width=0.504 Mult=1 }
+	{PIN N414=DRN gnd!=GATE N167=SRC vdd!=BULK }}
+    {INST M1066=p105 {TYPE MOS} {COORD x=0.760 y=13.278 }{PROP n="p105" Length=0.03 Width=0.504 Mult=1 }
+	{PIN vdd!=DRN N101=GATE N100=SRC vdd!=BULK }}
+    {INST M160=n105 {TYPE MOS} {COORD x=11.367 y=11.038 }{PROP n="n105" Length=0.03 Width=0.42 Mult=1 }
+	{PIN N291=DRN N178=GATE N177=SRC gnd!=BULK }}
+    {INST M611=n105 {TYPE MOS} {COORD x=0.152 y=8.760 }{PROP n="n105" Length=0.03 Width=0.42 Mult=1 }
+	{PIN gnd!=DRN CLK=GATE N8=SRC gnd!=BULK }}
+    {INST Parallel#280=p105 {TYPE MOS} {PROP Length=0.03 Width=0.252 }
+	{PIN vdd!=DRN N43=GATE N53=SRC vdd!=BULK }}
+    {INST M563=n105 {TYPE MOS} {COORD x=2.584 y=2.680 }{PROP n="n105" Length=0.03 Width=0.42 Mult=1 }
+	{PIN N33=DRN N4=GATE N25=SRC gnd!=BULK }}
+    {INST M1243=p105 {TYPE MOS} {COORD x=0.760 y=1.118 }{PROP n="p105" Length=0.03 Width=0.504 Mult=1 }
+	{PIN vdd!=DRN N11=GATE N10=SRC vdd!=BULK }}
+    {INST M610=n105 {TYPE MOS} {COORD x=0.456 y=8.760 }{PROP n="n105" Length=0.03 Width=0.42 Mult=1 }
+	{PIN X2<2>=DRN N8=GATE N21=SRC gnd!=BULK }}
+    {INST Parallel#267=n105 {TYPE MOS} {PROP Length=0.03 Width=0.84 }
+	{PIN N303=DRN W1=GATE gnd!=SRC gnd!=BULK }}
+    {INST Parallel#202=n105 {TYPE MOS} {PROP Length=0.03 Width=0.978 }
+	{PIN N329=DRN N161=GATE gnd!=SRC gnd!=BULK }}
+    {INST Parallel#109=p105 {TYPE MOS} {PROP Length=0.03 Width=1.128 }
+	{PIN vdd!=DRN N122=GATE N138=SRC vdd!=BULK }}
+    {INST Parallel#337=n105 {TYPE MOS} {PROP Length=0.03 Width=1.404 }
+	{PIN gnd!=DRN N34=GATE N33=SRC gnd!=BULK }}
+    {INST Parallel#123=n105 {TYPE MOS} {PROP Length=0.03 Width=0.978 }
+	{PIN N286=DRN N59=GATE gnd!=SRC gnd!=BULK }}
+    {INST Parallel#155=n105 {TYPE MOS} {PROP Length=0.03 Width=0.654 }
+	{PIN N285=DRN N69=GATE N73=SRC gnd!=BULK }}
+    {INST M484=n105 {TYPE MOS} {COORD x=6.645 y=8.610 }{PROP n="n105" Length=0.03 Width=0.42 Mult=1 }
+	{PIN N363=DRN N60=GATE N69=SRC gnd!=BULK }}
+    {INST M1092=p105 {TYPE MOS} {COORD x=0.152 y=14.082 }{PROP n="p105" Length=0.03 Width=0.504 Mult=1 }
+	{PIN vdd!=DRN CLK=GATE N91=SRC vdd!=BULK }}
+    {INST Parallel#106=p105 {TYPE MOS} {PROP Length=0.03 Width=1.128 }
+	{PIN vdd!=DRN N25=GATE N34=SRC vdd!=BULK }}
+    {INST Parallel#219=n105 {TYPE MOS} {PROP Length=0.03 Width=0.978 }
+	{PIN N289=DRN gnd!=GATE N73=SRC gnd!=BULK }}
+    {INST Parallel#152=p105 {TYPE MOS} {PROP Length=0.03 Width=1.128 }
+	{PIN vdd!=DRN N118=GATE N131=SRC vdd!=BULK }}
+    {INST Parallel#256=p105 {TYPE MOS} {PROP Length=0.03 Width=1.674 }
+	{PIN vdd!=DRN N140=GATE N139=SRC vdd!=BULK }}
+    {INST M253=n105 {TYPE MOS} {COORD x=4.256 y=23.960 }{PROP n="n105" Length=0.03 Width=0.42 Mult=1 }
+	{PIN N158=DRN N153=GATE gnd!=SRC gnd!=BULK }}
+    {INST Parallel#277=n105 {TYPE MOS} {PROP Length=0.03 Width=0.978 }
+	{PIN N289=DRN N60=GATE N287=SRC gnd!=BULK }}
+    {INST M228=n105 {TYPE MOS} {COORD x=7.405 y=20.674 }{PROP n="n105" Length=0.03 Width=0.218 Mult=1 }
+	{PIN N325=DRN N158=GATE gnd!=SRC gnd!=BULK }}
+    {INST M856=p105 {TYPE MOS} {COORD x=7.709 y=21.519 }{PROP n="p105" Length=0.03 Width=0.522 Mult=1 }
+	{PIN N415=DRN gnd!=GATE vdd!=SRC vdd!=BULK }}
+    {INST Parallel#34=p105 {TYPE MOS} {PROP Length=0.03 Width=1.174 }
+	{PIN N417=DRN gnd!=GATE N171=SRC vdd!=BULK }}
+    {INST M794=p105 {TYPE MOS} {COORD x=11.671 y=11.796 }{PROP n="p105" Length=0.03 Width=0.504 Mult=1 }
+	{PIN vdd!=DRN N177=GATE N176=SRC vdd!=BULK }}
+    {INST Parallel#284=n105 {TYPE MOS} {PROP Length=0.03 Width=1.404 }
+	{PIN gnd!=DRN N44=GATE N43=SRC gnd!=BULK }}
+    {INST Parallel#153=n105 {TYPE MOS} {PROP Length=0.03 Width=0.84 }
+	{PIN N304=DRN N130=GATE N147=SRC gnd!=BULK }}
+    {INST M390=n105 {TYPE MOS} {COORD x=0.456 y=14.840 }{PROP n="n105" Length=0.03 Width=0.42 Mult=1 }
+	{PIN X1<2>=DRN N91=GATE N103=SRC gnd!=BULK }}
+    {INST M294=n105 {TYPE MOS} {COORD x=2.584 y=21.640 }{PROP n="n105" Length=0.03 Width=0.42 Mult=1 }
+	{PIN N139=DRN N96=GATE N123=SRC gnd!=BULK }}
+    {INST M503=n105 {TYPE MOS} {COORD x=6.037 y=8.505 }{PROP n="n105" Length=0.03 Width=0.21 Mult=1 }
+	{PIN N283=DRN N60=GATE gnd!=SRC gnd!=BULK }}
+    {INST Parallel#271=p105 {TYPE MOS} {PROP Length=0.03 Width=1.174 }
+	{PIN N417=DRN N158=GATE N416=SRC vdd!=BULK }}
+    {INST M857=p105 {TYPE MOS} {COORD x=7.557 y=21.519 }{PROP n="p105" Length=0.03 Width=0.522 Mult=1 }
+	{PIN N415=DRN N159=GATE vdd!=SRC vdd!=BULK }}
+    {INST M897=p105 {TYPE MOS} {COORD x=7.405 y=9.354 }{PROP n="p105" Length=0.03 Width=0.522 Mult=1 }
+	{PIN N385=DRN N60=GATE vdd!=SRC vdd!=BULK }}
+    {INST Parallel#159=n105 {TYPE MOS} {PROP Length=0.03 Width=0.628 }
+	{PIN N278=DRN N20=GATE gnd!=SRC gnd!=BULK }}
+    {INST M485=n105 {TYPE MOS} {COORD x=6.797 y=8.610 }{PROP n="n105" Length=0.03 Width=0.42 Mult=1 }
+	{PIN N363=DRN N61=GATE gnd!=SRC gnd!=BULK }}
+    {INST M233=n105 {TYPE MOS} {COORD x=6.797 y=20.775 }{PROP n="n105" Length=0.03 Width=0.42 Mult=1 }
+	{PIN N367=DRN N159=GATE gnd!=SRC gnd!=BULK }}
+    {INST M910=p105 {TYPE MOS} {COORD x=6.037 y=9.494 }{PROP n="p105" Length=0.03 Width=0.252 Mult=1 }
+	{PIN N384=DRN N60=GATE vdd!=SRC vdd!=BULK }}
+    {INST M483=n105 {TYPE MOS} {COORD x=7.405 y=8.509 }{PROP n="n105" Length=0.03 Width=0.218 Mult=1 }
+	{PIN N285=DRN N60=GATE gnd!=SRC gnd!=BULK }}
+    {INST Parallel#11=n105 {TYPE MOS} {PROP Length=0.03 Width=0.628 }
+	{PIN N298=DRN N176=GATE gnd!=SRC gnd!=BULK }}
+    {INST M618=n105 {TYPE MOS} {COORD x=0.456 y=2.680 }{PROP n="n105" Length=0.03 Width=0.42 Mult=1 }
+	{PIN X3<2>=DRN N4=GATE N12=SRC gnd!=BULK }}
+    {INST M901=p105 {TYPE MOS} {COORD x=6.189 y=21.659 }{PROP n="p105" Length=0.03 Width=0.252 Mult=1 }
+	{PIN N414=DRN N159=GATE vdd!=SRC vdd!=BULK }}
+    {INST Parallel#52=p105 {TYPE MOS} {PROP Length=0.03 Width=0.252 }
+	{PIN vdd!=DRN W1=GATE N147=SRC vdd!=BULK }}
+    {INST M358=n105 {TYPE MOS} {COORD x=0.760 y=20.920 }{PROP n="n105" Length=0.03 Width=0.42 Mult=1 }
+	{PIN N110=DRN N111=GATE gnd!=SRC gnd!=BULK }}
+    {INST Parallel#167=n105 {TYPE MOS} {PROP Length=0.03 Width=0.84 }
+	{PIN N261=DRN N35=GATE N48=SRC gnd!=BULK }}
+    {INST M911=p105 {TYPE MOS} {COORD x=4.256 y=23.203 }{PROP n="p105" Length=0.03 Width=0.504 Mult=1 }
+	{PIN vdd!=DRN N153=GATE N158=SRC vdd!=BULK }}
+    {INST M247=n105 {TYPE MOS} {COORD x=6.189 y=20.670 }{PROP n="n105" Length=0.03 Width=0.21 Mult=1 }
+	{PIN N322=DRN N159=GATE gnd!=SRC gnd!=BULK }}
+    {INST M877=p105 {TYPE MOS} {COORD x=7.405 y=21.519 }{PROP n="p105" Length=0.03 Width=0.522 Mult=1 }
+	{PIN N415=DRN N158=GATE vdd!=SRC vdd!=BULK }}
+    {INST M1225=p105 {TYPE MOS} {COORD x=1.824 y=1.922 }{PROP n="p105" Length=0.03 Width=0.504 Mult=1 }
+	{PIN N258=DRN N4=GATE N25=SRC vdd!=BULK }}
+    {INST M590=n105 {TYPE MOS} {COORD x=0.760 y=8.760 }{PROP n="n105" Length=0.03 Width=0.42 Mult=1 }
+	{PIN gnd!=DRN N21=GATE N20=SRC gnd!=BULK }}
+    {INST Parallel#227=n105 {TYPE MOS} {PROP Length=0.03 Width=0.628 }
+	{PIN N353=DRN N110=GATE gnd!=SRC gnd!=BULK }}
+    {INST Parallel#174=p105 {TYPE MOS} {PROP Length=0.03 Width=1.674 }
+	{PIN vdd!=DRN N44=GATE N43=SRC vdd!=BULK }}
+    {INST Parallel#261=p105 {TYPE MOS} {PROP Length=0.03 Width=0.252 }
+	{PIN vdd!=DRN N130=GATE N147=SRC vdd!=BULK }}
+    {INST M285=n105 {TYPE MOS} {COORD x=4.256 y=11.800 }{PROP n="n105" Length=0.03 Width=0.42 Mult=1 }
+	{PIN gnd!=DRN N143=GATE N60=SRC gnd!=BULK }}
+    {INST M879=p105 {TYPE MOS} {COORD x=6.797 y=21.533 }{PROP n="p105" Length=0.03 Width=0.504 Mult=1 }
+	{PIN N432=DRN N159=GATE vdd!=SRC vdd!=BULK }}
+    {INST M902=p105 {TYPE MOS} {COORD x=6.037 y=21.659 }{PROP n="p105" Length=0.03 Width=0.252 Mult=1 }
+	{PIN N414=DRN N158=GATE vdd!=SRC vdd!=BULK }}
+    {INST M872=p105 {TYPE MOS} {COORD x=7.709 y=9.354 }{PROP n="p105" Length=0.03 Width=0.522 Mult=1 }
+	{PIN N385=DRN gnd!=GATE vdd!=SRC vdd!=BULK }}
+    {INST M619=n105 {TYPE MOS} {COORD x=0.152 y=2.680 }{PROP n="n105" Length=0.03 Width=0.42 Mult=1 }
+	{PIN gnd!=DRN CLK=GATE N4=SRC gnd!=BULK }}
+    {INST Parallel#64=p105 {TYPE MOS} {PROP Length=0.03 Width=0.754 }
+	{PIN N278=DRN N20=GATE vdd!=SRC vdd!=BULK }}
+    {INST M466=n105 {TYPE MOS} {COORD x=7.709 y=8.509 }{PROP n="n105" Length=0.03 Width=0.218 Mult=1 }
+	{PIN N285=DRN gnd!=GATE gnd!=SRC gnd!=BULK }}
+    {INST Parallel#59=n105 {TYPE MOS} {PROP Length=0.03 Width=0.978 }
+	{PIN N331=DRN gnd!=GATE N171=SRC gnd!=BULK }}
+    {INST Parallel#194=p105 {TYPE MOS} {PROP Length=0.03 Width=0.754 }
+	{PIN N298=DRN N176=GATE vdd!=SRC vdd!=BULK }}
+    {INST Parallel#18=n105 {TYPE MOS} {PROP Length=0.03 Width=1.014 }
+	{PIN N291=DRN N73=GATE gnd!=SRC gnd!=BULK }}
+    {INST M538=n105 {TYPE MOS} {COORD x=2.584 y=9.480 }{PROP n="n105" Length=0.03 Width=0.42 Mult=1 }
+	{PIN N43=DRN N9=GATE N30=SRC gnd!=BULK }}
+    {INST M248=n105 {TYPE MOS} {COORD x=6.037 y=20.670 }{PROP n="n105" Length=0.03 Width=0.21 Mult=1 }
+	{PIN N322=DRN N158=GATE gnd!=SRC gnd!=BULK }}
+    {INST M502=n105 {TYPE MOS} {COORD x=6.189 y=8.505 }{PROP n="n105" Length=0.03 Width=0.21 Mult=1 }
+	{PIN N283=DRN N61=GATE gnd!=SRC gnd!=BULK }}
+    {INST Parallel#296=p105 {TYPE MOS} {PROP Length=0.03 Width=1.174 }
+	{PIN N387=DRN N60=GATE N386=SRC vdd!=BULK }}
+    {INST M873=p105 {TYPE MOS} {COORD x=7.557 y=9.354 }{PROP n="p105" Length=0.03 Width=0.522 Mult=1 }
+	{PIN N385=DRN N61=GATE vdd!=SRC vdd!=BULK }}
+    {INST Parallel#252=p105 {TYPE MOS} {PROP Length=0.03 Width=1.174 }
+	{PIN N387=DRN gnd!=GATE N73=SRC vdd!=BULK }}
+    {INST M909=p105 {TYPE MOS} {COORD x=6.189 y=9.494 }{PROP n="p105" Length=0.03 Width=0.252 Mult=1 }
+	{PIN N384=DRN N61=GATE vdd!=SRC vdd!=BULK }}
+    {INST M467=n105 {TYPE MOS} {COORD x=7.557 y=8.509 }{PROP n="n105" Length=0.03 Width=0.218 Mult=1 }
+	{PIN N285=DRN N61=GATE gnd!=SRC gnd!=BULK }}
+    {INST M392=n105 {TYPE MOS} {COORD x=0.152 y=14.840 }{PROP n="n105" Length=0.03 Width=0.42 Mult=1 }
+	{PIN N91=DRN CLK=GATE gnd!=SRC gnd!=BULK }}
+    {INST M1046=p105 {TYPE MOS} {COORD x=0.760 y=20.162 }{PROP n="p105" Length=0.03 Width=0.504 Mult=1 }
+	{PIN vdd!=DRN N111=GATE N110=SRC vdd!=BULK }}
+    {INST Parallel#263=n105 {TYPE MOS} {PROP Length=0.03 Width=0.94 }
+	{PIN gnd!=DRN N25=GATE N34=SRC gnd!=BULK }}
+    {INST Parallel#30=p105 {TYPE MOS} {PROP Length=0.03 Width=0.252 }
+	{PIN vdd!=DRN N35=GATE N48=SRC vdd!=BULK }}
+    {INST Parallel#333=n105 {TYPE MOS} {PROP Length=0.03 Width=0.978 }
+	{PIN N331=DRN N158=GATE N328=SRC gnd!=BULK }}
+    {INST Parallel#44=n105 {TYPE MOS} {PROP Length=0.03 Width=0.94 }
+	{PIN N131=DRN N118=GATE gnd!=SRC gnd!=BULK }}
+    {INST Parallel#225=n105 {TYPE MOS} {PROP Length=0.03 Width=0.84 }
+	{PIN N356=DRN W0=GATE gnd!=SRC gnd!=BULK }}
+    {INST M1078=p105 {TYPE MOS} {COORD x=0.760 y=8.002 }{PROP n="p105" Length=0.03 Width=0.504 Mult=1 }
+	{PIN vdd!=DRN N21=GATE N20=SRC vdd!=BULK }}
+    {INST Parallel#235=p105 {TYPE MOS} {PROP Length=0.03 Width=0.754 }
+	{PIN N353=DRN N110=GATE vdd!=SRC vdd!=BULK }}
+    {INST Parallel#319=n105 {TYPE MOS} {PROP Length=0.03 Width=1.404 }
+	{PIN N139=DRN N140=GATE gnd!=SRC gnd!=BULK }}
+    {INST M943=p105 {TYPE MOS} {COORD x=4.256 y=11.043 }{PROP n="p105" Length=0.03 Width=0.504 Mult=1 }
+	{PIN vdd!=DRN N143=GATE N60=SRC vdd!=BULK }}
+    {INST M1063=p105 {TYPE MOS} {COORD x=1.064 y=14.082 }{PROP n="p105" Length=0.03 Width=0.504 Mult=1 }
+	{PIN N301=DRN N91=GATE N103=SRC vdd!=BULK }}
+    {INST M1026=p105 {TYPE MOS} {COORD x=1.824 y=14.082 }{PROP n="p105" Length=0.03 Width=0.504 Mult=1 }
+	{PIN N301=DRN N91=GATE N118=SRC vdd!=BULK }}
+    {INST M213=n105 {TYPE MOS} {COORD x=7.709 y=20.674 }{PROP n="n105" Length=0.03 Width=0.218 Mult=1 }
+	{PIN N325=DRN gnd!=GATE gnd!=SRC gnd!=BULK }}
+    {INST M1247=p105 {TYPE MOS} {COORD x=0.152 y=1.922 }{PROP n="p105" Length=0.03 Width=0.504 Mult=1 }
+	{PIN vdd!=DRN CLK=GATE N4=SRC vdd!=BULK }}
+    {INST Parallel#257=n105 {TYPE MOS} {PROP Length=0.03 Width=0.84 }
+	{PIN N281=DRN W2=GATE gnd!=SRC gnd!=BULK }}
+    {INST Parallel#165=p105 {TYPE MOS} {PROP Length=0.03 Width=0.252 }
+	{PIN vdd!=DRN W3=GATE N48=SRC vdd!=BULK }}
+    {INST M161=n105 {TYPE MOS} {COORD x=11.671 y=11.038 }{PROP n="n105" Length=0.03 Width=0.42 Mult=1 }
+	{PIN N176=DRN N177=GATE gnd!=SRC gnd!=BULK }}
+    {INST Parallel#221=p105 {TYPE MOS} {PROP Length=0.03 Width=1.215 }
+	{PIN N291=DRN N73=GATE vdd!=SRC vdd!=BULK }}
+    {INST M1238=p105 {TYPE MOS} {COORD x=1.064 y=1.922 }{PROP n="p105" Length=0.03 Width=0.504 Mult=1 }
+	{PIN N258=DRN N4=GATE N12=SRC vdd!=BULK }}
+    {INST M899=p105 {TYPE MOS} {COORD x=6.797 y=9.368 }{PROP n="p105" Length=0.03 Width=0.504 Mult=1 }
+	{PIN N425=DRN N61=GATE vdd!=SRC vdd!=BULK }}
+    {INST M214=n105 {TYPE MOS} {COORD x=7.557 y=20.674 }{PROP n="n105" Length=0.03 Width=0.218 Mult=1 }
+	{PIN N325=DRN N159=GATE gnd!=SRC gnd!=BULK }}
+    {INST Parallel#232=p105 {TYPE MOS} {PROP Length=0.03 Width=1.128 }
+	{PIN vdd!=DRN N30=GATE N44=SRC vdd!=BULK }}
+    {INST M927=p105 {TYPE MOS} {COORD x=4.256 y=17.123 }{PROP n="p105" Length=0.03 Width=0.504 Mult=1 }
+	{PIN vdd!=DRN N148=GATE N159=SRC vdd!=BULK }}
+    {INST M1009=p105 {TYPE MOS} {COORD x=1.824 y=22.398 }{PROP n="p105" Length=0.03 Width=0.504 Mult=1 }
+	{PIN N354=DRN N96=GATE N123=SRC vdd!=BULK }}
+    {INST M314=n105 {TYPE MOS} {COORD x=2.584 y=15.560 }{PROP n="n105" Length=0.03 Width=0.42 Mult=1 }
+	{PIN N130=DRN N92=GATE N119=SRC gnd!=BULK }}
+    {INST Parallel#348=n105 {TYPE MOS} {PROP Length=0.03 Width=0.84 }
+	{PIN N261=DRN W3=GATE gnd!=SRC gnd!=BULK }}
+    {INST Parallel#146=p105 {TYPE MOS} {PROP Length=0.03 Width=0.252 }
+	{PIN vdd!=DRN W2=GATE N143=SRC vdd!=BULK }}
+    {INST M1180=p105 {TYPE MOS} {COORD x=4.256 y=4.963 }{PROP n="p105" Length=0.03 Width=0.504 Mult=1 }
+	{PIN vdd!=DRN N49=GATE N61=SRC vdd!=BULK }}
+    {INST Parallel#327=p105 {TYPE MOS} {PROP Length=0.03 Width=1.174 }
+	{PIN N386=DRN N61=GATE vdd!=SRC vdd!=BULK }}
+    {INST Parallel#189=p105 {TYPE MOS} {PROP Length=0.03 Width=1.174 }
+	{PIN N416=DRN N159=GATE vdd!=SRC vdd!=BULK }}
+    {INST Parallel#84=n105 {TYPE MOS} {PROP Length=0.03 Width=0.628 }
+	{PIN N301=DRN N102=GATE gnd!=SRC gnd!=BULK }}
+    {INST Parallel#125=p105 {TYPE MOS} {PROP Length=0.03 Width=0.252 }
+	{PIN vdd!=DRN N141=GATE N153=SRC vdd!=BULK }}
+    {INST Parallel#305=n105 {TYPE MOS} {PROP Length=0.03 Width=0.84 }
+	{PIN N304=DRN W1=GATE gnd!=SRC gnd!=BULK }}
+    {INST M609=n105 {TYPE MOS} {COORD x=0.152 y=9.480 }{PROP n="n105" Length=0.03 Width=0.42 Mult=1 }
+	{PIN gnd!=DRN CLK=GATE N9=SRC gnd!=BULK }}
+    {INST M604=n105 {TYPE MOS} {COORD x=0.760 y=2.680 }{PROP n="n105" Length=0.03 Width=0.42 Mult=1 }
+	{PIN gnd!=DRN N12=GATE N13=SRC gnd!=BULK }}
+    {INST Parallel#249=p105 {TYPE MOS} {PROP Length=0.03 Width=0.754 }
+	{PIN N301=DRN N102=GATE vdd!=SRC vdd!=BULK }}
+    {INST Parallel#250=n105 {TYPE MOS} {PROP Length=0.03 Width=1.404 }
+	{PIN gnd!=DRN N36=GATE N35=SRC gnd!=BULK }}
+    {INST Parallel#38=n105 {TYPE MOS} {PROP Length=0.03 Width=0.84 }
+	{PIN N357=DRN N141=GATE N153=SRC gnd!=BULK }}
+    {INST M1045=p105 {TYPE MOS} {COORD x=1.064 y=22.398 }{PROP n="p105" Length=0.03 Width=0.504 Mult=1 }
+	{PIN N354=DRN N96=GATE N113=SRC vdd!=BULK }}
+    {INST M1075=p105 {TYPE MOS} {COORD x=1.064 y=10.238 }{PROP n="p105" Length=0.03 Width=0.504 Mult=1 }
+	{PIN N279=DRN N9=GATE N23=SRC vdd!=BULK }}
+    {INST M1033=p105 {TYPE MOS} {COORD x=1.824 y=10.238 }{PROP n="p105" Length=0.03 Width=0.504 Mult=1 }
+	{PIN N279=DRN N9=GATE N30=SRC vdd!=BULK }}
+    {INST M1095=p105 {TYPE MOS} {COORD x=0.152 y=10.238 }{PROP n="p105" Length=0.03 Width=0.504 Mult=1 }
+	{PIN vdd!=DRN CLK=GATE N9=SRC vdd!=BULK }}
+    {INST M382=n105 {TYPE MOS} {COORD x=0.152 y=21.640 }{PROP n="n105" Length=0.03 Width=0.42 Mult=1 }
+	{PIN N96=DRN CLK=GATE gnd!=SRC gnd!=BULK }}
+    {INST M1237=p105 {TYPE MOS} {COORD x=0.760 y=1.922 }{PROP n="p105" Length=0.03 Width=0.504 Mult=1 }
+	{PIN vdd!=DRN N12=GATE N13=SRC vdd!=BULK }}
+    {INST Parallel#262=p105 {TYPE MOS} {PROP Length=0.03 Width=1.674 }
+	{PIN vdd!=DRN N36=GATE N35=SRC vdd!=BULK }}
+    {INST M1087=p105 {TYPE MOS} {COORD x=0.152 y=22.398 }{PROP n="p105" Length=0.03 Width=0.504 Mult=1 }
+	{PIN vdd!=DRN CLK=GATE N96=SRC vdd!=BULK }}
+    {INST M370=n105 {TYPE MOS} {COORD x=0.760 y=14.840 }{PROP n="n105" Length=0.03 Width=0.42 Mult=1 }
+	{PIN N102=DRN N103=GATE gnd!=SRC gnd!=BULK }}
+    {INST Parallel#98=n105 {TYPE MOS} {PROP Length=0.03 Width=1.404 }
+	{PIN N130=DRN N132=GATE gnd!=SRC gnd!=BULK }}
+    {INST M381=n105 {TYPE MOS} {COORD x=0.456 y=21.640 }{PROP n="n105" Length=0.03 Width=0.42 Mult=1 }
+	{PIN X0<1>=DRN N96=GATE N113=SRC gnd!=BULK }}
+    {INST M608=n105 {TYPE MOS} {COORD x=0.456 y=9.480 }{PROP n="n105" Length=0.03 Width=0.42 Mult=1 }
+	{PIN X2<1>=DRN N9=GATE N23=SRC gnd!=BULK }}
+    {INST M558=n105 {TYPE MOS} {COORD x=2.584 y=3.400 }{PROP n="n105" Length=0.03 Width=0.42 Mult=1 }
+	{PIN N35=DRN N5=GATE N26=SRC gnd!=BULK }}
+    {INST Parallel#143=n105 {TYPE MOS} {PROP Length=0.03 Width=0.94 }
+	{PIN N140=DRN N123=GATE gnd!=SRC gnd!=BULK }}
+    {INST Parallel#9=n105 {TYPE MOS} {PROP Length=0.03 Width=0.628 }
+	{PIN N258=DRN N13=GATE gnd!=SRC gnd!=BULK }}
+    {INST Parallel#184=p105 {TYPE MOS} {PROP Length=0.03 Width=0.252 }
+	{PIN vdd!=DRN N125=GATE N143=SRC vdd!=BULK }}
+    {INST Parallel#328=n105 {TYPE MOS} {PROP Length=0.03 Width=0.94 }
+	{PIN gnd!=DRN N30=GATE N44=SRC gnd!=BULK }}
+    {INST M1062=p105 {TYPE MOS} {COORD x=0.760 y=14.082 }{PROP n="p105" Length=0.03 Width=0.504 Mult=1 }
+	{PIN vdd!=DRN N103=GATE N102=SRC vdd!=BULK }}
+    {INST Parallel#23=p105 {TYPE MOS} {PROP Length=0.03 Width=1.674 }
+	{PIN vdd!=DRN N132=GATE N130=SRC vdd!=BULK }}
+    {INST M269=n105 {TYPE MOS} {COORD x=4.256 y=17.880 }{PROP n="n105" Length=0.03 Width=0.42 Mult=1 }
+	{PIN N159=DRN N148=GATE gnd!=SRC gnd!=BULK }}
+    {INST Parallel#210=n105 {TYPE MOS} {PROP Length=0.03 Width=0.978 }
+	{PIN N287=DRN N61=GATE gnd!=SRC gnd!=BULK }}
+    {INST Parallel#0=n105 {TYPE MOS} {PROP Length=0.03 Width=0.978 }
+	{PIN N328=DRN N159=GATE gnd!=SRC gnd!=BULK }}
+    {INST Parallel#15=p105 {TYPE MOS} {PROP Length=0.03 Width=1.128 }
+	{PIN vdd!=DRN N123=GATE N140=SRC vdd!=BULK }}
+    {INST Parallel#91=p105 {TYPE MOS} {PROP Length=0.03 Width=0.754 }
+	{PIN N258=DRN N13=GATE vdd!=SRC vdd!=BULK }}
+    {INST Parallel#166=n105 {TYPE MOS} {PROP Length=0.03 Width=0.84 }
+	{PIN N296=DRN N125=GATE N143=SRC gnd!=BULK }}
+    {INST M522=n105 {TYPE MOS} {COORD x=4.256 y=5.720 }{PROP n="n105" Length=0.03 Width=0.42 Mult=1 }
+	{PIN gnd!=DRN N49=GATE N61=SRC gnd!=BULK }}
+    {INST Parallel#45=p105 {TYPE MOS} {PROP Length=0.03 Width=0.252 }
+	{PIN vdd!=DRN W0=GATE N153=SRC vdd!=BULK }}
+    {INST M391=n105 {TYPE MOS} {COORD x=0.152 y=15.560 }{PROP n="n105" Length=0.03 Width=0.42 Mult=1 }
+	{PIN N92=DRN CLK=GATE gnd!=SRC gnd!=BULK }}
+    {INST M1074=p105 {TYPE MOS} {COORD x=0.760 y=10.238 }{PROP n="p105" Length=0.03 Width=0.504 Mult=1 }
+	{PIN vdd!=DRN N23=GATE N22=SRC vdd!=BULK }}
+    {INST M1025=p105 {TYPE MOS} {COORD x=1.824 y=16.318 }{PROP n="p105" Length=0.03 Width=0.504 Mult=1 }
+	{PIN N302=DRN N92=GATE N119=SRC vdd!=BULK }}
+    {INST M289=n105 {TYPE MOS} {COORD x=2.584 y=23.960 }{PROP n="n105" Length=0.03 Width=0.42 Mult=1 }
+	{PIN N141=DRN N97=GATE N124=SRC gnd!=BULK }}
+    {INST Parallel#180=p105 {TYPE MOS} {PROP Length=0.03 Width=0.252 }
+	{PIN vdd!=DRN W3=GATE N49=SRC vdd!=BULK }}
+    {INST M1246=p105 {TYPE MOS} {COORD x=0.152 y=4.158 }{PROP n="p105" Length=0.03 Width=0.504 Mult=1 }
+	{PIN vdd!=DRN CLK=GATE N5=SRC vdd!=BULK }}
+    {INST M355=n105 {TYPE MOS} {COORD x=0.760 y=21.640 }{PROP n="n105" Length=0.03 Width=0.42 Mult=1 }
+	{PIN N112=DRN N113=GATE gnd!=SRC gnd!=BULK }}
+    {INST Parallel#234=p105 {TYPE MOS} {PROP Length=0.03 Width=0.754 }
+	{PIN N279=DRN N22=GATE vdd!=SRC vdd!=BULK }}
+    {INST Parallel#255=p105 {TYPE MOS} {PROP Length=0.03 Width=0.252 }
+	{PIN vdd!=DRN N133=GATE N148=SRC vdd!=BULK }}
+    {INST Parallel#285=n105 {TYPE MOS} {PROP Length=0.03 Width=0.84 }
+	{PIN N264=DRN N37=GATE N49=SRC gnd!=BULK }}
+    {INST M616=n105 {TYPE MOS} {COORD x=0.456 y=3.400 }{PROP n="n105" Length=0.03 Width=0.42 Mult=1 }
+	{PIN X3<1>=DRN N5=GATE N15=SRC gnd!=BULK }}
+    {INST Parallel#205=n105 {TYPE MOS} {PROP Length=0.03 Width=0.84 }
+	{PIN N296=DRN W2=GATE gnd!=SRC gnd!=BULK }}
+    {INST Parallel#272=n105 {TYPE MOS} {PROP Length=0.03 Width=1.404 }
+	{PIN N141=DRN N142=GATE gnd!=SRC gnd!=BULK }}
+    {INST Parallel#24=p105 {TYPE MOS} {PROP Length=0.03 Width=1.674 }
+	{PIN vdd!=DRN N126=GATE N125=SRC vdd!=BULK }}
+    {INST M1224=p105 {TYPE MOS} {COORD x=1.824 y=4.158 }{PROP n="p105" Length=0.03 Width=0.504 Mult=1 }
+	{PIN N259=DRN N5=GATE N26=SRC vdd!=BULK }}
+    {INST M587=n105 {TYPE MOS} {COORD x=0.760 y=9.480 }{PROP n="n105" Length=0.03 Width=0.42 Mult=1 }
+	{PIN gnd!=DRN N23=GATE N22=SRC gnd!=BULK }}
+    {INST Parallel#314=p105 {TYPE MOS} {PROP Length=0.03 Width=0.754 }
+	{PIN N354=DRN N112=GATE vdd!=SRC vdd!=BULK }}
+    {INST Parallel#207=p105 {TYPE MOS} {PROP Length=0.03 Width=1.128 }
+	{PIN vdd!=DRN N119=GATE N132=SRC vdd!=BULK }}
+    {INST M1234=p105 {TYPE MOS} {COORD x=1.064 y=4.158 }{PROP n="p105" Length=0.03 Width=0.504 Mult=1 }
+	{PIN N259=DRN N5=GATE N15=SRC vdd!=BULK }}
+    {INST Parallel#170=p105 {TYPE MOS} {PROP Length=0.03 Width=1.128 }
+	{PIN vdd!=DRN N26=GATE N36=SRC vdd!=BULK }}
+    {INST M329=n105 {TYPE MOS} {COORD x=2.584 y=11.800 }{PROP n="n105" Length=0.03 Width=0.42 Mult=1 }
+	{PIN N125=DRN N89=GATE N116=SRC gnd!=BULK }}
+    {INST M617=n105 {TYPE MOS} {COORD x=0.152 y=3.400 }{PROP n="n105" Length=0.03 Width=0.42 Mult=1 }
+	{PIN gnd!=DRN CLK=GATE N5=SRC gnd!=BULK }}
+    {INST M1091=p105 {TYPE MOS} {COORD x=0.152 y=16.318 }{PROP n="p105" Length=0.03 Width=0.504 Mult=1 }
+	{PIN vdd!=DRN CLK=GATE N92=SRC vdd!=BULK }}
+    {INST Parallel#133=n105 {TYPE MOS} {PROP Length=0.03 Width=0.628 }
+	{PIN N279=DRN N22=GATE gnd!=SRC gnd!=BULK }}
+    {INST Parallel#216=n105 {TYPE MOS} {PROP Length=0.03 Width=0.84 }
+	{PIN N318=DRN N133=GATE N148=SRC gnd!=BULK }}
+    {INST M389=n105 {TYPE MOS} {COORD x=0.456 y=15.560 }{PROP n="n105" Length=0.03 Width=0.42 Mult=1 }
+	{PIN X1<1>=DRN N92=GATE N105=SRC gnd!=BULK }}
+    {INST Parallel#117=n105 {TYPE MOS} {PROP Length=0.03 Width=1.404 }
+	{PIN N125=DRN N126=GATE gnd!=SRC gnd!=BULK }}
+    {INST Parallel#108=n105 {TYPE MOS} {PROP Length=0.03 Width=0.84 }
+	{PIN N357=DRN W0=GATE gnd!=SRC gnd!=BULK }}
+    {INST M1044=p105 {TYPE MOS} {COORD x=0.760 y=22.398 }{PROP n="p105" Length=0.03 Width=0.504 Mult=1 }
+	{PIN vdd!=DRN N113=GATE N112=SRC vdd!=BULK }}
+    {INST Parallel#50=n105 {TYPE MOS} {PROP Length=0.03 Width=0.628 }
+	{PIN N354=DRN N112=GATE gnd!=SRC gnd!=BULK }}
+    {INST Parallel#282=n105 {TYPE MOS} {PROP Length=0.03 Width=0.94 }
+	{PIN N132=DRN N119=GATE gnd!=SRC gnd!=BULK }}
+    {INST Parallel#228=p105 {TYPE MOS} {PROP Length=0.03 Width=0.252 }
+	{PIN vdd!=DRN N37=GATE N49=SRC vdd!=BULK }}
+    {INST M1059=p105 {TYPE MOS} {COORD x=1.064 y=16.318 }{PROP n="p105" Length=0.03 Width=0.504 Mult=1 }
+	{PIN N302=DRN N92=GATE N105=SRC vdd!=BULK }}
+    {INST Parallel#86=n105 {TYPE MOS} {PROP Length=0.03 Width=0.94 }
+	{PIN gnd!=DRN N26=GATE N36=SRC gnd!=BULK }}
+    {INST Parallel#164=p105 {TYPE MOS} {PROP Length=0.03 Width=1.674 }
+	{PIN vdd!=DRN N142=GATE N141=SRC vdd!=BULK }}
+    {INST Parallel#300=p105 {TYPE MOS} {PROP Length=0.03 Width=0.252 }
+	{PIN vdd!=DRN W1=GATE N148=SRC vdd!=BULK }}
+    {INST M1058=p105 {TYPE MOS} {COORD x=0.760 y=16.318 }{PROP n="p105" Length=0.03 Width=0.504 Mult=1 }
+	{PIN vdd!=DRN N105=GATE N104=SRC vdd!=BULK }}
+    {INST Parallel#121=p105 {TYPE MOS} {PROP Length=0.03 Width=0.754 }
+	{PIN N302=DRN N104=GATE vdd!=SRC vdd!=BULK }}
+    {INST Parallel#313=n105 {TYPE MOS} {PROP Length=0.03 Width=1.404 }
+	{PIN N133=DRN N134=GATE gnd!=SRC gnd!=BULK }}
+    {INST Parallel#197=n105 {TYPE MOS} {PROP Length=0.03 Width=1.404 }
+	{PIN gnd!=DRN N38=GATE N37=SRC gnd!=BULK }}
+    {INST M309=n105 {TYPE MOS} {COORD x=2.584 y=17.880 }{PROP n="n105" Length=0.03 Width=0.42 Mult=1 }
+	{PIN N133=DRN N93=GATE N120=SRC gnd!=BULK }}
+    {INST M553=n105 {TYPE MOS} {COORD x=2.584 y=5.720 }{PROP n="n105" Length=0.03 Width=0.42 Mult=1 }
+	{PIN N37=DRN N6=GATE N27=SRC gnd!=BULK }}
+    {INST Parallel#312=n105 {TYPE MOS} {PROP Length=0.03 Width=0.84 }
+	{PIN N264=DRN W3=GATE gnd!=SRC gnd!=BULK }}
+    {INST Parallel#253=n105 {TYPE MOS} {PROP Length=0.03 Width=0.94 }
+	{PIN N142=DRN N124=GATE gnd!=SRC gnd!=BULK }}
+    {INST Parallel#295=n105 {TYPE MOS} {PROP Length=0.03 Width=0.628 }
+	{PIN N259=DRN N14=GATE gnd!=SRC gnd!=BULK }}
+    {INST M1233=p105 {TYPE MOS} {COORD x=0.760 y=4.158 }{PROP n="p105" Length=0.03 Width=0.504 Mult=1 }
+	{PIN vdd!=DRN N15=GATE N14=SRC vdd!=BULK }}
+    {INST M367=n105 {TYPE MOS} {COORD x=0.760 y=15.560 }{PROP n="n105" Length=0.03 Width=0.42 Mult=1 }
+	{PIN N104=DRN N105=GATE gnd!=SRC gnd!=BULK }}
+    {INST Parallel#54=n105 {TYPE MOS} {PROP Length=0.03 Width=0.628 }
+	{PIN N302=DRN N104=GATE gnd!=SRC gnd!=BULK }}
+    {INST Parallel#264=p105 {TYPE MOS} {PROP Length=0.03 Width=1.128 }
+	{PIN vdd!=DRN N116=GATE N126=SRC vdd!=BULK }}
+    {INST M1008=p105 {TYPE MOS} {COORD x=1.824 y=23.202 }{PROP n="p105" Length=0.03 Width=0.504 Mult=1 }
+	{PIN N355=DRN N97=GATE N124=SRC vdd!=BULK }}
+    {INST M1032=p105 {TYPE MOS} {COORD x=1.824 y=11.042 }{PROP n="p105" Length=0.03 Width=0.504 Mult=1 }
+	{PIN N294=DRN N89=GATE N116=SRC vdd!=BULK }}
+    {INST M599=n105 {TYPE MOS} {COORD x=0.760 y=3.400 }{PROP n="n105" Length=0.03 Width=0.42 Mult=1 }
+	{PIN gnd!=DRN N15=GATE N14=SRC gnd!=BULK }}
+    {INST M395=n105 {TYPE MOS} {COORD x=0.456 y=11.800 }{PROP n="n105" Length=0.03 Width=0.42 Mult=1 }
+	{PIN X2<0>=DRN N89=GATE N99=SRC gnd!=BULK }}
+    {INST M379=n105 {TYPE MOS} {COORD x=0.456 y=23.960 }{PROP n="n105" Length=0.03 Width=0.42 Mult=1 }
+	{PIN X0<0>=DRN N97=GATE N115=SRC gnd!=BULK }}
+    {INST M1071=p105 {TYPE MOS} {COORD x=1.064 y=11.042 }{PROP n="p105" Length=0.03 Width=0.504 Mult=1 }
+	{PIN N294=DRN N89=GATE N99=SRC vdd!=BULK }}
+    {INST M1039=p105 {TYPE MOS} {COORD x=1.064 y=23.202 }{PROP n="p105" Length=0.03 Width=0.504 Mult=1 }
+	{PIN N355=DRN N97=GATE N115=SRC vdd!=BULK }}
+    {INST M1094=p105 {TYPE MOS} {COORD x=0.152 y=11.042 }{PROP n="p105" Length=0.03 Width=0.504 Mult=1 }
+	{PIN vdd!=DRN CLK=GATE N89=SRC vdd!=BULK }}
+    {INST M1086=p105 {TYPE MOS} {COORD x=0.152 y=23.202 }{PROP n="p105" Length=0.03 Width=0.504 Mult=1 }
+	{PIN vdd!=DRN CLK=GATE N97=SRC vdd!=BULK }}
+    {INST Parallel#298=n105 {TYPE MOS} {PROP Length=0.03 Width=0.94 }
+	{PIN N126=DRN N116=GATE gnd!=SRC gnd!=BULK }}
+    {INST Parallel#39=p105 {TYPE MOS} {PROP Length=0.03 Width=1.674 }
+	{PIN vdd!=DRN N134=GATE N133=SRC vdd!=BULK }}
+    {INST Parallel#150=p105 {TYPE MOS} {PROP Length=0.03 Width=1.674 }
+	{PIN vdd!=DRN N38=GATE N37=SRC vdd!=BULK }}
+    {INST M396=n105 {TYPE MOS} {COORD x=0.152 y=11.800 }{PROP n="n105" Length=0.03 Width=0.42 Mult=1 }
+	{PIN N89=DRN CLK=GATE gnd!=SRC gnd!=BULK }}
+    {INST M380=n105 {TYPE MOS} {COORD x=0.152 y=23.960 }{PROP n="n105" Length=0.03 Width=0.42 Mult=1 }
+	{PIN N97=DRN CLK=GATE gnd!=SRC gnd!=BULK }}
+    {INST Parallel#101=p105 {TYPE MOS} {PROP Length=0.03 Width=1.128 }
+	{PIN vdd!=DRN N124=GATE N142=SRC vdd!=BULK }}
+    {INST Parallel#116=p105 {TYPE MOS} {PROP Length=0.03 Width=0.754 }
+	{PIN N259=DRN N14=GATE vdd!=SRC vdd!=BULK }}
+    {INST Parallel#92=n105 {TYPE MOS} {PROP Length=0.03 Width=0.84 }
+	{PIN N318=DRN W1=GATE gnd!=SRC gnd!=BULK }}
+    {INST M1090=p105 {TYPE MOS} {COORD x=0.152 y=17.122 }{PROP n="p105" Length=0.03 Width=0.504 Mult=1 }
+	{PIN vdd!=DRN CLK=GATE N93=SRC vdd!=BULK }}
+    {INST M615=n105 {TYPE MOS} {COORD x=0.152 y=5.720 }{PROP n="n105" Length=0.03 Width=0.42 Mult=1 }
+	{PIN gnd!=DRN CLK=GATE N6=SRC gnd!=BULK }}
+    {INST M352=n105 {TYPE MOS} {COORD x=0.760 y=23.960 }{PROP n="n105" Length=0.03 Width=0.42 Mult=1 }
+	{PIN N114=DRN N115=GATE gnd!=SRC gnd!=BULK }}
+    {INST M376=n105 {TYPE MOS} {COORD x=0.760 y=11.800 }{PROP n="n105" Length=0.03 Width=0.42 Mult=1 }
+	{PIN N98=DRN N99=GATE gnd!=SRC gnd!=BULK }}
+    {INST Parallel#236=n105 {TYPE MOS} {PROP Length=0.03 Width=0.628 }
+	{PIN N294=DRN N98=GATE gnd!=SRC gnd!=BULK }}
+    {INST M1055=p105 {TYPE MOS} {COORD x=1.064 y=17.122 }{PROP n="p105" Length=0.03 Width=0.504 Mult=1 }
+	{PIN N316=DRN N93=GATE N106=SRC vdd!=BULK }}
+    {INST M1018=p105 {TYPE MOS} {COORD x=1.824 y=17.122 }{PROP n="p105" Length=0.03 Width=0.504 Mult=1 }
+	{PIN N316=DRN N93=GATE N120=SRC vdd!=BULK }}
+    {INST Parallel#209=p105 {TYPE MOS} {PROP Length=0.03 Width=1.128 }
+	{PIN vdd!=DRN N27=GATE N38=SRC vdd!=BULK }}
+    {INST Parallel#122=p105 {TYPE MOS} {PROP Length=0.03 Width=1.128 }
+	{PIN vdd!=DRN N120=GATE N134=SRC vdd!=BULK }}
+    {INST M1245=p105 {TYPE MOS} {COORD x=0.152 y=4.962 }{PROP n="p105" Length=0.03 Width=0.504 Mult=1 }
+	{PIN vdd!=DRN CLK=GATE N6=SRC vdd!=BULK }}
+    {INST M1038=p105 {TYPE MOS} {COORD x=0.760 y=23.202 }{PROP n="p105" Length=0.03 Width=0.504 Mult=1 }
+	{PIN vdd!=DRN N115=GATE N114=SRC vdd!=BULK }}
+    {INST M1070=p105 {TYPE MOS} {COORD x=0.760 y=11.042 }{PROP n="p105" Length=0.03 Width=0.504 Mult=1 }
+	{PIN vdd!=DRN N99=GATE N98=SRC vdd!=BULK }}
+    {INST Parallel#53=p105 {TYPE MOS} {PROP Length=0.03 Width=0.754 }
+	{PIN N294=DRN N98=GATE vdd!=SRC vdd!=BULK }}
+    {INST M614=n105 {TYPE MOS} {COORD x=0.456 y=5.720 }{PROP n="n105" Length=0.03 Width=0.42 Mult=1 }
+	{PIN X3<0>=DRN N6=GATE N17=SRC gnd!=BULK }}
+    {INST Parallel#110=n105 {TYPE MOS} {PROP Length=0.03 Width=0.628 }
+	{PIN N355=DRN N114=GATE gnd!=SRC gnd!=BULK }}
+    {INST M388=n105 {TYPE MOS} {COORD x=0.152 y=17.880 }{PROP n="n105" Length=0.03 Width=0.42 Mult=1 }
+	{PIN N93=DRN CLK=GATE gnd!=SRC gnd!=BULK }}
+    {INST M387=n105 {TYPE MOS} {COORD x=0.456 y=17.880 }{PROP n="n105" Length=0.03 Width=0.42 Mult=1 }
+	{PIN X1<0>=DRN N93=GATE N106=SRC gnd!=BULK }}
+    {INST M1230=p105 {TYPE MOS} {COORD x=1.064 y=4.962 }{PROP n="p105" Length=0.03 Width=0.504 Mult=1 }
+	{PIN N262=DRN N6=GATE N17=SRC vdd!=BULK }}
+    {INST M1223=p105 {TYPE MOS} {COORD x=1.824 y=4.962 }{PROP n="p105" Length=0.03 Width=0.504 Mult=1 }
+	{PIN N262=DRN N6=GATE N27=SRC vdd!=BULK }}
+    {INST Parallel#193=n105 {TYPE MOS} {PROP Length=0.03 Width=0.94 }
+	{PIN gnd!=DRN N27=GATE N38=SRC gnd!=BULK }}
+    {INST Parallel#330=n105 {TYPE MOS} {PROP Length=0.03 Width=0.94 }
+	{PIN N134=DRN N120=GATE gnd!=SRC gnd!=BULK }}
+    {INST Parallel#129=p105 {TYPE MOS} {PROP Length=0.03 Width=0.754 }
+	{PIN N355=DRN N114=GATE vdd!=SRC vdd!=BULK }}
+    {INST M1054=p105 {TYPE MOS} {COORD x=0.760 y=17.122 }{PROP n="p105" Length=0.03 Width=0.504 Mult=1 }
+	{PIN vdd!=DRN N106=GATE N107=SRC vdd!=BULK }}
+    {INST Parallel#32=n105 {TYPE MOS} {PROP Length=0.03 Width=0.628 }
+	{PIN N316=DRN N107=GATE gnd!=SRC gnd!=BULK }}
+    {INST Parallel#299=n105 {TYPE MOS} {PROP Length=0.03 Width=0.628 }
+	{PIN N262=DRN N16=GATE gnd!=SRC gnd!=BULK }}
+    {INST M366=n105 {TYPE MOS} {COORD x=0.760 y=17.880 }{PROP n="n105" Length=0.03 Width=0.42 Mult=1 }
+	{PIN N107=DRN N106=GATE gnd!=SRC gnd!=BULK }}
+    {INST M1229=p105 {TYPE MOS} {COORD x=0.760 y=4.962 }{PROP n="p105" Length=0.03 Width=0.504 Mult=1 }
+	{PIN vdd!=DRN N17=GATE N16=SRC vdd!=BULK }}
+    {INST M596=n105 {TYPE MOS} {COORD x=0.760 y=5.720 }{PROP n="n105" Length=0.03 Width=0.42 Mult=1 }
+	{PIN gnd!=DRN N17=GATE N16=SRC gnd!=BULK }}
+    {INST Parallel#120=p105 {TYPE MOS} {PROP Length=0.03 Width=0.754 }
+	{PIN N316=DRN N107=GATE vdd!=SRC vdd!=BULK }}
+    {INST Parallel#7=p105 {TYPE MOS} {PROP Length=0.03 Width=0.754 }
+	{PIN N262=DRN N16=GATE vdd!=SRC vdd!=BULK }}
+}
+}

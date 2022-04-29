@@ -1,19 +1,39 @@
-one_bit_adder_Leg4 Level=0 Count=1
+if_neuron_shortRun Level=0 Count=1
+   four_bit_adder Level=1 Count=3
+      one_bit_adder Level=2 Count=12
+   d_flip_flop Level=1 Count=27
+   or3 Level=1 Count=1
+   and2 Level=1 Count=16
 
 +--------------------------------------------------------------------------+
 |                             CELL STATISTICS                              |
 +--------------------------------------------------------------------------+
 
 
-CELL = one_bit_adder_Leg4
+CELL = if_neuron_shortRun
 	Flat Placements      =	1
 
-TOP CELL = one_bit_adder_Leg4
-	Ports                =	7
+CELL = four_bit_adder
+	Flat Placements      =	3
+
+CELL = or3
+	Flat Placements      =	1
+
+CELL = and2
+	Flat Placements      =	16
+
+CELL = d_flip_flop
+	Flat Placements      =	27
+
+CELL = one_bit_adder
+	Flat Placements      =	12
+
+TOP CELL = if_neuron_shortRun
+	Ports                =	24
 
 +--------------------------------------------------------------------------+
 |                            DEVICE STATISTICS                             |
 +--------------------------------------------------------------------------+
 
-	NMOS[n105] = 14
-	PMOS[p105] = 14
+	NMOS[n105] = 409
+	PMOS[p105] = 409

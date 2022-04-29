@@ -1,0 +1,4 @@
+1 # number of partitions
+19320 0 # polygon count, overlap polygon count
+-53620 -53620 -53620 254480 254480 254480 # part_bottom cut_bottom lower_part_top upper_part_bottom cut_top part_top
+4 1 # overlap_dist, cut_thickness

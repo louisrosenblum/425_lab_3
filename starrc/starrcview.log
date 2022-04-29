@@ -1,0 +1,72 @@
+StarRC Parasitic Generation Cockpit
+Version: K-2015.06-SP1 (07/15/15 23:07)
+Apr 27 00:43:23 2022
+======================================
+FLOW: ICV
+LIBRARY: Lab4
+BLOCK: if_neuron_shortRun
+DFII_DEVICE_MAP: /afs/asu.edu/users/j/n/e/jneuenda/425_proj_final/425_lab_3/iPDK/starrc/saed32nm_1p9m_device.map
+DFII_LAYER_MAP: /afs/asu.edu/users/j/n/e/jneuenda/425_proj_final/425_lab_3/iPDK/starrc/saed32nm_1p9m_layer.map
+STARRC_RUNDIR: /afs/asu.edu/users/j/n/e/jneuenda/425_proj_final/425_lab_3/starrc/
+LVS_RUNDIR: /afs/asu.edu/users/j/n/e/jneuenda/425_proj_final/425_lab_3/lvs_new/
+
+Calibre Options
+
+* Extract Parasitics Options
+
+STAR_DIRECTORY: ./star
+REDUCTION: YES
+CASE_SENSITIVE: YES
+COUPLING_ABS_THRESHOLD: 3e-15
+COUPLING_REL_THRESHOLD: 0.03
+COUPLING_THRESHOLD_OPERATION: AND
+COUPLING_REPORT_NUMBER: 1000
+COUPLING_MULTIPLIER: 1.0
+XREF: NO
+DENSITY_BASED_THICKNESS: YES
+EXTRACT_VIA_CAPS: NO
+MODEL_TYPE: LAYOUT
+IGNORE_CAPACITANCE: ALL
+KEEP_VIA_NODES: NO
+MAGNIFY_DEVICE_PARAMS: YES
+MERGE_INSTANCE_PORTS: NO
+METAL_FILL_POLYGON_HANDLING: IGNORE
+MODE: 200
+MOS_GATE_DELTA_RESISTANCE: NO
+POWER_EXTRACT: NO
+REMOVE_DANGLING_NETS: NO
+REMOVE_FLOATING_NETS: NO
+SHORT_PINS: YES
+TRANSLATE_RETAIN_BULK_LAYERS: NO
+XREF_USE_LAYOUT_DEVICE_NAME: NO
+XREF_FEEDTHRU_NETS: NO
+
+* Netlist Additional Options
+
+NETLIST_COUPLE_UNSELECTED_NETS: NO
+NETLIST_CONNECT_OPENS: *
+NETLIST_INSTANCE_SECTION: SELECTED
+NETLIST_MINCAP_THRESHOLD: 0
+NETLIST_PARASITIC_RESISTOR_MODEL: NO
+NETLIST_TAIL_COMMENTS: NO
+NETLIST_TOTALCAP_THRESHOLD: 0
+NETLIST_MINRES_HANDLING: MERGE
+NETLIST_MINRES_THRESHOLD: 0
+NETLIST_SMC_FORMULA: NO
+TCAD_GRD_FILE: /afs/asu.edu/users/j/n/e/jneuenda/425_proj_final/425_lab_3/iPDK/starrc/nominal/saed32nm_1p9m_nominal.nxtgrd
+MAPPING_FILE: /afs/asu.edu/users/j/n/e/jneuenda/425_proj_final/425_lab_3/iPDK/starrc/saed32nm_1p9m_layer.map
+EXTRACTION: RC
+COUPLE_TO_GROUND: YES
+*EXTRA_CMD_FILE: /afs/asu.edu/users/j/n/e/jneuenda/425_proj_final/425_lab_3/iPDK/starrc/icv_cmd/saed32nm_1p9m_star_nominal.cmd
+NETLIST_GROUND_NODE_NAME: gnd!
+ICV_RUNSET_REPORT_FILE: /afs/asu.edu/users/j/n/e/jneuenda/425_proj_final/425_lab_3/lvs_new/pex_runset_report_file
+
+BLOCK: if_neuron_shortRun
+SKIP_CELLS: !* 
+PLACEMENT_INFO_FILE: YES
+PLACEMENT_INFO_FILE_NAME: devnodes.txt
+NETLIST_FORMAT: STAR
+NETLIST_FILE: /afs/asu.edu/users/j/n/e/jneuenda/425_proj_final/425_lab_3/netlist.spf
+NETLIST_NODE_SECTION: YES
+
+StarRC View Generation Result: Pass

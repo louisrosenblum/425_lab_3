@@ -1,0 +1,39 @@
+
+                                  PYDB_Server 
+
+          Version O-2018.06-SP1 for linux64 - Jul 23, 2018 cl#4289877
+
+                    Copyright (c) 2007 - 2018 Synopsys, Inc.
+   This software and the associated documentation are proprietary to Synopsys,
+ Inc. This software may only be used in accordance with the terms and conditions
+ of a written license agreement with Synopsys, Inc. All other use, reproduction,
+            or distribution of this software is strictly prohibited.
+
+variable width coordinate support enabled.
+Removing old database /afs/asu.edu/users/j/n/e/jneuenda/425_proj_final/425_lab_3/lvs_new/TOPCELLNAME_err/PYDB_if_neuron_shortRun
+Listening for connections on port 7175
+PYDB_Server Started on host eecad6.eas.asu.edu, Wed 04/27/2022 00:43:38
+Client eecad6.eas.asu.edu(1840):6 connected (1 total client)
+Verified current licenses.
+SQLite page_size=65536
+SQLite cache_size=65536
+SQLite mmap_size=0
+SQLite journal_mode=OFF
+SQLite version 3.10.0
+Client eecad6.eas.asu.edu(1906):15 connected (2 total clients)
+Client eecad6.eas.asu.edu(1907):16 connected (3 total clients)
+Client eecad6.eas.asu.edu(1907):16 disconnected (2 clients remain)
+Client eecad6.eas.asu.edu(1906):15 disconnected (1 client remains)
+Client eecad6.eas.asu.edu(1907):15 connected (2 total clients)
+Client eecad6.eas.asu.edu(1906):16 connected (3 total clients)
+Client eecad6.eas.asu.edu(1907):15 disconnected (2 clients remain)
+Client eecad6.eas.asu.edu(1907):15 connected (3 total clients)
+Client eecad6.eas.asu.edu(1907):15 disconnected (2 clients remain)
+Client eecad6.eas.asu.edu(1907):15 connected (3 total clients)
+Client eecad6.eas.asu.edu(1907):15 disconnected (2 clients remain)
+Client eecad6.eas.asu.edu(1906):16 disconnected (1 client remains)
+Generating /afs/asu.edu/users/j/n/e/jneuenda/425_proj_final/425_lab_3/lvs_new/if_neuron_shortRun.LAYOUT_ERRORS
+  Generation Time=0:00:00  User=0.00 Sys=0.00 Mem=0.507
+Shutdown requested by client eecad6.eas.asu.edu(1840):6
+0 clients remain connected
+Overall server Time=0:00:46  User=0.02 Sys=0.03 Mem=0.507 SQLite=6.523 Unpooled=0.000

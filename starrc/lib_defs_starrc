@@ -1,0 +1,9 @@
+DEFINE basic /usr/local/cadence/NCSU/SRC/FreePDK45/ncsu_basekit/lib/basic 
+DEFINE SAED_PDK_32_28 /afs/asu.edu/users/d/m/y/dmylsamy/Desktop/425_lab/iPDK/SAED_PDK_32_28 
+DEFINE sample /afs/asu.edu/users/d/m/y/dmylsamy/Desktop/425_lab/iPDK/sym_libs/sample 
+DEFINE analogLib /afs/asu.edu/users/d/m/y/dmylsamy/Desktop/425_lab/iPDK/sym_libs/analogLib 
+DEFINE saed32nm_rvt /afs/asu.edu/users/d/m/y/dmylsamy/Desktop/425_lab/saed32nm_rvt 
+DEFINE saed32nm_lvt /afs/asu.edu/users/d/m/y/dmylsamy/Desktop/425_lab/saed32nm_lvt 
+DEFINE saed32nm_hvt /afs/asu.edu/users/d/m/y/dmylsamy/Desktop/425_lab/saed32nm_hvt 
+DEFINE Dinesh_First /afs/asu.edu/users/d/m/y/dmylsamy/425_lab/Dinesh_First 
+DEFINE cdsDefTechLib /usr/local/cadence/IC617/tools/dfII/etc/cdsDefTechLib 

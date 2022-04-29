@@ -2,10 +2,10 @@
 Product   : Virtuoso(R) XStream Out
 Program   : @(#)$CDS: strmout version 6.1.7-64b 07/10/2018 19:55 (sjfhw317) $
           : sub-version  IC6.1.7-64b.500.21 
-Started at: 03-Apr-2022  22:08:02
+Started at: 27-Apr-2022  00:32:19
 User Name : jneuenda
-Host Name : eecad3.eas.asu.edu
-Directory : /afs/asu.edu/users/j/n/e/jneuenda/425_proj/425_lab
+Host Name : eecad6.eas.asu.edu
+Directory : /afs/asu.edu/users/j/n/e/jneuenda/425_proj_final/425_lab_3
 CADENCE Design Systems, Inc.
 ********************************************************************************
 Info: Cellview Rev Num:99,  Tech Rev Num:59
@@ -15,23 +15,28 @@ INFO (XSTRM-162): You have not used the viaMap option. If the OpenAccess design 
 
 Summary of Options :
 library                                 Lab4
-strmFile                                one_bit_adder_Leg4.gdsOut
-topCell                                 one_bit_adder_Leg4
+strmFile                                if_neuron_shortRun.gdsOut
+topCell                                 if_neuron_shortRun
 view                                    layout
-runDir                                  /afs/asu.edu/users/j/n/e/jneuenda/425_proj/425_lab/lvs
+runDir                                  /afs/asu.edu/users/j/n/e/jneuenda/425_proj_final/425_lab_3/lvs
 logFile                                 strmOut.log
 hierDepth                               32
 case                                    Preserve
 convertDot                              node
 
-INFO (XSTRM-223): 1. Translating cellView Lab4/one_bit_adder_Leg4/layout as STRUCTURE one_bit_adder_Leg4.
+INFO (XSTRM-223): 1. Translating cellView Lab4/d_flip_flop/layout as STRUCTURE d_flip_flop.
+INFO (XSTRM-223): 2. Translating cellView Lab4/and2/layout as STRUCTURE and2.
+INFO (XSTRM-223): 3. Translating cellView Lab4/one_bit_adder/layout as STRUCTURE one_bit_adder.
+INFO (XSTRM-223): 4. Translating cellView Lab4/four_bit_adder/layout as STRUCTURE four_bit_adder.
+INFO (XSTRM-223): 5. Translating cellView Lab4/or3/layout as STRUCTURE or3.
+INFO (XSTRM-223): 6. Translating cellView Lab4/if_neuron_shortRun/layout as STRUCTURE if_neuron_shortRun.
 
 Summary of Objects Translated:
-	Scalar Instances:                       0
+	Scalar Instances:                       51
 	Array Instances:                        0
 	Polygons:                               0
 	Paths:                                  0
-	Rectangles:                             251
+	Rectangles:                             1187
 	Lines:                                  0
 	Arcs:                                   0
 	Donuts:                                 0
@@ -46,10 +51,10 @@ Summary of Objects Translated:
 	Standard Vias                           0
 	Custom Vias:                            0
 	CdsGen Vias:                            0
-	Pathsegs:                               0
-	Text:                                   7
+	Pathsegs:                               169
+	Text:                                   62
 	TextDisplay:                            0
-	Cells:                                  1
+	Cells:                                  6
 
-Elapsed Time: 1.5s   User Time: 0.1s   CPU Time: 0.0s   Peak VM: 2072KB
+Elapsed Time: 1.6s   User Time: 0.1s   CPU Time: 0.0s   Peak VM: 2516KB
 INFO (XSTRM-234): Translation completed. '0' error(s) and '0' warning(s) found.

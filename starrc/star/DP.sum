@@ -1,0 +1,25 @@
+----------------------------------------------------------------------------------------------
+CPU#   | STAGE SUMMARY                                            |END TIME        |HOST NAME
+----------------------------------------------------------------------------------------------
+CPU_01 |*Layers              Elp=00:00:02 Cpu=00:00:00 Mem=293.7  |Apr 27 00:45:16 |eecad6.eas.asu.edu
+CPU_01 |*Models              Elp=00:00:00 Cpu=00:00:00 Mem=180.9  |Apr 27 00:45:18 |eecad6.eas.asu.edu
+CPU_01 |*HN                  Elp=00:00:01 Cpu=00:00:00 Mem=309.8  |Apr 27 00:45:22 |eecad6.eas.asu.edu
+CPU_01 |*XrefHN              Elp=00:00:01 Cpu=00:00:00 Mem=201.3  |Apr 27 00:45:25 |eecad6.eas.asu.edu
+CPU_01 |*Cells               Elp=00:00:03 Cpu=00:00:00 Mem=293.5  |Apr 27 00:45:30 |eecad6.eas.asu.edu
+CPU_01 |*Translate           Elp=00:00:02 Cpu=00:00:00 Mem=197.9  |Apr 27 00:45:34 |eecad6.eas.asu.edu
+CPU_01 |*XinMerge            Elp=00:00:01 Cpu=00:00:00 Mem=202    |Apr 27 00:45:36 |eecad6.eas.asu.edu
+CPU_01 |*Partition           Elp=00:00:08 Cpu=00:00:00 Mem=199.9  |Apr 27 00:45:44 |eecad6.eas.asu.edu
+CPU_01 |*PartitionPP         Elp=00:00:01 Cpu=00:00:00 Mem=181.6  |Apr 27 00:45:46 |eecad6.eas.asu.edu
+CPU_01 |*xTract              Elp=00:00:07 Cpu=00:00:03 Mem=293.9  |Apr 27 00:45:54 |eecad6.eas.asu.edu
+CPU_01 |*xTractPP            Elp=00:00:02 Cpu=00:00:00 Mem=179.8  |Apr 27 00:46:03 |eecad6.eas.asu.edu
+CPU_01 |*ReportViolations    Elp=00:00:00 Cpu=00:00:00 Mem=0      |Apr 27 00:46:06 |eecad6.eas.asu.edu
+CPU_01 |*Netlist             Elp=00:00:06 Cpu=00:00:00 Mem=215.6  |Apr 27 00:46:14 |eecad6.eas.asu.edu
+----------------------------------------------------------------------------------------------
+Start Time: Wed Apr 27 00:45:13 2022
+End Time: Wed Apr 27 00:46:19 2022
+----------------------------------------------------------------------------------------------
+Overall:         Elp=00:01:06  Cpu=00:00:04
+PreXtraction:    Elp=00:00:34  Cpu=00:00:00
+Xtraction:       Elp=00:00:07  Cpu=00:00:03
+PostXtraction:   Elp=00:00:25  Cpu=00:00:00
+----------------------------------------------------------------------------------------------

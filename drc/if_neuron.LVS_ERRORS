@@ -1,0 +1,3466 @@
++------------------------------------------------------------------------+
+|                    ICV_Compare LVS Comparison Report                   |
++------------------------------------------------------------------------+
+
+ICV_Compare (R) Hierarchical Layout Vs. Schematic
+	RHEL64 O-2018.06-SP1.4289877 2018/07/23
+Copyright (C) Synopsys, Inc. All rights reserved.
+
+
+--------------------------------------------------------------------------
+LVS error file     = if_neuron.LVS_ERRORS
+Layout error file  = if_neuron.LAYOUT_ERRORS
+Schematic netlist  = if_neuron.sch_out
+Layout netlist     = /afs/asu.edu/users/j/n/e/jneuenda/425_proj_final/425_lab_3/drc/if_neuron.net
+Runset file        = ../iPDK/icv/lvs/saed32nm_1p9m_lvs_rules.rs
+Working directory  = /afs/asu.edu/users/j/n/e/jneuenda/425_proj_final/425_lab_3/drc
+Compare directory  = run_details/compare
+Compare start time = 2022-04-25 01:13:58
+
+
+
+--------------------------------------------------------------------------
+Final comparison result:FAIL
+
+			######   ##   ##### #    
+			#       #  #    #   #    
+			#####  ######   #   #    
+			#      #    #   #   #    
+			#      #    # ##### #####
+
+
+TOP equivalence point:
+		[if_neuron, if_neuron]
+
+Comparison summary
+
+    0 successful equivalencies
+  * 1 failed equivalencies
+        1 first priority errors
+        0 second priority errors
+
+
+--------------------------------------------------------------------------
+
+
+FAILED equivalence point(s):
+		[if_neuron != if_neuron]
+
+
+
+
+
+
+
++------------------------------------------------------------------------+
+|                          First Priority Errors                         |
++------------------------------------------------------------------------+
+
+First priority errors are equivalence points that IC Validator has
+determined probably contain errors that need to be fixed first.
+
+==========================================================================
+
+> if_neuron != if_neuron (level = 0)
+
+Error summary:
+
+           2 unmatched schematic devices
+           1 unmatched schematic net 
+           2 unmatched layout devices
+          25 unmatched layout nets
+
+         816 matched devices
+         431 matched nets
+
+
+Post-compare summary (* = unmatched devices or nets):
+
+        Matched      Schematic    Layout           Instance types
+                     unmatched    unmatched        [schematic, layout]
+        ---------    ---------    ---------        --------------------
+              409            0            0        NMOS[n105, n105]
+              407            2            2      * PMOS[p105, p105]
+        ---------    ---------    ---------        --------------------
+              816            2            2      * Total instances
+
+              431            1           25      * Total nets
+
+
+
+Diagnostic summary:
+
+    1 potential open net in the layout
+    1 unmatched device group
+
+
+DIAGNOSTIC: Open layout nets
+
+    The following unmatched nets are highly suspected to indicate
+    source of opens in the layout netlist.
+
+    Group 1 of 1:
+
+        Schematic net : connections  		Layout net : connections
+        ---------------------------  		------------------------
+        vdd! : 702                              N452 : 7
+                                                N450 : 7
+                                                N455 : 7
+                                                N451 : 14
+                                                N453 : 14
+                                                N449 : 14
+                                                N439 : 14
+                                                N456 : 14
+                                                N445 : 14
+                                                N438 : 14
+                                                N447 : 14
+                                                N446 : 14
+                                                N454 : 18
+                                                N444 : 20
+                                                N443 : 20
+                                                N442 : 20
+                                                N441 : 20
+                                                N440 : 20
+                                                N436 : 20
+                                                N435 : 20
+                                                N434 : 20
+                                                N457 : 28
+                                                N437 : 28
+                                                N448 : 28
+                                                vdd! : 293
+
+    For all matched devices:  ! = unmatched net belonging to open net group 1
+                              * = other unmatched net
+
+    7 matched devices connected to open net N452.
+    --------------------------------------------------------------------
+
+    Instance 1 of 7:
+        Instance          Schematic                   Layout (20.640, 23.918)
+        --------------    ------------------------    ------------------------
+        Instance name     XI34/MM6                    M758
+        Instance type     PMOS[d_flip_flop/p105]      PMOS[p105]
+
+        Class             Schematic net (port)        Layout net (port)
+        --------------    ------------------------    ------------------------
+        42              ! vdd! (BULK)               ! N452 (BULK)
+
+
+    Instance 2 of 7:
+        Instance          Schematic                   Layout (19.880, 23.918)
+        --------------    ------------------------    ------------------------
+        Instance name     XI34/MM5                    M761
+        Instance type     PMOS[d_flip_flop/p105]      PMOS[p105]
+
+        Class             Schematic net (port)        Layout net (port)
+        --------------    ------------------------    ------------------------
+        42              ! vdd! (BULK)               ! N452 (BULK)
+
+
+    Instance 3 of 7:
+        Instance          Schematic                   Layout 
+        --------------    ------------------------    ------------------------
+        Instance name     XI34/MM2                    Parallel#31
+        Instance type     PMOS[d_flip_flop/p105]      PMOS[p105]
+
+        Class             Schematic net (port)        Layout net (port)
+        --------------    ------------------------    ------------------------
+        1               ! vdd! (SRC)                ! vdd! (SRC)
+        42              ! vdd! (BULK)               ! N452 (BULK)
+
+
+    Instance 4 of 7:
+        Instance          Schematic                   Layout (18.968, 23.918)
+        --------------    ------------------------    ------------------------
+        Instance name     XI34/MM14                   M799
+        Instance type     PMOS[d_flip_flop/p105]      PMOS[p105]
+
+        Class             Schematic net (port)        Layout net (port)
+        --------------    ------------------------    ------------------------
+        1               ! vdd! (SRC)                ! vdd! (DRN)
+        42              ! vdd! (BULK)               ! N452 (BULK)
+
+
+    Instance 5 of 7:
+        Instance          Schematic                   Layout 
+        --------------    ------------------------    ------------------------
+        Instance name     XI34/MM9                    Parallel#255
+        Instance type     PMOS[d_flip_flop/p105]      PMOS[p105]
+
+        Class             Schematic net (port)        Layout net (port)
+        --------------    ------------------------    ------------------------
+        1               ! vdd! (SRC)                ! vdd! (DRN)
+        42              ! vdd! (BULK)               ! N452 (BULK)
+
+
+    Instance 6 of 7:
+        Instance          Schematic                   Layout 
+        --------------    ------------------------    ------------------------
+        Instance name     XI34/MM7                    Parallel#37
+        Instance type     PMOS[d_flip_flop/p105]      PMOS[p105]
+
+        Class             Schematic net (port)        Layout net (port)
+        --------------    ------------------------    ------------------------
+        1               ! vdd! (SRC)                ! vdd! (DRN)
+        42              ! vdd! (BULK)               ! N452 (BULK)
+
+
+    Instance 7 of 7:
+        Instance          Schematic                   Layout (19.576, 23.918)
+        --------------    ------------------------    ------------------------
+        Instance name     XI34/MM1                    M800
+        Instance type     PMOS[d_flip_flop/p105]      PMOS[p105]
+
+        Class             Schematic net (port)        Layout net (port)
+        --------------    ------------------------    ------------------------
+        1               ! vdd! (SRC)                ! vdd! (DRN)
+        42              ! vdd! (BULK)               ! N452 (BULK)
+
+
+
+    7 matched devices connected to open net N450.
+    --------------------------------------------------------------------
+
+    Instance 1 of 7:
+        Instance          Schematic                   Layout (20.640, 11.796)
+        --------------    ------------------------    ------------------------
+        Instance name     XI39/MM6                    M778
+        Instance type     PMOS[d_flip_flop/p105]      PMOS[p105]
+
+        Class             Schematic net (port)        Layout net (port)
+        --------------    ------------------------    ------------------------
+        42              ! vdd! (BULK)               ! N450 (BULK)
+
+
+    Instance 2 of 7:
+        Instance          Schematic                   Layout (19.880, 11.796)
+        --------------    ------------------------    ------------------------
+        Instance name     XI39/MM5                    M781
+        Instance type     PMOS[d_flip_flop/p105]      PMOS[p105]
+
+        Class             Schematic net (port)        Layout net (port)
+        --------------    ------------------------    ------------------------
+        42              ! vdd! (BULK)               ! N450 (BULK)
+
+
+    Instance 3 of 7:
+        Instance          Schematic                   Layout 
+        --------------    ------------------------    ------------------------
+        Instance name     XI39/MM7                    Parallel#256
+        Instance type     PMOS[d_flip_flop/p105]      PMOS[p105]
+
+        Class             Schematic net (port)        Layout net (port)
+        --------------    ------------------------    ------------------------
+        1               ! vdd! (SRC)                ! vdd! (DRN)
+        42              ! vdd! (BULK)               ! N450 (BULK)
+
+
+    Instance 4 of 7:
+        Instance          Schematic                   Layout (18.968, 11.796)
+        --------------    ------------------------    ------------------------
+        Instance name     XI39/MM14                   M805
+        Instance type     PMOS[d_flip_flop/p105]      PMOS[p105]
+
+        Class             Schematic net (port)        Layout net (port)
+        --------------    ------------------------    ------------------------
+        1               ! vdd! (SRC)                ! vdd! (DRN)
+        42              ! vdd! (BULK)               ! N450 (BULK)
+
+
+    Instance 5 of 7:
+        Instance          Schematic                   Layout 
+        --------------    ------------------------    ------------------------
+        Instance name     XI39/MM9                    Parallel#262
+        Instance type     PMOS[d_flip_flop/p105]      PMOS[p105]
+
+        Class             Schematic net (port)        Layout net (port)
+        --------------    ------------------------    ------------------------
+        1               ! vdd! (SRC)                ! vdd! (DRN)
+        42              ! vdd! (BULK)               ! N450 (BULK)
+
+
+    Instance 6 of 7:
+        Instance          Schematic                   Layout (19.576, 11.796)
+        --------------    ------------------------    ------------------------
+        Instance name     XI39/MM1                    M806
+        Instance type     PMOS[d_flip_flop/p105]      PMOS[p105]
+
+        Class             Schematic net (port)        Layout net (port)
+        --------------    ------------------------    ------------------------
+        1               ! vdd! (SRC)                ! vdd! (DRN)
+        42              ! vdd! (BULK)               ! N450 (BULK)
+
+
+    Instance 7 of 7:
+        Instance          Schematic                   Layout 
+        --------------    ------------------------    ------------------------
+        Instance name     XI39/MM2                    Parallel#321
+        Instance type     PMOS[d_flip_flop/p105]      PMOS[p105]
+
+        Class             Schematic net (port)        Layout net (port)
+        --------------    ------------------------    ------------------------
+        1               ! vdd! (SRC)                ! vdd! (SRC)
+        42              ! vdd! (BULK)               ! N450 (BULK)
+
+
+
+    7 matched devices connected to open net N455.
+    --------------------------------------------------------------------
+
+    Instance 1 of 7:
+        Instance          Schematic                   Layout 
+        --------------    ------------------------    ------------------------
+        Instance name     XI46/MM7                    Parallel#293
+        Instance type     PMOS[d_flip_flop/p105]      PMOS[p105]
+
+        Class             Schematic net (port)        Layout net (port)
+        --------------    ------------------------    ------------------------
+        1               ! vdd! (SRC)                ! vdd! (DRN)
+        42              ! vdd! (BULK)               ! N455 (BULK)
+
+
+    Instance 2 of 7:
+        Instance          Schematic                   Layout (30.812, 13.216)
+        --------------    ------------------------    ------------------------
+        Instance name     XI46/MM6                    M694
+        Instance type     PMOS[d_flip_flop/p105]      PMOS[p105]
+
+        Class             Schematic net (port)        Layout net (port)
+        --------------    ------------------------    ------------------------
+        42              ! vdd! (BULK)               ! N455 (BULK)
+
+
+    Instance 3 of 7:
+        Instance          Schematic                   Layout (31.572, 13.216)
+        --------------    ------------------------    ------------------------
+        Instance name     XI46/MM5                    M654
+        Instance type     PMOS[d_flip_flop/p105]      PMOS[p105]
+
+        Class             Schematic net (port)        Layout net (port)
+        --------------    ------------------------    ------------------------
+        42              ! vdd! (BULK)               ! N455 (BULK)
+
+
+    Instance 4 of 7:
+        Instance          Schematic                   Layout (32.484, 13.216)
+        --------------    ------------------------    ------------------------
+        Instance name     XI46/MM14                   M652
+        Instance type     PMOS[d_flip_flop/p105]      PMOS[p105]
+
+        Class             Schematic net (port)        Layout net (port)
+        --------------    ------------------------    ------------------------
+        1               ! vdd! (SRC)                ! vdd! (DRN)
+        42              ! vdd! (BULK)               ! N455 (BULK)
+
+
+    Instance 5 of 7:
+        Instance          Schematic                   Layout 
+        --------------    ------------------------    ------------------------
+        Instance name     XI46/MM9                    Parallel#100
+        Instance type     PMOS[d_flip_flop/p105]      PMOS[p105]
+
+        Class             Schematic net (port)        Layout net (port)
+        --------------    ------------------------    ------------------------
+        1               ! vdd! (SRC)                ! vdd! (SRC)
+        42              ! vdd! (BULK)               ! N455 (BULK)
+
+
+    Instance 6 of 7:
+        Instance          Schematic                   Layout 
+        --------------    ------------------------    ------------------------
+        Instance name     XI46/MM2                    Parallel#7
+        Instance type     PMOS[d_flip_flop/p105]      PMOS[p105]
+
+        Class             Schematic net (port)        Layout net (port)
+        --------------    ------------------------    ------------------------
+        1               ! vdd! (SRC)                ! vdd! (SRC)
+        42              ! vdd! (BULK)               ! N455 (BULK)
+
+
+    Instance 7 of 7:
+        Instance          Schematic                   Layout (31.876, 13.216)
+        --------------    ------------------------    ------------------------
+        Instance name     XI46/MM1                    M653
+        Instance type     PMOS[d_flip_flop/p105]      PMOS[p105]
+
+        Class             Schematic net (port)        Layout net (port)
+        --------------    ------------------------    ------------------------
+        1               ! vdd! (SRC)                ! vdd! (DRN)
+        42              ! vdd! (BULK)               ! N455 (BULK)
+
+
+
+    14 matched devices connected to open net N451.
+    --------------------------------------------------------------------
+
+    Instance 1 of 14:
+        Instance          Schematic                   Layout 
+        --------------    ------------------------    ------------------------
+        Instance name     XI36/MM7                    Parallel#253
+        Instance type     PMOS[d_flip_flop/p105]      PMOS[p105]
+
+        Class             Schematic net (port)        Layout net (port)
+        --------------    ------------------------    ------------------------
+        1               ! vdd! (SRC)                ! vdd! (DRN)
+        42              ! vdd! (BULK)               ! N451 (BULK)
+
+
+    Instance 2 of 14:
+        Instance          Schematic                   Layout (20.640, 20.878)
+        --------------    ------------------------    ------------------------
+        Instance name     XI36/MM6                    M764
+        Instance type     PMOS[d_flip_flop/p105]      PMOS[p105]
+
+        Class             Schematic net (port)        Layout net (port)
+        --------------    ------------------------    ------------------------
+        42              ! vdd! (BULK)               ! N451 (BULK)
+
+
+    Instance 3 of 14:
+        Instance          Schematic                   Layout (20.640, 21.682)
+        --------------    ------------------------    ------------------------
+        Instance name     XI35/MM6                    M769
+        Instance type     PMOS[d_flip_flop/p105]      PMOS[p105]
+
+        Class             Schematic net (port)        Layout net (port)
+        --------------    ------------------------    ------------------------
+        42              ! vdd! (BULK)               ! N451 (BULK)
+
+
+    Instance 4 of 14:
+        Instance          Schematic                   Layout (19.880, 21.682)
+        --------------    ------------------------    ------------------------
+        Instance name     XI35/MM5                    M773
+        Instance type     PMOS[d_flip_flop/p105]      PMOS[p105]
+
+        Class             Schematic net (port)        Layout net (port)
+        --------------    ------------------------    ------------------------
+        42              ! vdd! (BULK)               ! N451 (BULK)
+
+
+    Instance 5 of 14:
+        Instance          Schematic                   Layout 
+        --------------    ------------------------    ------------------------
+        Instance name     XI36/MM2                    Parallel#234
+        Instance type     PMOS[d_flip_flop/p105]      PMOS[p105]
+
+        Class             Schematic net (port)        Layout net (port)
+        --------------    ------------------------    ------------------------
+        1               ! vdd! (SRC)                ! vdd! (SRC)
+        42              ! vdd! (BULK)               ! N451 (BULK)
+
+
+    Instance 6 of 14:
+        Instance          Schematic                   Layout (19.576, 20.878)
+        --------------    ------------------------    ------------------------
+        Instance name     XI36/MM1                    M802
+        Instance type     PMOS[d_flip_flop/p105]      PMOS[p105]
+
+        Class             Schematic net (port)        Layout net (port)
+        --------------    ------------------------    ------------------------
+        1               ! vdd! (SRC)                ! vdd! (DRN)
+        42              ! vdd! (BULK)               ! N451 (BULK)
+
+
+    Instance 7 of 14:
+        Instance          Schematic                   Layout (18.968, 20.878)
+        --------------    ------------------------    ------------------------
+        Instance name     XI36/MM14                   M801
+        Instance type     PMOS[d_flip_flop/p105]      PMOS[p105]
+
+        Class             Schematic net (port)        Layout net (port)
+        --------------    ------------------------    ------------------------
+        1               ! vdd! (SRC)                ! vdd! (DRN)
+        42              ! vdd! (BULK)               ! N451 (BULK)
+
+
+    Instance 8 of 14:
+        Instance          Schematic                   Layout (18.968, 21.682)
+        --------------    ------------------------    ------------------------
+        Instance name     XI35/MM14                   M803
+        Instance type     PMOS[d_flip_flop/p105]      PMOS[p105]
+
+        Class             Schematic net (port)        Layout net (port)
+        --------------    ------------------------    ------------------------
+        1               ! vdd! (SRC)                ! vdd! (DRN)
+        42              ! vdd! (BULK)               ! N451 (BULK)
+
+
+    Instance 9 of 14:
+        Instance          Schematic                   Layout 
+        --------------    ------------------------    ------------------------
+        Instance name     XI35/MM9                    Parallel#300
+        Instance type     PMOS[d_flip_flop/p105]      PMOS[p105]
+
+        Class             Schematic net (port)        Layout net (port)
+        --------------    ------------------------    ------------------------
+        1               ! vdd! (SRC)                ! vdd! (DRN)
+        42              ! vdd! (BULK)               ! N451 (BULK)
+
+
+    Instance 10 of 14:
+        Instance          Schematic                   Layout 
+        --------------    ------------------------    ------------------------
+        Instance name     XI35/MM2                    Parallel#4
+        Instance type     PMOS[d_flip_flop/p105]      PMOS[p105]
+
+        Class             Schematic net (port)        Layout net (port)
+        --------------    ------------------------    ------------------------
+        1               ! vdd! (SRC)                ! vdd! (SRC)
+        42              ! vdd! (BULK)               ! N451 (BULK)
+
+
+    NOTE: The number of instances exceeds print_devices_per_net_max (10).
+          The remaining instances are truncated.
+
+
+    14 matched devices connected to open net N453.
+    --------------------------------------------------------------------
+
+    Instance 1 of 14:
+        Instance          Schematic                   Layout (18.968, 18.642)
+        --------------    ------------------------    ------------------------
+        Instance name     XI37/MM14                   M797
+        Instance type     PMOS[d_flip_flop/p105]      PMOS[p105]
+
+        Class             Schematic net (port)        Layout net (port)
+        --------------    ------------------------    ------------------------
+        1               ! vdd! (SRC)                ! vdd! (DRN)
+        42              ! vdd! (BULK)               ! N453 (BULK)
+
+
+    Instance 2 of 14:
+        Instance          Schematic                   Layout (19.880, 18.642)
+        --------------    ------------------------    ------------------------
+        Instance name     XI37/MM5                    M755
+        Instance type     PMOS[d_flip_flop/p105]      PMOS[p105]
+
+        Class             Schematic net (port)        Layout net (port)
+        --------------    ------------------------    ------------------------
+        42              ! vdd! (BULK)               ! N453 (BULK)
+
+
+    Instance 3 of 14:
+        Instance          Schematic                   Layout 
+        --------------    ------------------------    ------------------------
+        Instance name     XI37/MM2                    Parallel#238
+        Instance type     PMOS[d_flip_flop/p105]      PMOS[p105]
+
+        Class             Schematic net (port)        Layout net (port)
+        --------------    ------------------------    ------------------------
+        1               ! vdd! (SRC)                ! vdd! (SRC)
+        42              ! vdd! (BULK)               ! N453 (BULK)
+
+
+    Instance 4 of 14:
+        Instance          Schematic                   Layout (19.880, 17.838)
+        --------------    ------------------------    ------------------------
+        Instance name     XI38/MM5                    M754
+        Instance type     PMOS[d_flip_flop/p105]      PMOS[p105]
+
+        Class             Schematic net (port)        Layout net (port)
+        --------------    ------------------------    ------------------------
+        42              ! vdd! (BULK)               ! N453 (BULK)
+
+
+    Instance 5 of 14:
+        Instance          Schematic                   Layout 
+        --------------    ------------------------    ------------------------
+        Instance name     XI38/MM2                    Parallel#126
+        Instance type     PMOS[d_flip_flop/p105]      PMOS[p105]
+
+        Class             Schematic net (port)        Layout net (port)
+        --------------    ------------------------    ------------------------
+        1               ! vdd! (SRC)                ! vdd! (SRC)
+        42              ! vdd! (BULK)               ! N453 (BULK)
+
+
+    Instance 6 of 14:
+        Instance          Schematic                   Layout (19.576, 18.642)
+        --------------    ------------------------    ------------------------
+        Instance name     XI37/MM1                    M798
+        Instance type     PMOS[d_flip_flop/p105]      PMOS[p105]
+
+        Class             Schematic net (port)        Layout net (port)
+        --------------    ------------------------    ------------------------
+        1               ! vdd! (SRC)                ! vdd! (DRN)
+        42              ! vdd! (BULK)               ! N453 (BULK)
+
+
+    Instance 7 of 14:
+        Instance          Schematic                   Layout (18.968, 17.838)
+        --------------    ------------------------    ------------------------
+        Instance name     XI38/MM14                   M795
+        Instance type     PMOS[d_flip_flop/p105]      PMOS[p105]
+
+        Class             Schematic net (port)        Layout net (port)
+        --------------    ------------------------    ------------------------
+        1               ! vdd! (SRC)                ! vdd! (DRN)
+        42              ! vdd! (BULK)               ! N453 (BULK)
+
+
+    Instance 8 of 14:
+        Instance          Schematic                   Layout 
+        --------------    ------------------------    ------------------------
+        Instance name     XI38/MM9                    Parallel#1
+        Instance type     PMOS[d_flip_flop/p105]      PMOS[p105]
+
+        Class             Schematic net (port)        Layout net (port)
+        --------------    ------------------------    ------------------------
+        1               ! vdd! (SRC)                ! vdd! (DRN)
+        42              ! vdd! (BULK)               ! N453 (BULK)
+
+
+    Instance 9 of 14:
+        Instance          Schematic                   Layout 
+        --------------    ------------------------    ------------------------
+        Instance name     XI37/MM9                    Parallel#131
+        Instance type     PMOS[d_flip_flop/p105]      PMOS[p105]
+
+        Class             Schematic net (port)        Layout net (port)
+        --------------    ------------------------    ------------------------
+        1               ! vdd! (SRC)                ! vdd! (DRN)
+        42              ! vdd! (BULK)               ! N453 (BULK)
+
+
+    Instance 10 of 14:
+        Instance          Schematic                   Layout 
+        --------------    ------------------------    ------------------------
+        Instance name     XI37/MM7                    Parallel#28
+        Instance type     PMOS[d_flip_flop/p105]      PMOS[p105]
+
+        Class             Schematic net (port)        Layout net (port)
+        --------------    ------------------------    ------------------------
+        1               ! vdd! (SRC)                ! vdd! (DRN)
+        42              ! vdd! (BULK)               ! N453 (BULK)
+
+
+    NOTE: The number of instances exceeds print_devices_per_net_max (10).
+          The remaining instances are truncated.
+
+
+    14 matched devices connected to open net N449.
+    --------------------------------------------------------------------
+
+    Instance 1 of 14:
+        Instance          Schematic                   Layout (20.640, 8.756)
+        --------------    ------------------------    ------------------------
+        Instance name     XI41/MM6                    M791
+        Instance type     PMOS[d_flip_flop/p105]      PMOS[p105]
+
+        Class             Schematic net (port)        Layout net (port)
+        --------------    ------------------------    ------------------------
+        42              ! vdd! (BULK)               ! N449 (BULK)
+
+
+    Instance 2 of 14:
+        Instance          Schematic                   Layout (19.880, 9.560)
+        --------------    ------------------------    ------------------------
+        Instance name     XI40/MM5                    M787
+        Instance type     PMOS[d_flip_flop/p105]      PMOS[p105]
+
+        Class             Schematic net (port)        Layout net (port)
+        --------------    ------------------------    ------------------------
+        42              ! vdd! (BULK)               ! N449 (BULK)
+
+
+    Instance 3 of 14:
+        Instance          Schematic                   Layout (18.968, 9.560)
+        --------------    ------------------------    ------------------------
+        Instance name     XI40/MM14                   M807
+        Instance type     PMOS[d_flip_flop/p105]      PMOS[p105]
+
+        Class             Schematic net (port)        Layout net (port)
+        --------------    ------------------------    ------------------------
+        1               ! vdd! (SRC)                ! vdd! (DRN)
+        42              ! vdd! (BULK)               ! N449 (BULK)
+
+
+    Instance 4 of 14:
+        Instance          Schematic                   Layout (18.968, 8.756)
+        --------------    ------------------------    ------------------------
+        Instance name     XI41/MM14                   M809
+        Instance type     PMOS[d_flip_flop/p105]      PMOS[p105]
+
+        Class             Schematic net (port)        Layout net (port)
+        --------------    ------------------------    ------------------------
+        1               ! vdd! (SRC)                ! vdd! (DRN)
+        42              ! vdd! (BULK)               ! N449 (BULK)
+
+
+    Instance 5 of 14:
+        Instance          Schematic                   Layout (19.880, 8.756)
+        --------------    ------------------------    ------------------------
+        Instance name     XI41/MM5                    M794
+        Instance type     PMOS[d_flip_flop/p105]      PMOS[p105]
+
+        Class             Schematic net (port)        Layout net (port)
+        --------------    ------------------------    ------------------------
+        42              ! vdd! (BULK)               ! N449 (BULK)
+
+
+    Instance 6 of 14:
+        Instance          Schematic                   Layout 
+        --------------    ------------------------    ------------------------
+        Instance name     XI41/MM2                    Parallel#134
+        Instance type     PMOS[d_flip_flop/p105]      PMOS[p105]
+
+        Class             Schematic net (port)        Layout net (port)
+        --------------    ------------------------    ------------------------
+        1               ! vdd! (SRC)                ! vdd! (SRC)
+        42              ! vdd! (BULK)               ! N449 (BULK)
+
+
+    Instance 7 of 14:
+        Instance          Schematic                   Layout 
+        --------------    ------------------------    ------------------------
+        Instance name     XI40/MM2                    Parallel#10
+        Instance type     PMOS[d_flip_flop/p105]      PMOS[p105]
+
+        Class             Schematic net (port)        Layout net (port)
+        --------------    ------------------------    ------------------------
+        1               ! vdd! (SRC)                ! vdd! (SRC)
+        42              ! vdd! (BULK)               ! N449 (BULK)
+
+
+    Instance 8 of 14:
+        Instance          Schematic                   Layout (19.576, 9.560)
+        --------------    ------------------------    ------------------------
+        Instance name     XI40/MM1                    M808
+        Instance type     PMOS[d_flip_flop/p105]      PMOS[p105]
+
+        Class             Schematic net (port)        Layout net (port)
+        --------------    ------------------------    ------------------------
+        1               ! vdd! (SRC)                ! vdd! (DRN)
+        42              ! vdd! (BULK)               ! N449 (BULK)
+
+
+    Instance 9 of 14:
+        Instance          Schematic                   Layout (19.576, 8.756)
+        --------------    ------------------------    ------------------------
+        Instance name     XI41/MM1                    M810
+        Instance type     PMOS[d_flip_flop/p105]      PMOS[p105]
+
+        Class             Schematic net (port)        Layout net (port)
+        --------------    ------------------------    ------------------------
+        1               ! vdd! (SRC)                ! vdd! (DRN)
+        42              ! vdd! (BULK)               ! N449 (BULK)
+
+
+    Instance 10 of 14:
+        Instance          Schematic                   Layout 
+        --------------    ------------------------    ------------------------
+        Instance name     XI41/MM9                    Parallel#206
+        Instance type     PMOS[d_flip_flop/p105]      PMOS[p105]
+
+        Class             Schematic net (port)        Layout net (port)
+        --------------    ------------------------    ------------------------
+        1               ! vdd! (SRC)                ! vdd! (DRN)
+        42              ! vdd! (BULK)               ! N449 (BULK)
+
+
+    NOTE: The number of instances exceeds print_devices_per_net_max (10).
+          The remaining instances are truncated.
+
+
+    14 matched devices connected to open net N439.
+    --------------------------------------------------------------------
+
+    Instance 1 of 14:
+        Instance          Schematic                   Layout (19.576, 5.716)
+        --------------    ------------------------    ------------------------
+        Instance name     XI43/MM1                    M1117
+        Instance type     PMOS[d_flip_flop/p105]      PMOS[p105]
+
+        Class             Schematic net (port)        Layout net (port)
+        --------------    ------------------------    ------------------------
+        1               ! vdd! (SRC)                ! vdd! (DRN)
+        42              ! vdd! (BULK)               ! N439 (BULK)
+
+
+    Instance 2 of 14:
+        Instance          Schematic                   Layout 
+        --------------    ------------------------    ------------------------
+        Instance name     XI43/MM2                    Parallel#188
+        Instance type     PMOS[d_flip_flop/p105]      PMOS[p105]
+
+        Class             Schematic net (port)        Layout net (port)
+        --------------    ------------------------    ------------------------
+        1               ! vdd! (SRC)                ! vdd! (SRC)
+        42              ! vdd! (BULK)               ! N439 (BULK)
+
+
+    Instance 3 of 14:
+        Instance          Schematic                   Layout (19.576, 6.520)
+        --------------    ------------------------    ------------------------
+        Instance name     XI42/MM1                    M1119
+        Instance type     PMOS[d_flip_flop/p105]      PMOS[p105]
+
+        Class             Schematic net (port)        Layout net (port)
+        --------------    ------------------------    ------------------------
+        1               ! vdd! (SRC)                ! vdd! (DRN)
+        42              ! vdd! (BULK)               ! N439 (BULK)
+
+
+    Instance 4 of 14:
+        Instance          Schematic                   Layout (20.640, 6.520)
+        --------------    ------------------------    ------------------------
+        Instance name     XI42/MM6                    M1111
+        Instance type     PMOS[d_flip_flop/p105]      PMOS[p105]
+
+        Class             Schematic net (port)        Layout net (port)
+        --------------    ------------------------    ------------------------
+        42              ! vdd! (BULK)               ! N439 (BULK)
+
+
+    Instance 5 of 14:
+        Instance          Schematic                   Layout (20.640, 5.716)
+        --------------    ------------------------    ------------------------
+        Instance name     XI43/MM6                    M1106
+        Instance type     PMOS[d_flip_flop/p105]      PMOS[p105]
+
+        Class             Schematic net (port)        Layout net (port)
+        --------------    ------------------------    ------------------------
+        42              ! vdd! (BULK)               ! N439 (BULK)
+
+
+    Instance 6 of 14:
+        Instance          Schematic                   Layout (19.880, 5.716)
+        --------------    ------------------------    ------------------------
+        Instance name     XI43/MM5                    M1114
+        Instance type     PMOS[d_flip_flop/p105]      PMOS[p105]
+
+        Class             Schematic net (port)        Layout net (port)
+        --------------    ------------------------    ------------------------
+        42              ! vdd! (BULK)               ! N439 (BULK)
+
+
+    Instance 7 of 14:
+        Instance          Schematic                   Layout 
+        --------------    ------------------------    ------------------------
+        Instance name     XI43/MM7                    Parallel#144
+        Instance type     PMOS[d_flip_flop/p105]      PMOS[p105]
+
+        Class             Schematic net (port)        Layout net (port)
+        --------------    ------------------------    ------------------------
+        1               ! vdd! (SRC)                ! vdd! (DRN)
+        42              ! vdd! (BULK)               ! N439 (BULK)
+
+
+    Instance 8 of 14:
+        Instance          Schematic                   Layout (19.880, 6.520)
+        --------------    ------------------------    ------------------------
+        Instance name     XI42/MM5                    M1115
+        Instance type     PMOS[d_flip_flop/p105]      PMOS[p105]
+
+        Class             Schematic net (port)        Layout net (port)
+        --------------    ------------------------    ------------------------
+        42              ! vdd! (BULK)               ! N439 (BULK)
+
+
+    Instance 9 of 14:
+        Instance          Schematic                   Layout 
+        --------------    ------------------------    ------------------------
+        Instance name     XI42/MM2                    Parallel#65
+        Instance type     PMOS[d_flip_flop/p105]      PMOS[p105]
+
+        Class             Schematic net (port)        Layout net (port)
+        --------------    ------------------------    ------------------------
+        1               ! vdd! (SRC)                ! vdd! (SRC)
+        42              ! vdd! (BULK)               ! N439 (BULK)
+
+
+    Instance 10 of 14:
+        Instance          Schematic                   Layout (18.968, 6.520)
+        --------------    ------------------------    ------------------------
+        Instance name     XI42/MM14                   M1118
+        Instance type     PMOS[d_flip_flop/p105]      PMOS[p105]
+
+        Class             Schematic net (port)        Layout net (port)
+        --------------    ------------------------    ------------------------
+        1               ! vdd! (SRC)                ! vdd! (DRN)
+        42              ! vdd! (BULK)               ! N439 (BULK)
+
+
+    NOTE: The number of instances exceeds print_devices_per_net_max (10).
+          The remaining instances are truncated.
+
+
+    14 matched devices connected to open net N456.
+    --------------------------------------------------------------------
+
+    Instance 1 of 14:
+        Instance          Schematic                   Layout 
+        --------------    ------------------------    ------------------------
+        Instance name     XI44/XI0/MM26               Parallel#16
+        Instance type     PMOS[four_bit_adder/one_    PMOS[p105]
+                            bit_adder/p105]             
+
+        Class             Schematic net (port)        Layout net (port)
+        --------------    ------------------------    ------------------------
+        1               ! vdd! (SRC)                ! vdd! (SRC)
+        42              ! vdd! (BULK)               ! N456 (BULK)
+
+
+    Instance 2 of 14:
+        Instance          Schematic                   Layout 
+        --------------    ------------------------    ------------------------
+        Instance name     XI44/XI0/MM22               Parallel#314
+        Instance type     PMOS[four_bit_adder/one_    PMOS[p105]
+                            bit_adder/p105]             
+
+        Class             Schematic net (port)        Layout net (port)
+        --------------    ------------------------    ------------------------
+        42              ! vdd! (BULK)               ! N456 (BULK)
+
+
+    Instance 3 of 14:
+        Instance          Schematic                   Layout (31.116, 21.519)
+        --------------    ------------------------    ------------------------
+        Instance name     XI44/XI0/MM14               M690
+        Instance type     PMOS[four_bit_adder/one_    PMOS[p105]
+                            bit_adder/p105]             
+
+        Class             Schematic net (port)        Layout net (port)
+        --------------    ------------------------    ------------------------
+        1               ! vdd! (SRC)                ! vdd! (SRC)
+        42              ! vdd! (BULK)               ! N456 (BULK)
+
+
+    Instance 4 of 14:
+        Instance          Schematic                   Layout (30.204, 21.533)
+        --------------    ------------------------    ------------------------
+        Instance name     XI44/XI0/MM3                M684
+        Instance type     PMOS[four_bit_adder/one_    PMOS[p105]
+                            bit_adder/p105]             
+
+        Class             Schematic net (port)        Layout net (port)
+        --------------    ------------------------    ------------------------
+        1               ! vdd! (SRC)                ! vdd! (SRC)
+        42              ! vdd! (BULK)               ! N456 (BULK)
+
+
+    Instance 5 of 14:
+        Instance          Schematic                   Layout (30.964, 21.519)
+        --------------    ------------------------    ------------------------
+        Instance name     XI44/XI0/MM13               M689
+        Instance type     PMOS[four_bit_adder/one_    PMOS[p105]
+                            bit_adder/p105]             
+
+        Class             Schematic net (port)        Layout net (port)
+        --------------    ------------------------    ------------------------
+        1               ! vdd! (SRC)                ! vdd! (SRC)
+        42              ! vdd! (BULK)               ! N456 (BULK)
+
+
+    Instance 6 of 14:
+        Instance          Schematic                   Layout (30.812, 21.519)
+        --------------    ------------------------    ------------------------
+        Instance name     XI44/XI0/MM12               M688
+        Instance type     PMOS[four_bit_adder/one_    PMOS[p105]
+                            bit_adder/p105]             
+
+        Class             Schematic net (port)        Layout net (port)
+        --------------    ------------------------    ------------------------
+        1               ! vdd! (SRC)                ! vdd! (SRC)
+        42              ! vdd! (BULK)               ! N456 (BULK)
+
+
+    Instance 7 of 14:
+        Instance          Schematic                   Layout 
+        --------------    ------------------------    ------------------------
+        Instance name     XI44/XI0/MM21               Parallel#296
+        Instance type     PMOS[four_bit_adder/one_    PMOS[p105]
+                            bit_adder/p105]             
+
+        Class             Schematic net (port)        Layout net (port)
+        --------------    ------------------------    ------------------------
+        42              ! vdd! (BULK)               ! N456 (BULK)
+
+
+    Instance 8 of 14:
+        Instance          Schematic                   Layout (30.508, 21.533)
+        --------------    ------------------------    ------------------------
+        Instance name     XI44/XI0/MM10               M687
+        Instance type     PMOS[four_bit_adder/one_    PMOS[p105]
+                            bit_adder/p105]             
+
+        Class             Schematic net (port)        Layout net (port)
+        --------------    ------------------------    ------------------------
+        1               ! vdd! (SRC)                ! vdd! (DRN)
+        42              ! vdd! (BULK)               ! N456 (BULK)
+
+
+    Instance 9 of 14:
+        Instance          Schematic                   Layout (29.596, 21.659)
+        --------------    ------------------------    ------------------------
+        Instance name     XI44/XI0/MM2                M683
+        Instance type     PMOS[four_bit_adder/one_    PMOS[p105]
+                            bit_adder/p105]             
+
+        Class             Schematic net (port)        Layout net (port)
+        --------------    ------------------------    ------------------------
+        1               ! vdd! (SRC)                ! vdd! (SRC)
+        42              ! vdd! (BULK)               ! N456 (BULK)
+
+
+    Instance 10 of 14:
+        Instance          Schematic                   Layout (29.444, 21.659)
+        --------------    ------------------------    ------------------------
+        Instance name     XI44/XI0/MM0                M719
+        Instance type     PMOS[four_bit_adder/one_    PMOS[p105]
+                            bit_adder/p105]             
+
+        Class             Schematic net (port)        Layout net (port)
+        --------------    ------------------------    ------------------------
+        1               ! vdd! (SRC)                ! vdd! (SRC)
+        42              ! vdd! (BULK)               ! N456 (BULK)
+
+
+    NOTE: The number of instances exceeds print_devices_per_net_max (10).
+          The remaining instances are truncated.
+
+
+    14 matched devices connected to open net N445.
+    --------------------------------------------------------------------
+
+    Instance 1 of 14:
+        Instance          Schematic                   Layout 
+        --------------    ------------------------    ------------------------
+        Instance name     XI33/XI0/MM22               Parallel#337
+        Instance type     PMOS[four_bit_adder/one_    PMOS[p105]
+                            bit_adder/p105]             
+
+        Class             Schematic net (port)        Layout net (port)
+        --------------    ------------------------    ------------------------
+        42              ! vdd! (BULK)               ! N445 (BULK)
+
+
+    Instance 2 of 14:
+        Instance          Schematic                   Layout (12.755, 9.354)
+        --------------    ------------------------    ------------------------
+        Instance name     XI33/XI0/MM12               M893
+        Instance type     PMOS[four_bit_adder/one_    PMOS[p105]
+                            bit_adder/p105]             
+
+        Class             Schematic net (port)        Layout net (port)
+        --------------    ------------------------    ------------------------
+        1               ! vdd! (SRC)                ! vdd! (SRC)
+        42              ! vdd! (BULK)               ! N445 (BULK)
+
+
+    Instance 3 of 14:
+        Instance          Schematic                   Layout (12.147, 9.368)
+        --------------    ------------------------    ------------------------
+        Instance name     XI33/XI0/MM3                M890
+        Instance type     PMOS[four_bit_adder/one_    PMOS[p105]
+                            bit_adder/p105]             
+
+        Class             Schematic net (port)        Layout net (port)
+        --------------    ------------------------    ------------------------
+        1               ! vdd! (SRC)                ! vdd! (SRC)
+        42              ! vdd! (BULK)               ! N445 (BULK)
+
+
+    Instance 4 of 14:
+        Instance          Schematic                   Layout 
+        --------------    ------------------------    ------------------------
+        Instance name     XI33/XI0/MM15               Parallel#348
+        Instance type     PMOS[four_bit_adder/one_    PMOS[p105]
+                            bit_adder/p105]             
+
+        Class             Schematic net (port)        Layout net (port)
+        --------------    ------------------------    ------------------------
+        42              ! vdd! (BULK)               ! N445 (BULK)
+
+
+    Instance 5 of 14:
+        Instance          Schematic                   Layout 
+        --------------    ------------------------    ------------------------
+        Instance name     XI33/XI0/MM21               Parallel#187
+        Instance type     PMOS[four_bit_adder/one_    PMOS[p105]
+                            bit_adder/p105]             
+
+        Class             Schematic net (port)        Layout net (port)
+        --------------    ------------------------    ------------------------
+        42              ! vdd! (BULK)               ! N445 (BULK)
+
+
+    Instance 6 of 14:
+        Instance          Schematic                   Layout 
+        --------------    ------------------------    ------------------------
+        Instance name     XI33/XI0/MM20               Parallel#104
+        Instance type     PMOS[four_bit_adder/one_    PMOS[p105]
+                            bit_adder/p105]             
+
+        Class             Schematic net (port)        Layout net (port)
+        --------------    ------------------------    ------------------------
+        1               ! vdd! (SRC)                ! vdd! (SRC)
+        42              ! vdd! (BULK)               ! N445 (BULK)
+
+
+    Instance 7 of 14:
+        Instance          Schematic                   Layout (11.539, 9.494)
+        --------------    ------------------------    ------------------------
+        Instance name     XI33/XI0/MM2                M909
+        Instance type     PMOS[four_bit_adder/one_    PMOS[p105]
+                            bit_adder/p105]             
+
+        Class             Schematic net (port)        Layout net (port)
+        --------------    ------------------------    ------------------------
+        1               ! vdd! (SRC)                ! vdd! (SRC)
+        42              ! vdd! (BULK)               ! N445 (BULK)
+
+
+    Instance 8 of 14:
+        Instance          Schematic                   Layout (11.387, 9.494)
+        --------------    ------------------------    ------------------------
+        Instance name     XI33/XI0/MM0                M908
+        Instance type     PMOS[four_bit_adder/one_    PMOS[p105]
+                            bit_adder/p105]             
+
+        Class             Schematic net (port)        Layout net (port)
+        --------------    ------------------------    ------------------------
+        1               ! vdd! (SRC)                ! vdd! (SRC)
+        42              ! vdd! (BULK)               ! N445 (BULK)
+
+
+    Instance 9 of 14:
+        Instance          Schematic                   Layout (12.451, 9.368)
+        --------------    ------------------------    ------------------------
+        Instance name     XI33/XI0/MM10               M892
+        Instance type     PMOS[four_bit_adder/one_    PMOS[p105]
+                            bit_adder/p105]             
+
+        Class             Schematic net (port)        Layout net (port)
+        --------------    ------------------------    ------------------------
+        1               ! vdd! (SRC)                ! vdd! (DRN)
+        42              ! vdd! (BULK)               ! N445 (BULK)
+
+
+    Instance 10 of 14:
+        Instance          Schematic                   Layout (11.843, 9.368)
+        --------------    ------------------------    ------------------------
+        Instance name     XI33/XI0/MM5                M910
+        Instance type     PMOS[four_bit_adder/one_    PMOS[p105]
+                            bit_adder/p105]             
+
+        Class             Schematic net (port)        Layout net (port)
+        --------------    ------------------------    ------------------------
+        42              ! vdd! (BULK)               ! N445 (BULK)
+
+
+    NOTE: The number of instances exceeds print_devices_per_net_max (10).
+          The remaining instances are truncated.
+
+
+    14 matched devices connected to open net N438.
+    --------------------------------------------------------------------
+
+    Instance 1 of 14:
+        Instance          Schematic                   Layout (11.387, 3.965)
+        --------------    ------------------------    ------------------------
+        Instance name     XI33/XI3/MM0                M1171
+        Instance type     PMOS[four_bit_adder/one_    PMOS[p105]
+                            bit_adder/p105]             
+
+        Class             Schematic net (port)        Layout net (port)
+        --------------    ------------------------    ------------------------
+        1               ! vdd! (SRC)                ! vdd! (SRC)
+        42              ! vdd! (BULK)               ! N438 (BULK)
+
+
+    Instance 2 of 14:
+        Instance          Schematic                   Layout 
+        --------------    ------------------------    ------------------------
+        Instance name     XI33/XI3/MM15               Parallel#44
+        Instance type     PMOS[four_bit_adder/one_    PMOS[p105]
+                            bit_adder/p105]             
+
+        Class             Schematic net (port)        Layout net (port)
+        --------------    ------------------------    ------------------------
+        42              ! vdd! (BULK)               ! N438 (BULK)
+
+
+    Instance 3 of 14:
+        Instance          Schematic                   Layout (13.059, 4.105)
+        --------------    ------------------------    ------------------------
+        Instance name     XI33/XI3/MM14               M1152
+        Instance type     PMOS[four_bit_adder/one_    PMOS[p105]
+                            bit_adder/p105]             
+
+        Class             Schematic net (port)        Layout net (port)
+        --------------    ------------------------    ------------------------
+        1               ! vdd! (SRC)                ! vdd! (SRC)
+        42              ! vdd! (BULK)               ! N438 (BULK)
+
+
+    Instance 4 of 14:
+        Instance          Schematic                   Layout (11.843, 4.091)
+        --------------    ------------------------    ------------------------
+        Instance name     XI33/XI3/MM5                M1173
+        Instance type     PMOS[four_bit_adder/one_    PMOS[p105]
+                            bit_adder/p105]             
+
+        Class             Schematic net (port)        Layout net (port)
+        --------------    ------------------------    ------------------------
+        42              ! vdd! (BULK)               ! N438 (BULK)
+
+
+    Instance 5 of 14:
+        Instance          Schematic                   Layout 
+        --------------    ------------------------    ------------------------
+        Instance name     XI33/XI3/MM26               Parallel#87
+        Instance type     PMOS[four_bit_adder/one_    PMOS[p105]
+                            bit_adder/p105]             
+
+        Class             Schematic net (port)        Layout net (port)
+        --------------    ------------------------    ------------------------
+        1               ! vdd! (SRC)                ! vdd! (SRC)
+        42              ! vdd! (BULK)               ! N438 (BULK)
+
+
+    Instance 6 of 14:
+        Instance          Schematic                   Layout (11.539, 3.965)
+        --------------    ------------------------    ------------------------
+        Instance name     XI33/XI3/MM2                M1172
+        Instance type     PMOS[four_bit_adder/one_    PMOS[p105]
+                            bit_adder/p105]             
+
+        Class             Schematic net (port)        Layout net (port)
+        --------------    ------------------------    ------------------------
+        1               ! vdd! (SRC)                ! vdd! (SRC)
+        42              ! vdd! (BULK)               ! N438 (BULK)
+
+
+    Instance 7 of 14:
+        Instance          Schematic                   Layout 
+        --------------    ------------------------    ------------------------
+        Instance name     XI33/XI3/MM22               Parallel#101
+        Instance type     PMOS[four_bit_adder/one_    PMOS[p105]
+                            bit_adder/p105]             
+
+        Class             Schematic net (port)        Layout net (port)
+        --------------    ------------------------    ------------------------
+        42              ! vdd! (BULK)               ! N438 (BULK)
+
+
+    Instance 8 of 14:
+        Instance          Schematic                   Layout (11.995, 4.091)
+        --------------    ------------------------    ------------------------
+        Instance name     XI33/XI3/MM4                M1148
+        Instance type     PMOS[four_bit_adder/one_    PMOS[p105]
+                            bit_adder/p105]             
+
+        Class             Schematic net (port)        Layout net (port)
+        --------------    ------------------------    ------------------------
+        42              ! vdd! (BULK)               ! N438 (BULK)
+
+
+    Instance 9 of 14:
+        Instance          Schematic                   Layout (12.147, 4.091)
+        --------------    ------------------------    ------------------------
+        Instance name     XI33/XI3/MM3                M1147
+        Instance type     PMOS[four_bit_adder/one_    PMOS[p105]
+                            bit_adder/p105]             
+
+        Class             Schematic net (port)        Layout net (port)
+        --------------    ------------------------    ------------------------
+        1               ! vdd! (SRC)                ! vdd! (SRC)
+        42              ! vdd! (BULK)               ! N438 (BULK)
+
+
+    Instance 10 of 14:
+        Instance          Schematic                   Layout 
+        --------------    ------------------------    ------------------------
+        Instance name     XI33/XI3/MM21               Parallel#98
+        Instance type     PMOS[four_bit_adder/one_    PMOS[p105]
+                            bit_adder/p105]             
+
+        Class             Schematic net (port)        Layout net (port)
+        --------------    ------------------------    ------------------------
+        42              ! vdd! (BULK)               ! N438 (BULK)
+
+
+    NOTE: The number of instances exceeds print_devices_per_net_max (10).
+          The remaining instances are truncated.
+
+
+    14 matched devices connected to open net N447.
+    --------------------------------------------------------------------
+
+    Instance 1 of 14:
+        Instance          Schematic                   Layout (11.539, 21.659)
+        --------------    ------------------------    ------------------------
+        Instance name     XI0/XI0/MM2                 M903
+        Instance type     PMOS[four_bit_adder/one_    PMOS[p105]
+                            bit_adder/p105]             
+
+        Class             Schematic net (port)        Layout net (port)
+        --------------    ------------------------    ------------------------
+        1               ! vdd! (SRC)                ! vdd! (SRC)
+        42              ! vdd! (BULK)               ! N447 (BULK)
+
+
+    Instance 2 of 14:
+        Instance          Schematic                   Layout (11.387, 21.659)
+        --------------    ------------------------    ------------------------
+        Instance name     XI0/XI0/MM0                 M902
+        Instance type     PMOS[four_bit_adder/one_    PMOS[p105]
+                            bit_adder/p105]             
+
+        Class             Schematic net (port)        Layout net (port)
+        --------------    ------------------------    ------------------------
+        1               ! vdd! (SRC)                ! vdd! (SRC)
+        42              ! vdd! (BULK)               ! N447 (BULK)
+
+
+    Instance 3 of 14:
+        Instance          Schematic                   Layout (12.451, 21.533)
+        --------------    ------------------------    ------------------------
+        Instance name     XI0/XI0/MM10                M874
+        Instance type     PMOS[four_bit_adder/one_    PMOS[p105]
+                            bit_adder/p105]             
+
+        Class             Schematic net (port)        Layout net (port)
+        --------------    ------------------------    ------------------------
+        1               ! vdd! (SRC)                ! vdd! (DRN)
+        42              ! vdd! (BULK)               ! N447 (BULK)
+
+
+    Instance 4 of 14:
+        Instance          Schematic                   Layout (11.843, 21.533)
+        --------------    ------------------------    ------------------------
+        Instance name     XI0/XI0/MM5                 M904
+        Instance type     PMOS[four_bit_adder/one_    PMOS[p105]
+                            bit_adder/p105]             
+
+        Class             Schematic net (port)        Layout net (port)
+        --------------    ------------------------    ------------------------
+        42              ! vdd! (BULK)               ! N447 (BULK)
+
+
+    Instance 5 of 14:
+        Instance          Schematic                   Layout 
+        --------------    ------------------------    ------------------------
+        Instance name     XI0/XI0/MM26                Parallel#294
+        Instance type     PMOS[four_bit_adder/one_    PMOS[p105]
+                            bit_adder/p105]             
+
+        Class             Schematic net (port)        Layout net (port)
+        --------------    ------------------------    ------------------------
+        1               ! vdd! (SRC)                ! vdd! (SRC)
+        42              ! vdd! (BULK)               ! N447 (BULK)
+
+
+    Instance 6 of 14:
+        Instance          Schematic                   Layout (11.995, 21.533)
+        --------------    ------------------------    ------------------------
+        Instance name     XI0/XI0/MM4                 M873
+        Instance type     PMOS[four_bit_adder/one_    PMOS[p105]
+                            bit_adder/p105]             
+
+        Class             Schematic net (port)        Layout net (port)
+        --------------    ------------------------    ------------------------
+        42              ! vdd! (BULK)               ! N447 (BULK)
+
+
+    Instance 7 of 14:
+        Instance          Schematic                   Layout (12.755, 21.519)
+        --------------    ------------------------    ------------------------
+        Instance name     XI0/XI0/MM12                M875
+        Instance type     PMOS[four_bit_adder/one_    PMOS[p105]
+                            bit_adder/p105]             
+
+        Class             Schematic net (port)        Layout net (port)
+        --------------    ------------------------    ------------------------
+        1               ! vdd! (SRC)                ! vdd! (SRC)
+        42              ! vdd! (BULK)               ! N447 (BULK)
+
+
+    Instance 8 of 14:
+        Instance          Schematic                   Layout (13.059, 21.519)
+        --------------    ------------------------    ------------------------
+        Instance name     XI0/XI0/MM14                M877
+        Instance type     PMOS[four_bit_adder/one_    PMOS[p105]
+                            bit_adder/p105]             
+
+        Class             Schematic net (port)        Layout net (port)
+        --------------    ------------------------    ------------------------
+        1               ! vdd! (SRC)                ! vdd! (SRC)
+        42              ! vdd! (BULK)               ! N447 (BULK)
+
+
+    Instance 9 of 14:
+        Instance          Schematic                   Layout (12.907, 21.519)
+        --------------    ------------------------    ------------------------
+        Instance name     XI0/XI0/MM13                M876
+        Instance type     PMOS[four_bit_adder/one_    PMOS[p105]
+                            bit_adder/p105]             
+
+        Class             Schematic net (port)        Layout net (port)
+        --------------    ------------------------    ------------------------
+        1               ! vdd! (SRC)                ! vdd! (SRC)
+        42              ! vdd! (BULK)               ! N447 (BULK)
+
+
+    Instance 10 of 14:
+        Instance          Schematic                   Layout 
+        --------------    ------------------------    ------------------------
+        Instance name     XI0/XI0/MM22                Parallel#118
+        Instance type     PMOS[four_bit_adder/one_    PMOS[p105]
+                            bit_adder/p105]             
+
+        Class             Schematic net (port)        Layout net (port)
+        --------------    ------------------------    ------------------------
+        42              ! vdd! (BULK)               ! N447 (BULK)
+
+
+    NOTE: The number of instances exceeds print_devices_per_net_max (10).
+          The remaining instances are truncated.
+
+
+    14 matched devices connected to open net N446.
+    --------------------------------------------------------------------
+
+    Instance 1 of 14:
+        Instance          Schematic                   Layout 
+        --------------    ------------------------    ------------------------
+        Instance name     XI0/XI3/MM22                Parallel#64
+        Instance type     PMOS[four_bit_adder/one_    PMOS[p105]
+                            bit_adder/p105]             
+
+        Class             Schematic net (port)        Layout net (port)
+        --------------    ------------------------    ------------------------
+        42              ! vdd! (BULK)               ! N446 (BULK)
+
+
+    Instance 2 of 14:
+        Instance          Schematic                   Layout 
+        --------------    ------------------------    ------------------------
+        Instance name     XI0/XI3/MM21                Parallel#222
+        Instance type     PMOS[four_bit_adder/one_    PMOS[p105]
+                            bit_adder/p105]             
+
+        Class             Schematic net (port)        Layout net (port)
+        --------------    ------------------------    ------------------------
+        42              ! vdd! (BULK)               ! N446 (BULK)
+
+
+    Instance 3 of 14:
+        Instance          Schematic                   Layout (12.147, 16.256)
+        --------------    ------------------------    ------------------------
+        Instance name     XI0/XI3/MM3                 M881
+        Instance type     PMOS[four_bit_adder/one_    PMOS[p105]
+                            bit_adder/p105]             
+
+        Class             Schematic net (port)        Layout net (port)
+        --------------    ------------------------    ------------------------
+        1               ! vdd! (SRC)                ! vdd! (SRC)
+        42              ! vdd! (BULK)               ! N446 (BULK)
+
+
+    Instance 4 of 14:
+        Instance          Schematic                   Layout (11.539, 16.130)
+        --------------    ------------------------    ------------------------
+        Instance name     XI0/XI3/MM2                 M906
+        Instance type     PMOS[four_bit_adder/one_    PMOS[p105]
+                            bit_adder/p105]             
+
+        Class             Schematic net (port)        Layout net (port)
+        --------------    ------------------------    ------------------------
+        1               ! vdd! (SRC)                ! vdd! (SRC)
+        42              ! vdd! (BULK)               ! N446 (BULK)
+
+
+    Instance 5 of 14:
+        Instance          Schematic                   Layout 
+        --------------    ------------------------    ------------------------
+        Instance name     XI0/XI3/MM20                Parallel#69
+        Instance type     PMOS[four_bit_adder/one_    PMOS[p105]
+                            bit_adder/p105]             
+
+        Class             Schematic net (port)        Layout net (port)
+        --------------    ------------------------    ------------------------
+        1               ! vdd! (SRC)                ! vdd! (SRC)
+        42              ! vdd! (BULK)               ! N446 (BULK)
+
+
+    Instance 6 of 14:
+        Instance          Schematic                   Layout (12.755, 16.270)
+        --------------    ------------------------    ------------------------
+        Instance name     XI0/XI3/MM12                M884
+        Instance type     PMOS[four_bit_adder/one_    PMOS[p105]
+                            bit_adder/p105]             
+
+        Class             Schematic net (port)        Layout net (port)
+        --------------    ------------------------    ------------------------
+        1               ! vdd! (SRC)                ! vdd! (SRC)
+        42              ! vdd! (BULK)               ! N446 (BULK)
+
+
+    Instance 7 of 14:
+        Instance          Schematic                   Layout (12.451, 16.256)
+        --------------    ------------------------    ------------------------
+        Instance name     XI0/XI3/MM10                M883
+        Instance type     PMOS[four_bit_adder/one_    PMOS[p105]
+                            bit_adder/p105]             
+
+        Class             Schematic net (port)        Layout net (port)
+        --------------    ------------------------    ------------------------
+        1               ! vdd! (SRC)                ! vdd! (SRC)
+        42              ! vdd! (BULK)               ! N446 (BULK)
+
+
+    Instance 8 of 14:
+        Instance          Schematic                   Layout (11.843, 16.256)
+        --------------    ------------------------    ------------------------
+        Instance name     XI0/XI3/MM5                 M907
+        Instance type     PMOS[four_bit_adder/one_    PMOS[p105]
+                            bit_adder/p105]             
+
+        Class             Schematic net (port)        Layout net (port)
+        --------------    ------------------------    ------------------------
+        42              ! vdd! (BULK)               ! N446 (BULK)
+
+
+    Instance 9 of 14:
+        Instance          Schematic                   Layout 
+        --------------    ------------------------    ------------------------
+        Instance name     XI0/XI3/MM26                Parallel#167
+        Instance type     PMOS[four_bit_adder/one_    PMOS[p105]
+                            bit_adder/p105]             
+
+        Class             Schematic net (port)        Layout net (port)
+        --------------    ------------------------    ------------------------
+        1               ! vdd! (SRC)                ! vdd! (SRC)
+        42              ! vdd! (BULK)               ! N446 (BULK)
+
+
+    Instance 10 of 14:
+        Instance          Schematic                   Layout 
+        --------------    ------------------------    ------------------------
+        Instance name     XI0/XI3/MM15                Parallel#17
+        Instance type     PMOS[four_bit_adder/one_    PMOS[p105]
+                            bit_adder/p105]             
+
+        Class             Schematic net (port)        Layout net (port)
+        --------------    ------------------------    ------------------------
+        42              ! vdd! (BULK)               ! N446 (BULK)
+
+
+    NOTE: The number of instances exceeds print_devices_per_net_max (10).
+          The remaining instances are truncated.
+
+
+    16 matched devices connected to open net N454.
+    --------------------------------------------------------------------
+
+    Instance 1 of 16:
+        Instance          Schematic                   Layout (30.508, 16.256)
+        --------------    ------------------------    ------------------------
+        Instance name     XI44/XI3/MM10               M703
+        Instance type     PMOS[four_bit_adder/one_    PMOS[p105]
+                            bit_adder/p105]             
+
+        Class             Schematic net (port)        Layout net (port)
+        --------------    ------------------------    ------------------------
+        1               ! vdd! (SRC)                ! vdd! (DRN)
+        42              ! vdd! (BULK)               ! N454 (BULK)
+
+
+    Instance 2 of 16:
+        Instance          Schematic                   Layout (30.964, 15.452)
+        --------------    ------------------------    ------------------------
+        Instance name     XI47/MM6                    M716
+        Instance type     PMOS[or3/p105]              PMOS[p105]
+
+        Class             Schematic net (port)        Layout net (port)
+        --------------    ------------------------    ------------------------
+        1               ! vdd! (SRC)                ! vdd! (SRC)
+        42              ! vdd! (BULK)               ! N454 (BULK)
+
+
+    Instance 3 of 16:
+        Instance          Schematic                   Layout (29.900, 16.256)
+        --------------    ------------------------    ------------------------
+        Instance name     XI44/XI3/MM5                M701
+        Instance type     PMOS[four_bit_adder/one_    PMOS[p105]
+                            bit_adder/p105]             
+
+        Class             Schematic net (port)        Layout net (port)
+        --------------    ------------------------    ------------------------
+        42              ! vdd! (BULK)               ! N454 (BULK)
+
+
+    Instance 4 of 16:
+        Instance          Schematic                   Layout 
+        --------------    ------------------------    ------------------------
+        Instance name     XI44/XI3/MM26               Parallel#123
+        Instance type     PMOS[four_bit_adder/one_    PMOS[p105]
+                            bit_adder/p105]             
+
+        Class             Schematic net (port)        Layout net (port)
+        --------------    ------------------------    ------------------------
+        1               ! vdd! (SRC)                ! vdd! (SRC)
+        42              ! vdd! (BULK)               ! N454 (BULK)
+
+
+    Instance 5 of 16:
+        Instance          Schematic                   Layout 
+        --------------    ------------------------    ------------------------
+        Instance name     XI44/XI3/MM15               Parallel#137
+        Instance type     PMOS[four_bit_adder/one_    PMOS[p105]
+                            bit_adder/p105]             
+
+        Class             Schematic net (port)        Layout net (port)
+        --------------    ------------------------    ------------------------
+        42              ! vdd! (BULK)               ! N454 (BULK)
+
+
+    Instance 6 of 16:
+        Instance          Schematic                   Layout (31.116, 16.270)
+        --------------    ------------------------    ------------------------
+        Instance name     XI44/XI3/MM14               M706
+        Instance type     PMOS[four_bit_adder/one_    PMOS[p105]
+                            bit_adder/p105]             
+
+        Class             Schematic net (port)        Layout net (port)
+        --------------    ------------------------    ------------------------
+        1               ! vdd! (SRC)                ! vdd! (SRC)
+        42              ! vdd! (BULK)               ! N454 (BULK)
+
+
+    Instance 7 of 16:
+        Instance          Schematic                   Layout (30.964, 16.270)
+        --------------    ------------------------    ------------------------
+        Instance name     XI44/XI3/MM13               M705
+        Instance type     PMOS[four_bit_adder/one_    PMOS[p105]
+                            bit_adder/p105]             
+
+        Class             Schematic net (port)        Layout net (port)
+        --------------    ------------------------    ------------------------
+        1               ! vdd! (SRC)                ! vdd! (SRC)
+        42              ! vdd! (BULK)               ! N454 (BULK)
+
+
+    Instance 8 of 16:
+        Instance          Schematic                   Layout 
+        --------------    ------------------------    ------------------------
+        Instance name     XI47/MM11                   Parallel#105
+        Instance type     PMOS[or3/p105]              PMOS[p105]
+
+        Class             Schematic net (port)        Layout net (port)
+        --------------    ------------------------    ------------------------
+        1               ! vdd! (SRC)                ! vdd! (SRC)
+        42              ! vdd! (BULK)               ! N454 (BULK)
+
+
+    Instance 9 of 16:
+        Instance          Schematic                   Layout (30.052, 16.256)
+        --------------    ------------------------    ------------------------
+        Instance name     XI44/XI3/MM4                M702
+        Instance type     PMOS[four_bit_adder/one_    PMOS[p105]
+                            bit_adder/p105]             
+
+        Class             Schematic net (port)        Layout net (port)
+        --------------    ------------------------    ------------------------
+        42              ! vdd! (BULK)               ! N454 (BULK)
+
+
+    Instance 10 of 16:
+        Instance          Schematic                   Layout 
+        --------------    ------------------------    ------------------------
+        Instance name     XI44/XI3/MM22               Parallel#202
+        Instance type     PMOS[four_bit_adder/one_    PMOS[p105]
+                            bit_adder/p105]             
+
+        Class             Schematic net (port)        Layout net (port)
+        --------------    ------------------------    ------------------------
+        42              ! vdd! (BULK)               ! N454 (BULK)
+
+
+    NOTE: The number of instances exceeds print_devices_per_net_max (10).
+          The remaining instances are truncated.
+
+
+    20 matched devices connected to open net N444.
+    --------------------------------------------------------------------
+
+    Instance 1 of 20:
+        Instance          Schematic                   Layout 
+        --------------    ------------------------    ------------------------
+        Instance name     XI1/MM9                     Parallel#219
+        Instance type     PMOS[d_flip_flop/p105]      PMOS[p105]
+
+        Class             Schematic net (port)        Layout net (port)
+        --------------    ------------------------    ------------------------
+        1               ! vdd! (SRC)                ! vdd! (DRN)
+        42              ! vdd! (BULK)               ! N444 (BULK)
+
+
+    Instance 2 of 20:
+        Instance          Schematic                   Layout 
+        --------------    ------------------------    ------------------------
+        Instance name     XI3/MM9                     Parallel#211
+        Instance type     PMOS[d_flip_flop/p105]      PMOS[p105]
+
+        Class             Schematic net (port)        Layout net (port)
+        --------------    ------------------------    ------------------------
+        1               ! vdd! (SRC)                ! vdd! (DRN)
+        42              ! vdd! (BULK)               ! N444 (BULK)
+
+
+    Instance 3 of 20:
+        Instance          Schematic                   Layout 
+        --------------    ------------------------    ------------------------
+        Instance name     XI3/MM7                     Parallel#146
+        Instance type     PMOS[d_flip_flop/p105]      PMOS[p105]
+
+        Class             Schematic net (port)        Layout net (port)
+        --------------    ------------------------    ------------------------
+        1               ! vdd! (SRC)                ! vdd! (DRN)
+        42              ! vdd! (BULK)               ! N444 (BULK)
+
+
+    Instance 4 of 20:
+        Instance          Schematic                   Layout 
+        --------------    ------------------------    ------------------------
+        Instance name     XI1/MM7                     Parallel#204
+        Instance type     PMOS[d_flip_flop/p105]      PMOS[p105]
+
+        Class             Schematic net (port)        Layout net (port)
+        --------------    ------------------------    ------------------------
+        1               ! vdd! (SRC)                ! vdd! (DRN)
+        42              ! vdd! (BULK)               ! N444 (BULK)
+
+
+    Instance 5 of 20:
+        Instance          Schematic                   Layout (1.824, 23.202)
+        --------------    ------------------------    ------------------------
+        Instance name     XI1/MM6                     M1017
+        Instance type     PMOS[d_flip_flop/p105]      PMOS[p105]
+
+        Class             Schematic net (port)        Layout net (port)
+        --------------    ------------------------    ------------------------
+        42              ! vdd! (BULK)               ! N444 (BULK)
+
+
+    Instance 6 of 20:
+        Instance          Schematic                   Layout (4.256, 22.397)
+        --------------    ------------------------    ------------------------
+        Instance name     XI4/MM4                     M912
+        Instance type     PMOS[and2/p105]             PMOS[p105]
+
+        Class             Schematic net (port)        Layout net (port)
+        --------------    ------------------------    ------------------------
+        1               ! vdd! (SRC)                ! vdd! (DRN)
+        42              ! vdd! (BULK)               ! N444 (BULK)
+
+
+    Instance 7 of 20:
+        Instance          Schematic                   Layout (1.824, 22.398)
+        --------------    ------------------------    ------------------------
+        Instance name     XI3/MM6                     M1021
+        Instance type     PMOS[d_flip_flop/p105]      PMOS[p105]
+
+        Class             Schematic net (port)        Layout net (port)
+        --------------    ------------------------    ------------------------
+        42              ! vdd! (BULK)               ! N444 (BULK)
+
+
+    Instance 8 of 20:
+        Instance          Schematic                   Layout 
+        --------------    ------------------------    ------------------------
+        Instance name     XI2/MM8                     Parallel#67
+        Instance type     PMOS[and2/p105]             PMOS[p105]
+
+        Class             Schematic net (port)        Layout net (port)
+        --------------    ------------------------    ------------------------
+        1               ! vdd! (SRC)                ! vdd! (DRN)
+        42              ! vdd! (BULK)               ! N444 (BULK)
+
+
+    Instance 9 of 20:
+        Instance          Schematic                   Layout (0.152, 23.202)
+        --------------    ------------------------    ------------------------
+        Instance name     XI1/MM14                    M1086
+        Instance type     PMOS[d_flip_flop/p105]      PMOS[p105]
+
+        Class             Schematic net (port)        Layout net (port)
+        --------------    ------------------------    ------------------------
+        1               ! vdd! (SRC)                ! vdd! (DRN)
+        42              ! vdd! (BULK)               ! N444 (BULK)
+
+
+    Instance 10 of 20:
+        Instance          Schematic                   Layout (1.064, 23.202)
+        --------------    ------------------------    ------------------------
+        Instance name     XI1/MM5                     M1040
+        Instance type     PMOS[d_flip_flop/p105]      PMOS[p105]
+
+        Class             Schematic net (port)        Layout net (port)
+        --------------    ------------------------    ------------------------
+        42              ! vdd! (BULK)               ! N444 (BULK)
+
+
+    NOTE: The number of instances exceeds print_devices_per_net_max (10).
+          The remaining instances are truncated.
+
+
+    20 matched devices connected to open net N443.
+    --------------------------------------------------------------------
+
+    Instance 1 of 20:
+        Instance          Schematic                   Layout 
+        --------------    ------------------------    ------------------------
+        Instance name     XI5/MM7                     Parallel#298
+        Instance type     PMOS[d_flip_flop/p105]      PMOS[p105]
+
+        Class             Schematic net (port)        Layout net (port)
+        --------------    ------------------------    ------------------------
+        1               ! vdd! (SRC)                ! vdd! (DRN)
+        42              ! vdd! (BULK)               ! N443 (BULK)
+
+
+    Instance 2 of 20:
+        Instance          Schematic                   Layout (0.152, 20.162)
+        --------------    ------------------------    ------------------------
+        Instance name     XI5/MM14                    M1088
+        Instance type     PMOS[d_flip_flop/p105]      PMOS[p105]
+
+        Class             Schematic net (port)        Layout net (port)
+        --------------    ------------------------    ------------------------
+        1               ! vdd! (SRC)                ! vdd! (DRN)
+        42              ! vdd! (BULK)               ! N443 (BULK)
+
+
+    Instance 3 of 20:
+        Instance          Schematic                   Layout 
+        --------------    ------------------------    ------------------------
+        Instance name     XI5/MM9                     Parallel#56
+        Instance type     PMOS[d_flip_flop/p105]      PMOS[p105]
+
+        Class             Schematic net (port)        Layout net (port)
+        --------------    ------------------------    ------------------------
+        1               ! vdd! (SRC)                ! vdd! (DRN)
+        42              ! vdd! (BULK)               ! N443 (BULK)
+
+
+    Instance 4 of 20:
+        Instance          Schematic                   Layout 
+        --------------    ------------------------    ------------------------
+        Instance name     XI7/MM9                     Parallel#312
+        Instance type     PMOS[and2/p105]             PMOS[p105]
+
+        Class             Schematic net (port)        Layout net (port)
+        --------------    ------------------------    ------------------------
+        1               ! vdd! (SRC)                ! vdd! (DRN)
+        42              ! vdd! (BULK)               ! N443 (BULK)
+
+
+    Instance 5 of 20:
+        Instance          Schematic                   Layout 
+        --------------    ------------------------    ------------------------
+        Instance name     XI7/MM8                     Parallel#326
+        Instance type     PMOS[and2/p105]             PMOS[p105]
+
+        Class             Schematic net (port)        Layout net (port)
+        --------------    ------------------------    ------------------------
+        1               ! vdd! (SRC)                ! vdd! (DRN)
+        42              ! vdd! (BULK)               ! N443 (BULK)
+
+
+    Instance 6 of 20:
+        Instance          Schematic                   Layout 
+        --------------    ------------------------    ------------------------
+        Instance name     XI8/MM9                     Parallel#297
+        Instance type     PMOS[d_flip_flop/p105]      PMOS[p105]
+
+        Class             Schematic net (port)        Layout net (port)
+        --------------    ------------------------    ------------------------
+        1               ! vdd! (SRC)                ! vdd! (DRN)
+        42              ! vdd! (BULK)               ! N443 (BULK)
+
+
+    Instance 7 of 20:
+        Instance          Schematic                   Layout 
+        --------------    ------------------------    ------------------------
+        Instance name     XI8/MM2                     Parallel#279
+        Instance type     PMOS[d_flip_flop/p105]      PMOS[p105]
+
+        Class             Schematic net (port)        Layout net (port)
+        --------------    ------------------------    ------------------------
+        1               ! vdd! (SRC)                ! vdd! (SRC)
+        42              ! vdd! (BULK)               ! N443 (BULK)
+
+
+    Instance 8 of 20:
+        Instance          Schematic                   Layout (4.256, 20.163)
+        --------------    ------------------------    ------------------------
+        Instance name     XI6/MM4                     M913
+        Instance type     PMOS[and2/p105]             PMOS[p105]
+
+        Class             Schematic net (port)        Layout net (port)
+        --------------    ------------------------    ------------------------
+        1               ! vdd! (SRC)                ! vdd! (DRN)
+        42              ! vdd! (BULK)               ! N443 (BULK)
+
+
+    Instance 9 of 20:
+        Instance          Schematic                   Layout 
+        --------------    ------------------------    ------------------------
+        Instance name     XI6/MM9                     Parallel#265
+        Instance type     PMOS[and2/p105]             PMOS[p105]
+
+        Class             Schematic net (port)        Layout net (port)
+        --------------    ------------------------    ------------------------
+        1               ! vdd! (SRC)                ! vdd! (DRN)
+        42              ! vdd! (BULK)               ! N443 (BULK)
+
+
+    Instance 10 of 20:
+        Instance          Schematic                   Layout (0.760, 20.162)
+        --------------    ------------------------    ------------------------
+        Instance name     XI5/MM1                     M1043
+        Instance type     PMOS[d_flip_flop/p105]      PMOS[p105]
+
+        Class             Schematic net (port)        Layout net (port)
+        --------------    ------------------------    ------------------------
+        1               ! vdd! (SRC)                ! vdd! (DRN)
+        42              ! vdd! (BULK)               ! N443 (BULK)
+
+
+    NOTE: The number of instances exceeds print_devices_per_net_max (10).
+          The remaining instances are truncated.
+
+
+    20 matched devices connected to open net N442.
+    --------------------------------------------------------------------
+
+    Instance 1 of 20:
+        Instance          Schematic                   Layout (1.064, 16.318)
+        --------------    ------------------------    ------------------------
+        Instance name     XI12/MM5                    M1050
+        Instance type     PMOS[d_flip_flop/p105]      PMOS[p105]
+
+        Class             Schematic net (port)        Layout net (port)
+        --------------    ------------------------    ------------------------
+        42              ! vdd! (BULK)               ! N442 (BULK)
+
+
+    Instance 2 of 20:
+        Instance          Schematic                   Layout (0.152, 17.122)
+        --------------    ------------------------    ------------------------
+        Instance name     XI9/MM14                    M1090
+        Instance type     PMOS[d_flip_flop/p105]      PMOS[p105]
+
+        Class             Schematic net (port)        Layout net (port)
+        --------------    ------------------------    ------------------------
+        1               ! vdd! (SRC)                ! vdd! (DRN)
+        42              ! vdd! (BULK)               ! N442 (BULK)
+
+
+    Instance 3 of 20:
+        Instance          Schematic                   Layout (1.064, 17.122)
+        --------------    ------------------------    ------------------------
+        Instance name     XI9/MM5                     M1048
+        Instance type     PMOS[d_flip_flop/p105]      PMOS[p105]
+
+        Class             Schematic net (port)        Layout net (port)
+        --------------    ------------------------    ------------------------
+        42              ! vdd! (BULK)               ! N442 (BULK)
+
+
+    Instance 4 of 20:
+        Instance          Schematic                   Layout 
+        --------------    ------------------------    ------------------------
+        Instance name     XI10/MM8                    Parallel#108
+        Instance type     PMOS[and2/p105]             PMOS[p105]
+
+        Class             Schematic net (port)        Layout net (port)
+        --------------    ------------------------    ------------------------
+        1               ! vdd! (SRC)                ! vdd! (DRN)
+        42              ! vdd! (BULK)               ! N442 (BULK)
+
+
+    Instance 5 of 20:
+        Instance          Schematic                   Layout 
+        --------------    ------------------------    ------------------------
+        Instance name     XI9/MM2                     Parallel#214
+        Instance type     PMOS[d_flip_flop/p105]      PMOS[p105]
+
+        Class             Schematic net (port)        Layout net (port)
+        --------------    ------------------------    ------------------------
+        1               ! vdd! (SRC)                ! vdd! (SRC)
+        42              ! vdd! (BULK)               ! N442 (BULK)
+
+
+    Instance 6 of 20:
+        Instance          Schematic                   Layout (0.760, 17.122)
+        --------------    ------------------------    ------------------------
+        Instance name     XI9/MM1                     M1047
+        Instance type     PMOS[d_flip_flop/p105]      PMOS[p105]
+
+        Class             Schematic net (port)        Layout net (port)
+        --------------    ------------------------    ------------------------
+        1               ! vdd! (SRC)                ! vdd! (DRN)
+        42              ! vdd! (BULK)               ! N442 (BULK)
+
+
+    Instance 7 of 20:
+        Instance          Schematic                   Layout 
+        --------------    ------------------------    ------------------------
+        Instance name     XI11/MM9                    Parallel#344
+        Instance type     PMOS[and2/p105]             PMOS[p105]
+
+        Class             Schematic net (port)        Layout net (port)
+        --------------    ------------------------    ------------------------
+        1               ! vdd! (SRC)                ! vdd! (DRN)
+        42              ! vdd! (BULK)               ! N442 (BULK)
+
+
+    Instance 8 of 20:
+        Instance          Schematic                   Layout 
+        --------------    ------------------------    ------------------------
+        Instance name     XI11/MM8                    Parallel#317
+        Instance type     PMOS[and2/p105]             PMOS[p105]
+
+        Class             Schematic net (port)        Layout net (port)
+        --------------    ------------------------    ------------------------
+        1               ! vdd! (SRC)                ! vdd! (DRN)
+        42              ! vdd! (BULK)               ! N442 (BULK)
+
+
+    Instance 9 of 20:
+        Instance          Schematic                   Layout (0.152, 16.318)
+        --------------    ------------------------    ------------------------
+        Instance name     XI12/MM14                   M1091
+        Instance type     PMOS[d_flip_flop/p105]      PMOS[p105]
+
+        Class             Schematic net (port)        Layout net (port)
+        --------------    ------------------------    ------------------------
+        1               ! vdd! (SRC)                ! vdd! (DRN)
+        42              ! vdd! (BULK)               ! N442 (BULK)
+
+
+    Instance 10 of 20:
+        Instance          Schematic                   Layout 
+        --------------    ------------------------    ------------------------
+        Instance name     XI12/MM9                    Parallel#35
+        Instance type     PMOS[d_flip_flop/p105]      PMOS[p105]
+
+        Class             Schematic net (port)        Layout net (port)
+        --------------    ------------------------    ------------------------
+        1               ! vdd! (SRC)                ! vdd! (DRN)
+        42              ! vdd! (BULK)               ! N442 (BULK)
+
+
+    NOTE: The number of instances exceeds print_devices_per_net_max (10).
+          The remaining instances are truncated.
+
+
+    20 matched devices connected to open net N441.
+    --------------------------------------------------------------------
+
+    Instance 1 of 20:
+        Instance          Schematic                   Layout (0.152, 13.278)
+        --------------    ------------------------    ------------------------
+        Instance name     XI16/MM14                   M1093
+        Instance type     PMOS[d_flip_flop/p105]      PMOS[p105]
+
+        Class             Schematic net (port)        Layout net (port)
+        --------------    ------------------------    ------------------------
+        1               ! vdd! (SRC)                ! vdd! (DRN)
+        42              ! vdd! (BULK)               ! N441 (BULK)
+
+
+    Instance 2 of 20:
+        Instance          Schematic                   Layout (4.256, 13.277)
+        --------------    ------------------------    ------------------------
+        Instance name     XI15/MM4                    M917
+        Instance type     PMOS[and2/p105]             PMOS[p105]
+
+        Class             Schematic net (port)        Layout net (port)
+        --------------    ------------------------    ------------------------
+        1               ! vdd! (SRC)                ! vdd! (DRN)
+        42              ! vdd! (BULK)               ! N441 (BULK)
+
+
+    Instance 3 of 20:
+        Instance          Schematic                   Layout (0.152, 14.082)
+        --------------    ------------------------    ------------------------
+        Instance name     XI13/MM14                   M1092
+        Instance type     PMOS[d_flip_flop/p105]      PMOS[p105]
+
+        Class             Schematic net (port)        Layout net (port)
+        --------------    ------------------------    ------------------------
+        1               ! vdd! (SRC)                ! vdd! (DRN)
+        42              ! vdd! (BULK)               ! N441 (BULK)
+
+
+    Instance 4 of 20:
+        Instance          Schematic                   Layout (1.064, 13.278)
+        --------------    ------------------------    ------------------------
+        Instance name     XI16/MM5                    M1077
+        Instance type     PMOS[d_flip_flop/p105]      PMOS[p105]
+
+        Class             Schematic net (port)        Layout net (port)
+        --------------    ------------------------    ------------------------
+        42              ! vdd! (BULK)               ! N441 (BULK)
+
+
+    Instance 5 of 20:
+        Instance          Schematic                   Layout 
+        --------------    ------------------------    ------------------------
+        Instance name     XI16/MM2                    Parallel#254
+        Instance type     PMOS[d_flip_flop/p105]      PMOS[p105]
+
+        Class             Schematic net (port)        Layout net (port)
+        --------------    ------------------------    ------------------------
+        1               ! vdd! (SRC)                ! vdd! (SRC)
+        42              ! vdd! (BULK)               ! N441 (BULK)
+
+
+    Instance 6 of 20:
+        Instance          Schematic                   Layout 
+        --------------    ------------------------    ------------------------
+        Instance name     XI14/MM8                    Parallel#151
+        Instance type     PMOS[and2/p105]             PMOS[p105]
+
+        Class             Schematic net (port)        Layout net (port)
+        --------------    ------------------------    ------------------------
+        1               ! vdd! (SRC)                ! vdd! (DRN)
+        42              ! vdd! (BULK)               ! N441 (BULK)
+
+
+    Instance 7 of 20:
+        Instance          Schematic                   Layout 
+        --------------    ------------------------    ------------------------
+        Instance name     XI13/MM2                    Parallel#92
+        Instance type     PMOS[d_flip_flop/p105]      PMOS[p105]
+
+        Class             Schematic net (port)        Layout net (port)
+        --------------    ------------------------    ------------------------
+        1               ! vdd! (SRC)                ! vdd! (SRC)
+        42              ! vdd! (BULK)               ! N441 (BULK)
+
+
+    Instance 8 of 20:
+        Instance          Schematic                   Layout (0.760, 14.082)
+        --------------    ------------------------    ------------------------
+        Instance name     XI13/MM1                    M1074
+        Instance type     PMOS[d_flip_flop/p105]      PMOS[p105]
+
+        Class             Schematic net (port)        Layout net (port)
+        --------------    ------------------------    ------------------------
+        1               ! vdd! (SRC)                ! vdd! (DRN)
+        42              ! vdd! (BULK)               ! N441 (BULK)
+
+
+    Instance 9 of 20:
+        Instance          Schematic                   Layout (0.760, 13.278)
+        --------------    ------------------------    ------------------------
+        Instance name     XI16/MM1                    M1076
+        Instance type     PMOS[d_flip_flop/p105]      PMOS[p105]
+
+        Class             Schematic net (port)        Layout net (port)
+        --------------    ------------------------    ------------------------
+        1               ! vdd! (SRC)                ! vdd! (DRN)
+        42              ! vdd! (BULK)               ! N441 (BULK)
+
+
+    Instance 10 of 20:
+        Instance          Schematic                   Layout 
+        --------------    ------------------------    ------------------------
+        Instance name     XI15/MM9                    Parallel#153
+        Instance type     PMOS[and2/p105]             PMOS[p105]
+
+        Class             Schematic net (port)        Layout net (port)
+        --------------    ------------------------    ------------------------
+        1               ! vdd! (SRC)                ! vdd! (DRN)
+        42              ! vdd! (BULK)               ! N441 (BULK)
+
+
+    NOTE: The number of instances exceeds print_devices_per_net_max (10).
+          The remaining instances are truncated.
+
+
+    20 matched devices connected to open net N440.
+    --------------------------------------------------------------------
+
+    Instance 1 of 20:
+        Instance          Schematic                   Layout (4.256, 11.043)
+        --------------    ------------------------    ------------------------
+        Instance name     XI18/MM4                    M920
+        Instance type     PMOS[and2/p105]             PMOS[p105]
+
+        Class             Schematic net (port)        Layout net (port)
+        --------------    ------------------------    ------------------------
+        1               ! vdd! (SRC)                ! vdd! (DRN)
+        42              ! vdd! (BULK)               ! N440 (BULK)
+
+
+    Instance 2 of 20:
+        Instance          Schematic                   Layout 
+        --------------    ------------------------    ------------------------
+        Instance name     XI18/MM9                    Parallel#5
+        Instance type     PMOS[and2/p105]             PMOS[p105]
+
+        Class             Schematic net (port)        Layout net (port)
+        --------------    ------------------------    ------------------------
+        1               ! vdd! (SRC)                ! vdd! (DRN)
+        42              ! vdd! (BULK)               ! N440 (BULK)
+
+
+    Instance 3 of 20:
+        Instance          Schematic                   Layout 
+        --------------    ------------------------    ------------------------
+        Instance name     XI20/MM7                    Parallel#162
+        Instance type     PMOS[d_flip_flop/p105]      PMOS[p105]
+
+        Class             Schematic net (port)        Layout net (port)
+        --------------    ------------------------    ------------------------
+        1               ! vdd! (SRC)                ! vdd! (DRN)
+        42              ! vdd! (BULK)               ! N440 (BULK)
+
+
+    Instance 4 of 20:
+        Instance          Schematic                   Layout (1.824, 11.042)
+        --------------    ------------------------    ------------------------
+        Instance name     XI17/MM6                    M1061
+        Instance type     PMOS[d_flip_flop/p105]      PMOS[p105]
+
+        Class             Schematic net (port)        Layout net (port)
+        --------------    ------------------------    ------------------------
+        42              ! vdd! (BULK)               ! N440 (BULK)
+
+
+    Instance 5 of 20:
+        Instance          Schematic                   Layout (1.824, 10.238)
+        --------------    ------------------------    ------------------------
+        Instance name     XI20/MM6                    M1065
+        Instance type     PMOS[d_flip_flop/p105]      PMOS[p105]
+
+        Class             Schematic net (port)        Layout net (port)
+        --------------    ------------------------    ------------------------
+        42              ! vdd! (BULK)               ! N440 (BULK)
+
+
+    Instance 6 of 20:
+        Instance          Schematic                   Layout (1.064, 10.238)
+        --------------    ------------------------    ------------------------
+        Instance name     XI20/MM5                    M1081
+        Instance type     PMOS[d_flip_flop/p105]      PMOS[p105]
+
+        Class             Schematic net (port)        Layout net (port)
+        --------------    ------------------------    ------------------------
+        42              ! vdd! (BULK)               ! N440 (BULK)
+
+
+    Instance 7 of 20:
+        Instance          Schematic                   Layout (1.064, 11.042)
+        --------------    ------------------------    ------------------------
+        Instance name     XI17/MM5                    M1079
+        Instance type     PMOS[d_flip_flop/p105]      PMOS[p105]
+
+        Class             Schematic net (port)        Layout net (port)
+        --------------    ------------------------    ------------------------
+        42              ! vdd! (BULK)               ! N440 (BULK)
+
+
+    Instance 8 of 20:
+        Instance          Schematic                   Layout (4.256, 10.237)
+        --------------    ------------------------    ------------------------
+        Instance name     XI19/MM4                    M919
+        Instance type     PMOS[and2/p105]             PMOS[p105]
+
+        Class             Schematic net (port)        Layout net (port)
+        --------------    ------------------------    ------------------------
+        1               ! vdd! (SRC)                ! vdd! (DRN)
+        42              ! vdd! (BULK)               ! N440 (BULK)
+
+
+    Instance 9 of 20:
+        Instance          Schematic                   Layout 
+        --------------    ------------------------    ------------------------
+        Instance name     XI17/MM2                    Parallel#226
+        Instance type     PMOS[d_flip_flop/p105]      PMOS[p105]
+
+        Class             Schematic net (port)        Layout net (port)
+        --------------    ------------------------    ------------------------
+        1               ! vdd! (SRC)                ! vdd! (SRC)
+        42              ! vdd! (BULK)               ! N440 (BULK)
+
+
+    Instance 10 of 20:
+        Instance          Schematic                   Layout (0.152, 11.042)
+        --------------    ------------------------    ------------------------
+        Instance name     XI17/MM14                   M1094
+        Instance type     PMOS[d_flip_flop/p105]      PMOS[p105]
+
+        Class             Schematic net (port)        Layout net (port)
+        --------------    ------------------------    ------------------------
+        1               ! vdd! (SRC)                ! vdd! (DRN)
+        42              ! vdd! (BULK)               ! N440 (BULK)
+
+
+    NOTE: The number of instances exceeds print_devices_per_net_max (10).
+          The remaining instances are truncated.
+
+
+    20 matched devices connected to open net N436.
+    --------------------------------------------------------------------
+
+    Instance 1 of 20:
+        Instance          Schematic                   Layout 
+        --------------    ------------------------    ------------------------
+        Instance name     XI21/MM9                    Parallel#286
+        Instance type     PMOS[d_flip_flop/p105]      PMOS[p105]
+
+        Class             Schematic net (port)        Layout net (port)
+        --------------    ------------------------    ------------------------
+        1               ! vdd! (SRC)                ! vdd! (DRN)
+        42              ! vdd! (BULK)               ! N436 (BULK)
+
+
+    Instance 2 of 20:
+        Instance          Schematic                   Layout (1.824, 7.198)
+        --------------    ------------------------    ------------------------
+        Instance name     XI24/MM6                    M1073
+        Instance type     PMOS[d_flip_flop/p105]      PMOS[p105]
+
+        Class             Schematic net (port)        Layout net (port)
+        --------------    ------------------------    ------------------------
+        42              ! vdd! (BULK)               ! N436 (BULK)
+
+
+    Instance 3 of 20:
+        Instance          Schematic                   Layout 
+        --------------    ------------------------    ------------------------
+        Instance name     XI24/MM9                    Parallel#114
+        Instance type     PMOS[d_flip_flop/p105]      PMOS[p105]
+
+        Class             Schematic net (port)        Layout net (port)
+        --------------    ------------------------    ------------------------
+        1               ! vdd! (SRC)                ! vdd! (DRN)
+        42              ! vdd! (BULK)               ! N436 (BULK)
+
+
+    Instance 4 of 20:
+        Instance          Schematic                   Layout 
+        --------------    ------------------------    ------------------------
+        Instance name     XI24/MM7                    Parallel#43
+        Instance type     PMOS[d_flip_flop/p105]      PMOS[p105]
+
+        Class             Schematic net (port)        Layout net (port)
+        --------------    ------------------------    ------------------------
+        1               ! vdd! (SRC)                ! vdd! (DRN)
+        42              ! vdd! (BULK)               ! N436 (BULK)
+
+
+    Instance 5 of 20:
+        Instance          Schematic                   Layout 
+        --------------    ------------------------    ------------------------
+        Instance name     XI23/MM9                    Parallel#223
+        Instance type     PMOS[and2/p105]             PMOS[p105]
+
+        Class             Schematic net (port)        Layout net (port)
+        --------------    ------------------------    ------------------------
+        1               ! vdd! (SRC)                ! vdd! (DRN)
+        42              ! vdd! (BULK)               ! N436 (BULK)
+
+
+    Instance 6 of 20:
+        Instance          Schematic                   Layout 
+        --------------    ------------------------    ------------------------
+        Instance name     XI23/MM8                    Parallel#61
+        Instance type     PMOS[and2/p105]             PMOS[p105]
+
+        Class             Schematic net (port)        Layout net (port)
+        --------------    ------------------------    ------------------------
+        1               ! vdd! (SRC)                ! vdd! (DRN)
+        42              ! vdd! (BULK)               ! N436 (BULK)
+
+
+    Instance 7 of 20:
+        Instance          Schematic                   Layout (1.064, 8.002)
+        --------------    ------------------------    ------------------------
+        Instance name     XI21/MM5                    M1083
+        Instance type     PMOS[d_flip_flop/p105]      PMOS[p105]
+
+        Class             Schematic net (port)        Layout net (port)
+        --------------    ------------------------    ------------------------
+        42              ! vdd! (BULK)               ! N436 (BULK)
+
+
+    Instance 8 of 20:
+        Instance          Schematic                   Layout 
+        --------------    ------------------------    ------------------------
+        Instance name     XI21/MM7                    Parallel#194
+        Instance type     PMOS[d_flip_flop/p105]      PMOS[p105]
+
+        Class             Schematic net (port)        Layout net (port)
+        --------------    ------------------------    ------------------------
+        1               ! vdd! (SRC)                ! vdd! (DRN)
+        42              ! vdd! (BULK)               ! N436 (BULK)
+
+
+    Instance 9 of 20:
+        Instance          Schematic                   Layout (1.824, 8.002)
+        --------------    ------------------------    ------------------------
+        Instance name     XI21/MM6                    M1069
+        Instance type     PMOS[d_flip_flop/p105]      PMOS[p105]
+
+        Class             Schematic net (port)        Layout net (port)
+        --------------    ------------------------    ------------------------
+        42              ! vdd! (BULK)               ! N436 (BULK)
+
+
+    Instance 10 of 20:
+        Instance          Schematic                   Layout (4.256, 8.003)
+        --------------    ------------------------    ------------------------
+        Instance name     XI22/MM4                    M921
+        Instance type     PMOS[and2/p105]             PMOS[p105]
+
+        Class             Schematic net (port)        Layout net (port)
+        --------------    ------------------------    ------------------------
+        1               ! vdd! (SRC)                ! vdd! (DRN)
+        42              ! vdd! (BULK)               ! N436 (BULK)
+
+
+    NOTE: The number of instances exceeds print_devices_per_net_max (10).
+          The remaining instances are truncated.
+
+
+    20 matched devices connected to open net N435.
+    --------------------------------------------------------------------
+
+    Instance 1 of 20:
+        Instance          Schematic                   Layout (4.256, 4.157)
+        --------------    ------------------------    ------------------------
+        Instance name     XI27/MM4                    M1181
+        Instance type     PMOS[and2/p105]             PMOS[p105]
+
+        Class             Schematic net (port)        Layout net (port)
+        --------------    ------------------------    ------------------------
+        1               ! vdd! (SRC)                ! vdd! (DRN)
+        42              ! vdd! (BULK)               ! N435 (BULK)
+
+
+    Instance 2 of 20:
+        Instance          Schematic                   Layout (0.152, 4.962)
+        --------------    ------------------------    ------------------------
+        Instance name     XI25/MM14                   M1245
+        Instance type     PMOS[d_flip_flop/p105]      PMOS[p105]
+
+        Class             Schematic net (port)        Layout net (port)
+        --------------    ------------------------    ------------------------
+        1               ! vdd! (SRC)                ! vdd! (DRN)
+        42              ! vdd! (BULK)               ! N435 (BULK)
+
+
+    Instance 3 of 20:
+        Instance          Schematic                   Layout 
+        --------------    ------------------------    ------------------------
+        Instance name     XI25/MM9                    Parallel#120
+        Instance type     PMOS[d_flip_flop/p105]      PMOS[p105]
+
+        Class             Schematic net (port)        Layout net (port)
+        --------------    ------------------------    ------------------------
+        1               ! vdd! (SRC)                ! vdd! (DRN)
+        42              ! vdd! (BULK)               ! N435 (BULK)
+
+
+    Instance 4 of 20:
+        Instance          Schematic                   Layout (0.152, 4.158)
+        --------------    ------------------------    ------------------------
+        Instance name     XI28/MM14                   M1246
+        Instance type     PMOS[d_flip_flop/p105]      PMOS[p105]
+
+        Class             Schematic net (port)        Layout net (port)
+        --------------    ------------------------    ------------------------
+        1               ! vdd! (SRC)                ! vdd! (DRN)
+        42              ! vdd! (BULK)               ! N435 (BULK)
+
+
+    Instance 5 of 20:
+        Instance          Schematic                   Layout 
+        --------------    ------------------------    ------------------------
+        Instance name     XI28/MM9                    Parallel#235
+        Instance type     PMOS[d_flip_flop/p105]      PMOS[p105]
+
+        Class             Schematic net (port)        Layout net (port)
+        --------------    ------------------------    ------------------------
+        1               ! vdd! (SRC)                ! vdd! (DRN)
+        42              ! vdd! (BULK)               ! N435 (BULK)
+
+
+    Instance 6 of 20:
+        Instance          Schematic                   Layout 
+        --------------    ------------------------    ------------------------
+        Instance name     XI28/MM2                    Parallel#45
+        Instance type     PMOS[d_flip_flop/p105]      PMOS[p105]
+
+        Class             Schematic net (port)        Layout net (port)
+        --------------    ------------------------    ------------------------
+        1               ! vdd! (SRC)                ! vdd! (SRC)
+        42              ! vdd! (BULK)               ! N435 (BULK)
+
+
+    Instance 7 of 20:
+        Instance          Schematic                   Layout 
+        --------------    ------------------------    ------------------------
+        Instance name     XI25/MM7                    Parallel#273
+        Instance type     PMOS[d_flip_flop/p105]      PMOS[p105]
+
+        Class             Schematic net (port)        Layout net (port)
+        --------------    ------------------------    ------------------------
+        1               ! vdd! (SRC)                ! vdd! (DRN)
+        42              ! vdd! (BULK)               ! N435 (BULK)
+
+
+    Instance 8 of 20:
+        Instance          Schematic                   Layout 
+        --------------    ------------------------    ------------------------
+        Instance name     XI26/MM8                    Parallel#283
+        Instance type     PMOS[and2/p105]             PMOS[p105]
+
+        Class             Schematic net (port)        Layout net (port)
+        --------------    ------------------------    ------------------------
+        1               ! vdd! (SRC)                ! vdd! (DRN)
+        42              ! vdd! (BULK)               ! N435 (BULK)
+
+
+    Instance 9 of 20:
+        Instance          Schematic                   Layout (0.760, 4.962)
+        --------------    ------------------------    ------------------------
+        Instance name     XI25/MM1                    M1221
+        Instance type     PMOS[d_flip_flop/p105]      PMOS[p105]
+
+        Class             Schematic net (port)        Layout net (port)
+        --------------    ------------------------    ------------------------
+        1               ! vdd! (SRC)                ! vdd! (DRN)
+        42              ! vdd! (BULK)               ! N435 (BULK)
+
+
+    Instance 10 of 20:
+        Instance          Schematic                   Layout (0.760, 4.158)
+        --------------    ------------------------    ------------------------
+        Instance name     XI28/MM1                    M1229
+        Instance type     PMOS[d_flip_flop/p105]      PMOS[p105]
+
+        Class             Schematic net (port)        Layout net (port)
+        --------------    ------------------------    ------------------------
+        1               ! vdd! (SRC)                ! vdd! (DRN)
+        42              ! vdd! (BULK)               ! N435 (BULK)
+
+
+    NOTE: The number of instances exceeds print_devices_per_net_max (10).
+          The remaining instances are truncated.
+
+
+    20 matched devices connected to open net N434.
+    --------------------------------------------------------------------
+
+    Instance 1 of 20:
+        Instance          Schematic                   Layout (0.152, 1.922)
+        --------------    ------------------------    ------------------------
+        Instance name     XI29/MM14                   M1247
+        Instance type     PMOS[d_flip_flop/p105]      PMOS[p105]
+
+        Class             Schematic net (port)        Layout net (port)
+        --------------    ------------------------    ------------------------
+        1               ! vdd! (SRC)                ! vdd! (DRN)
+        42              ! vdd! (BULK)               ! N434 (BULK)
+
+
+    Instance 2 of 20:
+        Instance          Schematic                   Layout (4.256, 1.117)
+        --------------    ------------------------    ------------------------
+        Instance name     XI31/MM4                    M1183
+        Instance type     PMOS[and2/p105]             PMOS[p105]
+
+        Class             Schematic net (port)        Layout net (port)
+        --------------    ------------------------    ------------------------
+        1               ! vdd! (SRC)                ! vdd! (DRN)
+        42              ! vdd! (BULK)               ! N434 (BULK)
+
+
+    Instance 3 of 20:
+        Instance          Schematic                   Layout (1.064, 1.118)
+        --------------    ------------------------    ------------------------
+        Instance name     XI32/MM5                    M1242
+        Instance type     PMOS[d_flip_flop/p105]      PMOS[p105]
+
+        Class             Schematic net (port)        Layout net (port)
+        --------------    ------------------------    ------------------------
+        42              ! vdd! (BULK)               ! N434 (BULK)
+
+
+    Instance 4 of 20:
+        Instance          Schematic                   Layout 
+        --------------    ------------------------    ------------------------
+        Instance name     XI32/MM2                    Parallel#248
+        Instance type     PMOS[d_flip_flop/p105]      PMOS[p105]
+
+        Class             Schematic net (port)        Layout net (port)
+        --------------    ------------------------    ------------------------
+        1               ! vdd! (SRC)                ! vdd! (SRC)
+        42              ! vdd! (BULK)               ! N434 (BULK)
+
+
+    Instance 5 of 20:
+        Instance          Schematic                   Layout 
+        --------------    ------------------------    ------------------------
+        Instance name     XI29/MM2                    Parallel#237
+        Instance type     PMOS[d_flip_flop/p105]      PMOS[p105]
+
+        Class             Schematic net (port)        Layout net (port)
+        --------------    ------------------------    ------------------------
+        1               ! vdd! (SRC)                ! vdd! (SRC)
+        42              ! vdd! (BULK)               ! N434 (BULK)
+
+
+    Instance 6 of 20:
+        Instance          Schematic                   Layout (0.760, 1.922)
+        --------------    ------------------------    ------------------------
+        Instance name     XI29/MM1                    M1233
+        Instance type     PMOS[d_flip_flop/p105]      PMOS[p105]
+
+        Class             Schematic net (port)        Layout net (port)
+        --------------    ------------------------    ------------------------
+        1               ! vdd! (SRC)                ! vdd! (DRN)
+        42              ! vdd! (BULK)               ! N434 (BULK)
+
+
+    Instance 7 of 20:
+        Instance          Schematic                   Layout (0.760, 1.118)
+        --------------    ------------------------    ------------------------
+        Instance name     XI32/MM1                    M1241
+        Instance type     PMOS[d_flip_flop/p105]      PMOS[p105]
+
+        Class             Schematic net (port)        Layout net (port)
+        --------------    ------------------------    ------------------------
+        1               ! vdd! (SRC)                ! vdd! (DRN)
+        42              ! vdd! (BULK)               ! N434 (BULK)
+
+
+    Instance 8 of 20:
+        Instance          Schematic                   Layout 
+        --------------    ------------------------    ------------------------
+        Instance name     XI29/MM9                    Parallel#186
+        Instance type     PMOS[d_flip_flop/p105]      PMOS[p105]
+
+        Class             Schematic net (port)        Layout net (port)
+        --------------    ------------------------    ------------------------
+        1               ! vdd! (SRC)                ! vdd! (DRN)
+        42              ! vdd! (BULK)               ! N434 (BULK)
+
+
+    Instance 9 of 20:
+        Instance          Schematic                   Layout (1.824, 1.118)
+        --------------    ------------------------    ------------------------
+        Instance name     XI32/MM6                    M1243
+        Instance type     PMOS[d_flip_flop/p105]      PMOS[p105]
+
+        Class             Schematic net (port)        Layout net (port)
+        --------------    ------------------------    ------------------------
+        42              ! vdd! (BULK)               ! N434 (BULK)
+
+
+    Instance 10 of 20:
+        Instance          Schematic                   Layout 
+        --------------    ------------------------    ------------------------
+        Instance name     XI31/MM9                    Parallel#242
+        Instance type     PMOS[and2/p105]             PMOS[p105]
+
+        Class             Schematic net (port)        Layout net (port)
+        --------------    ------------------------    ------------------------
+        1               ! vdd! (SRC)                ! vdd! (DRN)
+        42              ! vdd! (BULK)               ! N434 (BULK)
+
+
+    NOTE: The number of instances exceeds print_devices_per_net_max (10).
+          The remaining instances are truncated.
+
+
+    28 matched devices connected to open net N457.
+    --------------------------------------------------------------------
+
+    Instance 1 of 28:
+        Instance          Schematic                   Layout 
+        --------------    ------------------------    ------------------------
+        Instance name     XI44/XI2/MM26               Parallel#95
+        Instance type     PMOS[four_bit_adder/one_    PMOS[p105]
+                            bit_adder/p105]             
+
+        Class             Schematic net (port)        Layout net (port)
+        --------------    ------------------------    ------------------------
+        1               ! vdd! (SRC)                ! vdd! (SRC)
+        42              ! vdd! (BULK)               ! N457 (BULK)
+
+
+    Instance 2 of 28:
+        Instance          Schematic                   Layout (30.964, 18.478)
+        --------------    ------------------------    ------------------------
+        Instance name     XI44/XI2/MM13               M680
+        Instance type     PMOS[four_bit_adder/one_    PMOS[p105]
+                            bit_adder/p105]             
+
+        Class             Schematic net (port)        Layout net (port)
+        --------------    ------------------------    ------------------------
+        1               ! vdd! (SRC)                ! vdd! (SRC)
+        42              ! vdd! (BULK)               ! N457 (BULK)
+
+
+    Instance 3 of 28:
+        Instance          Schematic                   Layout (30.052, 18.492)
+        --------------    ------------------------    ------------------------
+        Instance name     XI44/XI2/MM4                M677
+        Instance type     PMOS[four_bit_adder/one_    PMOS[p105]
+                            bit_adder/p105]             
+
+        Class             Schematic net (port)        Layout net (port)
+        --------------    ------------------------    ------------------------
+        42              ! vdd! (BULK)               ! N457 (BULK)
+
+
+    Instance 4 of 28:
+        Instance          Schematic                   Layout (30.204, 18.492)
+        --------------    ------------------------    ------------------------
+        Instance name     XI44/XI2/MM3                M675
+        Instance type     PMOS[four_bit_adder/one_    PMOS[p105]
+                            bit_adder/p105]             
+
+        Class             Schematic net (port)        Layout net (port)
+        --------------    ------------------------    ------------------------
+        1               ! vdd! (SRC)                ! vdd! (SRC)
+        42              ! vdd! (BULK)               ! N457 (BULK)
+
+
+    Instance 5 of 28:
+        Instance          Schematic                   Layout 
+        --------------    ------------------------    ------------------------
+        Instance name     XI44/XI1/MM20               Parallel#228
+        Instance type     PMOS[four_bit_adder/one_    PMOS[p105]
+                            bit_adder/p105]             
+
+        Class             Schematic net (port)        Layout net (port)
+        --------------    ------------------------    ------------------------
+        1               ! vdd! (SRC)                ! vdd! (SRC)
+        42              ! vdd! (BULK)               ! N457 (BULK)
+
+
+    Instance 6 of 28:
+        Instance          Schematic                   Layout 
+        --------------    ------------------------    ------------------------
+        Instance name     XI44/XI1/MM15               Parallel#177
+        Instance type     PMOS[four_bit_adder/one_    PMOS[p105]
+                            bit_adder/p105]             
+
+        Class             Schematic net (port)        Layout net (port)
+        --------------    ------------------------    ------------------------
+        42              ! vdd! (BULK)               ! N457 (BULK)
+
+
+    Instance 7 of 28:
+        Instance          Schematic                   Layout (29.444, 19.170)
+        --------------    ------------------------    ------------------------
+        Instance name     XI44/XI1/MM0                M717
+        Instance type     PMOS[four_bit_adder/one_    PMOS[p105]
+                            bit_adder/p105]             
+
+        Class             Schematic net (port)        Layout net (port)
+        --------------    ------------------------    ------------------------
+        1               ! vdd! (SRC)                ! vdd! (SRC)
+        42              ! vdd! (BULK)               ! N457 (BULK)
+
+
+    Instance 8 of 28:
+        Instance          Schematic                   Layout 
+        --------------    ------------------------    ------------------------
+        Instance name     XI44/XI2/MM22               Parallel#306
+        Instance type     PMOS[four_bit_adder/one_    PMOS[p105]
+                            bit_adder/p105]             
+
+        Class             Schematic net (port)        Layout net (port)
+        --------------    ------------------------    ------------------------
+        42              ! vdd! (BULK)               ! N457 (BULK)
+
+
+    Instance 9 of 28:
+        Instance          Schematic                   Layout 
+        --------------    ------------------------    ------------------------
+        Instance name     XI44/XI2/MM21               Parallel#166
+        Instance type     PMOS[four_bit_adder/one_    PMOS[p105]
+                            bit_adder/p105]             
+
+        Class             Schematic net (port)        Layout net (port)
+        --------------    ------------------------    ------------------------
+        42              ! vdd! (BULK)               ! N457 (BULK)
+
+
+    Instance 10 of 28:
+        Instance          Schematic                   Layout (29.596, 18.618)
+        --------------    ------------------------    ------------------------
+        Instance name     XI44/XI2/MM2                M674
+        Instance type     PMOS[four_bit_adder/one_    PMOS[p105]
+                            bit_adder/p105]             
+
+        Class             Schematic net (port)        Layout net (port)
+        --------------    ------------------------    ------------------------
+        1               ! vdd! (SRC)                ! vdd! (SRC)
+        42              ! vdd! (BULK)               ! N457 (BULK)
+
+
+    NOTE: The number of instances exceeds print_devices_per_net_max (10).
+          The remaining instances are truncated.
+
+
+    28 matched devices connected to open net N437.
+    --------------------------------------------------------------------
+
+    Instance 1 of 28:
+        Instance          Schematic                   Layout (11.539, 7.005)
+        --------------    ------------------------    ------------------------
+        Instance name     XI33/XI1/MM2                M1178
+        Instance type     PMOS[four_bit_adder/one_    PMOS[p105]
+                            bit_adder/p105]             
+
+        Class             Schematic net (port)        Layout net (port)
+        --------------    ------------------------    ------------------------
+        1               ! vdd! (SRC)                ! vdd! (SRC)
+        42              ! vdd! (BULK)               ! N437 (BULK)
+
+
+    Instance 2 of 28:
+        Instance          Schematic                   Layout 
+        --------------    ------------------------    ------------------------
+        Instance name     XI33/XI1/MM22               Parallel#12
+        Instance type     PMOS[four_bit_adder/one_    PMOS[p105]
+                            bit_adder/p105]             
+
+        Class             Schematic net (port)        Layout net (port)
+        --------------    ------------------------    ------------------------
+        42              ! vdd! (BULK)               ! N437 (BULK)
+
+
+    Instance 3 of 28:
+        Instance          Schematic                   Layout (11.995, 6.327)
+        --------------    ------------------------    ------------------------
+        Instance name     XI33/XI2/MM4                M1160
+        Instance type     PMOS[four_bit_adder/one_    PMOS[p105]
+                            bit_adder/p105]             
+
+        Class             Schematic net (port)        Layout net (port)
+        --------------    ------------------------    ------------------------
+        42              ! vdd! (BULK)               ! N437 (BULK)
+
+
+    Instance 4 of 28:
+        Instance          Schematic                   Layout (11.995, 7.131)
+        --------------    ------------------------    ------------------------
+        Instance name     XI33/XI1/MM4                M1166
+        Instance type     PMOS[four_bit_adder/one_    PMOS[p105]
+                            bit_adder/p105]             
+
+        Class             Schematic net (port)        Layout net (port)
+        --------------    ------------------------    ------------------------
+        42              ! vdd! (BULK)               ! N437 (BULK)
+
+
+    Instance 5 of 28:
+        Instance          Schematic                   Layout (12.147, 7.131)
+        --------------    ------------------------    ------------------------
+        Instance name     XI33/XI1/MM3                M1165
+        Instance type     PMOS[four_bit_adder/one_    PMOS[p105]
+                            bit_adder/p105]             
+
+        Class             Schematic net (port)        Layout net (port)
+        --------------    ------------------------    ------------------------
+        1               ! vdd! (SRC)                ! vdd! (SRC)
+        42              ! vdd! (BULK)               ! N437 (BULK)
+
+
+    Instance 6 of 28:
+        Instance          Schematic                   Layout (13.059, 6.313)
+        --------------    ------------------------    ------------------------
+        Instance name     XI33/XI2/MM14               M1164
+        Instance type     PMOS[four_bit_adder/one_    PMOS[p105]
+                            bit_adder/p105]             
+
+        Class             Schematic net (port)        Layout net (port)
+        --------------    ------------------------    ------------------------
+        1               ! vdd! (SRC)                ! vdd! (SRC)
+        42              ! vdd! (BULK)               ! N437 (BULK)
+
+
+    Instance 7 of 28:
+        Instance          Schematic                   Layout 
+        --------------    ------------------------    ------------------------
+        Instance name     XI33/XI1/MM21               Parallel#320
+        Instance type     PMOS[four_bit_adder/one_    PMOS[p105]
+                            bit_adder/p105]             
+
+        Class             Schematic net (port)        Layout net (port)
+        --------------    ------------------------    ------------------------
+        42              ! vdd! (BULK)               ! N437 (BULK)
+
+
+    Instance 8 of 28:
+        Instance          Schematic                   Layout (12.907, 6.313)
+        --------------    ------------------------    ------------------------
+        Instance name     XI33/XI2/MM13               M1163
+        Instance type     PMOS[four_bit_adder/one_    PMOS[p105]
+                            bit_adder/p105]             
+
+        Class             Schematic net (port)        Layout net (port)
+        --------------    ------------------------    ------------------------
+        1               ! vdd! (SRC)                ! vdd! (SRC)
+        42              ! vdd! (BULK)               ! N437 (BULK)
+
+
+    Instance 9 of 28:
+        Instance          Schematic                   Layout (12.907, 7.145)
+        --------------    ------------------------    ------------------------
+        Instance name     XI33/XI1/MM13               M1169
+        Instance type     PMOS[four_bit_adder/one_    PMOS[p105]
+                            bit_adder/p105]             
+
+        Class             Schematic net (port)        Layout net (port)
+        --------------    ------------------------    ------------------------
+        1               ! vdd! (SRC)                ! vdd! (SRC)
+        42              ! vdd! (BULK)               ! N437 (BULK)
+
+
+    Instance 10 of 28:
+        Instance          Schematic                   Layout 
+        --------------    ------------------------    ------------------------
+        Instance name     XI33/XI2/MM22               Parallel#76
+        Instance type     PMOS[four_bit_adder/one_    PMOS[p105]
+                            bit_adder/p105]             
+
+        Class             Schematic net (port)        Layout net (port)
+        --------------    ------------------------    ------------------------
+        42              ! vdd! (BULK)               ! N437 (BULK)
+
+
+    NOTE: The number of instances exceeds print_devices_per_net_max (10).
+          The remaining instances are truncated.
+
+
+    28 matched devices connected to open net N448.
+    --------------------------------------------------------------------
+
+    Instance 1 of 28:
+        Instance          Schematic                   Layout 
+        --------------    ------------------------    ------------------------
+        Instance name     XI0/XI2/MM22                Parallel#164
+        Instance type     PMOS[four_bit_adder/one_    PMOS[p105]
+                            bit_adder/p105]             
+
+        Class             Schematic net (port)        Layout net (port)
+        --------------    ------------------------    ------------------------
+        42              ! vdd! (BULK)               ! N448 (BULK)
+
+
+    Instance 2 of 28:
+        Instance          Schematic                   Layout (12.755, 19.310)
+        --------------    ------------------------    ------------------------
+        Instance name     XI0/XI1/MM12                M857
+        Instance type     PMOS[four_bit_adder/one_    PMOS[p105]
+                            bit_adder/p105]             
+
+        Class             Schematic net (port)        Layout net (port)
+        --------------    ------------------------    ------------------------
+        1               ! vdd! (SRC)                ! vdd! (SRC)
+        42              ! vdd! (BULK)               ! N448 (BULK)
+
+
+    Instance 3 of 28:
+        Instance          Schematic                   Layout (12.451, 19.296)
+        --------------    ------------------------    ------------------------
+        Instance name     XI0/XI1/MM10                M856
+        Instance type     PMOS[four_bit_adder/one_    PMOS[p105]
+                            bit_adder/p105]             
+
+        Class             Schematic net (port)        Layout net (port)
+        --------------    ------------------------    ------------------------
+        1               ! vdd! (SRC)                ! vdd! (DRN)
+        42              ! vdd! (BULK)               ! N448 (BULK)
+
+
+    Instance 4 of 28:
+        Instance          Schematic                   Layout (12.147, 18.492)
+        --------------    ------------------------    ------------------------
+        Instance name     XI0/XI2/MM3                 M863
+        Instance type     PMOS[four_bit_adder/one_    PMOS[p105]
+                            bit_adder/p105]             
+
+        Class             Schematic net (port)        Layout net (port)
+        --------------    ------------------------    ------------------------
+        1               ! vdd! (SRC)                ! vdd! (SRC)
+        42              ! vdd! (BULK)               ! N448 (BULK)
+
+
+    Instance 5 of 28:
+        Instance          Schematic                   Layout 
+        --------------    ------------------------    ------------------------
+        Instance name     XI0/XI2/MM15                Parallel#60
+        Instance type     PMOS[four_bit_adder/one_    PMOS[p105]
+                            bit_adder/p105]             
+
+        Class             Schematic net (port)        Layout net (port)
+        --------------    ------------------------    ------------------------
+        42              ! vdd! (BULK)               ! N448 (BULK)
+
+
+    Instance 6 of 28:
+        Instance          Schematic                   Layout 
+        --------------    ------------------------    ------------------------
+        Instance name     XI0/XI2/MM21                Parallel#264
+        Instance type     PMOS[four_bit_adder/one_    PMOS[p105]
+                            bit_adder/p105]             
+
+        Class             Schematic net (port)        Layout net (port)
+        --------------    ------------------------    ------------------------
+        42              ! vdd! (BULK)               ! N448 (BULK)
+
+
+    Instance 7 of 28:
+        Instance          Schematic                   Layout 
+        --------------    ------------------------    ------------------------
+        Instance name     XI0/XI2/MM20                Parallel#14
+        Instance type     PMOS[four_bit_adder/one_    PMOS[p105]
+                            bit_adder/p105]             
+
+        Class             Schematic net (port)        Layout net (port)
+        --------------    ------------------------    ------------------------
+        1               ! vdd! (SRC)                ! vdd! (SRC)
+        42              ! vdd! (BULK)               ! N448 (BULK)
+
+
+    Instance 8 of 28:
+        Instance          Schematic                   Layout 
+        --------------    ------------------------    ------------------------
+        Instance name     XI0/XI1/MM20                Parallel#119
+        Instance type     PMOS[four_bit_adder/one_    PMOS[p105]
+                            bit_adder/p105]             
+
+        Class             Schematic net (port)        Layout net (port)
+        --------------    ------------------------    ------------------------
+        1               ! vdd! (SRC)                ! vdd! (SRC)
+        42              ! vdd! (BULK)               ! N448 (BULK)
+
+
+    Instance 9 of 28:
+        Instance          Schematic                   Layout (11.539, 18.618)
+        --------------    ------------------------    ------------------------
+        Instance name     XI0/XI2/MM2                 M900
+        Instance type     PMOS[four_bit_adder/one_    PMOS[p105]
+                            bit_adder/p105]             
+
+        Class             Schematic net (port)        Layout net (port)
+        --------------    ------------------------    ------------------------
+        1               ! vdd! (SRC)                ! vdd! (SRC)
+        42              ! vdd! (BULK)               ! N448 (BULK)
+
+
+    Instance 10 of 28:
+        Instance          Schematic                   Layout (11.387, 18.618)
+        --------------    ------------------------    ------------------------
+        Instance name     XI0/XI2/MM0                 M899
+        Instance type     PMOS[four_bit_adder/one_    PMOS[p105]
+                            bit_adder/p105]             
+
+        Class             Schematic net (port)        Layout net (port)
+        --------------    ------------------------    ------------------------
+        1               ! vdd! (SRC)                ! vdd! (SRC)
+        42              ! vdd! (BULK)               ! N448 (BULK)
+
+
+    NOTE: The number of instances exceeds print_devices_per_net_max (10).
+          The remaining instances are truncated.
+
+
+    293 matched devices connected to open net vdd!.
+    --------------------------------------------------------------------
+
+    Instance 1 of 293:
+        Instance          Schematic                   Layout (11.539, 21.659)
+        --------------    ------------------------    ------------------------
+        Instance name     XI0/XI0/MM2                 M903
+        Instance type     PMOS[four_bit_adder/one_    PMOS[p105]
+                            bit_adder/p105]             
+
+        Class             Schematic net (port)        Layout net (port)
+        --------------    ------------------------    ------------------------
+        1               ! vdd! (SRC)                ! vdd! (SRC)
+        42              ! vdd! (BULK)               ! N447 (BULK)
+
+
+    Instance 2 of 293:
+        Instance          Schematic                   Layout (11.539, 7.005)
+        --------------    ------------------------    ------------------------
+        Instance name     XI33/XI1/MM2                M1178
+        Instance type     PMOS[four_bit_adder/one_    PMOS[p105]
+                            bit_adder/p105]             
+
+        Class             Schematic net (port)        Layout net (port)
+        --------------    ------------------------    ------------------------
+        1               ! vdd! (SRC)                ! vdd! (SRC)
+        42              ! vdd! (BULK)               ! N437 (BULK)
+
+
+    Instance 3 of 293:
+        Instance          Schematic                   Layout (19.576, 5.716)
+        --------------    ------------------------    ------------------------
+        Instance name     XI43/MM1                    M1117
+        Instance type     PMOS[d_flip_flop/p105]      PMOS[p105]
+
+        Class             Schematic net (port)        Layout net (port)
+        --------------    ------------------------    ------------------------
+        1               ! vdd! (SRC)                ! vdd! (DRN)
+        42              ! vdd! (BULK)               ! N439 (BULK)
+
+
+    Instance 4 of 293:
+        Instance          Schematic                   Layout 
+        --------------    ------------------------    ------------------------
+        Instance name     XI36/MM7                    Parallel#253
+        Instance type     PMOS[d_flip_flop/p105]      PMOS[p105]
+
+        Class             Schematic net (port)        Layout net (port)
+        --------------    ------------------------    ------------------------
+        1               ! vdd! (SRC)                ! vdd! (DRN)
+        42              ! vdd! (BULK)               ! N451 (BULK)
+
+
+    Instance 5 of 293:
+        Instance          Schematic                   Layout (11.387, 21.659)
+        --------------    ------------------------    ------------------------
+        Instance name     XI0/XI0/MM0                 M902
+        Instance type     PMOS[four_bit_adder/one_    PMOS[p105]
+                            bit_adder/p105]             
+
+        Class             Schematic net (port)        Layout net (port)
+        --------------    ------------------------    ------------------------
+        1               ! vdd! (SRC)                ! vdd! (SRC)
+        42              ! vdd! (BULK)               ! N447 (BULK)
+
+
+    Instance 6 of 293:
+        Instance          Schematic                   Layout 
+        --------------    ------------------------    ------------------------
+        Instance name     XI5/MM7                     Parallel#298
+        Instance type     PMOS[d_flip_flop/p105]      PMOS[p105]
+
+        Class             Schematic net (port)        Layout net (port)
+        --------------    ------------------------    ------------------------
+        1               ! vdd! (SRC)                ! vdd! (DRN)
+        42              ! vdd! (BULK)               ! N443 (BULK)
+
+
+    Instance 7 of 293:
+        Instance          Schematic                   Layout (18.968, 18.642)
+        --------------    ------------------------    ------------------------
+        Instance name     XI37/MM14                   M797
+        Instance type     PMOS[d_flip_flop/p105]      PMOS[p105]
+
+        Class             Schematic net (port)        Layout net (port)
+        --------------    ------------------------    ------------------------
+        1               ! vdd! (SRC)                ! vdd! (DRN)
+        42              ! vdd! (BULK)               ! N453 (BULK)
+
+
+    Instance 8 of 293:
+        Instance          Schematic                   Layout (11.387, 3.965)
+        --------------    ------------------------    ------------------------
+        Instance name     XI33/XI3/MM0                M1171
+        Instance type     PMOS[four_bit_adder/one_    PMOS[p105]
+                            bit_adder/p105]             
+
+        Class             Schematic net (port)        Layout net (port)
+        --------------    ------------------------    ------------------------
+        1               ! vdd! (SRC)                ! vdd! (SRC)
+        42              ! vdd! (BULK)               ! N438 (BULK)
+
+
+    Instance 9 of 293:
+        Instance          Schematic                   Layout 
+        --------------    ------------------------    ------------------------
+        Instance name     XI44/XI2/MM26               Parallel#95
+        Instance type     PMOS[four_bit_adder/one_    PMOS[p105]
+                            bit_adder/p105]             
+
+        Class             Schematic net (port)        Layout net (port)
+        --------------    ------------------------    ------------------------
+        1               ! vdd! (SRC)                ! vdd! (SRC)
+        42              ! vdd! (BULK)               ! N457 (BULK)
+
+
+    Instance 10 of 293:
+        Instance          Schematic                   Layout (12.755, 9.354)
+        --------------    ------------------------    ------------------------
+        Instance name     XI33/XI0/MM12               M893
+        Instance type     PMOS[four_bit_adder/one_    PMOS[p105]
+                            bit_adder/p105]             
+
+        Class             Schematic net (port)        Layout net (port)
+        --------------    ------------------------    ------------------------
+        1               ! vdd! (SRC)                ! vdd! (SRC)
+        42              ! vdd! (BULK)               ! N445 (BULK)
+
+
+    NOTE: The number of instances exceeds print_devices_per_net_max (10).
+          The remaining instances are truncated.
+
+        2 unmatched layout devices: 
+
+        Schematic instance                      Layout instance (type)
+        ---------------------------             -------------------------
+        * Missing instance                       (PMOS[p105])
+        * Missing instance                       (PMOS[p105])
+
+DIAGNOSTIC: Unmatched devices
+
+    Unmatched schematic and layout devices are grouped for cross probing.
+
+    Group 1 of 1:
+
+        Schematic device (type)       Layout device (type) (x, y)
+        ----------------------        ----------------------
+        XI47/MM12 (PMOS[p105])        Parallel#173 (PMOS[p105])
+        XI47/MM13 (PMOS[p105])        Parallel#310 (PMOS[p105])
+
+
++------------------------------------------------------------------------+
+|                            Unmatched Nodes                             |
++------------------------------------------------------------------------+
+
+Schematic unmatched nets are listed as follows:
+
+    Net name : connections
+    ----------------------------------------
+    vdd! : 702
+
+
+Layout unmatched nets are listed as follows:
+
+    Net name : connections
+    ----------------------------------------
+    vdd! : 293
+    N450 : 7
+    N438 : 14
+    N435 : 20
+    N454 : 18
+    N442 : 20
+    N455 : 7
+    N436 : 20
+    N444 : 20
+    N453 : 14
+    N439 : 14
+    N446 : 14
+    N443 : 20
+    N457 : 28
+    N437 : 28
+    N447 : 14
+    N451 : 14
+    N449 : 14
+    N452 : 7
+    N445 : 14
+    N456 : 14
+    N440 : 20
+    N441 : 20
+    N434 : 20
+    N448 : 28
+
+
+Schematic unmatched devices are listed as follows:
+
+    Instance type PMOS[p105]:
+
+        Real devices:
+
+            XI47/MM12
+            XI47/MM13
+
+
+
+Layout unmatched devices are listed as follows:
+
+    Instance type PMOS[p105]:
+
+        Composite devices:
+
+            Composite device    Member device (type) (x, y)
+            ----------------    ---------------------------
+            Parallel#310        M710 (PMOS[p105]) (30.356, 15.452)
+                                M711 (PMOS[p105]) (30.508, 15.452)
+                                M708 (PMOS[p105]) (30.660, 15.452)
+            Composite device    Member device (type) (x, y)
+            ----------------    ---------------------------
+            Parallel#173        M713 (PMOS[p105]) (29.900, 15.452)
+                                M714 (PMOS[p105]) (30.052, 15.452)
+                                M709 (PMOS[p105]) (30.204, 15.452)
+
+
+
+
+
+
+    Please check run_details/compare/if_neuron/sum.if_neuron.if_neuron
+
+
++------------------------------------------------------------------------+
+|                             Setting Overview                           |
+|                 * = different from IC Validator default                |
++------------------------------------------------------------------------+
+
+    == Global Settings ==                     
+*   schematic global_nets                     = {VDDH VSSIO VDD VDD22 VDD2 VDDG VDDIO vdd! gnd! VSS12 VDDL VDD12 VSS}
+    power nets                                
+*       schematic                             = {VDDH VDD VDD22 VDD2 VDDG VDDIO VDDL VDD12}
+*       layout                                = {VDDH VDD VDD22 VDD2 VDDG VDDIO VDDL VDD12}
+    ground nets                               
+*       schematic                             = {VDDH VDD22 VDD2 VDDIO VSS12 VDDL VSS}
+*       layout                                = {VSSIO VDD22 VSS12 VSS}
+    join nets                                 
+        schematic                             = {}
+        layout                                = {}
+                                              
+    == Merge & Filter ==                      
+*   filter                                    = 17 device_names
+*   merge_parallel                            = 17 device_names
+        exclude_functions                     = 0 device_name
+*       property_functions                    = 10 device_names
+        xref_parallel_map                     = 0 device_name
+*   merge_series                              = 6 device_names
+        exclude_functions                     = 0 device_name
+        property_functions                    = 0 device_name
+        multiple_paths                        = 0 device_name
+        merge_connected_gates                 = 0 device_name
+    short_equivalent_nodes                    = 0 device_name
+        series_parallel_stack                 = 0 device_name
+    recognize_gate                            = 0 device_name
+        exclude_tolerances                    = 0 device_name
+                                              
+    == Property ==                            
+*   check_property                            = 19 device_names
+        check_function                        = 0 device_name
+    check_property_for_failed_equiv           = false
+    lvs_property_epsilon                      = E6
+*   multiply_width                            = false
+    recalculate_property                      = 0 device_name
+                                              
+    == Hierarchy ==                           
+*   memory_array_compare                      = false
+    push_down_devices                         = false
+*   push_down_pins                            = false
+    remove_dangling_net                       = LAYOUT_UNTEXTED
+                                              
+    == Netlist Definition ==                  
+    delete cells                              
+        schematic                             = {}
+        layout                                = {}
+    pin configuration                         
+*       swappable_pins                        = 17 device_names
+        ignore pins                           = 0 device_name
+    top_cell_ports_static                     = NAME_MATCHED
+    define_empty_cell_as_device               = NONE
+                                              
+    == Report ==                              
+    print_messages                            
+        equated_nets_list                     = true
+        equivalent_cell_list                  = true
+        invalid_user_equivs                   = true
+        matched_devices_unmatched_nets        = true
+        merged_nets_referenced                = true
+        netlist_stats                         = true
+        nets_promoted_to_pwr_gnd              = true
+        non_equivalent_cell_list              = true
+        port_xref_table                       = true
+        post_compare_stats                    = true
+        referenced_merged_devices             = true
+        swapped_pin_analysis                  = true
+        symmetrical_nodes_found               = true
+        uncompared_cell_list                  = true
+        all_merged_device_list                = false
+        instance_xref_table                   = false
+        filtered_device_list                  = false
+        series_device_list                    = false
+        net_xref_table                        = false
+        parallel_device_list                  = false
+        pre_merge_stats                       = false
+        black_box_signoff                     = true
+    wrap_print_message_text                   = true
+    print_devices_per_net_max                 = 10
+    error_limit_per_check                     = 1000
+*   write_equiv_netlists                      = ALL
+    print_detail                              
+        property                              = COORDINATES_AND_DEVICE_TYPES
+        xref_pin                              = NONE
+        device_pin                            = ALL
+    black_box_file                            = NONE
+    ignore_equiv_file                         = NONE
+                                              
+    == Equiv Control ==                       
+    generate_user_equivs                      = NONE
+    generate_system_equivs                    = true
+    spice_flow                                = false
+    user_unit_meter                           = false
+    ignore_equivs_with_devices_leveled_out    = false
+    equivs management                         
+*       action_on_error                       = EXPLODE
+        no_explode_condition                  = NONE
+        resolve_duplicate_equivs              = false
+        explode_imbalanced_equivs             = true
+    matching                                  
+        detect_permutable_ports               = false
+*       match_by_net_name                     = true
+        texted_zero_connection_ports          = IGNORE
+        black_box_static_ports                = NONE
+    match_condition                           
+        black_box_duplicates_equiv            = WARNING
+        property_mismatch                     = ERROR
+        missing_required_property             = ERROR
+        illegal_multiplier                    = ERROR
+*       equate_by_net_name_fails              = ERROR
+*       equate_nets_fails                     = ERROR
+        filtered_schematic_devices            = WARNING
+*       generate_global_nets                  = ERROR
+        matches_must_be_assumed               = WARNING
+*       merging_without_pwr_gnd               = ERROR
+        missing_black_box_cell                = WARNING
+        missing_black_box_port                = WARNING
+        missing_pin_connection                = WARNING
+        new_cell_created                      = WARNING
+        no_global_nets_found                  = WARNING
+        undefined_property_for_merged_device  = WARNING
+*       zero_value_property                   = ERROR
+        empty_cell_not_defined_as_device      = NONE
+*       layout_ports_without_name             = ERROR
+*       top_layout_ports_without_name         = ERROR
+*       nets_matched_with_different_name      = ERROR
+*       ports_matched_with_different_name     = ERROR
+        properties_contradict_connections     = NONE
+*       port_net_match_non_port_net           = ERROR
+*       top_schematic_port_net_match_non_port_net= WARNING
+*       top_layout_port_net_match_non_port_net= WARNING
+*       top_ports_matched_with_different_name = ERROR
+        top_schematic_ports_matched_with_different_or_missing_name= NONE
+        one_connection_non_port_net           = NONE
+        zero_connection_net                   = NONE
+    report_black_box_errors                   
+        extra_layout_ports                    = ERROR
+        untexted_layout_ports                 = NONE
+        extra_schematic_ports                 = ERROR
+                                              
+    == Case Sensitivity ==                    
+    netlist case sensitivity                  
+        schematic uppercase                   = false
+        layout uppercase                      = false
+    LVS case_sensitive                        = {PROPERTY NET_PORT DEVICE_NAME}
+
+End of LVS comparison report

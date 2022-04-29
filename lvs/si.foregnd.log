@@ -54,8 +54,7 @@ si: simSetDef().... simMustSaveFiles is initialized to (("si.env" "text")) .
 si: simSetDef().... simKnownSaveFiles is initialized to (("netlist" "netlist")
 ("control" "text") ("si.out" "text") ("si.log" "text") ("map/current"
 "stranger") ("raw/waves" "stranger")) .
-si: simSetDef().... simNotIncremental is already set to t. Redefinition to nil
-is ignored.
+si: simSetDef().... simNotIncremental is initialized to "nil".
 si: simSetDef().... simReNetlistAll is initialized to "nil".
 si: simSetDef().... simUnbindVars is initialized to (interactiveTAP
 SilosTimeScale simActions simApplicationOptionsForm simCapFileDir simCapUnit
@@ -90,28 +89,20 @@ si: simSetDef().... simDoNotForkNetlist is initialized to "nil".
 si: simSetDef().... interactiveTAP is initialized to "nil".
 si: simSetDef().... simPrintSilosCap is initialized to "nil".
 si: simSetDef().... simDoPostLayout is initialized to "nil".
-si: simSetDef().... preserveRES is already set to t. Redefinition to nil is
-ignored.
-si: simSetDef().... preserveCAP is already set to t. Redefinition to nil is
-ignored.
-si: simSetDef().... preserveDIO is already set to t. Redefinition to nil is
-ignored.
-si: simSetDef().... preserveALL is already set to t. Redefinition to nil is
-ignored.
-si: simSetDef().... checkRESVAL is already set to t. Redefinition to nil is
-ignored.
+si: simSetDef().... preserveRES is initialized to "nil".
+si: simSetDef().... preserveCAP is initialized to "nil".
+si: simSetDef().... preserveDIO is initialized to "nil".
+si: simSetDef().... preserveALL is initialized to "nil".
+si: simSetDef().... checkRESVAL is initialized to "nil".
 si: simSetDef().... checkRESSIZE is initialized to "nil".
-si: simSetDef().... checkCAPVAL is already set to t. Redefinition to nil is
-ignored.
+si: simSetDef().... checkCAPVAL is initialized to "nil".
 si: simSetDef().... checkCAPAREA is initialized to "nil".
-si: simSetDef().... checkDIOPERI is already set to t. Redefinition to nil is
-ignored.
-si: simSetDef().... checkDIOAREA is already set to t. Redefinition to nil is
-ignored.
-si: simSetDef().... displayPININFO is already set to t. Redefinition to nil is
-ignored.
-si: simSetDef().... resistorModel is already set to "". Redefinition to nil is
-ignored.
+si: simSetDef().... checkDIOPERI is initialized to "nil".
+si: simSetDef().... checkDIOAREA is initialized to "nil".
+si: simSetDef().... shortRES is initialized to 2000.0 .
+si: simSetDef().... displayPININFO is initialized to "nil".
+si: simSetDef().... resistorModel is initialized to "nil".
+si: simSetDef().... shrinkFACTOR is initialized to 0.0 .
 si: simSetDef().... simPinGlobals is initialized to "nil".
 si: simSetDef().... auCdlPrintEmptySUBCKT is initialized to "nil".
 si: simSetDef().... auCdlSkipMEGA is initialized to "nil".
@@ -250,8 +241,7 @@ si: simSetDef().... hnlPreviousError is initialized to "nil".
 si: simSetDef().... hnlListOfAllStopCells is initialized to "nil".
 si: simSetDef().... hnlListOfAllCells is initialized to "nil".
 si: simSetDef().... hnlNetlistFile is initialized to "nil".
-si: simSetDef().... hnlNetlistFileName is already set to "netlist.sp".
-Redefinition to "netlist" is ignored.
+si: simSetDef().... hnlNetlistFileName is initialized to "netlist" .
 si: simSetDef().... hnlMapDirName is initialized to "map" .
 si: simSetDef().... hnlMapFileName is initialized to "current" .
 si: simSetDef().... hnlNamePrefix is initialized to "hnl_" .
@@ -265,7 +255,7 @@ si: simSetDef().... hnlFormatFuncsLoaded is initialized to "nil".
 si: simSetDef().... hnlDrvIlLoaded is initialized to "nil".
 si: simSetDef().... hnlInstBased is initialized to t .
 si: simSetDef().... hnlLastTarget is initialized to "nil".
-si: simSetDef().... hnlFullNetlistName is initialized to "netlist.sp" .
+si: simSetDef().... hnlFullNetlistName is initialized to "netlist" .
 si: simSetDef().... hnlNetlistDirectory is initialized to "nil".
 si: simSetDef().... hnlFullMasterName is initialized to "nil".
 si: simSetDef().... hnlIncremental is initialized to "nil".
@@ -317,6 +307,7 @@ si: simSetDef().... auCdlPrintModelEquals is initialized to "nil".
 si: simSetDef().... __auCdlCdnsFmt is initialized to "fmtenbld" .
 si: simSetDef().... auCdlTermOrderStr is initialized to "nil".
 si: simSetDef().... auCdlScale is initialized to "METER" .
+si: simSetDef().... checkScale is initialized to "meter" .
 si: simSetDef().... auCdlCheckLDD is initialized to "nil".
 si: simSetDef().... checkLDD is initialized to "nil".
 si: simSetDef().... pinMAP is initialized to "nil".
@@ -333,6 +324,9 @@ si: simSetDef().... simSimulatorUnbindVars is initialized to (cdlSimViewList
 cdlSimStopList cdlNetlistType simAlwaysAddPrefixInInstName ansCdlHdbFilePathProp
 auCdlInstPrintOrder auCdlInstModelPropName auCdlPrintNetsetForStoppingCell
 auCdlDefNetlistProc) .
+si: simSetDef().... globalPowerSig is initialized to "" .
+si: simSetDef().... globalGndSig is initialized to "" .
+si: simSetDef().... auCdlDefNetlistProc is initialized to "ansCdlSubcktCall" .
 si: simSetDef().... preserveRES is already set to t. Redefinition to nil is
 ignored.
 si: simSetDef().... preserveCAP is already set to t. Redefinition to nil is

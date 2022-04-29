@@ -1,15 +1,25 @@
 ( ( nil
   version "2.1"
   mapType "incremental"
-  blockName "one_bit_adder_Leg4"
+  blockName "if_neuron_shortRun"
   repList "cdl schematic cmos_sch gate_sch cmos.sch gate.sch symbol"
   stopList "cdl"
-  globalList "gnd! vdd!"
+  globalList "vdd! gnd!"
   hierDelim "."
-  netlistDir "/afs/asu.edu/users/j/n/e/jneuenda/425_proj/425_lab/drc"
+  netlistDir "/afs/asu.edu/users/j/n/e/jneuenda/425_proj_final/425_lab_3/drc"
  )
 ( model
-( "Lab4/one_bit_adder_Leg4/schematic" "one_bit_adder_Leg4" )
+( "Lab4/one_bit_adder/schematic" "one_bit_adder" )
+( "Lab4/d_flip_flop/schematic" "d_flip_flop" )
+( "Lab4/or3/schematic" "or3" )
+( "Lab4/and2/schematic" "and2" )
+( "Lab4/if_neuron_shortRun/schematic" "if_neuron_shortRun" )
+( "Lab4/four_bit_adder/schematic" "four_bit_adder" )
  )
-( "one_bit_adder_Leg4" "ihnl/cds2/map" )
+( "and2" "ihnl/cds14/map" )
+( "d_flip_flop" "ihnl/cds13/map" )
+( "four_bit_adder" "ihnl/cds12/map" )
+( "if_neuron_shortRun" "ihnl/cds15/map" )
+( "or3" "ihnl/cds9/map" )
+( "one_bit_adder" "ihnl/cds11/map" )
  )

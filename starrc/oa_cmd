@@ -1,0 +1,11 @@
+NETLIST_FORMAT: OA
+OA_VIEW_NAME: starrc
+OA_DEVICE_MAPPING_FILE: /afs/asu.edu/users/d/m/y/dmylsamy/Desktop/425_lab/iPDK/starrc/saed32nm_1p9m_device.map
+OA_LAYER_MAPPING_FILE: /afs/asu.edu/users/d/m/y/dmylsamy/Desktop/425_lab/iPDK/starrc/saed32nm_1p9m_layer.map
+OA_FLYLINE: YES
+OA_MARKER_SIZE: 0.1
+OA_PROPERTY_ANNOTATION_VIEW: Dinesh_First Lab2_Problem_1 schematic
+OA_LIB_DEF: /afs/asu.edu/users/d/m/y/dmylsamy/Desktop/425_lab/starrc//lib_defs_starrc
+OA_LIB_NAME: Dinesh_First
+OA_CELL_NAME: Lab2_Problem_1
+

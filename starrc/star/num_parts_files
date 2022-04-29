@@ -1,0 +1,4 @@
+../star/adjust_xt_charmode_netlist.tech
+../star/split_netlist.tech
+../star/split_netlist_part1.tech
+../star/xtract.tech

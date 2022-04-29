@@ -1,0 +1,137 @@
+
+                                 IC Validator 
+
+          Version O-2018.06-SP1 for linux64 - Jul 23, 2018 cl#4289877
+
+                    Copyright (c) 1996 - 2018 Synopsys, Inc.
+   This software and the associated documentation are proprietary to Synopsys,
+ Inc. This software may only be used in accordance with the terms and conditions
+ of a written license agreement with Synopsys, Inc. All other use, reproduction,
+            or distribution of this software is strictly prohibited.
+
+Called as: /usr/local/synopsys/icv_2018.06-SP1/icvalidator/O-2018.06-SP1/bin/LINUX.64/icv -vue -c if_neuron -i if_neuron.gdsOut -f GDSII -s netlist.sp -sf SPICE -stc if_neuron ../iPDK/icv/lvs/saed32nm_1p9m_lvs_rules.rs
+
+
+Loaded runset from cache: /afs/asu.edu/users/j/n/e/jneuenda/.icvrscache/f31b76bbc27f3daa28997b99a6669d65-99C42E6C-AE9C-4A78-88B2-54BB1D20E7F5-eecad3.eas.asu.edu-22729.rscache
+Cached Runset Compile Time=0:00:05 User=0.35 Sys=0.02 Mem=326.730
+
+../iPDK/icv/lvs/saed32nm_1p9m_lvs_rules.rs:1267: warning: ICV device extraction settings for write_property_to, processing_layer_hash_map, and pin_map has been automated. As of the 2016.06 release this behavior is the default and can be disabled with "-D ICV_REVERT_DEVICE_PROPERTY_DEPENDENCY_ANALYSIS". 
+../iPDK/icv/lvs/saed32nm_1p9m_lvs_rules.rs:1268: warning: The default of "precision" argument in netlist() is now the engine maximum.  Use "-D ICV_REVERT_NETLIST_DEFAULT_PRECISION" to restore the original behavior.
+../iPDK/icv/lvs/saed32nm_1p9m_lvs_rules.rs:1415: warning: Some LVS reports will be changed in future release. Set environment variable 'ICV_ENABLE_LVS_REPORT_IN_IDENTICAL_STRING' to see new LVS reports.
+../iPDK/icv/lvs/saed32nm_1p9m_lvs_rules.rs:1415: warning: compare(action_on_error = EXPLODE) will be retired in future release.
+Virtual Machine Init Time=0:00:00 User=0.02 Sys=0.00 Mem=326.730
+
+System Startup Time=0:00:03 User=0.01 Sys=0.02 Mem=326.730
+
+Mon Apr 25 15:01:59 2022
+
+                                  ICV_Engine 
+
+          Version O-2018.06-SP1 for linux64 - Jul 23, 2018 cl#4289877
+
+                    Copyright (c) 1996 - 2018 Synopsys, Inc.
+   This software and the associated documentation are proprietary to Synopsys,
+ Inc. This software may only be used in accordance with the terms and conditions
+ of a written license agreement with Synopsys, Inc. All other use, reproduction,
+            or distribution of this software is strictly prohibited.
+
+
+
+Running Multi-Threaded code with 2 shared thread(s)
+
+Runset file ......................  ../iPDK/icv/lvs/saed32nm_1p9m_lvs_rules.rs
+Current Directory ................  /afs/asu.edu/users/j/n/e/jneuenda/425_proj_final/425_lab_3/drc
+Hostname .........................  eecad5.eas.asu.edu
+Platform type ....................  LINUX.64
+GDSII input file name ............  /afs/asu.edu/users/j/n/e/jneuenda/425_proj_final/425_lab_3/drc/if_neuron.gdsOut
+GDSII block name .................  if_neuron
+Run details ......................  /afs/asu.edu/users/j/n/e/jneuenda/425_proj_final/425_lab_3/drc/run_details
+Group file directory .............  /afs/asu.edu/users/j/n/e/jneuenda/425_proj_final/425_lab_3/drc/run_details/group
+Check reference structures .......  no
+
+single pass sequential reading.
+openaccess_options() at ../iPDK/icv/lvs/saed32nm_1p9m_lvs_rules.rs:71
+openaccess_options(view = "layout", layer_mapping_file = "./techfiles/saed32nm_1p9m_gdsout.map")
+
+library() at ../iPDK/icv/lvs/saed32nm_1p9m_lvs_rules.rs:78
+library(library_name = "CELLNAME.gds", format = GDSII, cell = "resistor")
+
+schematic() at ../iPDK/icv/lvs/saed32nm_1p9m_lvs_rules.rs:88
+schem_netl_fh = schematic(schematic_file = { { filename = "CELLNAME.sp", format = SPICE } })
+
+error_options() at ../iPDK/icv/lvs/saed32nm_1p9m_lvs_rules.rs:95
+error_options(db_path = "./TOPCELLNAME_err", create_vue_output = true)
+
+run_options() at ../iPDK/icv/lvs/saed32nm_1p9m_lvs_rules.rs:98
+run_options(instance_prefix = "X", uppercase = false)
+
+hierarchy_options() at ../iPDK/icv/lvs/saed32nm_1p9m_lvs_rules.rs:103
+hierarchy_options(flatten = { "*" })
+
+resolution_options() at ../iPDK/icv/lvs/saed32nm_1p9m_lvs_rules.rs:105
+resolution_options(snap_resolution = 0.001)
+
+text_options() at ../iPDK/icv/lvs/saed32nm_1p9m_lvs_rules.rs:106
+text_options(net_prefix = "N", layout_power = { "VDD", "VDD12", "VDD22", "VDD2", "VDDG", "VDDH", "VDDL", "VDDIO" }, layout_ground = { "VSS", "VSS12", "VDD22", "VSSIO" })
+
+net_options() at ../iPDK/icv/lvs/saed32nm_1p9m_lvs_rules.rs:111
+net_options(schematic_power = { "VDD", "VDD12", "VDD22", "VDD2", "VDDG", "VDDH", "VDDL", "VDDIO" }, schematic_ground = { "VSS", "VSS12", "VDD22", "VDD2", "VDDH", "VDDL", "VDDIO" }, schematic_global = { "VDD", "VDD12", "VDD22", "VSS", "VSS12", "VDD22", "VDD2", "VDDG", "VDDH", "VDDL", "VDDIO", "VSSIO" })
+
+prototype_options() at ../iPDK/icv/lvs/saed32nm_1p9m_lvs_rules.rs:116
+prototype_options(false)
+
+[Generated Command]
+drc_black_box_options()
+
+[Generated Command]
+incremental_options()
+
+[Generated Command]
+layout_drawn_options()
+
+[Generated Command]
+layout_grid_options()
+
+[Generated Command]
+layout_integrity_options()
+
+[Generated Command]
+hierarchy_auto_options()
+
+[Generated Command]
+compatibility_options()
+
+   Prescan Library Time=0:00:00  User=0.00 Sys=0.00 Mem=16.896
+
+   Scan Hierarchy Time=0:00:00  User=0.00 Sys=0.00 Mem=13.803
+
+   Read Library Time=0:00:00  User=0.00 Sys=0.00 Mem=27.222
+
+     Find Top Cell Time=0:00:00  User=0.00 Sys=0.00 Mem=22.849
+
+    Create Hierarchy Tree Phase: 0 Time=0:00:00  User=0.00 Sys=0.01 Mem=23.848
+
+  Set 1 schematic file cells to NO_EXPLODE
+Prototype Placement Pass 1
+Preprocessing group files...
+Preprocess Step 1 : Exploding
+Find duplicate placements in cells
+    Create Hierarchy Tree Phase: 1 Time=0:00:00  User=0.01 Sys=0.00 Mem=22.473
+
+     Determine Region Time=0:00:00  User=0.00 Sys=0.00 Mem=19.349
+
+     Create Layer Setup Time=0:00:00  User=0.00 Sys=0.01 Mem=19.255
+
+0 Total errors found.
+    Create Hierarchy Tree Phase: 2 Time=0:00:00  User=0.00 Sys=0.01 Mem=22.239
+
+   Create Hierarchy Tree Time=0:00:01  User=0.01 Sys=0.02 Mem=23.848
+
+
+IC Validator Machine Memory Report
+eecad5.eas.asu.edu : Average = 0.00(Mb), Peak = 40(Mb)
+
+Overall Disk Usage Disk=50.329
+Overall engine Time=0:00:25 Highest command Mem=27.222 
+
+Overall Master Mem=326.730

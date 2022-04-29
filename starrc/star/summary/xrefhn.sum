@@ -1,0 +1,33 @@
+                                        
+                                  StarRC (TM)
+                                        
+               Version K-2015.06-SP1 for linux64 - Jul 15, 2015 
+                                        
+                    Copyright (c) 1999 - 2015 Synopsys, Inc.
+   This software and the associated documentation are proprietary to Synopsys,
+ Inc. This software may only be used in accordance with the terms and conditions
+ of a written license agreement with Synopsys, Inc. All other use, reproduction,
+            or distribution of this software is strictly prohibited.
+
+ExecName: /usr/local/synopsys/starrc_2015.06/linux64_starrc/bin/StarXtract
+Version: K-2015.06-SP1
+Built on: Jul 15 2015 23:06:57
+Start Time: Wed Apr 27 00:45:22 2022
+
+Host ............ eecad6.eas.asu.edu
+
+WARNING: TOP BLOCK "if_neuron_shortRun if_neuron_shortRun U
+         if_neuron_shortRun.if_neuron_shortRun.bincdb E::if_neuron_shortRun U
+         if_neuron_shortRun.if_neuron_shortRun.bincdb E" does not compare. LVS is not clean. (SX-1745)
+  
+ReadHNdb      Elp=00:00:00 Cpu=00:00:00 Usr=0.0    Sys=0.0    Mem=197.3 
+LoadXF        Elp=00:00:00 Cpu=00:00:00 Usr=0.0    Sys=0.0    Mem=199.7 
+BldXrefHN     Elp=00:00:01 Cpu=00:00:00 Usr=0.0    Sys=0.0    Mem=201.3 
+ReadXHNdb     Elp=00:00:00 Cpu=00:00:00 Usr=0.0    Sys=0.0    Mem=201.3 
+BldXrefTab    Elp=00:00:00 Cpu=00:00:00 Usr=0.0    Sys=0.0    Mem=201.3 
+SNetSel       Elp=00:00:00 Cpu=00:00:00 Usr=0.0    Sys=0.0    Mem=201.3 
+XrefHN        Elp=00:00:00 Cpu=00:00:00 Usr=0.0    Sys=0.0    Mem=201.3 
+  
+Done          Elp=00:00:01 Cpu=00:00:00 Usr=0.0    Sys=0.0    Mem=201.3 
+WARNING: Without NETLIST_DEVICE_LOCATION_ORIENTATION, PLACEMENT_INFO_FILE will always report angle=0
+         for devices. (SX-1260)

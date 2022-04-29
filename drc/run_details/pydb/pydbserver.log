@@ -10,29 +10,29 @@
             or distribution of this software is strictly prohibited.
 
 variable width coordinate support enabled.
-Removing old database /afs/asu.edu/users/j/n/e/jneuenda/425_proj/425_lab/drc/run_details/pydb/PYDB_one_bit_adder_Leg4
-Listening for connections on port 8004
-PYDB_Server Started on host eecad3.eas.asu.edu, Sun 04/03/2022 22:11:07
-Client eecad3.eas.asu.edu(31390):8 connected (1 total client)
+Removing old database /afs/asu.edu/users/j/n/e/jneuenda/425_proj_final/425_lab_3/drc/run_details/pydb/PYDB_if_neuron_shortRun
+Listening for connections on port 8103
+PYDB_Server Started on host eecad6.eas.asu.edu, Tue 04/26/2022 23:55:37
+Client eecad6.eas.asu.edu(13118):8 connected (1 total client)
 Verified current licenses.
 SQLite page_size=65536
 SQLite cache_size=65536
 SQLite mmap_size=0
 SQLite journal_mode=OFF
 SQLite version 3.10.0
-Client eecad3.eas.asu.edu(31482):18 connected (2 total clients)
-Client eecad3.eas.asu.edu(31483):19 connected (3 total clients)
-Client eecad3.eas.asu.edu(31482):18 disconnected (2 clients remain)
-Client eecad3.eas.asu.edu(31483):19 disconnected (1 client remains)
-Client eecad3.eas.asu.edu(31482):18 connected (2 total clients)
-Client eecad3.eas.asu.edu(31483):19 connected (3 total clients)
-Client eecad3.eas.asu.edu(31483):19 disconnected (2 clients remain)
-Client eecad3.eas.asu.edu(31482):18 disconnected (1 client remains)
-Generating /afs/asu.edu/users/j/n/e/jneuenda/425_proj/425_lab/drc/one_bit_adder_Leg4.LAYOUT_ERRORS
+Client eecad6.eas.asu.edu(13182):18 connected (2 total clients)
+Client eecad6.eas.asu.edu(13183):19 connected (3 total clients)
+Client eecad6.eas.asu.edu(13182):18 disconnected (2 clients remain)
+Client eecad6.eas.asu.edu(13183):19 disconnected (1 client remains)
+Client eecad6.eas.asu.edu(13182):18 connected (2 total clients)
+Client eecad6.eas.asu.edu(13183):19 connected (3 total clients)
+Client eecad6.eas.asu.edu(13183):19 disconnected (2 clients remain)
+Client eecad6.eas.asu.edu(13182):18 disconnected (1 client remains)
+Generating /afs/asu.edu/users/j/n/e/jneuenda/425_proj_final/425_lab_3/drc/if_neuron_shortRun.LAYOUT_ERRORS
   Generation Time=0:00:00  User=0.00 Sys=0.00 Mem=0.507
-Shutdown requested by client eecad3.eas.asu.edu(31390):8
+Shutdown requested by client eecad6.eas.asu.edu(13118):8
 0 clients remain connected
-Overall server Time=0:00:15  User=0.05 Sys=0.09 Mem=0.507 SQLite=6.523 Unpooled=0.000
+Overall server Time=0:00:15  User=0.04 Sys=0.05 Mem=0.507 SQLite=6.523 Unpooled=0.000
 
                                   PYDB_Server 
 
@@ -45,15 +45,15 @@ Overall server Time=0:00:15  User=0.05 Sys=0.09 Mem=0.507 SQLite=6.523 Unpooled=
             or distribution of this software is strictly prohibited.
 
 variable width coordinate support enabled.
-Listening for connections on port 8399
-PYDB_Server Started on host eecad3.eas.asu.edu, Sun 04/03/2022 22:11:33
-Client eecad3.eas.asu.edu(30535):8 connected (1 total client)
+Listening for connections on port 8767
+PYDB_Server Started on host eecad6.eas.asu.edu, Tue 04/26/2022 23:56:02
+Client eecad6.eas.asu.edu(12599):8 connected (1 total client)
 Verified current licenses.
 SQLite page_size=65536
 SQLite cache_size=65536
 SQLite mmap_size=0
 SQLite journal_mode=OFF
 SQLite version 3.10.0
-Shutdown requested by client eecad3.eas.asu.edu(30535):8
+Shutdown requested by client eecad6.eas.asu.edu(12599):8
 0 clients remain connected
-Overall server Time=0:01:03  User=0.01 Sys=0.00 Mem=0.359 SQLite=6.460 Unpooled=0.000
+Overall server Time=0:05:12  User=0.01 Sys=0.00 Mem=0.359 SQLite=6.460 Unpooled=0.000

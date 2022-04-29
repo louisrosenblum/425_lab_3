@@ -1,0 +1,16 @@
+TCAD_GRD_FILE: /afs/asu.edu/users/j/n/e/jneuenda/425_proj_final/425_lab_3/iPDK/starrc/nominal/saed32nm_1p9m_nominal.nxtgrd
+MAPPING_FILE: /afs/asu.edu/users/j/n/e/jneuenda/425_proj_final/425_lab_3/iPDK/starrc/saed32nm_1p9m_layer.map
+EXTRACTION: RC
+COUPLE_TO_GROUND: YES
+*EXTRA_CMD_FILE: /afs/asu.edu/users/j/n/e/jneuenda/425_proj_final/425_lab_3/iPDK/starrc/icv_cmd/saed32nm_1p9m_star_nominal.cmd
+NETLIST_GROUND_NODE_NAME: gnd!
+ICV_RUNSET_REPORT_FILE: /afs/asu.edu/users/j/n/e/jneuenda/425_proj_final/425_lab_3/lvs_new/pex_runset_report_file
+
+BLOCK: if_neuron_shortRun
+SKIP_CELLS: !* 
+PLACEMENT_INFO_FILE: YES
+PLACEMENT_INFO_FILE_NAME: devnodes.txt
+NETLIST_FORMAT: STAR
+NETLIST_FILE: /afs/asu.edu/users/j/n/e/jneuenda/425_proj_final/425_lab_3/netlist.spf
+NETLIST_NODE_SECTION: YES
+

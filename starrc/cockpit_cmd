@@ -1,0 +1,16 @@
+_cockpit_cmd = list( nil
+ 	'mode 3
+	'lvs_flow "ICV"
+	'lvs_rundir "/afs/asu.edu/users/j/n/e/jneuenda/425_proj_final/425_lab_3/lvs_new/"
+	'lvs_cmd "sh -c '(cd /afs/asu.edu/users/j/n/e/jneuenda/425_proj_final/425_lab_3/lvs_new/; if icv -rc /afs/asu.edu/users/j/n/e/jneuenda/425_proj_final/425_lab_3/lvs_new/icv_vi_rcfile -sf SPICE -c if_neuron_shortRun -stc if_neuron_shortRun -s /afs/asu.edu/users/j/n/e/jneuenda/425_proj_final/425_lab_3/if_neuron_shortRun.cdl -i /afs/asu.edu/users/j/n/e/jneuenda/425_proj_final/425_lab_3/if_neuron_shortRun.gds  /afs/asu.edu/users/j/n/e/jneuenda/425_proj_final/425_lab_3/iPDK/icv/lvs/saed32nm_1p9m_lvs_rules.rs ; then exit 0; else exit 1; fi;) >> viewlog.txt 2>&1'"
+	'rcxtview nil
+	'rundir "/afs/asu.edu/users/j/n/e/jneuenda/425_proj_final/425_lab_3/starrc/"
+)
+_rcxt_cmd = list( nil
+ 	'rundir "/afs/asu.edu/users/j/n/e/jneuenda/425_proj_final/425_lab_3/starrc/"
+	'stardir "/afs/asu.edu/users/j/n/e/jneuenda/425_proj_final/425_lab_3/starrc/star"
+	'topblk "if_neuron_shortRun"
+	'viewlog_separate_by_block nil 
+	'starrcviewlog "starrcview.log"
+	'addnstarcmd "/afs/asu.edu/users/j/n/e/jneuenda/425_proj_final/425_lab_3/iPDK/starrc/icv_cmd/saed32nm_1p9m_star_nominal.cmd"
+)

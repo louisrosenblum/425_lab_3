@@ -1,0 +1,31 @@
+
+                                  ICV_Master 
+
+          Version O-2018.06-SP1 for linux64 - Jul 23, 2018 cl#4289877
+
+                    Copyright (c) 1996 - 2018 Synopsys, Inc.
+   This software and the associated documentation are proprietary to Synopsys,
+ Inc. This software may only be used in accordance with the terms and conditions
+ of a written license agreement with Synopsys, Inc. All other use, reproduction,
+            or distribution of this software is strictly prohibited.
+
+Called as: icv -rc /afs/asu.edu/users/j/n/e/jneuenda/425_proj_final/425_lab_3/lvs_new/icv_vi_rcfile -sf SPICE -c if_neuron_shortRun -stc if_neuron_shortRun -s /afs/asu.edu/users/j/n/e/jneuenda/425_proj_final/425_lab_3/if_neuron_shortRun.cdl -i /afs/asu.edu/users/j/n/e/jneuenda/425_proj_final/425_lab_3/if_neuron_shortRun.gds /afs/asu.edu/users/j/n/e/jneuenda/425_proj_final/425_lab_3/iPDK/icv/lvs/saed32nm_1p9m_lvs_rules.rs
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+User name:        jneuenda
+Layout format:    GDSII
+Input file name:  /afs/asu.edu/users/j/n/e/jneuenda/425_proj_final/425_lab_3/if_neuron_shortRun.gds
+Top cell name:    if_neuron_shortRun
+Time started:     2022/04/27 12:43:45AM
+
+--------------------------------------------------------------------------------
+                             Rules to be Executed                               
+--------------------------------------------------------------------------------
+
+@ "Interact of HVTIMP and DIFF_25 is not allowed"
+@ "Interact of HVTIMP and LVTIMP is not allowed"
+@ "Interact of HVTIMP and diff_18 is not allowed"
+@ "Interact of LVTIMP and DIFF_25 is not allowed"
+@ "Interact of LVTIMP and diff_18 is not allowed"
+@ "Violation"

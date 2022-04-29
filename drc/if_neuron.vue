@@ -1,0 +1,15 @@
+ICV_HOME_DIR      = /usr/local/synopsys/icv_2018.06-SP1/icvalidator/O-2018.06-SP1
+ICV_COORDS_BIT    = 32
+WORKING_DIR       = .
+INLIB             = if_neuron.gdsOut
+INLIB_PATH        = 
+BLOCK             = if_neuron
+PYDB_PATH         = TOPCELLNAME_err
+RUN_DETAILS_DIR   = run_details
+NDB_PATH          = run_details/.ndb
+REPORT_LAYOUT_ERRORS = HIERARCHICAL
+FORMAT            = GDSII
+SCHEMATIC         = if_neuron.sch_out
+SCHEMATIC_FORMAT  = ICV
+GROUP_PATH        = run_details/group
+RUNSET_FILE_NAME  = saed32nm_1p9m_lvs_rules.rs

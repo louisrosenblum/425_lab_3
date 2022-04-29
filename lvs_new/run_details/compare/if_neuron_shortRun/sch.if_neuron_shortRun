@@ -1,0 +1,7 @@
+{NETLIST if_neuron_shortRun
+{VERSION 2 0 0}
+
+{CELL if_neuron_shortRun
+    {PORT }
+}
+}

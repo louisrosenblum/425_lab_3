@@ -1,0 +1,10 @@
+#! /bin/sh
+total=0
+pathsize=`du -s --block-size=1 /afs/asu.edu/users/j/n/e/jneuenda/425_proj_final/425_lab_3/lvs_new/run_details | awk '{print $1}'`
+total=$(($total+$pathsize))
+pathsize=`du -s --block-size=1 /afs/asu.edu/users/j/n/e/jneuenda/425_proj_final/425_lab_3/lvs_new/./TOPCELLNAME_err | awk '{print $1}'`
+total=$(($total+$pathsize))
+pathsize=`du -s --block-size=1 /afs/asu.edu/users/j/n/e/jneuenda/425_proj_final/425_lab_3/lvs_new/if_neuron_shortRun.LAYOUT_ERRORS | awk '{print $1}'`
+total=$(($total+$pathsize))
+echo $total > /afs/asu.edu/users/j/n/e/jneuenda/425_proj_final/425_lab_3/lvs_new/run_details/duse_master.tmp && \
+mv /afs/asu.edu/users/j/n/e/jneuenda/425_proj_final/425_lab_3/lvs_new/run_details/duse_master.tmp /afs/asu.edu/users/j/n/e/jneuenda/425_proj_final/425_lab_3/lvs_new/run_details/duse_master

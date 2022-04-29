@@ -1,0 +1,269 @@
+                                        
+                                  StarRC (TM)
+                                        
+               Version K-2015.06-SP1 for linux64 - Jul 15, 2015 
+                                        
+                    Copyright (c) 1999 - 2015 Synopsys, Inc.
+   This software and the associated documentation are proprietary to Synopsys,
+ Inc. This software may only be used in accordance with the terms and conditions
+ of a written license agreement with Synopsys, Inc. All other use, reproduction,
+            or distribution of this software is strictly prohibited.
+
+ExecName: /usr/local/synopsys/starrc_2015.06/linux64_starrc/bin/StarXtract
+Version: K-2015.06-SP1
+Built on: Jul 15 2015 23:06:57
+Start Time: Wed Apr 27 00:45:07 2022
+
+Host ............ eecad6.eas.asu.edu
+
+xTractorName:/usr/local/synopsys/starrc_2015.06/linux64_starrc/bin/xTractor
+Version: K-2015.06-SP1
+Built on: Jul 15 2015 23:07:08
+Start Time: Wed Apr 27 00:45:07 2022
+WARNING: TOP BLOCK "if_neuron_shortRun if_neuron_shortRun U
+         if_neuron_shortRun.if_neuron_shortRun.bincdb E::if_neuron_shortRun U
+         if_neuron_shortRun.if_neuron_shortRun.bincdb E" does not compare. LVS is not clean. (SX-1745)
+WARNING: TOP BLOCK "if_neuron_shortRun if_neuron_shortRun U
+         if_neuron_shortRun.if_neuron_shortRun.bincdb E::if_neuron_shortRun U
+         if_neuron_shortRun.if_neuron_shortRun.bincdb E" does not compare. LVS is not clean. (SX-1745)
+
+Block ........... if_neuron_shortRun
+Star Directory .. /afs/asu.edu/users/j/n/e/jneuenda/425_proj_final/425_lab_3/starrc/star
+Milkyway DB ..... /afs/asu.edu/users/j/n/e/jneuenda/425_proj_final/425_lab_3/lvs_new/XTROUT
+ Ref Libs Report is skipped.
+WARNING: DENSITY_BASED_THICKNESS: YES is ignored since there is no thickness variation modeling. (SX-0685)
+
+Map Layers:  Wed Apr 27 00:45:13 2022
+WARNING: Database layer "l_0V_BJT_EMIT_NPN" is not included in MAPPING_FILE. Mapping to
+ "SUBSTRATE". (SX-1818)
+WARNING: Database gate layer "ngate_12" is not included in MAPPING_FILE. Mapping to "POLY".
+ (SX-1816)
+WARNING: Database gate layer "pgate_12" is not included in MAPPING_FILE. Mapping to "POLY".
+ (SX-1816)
+WARNING: Database gate layer "ngate_12_lvt" is not included in MAPPING_FILE. Mapping to "POLY".
+ (SX-1816)
+WARNING: Database gate layer "pgate_12_lvt" is not included in MAPPING_FILE. Mapping to "POLY".
+ (SX-1816)
+WARNING: Database gate layer "ngate_12_hvt" is not included in MAPPING_FILE. Mapping to "POLY".
+ (SX-1816)
+WARNING: Database gate layer "pgate_12_hvt" is not included in MAPPING_FILE. Mapping to "POLY".
+ (SX-1816)
+WARNING: Database layer "l_0V_BJT_BASE" is not included in MAPPING_FILE. Mapping to "SUBSTRATE".
+ (SX-1818)
+WARNING: Database layer "l_0V_BJT_COLL" is not included in MAPPING_FILE. Mapping to "SUBSTRATE".
+ (SX-1818)
+WARNING: Database layer "l_0V_BJT_EMIT" is not included in MAPPING_FILE. Mapping to "SUBSTRATE".
+ (SX-1818)
+WARNING: Database layer "l_0V_BJT_COLL_NPN" is not included in MAPPING_FILE. Mapping to
+ "SUBSTRATE". (SX-1818)
+WARNING: Database layer "l_0V_BJT_BASE_NPN" is not included in MAPPING_FILE. Mapping to
+ "SUBSTRATE". (SX-1818)
+WARNING: MOS gate and diffusion layers are co-vertical to each other or to a third layer like field
+         poly. Check your process cross-section and see if the nxtgrd file is correct. (SX-1848)
+WARNING: The precedence is not set for ignored cap layer: nwnr (SX-1794)
+WARNING: The precedence is not set for ignored cap layer: pwell (SX-1794)
+WARNING: The precedence is not set for layers mapped to substrate in the mapping file when
+         TRANSLATE_RETAIN_BULK_LAYERS:YES or CONLY is specified in your command file. Accuracy can
+         be affected. Check the order of substrate layer and set precedence for them in your
+ mapping
+         file whenever the TRANSLATE_RETAIN_BULK_LAYERS:YES or CONLY command is used. (SX-1790)
+WARNING: Setting RPV*AREA value of 1e-6 for pwell_cont (SX-1873)
+WARNING: Setting RPV*AREA value of 1e-6 for nwell_cont (SX-1873)
+  Warnings: 18    Errors: 0    (See file summary/layers.sum)
+  Layers        Elp=00:00:02 Cpu=00:00:00 Usr=0.3    Sys=0.0    Mem=293.7 
+Done
+
+Create Models:  Wed Apr 27 00:45:16 2022
+  Warnings: 0    Errors: 0
+  Models        Elp=00:00:00 Cpu=00:00:00 Usr=0.0    Sys=0.0    Mem=180.9 
+Done
+
+Build HN:  Wed Apr 27 00:45:18 2022
+  Warnings: 0    Errors: 0
+  HN            Elp=00:00:01 Cpu=00:00:00 Usr=0.1    Sys=0.0    Mem=309.8 
+Done
+
+Build XrefHN:  Wed Apr 27 00:45:22 2022
+WARNING: TOP BLOCK "if_neuron_shortRun if_neuron_shortRun U
+         if_neuron_shortRun.if_neuron_shortRun.bincdb E::if_neuron_shortRun U
+         if_neuron_shortRun.if_neuron_shortRun.bincdb E" does not compare. LVS is not clean.
+ (SX-1745)
+WARNING: Without NETLIST_DEVICE_LOCATION_ORIENTATION, PLACEMENT_INFO_FILE will always report
+ angle=0
+         for devices. (SX-1260)
+  Warnings: 2    Errors: 0    (See file summary/xrefhn.sum)
+  XrefHN        Elp=00:00:01 Cpu=00:00:00 Usr=0.0    Sys=0.0    Mem=201.3 
+Done
+
+Process Cells:  Wed Apr 27 00:45:25 2022
+  Warnings: 0    Errors: 0
+  Cells         Elp=00:00:03 Cpu=00:00:00 Usr=0.2    Sys=0.1    Mem=293.5 
+Done
+
+Translate DB:  Wed Apr 27 00:45:30 2022
+  Warnings: 0    Errors: 0
+  Translate     Elp=00:00:02 Cpu=00:00:00 Usr=0.0    Sys=0.0    Mem=197.9 
+Done
+
+XinMerge DB:  Wed Apr 27 00:45:34 2022
+  Warnings: 0    Errors: 0
+  XinMerge      Elp=00:00:01 Cpu=00:00:00 Usr=0.0    Sys=0.0    Mem=202.0 
+Done
+
+Netlist Setup:  Wed Apr 27 00:45:36 2022
+  Warnings: 0    Errors: 0
+  NetlistSetup  Elp=00:00:00 Cpu=00:00:00 Usr=0.0    Sys=0.0    Mem=197.3 
+Done
+
+Partition_part1 DB:  Wed Apr 27 00:45:41 2022
+Completed   0%  Time=00:00:00  RemainingTime=00:00:00  Mem=181.625
+Completed  10%  Time=00:00:00  RemainingTime=00:00:00  Mem=181.688
+Completed  20%  Time=00:00:00  RemainingTime=00:00:00  Mem=181.938
+Completed  40%  Time=00:00:00  RemainingTime=00:00:00  Mem=182.312
+Completed  60%  Time=00:00:00  RemainingTime=00:00:00  Mem=182.688
+Completed  80%  Time=00:00:00  RemainingTime=00:00:00  Mem=183.125
+Completed 100%  Time=00:00:00  RemainingTime=00:00:00  Mem=183.496
+  Warnings: 0    Errors: 0
+  Partition_part1 Elp=00:00:02 Cpu=00:00:00 Usr=0.0    Sys=0.0    Mem=199.9 
+Done
+
+PartitionPP:  Wed Apr 27 00:45:44 2022
+  Warnings: 0    Errors: 0
+  PartitionPP   Elp=00:00:01 Cpu=00:00:00 Usr=0.0    Sys=0.0    Mem=181.6 
+Done
+
+xTract_part1 DB:  Wed Apr 27 00:45:47 2022
+Extracting partition 1
+Completed   0%  Time=00:00:00  RemainingTime=00:00:01  Mem=290.754
+Completed   1%  Time=00:00:00  RemainingTime=00:00:00  Mem=290.754
+Completed   2%  Time=00:00:00  RemainingTime=00:00:00  Mem=290.754
+Completed   3%  Time=00:00:00  RemainingTime=00:00:00  Mem=290.754
+Completed   4%  Time=00:00:00  RemainingTime=00:00:00  Mem=290.754
+Completed   5%  Time=00:00:00  RemainingTime=00:00:00  Mem=290.754
+Completed  10%  Time=00:00:00  RemainingTime=00:00:00  Mem=290.977
+Completed  15%  Time=00:00:00  RemainingTime=00:00:00  Mem=291.246
+Completed  20%  Time=00:00:00  RemainingTime=00:00:00  Mem=291.469
+Suppression: (EX-356) suppressed over 100 times
+Completed  25%  Time=00:00:00  RemainingTime=00:00:00  Mem=291.473
+Completed  30%  Time=00:00:00  RemainingTime=00:00:00  Mem=291.695
+Completed  35%  Time=00:00:00  RemainingTime=00:00:00  Mem=292.289
+Completed  40%  Time=00:00:00  RemainingTime=00:00:00  Mem=292.742
+Completed  45%  Time=00:00:00  RemainingTime=00:00:00  Mem=292.965
+Completed  50%  Time=00:00:00  RemainingTime=00:00:00  Mem=293.234
+Completed  55%  Time=00:00:00  RemainingTime=00:00:00  Mem=293.457
+Completed  60%  Time=00:00:01  RemainingTime=00:00:00  Mem=293.688
+Completed  65%  Time=00:00:01  RemainingTime=00:00:00  Mem=293.688
+Completed  70%  Time=00:00:01  RemainingTime=00:00:00  Mem=293.688
+Completed  75%  Time=00:00:01  RemainingTime=00:00:00  Mem=293.688
+Completed  80%  Time=00:00:01  RemainingTime=00:00:00  Mem=293.91
+Completed  85%  Time=00:00:02  RemainingTime=00:00:00  Mem=293.91
+Completed  90%  Time=00:00:02  RemainingTime=00:00:00  Mem=293.91
+Completed  95%  Time=00:00:02  RemainingTime=00:00:00  Mem=293.91
+Completed 100%  Time=00:00:02  RemainingTime=00:00:00  Mem=293.906
+Extracted 3279888 capacitors, 29976 resistors, 0 reluctors, 28043 nodes
+Reduced to 19737 nodes,  (29.6188%)
+Reduced to 18602 resistors,  (37.9437%)
+Reduced to 8091 capacitors: 0 Cc and 8091 Cg (99.7533%)
+  Warnings: 0    Errors: 0
+  xTract_part1  Elp=00:00:06 Cpu=00:00:03 Usr=3.4    Sys=0.2    Mem=293.9 
+Done
+
+xTract Post Process DB:  Wed Apr 27 00:45:59 2022
+Completed   0%  Time=00:00:00  RemainingTime=00:00:00  Mem=179.824
+Completed  10%  Time=00:00:00  RemainingTime=00:00:00  Mem=179.824
+Completed  20%  Time=00:00:00  RemainingTime=00:00:00  Mem=179.824
+Completed  40%  Time=00:00:00  RemainingTime=00:00:00  Mem=179.824
+Completed  60%  Time=00:00:00  RemainingTime=00:00:00  Mem=179.824
+Completed  80%  Time=00:00:00  RemainingTime=00:00:00  Mem=179.824
+Completed 100%  Time=00:00:00  RemainingTime=00:00:00  Mem=179.824
+  Warnings: 0    Errors: 0
+  xTractPP      Elp=00:00:02 Cpu=00:00:00 Usr=0.1    Sys=0.1    Mem=179.8 
+Done
+
+Report Violations:  Wed Apr 27 00:46:05 2022
+  Warnings: 0    Errors: 0
+  ReportViolations Elp=00:00:00 Cpu=00:00:00 Usr=0.0    Sys=0.0    Mem=0.0   
+Done
+
+Netlist DB:  Wed Apr 27 00:46:08 2022
+Completed   0%  Time=00:00:00  RemainingTime=00:00:00  Mem=211.527
+Completed   2%  Time=00:00:00  RemainingTime=00:00:00  Mem=211.719
+Completed   4%  Time=00:00:00  RemainingTime=00:00:00  Mem=211.906
+Completed   6%  Time=00:00:00  RemainingTime=00:00:00  Mem=212.094
+Completed   8%  Time=00:00:00  RemainingTime=00:00:00  Mem=212.281
+Completed  10%  Time=00:00:00  RemainingTime=00:00:00  Mem=212.406
+Completed  20%  Time=00:00:00  RemainingTime=00:00:00  Mem=213.094
+Completed  30%  Time=00:00:00  RemainingTime=00:00:00  Mem=213.656
+Completed  40%  Time=00:00:00  RemainingTime=00:00:00  Mem=213.906
+Completed  50%  Time=00:00:00  RemainingTime=00:00:00  Mem=214.219
+Completed  60%  Time=00:00:00  RemainingTime=00:00:00  Mem=214.766
+Completed  70%  Time=00:00:00  RemainingTime=00:00:00  Mem=215.016
+Completed  80%  Time=00:00:00  RemainingTime=00:00:00  Mem=215.391
+Completed  90%  Time=00:00:00  RemainingTime=00:00:00  Mem=215.578
+Completed 100%  Time=00:00:00  RemainingTime=00:00:00  Mem=215.578
+  Warnings: 0    Errors: 0
+  Netlist       Elp=00:00:04 Cpu=00:00:00 Usr=0.2    Sys=0.2    Mem=215.6 
+Done
+  
+Layers           Elp=00:00:02 Cpu=00:00:00 Usr=0.3    Sys=0.0    Mem=293.7 
+Models           Elp=00:00:00 Cpu=00:00:00 Usr=0.0    Sys=0.0    Mem=180.9 
+HN               Elp=00:00:01 Cpu=00:00:00 Usr=0.1    Sys=0.0    Mem=309.8 
+XrefHN           Elp=00:00:01 Cpu=00:00:00 Usr=0.0    Sys=0.0    Mem=201.3 
+Cells            Elp=00:00:03 Cpu=00:00:00 Usr=0.2    Sys=0.1    Mem=293.5 
+Translate        Elp=00:00:02 Cpu=00:00:00 Usr=0.0    Sys=0.0    Mem=197.9 
+XinMerge         Elp=00:00:01 Cpu=00:00:00 Usr=0.0    Sys=0.0    Mem=202.0 
+NetlistSetup     Elp=00:00:00 Cpu=00:00:00 Usr=0.0    Sys=0.0    Mem=197.3 
+Partition_part1  Elp=00:00:02 Cpu=00:00:00 Usr=0.0    Sys=0.0    Mem=199.9 
+PartitionPP      Elp=00:00:01 Cpu=00:00:00 Usr=0.0    Sys=0.0    Mem=181.6 
+xTract_part1     Elp=00:00:06 Cpu=00:00:03 Usr=3.4    Sys=0.2    Mem=293.9 
+xTractPP         Elp=00:00:02 Cpu=00:00:00 Usr=0.1    Sys=0.1    Mem=179.8 
+ReportViolations Elp=00:00:00 Cpu=00:00:00 Usr=0.0    Sys=0.0    Mem=0.0   
+Netlist          Elp=00:00:04 Cpu=00:00:00 Usr=0.2    Sys=0.2    Mem=215.6 
+  
+Done          Elp=00:00:25 Cpu=00:00:04 Usr=4.3    Sys=0.6    Mem=309.8 
+
+End Time: Wed Apr 27 00:46:18 2022
+
+
+
+RUN-TIME SUMMARY:
+----------------------------------------------------------------------------------------------
+CPU#   | STAGE SUMMARY                                            |END TIME        |HOST NAME
+----------------------------------------------------------------------------------------------
+CPU_01 |*Layers              Elp=00:00:02 Cpu=00:00:00 Mem=293.7  |Apr 27 00:45:16 |eecad6.eas.asu.edu
+CPU_01 |*Models              Elp=00:00:00 Cpu=00:00:00 Mem=180.9  |Apr 27 00:45:18 |eecad6.eas.asu.edu
+CPU_01 |*HN                  Elp=00:00:01 Cpu=00:00:00 Mem=309.8  |Apr 27 00:45:22 |eecad6.eas.asu.edu
+CPU_01 |*XrefHN              Elp=00:00:01 Cpu=00:00:00 Mem=201.3  |Apr 27 00:45:25 |eecad6.eas.asu.edu
+CPU_01 |*Cells               Elp=00:00:03 Cpu=00:00:00 Mem=293.5  |Apr 27 00:45:30 |eecad6.eas.asu.edu
+CPU_01 |*Translate           Elp=00:00:02 Cpu=00:00:00 Mem=197.9  |Apr 27 00:45:34 |eecad6.eas.asu.edu
+CPU_01 |*XinMerge            Elp=00:00:01 Cpu=00:00:00 Mem=202    |Apr 27 00:45:36 |eecad6.eas.asu.edu
+CPU_01 |*Partition           Elp=00:00:08 Cpu=00:00:00 Mem=199.9  |Apr 27 00:45:44 |eecad6.eas.asu.edu
+CPU_01 |*PartitionPP         Elp=00:00:01 Cpu=00:00:00 Mem=181.6  |Apr 27 00:45:46 |eecad6.eas.asu.edu
+CPU_01 |*xTract              Elp=00:00:07 Cpu=00:00:03 Mem=293.9  |Apr 27 00:45:54 |eecad6.eas.asu.edu
+CPU_01 |*xTractPP            Elp=00:00:02 Cpu=00:00:00 Mem=179.8  |Apr 27 00:46:03 |eecad6.eas.asu.edu
+CPU_01 |*ReportViolations    Elp=00:00:00 Cpu=00:00:00 Mem=0      |Apr 27 00:46:06 |eecad6.eas.asu.edu
+CPU_01 |*Netlist             Elp=00:00:06 Cpu=00:00:00 Mem=215.6  |Apr 27 00:46:14 |eecad6.eas.asu.edu
+----------------------------------------------------------------------------------------------
+Start Time: Wed Apr 27 00:45:13 2022
+End Time: Wed Apr 27 00:46:19 2022
+----------------------------------------------------------------------------------------------
+Overall:         Elp=00:01:06  Cpu=00:00:04
+PreXtraction:    Elp=00:00:34  Cpu=00:00:00
+Xtraction:       Elp=00:00:07  Cpu=00:00:03
+PostXtraction:   Elp=00:00:25  Cpu=00:00:00
+----------------------------------------------------------------------------------------------
+
+
+
+Message Summary:
+----------------------------------------------------------------------------------------------
+SX-0685 (x   1)|Warning      |DENSITY_BASED_THICKNESS: YES IS IGNORED SINCE THERE IS NO THICKNESS VARIATION MODELING.
+SX-1260 (x   1)|Warning      |WITHOUT NETLIST_DEVICE_LOCATION_ORIENTATION, PLACEMENT_INFO_FILE WILL ALWAYS REPORT ANGLE=0 FOR DEVICES.
+SX-1745 (x   3)|Warning      |TOP BLOCK "()::()" DOES NOT COMPARE. LVS IS NOT CLEAN.
+SX-1790 (x   1)|Warning      |THE PRECEDENCE IS NOT SET FOR LAYERS MAPPED TO SUBSTRATE IN THE MAPPING FILE WHEN TRANSLATE_RETAIN_BULK_LAYERS:YES OR CONLY IS SPECIFIED IN YOUR COMMAND FILE. ACCURACY CAN BE AFFECTED. CHECK THE ORDER OF SUBSTRATE LAYER AND SET PRECEDENCE FOR THEM IN YOUR MAPPING FILE WHENEVER THE TRANSLATE_RETAIN_BULK_LAYERS:YES OR CONLY COMMAND IS USED.
+SX-1794 (x   2)|Warning      |THE PRECEDENCE IS NOT SET FOR IGNORED CAP LAYER: ()
+SX-1816 (x   6)|Warning      |DATABASE GATE LAYER "()" IS NOT INCLUDED IN MAPPING_FILE. MAPPING TO "()".
+SX-1818 (x   6)|Warning      |DATABASE LAYER "()" IS NOT INCLUDED IN MAPPING_FILE. MAPPING TO "()".
+SX-1848 (x   1)|Warning      |MOS GATE AND DIFFUSION LAYERS ARE CO-VERTICAL TO EACH OTHER OR TO A THIRD LAYER LIKE FIELD POLY. CHECK YOUR PROCESS CROSS-SECTION AND SEE IF THE NXTGRD FILE IS CORRECT.
+SX-1873 (x   2)|Warning      |SETTING RPV*AREA VALUE OF 1E-6 FOR ()
+

@@ -1,0 +1,748 @@
+
+
+                                  ICV_Master 
+
+          Version O-2018.06-SP1 for linux64 - Jul 23, 2018 cl#4289877
+
+                    Copyright (c) 1996 - 2018 Synopsys, Inc.
+   This software and the associated documentation are proprietary to Synopsys,
+ Inc. This software may only be used in accordance with the terms and conditions
+ of a written license agreement with Synopsys, Inc. All other use, reproduction,
+            or distribution of this software is strictly prohibited.
+
+
+Called as: /usr/local/synopsys/icv_2018.06-SP1/icvalidator/O-2018.06-SP1/bin/LINUX.64/icv -vue -c if_neuron -i if_neuron.gdsOut -f GDSII -s netlist.sp -sf SPICE -stc if_neuron ../iPDK/icv/lvs/saed32nm_1p9m_lvs_rules.rs
+ 
+
+Using user-specified ICV_INCLUDES setting as:
+Not set
+
+Runset Checksum Section
+***********************
+
+saed32nm_1p9m_lvs_rules.rs : ce33bc518f58e414111c27185263254b : /afs/asu.edu/users/j/n/e/jneuenda/425_proj/425_lab/iPDK/icv/lvs/saed32nm_1p9m_lvs_rules.rs
+runset : 0b90af085be7b91ce49ce56f1304442f
+
+End Runset Checksum Section
+***************************
+
+FTW N/A
+skipped fill-opt because no known fill command was scanned
+Automatic Small Cell determination enabled
+Small Cell enabled: small cell flow used, with fast file system
+Timestamp: 8.30496 sec: Start build segment #0
+Timestamp: 8.30901 sec: Finish build segment #0
+Timestamp: 8.30904 sec: DP was busy for 0.00405 sec
+Virtual Machine Init Time=0:00:00 User=0.02 Sys=0.00 Mem=326.730
+
+
+
+
+pydb_server started on host eecad5.eas.asu.edu, PID 26621
+
+Timestamp: 9.81264 sec: pydb started
+Checked out necessary DP licenses.
+Timestamp: 10.27559 sec: worker startup begin
+Timestamp: 10.93316 sec: worker startup end
+Copy throttle mode: Throttled by sender
+Timestamp: 10.93324 sec: DP_STATS Starts
+
+Listening for addhost connections on port 34716
+
+Balance semaphore created on host 0
+Host startup done: 2 successes, 0 failures.
+	eecad5.eas.asu.edu: 2 total cores, maximum 2 commands in parallel.
+Using runset cached from prior run:
+    /afs/asu.edu/users/j/n/e/jneuenda/.icvrscache/f31b76bbc27f3daa28997b99a6669d65-99C42E6C-AE9C-4A78-88B2-54BB1D20E7F5-eecad3.eas.asu.edu-22729.rscache
+
+
+QUASI mode Active
+
+Hosts Section
+*************
+
+Host: eecad5(0)
+Memory: 31844/2 Megs of RAM, 12 cpu 1307 MHz, Mmaped File: (none)
+Cachedir: (none)
+ /tmp dir Size/Used: 815.0G/633.0G
+Swap space: 16064Mb
+Num of Cores: 6  HT,
+Virtual Memory Limit: soft=ulimited hard=unlimited
+Physical Memory Limit: soft=ulimited hard=unlimited
+Process Limit: soft=4096 hard=125879
+Model: :  Intel(R) Xeon(R) E-2136 CPU @ 3.30GHz
+RedHat: : Red Hat Enterprise Linux Workstation release 7.9 (Maipo)
+
+Host: eecad5(1)
+Memory: 31844/2 Megs of RAM, 12 cpu 1307 MHz, Mmaped File: (none)
+Cachedir: (none)
+ /tmp dir Size/Used: 815.0G/633.0G
+Swap space: 16064Mb
+Num of Cores: 6  HT,
+Virtual Memory Limit: soft=ulimited hard=unlimited
+Physical Memory Limit: soft=ulimited hard=unlimited
+Process Limit: soft=4096 hard=125879
+Model: :  Intel(R) Xeon(R) E-2136 CPU @ 3.30GHz
+RedHat: : Red Hat Enterprise Linux Workstation release 7.9 (Maipo)
+
+
+End Hosts Section
+*****************
+
+Selecting "eecad5.eas.asu.edu" as Primary host
+
+ICV running on host eecad5.eas.asu.edu
+System Startup Time=0:00:03 User=0.01 Sys=0.02 Mem=326.730
+
+Timestamp: 12.03532 sec: Diagnostic Connection
+eecad5.eas.asu.edu: 0 selftest
+
+Timestamp: 12.03536 sec: Swap Control
+ICV Swap Control Enabled.
+  sched idle       = 0.75
+  sched pause low  = 0.85
+  sched pause high = 0.90
+  sched swap min   = 0.35
+  sched tight      = 0.65
+  sched deferr     = 1.00
+
+Shared memory file created on eecad5(0)
+	The pid of icv_engine on host "eecad5(0)": 26659
+	The pid of icv_engine on host "eecad5(1)": 26660
+	The pid of icv_slave on host "eecad5(0)": 26628
+Timestamp: 12.12879 sec: ICV-MRI connection
+Connection from eecad5.eas.asu.edu
+
+Timestamp: 12.17759 sec: Command Starts
+Broadcasting to eecad5(0): 435.0.0, 1713, 0: _header
+-------------
+
+Timestamp: 12.17773 sec: Command Starts
+Broadcasting to eecad5(1): 435.0.0, 1713, 0: _header
+-------------
+
+Timestamp: 12.17934 sec: Command finished
+Broadcast 1713 is finished on eecad5(0):
+-------------
+
+Timestamp: 12.18007 sec: Command Starts
+Broadcasting to eecad5(0): 469.0.0, 1869, 0: _options
+-------------
+
+Timestamp: 12.18010 sec: Command finished
+Broadcast 1713 is finished on eecad5(1):
+-------------
+
+Timestamp: 12.18025 sec: Command Starts
+Broadcasting to eecad5(1): 469.0.0, 1869, 0: _options
+-------------
+
+Timestamp: 12.18029 sec: Command finished
+Broadcast 1869 is finished on eecad5(0):
+-------------
+
+Timestamp: 12.18044 sec: Command Starts
+Broadcasting to eecad5(0): 470.0.0, 1871, 0: _text_options
+-------------
+
+Timestamp: 12.18047 sec: Command finished
+Broadcast 1869 is finished on eecad5(1):
+-------------
+
+Timestamp: 12.18054 sec: Command Starts
+Broadcasting to eecad5(1): 470.0.0, 1871, 0: _text_options
+-------------
+
+Timestamp: 12.18059 sec: Command finished
+Broadcast 1871 is finished on eecad5(0):
+-------------
+
+Timestamp: 12.18069 sec: Command Starts
+Broadcasting to eecad5(0): 471.0.0, 1873, 0: _evaccess_options
+-------------
+
+Timestamp: 12.18072 sec: Command finished
+Broadcast 1871 is finished on eecad5(1):
+-------------
+
+Timestamp: 12.18077 sec: Command Starts
+Broadcasting to eecad5(1): 471.0.0, 1873, 0: _evaccess_options
+-------------
+
+Timestamp: 12.18084 sec: Command finished
+Broadcast 1873 is finished on eecad5(0):
+-------------
+
+Timestamp: 12.18092 sec: Command finished
+Broadcast 1873 is finished on eecad5(1):
+-------------
+
+Timestamp: 12.18101 sec: Command Starts
+Broadcasting to eecad5(1): 481.0.0, 1917, 0: _explode_options
+-------------
+
+Timestamp: 12.18106 sec: Command Starts
+Broadcasting to eecad5(0): 481.0.0, 1917, 0: _explode_options
+-------------
+
+Timestamp: 12.18110 sec: Command finished
+Broadcast 1917 is finished on eecad5(1):
+-------------
+
+Timestamp: 12.18117 sec: Command Starts
+Broadcasting to eecad5(1): 482.0.0, 1919, 0: _layout_integrity_options
+-------------
+
+Timestamp: 12.18121 sec: Command finished
+Broadcast 1917 is finished on eecad5(0):
+-------------
+
+Timestamp: 12.18127 sec: Command Starts
+Broadcasting to eecad5(0): 482.0.0, 1919, 0: _layout_integrity_options
+-------------
+
+Timestamp: 12.18130 sec: Command finished
+Broadcast 1919 is finished on eecad5(1):
+-------------
+
+Timestamp: 12.18144 sec: Command Starts
+Broadcasting to eecad5(1): 483.0.0, 1921, 0: _milkyway_options
+-------------
+
+Timestamp: 12.18147 sec: Command finished
+Broadcast 1919 is finished on eecad5(0):
+-------------
+
+Timestamp: 12.18155 sec: Command Starts
+Broadcasting to eecad5(0): 483.0.0, 1921, 0: _milkyway_options
+-------------
+
+Timestamp: 12.18158 sec: Command finished
+Broadcast 1921 is finished on eecad5(1):
+-------------
+
+Timestamp: 12.18166 sec: Command Starts
+Broadcasting to eecad5(1): 484.0.0, 1923, 0: _milkyway_merge_library_options
+-------------
+
+Timestamp: 12.18170 sec: Command finished
+Broadcast 1921 is finished on eecad5(0):
+-------------
+
+Timestamp: 12.18176 sec: Command Starts
+Broadcasting to eecad5(0): 484.0.0, 1923, 0: _milkyway_merge_library_options
+-------------
+
+Timestamp: 12.18180 sec: Command finished
+Broadcast 1923 is finished on eecad5(1):
+-------------
+
+Timestamp: 12.18188 sec: Command Starts
+Broadcasting to eecad5(1): 485.0.0, 1925, 0: _oasis_options
+-------------
+
+Timestamp: 12.18191 sec: Command finished
+Broadcast 1923 is finished on eecad5(0):
+-------------
+
+Timestamp: 12.18196 sec: Command Starts
+Broadcasting to eecad5(0): 485.0.0, 1925, 0: _oasis_options
+-------------
+
+Timestamp: 12.18200 sec: Command finished
+Broadcast 1925 is finished on eecad5(1):
+-------------
+
+Timestamp: 12.18210 sec: Command Starts
+Broadcasting to eecad5(1): 492.0.0, 1946, 0: _openaccess_options
+-------------
+
+Timestamp: 12.18214 sec: Command finished
+Broadcast 1925 is finished on eecad5(0):
+-------------
+
+Timestamp: 12.18220 sec: Command Starts
+Broadcasting to eecad5(0): 492.0.0, 1946, 0: _openaccess_options
+-------------
+
+Timestamp: 12.18223 sec: Command finished
+Broadcast 1946 is finished on eecad5(1):
+-------------
+
+Timestamp: 12.18232 sec: Command Starts
+Broadcasting to eecad5(1): 493.0.0, 1948, 0: _preprocess_options
+-------------
+
+Timestamp: 12.18236 sec: Command finished
+Broadcast 1946 is finished on eecad5(0):
+-------------
+
+Timestamp: 12.18242 sec: Command Starts
+Broadcasting to eecad5(0): 493.0.0, 1948, 0: _preprocess_options
+-------------
+
+Timestamp: 12.18245 sec: Command finished
+Broadcast 1948 is finished on eecad5(1):
+-------------
+
+Timestamp: 12.18259 sec: Command Starts
+Broadcasting to eecad5(1): 494.0.0, 1950, 0: _technology_options
+-------------
+
+Timestamp: 12.18262 sec: Command finished
+Broadcast 1948 is finished on eecad5(0):
+-------------
+
+Timestamp: 12.18269 sec: Command Starts
+Broadcasting to eecad5(0): 494.0.0, 1950, 0: _technology_options
+-------------
+
+Timestamp: 12.18272 sec: Command finished
+Broadcast 1950 is finished on eecad5(1):
+-------------
+
+Timestamp: 12.18278 sec: Command Starts
+Broadcasting to eecad5(1): 495.0.0, 1952, 0: _ndm_merge_library_options
+-------------
+
+Timestamp: 12.18280 sec: Command finished
+Broadcast 1950 is finished on eecad5(0):
+-------------
+
+Timestamp: 12.18285 sec: Command Starts
+Broadcasting to eecad5(0): 495.0.0, 1952, 0: _ndm_merge_library_options
+-------------
+
+Timestamp: 12.18288 sec: Command finished
+Broadcast 1952 is finished on eecad5(1):
+-------------
+
+Timestamp: 12.18296 sec: Command Starts
+Broadcasting to eecad5(1): 496.0.0, 1954, 0: _ndm_options
+-------------
+
+Timestamp: 12.18299 sec: Command finished
+Broadcast 1952 is finished on eecad5(0):
+-------------
+
+Timestamp: 12.18305 sec: Command Starts
+Broadcasting to eecad5(0): 496.0.0, 1954, 0: _ndm_options
+-------------
+
+Timestamp: 12.18308 sec: Command finished
+Broadcast 1954 is finished on eecad5(1):
+-------------
+
+Timestamp: 12.18313 sec: Command Starts
+Broadcasting to eecad5(1): 497.0.0, 1956, 0: _openaccess_merge_library_options
+-------------
+
+Timestamp: 12.18316 sec: Command finished
+Broadcast 1954 is finished on eecad5(0):
+-------------
+
+Timestamp: 12.18320 sec: Command Starts
+Broadcasting to eecad5(0): 497.0.0, 1956, 0: _openaccess_merge_library_options
+-------------
+
+Timestamp: 12.18323 sec: Command finished
+Broadcast 1956 is finished on eecad5(1):
+-------------
+
+Timestamp: 12.19618 sec: Command Starts
+Broadcasting to eecad5(1): 499.0.0, 1960, 0: _preprocessing_settings
+-------------
+
+Timestamp: 12.19622 sec: Command finished
+Broadcast 1956 is finished on eecad5(0):
+-------------
+
+Timestamp: 12.19908 sec: Command Starts
+Broadcasting to eecad5(0): 499.0.0, 1960, 0: _preprocessing_settings
+-------------
+
+Timestamp: 12.19912 sec: Command finished
+Broadcast 1960 is finished on eecad5(1):
+-------------
+
+Timestamp: 12.19923 sec: Command Starts
+Broadcasting to eecad5(1): 500.0.0, 1962, 0: _license
+-------------
+
+Timestamp: 12.19932 sec: Command finished
+Broadcast 1962 is finished on eecad5(1):
+-------------
+
+Timestamp: 12.19943 sec: Command Starts
+Broadcasting to eecad5(1): 501.0.0, 1965, 0: _init_runset
+-------------
+
+Timestamp: 12.19964 sec: Command finished
+Broadcast 1960 is finished on eecad5(0):
+-------------
+
+Timestamp: 12.19971 sec: Command Starts
+Broadcasting to eecad5(0): 500.0.0, 1962, 0: _license
+-------------
+
+Timestamp: 12.19975 sec: Command finished
+Broadcast 1962 is finished on eecad5(0):
+-------------
+
+Timestamp: 12.19984 sec: Command Starts
+Broadcasting to eecad5(0): 501.0.0, 1965, 0: _init_runset
+-------------
+
+
+Timestamp: 12.64794 sec: Memory Report
+eecad5.eas.asu.edu : 7(Mb)/31844(Mb): Peak = 8(Mb) Shared = 0(Mb): Filecache = 0(Mb)
+Disk Usage :  50.329(Mb): Peak = 50.329(Mb)
+
+Timestamp: 13.47405 sec: Command finished
+Broadcast 1965 is finished on eecad5(1):
+optimize_floating_fills 1
+Mon Apr 25 15:01:59 2022
+
+                                  ICV_Engine 
+
+          Version O-2018.06-SP1 for linux64 - Jul 23, 2018 cl#4289877
+
+                    Copyright (c) 1996 - 2018 Synopsys, Inc.
+   This software and the associated documentation are proprietary to Synopsys,
+ Inc. This software may only be used in accordance with the terms and conditions
+ of a written license agreement with Synopsys, Inc. All other use, reproduction,
+            or distribution of this software is strictly prohibited.
+
+
+
+Running Multi-Threaded code with 2 shared thread(s)
+
+Runset file ......................  ../iPDK/icv/lvs/saed32nm_1p9m_lvs_rules.rs
+Current Directory ................  /afs/asu.edu/users/j/n/e/jneuenda/425_proj_final/425_lab_3/drc
+Hostname .........................  eecad5.eas.asu.edu
+Platform type ....................  LINUX.64
+GDSII input file name ............  /afs/asu.edu/users/j/n/e/jneuenda/425_proj_final/425_lab_3/drc/if_neuron.gdsOut
+GDSII block name .................  if_neuron
+Run details ......................  /afs/asu.edu/users/j/n/e/jneuenda/425_proj_final/425_lab_3/drc/run_details
+Group file directory .............  /afs/asu.edu/users/j/n/e/jneuenda/425_proj_final/425_lab_3/drc/run_details/group
+Check reference structures .......  no
+
+single pass sequential reading.
+-------------
+
+Timestamp: 13.47649 sec: Start build segment #1
+Timestamp: 13.47810 sec: Finish build segment #1
+Timestamp: 13.47815 sec: DP was busy for 0.00161 sec
+    Now Runnable: 1991 0.00 0.00 - _prescan_library
+    Now Runnable: 1977 0.00 0.00 - _nettran_sch
+Timestamp: 16.92491 sec: Command Starts
+Broadcasting to eecad5(1): 574.0.0, 2212, 0: _set_top_block
+-------------
+
+Timestamp: 16.92495 sec: Scheduling
+Idle Threads eecad5: 0 1
+-------------
+
+Timestamp: 16.92498 sec: Command finished
+Broadcast 1965 is finished on eecad5(0):
+optimize_floating_fills 1
+Mon Apr 25 15:01:59 2022
+
+                                  ICV_Engine 
+
+          Version O-2018.06-SP1 for linux64 - Jul 23, 2018 cl#4289877
+
+                    Copyright (c) 1996 - 2018 Synopsys, Inc.
+   This software and the associated documentation are proprietary to Synopsys,
+ Inc. This software may only be used in accordance with the terms and conditions
+ of a written license agreement with Synopsys, Inc. All other use, reproduction,
+            or distribution of this software is strictly prohibited.
+
+
+
+Running Multi-Threaded code with 2 shared thread(s)
+
+Runset file ......................  ../iPDK/icv/lvs/saed32nm_1p9m_lvs_rules.rs
+Current Directory ................  /afs/asu.edu/users/j/n/e/jneuenda/425_proj_final/425_lab_3/drc
+Hostname .........................  eecad5.eas.asu.edu
+Platform type ....................  LINUX.64
+GDSII input file name ............  /afs/asu.edu/users/j/n/e/jneuenda/425_proj_final/425_lab_3/drc/if_neuron.gdsOut
+GDSII block name .................  if_neuron
+Run details ......................  /afs/asu.edu/users/j/n/e/jneuenda/425_proj_final/425_lab_3/drc/run_details
+Group file directory .............  /afs/asu.edu/users/j/n/e/jneuenda/425_proj_final/425_lab_3/drc/run_details/group
+Check reference structures .......  no
+
+single pass sequential reading.
+openaccess_options() at ../iPDK/icv/lvs/saed32nm_1p9m_lvs_rules.rs:71
+openaccess_options(view = "layout", layer_mapping_file = "./techfiles/saed32nm_1p9m_gdsout.map")
+
+library() at ../iPDK/icv/lvs/saed32nm_1p9m_lvs_rules.rs:78
+library(library_name = "CELLNAME.gds", format = GDSII, cell = "resistor")
+
+schematic() at ../iPDK/icv/lvs/saed32nm_1p9m_lvs_rules.rs:88
+schem_netl_fh = schematic(schematic_file = { { filename = "CELLNAME.sp", format = SPICE } })
+
+error_options() at ../iPDK/icv/lvs/saed32nm_1p9m_lvs_rules.rs:95
+error_options(db_path = "./TOPCELLNAME_err", create_vue_output = true)
+
+run_options() at ../iPDK/icv/lvs/saed32nm_1p9m_lvs_rules.rs:98
+run_options(instance_prefix = "X", uppercase = false)
+
+hierarchy_options() at ../iPDK/icv/lvs/saed32nm_1p9m_lvs_rules.rs:103
+hierarchy_options(flatten = { "*" })
+
+resolution_options() at ../iPDK/icv/lvs/saed32nm_1p9m_lvs_rules.rs:105
+resolution_options(snap_resolution = 0.001)
+
+text_options() at ../iPDK/icv/lvs/saed32nm_1p9m_lvs_rules.rs:106
+text_options(net_prefix = "N", layout_power = { "VDD", "VDD12", "VDD22", "VDD2", "VDDG", "VDDH", "VDDL", "VDDIO" }, layout_ground = { "VSS", "VSS12", "VDD22", "VSSIO" })
+
+net_options() at ../iPDK/icv/lvs/saed32nm_1p9m_lvs_rules.rs:111
+net_options(schematic_power = { "VDD", "VDD12", "VDD22", "VDD2", "VDDG", "VDDH", "VDDL", "VDDIO" }, schematic_ground = { "VSS", "VSS12", "VDD22", "VDD2", "VDDH", "VDDL", "VDDIO" }, schematic_global = { "VDD", "VDD12", "VDD22", "VSS", "VSS12", "VDD22", "VDD2", "VDDG", "VDDH", "VDDL", "VDDIO", "VSSIO" })
+
+prototype_options() at ../iPDK/icv/lvs/saed32nm_1p9m_lvs_rules.rs:116
+prototype_options(false)
+
+[Generated Command]
+drc_black_box_options()
+
+[Generated Command]
+incremental_options()
+
+[Generated Command]
+layout_drawn_options()
+
+[Generated Command]
+layout_grid_options()
+
+[Generated Command]
+layout_integrity_options()
+
+[Generated Command]
+hierarchy_auto_options()
+
+[Generated Command]
+compatibility_options()
+
+-------------
+
+Timestamp: 16.92506 sec: Command Starts
+Broadcasting to eecad5(0): 574.0.0, 2212, 0: _set_top_block
+-------------
+
+Timestamp: 16.92558 sec: Command finished
+Broadcast 2212 is finished on eecad5(0):
+-------------
+
+Timestamp: 16.92565 sec: Command Starts
+Running on eecad5(0): 509.0.0, 1991, 1: _prescan_library
+Weight 0.00 0.00 - 0
+HASH: 14275245475216536052
+Mflags: 0x0 0x0
+Input Group Files:
+Input Hierarchies:
+Input Connect Databases:
+Input Tagmap Files:
+Input Text Files:
+Output Group Files:
+Output Hierarchies:
+Output Connect Databases:
+Output Tagmap Files:
+Output Text Files:
+
+-------------
+
+Timestamp: 16.92570 sec: Scheduling
+Idle Threads eecad5: 0 0
+-------------
+
+Timestamp: 16.92573 sec: Command finished
+Broadcast 2212 is finished on eecad5(1):
+-------------
+
+Timestamp: 16.92578 sec: Command Starts
+Running on eecad5(1): 504.0.0.506.0.0, 1977, 0: _nettran_sch
+Weight 0.00 0.00 - 0
+HASH: 5669609960203074895
+Mflags: 0x0 0x0
+Input Group Files:
+Input Hierarchies:
+Input Connect Databases:
+Input Tagmap Files:
+Input Text Files:
+Output Group Files:
+Output Hierarchies:
+Output Connect Databases:
+Output Tagmap Files:
+Output Text Files:
+
+-------------
+
+Timestamp: 16.97429 sec: Command finished
+Host eecad5(0) completes 509.0.0, 1991:
+   Prescan Library Time=0:00:00  User=0.00 Sys=0.00 Mem=16.896
+
+-------------
+
+Commands made ready by 1991 _prescan_library {
+    Now Runnable: 1997 0.00 0.00 - _scan_hierarchy
+}
+
+Timestamp: 16.97444 sec: Command Starts
+Running on eecad5(0): 511.0.0, 1997, 1: _scan_hierarchy
+Weight 0.00 0.00 - 0
+HASH: 14438622529009381116
+Mflags: 0x0 0x0
+Input Group Files:
+Input Hierarchies:
+Input Connect Databases:
+Input Tagmap Files:
+Input Text Files:
+Output Group Files:
+Output Hierarchies:
+Output Connect Databases:
+Output Tagmap Files:
+Output Text Files:
+
+-------------
+
+Timestamp: 16.97466 sec: Command finished
+Host eecad5(0) completes 511.0.0, 1997:
+   Scan Hierarchy Time=0:00:00  User=0.00 Sys=0.00 Mem=13.803
+
+-------------
+
+Commands made ready by 1997 _scan_hierarchy {
+    Now Runnable: 2001 0.00 0.00 - _read_library_segment
+}
+
+Timestamp: 16.97492 sec: Command Starts
+Running on eecad5(0): 513.0.0, 2001, 0: _read_library_segment
+Weight 0.00 0.00 - 0
+HASH: 10649394787356876154
+Mflags: 0x0 0x0
+Input Group Files:
+Input Hierarchies:
+Input Connect Databases:
+Input Tagmap Files:
+Input Text Files:
+Output Group Files: NWELLi.polygonlayer.0001, DIFFi.polygonlayer.0001, PIMPi.polygonlayer.0001, NIMPi.polygonlayer.0001, DIFF_18i.polygonlayer.0001, SBLKi.polygonlayer.0001, POi.polygonlayer.0001, M1i.polygonlayer.0001, VIA1i.polygonlayer.0001, M2i.polygonlayer.0001, VIA2i.polygonlayer.0001, M3i.polygonlayer.0001, VIA3i.polygonlayer.0001, M4i.polygonlayer.0001, VIA4i.polygonlayer.0001, M5i.polygonlayer.0001, VIA5i.polygonlayer.0001, M6i.polygonlayer.0001, VIA6i.polygonlayer.0001, M7i.polygonlayer.0001, M7DMYi.polygonlayer.0001, VIA7i.polygonlayer.0001, M8i.polygonlayer.0001, M9i.polygonlayer.0001, COi.polygonlayer.0001, VIA8i.polygonlayer.0001, HVTIMPi.polygonlayer.0001, LVTIMPi.polygonlayer.0001, MRDLi.polygonlayer.0001, VIARDLi.polygonlayer.0001, DIODi.polygonlayer.0001, BJTMYi.polygonlayer.0001, RNWi.polygonlayer.0001, RMARKi.polygonlayer.0001, RM1i.polygonlayer.0001, RM2i.polygonlayer.0001, RM3i.polygonlayer.0001, RM4i.polygonlayer.0001, RM5i.polygonlayer.0001, RM6i.polygonlayer.0001, RM7i.polygonlayer.0001, RM8i.polygonlayer.0001, RM9i.polygonlayer.0001, DIFF_25i.polygonlayer.0001, CTMMARKi.polygonlayer.0001,
+Output Hierarchies: _dHrchy.0001,
+Output Connect Databases:
+Output Tagmap Files:
+Output Text Files: M1PIN_text.textlayer.0001.TEXT, M2PIN_text.textlayer.0001.TEXT, M3PIN_text.textlayer.0001.TEXT, M4PIN_text.textlayer.0001.TEXT, M5PIN_text.textlayer.0001.TEXT, M6PIN_text.textlayer.0001.TEXT, M7PIN_text.textlayer.0001.TEXT, M8PIN_text.textlayer.0001.TEXT, M9PIN_text.textlayer.0001.TEXT,
+
+-------------
+
+Timestamp: 16.98393 sec: Command finished
+Host eecad5(0) completes 513.0.0, 2001:
+   Read Library Time=0:00:00  User=0.00 Sys=0.00 Mem=27.222
+
+Created: NWELLi.polygonlayer.0001 of size 4 4
+Created: DIFFi.polygonlayer.0001 of size 41 41
+Created: PIMPi.polygonlayer.0001 of size 5 5
+Created: NIMPi.polygonlayer.0001 of size 4 4
+Created: DIFF_18i.polygonlayer.0001 of size 0 0
+Created: SBLKi.polygonlayer.0001 of size 0 0
+Created: POi.polygonlayer.0001 of size 73 73
+Created: M1i.polygonlayer.0001 of size 547 547
+Created: VIA1i.polygonlayer.0001 of size 125 125
+Created: M2i.polygonlayer.0001 of size 197 197
+Created: VIA2i.polygonlayer.0001 of size 93 93
+Created: M3i.polygonlayer.0001 of size 26 26
+Created: VIA3i.polygonlayer.0001 of size 0 0
+Created: M4i.polygonlayer.0001 of size 0 0
+Created: VIA4i.polygonlayer.0001 of size 0 0
+Created: M5i.polygonlayer.0001 of size 0 0
+Created: VIA5i.polygonlayer.0001 of size 0 0
+Created: M6i.polygonlayer.0001 of size 0 0
+Created: VIA6i.polygonlayer.0001 of size 0 0
+Created: M7i.polygonlayer.0001 of size 0 0
+Created: M7DMYi.polygonlayer.0001 of size 0 0
+Created: VIA7i.polygonlayer.0001 of size 0 0
+Created: M8i.polygonlayer.0001 of size 0 0
+Created: M9i.polygonlayer.0001 of size 0 0
+Created: COi.polygonlayer.0001 of size 235 235
+Created: VIA8i.polygonlayer.0001 of size 0 0
+Created: HVTIMPi.polygonlayer.0001 of size 0 0
+Created: LVTIMPi.polygonlayer.0001 of size 0 0
+Created: MRDLi.polygonlayer.0001 of size 0 0
+Created: VIARDLi.polygonlayer.0001 of size 0 0
+Created: DIODi.polygonlayer.0001 of size 0 0
+Created: BJTMYi.polygonlayer.0001 of size 0 0
+Created: RNWi.polygonlayer.0001 of size 0 0
+Created: RMARKi.polygonlayer.0001 of size 0 0
+Created: RM1i.polygonlayer.0001 of size 0 0
+Created: RM2i.polygonlayer.0001 of size 0 0
+Created: RM3i.polygonlayer.0001 of size 0 0
+Created: RM4i.polygonlayer.0001 of size 0 0
+Created: RM5i.polygonlayer.0001 of size 0 0
+Created: RM6i.polygonlayer.0001 of size 0 0
+Created: RM7i.polygonlayer.0001 of size 0 0
+Created: RM8i.polygonlayer.0001 of size 0 0
+Created: RM9i.polygonlayer.0001 of size 0 0
+Created: DIFF_25i.polygonlayer.0001 of size 0 0
+Created: CTMMARKi.polygonlayer.0001 of size 0 0
+Created: M1PIN_text.textlayer.0001.TEXT
+Created: M2PIN_text.textlayer.0001.TEXT
+Created: M3PIN_text.textlayer.0001.TEXT
+Created: M4PIN_text.textlayer.0001.TEXT
+Created: M5PIN_text.textlayer.0001.TEXT
+Created: M6PIN_text.textlayer.0001.TEXT
+Created: M7PIN_text.textlayer.0001.TEXT
+Created: M8PIN_text.textlayer.0001.TEXT
+Created: M9PIN_text.textlayer.0001.TEXT
+-------------
+
+Commands made ready by 2001 _read_library_segment {
+    Now Runnable: 2008 0.00 0.00 - _create_hierarchy_tree
+}
+
+Timestamp: 16.98446 sec: Command Starts
+Running on eecad5(0): 515.0.0, 2008, 1: _create_hierarchy_tree
+Weight 0.00 0.00 - 0
+HASH: 5279941904295094280
+Mflags: 0x0 0x0
+Input Group Files:
+Input Hierarchies: _dHrchy.0001,
+Input Connect Databases:
+Input Tagmap Files:
+Input Text Files: M1PIN_text.textlayer.0001.TEXT, M2PIN_text.textlayer.0001.TEXT, M3PIN_text.textlayer.0001.TEXT, M4PIN_text.textlayer.0001.TEXT, M5PIN_text.textlayer.0001.TEXT, M6PIN_text.textlayer.0001.TEXT, M7PIN_text.textlayer.0001.TEXT, M8PIN_text.textlayer.0001.TEXT, M9PIN_text.textlayer.0001.TEXT,
+Output Group Files:
+Output Hierarchies: hrchy1.0001,
+Output Connect Databases:
+Output Tagmap Files:
+Output Text Files:
+
+-------------
+
+
+icv_slave on host eecad5(1) issued a warning:
+
+Warning: icv_engine (pid 26660) exited with exit status 0
+
+
+Timestamp: 17.91393 sec: RECOVER
+
+                                  ICV_Nettran 
+
+          Version O-2018.06-SP1 for linux64 - Jul 23, 2018 cl#4289877
+
+                    Copyright (c) 1996 - 2018 Synopsys, Inc.
+   This software and the associated documentation are proprietary to Synopsys,
+ Inc. This software may only be used in accordance with the terms and conditions
+ of a written license agreement with Synopsys, Inc. All other use, reproduction,
+            or distribution of this software is strictly prohibited.
+
+Options: -sp netlist.sp -cell if_neuron -dupCell USE_MULTIPLE -sp-ndbConnect -quiet -logFile run_details/icv_nettran.log -globalNets VDD VDD12 VDD22 VSS VSS12 VDD22 VDD2 VDDG VDDH VDDL VDDIO VSSIO -wireLog run_details/nettran_wire.log -dupCellReportFile run_details/nettran_dupCell.log -outName /.netlist_database_sch -outType ndb -ndb-noOrgname -ndb-micron 
+
+Reading "netlist.sp" netlist ...
+WARNING: SPICE netlist scale is set to METER by .*.SCALE statement near line 17 in "netlist.sp".
+Loading cell "one_bit_adder" ...
+FATAL: Root cell "if_neuron" can not be found in netlist.
+
+ERROR: Errors during translation. See log file run_details/icv_nettran.log for listing.
+
+icv_nettran execution failed.(rc=33)
+Exit !
+Fatal Error: _nettran_sch failed to complete

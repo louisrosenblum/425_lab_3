@@ -1,0 +1,6 @@
+one_bit_adder { }
+four_bit_adder { one_bit_adder }
+if_neuron { four_bit_adder and2 or3 d_flip_flop }
+d_flip_flop { }
+and2 { }
+or3 { }

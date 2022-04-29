@@ -1,0 +1,305 @@
+{netlist if_neuron_shortRun.sch_out
+{version 2 1 0}
+{net_global VSS VDD12 VDDL VSS12 gnd! vdd! VDDIO VDDG VDD2 VDD22 VDD VSSIO VDDH }
+{cell one_bit_adder
+{port A B Cin Cout Sum}
+{inst MM26=p105 {TYPE MOS} 
+{prop PS=0.31 PD=0.31 AS=0.0105 AD=0.0105 L=0.03 W=1.215 M=1}
+{pin Sum=DRN net017=GATE vdd!=SRC vdd!=BULK}}
+{inst MM22=p105 {TYPE MOS} 
+{prop PS=0.31 PD=0.31 AS=0.0105 AD=0.0105 L=0.03 W=1.174 M=1}
+{pin net017=DRN Cin=GATE net060=SRC vdd!=BULK}}
+{inst MM21=p105 {TYPE MOS} 
+{prop PS=0.31 PD=0.31 AS=0.0105 AD=0.0105 L=0.03 W=1.174 M=1}
+{pin net060=DRN A=GATE net061=SRC vdd!=BULK}}
+{inst MM20=p105 {TYPE MOS} 
+{prop PS=0.31 PD=0.31 AS=0.0105 AD=0.0105 L=0.03 W=1.174 M=1}
+{pin net061=DRN B=GATE vdd!=SRC vdd!=BULK}}
+{inst MM15=p105 {TYPE MOS} 
+{prop PS=0.31 PD=0.31 AS=0.0105 AD=0.0105 L=0.03 W=0.784 M=1}
+{pin net017=DRN net15=GATE net19=SRC vdd!=BULK}}
+{inst MM14=p105 {TYPE MOS} 
+{prop PS=0.31 PD=0.31 AS=0.0105 AD=0.0105 L=0.03 W=0.522 M=1}
+{pin net19=DRN Cin=GATE vdd!=SRC vdd!=BULK}}
+{inst MM13=p105 {TYPE MOS} 
+{prop PS=0.31 PD=0.31 AS=0.0105 AD=0.0105 L=0.03 W=0.522 M=1}
+{pin net19=DRN B=GATE vdd!=SRC vdd!=BULK}}
+{inst MM12=p105 {TYPE MOS} 
+{prop PS=0.31 PD=0.31 AS=0.0105 AD=0.0105 L=0.03 W=0.522 M=1}
+{pin net19=DRN A=GATE vdd!=SRC vdd!=BULK}}
+{inst MM10=p105 {TYPE MOS} 
+{prop PS=0.31 PD=0.31 AS=0.0105 AD=0.0105 L=0.03 W=0.504 M=1}
+{pin Cout=DRN net15=GATE vdd!=SRC vdd!=BULK}}
+{inst MM5=p105 {TYPE MOS} 
+{prop PS=0.31 PD=0.31 AS=0.0105 AD=0.0105 L=0.03 W=0.504 M=1}
+{pin net15=DRN Cin=GATE net11=SRC vdd!=BULK}}
+{inst MM4=p105 {TYPE MOS} 
+{prop PS=0.31 PD=0.31 AS=0.0105 AD=0.0105 L=0.03 W=0.504 M=1}
+{pin net15=DRN A=GATE net33=SRC vdd!=BULK}}
+{inst MM3=p105 {TYPE MOS} 
+{prop PS=0.31 PD=0.31 AS=0.0105 AD=0.0105 L=0.03 W=0.504 M=1}
+{pin net33=DRN B=GATE vdd!=SRC vdd!=BULK}}
+{inst MM2=p105 {TYPE MOS} 
+{prop PS=0.31 PD=0.31 AS=0.0105 AD=0.0105 L=0.03 W=0.252 M=1}
+{pin net11=DRN B=GATE vdd!=SRC vdd!=BULK}}
+{inst MM0=p105 {TYPE MOS} 
+{prop PS=0.31 PD=0.31 AS=0.0105 AD=0.0105 L=0.03 W=0.252 M=1}
+{pin net11=DRN A=GATE vdd!=SRC vdd!=BULK}}
+{inst MM27=n105 {TYPE MOS} 
+{prop PS=0.31 PD=0.31 AS=0.0105 AD=0.0105 L=0.03 W=1.014 M=1}
+{pin Sum=DRN net017=GATE gnd!=SRC gnd!=BULK}}
+{inst MM25=n105 {TYPE MOS} 
+{prop PS=0.31 PD=0.31 AS=0.0105 AD=0.0105 L=0.03 W=0.978 M=1}
+{pin net058=DRN B=GATE gnd!=SRC gnd!=BULK}}
+{inst MM24=n105 {TYPE MOS} 
+{prop PS=0.31 PD=0.31 AS=0.0105 AD=0.0105 L=0.03 W=0.978 M=1}
+{pin net059=DRN A=GATE net058=SRC gnd!=BULK}}
+{inst MM23=n105 {TYPE MOS} 
+{prop PS=0.31 PD=0.31 AS=0.0105 AD=0.0105 L=0.03 W=0.978 M=1}
+{pin net017=DRN Cin=GATE net059=SRC gnd!=BULK}}
+{inst MM18=n105 {TYPE MOS} 
+{prop PS=0.31 PD=0.31 AS=0.0105 AD=0.0105 L=0.03 W=0.218 M=1}
+{pin net033=DRN B=GATE gnd!=SRC gnd!=BULK}}
+{inst MM16=n105 {TYPE MOS} 
+{prop PS=0.31 PD=0.31 AS=0.0105 AD=0.0105 L=0.03 W=0.654 M=1}
+{pin net017=DRN net15=GATE net033=SRC gnd!=BULK}}
+{inst MM17=n105 {TYPE MOS} 
+{prop PS=0.31 PD=0.31 AS=0.0105 AD=0.0105 L=0.03 W=0.218 M=1}
+{pin net033=DRN A=GATE gnd!=SRC gnd!=BULK}}
+{inst MM19=n105 {TYPE MOS} 
+{prop PS=0.31 PD=0.31 AS=0.0105 AD=0.0105 L=0.03 W=0.218 M=1}
+{pin net033=DRN Cin=GATE gnd!=SRC gnd!=BULK}}
+{inst MM11=n105 {TYPE MOS} 
+{prop PS=0.31 PD=0.31 AS=0.0105 AD=0.0105 L=0.03 W=0.42 M=1}
+{pin Cout=DRN net15=GATE gnd!=SRC gnd!=BULK}}
+{inst MM9=n105 {TYPE MOS} 
+{prop PS=0.31 PD=0.31 AS=0.0105 AD=0.0105 L=0.03 W=0.21 M=1}
+{pin net23=DRN B=GATE gnd!=SRC gnd!=BULK}}
+{inst MM8=n105 {TYPE MOS} 
+{prop PS=0.31 PD=0.31 AS=0.0105 AD=0.0105 L=0.03 W=0.21 M=1}
+{pin net23=DRN A=GATE gnd!=SRC gnd!=BULK}}
+{inst MM7=n105 {TYPE MOS} 
+{prop PS=0.31 PD=0.31 AS=0.0105 AD=0.0105 L=0.03 W=0.42 M=1}
+{pin net15=DRN Cin=GATE net23=SRC gnd!=BULK}}
+{inst MM6=n105 {TYPE MOS} 
+{prop PS=0.31 PD=0.31 AS=0.0105 AD=0.0105 L=0.03 W=0.42 M=1}
+{pin net32=DRN B=GATE gnd!=SRC gnd!=BULK}}
+{inst MM1=n105 {TYPE MOS} 
+{prop PS=0.31 PD=0.31 AS=0.0105 AD=0.0105 L=0.03 W=0.42 M=1}
+{pin net15=DRN A=GATE net32=SRC gnd!=BULK}}
+}
+
+{cell d_flip_flop
+{port Clk D Q}
+{inst MM15=n105 {TYPE MOS} 
+{prop PS=0.31 PD=0.31 AS=0.0105 AD=0.0105 L=0.03 W=0.42 M=1}
+{pin net05=DRN Clk=GATE gnd!=SRC gnd!=BULK}}
+{inst MM11=n105 {TYPE MOS} 
+{prop PS=0.31 PD=0.31 AS=0.0105 AD=0.0105 L=0.03 W=0.42 M=1}
+{pin net12=DRN net05=GATE Q=SRC gnd!=BULK}}
+{inst MM10=n105 {TYPE MOS} 
+{prop PS=0.31 PD=0.31 AS=0.0105 AD=0.0105 L=0.03 W=1.404 M=1}
+{pin Q=DRN net13=GATE gnd!=SRC gnd!=BULK}}
+{inst MM8=n105 {TYPE MOS} 
+{prop PS=0.31 PD=0.31 AS=0.0105 AD=0.0105 L=0.03 W=0.94 M=1}
+{pin net13=DRN net12=GATE gnd!=SRC gnd!=BULK}}
+{inst MM4=n105 {TYPE MOS} 
+{prop PS=0.31 PD=0.31 AS=0.0105 AD=0.0105 L=0.03 W=0.628 M=1}
+{pin net11=DRN net8=GATE gnd!=SRC gnd!=BULK}}
+{inst MM3=n105 {TYPE MOS} 
+{prop PS=0.31 PD=0.31 AS=0.0105 AD=0.0105 L=0.03 W=0.42 M=1}
+{pin D=DRN net05=GATE net7=SRC gnd!=BULK}}
+{inst MM0=n105 {TYPE MOS} 
+{prop PS=0.31 PD=0.31 AS=0.0105 AD=0.0105 L=0.03 W=0.42 M=1}
+{pin net8=DRN net7=GATE gnd!=SRC gnd!=BULK}}
+{inst MM14=p105 {TYPE MOS} 
+{prop PS=0.31 PD=0.31 AS=0.0105 AD=0.0105 L=0.03 W=0.504 M=1}
+{pin net05=DRN Clk=GATE vdd!=SRC vdd!=BULK}}
+{inst MM9=p105 {TYPE MOS} 
+{prop PS=0.31 PD=0.31 AS=0.0105 AD=0.0105 L=0.03 W=1.674 M=1}
+{pin Q=DRN net13=GATE vdd!=SRC vdd!=BULK}}
+{inst MM7=p105 {TYPE MOS} 
+{prop PS=0.31 PD=0.31 AS=0.0105 AD=0.0105 L=0.03 W=1.128 M=1}
+{pin net13=DRN net12=GATE vdd!=SRC vdd!=BULK}}
+{inst MM6=p105 {TYPE MOS} 
+{prop PS=0.31 PD=0.31 AS=0.0105 AD=0.0105 L=0.03 W=0.504 M=1}
+{pin net12=DRN net05=GATE net11=SRC vdd!=BULK}}
+{inst MM5=p105 {TYPE MOS} 
+{prop PS=0.31 PD=0.31 AS=0.0105 AD=0.0105 L=0.03 W=0.504 M=1}
+{pin net11=DRN net05=GATE net7=SRC vdd!=BULK}}
+{inst MM2=p105 {TYPE MOS} 
+{prop PS=0.31 PD=0.31 AS=0.0105 AD=0.0105 L=0.03 W=0.754 M=1}
+{pin net11=DRN net8=GATE vdd!=SRC vdd!=BULK}}
+{inst MM1=p105 {TYPE MOS} 
+{prop PS=0.31 PD=0.31 AS=0.0105 AD=0.0105 L=0.03 W=0.504 M=1}
+{pin net8=DRN net7=GATE vdd!=SRC vdd!=BULK}}
+}
+
+{cell and2
+{port A B F}
+{inst MM5=n105 {TYPE MOS} 
+{prop PS=0.31 PD=0.31 AS=0.0105 AD=0.0105 L=0.03 W=0.42 M=1}
+{pin F=DRN net7=GATE gnd!=SRC gnd!=BULK}}
+{inst MM6=n105 {TYPE MOS} 
+{prop PS=0.31 PD=0.31 AS=0.0105 AD=0.0105 L=0.03 W=0.84 M=1}
+{pin net7=DRN A=GATE net013=SRC gnd!=BULK}}
+{inst MM7=n105 {TYPE MOS} 
+{prop PS=0.31 PD=0.31 AS=0.0105 AD=0.0105 L=0.03 W=0.84 M=1}
+{pin net013=DRN B=GATE gnd!=SRC gnd!=BULK}}
+{inst MM4=p105 {TYPE MOS} 
+{prop PS=0.31 PD=0.31 AS=0.0105 AD=0.0105 L=0.03 W=0.504 M=1}
+{pin F=DRN net7=GATE vdd!=SRC vdd!=BULK}}
+{inst MM9=p105 {TYPE MOS} 
+{prop PS=0.31 PD=0.31 AS=0.0105 AD=0.0105 L=0.03 W=0.252 M=1}
+{pin net7=DRN B=GATE vdd!=SRC vdd!=BULK}}
+{inst MM8=p105 {TYPE MOS} 
+{prop PS=0.31 PD=0.31 AS=0.0105 AD=0.0105 L=0.03 W=0.252 M=1}
+{pin net7=DRN A=GATE vdd!=SRC vdd!=BULK}}
+}
+
+{cell or3
+{port A B C F}
+{inst MM12=p105 {TYPE MOS} 
+{prop PS=0.31 PD=0.31 AS=0.0105 AD=0.0105 L=0.03 W=1.512 M=1}
+{pin net016=DRN B=GATE net017=SRC vdd!=BULK}}
+{inst MM11=p105 {TYPE MOS} 
+{prop PS=0.31 PD=0.31 AS=0.0105 AD=0.0105 L=0.03 W=1.512 M=1}
+{pin net017=DRN A=GATE vdd!=SRC vdd!=BULK}}
+{inst MM13=p105 {TYPE MOS} 
+{prop PS=0.31 PD=0.31 AS=0.0105 AD=0.0105 L=0.03 W=1.512 M=1}
+{pin net10=DRN C=GATE net016=SRC vdd!=BULK}}
+{inst MM6=p105 {TYPE MOS} 
+{prop PS=0.31 PD=0.31 AS=0.0105 AD=0.0105 L=0.03 W=0.504 M=1}
+{pin F=DRN net10=GATE vdd!=SRC vdd!=BULK}}
+{inst MM8=n105 {TYPE MOS} 
+{prop PS=0.31 PD=0.31 AS=0.0105 AD=0.0105 L=0.03 W=0.14 M=1}
+{pin net10=DRN A=GATE gnd!=SRC gnd!=BULK}}
+{inst MM7=n105 {TYPE MOS} 
+{prop PS=0.31 PD=0.31 AS=0.0105 AD=0.0105 L=0.03 W=0.42 M=1}
+{pin F=DRN net10=GATE gnd!=SRC gnd!=BULK}}
+{inst MM10=n105 {TYPE MOS} 
+{prop PS=0.31 PD=0.31 AS=0.0105 AD=0.0105 L=0.03 W=0.14 M=1}
+{pin net10=DRN C=GATE gnd!=SRC gnd!=BULK}}
+{inst MM9=n105 {TYPE MOS} 
+{prop PS=0.31 PD=0.31 AS=0.0105 AD=0.0105 L=0.03 W=0.14 M=1}
+{pin net10=DRN B=GATE gnd!=SRC gnd!=BULK}}
+}
+
+{cell four_bit_adder
+{port A0 A1 A2 A3 B0 B1
+ B2 B3 Cout Sum0 Sum1 Sum2 Sum3}
+{inst XI3=one_bit_adder {TYPE CELL} 
+{pin A3=A B3=B net35=Cin Cout=Cout Sum3=Sum}}
+{inst XI2=one_bit_adder {TYPE CELL} 
+{pin A2=A B2=B net030=Cin net35=Cout Sum2=Sum}}
+{inst XI1=one_bit_adder {TYPE CELL} 
+{pin A1=A B1=B net033=Cin net030=Cout Sum1=Sum}}
+{inst XI0=one_bit_adder {TYPE CELL} 
+{pin A0=A B0=B gnd!=Cin net033=Cout Sum0=Sum}}
+}
+
+{cell if_neuron_shortRun
+{port CLK F W0 W1 W2 W3
+ X0<0> X0<1> X0<2> X0<3> X1<0> X1<1> X1<2>
+ X1<3> X2<0> X2<1> X2<2> X2<3> X3<0> X3<1>
+ X3<2> X3<3>}
+{inst XI44=four_bit_adder {TYPE CELL} 
+{pin net069=A0 net068=A1 net066=A2 net078=A3 net076=B0 net0158=B1
+ net0163=B2 net073=B3 net079=Cout net085=Sum0 net086=Sum1 net087=Sum2 net088=Sum3}}
+{inst XI33=four_bit_adder {TYPE CELL} 
+{pin net46=A0 net45=A1 net38=A2 net049=A3 net052=B0 net070=B1
+ net060=B2 net0135=B3 net061=Cout net062=Sum0 net063=Sum1 net064=Sum2 net065=Sum3}}
+{inst XI0=four_bit_adder {TYPE CELL} 
+{pin net095=A0 net046=A1 net042=A2 net043=A3 net045=B0 net048=B1
+ net050=B2 net0103=B3 net058=Cout net057=Sum0 net0102=Sum1 net0101=Sum2 net098=Sum3}}
+{inst XI46=d_flip_flop {TYPE CELL} 
+{pin CLK=Clk net067=D F=Q}}
+{inst XI43=d_flip_flop {TYPE CELL} 
+{pin CLK=Clk net061=D net0105=Q}}
+{inst XI42=d_flip_flop {TYPE CELL} 
+{pin CLK=Clk net065=D net073=Q}}
+{inst XI41=d_flip_flop {TYPE CELL} 
+{pin CLK=Clk net064=D net0163=Q}}
+{inst XI40=d_flip_flop {TYPE CELL} 
+{pin CLK=Clk net063=D net0158=Q}}
+{inst XI39=d_flip_flop {TYPE CELL} 
+{pin CLK=Clk net062=D net076=Q}}
+{inst XI38=d_flip_flop {TYPE CELL} 
+{pin CLK=Clk net058=D net080=Q}}
+{inst XI37=d_flip_flop {TYPE CELL} 
+{pin CLK=Clk net098=D net078=Q}}
+{inst XI36=d_flip_flop {TYPE CELL} 
+{pin CLK=Clk net0101=D net066=Q}}
+{inst XI35=d_flip_flop {TYPE CELL} 
+{pin CLK=Clk net0102=D net068=Q}}
+{inst XI34=d_flip_flop {TYPE CELL} 
+{pin CLK=Clk net057=D net069=Q}}
+{inst XI32=d_flip_flop {TYPE CELL} 
+{pin CLK=Clk X3<3>=D net072=Q}}
+{inst XI29=d_flip_flop {TYPE CELL} 
+{pin CLK=Clk X3<2>=D net25=Q}}
+{inst XI28=d_flip_flop {TYPE CELL} 
+{pin CLK=Clk X3<1>=D net0149=Q}}
+{inst XI25=d_flip_flop {TYPE CELL} 
+{pin CLK=Clk X3<0>=D net32=Q}}
+{inst XI24=d_flip_flop {TYPE CELL} 
+{pin CLK=Clk X2<3>=D net35=Q}}
+{inst XI21=d_flip_flop {TYPE CELL} 
+{pin CLK=Clk X2<2>=D net077=Q}}
+{inst XI20=d_flip_flop {TYPE CELL} 
+{pin CLK=Clk X2<1>=D net0172=Q}}
+{inst XI17=d_flip_flop {TYPE CELL} 
+{pin CLK=Clk X2<0>=D net0155=Q}}
+{inst XI16=d_flip_flop {TYPE CELL} 
+{pin CLK=Clk X1<3>=D net0168=Q}}
+{inst XI13=d_flip_flop {TYPE CELL} 
+{pin CLK=Clk X1<2>=D net082=Q}}
+{inst XI12=d_flip_flop {TYPE CELL} 
+{pin CLK=Clk X1<1>=D net59=Q}}
+{inst XI9=d_flip_flop {TYPE CELL} 
+{pin CLK=Clk X1<0>=D net64=Q}}
+{inst XI8=d_flip_flop {TYPE CELL} 
+{pin CLK=Clk X0<3>=D net0165=Q}}
+{inst XI5=d_flip_flop {TYPE CELL} 
+{pin CLK=Clk X0<2>=D net0161=Q}}
+{inst XI3=d_flip_flop {TYPE CELL} 
+{pin CLK=Clk X0<1>=D net75=Q}}
+{inst XI1=d_flip_flop {TYPE CELL} 
+{pin CLK=Clk X0<0>=D net0174=Q}}
+{inst XI31=and2 {TYPE CELL} 
+{pin net072=A W3=B net0135=F}}
+{inst XI30=and2 {TYPE CELL} 
+{pin net25=A W3=B net060=F}}
+{inst XI27=and2 {TYPE CELL} 
+{pin net0149=A W3=B net070=F}}
+{inst XI26=and2 {TYPE CELL} 
+{pin net32=A W3=B net052=F}}
+{inst XI23=and2 {TYPE CELL} 
+{pin net35=A W2=B net049=F}}
+{inst XI22=and2 {TYPE CELL} 
+{pin net077=A W2=B net38=F}}
+{inst XI19=and2 {TYPE CELL} 
+{pin net0172=A W2=B net45=F}}
+{inst XI18=and2 {TYPE CELL} 
+{pin net0155=A W2=B net46=F}}
+{inst XI15=and2 {TYPE CELL} 
+{pin net0168=A W1=B net0103=F}}
+{inst XI14=and2 {TYPE CELL} 
+{pin net082=A W1=B net050=F}}
+{inst XI11=and2 {TYPE CELL} 
+{pin net59=A W1=B net048=F}}
+{inst XI10=and2 {TYPE CELL} 
+{pin net64=A W1=B net045=F}}
+{inst XI7=and2 {TYPE CELL} 
+{pin net0165=A W0=B net043=F}}
+{inst XI6=and2 {TYPE CELL} 
+{pin net0161=A W0=B net042=F}}
+{inst XI4=and2 {TYPE CELL} 
+{pin net75=A W0=B net046=F}}
+{inst XI2=and2 {TYPE CELL} 
+{pin net0174=A W0=B net095=F}}
+{inst XI47=or3 {TYPE CELL} 
+{pin net080=A net0105=B net079=C net067=F}}
+}
+
+}

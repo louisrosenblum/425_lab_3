@@ -1,0 +1,10 @@
+mergeXinSubPartitions xin numParts 0 actual num parts 1
+Cannot open: ctextOffset_part1_tmp
+#nets crossing cutlines: 0
+  
+PartitionPP   Elp=00:00:01 Cpu=00:00:00 Usr=0.0    Sys=0.0    Mem=181.6 
+  
+Done          Elp=00:00:01 Cpu=00:00:00 Usr=0.0    Sys=0.0    Mem=181.6 
+
+End Time: Wed Apr 27 00:45:46 2022
+

@@ -1,0 +1,33 @@
+-stage_id 1
+-o xout
+-is_xtor_level
+-fs_assisted
+-full_chip_xin xin
+-message_suppression_limit  100
+-i xin
+-tcad_file /afs/asu.edu/users/j/n/e/jneuenda/425_proj_final/425_lab_3/iPDK/starrc/nominal/saed32nm_1p9m_nominal.nxtgrd
+-layer_info layer_info
+-icn 
+-do_cc2g
+-xm 200
+-extraction RC
+-max_tdecm_level  0
+-suppress_file xtract.sup
+-extra_geometry_info node
+-vert_parts
+-cut_thickness 1
+-overlap_dist 4
+-strict_cell_overlap_handling
+-trench_contact_virtual_via_segmentation_ratio 2.0
+-max_virtual_via_segmentation_number 1000000
+-net_segment_cut_length 20
+-stop_extraction_on_numerous_shorts 
+-inter_pic_level_connections
+-fine_dbu
+-num_parts 1
+-density_input xin_density
+-correct_abutting_polygons
+-net_command_file select_nets
+-small_net_delay_threshold 0.25
+-lateral_cap_scaling_mode 2
+-netlist_tail_comment 1

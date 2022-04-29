@@ -1,0 +1,1645 @@
+{NETLIST if_neuron
+{VERSION 2 0 0}
+
+{CELL if_neuron
+    {PORT X3<1> X0<0> X2<3> F X2<1> X1<3> W0 vdd! X1<1> 
+      X0<3> W1 gnd! X3<2> X0<1> W2 CLK X3<0> X2<2> W3 
+      X2<0> X1<2> X1<0> X3<3> X0<2> }
+    {INST XI46/MM10=n105 {TYPE MOS} {PROP n="d_flip_flop/n105" Length=0.03 Width=1.404 Mult=1 }
+	{PIN F=DRN XI46/net13=GATE gnd!=SRC gnd!=BULK }}
+    {INST XI47/MM11=p105 {TYPE MOS} {PROP n="or3/p105" Length=0.03 Width=1.512 Mult=1 }
+	{PIN XI47/net017=DRN net080=GATE vdd!=SRC vdd!=BULK }}
+    {INST XI47/MM7=n105 {TYPE MOS} {PROP n="or3/n105" Length=0.03 Width=0.42 Mult=1 }
+	{PIN net067=DRN XI47/net10=GATE gnd!=SRC gnd!=BULK }}
+    {INST XI44/XI3/MM10=p105 {TYPE MOS} {PROP n="four_bit_adder/one_bit_adder/p105" Length=0.03 Width=0.504 Mult=1 }
+	{PIN net079=DRN XI44/XI3/net15=GATE vdd!=SRC vdd!=BULK }}
+    {INST XI46/MM9=p105 {TYPE MOS} {PROP n="d_flip_flop/p105" Length=0.03 Width=1.674 Mult=1 }
+	{PIN F=DRN XI46/net13=GATE vdd!=SRC vdd!=BULK }}
+    {INST XI47/MM9=n105 {TYPE MOS} {PROP n="or3/n105" Length=0.03 Width=0.14 Mult=1 }
+	{PIN XI47/net10=DRN net079=GATE gnd!=SRC gnd!=BULK }}
+    {INST XI47/MM6=p105 {TYPE MOS} {PROP n="or3/p105" Length=0.03 Width=0.504 Mult=1 }
+	{PIN net067=DRN XI47/net10=GATE vdd!=SRC vdd!=BULK }}
+    {INST XI44/XI3/MM11=n105 {TYPE MOS} {PROP n="four_bit_adder/one_bit_adder/n105" Length=0.03 Width=0.42 Mult=1 }
+	{PIN net079=DRN XI44/XI3/net15=GATE gnd!=SRC gnd!=BULK }}
+    {INST XI46/MM8=n105 {TYPE MOS} {PROP n="d_flip_flop/n105" Length=0.03 Width=0.94 Mult=1 }
+	{PIN XI46/net13=DRN XI46/net12=GATE gnd!=SRC gnd!=BULK }}
+    {INST XI38/MM11=n105 {TYPE MOS} {PROP n="d_flip_flop/n105" Length=0.03 Width=0.42 Mult=1 }
+	{PIN XI38/net12=DRN XI38/net05=GATE net080=SRC gnd!=BULK }}
+    {INST XI44/XI3/MM5=p105 {TYPE MOS} {PROP n="four_bit_adder/one_bit_adder/p105" Length=0.03 Width=0.504 Mult=1 }
+	{PIN XI44/XI3/net15=DRN XI44/net35=GATE XI44/XI3/net11=SRC vdd!=BULK }}
+    {INST XI44/XI3/MM4=p105 {TYPE MOS} {PROP n="four_bit_adder/one_bit_adder/p105" Length=0.03 Width=0.504 Mult=1 }
+	{PIN XI44/XI3/net15=DRN net078=GATE XI44/XI3/net33=SRC vdd!=BULK }}
+    {INST XI46/MM7=p105 {TYPE MOS} {PROP n="d_flip_flop/p105" Length=0.03 Width=1.128 Mult=1 }
+	{PIN XI46/net13=DRN XI46/net12=GATE vdd!=SRC vdd!=BULK }}
+    {INST XI46/MM11=n105 {TYPE MOS} {PROP n="d_flip_flop/n105" Length=0.03 Width=0.42 Mult=1 }
+	{PIN XI46/net12=DRN XI46/net05=GATE F=SRC gnd!=BULK }}
+    {INST XI44/XI3/MM7=n105 {TYPE MOS} {PROP n="four_bit_adder/one_bit_adder/n105" Length=0.03 Width=0.42 Mult=1 }
+	{PIN XI44/XI3/net15=DRN XI44/net35=GATE XI44/XI3/net23=SRC gnd!=BULK }}
+    {INST XI47/MM8=n105 {TYPE MOS} {PROP n="or3/n105" Length=0.03 Width=0.14 Mult=1 }
+	{PIN XI47/net10=DRN net080=GATE gnd!=SRC gnd!=BULK }}
+    {INST XI38/MM10=n105 {TYPE MOS} {PROP n="d_flip_flop/n105" Length=0.03 Width=1.404 Mult=1 }
+	{PIN net080=DRN XI38/net13=GATE gnd!=SRC gnd!=BULK }}
+    {INST XI46/MM3=n105 {TYPE MOS} {PROP n="d_flip_flop/n105" Length=0.03 Width=0.42 Mult=1 }
+	{PIN net067=DRN XI46/net05=GATE XI46/net7=SRC gnd!=BULK }}
+    {INST XI44/XI3/MM15=p105 {TYPE MOS} {PROP n="four_bit_adder/one_bit_adder/p105" Length=0.03 Width=0.784 Mult=1 }
+	{PIN XI44/XI3/net017=DRN XI44/XI3/net15=GATE XI44/XI3/net19=SRC vdd!=BULK }}
+    {INST XI38/MM9=p105 {TYPE MOS} {PROP n="d_flip_flop/p105" Length=0.03 Width=1.674 Mult=1 }
+	{PIN net080=DRN XI38/net13=GATE vdd!=SRC vdd!=BULK }}
+    {INST XI44/XI3/MM16=n105 {TYPE MOS} {PROP n="four_bit_adder/one_bit_adder/n105" Length=0.03 Width=0.654 Mult=1 }
+	{PIN XI44/XI3/net017=DRN XI44/XI3/net15=GATE XI44/XI3/net033=SRC gnd!=BULK }}
+    {INST XI44/XI3/MM1=n105 {TYPE MOS} {PROP n="four_bit_adder/one_bit_adder/n105" Length=0.03 Width=0.42 Mult=1 }
+	{PIN XI44/XI3/net15=DRN net078=GATE XI44/XI3/net32=SRC gnd!=BULK }}
+    {INST XI38/MM3=n105 {TYPE MOS} {PROP n="d_flip_flop/n105" Length=0.03 Width=0.42 Mult=1 }
+	{PIN net058=DRN XI38/net05=GATE XI38/net7=SRC gnd!=BULK }}
+    {INST XI44/XI3/MM18=n105 {TYPE MOS} {PROP n="four_bit_adder/one_bit_adder/n105" Length=0.03 Width=0.218 Mult=1 }
+	{PIN XI44/XI3/net033=DRN net073=GATE gnd!=SRC gnd!=BULK }}
+    {INST XI44/XI3/MM13=p105 {TYPE MOS} {PROP n="four_bit_adder/one_bit_adder/p105" Length=0.03 Width=0.522 Mult=1 }
+	{PIN XI44/XI3/net19=DRN net073=GATE vdd!=SRC vdd!=BULK }}
+    {INST XI46/MM14=p105 {TYPE MOS} {PROP n="d_flip_flop/p105" Length=0.03 Width=0.504 Mult=1 }
+	{PIN XI46/net05=DRN CLK=GATE vdd!=SRC vdd!=BULK }}
+    {INST XI46/MM1=p105 {TYPE MOS} {PROP n="d_flip_flop/p105" Length=0.03 Width=0.504 Mult=1 }
+	{PIN XI46/net8=DRN XI46/net7=GATE vdd!=SRC vdd!=BULK }}
+    {INST XI44/XI3/MM22=p105 {TYPE MOS} {PROP n="four_bit_adder/one_bit_adder/p105" Length=0.03 Width=1.174 Mult=1 }
+	{PIN XI44/XI3/net017=DRN XI44/net35=GATE XI44/XI3/net060=SRC vdd!=BULK }}
+    {INST XI44/XI3/MM3=p105 {TYPE MOS} {PROP n="four_bit_adder/one_bit_adder/p105" Length=0.03 Width=0.504 Mult=1 }
+	{PIN XI44/XI3/net33=DRN net073=GATE vdd!=SRC vdd!=BULK }}
+    {INST XI38/MM15=n105 {TYPE MOS} {PROP n="d_flip_flop/n105" Length=0.03 Width=0.42 Mult=1 }
+	{PIN XI38/net05=DRN CLK=GATE gnd!=SRC gnd!=BULK }}
+    {INST XI44/XI3/MM27=n105 {TYPE MOS} {PROP n="four_bit_adder/one_bit_adder/n105" Length=0.03 Width=1.014 Mult=1 }
+	{PIN net088=DRN XI44/XI3/net017=GATE gnd!=SRC gnd!=BULK }}
+    {INST XI44/XI3/MM6=n105 {TYPE MOS} {PROP n="four_bit_adder/one_bit_adder/n105" Length=0.03 Width=0.42 Mult=1 }
+	{PIN XI44/XI3/net32=DRN net073=GATE gnd!=SRC gnd!=BULK }}
+    {INST XI38/MM7=p105 {TYPE MOS} {PROP n="d_flip_flop/p105" Length=0.03 Width=1.128 Mult=1 }
+	{PIN XI38/net13=DRN XI38/net12=GATE vdd!=SRC vdd!=BULK }}
+    {INST XI37/MM9=p105 {TYPE MOS} {PROP n="d_flip_flop/p105" Length=0.03 Width=1.674 Mult=1 }
+	{PIN net078=DRN XI37/net13=GATE vdd!=SRC vdd!=BULK }}
+    {INST XI44/XI3/MM19=n105 {TYPE MOS} {PROP n="four_bit_adder/one_bit_adder/n105" Length=0.03 Width=0.218 Mult=1 }
+	{PIN XI44/XI3/net033=DRN XI44/net35=GATE gnd!=SRC gnd!=BULK }}
+    {INST XI44/XI3/MM14=p105 {TYPE MOS} {PROP n="four_bit_adder/one_bit_adder/p105" Length=0.03 Width=0.522 Mult=1 }
+	{PIN XI44/XI3/net19=DRN XI44/net35=GATE vdd!=SRC vdd!=BULK }}
+    {INST XI44/XI2/MM11=n105 {TYPE MOS} {PROP n="four_bit_adder/one_bit_adder/n105" Length=0.03 Width=0.42 Mult=1 }
+	{PIN XI44/net35=DRN XI44/XI2/net15=GATE gnd!=SRC gnd!=BULK }}
+    {INST XI44/XI3/MM8=n105 {TYPE MOS} {PROP n="four_bit_adder/one_bit_adder/n105" Length=0.03 Width=0.21 Mult=1 }
+	{PIN XI44/XI3/net23=DRN net078=GATE gnd!=SRC gnd!=BULK }}
+    {INST XI44/XI3/MM0=p105 {TYPE MOS} {PROP n="four_bit_adder/one_bit_adder/p105" Length=0.03 Width=0.252 Mult=1 }
+	{PIN XI44/XI3/net11=DRN net078=GATE vdd!=SRC vdd!=BULK }}
+    {INST XI38/MM6=p105 {TYPE MOS} {PROP n="d_flip_flop/p105" Length=0.03 Width=0.504 Mult=1 }
+	{PIN XI38/net12=DRN XI38/net05=GATE XI38/net11=SRC vdd!=BULK }}
+    {INST XI46/MM5=p105 {TYPE MOS} {PROP n="d_flip_flop/p105" Length=0.03 Width=0.504 Mult=1 }
+	{PIN XI46/net11=DRN XI46/net05=GATE XI46/net7=SRC vdd!=BULK }}
+    {INST XI46/MM15=n105 {TYPE MOS} {PROP n="d_flip_flop/n105" Length=0.03 Width=0.42 Mult=1 }
+	{PIN XI46/net05=DRN CLK=GATE gnd!=SRC gnd!=BULK }}
+    {INST XI46/MM0=n105 {TYPE MOS} {PROP n="d_flip_flop/n105" Length=0.03 Width=0.42 Mult=1 }
+	{PIN XI46/net8=DRN XI46/net7=GATE gnd!=SRC gnd!=BULK }}
+    {INST XI44/XI3/MM24=n105 {TYPE MOS} {PROP n="four_bit_adder/one_bit_adder/n105" Length=0.03 Width=0.978 Mult=1 }
+	{PIN XI44/XI3/net059=DRN net078=GATE XI44/XI3/net058=SRC gnd!=BULK }}
+    {INST XI44/XI3/MM17=n105 {TYPE MOS} {PROP n="four_bit_adder/one_bit_adder/n105" Length=0.03 Width=0.218 Mult=1 }
+	{PIN XI44/XI3/net033=DRN net078=GATE gnd!=SRC gnd!=BULK }}
+    {INST XI44/XI3/MM12=p105 {TYPE MOS} {PROP n="four_bit_adder/one_bit_adder/p105" Length=0.03 Width=0.522 Mult=1 }
+	{PIN XI44/XI3/net19=DRN net078=GATE vdd!=SRC vdd!=BULK }}
+    {INST XI37/MM11=n105 {TYPE MOS} {PROP n="d_flip_flop/n105" Length=0.03 Width=0.42 Mult=1 }
+	{PIN XI37/net12=DRN XI37/net05=GATE net078=SRC gnd!=BULK }}
+    {INST XI44/XI3/MM21=p105 {TYPE MOS} {PROP n="four_bit_adder/one_bit_adder/p105" Length=0.03 Width=1.174 Mult=1 }
+	{PIN XI44/XI3/net060=DRN net078=GATE XI44/XI3/net061=SRC vdd!=BULK }}
+    {INST XI38/MM14=p105 {TYPE MOS} {PROP n="d_flip_flop/p105" Length=0.03 Width=0.504 Mult=1 }
+	{PIN XI38/net05=DRN CLK=GATE vdd!=SRC vdd!=BULK }}
+    {INST XI44/XI3/MM26=p105 {TYPE MOS} {PROP n="four_bit_adder/one_bit_adder/p105" Length=0.03 Width=1.215 Mult=1 }
+	{PIN net088=DRN XI44/XI3/net017=GATE vdd!=SRC vdd!=BULK }}
+    {INST XI44/XI3/MM9=n105 {TYPE MOS} {PROP n="four_bit_adder/one_bit_adder/n105" Length=0.03 Width=0.21 Mult=1 }
+	{PIN XI44/XI3/net23=DRN net073=GATE gnd!=SRC gnd!=BULK }}
+    {INST XI44/XI3/MM2=p105 {TYPE MOS} {PROP n="four_bit_adder/one_bit_adder/p105" Length=0.03 Width=0.252 Mult=1 }
+	{PIN XI44/XI3/net11=DRN net073=GATE vdd!=SRC vdd!=BULK }}
+    {INST XI38/MM8=n105 {TYPE MOS} {PROP n="d_flip_flop/n105" Length=0.03 Width=0.94 Mult=1 }
+	{PIN XI38/net13=DRN XI38/net12=GATE gnd!=SRC gnd!=BULK }}
+    {INST XI37/MM10=n105 {TYPE MOS} {PROP n="d_flip_flop/n105" Length=0.03 Width=1.404 Mult=1 }
+	{PIN net078=DRN XI37/net13=GATE gnd!=SRC gnd!=BULK }}
+    {INST XI38/MM5=p105 {TYPE MOS} {PROP n="d_flip_flop/p105" Length=0.03 Width=0.504 Mult=1 }
+	{PIN XI38/net11=DRN XI38/net05=GATE XI38/net7=SRC vdd!=BULK }}
+    {INST XI46/MM6=p105 {TYPE MOS} {PROP n="d_flip_flop/p105" Length=0.03 Width=0.504 Mult=1 }
+	{PIN XI46/net12=DRN XI46/net05=GATE XI46/net11=SRC vdd!=BULK }}
+    {INST XI44/XI3/MM23=n105 {TYPE MOS} {PROP n="four_bit_adder/one_bit_adder/n105" Length=0.03 Width=0.978 Mult=1 }
+	{PIN XI44/XI3/net017=DRN XI44/net35=GATE XI44/XI3/net059=SRC gnd!=BULK }}
+    {INST XI44/XI2/MM10=p105 {TYPE MOS} {PROP n="four_bit_adder/one_bit_adder/p105" Length=0.03 Width=0.504 Mult=1 }
+	{PIN XI44/net35=DRN XI44/XI2/net15=GATE vdd!=SRC vdd!=BULK }}
+    {INST XI46/MM2=p105 {TYPE MOS} {PROP n="d_flip_flop/p105" Length=0.03 Width=0.754 Mult=1 }
+	{PIN XI46/net11=DRN XI46/net8=GATE vdd!=SRC vdd!=BULK }}
+    {INST XI37/MM3=n105 {TYPE MOS} {PROP n="d_flip_flop/n105" Length=0.03 Width=0.42 Mult=1 }
+	{PIN net098=DRN XI37/net05=GATE XI37/net7=SRC gnd!=BULK }}
+    {INST XI42/MM11=n105 {TYPE MOS} {PROP n="d_flip_flop/n105" Length=0.03 Width=0.42 Mult=1 }
+	{PIN XI42/net12=DRN XI42/net05=GATE net073=SRC gnd!=BULK }}
+    {INST XI37/MM15=n105 {TYPE MOS} {PROP n="d_flip_flop/n105" Length=0.03 Width=0.42 Mult=1 }
+	{PIN XI37/net05=DRN CLK=GATE gnd!=SRC gnd!=BULK }}
+    {INST XI37/MM14=p105 {TYPE MOS} {PROP n="d_flip_flop/p105" Length=0.03 Width=0.504 Mult=1 }
+	{PIN XI37/net05=DRN CLK=GATE vdd!=SRC vdd!=BULK }}
+    {INST XI37/MM8=n105 {TYPE MOS} {PROP n="d_flip_flop/n105" Length=0.03 Width=0.94 Mult=1 }
+	{PIN XI37/net13=DRN XI37/net12=GATE gnd!=SRC gnd!=BULK }}
+    {INST XI0/XI3/MM11=n105 {TYPE MOS} {PROP n="four_bit_adder/one_bit_adder/n105" Length=0.03 Width=0.42 Mult=1 }
+	{PIN net058=DRN XI0/XI3/net15=GATE gnd!=SRC gnd!=BULK }}
+    {INST XI44/XI2/MM1=n105 {TYPE MOS} {PROP n="four_bit_adder/one_bit_adder/n105" Length=0.03 Width=0.42 Mult=1 }
+	{PIN XI44/XI2/net15=DRN net066=GATE XI44/XI2/net32=SRC gnd!=BULK }}
+    {INST XI37/MM7=p105 {TYPE MOS} {PROP n="d_flip_flop/p105" Length=0.03 Width=1.128 Mult=1 }
+	{PIN XI37/net13=DRN XI37/net12=GATE vdd!=SRC vdd!=BULK }}
+    {INST XI37/MM5=p105 {TYPE MOS} {PROP n="d_flip_flop/p105" Length=0.03 Width=0.504 Mult=1 }
+	{PIN XI37/net11=DRN XI37/net05=GATE XI37/net7=SRC vdd!=BULK }}
+    {INST XI0/XI3/MM10=p105 {TYPE MOS} {PROP n="four_bit_adder/one_bit_adder/p105" Length=0.03 Width=0.504 Mult=1 }
+	{PIN net058=DRN XI0/XI3/net15=GATE vdd!=SRC vdd!=BULK }}
+    {INST XI44/XI2/MM7=n105 {TYPE MOS} {PROP n="four_bit_adder/one_bit_adder/n105" Length=0.03 Width=0.42 Mult=1 }
+	{PIN XI44/XI2/net15=DRN XI44/net030=GATE XI44/XI2/net23=SRC gnd!=BULK }}
+    {INST XI44/XI2/MM4=p105 {TYPE MOS} {PROP n="four_bit_adder/one_bit_adder/p105" Length=0.03 Width=0.504 Mult=1 }
+	{PIN XI44/XI2/net15=DRN net066=GATE XI44/XI2/net33=SRC vdd!=BULK }}
+    {INST XI44/XI2/MM16=n105 {TYPE MOS} {PROP n="four_bit_adder/one_bit_adder/n105" Length=0.03 Width=0.654 Mult=1 }
+	{PIN XI44/XI2/net017=DRN XI44/XI2/net15=GATE XI44/XI2/net033=SRC gnd!=BULK }}
+    {INST XI44/XI2/MM15=p105 {TYPE MOS} {PROP n="four_bit_adder/one_bit_adder/p105" Length=0.03 Width=0.784 Mult=1 }
+	{PIN XI44/XI2/net017=DRN XI44/XI2/net15=GATE XI44/XI2/net19=SRC vdd!=BULK }}
+    {INST XI38/MM0=n105 {TYPE MOS} {PROP n="d_flip_flop/n105" Length=0.03 Width=0.42 Mult=1 }
+	{PIN XI38/net8=DRN XI38/net7=GATE gnd!=SRC gnd!=BULK }}
+    {INST XI38/MM4=n105 {TYPE MOS} {PROP n="d_flip_flop/n105" Length=0.03 Width=0.628 Mult=1 }
+	{PIN XI38/net11=DRN XI38/net8=GATE gnd!=SRC gnd!=BULK }}
+    {INST XI42/MM10=n105 {TYPE MOS} {PROP n="d_flip_flop/n105" Length=0.03 Width=1.404 Mult=1 }
+	{PIN net073=DRN XI42/net13=GATE gnd!=SRC gnd!=BULK }}
+    {INST XI37/MM6=p105 {TYPE MOS} {PROP n="d_flip_flop/p105" Length=0.03 Width=0.504 Mult=1 }
+	{PIN XI37/net12=DRN XI37/net05=GATE XI37/net11=SRC vdd!=BULK }}
+    {INST XI44/XI3/MM20=p105 {TYPE MOS} {PROP n="four_bit_adder/one_bit_adder/p105" Length=0.03 Width=1.174 Mult=1 }
+	{PIN XI44/XI3/net061=DRN net073=GATE vdd!=SRC vdd!=BULK }}
+    {INST XI38/MM1=p105 {TYPE MOS} {PROP n="d_flip_flop/p105" Length=0.03 Width=0.504 Mult=1 }
+	{PIN XI38/net8=DRN XI38/net7=GATE vdd!=SRC vdd!=BULK }}
+    {INST XI38/MM2=p105 {TYPE MOS} {PROP n="d_flip_flop/p105" Length=0.03 Width=0.754 Mult=1 }
+	{PIN XI38/net11=DRN XI38/net8=GATE vdd!=SRC vdd!=BULK }}
+    {INST XI46/MM4=n105 {TYPE MOS} {PROP n="d_flip_flop/n105" Length=0.03 Width=0.628 Mult=1 }
+	{PIN XI46/net11=DRN XI46/net8=GATE gnd!=SRC gnd!=BULK }}
+    {INST XI42/MM9=p105 {TYPE MOS} {PROP n="d_flip_flop/p105" Length=0.03 Width=1.674 Mult=1 }
+	{PIN net073=DRN XI42/net13=GATE vdd!=SRC vdd!=BULK }}
+    {INST XI44/XI2/MM5=p105 {TYPE MOS} {PROP n="four_bit_adder/one_bit_adder/p105" Length=0.03 Width=0.504 Mult=1 }
+	{PIN XI44/XI2/net15=DRN XI44/net030=GATE XI44/XI2/net11=SRC vdd!=BULK }}
+    {INST XI44/XI3/MM25=n105 {TYPE MOS} {PROP n="four_bit_adder/one_bit_adder/n105" Length=0.03 Width=0.978 Mult=1 }
+	{PIN XI44/XI3/net058=DRN net073=GATE gnd!=SRC gnd!=BULK }}
+    {INST XI37/MM1=p105 {TYPE MOS} {PROP n="d_flip_flop/p105" Length=0.03 Width=0.504 Mult=1 }
+	{PIN XI37/net8=DRN XI37/net7=GATE vdd!=SRC vdd!=BULK }}
+    {INST XI37/MM0=n105 {TYPE MOS} {PROP n="d_flip_flop/n105" Length=0.03 Width=0.42 Mult=1 }
+	{PIN XI37/net8=DRN XI37/net7=GATE gnd!=SRC gnd!=BULK }}
+    {INST XI42/MM5=p105 {TYPE MOS} {PROP n="d_flip_flop/p105" Length=0.03 Width=0.504 Mult=1 }
+	{PIN XI42/net11=DRN XI42/net05=GATE XI42/net7=SRC vdd!=BULK }}
+    {INST XI44/XI2/MM17=n105 {TYPE MOS} {PROP n="four_bit_adder/one_bit_adder/n105" Length=0.03 Width=0.218 Mult=1 }
+	{PIN XI44/XI2/net033=DRN net066=GATE gnd!=SRC gnd!=BULK }}
+    {INST XI44/XI2/MM21=p105 {TYPE MOS} {PROP n="four_bit_adder/one_bit_adder/p105" Length=0.03 Width=1.174 Mult=1 }
+	{PIN XI44/XI2/net060=DRN net066=GATE XI44/XI2/net061=SRC vdd!=BULK }}
+    {INST XI44/XI2/MM2=p105 {TYPE MOS} {PROP n="four_bit_adder/one_bit_adder/p105" Length=0.03 Width=0.252 Mult=1 }
+	{PIN XI44/XI2/net11=DRN net0163=GATE vdd!=SRC vdd!=BULK }}
+    {INST XI0/XI3/MM7=n105 {TYPE MOS} {PROP n="four_bit_adder/one_bit_adder/n105" Length=0.03 Width=0.42 Mult=1 }
+	{PIN XI0/XI3/net15=DRN XI0/net35=GATE XI0/XI3/net23=SRC gnd!=BULK }}
+    {INST XI44/XI2/MM3=p105 {TYPE MOS} {PROP n="four_bit_adder/one_bit_adder/p105" Length=0.03 Width=0.504 Mult=1 }
+	{PIN XI44/XI2/net33=DRN net0163=GATE vdd!=SRC vdd!=BULK }}
+    {INST XI0/XI3/MM5=p105 {TYPE MOS} {PROP n="four_bit_adder/one_bit_adder/p105" Length=0.03 Width=0.504 Mult=1 }
+	{PIN XI0/XI3/net15=DRN XI0/net35=GATE XI0/XI3/net11=SRC vdd!=BULK }}
+    {INST XI44/XI2/MM24=n105 {TYPE MOS} {PROP n="four_bit_adder/one_bit_adder/n105" Length=0.03 Width=0.978 Mult=1 }
+	{PIN XI44/XI2/net059=DRN net066=GATE XI44/XI2/net058=SRC gnd!=BULK }}
+    {INST XI0/XI3/MM1=n105 {TYPE MOS} {PROP n="four_bit_adder/one_bit_adder/n105" Length=0.03 Width=0.42 Mult=1 }
+	{PIN XI0/XI3/net15=DRN net043=GATE XI0/XI3/net32=SRC gnd!=BULK }}
+    {INST XI42/MM7=p105 {TYPE MOS} {PROP n="d_flip_flop/p105" Length=0.03 Width=1.128 Mult=1 }
+	{PIN XI42/net13=DRN XI42/net12=GATE vdd!=SRC vdd!=BULK }}
+    {INST XI42/MM8=n105 {TYPE MOS} {PROP n="d_flip_flop/n105" Length=0.03 Width=0.94 Mult=1 }
+	{PIN XI42/net13=DRN XI42/net12=GATE gnd!=SRC gnd!=BULK }}
+    {INST XI42/MM6=p105 {TYPE MOS} {PROP n="d_flip_flop/p105" Length=0.03 Width=0.504 Mult=1 }
+	{PIN XI42/net12=DRN XI42/net05=GATE XI42/net11=SRC vdd!=BULK }}
+    {INST XI44/XI2/MM23=n105 {TYPE MOS} {PROP n="four_bit_adder/one_bit_adder/n105" Length=0.03 Width=0.978 Mult=1 }
+	{PIN XI44/XI2/net017=DRN XI44/net030=GATE XI44/XI2/net059=SRC gnd!=BULK }}
+    {INST XI0/XI3/MM16=n105 {TYPE MOS} {PROP n="four_bit_adder/one_bit_adder/n105" Length=0.03 Width=0.654 Mult=1 }
+	{PIN XI0/XI3/net017=DRN XI0/XI3/net15=GATE XI0/XI3/net033=SRC gnd!=BULK }}
+    {INST XI44/XI2/MM18=n105 {TYPE MOS} {PROP n="four_bit_adder/one_bit_adder/n105" Length=0.03 Width=0.218 Mult=1 }
+	{PIN XI44/XI2/net033=DRN net0163=GATE gnd!=SRC gnd!=BULK }}
+    {INST XI42/MM14=p105 {TYPE MOS} {PROP n="d_flip_flop/p105" Length=0.03 Width=0.504 Mult=1 }
+	{PIN XI42/net05=DRN CLK=GATE vdd!=SRC vdd!=BULK }}
+    {INST XI42/MM15=n105 {TYPE MOS} {PROP n="d_flip_flop/n105" Length=0.03 Width=0.42 Mult=1 }
+	{PIN XI42/net05=DRN CLK=GATE gnd!=SRC gnd!=BULK }}
+    {INST XI44/XI2/MM26=p105 {TYPE MOS} {PROP n="four_bit_adder/one_bit_adder/p105" Length=0.03 Width=1.215 Mult=1 }
+	{PIN net087=DRN XI44/XI2/net017=GATE vdd!=SRC vdd!=BULK }}
+    {INST XI44/XI2/MM27=n105 {TYPE MOS} {PROP n="four_bit_adder/one_bit_adder/n105" Length=0.03 Width=1.014 Mult=1 }
+	{PIN net087=DRN XI44/XI2/net017=GATE gnd!=SRC gnd!=BULK }}
+    {INST XI44/XI2/MM14=p105 {TYPE MOS} {PROP n="four_bit_adder/one_bit_adder/p105" Length=0.03 Width=0.522 Mult=1 }
+	{PIN XI44/XI2/net19=DRN XI44/net030=GATE vdd!=SRC vdd!=BULK }}
+    {INST XI44/XI2/MM8=n105 {TYPE MOS} {PROP n="four_bit_adder/one_bit_adder/n105" Length=0.03 Width=0.21 Mult=1 }
+	{PIN XI44/XI2/net23=DRN net066=GATE gnd!=SRC gnd!=BULK }}
+    {INST XI0/XI3/MM26=p105 {TYPE MOS} {PROP n="four_bit_adder/one_bit_adder/p105" Length=0.03 Width=1.215 Mult=1 }
+	{PIN net098=DRN XI0/XI3/net017=GATE vdd!=SRC vdd!=BULK }}
+    {INST XI0/XI3/MM27=n105 {TYPE MOS} {PROP n="four_bit_adder/one_bit_adder/n105" Length=0.03 Width=1.014 Mult=1 }
+	{PIN net098=DRN XI0/XI3/net017=GATE gnd!=SRC gnd!=BULK }}
+    {INST XI44/XI2/MM6=n105 {TYPE MOS} {PROP n="four_bit_adder/one_bit_adder/n105" Length=0.03 Width=0.42 Mult=1 }
+	{PIN XI44/XI2/net32=DRN net0163=GATE gnd!=SRC gnd!=BULK }}
+    {INST XI44/XI2/MM12=p105 {TYPE MOS} {PROP n="four_bit_adder/one_bit_adder/p105" Length=0.03 Width=0.522 Mult=1 }
+	{PIN XI44/XI2/net19=DRN net066=GATE vdd!=SRC vdd!=BULK }}
+    {INST XI37/MM2=p105 {TYPE MOS} {PROP n="d_flip_flop/p105" Length=0.03 Width=0.754 Mult=1 }
+	{PIN XI37/net11=DRN XI37/net8=GATE vdd!=SRC vdd!=BULK }}
+    {INST XI37/MM4=n105 {TYPE MOS} {PROP n="d_flip_flop/n105" Length=0.03 Width=0.628 Mult=1 }
+	{PIN XI37/net11=DRN XI37/net8=GATE gnd!=SRC gnd!=BULK }}
+    {INST XI36/MM11=n105 {TYPE MOS} {PROP n="d_flip_flop/n105" Length=0.03 Width=0.42 Mult=1 }
+	{PIN XI36/net12=DRN XI36/net05=GATE net066=SRC gnd!=BULK }}
+    {INST XI42/MM3=n105 {TYPE MOS} {PROP n="d_flip_flop/n105" Length=0.03 Width=0.42 Mult=1 }
+	{PIN net065=DRN XI42/net05=GATE XI42/net7=SRC gnd!=BULK }}
+    {INST XI0/XI3/MM15=p105 {TYPE MOS} {PROP n="four_bit_adder/one_bit_adder/p105" Length=0.03 Width=0.784 Mult=1 }
+	{PIN XI0/XI3/net017=DRN XI0/XI3/net15=GATE XI0/XI3/net19=SRC vdd!=BULK }}
+    {INST XI44/XI2/MM0=p105 {TYPE MOS} {PROP n="four_bit_adder/one_bit_adder/p105" Length=0.03 Width=0.252 Mult=1 }
+	{PIN XI44/XI2/net11=DRN net066=GATE vdd!=SRC vdd!=BULK }}
+    {INST XI44/XI1/MM10=p105 {TYPE MOS} {PROP n="four_bit_adder/one_bit_adder/p105" Length=0.03 Width=0.504 Mult=1 }
+	{PIN XI44/net030=DRN XI44/XI1/net15=GATE vdd!=SRC vdd!=BULK }}
+    {INST XI44/XI1/MM11=n105 {TYPE MOS} {PROP n="four_bit_adder/one_bit_adder/n105" Length=0.03 Width=0.42 Mult=1 }
+	{PIN XI44/net030=DRN XI44/XI1/net15=GATE gnd!=SRC gnd!=BULK }}
+    {INST XI44/XI2/MM9=n105 {TYPE MOS} {PROP n="four_bit_adder/one_bit_adder/n105" Length=0.03 Width=0.21 Mult=1 }
+	{PIN XI44/XI2/net23=DRN net0163=GATE gnd!=SRC gnd!=BULK }}
+    {INST XI0/XI3/MM4=p105 {TYPE MOS} {PROP n="four_bit_adder/one_bit_adder/p105" Length=0.03 Width=0.504 Mult=1 }
+	{PIN XI0/XI3/net15=DRN net043=GATE XI0/XI3/net33=SRC vdd!=BULK }}
+    {INST XI36/MM9=p105 {TYPE MOS} {PROP n="d_flip_flop/p105" Length=0.03 Width=1.674 Mult=1 }
+	{PIN net066=DRN XI36/net13=GATE vdd!=SRC vdd!=BULK }}
+    {INST XI36/MM10=n105 {TYPE MOS} {PROP n="d_flip_flop/n105" Length=0.03 Width=1.404 Mult=1 }
+	{PIN net066=DRN XI36/net13=GATE gnd!=SRC gnd!=BULK }}
+    {INST XI44/XI2/MM19=n105 {TYPE MOS} {PROP n="four_bit_adder/one_bit_adder/n105" Length=0.03 Width=0.218 Mult=1 }
+	{PIN XI44/XI2/net033=DRN XI44/net030=GATE gnd!=SRC gnd!=BULK }}
+    {INST XI44/XI2/MM22=p105 {TYPE MOS} {PROP n="four_bit_adder/one_bit_adder/p105" Length=0.03 Width=1.174 Mult=1 }
+	{PIN XI44/XI2/net017=DRN XI44/net030=GATE XI44/XI2/net060=SRC vdd!=BULK }}
+    {INST XI44/XI2/MM13=p105 {TYPE MOS} {PROP n="four_bit_adder/one_bit_adder/p105" Length=0.03 Width=0.522 Mult=1 }
+	{PIN XI44/XI2/net19=DRN net0163=GATE vdd!=SRC vdd!=BULK }}
+    {INST XI42/MM0=n105 {TYPE MOS} {PROP n="d_flip_flop/n105" Length=0.03 Width=0.42 Mult=1 }
+	{PIN XI42/net8=DRN XI42/net7=GATE gnd!=SRC gnd!=BULK }}
+    {INST XI42/MM2=p105 {TYPE MOS} {PROP n="d_flip_flop/p105" Length=0.03 Width=0.754 Mult=1 }
+	{PIN XI42/net11=DRN XI42/net8=GATE vdd!=SRC vdd!=BULK }}
+    {INST XI33/XI3/MM26=p105 {TYPE MOS} {PROP n="four_bit_adder/one_bit_adder/p105" Length=0.03 Width=1.215 Mult=1 }
+	{PIN net065=DRN XI33/XI3/net017=GATE vdd!=SRC vdd!=BULK }}
+    {INST XI0/XI3/MM12=p105 {TYPE MOS} {PROP n="four_bit_adder/one_bit_adder/p105" Length=0.03 Width=0.522 Mult=1 }
+	{PIN XI0/XI3/net19=DRN net043=GATE vdd!=SRC vdd!=BULK }}
+    {INST XI44/XI1/MM4=p105 {TYPE MOS} {PROP n="four_bit_adder/one_bit_adder/p105" Length=0.03 Width=0.504 Mult=1 }
+	{PIN XI44/XI1/net15=DRN net068=GATE XI44/XI1/net33=SRC vdd!=BULK }}
+    {INST XI42/MM1=p105 {TYPE MOS} {PROP n="d_flip_flop/p105" Length=0.03 Width=0.504 Mult=1 }
+	{PIN XI42/net8=DRN XI42/net7=GATE vdd!=SRC vdd!=BULK }}
+    {INST XI0/XI3/MM9=n105 {TYPE MOS} {PROP n="four_bit_adder/one_bit_adder/n105" Length=0.03 Width=0.21 Mult=1 }
+	{PIN XI0/XI3/net23=DRN net0103=GATE gnd!=SRC gnd!=BULK }}
+    {INST XI0/XI3/MM21=p105 {TYPE MOS} {PROP n="four_bit_adder/one_bit_adder/p105" Length=0.03 Width=1.174 Mult=1 }
+	{PIN XI0/XI3/net060=DRN net043=GATE XI0/XI3/net061=SRC vdd!=BULK }}
+    {INST XI44/XI1/MM15=p105 {TYPE MOS} {PROP n="four_bit_adder/one_bit_adder/p105" Length=0.03 Width=0.784 Mult=1 }
+	{PIN XI44/XI1/net017=DRN XI44/XI1/net15=GATE XI44/XI1/net19=SRC vdd!=BULK }}
+    {INST XI0/XI3/MM2=p105 {TYPE MOS} {PROP n="four_bit_adder/one_bit_adder/p105" Length=0.03 Width=0.252 Mult=1 }
+	{PIN XI0/XI3/net11=DRN net0103=GATE vdd!=SRC vdd!=BULK }}
+    {INST XI0/XI3/MM24=n105 {TYPE MOS} {PROP n="four_bit_adder/one_bit_adder/n105" Length=0.03 Width=0.978 Mult=1 }
+	{PIN XI0/XI3/net059=DRN net043=GATE XI0/XI3/net058=SRC gnd!=BULK }}
+    {INST XI44/XI2/MM20=p105 {TYPE MOS} {PROP n="four_bit_adder/one_bit_adder/p105" Length=0.03 Width=1.174 Mult=1 }
+	{PIN XI44/XI2/net061=DRN net0163=GATE vdd!=SRC vdd!=BULK }}
+    {INST XI36/MM8=n105 {TYPE MOS} {PROP n="d_flip_flop/n105" Length=0.03 Width=0.94 Mult=1 }
+	{PIN XI36/net13=DRN XI36/net12=GATE gnd!=SRC gnd!=BULK }}
+    {INST XI0/XI3/MM19=n105 {TYPE MOS} {PROP n="four_bit_adder/one_bit_adder/n105" Length=0.03 Width=0.218 Mult=1 }
+	{PIN XI0/XI3/net033=DRN XI0/net35=GATE gnd!=SRC gnd!=BULK }}
+    {INST XI44/XI1/MM16=n105 {TYPE MOS} {PROP n="four_bit_adder/one_bit_adder/n105" Length=0.03 Width=0.654 Mult=1 }
+	{PIN XI44/XI1/net017=DRN XI44/XI1/net15=GATE XI44/XI1/net033=SRC gnd!=BULK }}
+    {INST XI0/XI3/MM18=n105 {TYPE MOS} {PROP n="four_bit_adder/one_bit_adder/n105" Length=0.03 Width=0.218 Mult=1 }
+	{PIN XI0/XI3/net033=DRN net0103=GATE gnd!=SRC gnd!=BULK }}
+    {INST XI44/XI2/MM25=n105 {TYPE MOS} {PROP n="four_bit_adder/one_bit_adder/n105" Length=0.03 Width=0.978 Mult=1 }
+	{PIN XI44/XI2/net058=DRN net0163=GATE gnd!=SRC gnd!=BULK }}
+    {INST XI36/MM7=p105 {TYPE MOS} {PROP n="d_flip_flop/p105" Length=0.03 Width=1.128 Mult=1 }
+	{PIN XI36/net13=DRN XI36/net12=GATE vdd!=SRC vdd!=BULK }}
+    {INST XI44/XI1/MM5=p105 {TYPE MOS} {PROP n="four_bit_adder/one_bit_adder/p105" Length=0.03 Width=0.504 Mult=1 }
+	{PIN XI44/XI1/net15=DRN XI44/net033=GATE XI44/XI1/net11=SRC vdd!=BULK }}
+    {INST XI41/MM11=n105 {TYPE MOS} {PROP n="d_flip_flop/n105" Length=0.03 Width=0.42 Mult=1 }
+	{PIN XI41/net12=DRN XI41/net05=GATE net0163=SRC gnd!=BULK }}
+    {INST XI0/XI3/MM8=n105 {TYPE MOS} {PROP n="four_bit_adder/one_bit_adder/n105" Length=0.03 Width=0.21 Mult=1 }
+	{PIN XI0/XI3/net23=DRN net043=GATE gnd!=SRC gnd!=BULK }}
+    {INST XI36/MM3=n105 {TYPE MOS} {PROP n="d_flip_flop/n105" Length=0.03 Width=0.42 Mult=1 }
+	{PIN net0101=DRN XI36/net05=GATE XI36/net7=SRC gnd!=BULK }}
+    {INST XI0/XI3/MM23=n105 {TYPE MOS} {PROP n="four_bit_adder/one_bit_adder/n105" Length=0.03 Width=0.978 Mult=1 }
+	{PIN XI0/XI3/net017=DRN XI0/net35=GATE XI0/XI3/net059=SRC gnd!=BULK }}
+    {INST XI0/XI2/MM11=n105 {TYPE MOS} {PROP n="four_bit_adder/one_bit_adder/n105" Length=0.03 Width=0.42 Mult=1 }
+	{PIN XI0/net35=DRN XI0/XI2/net15=GATE gnd!=SRC gnd!=BULK }}
+    {INST XI0/XI3/MM0=p105 {TYPE MOS} {PROP n="four_bit_adder/one_bit_adder/p105" Length=0.03 Width=0.252 Mult=1 }
+	{PIN XI0/XI3/net11=DRN net043=GATE vdd!=SRC vdd!=BULK }}
+    {INST XI41/MM10=n105 {TYPE MOS} {PROP n="d_flip_flop/n105" Length=0.03 Width=1.404 Mult=1 }
+	{PIN net0163=DRN XI41/net13=GATE gnd!=SRC gnd!=BULK }}
+    {INST XI0/XI2/MM10=p105 {TYPE MOS} {PROP n="four_bit_adder/one_bit_adder/p105" Length=0.03 Width=0.504 Mult=1 }
+	{PIN XI0/net35=DRN XI0/XI2/net15=GATE vdd!=SRC vdd!=BULK }}
+    {INST XI0/XI3/MM6=n105 {TYPE MOS} {PROP n="four_bit_adder/one_bit_adder/n105" Length=0.03 Width=0.42 Mult=1 }
+	{PIN XI0/XI3/net32=DRN net0103=GATE gnd!=SRC gnd!=BULK }}
+    {INST XI0/XI3/MM3=p105 {TYPE MOS} {PROP n="four_bit_adder/one_bit_adder/p105" Length=0.03 Width=0.504 Mult=1 }
+	{PIN XI0/XI3/net33=DRN net0103=GATE vdd!=SRC vdd!=BULK }}
+    {INST XI0/XI3/MM17=n105 {TYPE MOS} {PROP n="four_bit_adder/one_bit_adder/n105" Length=0.03 Width=0.218 Mult=1 }
+	{PIN XI0/XI3/net033=DRN net043=GATE gnd!=SRC gnd!=BULK }}
+    {INST XI44/XI1/MM1=n105 {TYPE MOS} {PROP n="four_bit_adder/one_bit_adder/n105" Length=0.03 Width=0.42 Mult=1 }
+	{PIN XI44/XI1/net15=DRN net068=GATE XI44/XI1/net32=SRC gnd!=BULK }}
+    {INST XI36/MM15=n105 {TYPE MOS} {PROP n="d_flip_flop/n105" Length=0.03 Width=0.42 Mult=1 }
+	{PIN XI36/net05=DRN CLK=GATE gnd!=SRC gnd!=BULK }}
+    {INST XI41/MM9=p105 {TYPE MOS} {PROP n="d_flip_flop/p105" Length=0.03 Width=1.674 Mult=1 }
+	{PIN net0163=DRN XI41/net13=GATE vdd!=SRC vdd!=BULK }}
+    {INST XI36/MM6=p105 {TYPE MOS} {PROP n="d_flip_flop/p105" Length=0.03 Width=0.504 Mult=1 }
+	{PIN XI36/net12=DRN XI36/net05=GATE XI36/net11=SRC vdd!=BULK }}
+    {INST XI0/XI3/MM14=p105 {TYPE MOS} {PROP n="four_bit_adder/one_bit_adder/p105" Length=0.03 Width=0.522 Mult=1 }
+	{PIN XI0/XI3/net19=DRN XI0/net35=GATE vdd!=SRC vdd!=BULK }}
+    {INST XI0/XI3/MM13=p105 {TYPE MOS} {PROP n="four_bit_adder/one_bit_adder/p105" Length=0.03 Width=0.522 Mult=1 }
+	{PIN XI0/XI3/net19=DRN net0103=GATE vdd!=SRC vdd!=BULK }}
+    {INST XI36/MM14=p105 {TYPE MOS} {PROP n="d_flip_flop/p105" Length=0.03 Width=0.504 Mult=1 }
+	{PIN XI36/net05=DRN CLK=GATE vdd!=SRC vdd!=BULK }}
+    {INST XI7/MM5=n105 {TYPE MOS} {PROP n="and2/n105" Length=0.03 Width=0.42 Mult=1 }
+	{PIN net043=DRN XI7/net7=GATE gnd!=SRC gnd!=BULK }}
+    {INST XI36/MM5=p105 {TYPE MOS} {PROP n="d_flip_flop/p105" Length=0.03 Width=0.504 Mult=1 }
+	{PIN XI36/net11=DRN XI36/net05=GATE XI36/net7=SRC vdd!=BULK }}
+    {INST XI44/XI1/MM7=n105 {TYPE MOS} {PROP n="four_bit_adder/one_bit_adder/n105" Length=0.03 Width=0.42 Mult=1 }
+	{PIN XI44/XI1/net15=DRN XI44/net033=GATE XI44/XI1/net23=SRC gnd!=BULK }}
+    {INST XI7/MM4=p105 {TYPE MOS} {PROP n="and2/p105" Length=0.03 Width=0.504 Mult=1 }
+	{PIN net043=DRN XI7/net7=GATE vdd!=SRC vdd!=BULK }}
+    {INST XI42/MM4=n105 {TYPE MOS} {PROP n="d_flip_flop/n105" Length=0.03 Width=0.628 Mult=1 }
+	{PIN XI42/net11=DRN XI42/net8=GATE gnd!=SRC gnd!=BULK }}
+    {INST XI33/XI3/MM27=n105 {TYPE MOS} {PROP n="four_bit_adder/one_bit_adder/n105" Length=0.03 Width=1.014 Mult=1 }
+	{PIN net065=DRN XI33/XI3/net017=GATE gnd!=SRC gnd!=BULK }}
+    {INST XI0/XI3/MM22=p105 {TYPE MOS} {PROP n="four_bit_adder/one_bit_adder/p105" Length=0.03 Width=1.174 Mult=1 }
+	{PIN XI0/XI3/net017=DRN XI0/net35=GATE XI0/XI3/net060=SRC vdd!=BULK }}
+    {INST XI7/MM9=p105 {TYPE MOS} {PROP n="and2/p105" Length=0.03 Width=0.252 Mult=1 }
+	{PIN XI7/net7=DRN W0=GATE vdd!=SRC vdd!=BULK }}
+    {INST XI44/XI1/MM2=p105 {TYPE MOS} {PROP n="four_bit_adder/one_bit_adder/p105" Length=0.03 Width=0.252 Mult=1 }
+	{PIN XI44/XI1/net11=DRN net0158=GATE vdd!=SRC vdd!=BULK }}
+    {INST XI44/XI1/MM17=n105 {TYPE MOS} {PROP n="four_bit_adder/one_bit_adder/n105" Length=0.03 Width=0.218 Mult=1 }
+	{PIN XI44/XI1/net033=DRN net068=GATE gnd!=SRC gnd!=BULK }}
+    {INST XI41/MM8=n105 {TYPE MOS} {PROP n="d_flip_flop/n105" Length=0.03 Width=0.94 Mult=1 }
+	{PIN XI41/net13=DRN XI41/net12=GATE gnd!=SRC gnd!=BULK }}
+    {INST XI44/XI1/MM9=n105 {TYPE MOS} {PROP n="four_bit_adder/one_bit_adder/n105" Length=0.03 Width=0.21 Mult=1 }
+	{PIN XI44/XI1/net23=DRN net0158=GATE gnd!=SRC gnd!=BULK }}
+    {INST XI41/MM7=p105 {TYPE MOS} {PROP n="d_flip_flop/p105" Length=0.03 Width=1.128 Mult=1 }
+	{PIN XI41/net13=DRN XI41/net12=GATE vdd!=SRC vdd!=BULK }}
+    {INST XI0/XI3/MM25=n105 {TYPE MOS} {PROP n="four_bit_adder/one_bit_adder/n105" Length=0.03 Width=0.978 Mult=1 }
+	{PIN XI0/XI3/net058=DRN net0103=GATE gnd!=SRC gnd!=BULK }}
+    {INST XI41/MM15=n105 {TYPE MOS} {PROP n="d_flip_flop/n105" Length=0.03 Width=0.42 Mult=1 }
+	{PIN XI41/net05=DRN CLK=GATE gnd!=SRC gnd!=BULK }}
+    {INST XI33/XI3/MM15=p105 {TYPE MOS} {PROP n="four_bit_adder/one_bit_adder/p105" Length=0.03 Width=0.784 Mult=1 }
+	{PIN XI33/XI3/net017=DRN XI33/XI3/net15=GATE XI33/XI3/net19=SRC vdd!=BULK }}
+    {INST XI44/XI1/MM21=p105 {TYPE MOS} {PROP n="four_bit_adder/one_bit_adder/p105" Length=0.03 Width=1.174 Mult=1 }
+	{PIN XI44/XI1/net060=DRN net068=GATE XI44/XI1/net061=SRC vdd!=BULK }}
+    {INST XI0/XI2/MM1=n105 {TYPE MOS} {PROP n="four_bit_adder/one_bit_adder/n105" Length=0.03 Width=0.42 Mult=1 }
+	{PIN XI0/XI2/net15=DRN net042=GATE XI0/XI2/net32=SRC gnd!=BULK }}
+    {INST XI41/MM14=p105 {TYPE MOS} {PROP n="d_flip_flop/p105" Length=0.03 Width=0.504 Mult=1 }
+	{PIN XI41/net05=DRN CLK=GATE vdd!=SRC vdd!=BULK }}
+    {INST XI0/XI2/MM15=p105 {TYPE MOS} {PROP n="four_bit_adder/one_bit_adder/p105" Length=0.03 Width=0.784 Mult=1 }
+	{PIN XI0/XI2/net017=DRN XI0/XI2/net15=GATE XI0/XI2/net19=SRC vdd!=BULK }}
+    {INST XI44/XI1/MM3=p105 {TYPE MOS} {PROP n="four_bit_adder/one_bit_adder/p105" Length=0.03 Width=0.504 Mult=1 }
+	{PIN XI44/XI1/net33=DRN net0158=GATE vdd!=SRC vdd!=BULK }}
+    {INST XI44/XI1/MM18=n105 {TYPE MOS} {PROP n="four_bit_adder/one_bit_adder/n105" Length=0.03 Width=0.218 Mult=1 }
+	{PIN XI44/XI1/net033=DRN net0158=GATE gnd!=SRC gnd!=BULK }}
+    {INST XI44/XI1/MM24=n105 {TYPE MOS} {PROP n="four_bit_adder/one_bit_adder/n105" Length=0.03 Width=0.978 Mult=1 }
+	{PIN XI44/XI1/net059=DRN net068=GATE XI44/XI1/net058=SRC gnd!=BULK }}
+    {INST XI0/XI2/MM4=p105 {TYPE MOS} {PROP n="four_bit_adder/one_bit_adder/p105" Length=0.03 Width=0.504 Mult=1 }
+	{PIN XI0/XI2/net15=DRN net042=GATE XI0/XI2/net33=SRC vdd!=BULK }}
+    {INST XI7/MM8=p105 {TYPE MOS} {PROP n="and2/p105" Length=0.03 Width=0.252 Mult=1 }
+	{PIN XI7/net7=DRN net0165=GATE vdd!=SRC vdd!=BULK }}
+    {INST XI0/XI2/MM27=n105 {TYPE MOS} {PROP n="four_bit_adder/one_bit_adder/n105" Length=0.03 Width=1.014 Mult=1 }
+	{PIN net0101=DRN XI0/XI2/net017=GATE gnd!=SRC gnd!=BULK }}
+    {INST XI44/XI1/MM14=p105 {TYPE MOS} {PROP n="four_bit_adder/one_bit_adder/p105" Length=0.03 Width=0.522 Mult=1 }
+	{PIN XI44/XI1/net19=DRN XI44/net033=GATE vdd!=SRC vdd!=BULK }}
+    {INST XI0/XI3/MM20=p105 {TYPE MOS} {PROP n="four_bit_adder/one_bit_adder/p105" Length=0.03 Width=1.174 Mult=1 }
+	{PIN XI0/XI3/net061=DRN net0103=GATE vdd!=SRC vdd!=BULK }}
+    {INST XI0/XI2/MM26=p105 {TYPE MOS} {PROP n="four_bit_adder/one_bit_adder/p105" Length=0.03 Width=1.215 Mult=1 }
+	{PIN net0101=DRN XI0/XI2/net017=GATE vdd!=SRC vdd!=BULK }}
+    {INST XI7/MM6=n105 {TYPE MOS} {PROP n="and2/n105" Length=0.03 Width=0.84 Mult=1 }
+	{PIN XI7/net7=DRN net0165=GATE XI7/net013=SRC gnd!=BULK }}
+    {INST XI15/MM5=n105 {TYPE MOS} {PROP n="and2/n105" Length=0.03 Width=0.42 Mult=1 }
+	{PIN net0103=DRN XI15/net7=GATE gnd!=SRC gnd!=BULK }}
+    {INST XI44/XI1/MM6=n105 {TYPE MOS} {PROP n="four_bit_adder/one_bit_adder/n105" Length=0.03 Width=0.42 Mult=1 }
+	{PIN XI44/XI1/net32=DRN net0158=GATE gnd!=SRC gnd!=BULK }}
+    {INST XI36/MM4=n105 {TYPE MOS} {PROP n="d_flip_flop/n105" Length=0.03 Width=0.628 Mult=1 }
+	{PIN XI36/net11=DRN XI36/net8=GATE gnd!=SRC gnd!=BULK }}
+    {INST XI15/MM4=p105 {TYPE MOS} {PROP n="and2/p105" Length=0.03 Width=0.504 Mult=1 }
+	{PIN net0103=DRN XI15/net7=GATE vdd!=SRC vdd!=BULK }}
+    {INST XI41/MM6=p105 {TYPE MOS} {PROP n="d_flip_flop/p105" Length=0.03 Width=0.504 Mult=1 }
+	{PIN XI41/net12=DRN XI41/net05=GATE XI41/net11=SRC vdd!=BULK }}
+    {INST XI33/XI3/MM23=n105 {TYPE MOS} {PROP n="four_bit_adder/one_bit_adder/n105" Length=0.03 Width=0.978 Mult=1 }
+	{PIN XI33/XI3/net017=DRN XI33/net35=GATE XI33/XI3/net059=SRC gnd!=BULK }}
+    {INST XI44/XI1/MM23=n105 {TYPE MOS} {PROP n="four_bit_adder/one_bit_adder/n105" Length=0.03 Width=0.978 Mult=1 }
+	{PIN XI44/XI1/net017=DRN XI44/net033=GATE XI44/XI1/net059=SRC gnd!=BULK }}
+    {INST XI0/XI2/MM7=n105 {TYPE MOS} {PROP n="four_bit_adder/one_bit_adder/n105" Length=0.03 Width=0.42 Mult=1 }
+	{PIN XI0/XI2/net15=DRN XI0/net030=GATE XI0/XI2/net23=SRC gnd!=BULK }}
+    {INST XI44/XI1/MM12=p105 {TYPE MOS} {PROP n="four_bit_adder/one_bit_adder/p105" Length=0.03 Width=0.522 Mult=1 }
+	{PIN XI44/XI1/net19=DRN net068=GATE vdd!=SRC vdd!=BULK }}
+    {INST XI36/MM0=n105 {TYPE MOS} {PROP n="d_flip_flop/n105" Length=0.03 Width=0.42 Mult=1 }
+	{PIN XI36/net8=DRN XI36/net7=GATE gnd!=SRC gnd!=BULK }}
+    {INST XI36/MM2=p105 {TYPE MOS} {PROP n="d_flip_flop/p105" Length=0.03 Width=0.754 Mult=1 }
+	{PIN XI36/net11=DRN XI36/net8=GATE vdd!=SRC vdd!=BULK }}
+    {INST XI41/MM3=n105 {TYPE MOS} {PROP n="d_flip_flop/n105" Length=0.03 Width=0.42 Mult=1 }
+	{PIN net064=DRN XI41/net05=GATE XI41/net7=SRC gnd!=BULK }}
+    {INST XI33/XI3/MM22=p105 {TYPE MOS} {PROP n="four_bit_adder/one_bit_adder/p105" Length=0.03 Width=1.174 Mult=1 }
+	{PIN XI33/XI3/net017=DRN XI33/net35=GATE XI33/XI3/net060=SRC vdd!=BULK }}
+    {INST XI44/XI1/MM22=p105 {TYPE MOS} {PROP n="four_bit_adder/one_bit_adder/p105" Length=0.03 Width=1.174 Mult=1 }
+	{PIN XI44/XI1/net017=DRN XI44/net033=GATE XI44/XI1/net060=SRC vdd!=BULK }}
+    {INST XI36/MM1=p105 {TYPE MOS} {PROP n="d_flip_flop/p105" Length=0.03 Width=0.504 Mult=1 }
+	{PIN XI36/net8=DRN XI36/net7=GATE vdd!=SRC vdd!=BULK }}
+    {INST XI44/XI1/MM27=n105 {TYPE MOS} {PROP n="four_bit_adder/one_bit_adder/n105" Length=0.03 Width=1.014 Mult=1 }
+	{PIN net086=DRN XI44/XI1/net017=GATE gnd!=SRC gnd!=BULK }}
+    {INST XI44/XI1/MM26=p105 {TYPE MOS} {PROP n="four_bit_adder/one_bit_adder/p105" Length=0.03 Width=1.215 Mult=1 }
+	{PIN net086=DRN XI44/XI1/net017=GATE vdd!=SRC vdd!=BULK }}
+    {INST XI35/MM10=n105 {TYPE MOS} {PROP n="d_flip_flop/n105" Length=0.03 Width=1.404 Mult=1 }
+	{PIN net068=DRN XI35/net13=GATE gnd!=SRC gnd!=BULK }}
+    {INST XI33/XI3/MM16=n105 {TYPE MOS} {PROP n="four_bit_adder/one_bit_adder/n105" Length=0.03 Width=0.654 Mult=1 }
+	{PIN XI33/XI3/net017=DRN XI33/XI3/net15=GATE XI33/XI3/net033=SRC gnd!=BULK }}
+    {INST XI0/XI2/MM5=p105 {TYPE MOS} {PROP n="four_bit_adder/one_bit_adder/p105" Length=0.03 Width=0.504 Mult=1 }
+	{PIN XI0/XI2/net15=DRN XI0/net030=GATE XI0/XI2/net11=SRC vdd!=BULK }}
+    {INST XI44/XI1/MM0=p105 {TYPE MOS} {PROP n="four_bit_adder/one_bit_adder/p105" Length=0.03 Width=0.252 Mult=1 }
+	{PIN XI44/XI1/net11=DRN net068=GATE vdd!=SRC vdd!=BULK }}
+    {INST XI35/MM9=p105 {TYPE MOS} {PROP n="d_flip_flop/p105" Length=0.03 Width=1.674 Mult=1 }
+	{PIN net068=DRN XI35/net13=GATE vdd!=SRC vdd!=BULK }}
+    {INST XI41/MM5=p105 {TYPE MOS} {PROP n="d_flip_flop/p105" Length=0.03 Width=0.504 Mult=1 }
+	{PIN XI41/net11=DRN XI41/net05=GATE XI41/net7=SRC vdd!=BULK }}
+    {INST XI44/XI0/MM11=n105 {TYPE MOS} {PROP n="four_bit_adder/one_bit_adder/n105" Length=0.03 Width=0.42 Mult=1 }
+	{PIN XI44/net033=DRN XI44/XI0/net15=GATE gnd!=SRC gnd!=BULK }}
+    {INST XI0/XI2/MM16=n105 {TYPE MOS} {PROP n="four_bit_adder/one_bit_adder/n105" Length=0.03 Width=0.654 Mult=1 }
+	{PIN XI0/XI2/net017=DRN XI0/XI2/net15=GATE XI0/XI2/net033=SRC gnd!=BULK }}
+    {INST XI44/XI1/MM8=n105 {TYPE MOS} {PROP n="four_bit_adder/one_bit_adder/n105" Length=0.03 Width=0.21 Mult=1 }
+	{PIN XI44/XI1/net23=DRN net068=GATE gnd!=SRC gnd!=BULK }}
+    {INST XI44/XI1/MM13=p105 {TYPE MOS} {PROP n="four_bit_adder/one_bit_adder/p105" Length=0.03 Width=0.522 Mult=1 }
+	{PIN XI44/XI1/net19=DRN net0158=GATE vdd!=SRC vdd!=BULK }}
+    {INST XI44/XI1/MM19=n105 {TYPE MOS} {PROP n="four_bit_adder/one_bit_adder/n105" Length=0.03 Width=0.218 Mult=1 }
+	{PIN XI44/XI1/net033=DRN XI44/net033=GATE gnd!=SRC gnd!=BULK }}
+    {INST XI35/MM11=n105 {TYPE MOS} {PROP n="d_flip_flop/n105" Length=0.03 Width=0.42 Mult=1 }
+	{PIN XI35/net12=DRN XI35/net05=GATE net068=SRC gnd!=BULK }}
+    {INST XI44/XI0/MM10=p105 {TYPE MOS} {PROP n="four_bit_adder/one_bit_adder/p105" Length=0.03 Width=0.504 Mult=1 }
+	{PIN XI44/net033=DRN XI44/XI0/net15=GATE vdd!=SRC vdd!=BULK }}
+    {INST XI33/XI2/MM27=n105 {TYPE MOS} {PROP n="four_bit_adder/one_bit_adder/n105" Length=0.03 Width=1.014 Mult=1 }
+	{PIN net064=DRN XI33/XI2/net017=GATE gnd!=SRC gnd!=BULK }}
+    {INST XI35/MM14=p105 {TYPE MOS} {PROP n="d_flip_flop/p105" Length=0.03 Width=0.504 Mult=1 }
+	{PIN XI35/net05=DRN CLK=GATE vdd!=SRC vdd!=BULK }}
+    {INST XI8/MM10=n105 {TYPE MOS} {PROP n="d_flip_flop/n105" Length=0.03 Width=1.404 Mult=1 }
+	{PIN net0165=DRN XI8/net13=GATE gnd!=SRC gnd!=BULK }}
+    {INST XI35/MM5=p105 {TYPE MOS} {PROP n="d_flip_flop/p105" Length=0.03 Width=0.504 Mult=1 }
+	{PIN XI35/net11=DRN XI35/net05=GATE XI35/net7=SRC vdd!=BULK }}
+    {INST XI44/XI1/MM20=p105 {TYPE MOS} {PROP n="four_bit_adder/one_bit_adder/p105" Length=0.03 Width=1.174 Mult=1 }
+	{PIN XI44/XI1/net061=DRN net0158=GATE vdd!=SRC vdd!=BULK }}
+    {INST XI44/XI0/MM4=p105 {TYPE MOS} {PROP n="four_bit_adder/one_bit_adder/p105" Length=0.03 Width=0.504 Mult=1 }
+	{PIN XI44/XI0/net15=DRN net069=GATE XI44/XI0/net33=SRC vdd!=BULK }}
+    {INST XI44/XI0/MM5=p105 {TYPE MOS} {PROP n="four_bit_adder/one_bit_adder/p105" Length=0.03 Width=0.504 Mult=1 }
+	{PIN XI44/XI0/net15=DRN gnd!=GATE XI44/XI0/net11=SRC vdd!=BULK }}
+    {INST XI6/MM5=n105 {TYPE MOS} {PROP n="and2/n105" Length=0.03 Width=0.42 Mult=1 }
+	{PIN net042=DRN XI6/net7=GATE gnd!=SRC gnd!=BULK }}
+    {INST XI33/XI3/MM10=p105 {TYPE MOS} {PROP n="four_bit_adder/one_bit_adder/p105" Length=0.03 Width=0.504 Mult=1 }
+	{PIN net061=DRN XI33/XI3/net15=GATE vdd!=SRC vdd!=BULK }}
+    {INST XI0/XI1/MM10=p105 {TYPE MOS} {PROP n="four_bit_adder/one_bit_adder/p105" Length=0.03 Width=0.504 Mult=1 }
+	{PIN XI0/net030=DRN XI0/XI1/net15=GATE vdd!=SRC vdd!=BULK }}
+    {INST XI33/XI2/MM11=n105 {TYPE MOS} {PROP n="four_bit_adder/one_bit_adder/n105" Length=0.03 Width=0.42 Mult=1 }
+	{PIN XI33/net35=DRN XI33/XI2/net15=GATE gnd!=SRC gnd!=BULK }}
+    {INST XI44/XI0/MM15=p105 {TYPE MOS} {PROP n="four_bit_adder/one_bit_adder/p105" Length=0.03 Width=0.784 Mult=1 }
+	{PIN XI44/XI0/net017=DRN XI44/XI0/net15=GATE XI44/XI0/net19=SRC vdd!=BULK }}
+    {INST XI35/MM8=n105 {TYPE MOS} {PROP n="d_flip_flop/n105" Length=0.03 Width=0.94 Mult=1 }
+	{PIN XI35/net13=DRN XI35/net12=GATE gnd!=SRC gnd!=BULK }}
+    {INST XI41/MM2=p105 {TYPE MOS} {PROP n="d_flip_flop/p105" Length=0.03 Width=0.754 Mult=1 }
+	{PIN XI41/net11=DRN XI41/net8=GATE vdd!=SRC vdd!=BULK }}
+    {INST XI15/MM9=p105 {TYPE MOS} {PROP n="and2/p105" Length=0.03 Width=0.252 Mult=1 }
+	{PIN XI15/net7=DRN W1=GATE vdd!=SRC vdd!=BULK }}
+    {INST XI0/XI2/MM23=n105 {TYPE MOS} {PROP n="four_bit_adder/one_bit_adder/n105" Length=0.03 Width=0.978 Mult=1 }
+	{PIN XI0/XI2/net017=DRN XI0/net030=GATE XI0/XI2/net059=SRC gnd!=BULK }}
+    {INST XI33/XI3/MM1=n105 {TYPE MOS} {PROP n="four_bit_adder/one_bit_adder/n105" Length=0.03 Width=0.42 Mult=1 }
+	{PIN XI33/XI3/net15=DRN net049=GATE XI33/XI3/net32=SRC gnd!=BULK }}
+    {INST XI41/MM0=n105 {TYPE MOS} {PROP n="d_flip_flop/n105" Length=0.03 Width=0.42 Mult=1 }
+	{PIN XI41/net8=DRN XI41/net7=GATE gnd!=SRC gnd!=BULK }}
+    {INST XI33/XI3/MM19=n105 {TYPE MOS} {PROP n="four_bit_adder/one_bit_adder/n105" Length=0.03 Width=0.218 Mult=1 }
+	{PIN XI33/XI3/net033=DRN XI33/net35=GATE gnd!=SRC gnd!=BULK }}
+    {INST XI0/XI2/MM14=p105 {TYPE MOS} {PROP n="four_bit_adder/one_bit_adder/p105" Length=0.03 Width=0.522 Mult=1 }
+	{PIN XI0/XI2/net19=DRN XI0/net030=GATE vdd!=SRC vdd!=BULK }}
+    {INST XI0/XI2/MM13=p105 {TYPE MOS} {PROP n="four_bit_adder/one_bit_adder/p105" Length=0.03 Width=0.522 Mult=1 }
+	{PIN XI0/XI2/net19=DRN net050=GATE vdd!=SRC vdd!=BULK }}
+    {INST XI40/MM10=n105 {TYPE MOS} {PROP n="d_flip_flop/n105" Length=0.03 Width=1.404 Mult=1 }
+	{PIN net0158=DRN XI40/net13=GATE gnd!=SRC gnd!=BULK }}
+    {INST XI0/XI2/MM19=n105 {TYPE MOS} {PROP n="four_bit_adder/one_bit_adder/n105" Length=0.03 Width=0.218 Mult=1 }
+	{PIN XI0/XI2/net033=DRN XI0/net030=GATE gnd!=SRC gnd!=BULK }}
+    {INST XI0/XI2/MM18=n105 {TYPE MOS} {PROP n="four_bit_adder/one_bit_adder/n105" Length=0.03 Width=0.218 Mult=1 }
+	{PIN XI0/XI2/net033=DRN net050=GATE gnd!=SRC gnd!=BULK }}
+    {INST XI33/XI3/MM24=n105 {TYPE MOS} {PROP n="four_bit_adder/one_bit_adder/n105" Length=0.03 Width=0.978 Mult=1 }
+	{PIN XI33/XI3/net059=DRN net049=GATE XI33/XI3/net058=SRC gnd!=BULK }}
+    {INST XI33/XI3/MM21=p105 {TYPE MOS} {PROP n="four_bit_adder/one_bit_adder/p105" Length=0.03 Width=1.174 Mult=1 }
+	{PIN XI33/XI3/net060=DRN net049=GATE XI33/XI3/net061=SRC vdd!=BULK }}
+    {INST XI33/XI2/MM26=p105 {TYPE MOS} {PROP n="four_bit_adder/one_bit_adder/p105" Length=0.03 Width=1.215 Mult=1 }
+	{PIN net064=DRN XI33/XI2/net017=GATE vdd!=SRC vdd!=BULK }}
+    {INST XI33/XI3/MM14=p105 {TYPE MOS} {PROP n="four_bit_adder/one_bit_adder/p105" Length=0.03 Width=0.522 Mult=1 }
+	{PIN XI33/XI3/net19=DRN XI33/net35=GATE vdd!=SRC vdd!=BULK }}
+    {INST XI44/XI0/MM16=n105 {TYPE MOS} {PROP n="four_bit_adder/one_bit_adder/n105" Length=0.03 Width=0.654 Mult=1 }
+	{PIN XI44/XI0/net017=DRN XI44/XI0/net15=GATE XI44/XI0/net033=SRC gnd!=BULK }}
+    {INST XI0/XI2/MM12=p105 {TYPE MOS} {PROP n="four_bit_adder/one_bit_adder/p105" Length=0.03 Width=0.522 Mult=1 }
+	{PIN XI0/XI2/net19=DRN net042=GATE vdd!=SRC vdd!=BULK }}
+    {INST XI8/MM9=p105 {TYPE MOS} {PROP n="d_flip_flop/p105" Length=0.03 Width=1.674 Mult=1 }
+	{PIN net0165=DRN XI8/net13=GATE vdd!=SRC vdd!=BULK }}
+    {INST XI0/XI2/MM22=p105 {TYPE MOS} {PROP n="four_bit_adder/one_bit_adder/p105" Length=0.03 Width=1.174 Mult=1 }
+	{PIN XI0/XI2/net017=DRN XI0/net030=GATE XI0/XI2/net060=SRC vdd!=BULK }}
+    {INST XI33/XI3/MM7=n105 {TYPE MOS} {PROP n="four_bit_adder/one_bit_adder/n105" Length=0.03 Width=0.42 Mult=1 }
+	{PIN XI33/XI3/net15=DRN XI33/net35=GATE XI33/XI3/net23=SRC gnd!=BULK }}
+    {INST XI0/XI2/MM17=n105 {TYPE MOS} {PROP n="four_bit_adder/one_bit_adder/n105" Length=0.03 Width=0.218 Mult=1 }
+	{PIN XI0/XI2/net033=DRN net042=GATE gnd!=SRC gnd!=BULK }}
+    {INST XI44/XI1/MM25=n105 {TYPE MOS} {PROP n="four_bit_adder/one_bit_adder/n105" Length=0.03 Width=0.978 Mult=1 }
+	{PIN XI44/XI1/net058=DRN net0158=GATE gnd!=SRC gnd!=BULK }}
+    {INST XI6/MM4=p105 {TYPE MOS} {PROP n="and2/p105" Length=0.03 Width=0.504 Mult=1 }
+	{PIN net042=DRN XI6/net7=GATE vdd!=SRC vdd!=BULK }}
+    {INST XI8/MM11=n105 {TYPE MOS} {PROP n="d_flip_flop/n105" Length=0.03 Width=0.42 Mult=1 }
+	{PIN XI8/net12=DRN XI8/net05=GATE net0165=SRC gnd!=BULK }}
+    {INST XI33/XI2/MM10=p105 {TYPE MOS} {PROP n="four_bit_adder/one_bit_adder/p105" Length=0.03 Width=0.504 Mult=1 }
+	{PIN XI33/net35=DRN XI33/XI2/net15=GATE vdd!=SRC vdd!=BULK }}
+    {INST XI33/XI3/MM4=p105 {TYPE MOS} {PROP n="four_bit_adder/one_bit_adder/p105" Length=0.03 Width=0.504 Mult=1 }
+	{PIN XI33/XI3/net15=DRN net049=GATE XI33/XI3/net33=SRC vdd!=BULK }}
+    {INST XI35/MM7=p105 {TYPE MOS} {PROP n="d_flip_flop/p105" Length=0.03 Width=1.128 Mult=1 }
+	{PIN XI35/net13=DRN XI35/net12=GATE vdd!=SRC vdd!=BULK }}
+    {INST XI15/MM6=n105 {TYPE MOS} {PROP n="and2/n105" Length=0.03 Width=0.84 Mult=1 }
+	{PIN XI15/net7=DRN net0168=GATE XI15/net013=SRC gnd!=BULK }}
+    {INST XI7/MM7=n105 {TYPE MOS} {PROP n="and2/n105" Length=0.03 Width=0.84 Mult=1 }
+	{PIN XI7/net013=DRN W0=GATE gnd!=SRC gnd!=BULK }}
+    {INST XI0/XI2/MM3=p105 {TYPE MOS} {PROP n="four_bit_adder/one_bit_adder/p105" Length=0.03 Width=0.504 Mult=1 }
+	{PIN XI0/XI2/net33=DRN net050=GATE vdd!=SRC vdd!=BULK }}
+    {INST XI35/MM15=n105 {TYPE MOS} {PROP n="d_flip_flop/n105" Length=0.03 Width=0.42 Mult=1 }
+	{PIN XI35/net05=DRN CLK=GATE gnd!=SRC gnd!=BULK }}
+    {INST XI44/XI0/MM7=n105 {TYPE MOS} {PROP n="four_bit_adder/one_bit_adder/n105" Length=0.03 Width=0.42 Mult=1 }
+	{PIN XI44/XI0/net15=DRN gnd!=GATE XI44/XI0/net23=SRC gnd!=BULK }}
+    {INST XI41/MM1=p105 {TYPE MOS} {PROP n="d_flip_flop/p105" Length=0.03 Width=0.504 Mult=1 }
+	{PIN XI41/net8=DRN XI41/net7=GATE vdd!=SRC vdd!=BULK }}
+    {INST XI33/XI3/MM11=n105 {TYPE MOS} {PROP n="four_bit_adder/one_bit_adder/n105" Length=0.03 Width=0.42 Mult=1 }
+	{PIN net061=DRN XI33/XI3/net15=GATE gnd!=SRC gnd!=BULK }}
+    {INST XI0/XI1/MM11=n105 {TYPE MOS} {PROP n="four_bit_adder/one_bit_adder/n105" Length=0.03 Width=0.42 Mult=1 }
+	{PIN XI0/net030=DRN XI0/XI1/net15=GATE gnd!=SRC gnd!=BULK }}
+    {INST XI0/XI2/MM9=n105 {TYPE MOS} {PROP n="four_bit_adder/one_bit_adder/n105" Length=0.03 Width=0.21 Mult=1 }
+	{PIN XI0/XI2/net23=DRN net050=GATE gnd!=SRC gnd!=BULK }}
+    {INST XI0/XI2/MM2=p105 {TYPE MOS} {PROP n="four_bit_adder/one_bit_adder/p105" Length=0.03 Width=0.252 Mult=1 }
+	{PIN XI0/XI2/net11=DRN net050=GATE vdd!=SRC vdd!=BULK }}
+    {INST XI0/XI2/MM24=n105 {TYPE MOS} {PROP n="four_bit_adder/one_bit_adder/n105" Length=0.03 Width=0.978 Mult=1 }
+	{PIN XI0/XI2/net059=DRN net042=GATE XI0/XI2/net058=SRC gnd!=BULK }}
+    {INST XI41/MM4=n105 {TYPE MOS} {PROP n="d_flip_flop/n105" Length=0.03 Width=0.628 Mult=1 }
+	{PIN XI41/net11=DRN XI41/net8=GATE gnd!=SRC gnd!=BULK }}
+    {INST XI40/MM9=p105 {TYPE MOS} {PROP n="d_flip_flop/p105" Length=0.03 Width=1.674 Mult=1 }
+	{PIN net0158=DRN XI40/net13=GATE vdd!=SRC vdd!=BULK }}
+    {INST XI0/XI2/MM21=p105 {TYPE MOS} {PROP n="four_bit_adder/one_bit_adder/p105" Length=0.03 Width=1.174 Mult=1 }
+	{PIN XI0/XI2/net060=DRN net042=GATE XI0/XI2/net061=SRC vdd!=BULK }}
+    {INST XI44/XI0/MM1=n105 {TYPE MOS} {PROP n="four_bit_adder/one_bit_adder/n105" Length=0.03 Width=0.42 Mult=1 }
+	{PIN XI44/XI0/net15=DRN net069=GATE XI44/XI0/net32=SRC gnd!=BULK }}
+    {INST XI35/MM6=p105 {TYPE MOS} {PROP n="d_flip_flop/p105" Length=0.03 Width=0.504 Mult=1 }
+	{PIN XI35/net12=DRN XI35/net05=GATE XI35/net11=SRC vdd!=BULK }}
+    {INST XI40/MM11=n105 {TYPE MOS} {PROP n="d_flip_flop/n105" Length=0.03 Width=0.42 Mult=1 }
+	{PIN XI40/net12=DRN XI40/net05=GATE net0158=SRC gnd!=BULK }}
+    {INST XI15/MM8=p105 {TYPE MOS} {PROP n="and2/p105" Length=0.03 Width=0.252 Mult=1 }
+	{PIN XI15/net7=DRN net0168=GATE vdd!=SRC vdd!=BULK }}
+    {INST XI0/XI2/MM6=n105 {TYPE MOS} {PROP n="four_bit_adder/one_bit_adder/n105" Length=0.03 Width=0.42 Mult=1 }
+	{PIN XI0/XI2/net32=DRN net050=GATE gnd!=SRC gnd!=BULK }}
+    {INST XI0/XI2/MM8=n105 {TYPE MOS} {PROP n="four_bit_adder/one_bit_adder/n105" Length=0.03 Width=0.21 Mult=1 }
+	{PIN XI0/XI2/net23=DRN net042=GATE gnd!=SRC gnd!=BULK }}
+    {INST XI0/XI2/MM0=p105 {TYPE MOS} {PROP n="four_bit_adder/one_bit_adder/p105" Length=0.03 Width=0.252 Mult=1 }
+	{PIN XI0/XI2/net11=DRN net042=GATE vdd!=SRC vdd!=BULK }}
+    {INST XI33/XI3/MM5=p105 {TYPE MOS} {PROP n="four_bit_adder/one_bit_adder/p105" Length=0.03 Width=0.504 Mult=1 }
+	{PIN XI33/XI3/net15=DRN XI33/net35=GATE XI33/XI3/net11=SRC vdd!=BULK }}
+    {INST XI35/MM3=n105 {TYPE MOS} {PROP n="d_flip_flop/n105" Length=0.03 Width=0.42 Mult=1 }
+	{PIN net0102=DRN XI35/net05=GATE XI35/net7=SRC gnd!=BULK }}
+    {INST XI33/XI2/MM4=p105 {TYPE MOS} {PROP n="four_bit_adder/one_bit_adder/p105" Length=0.03 Width=0.504 Mult=1 }
+	{PIN XI33/XI2/net15=DRN net38=GATE XI33/XI2/net33=SRC vdd!=BULK }}
+    {INST XI44/XI0/MM14=p105 {TYPE MOS} {PROP n="four_bit_adder/one_bit_adder/p105" Length=0.03 Width=0.522 Mult=1 }
+	{PIN XI44/XI0/net19=DRN gnd!=GATE vdd!=SRC vdd!=BULK }}
+    {INST XI40/MM14=p105 {TYPE MOS} {PROP n="d_flip_flop/p105" Length=0.03 Width=0.504 Mult=1 }
+	{PIN XI40/net05=DRN CLK=GATE vdd!=SRC vdd!=BULK }}
+    {INST XI44/XI0/MM27=n105 {TYPE MOS} {PROP n="four_bit_adder/one_bit_adder/n105" Length=0.03 Width=1.014 Mult=1 }
+	{PIN net085=DRN XI44/XI0/net017=GATE gnd!=SRC gnd!=BULK }}
+    {INST XI43/MM3=n105 {TYPE MOS} {PROP n="d_flip_flop/n105" Length=0.03 Width=0.42 Mult=1 }
+	{PIN net061=DRN XI43/net05=GATE XI43/net7=SRC gnd!=BULK }}
+    {INST XI8/MM8=n105 {TYPE MOS} {PROP n="d_flip_flop/n105" Length=0.03 Width=0.94 Mult=1 }
+	{PIN XI8/net13=DRN XI8/net12=GATE gnd!=SRC gnd!=BULK }}
+    {INST XI35/MM2=p105 {TYPE MOS} {PROP n="d_flip_flop/p105" Length=0.03 Width=0.754 Mult=1 }
+	{PIN XI35/net11=DRN XI35/net8=GATE vdd!=SRC vdd!=BULK }}
+    {INST XI23/MM4=p105 {TYPE MOS} {PROP n="and2/p105" Length=0.03 Width=0.504 Mult=1 }
+	{PIN net049=DRN XI23/net7=GATE vdd!=SRC vdd!=BULK }}
+    {INST XI44/XI0/MM9=n105 {TYPE MOS} {PROP n="four_bit_adder/one_bit_adder/n105" Length=0.03 Width=0.21 Mult=1 }
+	{PIN XI44/XI0/net23=DRN net076=GATE gnd!=SRC gnd!=BULK }}
+    {INST XI44/XI0/MM24=n105 {TYPE MOS} {PROP n="four_bit_adder/one_bit_adder/n105" Length=0.03 Width=0.978 Mult=1 }
+	{PIN XI44/XI0/net059=DRN net069=GATE XI44/XI0/net058=SRC gnd!=BULK }}
+    {INST XI44/XI0/MM12=p105 {TYPE MOS} {PROP n="four_bit_adder/one_bit_adder/p105" Length=0.03 Width=0.522 Mult=1 }
+	{PIN XI44/XI0/net19=DRN net069=GATE vdd!=SRC vdd!=BULK }}
+    {INST XI6/MM8=p105 {TYPE MOS} {PROP n="and2/p105" Length=0.03 Width=0.252 Mult=1 }
+	{PIN XI6/net7=DRN net0161=GATE vdd!=SRC vdd!=BULK }}
+    {INST XI33/XI2/MM16=n105 {TYPE MOS} {PROP n="four_bit_adder/one_bit_adder/n105" Length=0.03 Width=0.654 Mult=1 }
+	{PIN XI33/XI2/net017=DRN XI33/XI2/net15=GATE XI33/XI2/net033=SRC gnd!=BULK }}
+    {INST XI44/XI0/MM23=n105 {TYPE MOS} {PROP n="four_bit_adder/one_bit_adder/n105" Length=0.03 Width=0.978 Mult=1 }
+	{PIN XI44/XI0/net017=DRN gnd!=GATE XI44/XI0/net059=SRC gnd!=BULK }}
+    {INST XI40/MM3=n105 {TYPE MOS} {PROP n="d_flip_flop/n105" Length=0.03 Width=0.42 Mult=1 }
+	{PIN net063=DRN XI40/net05=GATE XI40/net7=SRC gnd!=BULK }}
+    {INST XI0/XI1/MM15=p105 {TYPE MOS} {PROP n="four_bit_adder/one_bit_adder/p105" Length=0.03 Width=0.784 Mult=1 }
+	{PIN XI0/XI1/net017=DRN XI0/XI1/net15=GATE XI0/XI1/net19=SRC vdd!=BULK }}
+    {INST XI8/MM5=p105 {TYPE MOS} {PROP n="d_flip_flop/p105" Length=0.03 Width=0.504 Mult=1 }
+	{PIN XI8/net11=DRN XI8/net05=GATE XI8/net7=SRC vdd!=BULK }}
+    {INST XI33/XI3/MM8=n105 {TYPE MOS} {PROP n="four_bit_adder/one_bit_adder/n105" Length=0.03 Width=0.21 Mult=1 }
+	{PIN XI33/XI3/net23=DRN net049=GATE gnd!=SRC gnd!=BULK }}
+    {INST XI0/XI1/MM7=n105 {TYPE MOS} {PROP n="four_bit_adder/one_bit_adder/n105" Length=0.03 Width=0.42 Mult=1 }
+	{PIN XI0/XI1/net15=DRN XI0/net033=GATE XI0/XI1/net23=SRC gnd!=BULK }}
+    {INST XI44/XI0/MM0=p105 {TYPE MOS} {PROP n="four_bit_adder/one_bit_adder/p105" Length=0.03 Width=0.252 Mult=1 }
+	{PIN XI44/XI0/net11=DRN net069=GATE vdd!=SRC vdd!=BULK }}
+    {INST XI33/XI2/MM1=n105 {TYPE MOS} {PROP n="four_bit_adder/one_bit_adder/n105" Length=0.03 Width=0.42 Mult=1 }
+	{PIN XI33/XI2/net15=DRN net38=GATE XI33/XI2/net32=SRC gnd!=BULK }}
+    {INST XI8/MM6=p105 {TYPE MOS} {PROP n="d_flip_flop/p105" Length=0.03 Width=0.504 Mult=1 }
+	{PIN XI8/net12=DRN XI8/net05=GATE XI8/net11=SRC vdd!=BULK }}
+    {INST XI0/XI2/MM20=p105 {TYPE MOS} {PROP n="four_bit_adder/one_bit_adder/p105" Length=0.03 Width=1.174 Mult=1 }
+	{PIN XI0/XI2/net061=DRN net050=GATE vdd!=SRC vdd!=BULK }}
+    {INST XI0/XI1/MM5=p105 {TYPE MOS} {PROP n="four_bit_adder/one_bit_adder/p105" Length=0.03 Width=0.504 Mult=1 }
+	{PIN XI0/XI1/net15=DRN XI0/net033=GATE XI0/XI1/net11=SRC vdd!=BULK }}
+    {INST XI8/MM14=p105 {TYPE MOS} {PROP n="d_flip_flop/p105" Length=0.03 Width=0.504 Mult=1 }
+	{PIN XI8/net05=DRN CLK=GATE vdd!=SRC vdd!=BULK }}
+    {INST XI35/MM1=p105 {TYPE MOS} {PROP n="d_flip_flop/p105" Length=0.03 Width=0.504 Mult=1 }
+	{PIN XI35/net8=DRN XI35/net7=GATE vdd!=SRC vdd!=BULK }}
+    {INST XI40/MM7=p105 {TYPE MOS} {PROP n="d_flip_flop/p105" Length=0.03 Width=1.128 Mult=1 }
+	{PIN XI40/net13=DRN XI40/net12=GATE vdd!=SRC vdd!=BULK }}
+    {INST XI40/MM5=p105 {TYPE MOS} {PROP n="d_flip_flop/p105" Length=0.03 Width=0.504 Mult=1 }
+	{PIN XI40/net11=DRN XI40/net05=GATE XI40/net7=SRC vdd!=BULK }}
+    {INST XI0/XI1/MM26=p105 {TYPE MOS} {PROP n="four_bit_adder/one_bit_adder/p105" Length=0.03 Width=1.215 Mult=1 }
+	{PIN net0102=DRN XI0/XI1/net017=GATE vdd!=SRC vdd!=BULK }}
+    {INST XI33/XI3/MM25=n105 {TYPE MOS} {PROP n="four_bit_adder/one_bit_adder/n105" Length=0.03 Width=0.978 Mult=1 }
+	{PIN XI33/XI3/net058=DRN net0135=GATE gnd!=SRC gnd!=BULK }}
+    {INST XI44/XI0/MM8=n105 {TYPE MOS} {PROP n="four_bit_adder/one_bit_adder/n105" Length=0.03 Width=0.21 Mult=1 }
+	{PIN XI44/XI0/net23=DRN net069=GATE gnd!=SRC gnd!=BULK }}
+    {INST XI34/MM10=n105 {TYPE MOS} {PROP n="d_flip_flop/n105" Length=0.03 Width=1.404 Mult=1 }
+	{PIN net069=DRN XI34/net13=GATE gnd!=SRC gnd!=BULK }}
+    {INST XI14/MM5=n105 {TYPE MOS} {PROP n="and2/n105" Length=0.03 Width=0.42 Mult=1 }
+	{PIN net050=DRN XI14/net7=GATE gnd!=SRC gnd!=BULK }}
+    {INST XI33/XI2/MM22=p105 {TYPE MOS} {PROP n="four_bit_adder/one_bit_adder/p105" Length=0.03 Width=1.174 Mult=1 }
+	{PIN XI33/XI2/net017=DRN XI33/net030=GATE XI33/XI2/net060=SRC vdd!=BULK }}
+    {INST XI33/XI3/MM2=p105 {TYPE MOS} {PROP n="four_bit_adder/one_bit_adder/p105" Length=0.03 Width=0.252 Mult=1 }
+	{PIN XI33/XI3/net11=DRN net0135=GATE vdd!=SRC vdd!=BULK }}
+    {INST XI16/MM10=n105 {TYPE MOS} {PROP n="d_flip_flop/n105" Length=0.03 Width=1.404 Mult=1 }
+	{PIN net0168=DRN XI16/net13=GATE gnd!=SRC gnd!=BULK }}
+    {INST XI6/MM6=n105 {TYPE MOS} {PROP n="and2/n105" Length=0.03 Width=0.84 Mult=1 }
+	{PIN XI6/net7=DRN net0161=GATE XI6/net013=SRC gnd!=BULK }}
+    {INST XI0/XI2/MM25=n105 {TYPE MOS} {PROP n="four_bit_adder/one_bit_adder/n105" Length=0.03 Width=0.978 Mult=1 }
+	{PIN XI0/XI2/net058=DRN net050=GATE gnd!=SRC gnd!=BULK }}
+    {INST XI0/XI1/MM16=n105 {TYPE MOS} {PROP n="four_bit_adder/one_bit_adder/n105" Length=0.03 Width=0.654 Mult=1 }
+	{PIN XI0/XI1/net017=DRN XI0/XI1/net15=GATE XI0/XI1/net033=SRC gnd!=BULK }}
+    {INST XI40/MM15=n105 {TYPE MOS} {PROP n="d_flip_flop/n105" Length=0.03 Width=0.42 Mult=1 }
+	{PIN XI40/net05=DRN CLK=GATE gnd!=SRC gnd!=BULK }}
+    {INST XI44/XI0/MM26=p105 {TYPE MOS} {PROP n="four_bit_adder/one_bit_adder/p105" Length=0.03 Width=1.215 Mult=1 }
+	{PIN net085=DRN XI44/XI0/net017=GATE vdd!=SRC vdd!=BULK }}
+    {INST XI33/XI3/MM20=p105 {TYPE MOS} {PROP n="four_bit_adder/one_bit_adder/p105" Length=0.03 Width=1.174 Mult=1 }
+	{PIN XI33/XI3/net061=DRN net0135=GATE vdd!=SRC vdd!=BULK }}
+    {INST XI44/XI0/MM18=n105 {TYPE MOS} {PROP n="four_bit_adder/one_bit_adder/n105" Length=0.03 Width=0.218 Mult=1 }
+	{PIN XI44/XI0/net033=DRN net076=GATE gnd!=SRC gnd!=BULK }}
+    {INST XI0/XI1/MM4=p105 {TYPE MOS} {PROP n="four_bit_adder/one_bit_adder/p105" Length=0.03 Width=0.504 Mult=1 }
+	{PIN XI0/XI1/net15=DRN net046=GATE XI0/XI1/net33=SRC vdd!=BULK }}
+    {INST XI8/MM7=p105 {TYPE MOS} {PROP n="d_flip_flop/p105" Length=0.03 Width=1.128 Mult=1 }
+	{PIN XI8/net13=DRN XI8/net12=GATE vdd!=SRC vdd!=BULK }}
+    {INST XI35/MM4=n105 {TYPE MOS} {PROP n="d_flip_flop/n105" Length=0.03 Width=0.628 Mult=1 }
+	{PIN XI35/net11=DRN XI35/net8=GATE gnd!=SRC gnd!=BULK }}
+    {INST XI23/MM5=n105 {TYPE MOS} {PROP n="and2/n105" Length=0.03 Width=0.42 Mult=1 }
+	{PIN net049=DRN XI23/net7=GATE gnd!=SRC gnd!=BULK }}
+    {INST XI40/MM6=p105 {TYPE MOS} {PROP n="d_flip_flop/p105" Length=0.03 Width=0.504 Mult=1 }
+	{PIN XI40/net12=DRN XI40/net05=GATE XI40/net11=SRC vdd!=BULK }}
+    {INST XI33/XI2/MM23=n105 {TYPE MOS} {PROP n="four_bit_adder/one_bit_adder/n105" Length=0.03 Width=0.978 Mult=1 }
+	{PIN XI33/XI2/net017=DRN XI33/net030=GATE XI33/XI2/net059=SRC gnd!=BULK }}
+    {INST XI33/XI3/MM3=p105 {TYPE MOS} {PROP n="four_bit_adder/one_bit_adder/p105" Length=0.03 Width=0.504 Mult=1 }
+	{PIN XI33/XI3/net33=DRN net0135=GATE vdd!=SRC vdd!=BULK }}
+    {INST XI33/XI2/MM7=n105 {TYPE MOS} {PROP n="four_bit_adder/one_bit_adder/n105" Length=0.03 Width=0.42 Mult=1 }
+	{PIN XI33/XI2/net15=DRN XI33/net030=GATE XI33/XI2/net23=SRC gnd!=BULK }}
+    {INST XI33/XI3/MM12=p105 {TYPE MOS} {PROP n="four_bit_adder/one_bit_adder/p105" Length=0.03 Width=0.522 Mult=1 }
+	{PIN XI33/XI3/net19=DRN net049=GATE vdd!=SRC vdd!=BULK }}
+    {INST XI8/MM3=n105 {TYPE MOS} {PROP n="d_flip_flop/n105" Length=0.03 Width=0.42 Mult=1 }
+	{PIN X0<3>=DRN XI8/net05=GATE XI8/net7=SRC gnd!=BULK }}
+    {INST XI33/XI2/MM5=p105 {TYPE MOS} {PROP n="four_bit_adder/one_bit_adder/p105" Length=0.03 Width=0.504 Mult=1 }
+	{PIN XI33/XI2/net15=DRN XI33/net030=GATE XI33/XI2/net11=SRC vdd!=BULK }}
+    {INST XI44/XI0/MM19=n105 {TYPE MOS} {PROP n="four_bit_adder/one_bit_adder/n105" Length=0.03 Width=0.218 Mult=1 }
+	{PIN XI44/XI0/net033=DRN gnd!=GATE gnd!=SRC gnd!=BULK }}
+    {INST XI34/MM11=n105 {TYPE MOS} {PROP n="d_flip_flop/n105" Length=0.03 Width=0.42 Mult=1 }
+	{PIN XI34/net12=DRN XI34/net05=GATE net069=SRC gnd!=BULK }}
+    {INST XI33/XI3/MM0=p105 {TYPE MOS} {PROP n="four_bit_adder/one_bit_adder/p105" Length=0.03 Width=0.252 Mult=1 }
+	{PIN XI33/XI3/net11=DRN net049=GATE vdd!=SRC vdd!=BULK }}
+    {INST XI44/XI0/MM3=p105 {TYPE MOS} {PROP n="four_bit_adder/one_bit_adder/p105" Length=0.03 Width=0.504 Mult=1 }
+	{PIN XI44/XI0/net33=DRN net076=GATE vdd!=SRC vdd!=BULK }}
+    {INST XI0/XI1/MM1=n105 {TYPE MOS} {PROP n="four_bit_adder/one_bit_adder/n105" Length=0.03 Width=0.42 Mult=1 }
+	{PIN XI0/XI1/net15=DRN net046=GATE XI0/XI1/net32=SRC gnd!=BULK }}
+    {INST XI8/MM15=n105 {TYPE MOS} {PROP n="d_flip_flop/n105" Length=0.03 Width=0.42 Mult=1 }
+	{PIN XI8/net05=DRN CLK=GATE gnd!=SRC gnd!=BULK }}
+    {INST XI35/MM0=n105 {TYPE MOS} {PROP n="d_flip_flop/n105" Length=0.03 Width=0.42 Mult=1 }
+	{PIN XI35/net8=DRN XI35/net7=GATE gnd!=SRC gnd!=BULK }}
+    {INST XI40/MM8=n105 {TYPE MOS} {PROP n="d_flip_flop/n105" Length=0.03 Width=0.94 Mult=1 }
+	{PIN XI40/net13=DRN XI40/net12=GATE gnd!=SRC gnd!=BULK }}
+    {INST XI16/MM11=n105 {TYPE MOS} {PROP n="d_flip_flop/n105" Length=0.03 Width=0.42 Mult=1 }
+	{PIN XI16/net12=DRN XI16/net05=GATE net0168=SRC gnd!=BULK }}
+    {INST XI15/MM7=n105 {TYPE MOS} {PROP n="and2/n105" Length=0.03 Width=0.84 Mult=1 }
+	{PIN XI15/net013=DRN W1=GATE gnd!=SRC gnd!=BULK }}
+    {INST XI6/MM9=p105 {TYPE MOS} {PROP n="and2/p105" Length=0.03 Width=0.252 Mult=1 }
+	{PIN XI6/net7=DRN W0=GATE vdd!=SRC vdd!=BULK }}
+    {INST XI33/XI2/MM15=p105 {TYPE MOS} {PROP n="four_bit_adder/one_bit_adder/p105" Length=0.03 Width=0.784 Mult=1 }
+	{PIN XI33/XI2/net017=DRN XI33/XI2/net15=GATE XI33/XI2/net19=SRC vdd!=BULK }}
+    {INST XI44/XI0/MM17=n105 {TYPE MOS} {PROP n="four_bit_adder/one_bit_adder/n105" Length=0.03 Width=0.218 Mult=1 }
+	{PIN XI44/XI0/net033=DRN net069=GATE gnd!=SRC gnd!=BULK }}
+    {INST XI44/XI0/MM13=p105 {TYPE MOS} {PROP n="four_bit_adder/one_bit_adder/p105" Length=0.03 Width=0.522 Mult=1 }
+	{PIN XI44/XI0/net19=DRN net076=GATE vdd!=SRC vdd!=BULK }}
+    {INST XI0/XI1/MM27=n105 {TYPE MOS} {PROP n="four_bit_adder/one_bit_adder/n105" Length=0.03 Width=1.014 Mult=1 }
+	{PIN net0102=DRN XI0/XI1/net017=GATE gnd!=SRC gnd!=BULK }}
+    {INST XI33/XI3/MM9=n105 {TYPE MOS} {PROP n="four_bit_adder/one_bit_adder/n105" Length=0.03 Width=0.21 Mult=1 }
+	{PIN XI33/XI3/net23=DRN net0135=GATE gnd!=SRC gnd!=BULK }}
+    {INST XI34/MM9=p105 {TYPE MOS} {PROP n="d_flip_flop/p105" Length=0.03 Width=1.674 Mult=1 }
+	{PIN net069=DRN XI34/net13=GATE vdd!=SRC vdd!=BULK }}
+    {INST XI14/MM4=p105 {TYPE MOS} {PROP n="and2/p105" Length=0.03 Width=0.504 Mult=1 }
+	{PIN net050=DRN XI14/net7=GATE vdd!=SRC vdd!=BULK }}
+    {INST XI33/XI3/MM17=n105 {TYPE MOS} {PROP n="four_bit_adder/one_bit_adder/n105" Length=0.03 Width=0.218 Mult=1 }
+	{PIN XI33/XI3/net033=DRN net049=GATE gnd!=SRC gnd!=BULK }}
+    {INST XI44/XI0/MM22=p105 {TYPE MOS} {PROP n="four_bit_adder/one_bit_adder/p105" Length=0.03 Width=1.174 Mult=1 }
+	{PIN XI44/XI0/net017=DRN gnd!=GATE XI44/XI0/net060=SRC vdd!=BULK }}
+    {INST XI16/MM9=p105 {TYPE MOS} {PROP n="d_flip_flop/p105" Length=0.03 Width=1.674 Mult=1 }
+	{PIN net0168=DRN XI16/net13=GATE vdd!=SRC vdd!=BULK }}
+    {INST XI33/XI3/MM6=n105 {TYPE MOS} {PROP n="four_bit_adder/one_bit_adder/n105" Length=0.03 Width=0.42 Mult=1 }
+	{PIN XI33/XI3/net32=DRN net0135=GATE gnd!=SRC gnd!=BULK }}
+    {INST XI44/XI0/MM6=n105 {TYPE MOS} {PROP n="four_bit_adder/one_bit_adder/n105" Length=0.03 Width=0.42 Mult=1 }
+	{PIN XI44/XI0/net32=DRN net076=GATE gnd!=SRC gnd!=BULK }}
+    {INST XI44/XI0/MM2=p105 {TYPE MOS} {PROP n="four_bit_adder/one_bit_adder/p105" Length=0.03 Width=0.252 Mult=1 }
+	{PIN XI44/XI0/net11=DRN net076=GATE vdd!=SRC vdd!=BULK }}
+    {INST XI44/XI0/MM21=p105 {TYPE MOS} {PROP n="four_bit_adder/one_bit_adder/p105" Length=0.03 Width=1.174 Mult=1 }
+	{PIN XI44/XI0/net060=DRN net069=GATE XI44/XI0/net061=SRC vdd!=BULK }}
+    {INST XI16/MM14=p105 {TYPE MOS} {PROP n="d_flip_flop/p105" Length=0.03 Width=0.504 Mult=1 }
+	{PIN XI16/net05=DRN CLK=GATE vdd!=SRC vdd!=BULK }}
+    {INST XI16/MM8=n105 {TYPE MOS} {PROP n="d_flip_flop/n105" Length=0.03 Width=0.94 Mult=1 }
+	{PIN XI16/net13=DRN XI16/net12=GATE gnd!=SRC gnd!=BULK }}
+    {INST XI16/MM5=p105 {TYPE MOS} {PROP n="d_flip_flop/p105" Length=0.03 Width=0.504 Mult=1 }
+	{PIN XI16/net11=DRN XI16/net05=GATE XI16/net7=SRC vdd!=BULK }}
+    {INST XI33/XI2/MM17=n105 {TYPE MOS} {PROP n="four_bit_adder/one_bit_adder/n105" Length=0.03 Width=0.218 Mult=1 }
+	{PIN XI33/XI2/net033=DRN net38=GATE gnd!=SRC gnd!=BULK }}
+    {INST XI40/MM1=p105 {TYPE MOS} {PROP n="d_flip_flop/p105" Length=0.03 Width=0.504 Mult=1 }
+	{PIN XI40/net8=DRN XI40/net7=GATE vdd!=SRC vdd!=BULK }}
+    {INST XI0/XI0/MM10=p105 {TYPE MOS} {PROP n="four_bit_adder/one_bit_adder/p105" Length=0.03 Width=0.504 Mult=1 }
+	{PIN XI0/net033=DRN XI0/XI0/net15=GATE vdd!=SRC vdd!=BULK }}
+    {INST XI33/XI2/MM6=n105 {TYPE MOS} {PROP n="four_bit_adder/one_bit_adder/n105" Length=0.03 Width=0.42 Mult=1 }
+	{PIN XI33/XI2/net32=DRN net060=GATE gnd!=SRC gnd!=BULK }}
+    {INST XI33/XI2/MM2=p105 {TYPE MOS} {PROP n="four_bit_adder/one_bit_adder/p105" Length=0.03 Width=0.252 Mult=1 }
+	{PIN XI33/XI2/net11=DRN net060=GATE vdd!=SRC vdd!=BULK }}
+    {INST XI0/XI1/MM2=p105 {TYPE MOS} {PROP n="four_bit_adder/one_bit_adder/p105" Length=0.03 Width=0.252 Mult=1 }
+	{PIN XI0/XI1/net11=DRN net048=GATE vdd!=SRC vdd!=BULK }}
+    {INST XI40/MM2=p105 {TYPE MOS} {PROP n="d_flip_flop/p105" Length=0.03 Width=0.754 Mult=1 }
+	{PIN XI40/net11=DRN XI40/net8=GATE vdd!=SRC vdd!=BULK }}
+    {INST XI8/MM2=p105 {TYPE MOS} {PROP n="d_flip_flop/p105" Length=0.03 Width=0.754 Mult=1 }
+	{PIN XI8/net11=DRN XI8/net8=GATE vdd!=SRC vdd!=BULK }}
+    {INST XI34/MM3=n105 {TYPE MOS} {PROP n="d_flip_flop/n105" Length=0.03 Width=0.42 Mult=1 }
+	{PIN net057=DRN XI34/net05=GATE XI34/net7=SRC gnd!=BULK }}
+    {INST XI8/MM0=n105 {TYPE MOS} {PROP n="d_flip_flop/n105" Length=0.03 Width=0.42 Mult=1 }
+	{PIN XI8/net8=DRN XI8/net7=GATE gnd!=SRC gnd!=BULK }}
+    {INST XI33/XI1/MM26=p105 {TYPE MOS} {PROP n="four_bit_adder/one_bit_adder/p105" Length=0.03 Width=1.215 Mult=1 }
+	{PIN net063=DRN XI33/XI1/net017=GATE vdd!=SRC vdd!=BULK }}
+    {INST XI22/MM5=n105 {TYPE MOS} {PROP n="and2/n105" Length=0.03 Width=0.42 Mult=1 }
+	{PIN net38=DRN XI22/net7=GATE gnd!=SRC gnd!=BULK }}
+    {INST XI5/MM11=n105 {TYPE MOS} {PROP n="d_flip_flop/n105" Length=0.03 Width=0.42 Mult=1 }
+	{PIN XI5/net12=DRN XI5/net05=GATE net0161=SRC gnd!=BULK }}
+    {INST XI43/MM14=p105 {TYPE MOS} {PROP n="d_flip_flop/p105" Length=0.03 Width=0.504 Mult=1 }
+	{PIN XI43/net05=DRN CLK=GATE vdd!=SRC vdd!=BULK }}
+    {INST XI34/MM14=p105 {TYPE MOS} {PROP n="d_flip_flop/p105" Length=0.03 Width=0.504 Mult=1 }
+	{PIN XI34/net05=DRN CLK=GATE vdd!=SRC vdd!=BULK }}
+    {INST XI43/MM5=p105 {TYPE MOS} {PROP n="d_flip_flop/p105" Length=0.03 Width=0.504 Mult=1 }
+	{PIN XI43/net11=DRN XI43/net05=GATE XI43/net7=SRC vdd!=BULK }}
+    {INST XI6/MM7=n105 {TYPE MOS} {PROP n="and2/n105" Length=0.03 Width=0.84 Mult=1 }
+	{PIN XI6/net013=DRN W0=GATE gnd!=SRC gnd!=BULK }}
+    {INST XI0/XI1/MM14=p105 {TYPE MOS} {PROP n="four_bit_adder/one_bit_adder/p105" Length=0.03 Width=0.522 Mult=1 }
+	{PIN XI0/XI1/net19=DRN XI0/net033=GATE vdd!=SRC vdd!=BULK }}
+    {INST XI43/MM0=n105 {TYPE MOS} {PROP n="d_flip_flop/n105" Length=0.03 Width=0.42 Mult=1 }
+	{PIN XI43/net8=DRN XI43/net7=GATE gnd!=SRC gnd!=BULK }}
+    {INST XI14/MM8=p105 {TYPE MOS} {PROP n="and2/p105" Length=0.03 Width=0.252 Mult=1 }
+	{PIN XI14/net7=DRN net082=GATE vdd!=SRC vdd!=BULK }}
+    {INST XI43/MM11=n105 {TYPE MOS} {PROP n="d_flip_flop/n105" Length=0.03 Width=0.42 Mult=1 }
+	{PIN XI43/net12=DRN XI43/net05=GATE net0105=SRC gnd!=BULK }}
+    {INST XI0/XI1/MM22=p105 {TYPE MOS} {PROP n="four_bit_adder/one_bit_adder/p105" Length=0.03 Width=1.174 Mult=1 }
+	{PIN XI0/XI1/net017=DRN XI0/net033=GATE XI0/XI1/net060=SRC vdd!=BULK }}
+    {INST XI0/XI1/MM3=p105 {TYPE MOS} {PROP n="four_bit_adder/one_bit_adder/p105" Length=0.03 Width=0.504 Mult=1 }
+	{PIN XI0/XI1/net33=DRN net048=GATE vdd!=SRC vdd!=BULK }}
+    {INST XI4/MM5=n105 {TYPE MOS} {PROP n="and2/n105" Length=0.03 Width=0.42 Mult=1 }
+	{PIN net046=DRN XI4/net7=GATE gnd!=SRC gnd!=BULK }}
+    {INST XI33/XI2/MM9=n105 {TYPE MOS} {PROP n="four_bit_adder/one_bit_adder/n105" Length=0.03 Width=0.21 Mult=1 }
+	{PIN XI33/XI2/net23=DRN net060=GATE gnd!=SRC gnd!=BULK }}
+    {INST XI0/XI1/MM12=p105 {TYPE MOS} {PROP n="four_bit_adder/one_bit_adder/p105" Length=0.03 Width=0.522 Mult=1 }
+	{PIN XI0/XI1/net19=DRN net046=GATE vdd!=SRC vdd!=BULK }}
+    {INST XI23/MM6=n105 {TYPE MOS} {PROP n="and2/n105" Length=0.03 Width=0.84 Mult=1 }
+	{PIN XI23/net7=DRN net35=GATE XI23/net013=SRC gnd!=BULK }}
+    {INST XI39/MM10=n105 {TYPE MOS} {PROP n="d_flip_flop/n105" Length=0.03 Width=1.404 Mult=1 }
+	{PIN net076=DRN XI39/net13=GATE gnd!=SRC gnd!=BULK }}
+    {INST XI16/MM6=p105 {TYPE MOS} {PROP n="d_flip_flop/p105" Length=0.03 Width=0.504 Mult=1 }
+	{PIN XI16/net12=DRN XI16/net05=GATE XI16/net11=SRC vdd!=BULK }}
+    {INST XI0/XI1/MM24=n105 {TYPE MOS} {PROP n="four_bit_adder/one_bit_adder/n105" Length=0.03 Width=0.978 Mult=1 }
+	{PIN XI0/XI1/net059=DRN net046=GATE XI0/XI1/net058=SRC gnd!=BULK }}
+    {INST XI16/MM15=n105 {TYPE MOS} {PROP n="d_flip_flop/n105" Length=0.03 Width=0.42 Mult=1 }
+	{PIN XI16/net05=DRN CLK=GATE gnd!=SRC gnd!=BULK }}
+    {INST XI34/MM5=p105 {TYPE MOS} {PROP n="d_flip_flop/p105" Length=0.03 Width=0.504 Mult=1 }
+	{PIN XI34/net11=DRN XI34/net05=GATE XI34/net7=SRC vdd!=BULK }}
+    {INST XI0/XI1/MM19=n105 {TYPE MOS} {PROP n="four_bit_adder/one_bit_adder/n105" Length=0.03 Width=0.218 Mult=1 }
+	{PIN XI0/XI1/net033=DRN XI0/net033=GATE gnd!=SRC gnd!=BULK }}
+    {INST XI0/XI1/MM13=p105 {TYPE MOS} {PROP n="four_bit_adder/one_bit_adder/p105" Length=0.03 Width=0.522 Mult=1 }
+	{PIN XI0/XI1/net19=DRN net048=GATE vdd!=SRC vdd!=BULK }}
+    {INST XI40/MM0=n105 {TYPE MOS} {PROP n="d_flip_flop/n105" Length=0.03 Width=0.42 Mult=1 }
+	{PIN XI40/net8=DRN XI40/net7=GATE gnd!=SRC gnd!=BULK }}
+    {INST XI34/MM6=p105 {TYPE MOS} {PROP n="d_flip_flop/p105" Length=0.03 Width=0.504 Mult=1 }
+	{PIN XI34/net12=DRN XI34/net05=GATE XI34/net11=SRC vdd!=BULK }}
+    {INST XI0/XI0/MM11=n105 {TYPE MOS} {PROP n="four_bit_adder/one_bit_adder/n105" Length=0.03 Width=0.42 Mult=1 }
+	{PIN XI0/net033=DRN XI0/XI0/net15=GATE gnd!=SRC gnd!=BULK }}
+    {INST XI33/XI2/MM13=p105 {TYPE MOS} {PROP n="four_bit_adder/one_bit_adder/p105" Length=0.03 Width=0.522 Mult=1 }
+	{PIN XI33/XI2/net19=DRN net060=GATE vdd!=SRC vdd!=BULK }}
+    {INST XI40/MM4=n105 {TYPE MOS} {PROP n="d_flip_flop/n105" Length=0.03 Width=0.628 Mult=1 }
+	{PIN XI40/net11=DRN XI40/net8=GATE gnd!=SRC gnd!=BULK }}
+    {INST XI34/MM7=p105 {TYPE MOS} {PROP n="d_flip_flop/p105" Length=0.03 Width=1.128 Mult=1 }
+	{PIN XI34/net13=DRN XI34/net12=GATE vdd!=SRC vdd!=BULK }}
+    {INST XI8/MM4=n105 {TYPE MOS} {PROP n="d_flip_flop/n105" Length=0.03 Width=0.628 Mult=1 }
+	{PIN XI8/net11=DRN XI8/net8=GATE gnd!=SRC gnd!=BULK }}
+    {INST XI0/XI1/MM6=n105 {TYPE MOS} {PROP n="four_bit_adder/one_bit_adder/n105" Length=0.03 Width=0.42 Mult=1 }
+	{PIN XI0/XI1/net32=DRN net048=GATE gnd!=SRC gnd!=BULK }}
+    {INST XI33/XI2/MM3=p105 {TYPE MOS} {PROP n="four_bit_adder/one_bit_adder/p105" Length=0.03 Width=0.504 Mult=1 }
+	{PIN XI33/XI2/net33=DRN net060=GATE vdd!=SRC vdd!=BULK }}
+    {INST XI33/XI2/MM18=n105 {TYPE MOS} {PROP n="four_bit_adder/one_bit_adder/n105" Length=0.03 Width=0.218 Mult=1 }
+	{PIN XI33/XI2/net033=DRN net060=GATE gnd!=SRC gnd!=BULK }}
+    {INST XI0/XI1/MM17=n105 {TYPE MOS} {PROP n="four_bit_adder/one_bit_adder/n105" Length=0.03 Width=0.218 Mult=1 }
+	{PIN XI0/XI1/net033=DRN net046=GATE gnd!=SRC gnd!=BULK }}
+    {INST XI33/XI2/MM21=p105 {TYPE MOS} {PROP n="four_bit_adder/one_bit_adder/p105" Length=0.03 Width=1.174 Mult=1 }
+	{PIN XI33/XI2/net060=DRN net38=GATE XI33/XI2/net061=SRC vdd!=BULK }}
+    {INST XI33/XI1/MM27=n105 {TYPE MOS} {PROP n="four_bit_adder/one_bit_adder/n105" Length=0.03 Width=1.014 Mult=1 }
+	{PIN net063=DRN XI33/XI1/net017=GATE gnd!=SRC gnd!=BULK }}
+    {INST XI31/MM4=p105 {TYPE MOS} {PROP n="and2/p105" Length=0.03 Width=0.504 Mult=1 }
+	{PIN net0135=DRN XI31/net7=GATE vdd!=SRC vdd!=BULK }}
+    {INST XI39/MM11=n105 {TYPE MOS} {PROP n="d_flip_flop/n105" Length=0.03 Width=0.42 Mult=1 }
+	{PIN XI39/net12=DRN XI39/net05=GATE net076=SRC gnd!=BULK }}
+    {INST XI5/MM9=p105 {TYPE MOS} {PROP n="d_flip_flop/p105" Length=0.03 Width=1.674 Mult=1 }
+	{PIN net0161=DRN XI5/net13=GATE vdd!=SRC vdd!=BULK }}
+    {INST XI33/XI1/MM10=p105 {TYPE MOS} {PROP n="four_bit_adder/one_bit_adder/p105" Length=0.03 Width=0.504 Mult=1 }
+	{PIN XI33/net030=DRN XI33/XI1/net15=GATE vdd!=SRC vdd!=BULK }}
+    {INST XI33/XI2/MM0=p105 {TYPE MOS} {PROP n="four_bit_adder/one_bit_adder/p105" Length=0.03 Width=0.252 Mult=1 }
+	{PIN XI33/XI2/net11=DRN net38=GATE vdd!=SRC vdd!=BULK }}
+    {INST XI0/XI1/MM18=n105 {TYPE MOS} {PROP n="four_bit_adder/one_bit_adder/n105" Length=0.03 Width=0.218 Mult=1 }
+	{PIN XI0/XI1/net033=DRN net048=GATE gnd!=SRC gnd!=BULK }}
+    {INST XI0/XI1/MM21=p105 {TYPE MOS} {PROP n="four_bit_adder/one_bit_adder/p105" Length=0.03 Width=1.174 Mult=1 }
+	{PIN XI0/XI1/net060=DRN net046=GATE XI0/XI1/net061=SRC vdd!=BULK }}
+    {INST XI43/MM15=n105 {TYPE MOS} {PROP n="d_flip_flop/n105" Length=0.03 Width=0.42 Mult=1 }
+	{PIN XI43/net05=DRN CLK=GATE gnd!=SRC gnd!=BULK }}
+    {INST XI34/MM15=n105 {TYPE MOS} {PROP n="d_flip_flop/n105" Length=0.03 Width=0.42 Mult=1 }
+	{PIN XI34/net05=DRN CLK=GATE gnd!=SRC gnd!=BULK }}
+    {INST XI16/MM7=p105 {TYPE MOS} {PROP n="d_flip_flop/p105" Length=0.03 Width=1.128 Mult=1 }
+	{PIN XI16/net13=DRN XI16/net12=GATE vdd!=SRC vdd!=BULK }}
+    {INST XI16/MM3=n105 {TYPE MOS} {PROP n="d_flip_flop/n105" Length=0.03 Width=0.42 Mult=1 }
+	{PIN X1<3>=DRN XI16/net05=GATE XI16/net7=SRC gnd!=BULK }}
+    {INST XI33/XI2/MM24=n105 {TYPE MOS} {PROP n="four_bit_adder/one_bit_adder/n105" Length=0.03 Width=0.978 Mult=1 }
+	{PIN XI33/XI2/net059=DRN net38=GATE XI33/XI2/net058=SRC gnd!=BULK }}
+    {INST XI0/XI1/MM8=n105 {TYPE MOS} {PROP n="four_bit_adder/one_bit_adder/n105" Length=0.03 Width=0.21 Mult=1 }
+	{PIN XI0/XI1/net23=DRN net046=GATE gnd!=SRC gnd!=BULK }}
+    {INST XI8/MM1=p105 {TYPE MOS} {PROP n="d_flip_flop/p105" Length=0.03 Width=0.504 Mult=1 }
+	{PIN XI8/net8=DRN XI8/net7=GATE vdd!=SRC vdd!=BULK }}
+    {INST XI14/MM6=n105 {TYPE MOS} {PROP n="and2/n105" Length=0.03 Width=0.84 Mult=1 }
+	{PIN XI14/net7=DRN net082=GATE XI14/net013=SRC gnd!=BULK }}
+    {INST XI22/MM4=p105 {TYPE MOS} {PROP n="and2/p105" Length=0.03 Width=0.504 Mult=1 }
+	{PIN net38=DRN XI22/net7=GATE vdd!=SRC vdd!=BULK }}
+    {INST XI33/XI3/MM18=n105 {TYPE MOS} {PROP n="four_bit_adder/one_bit_adder/n105" Length=0.03 Width=0.218 Mult=1 }
+	{PIN XI33/XI3/net033=DRN net0135=GATE gnd!=SRC gnd!=BULK }}
+    {INST XI23/MM9=p105 {TYPE MOS} {PROP n="and2/p105" Length=0.03 Width=0.252 Mult=1 }
+	{PIN XI23/net7=DRN W2=GATE vdd!=SRC vdd!=BULK }}
+    {INST XI0/XI1/MM9=n105 {TYPE MOS} {PROP n="four_bit_adder/one_bit_adder/n105" Length=0.03 Width=0.21 Mult=1 }
+	{PIN XI0/XI1/net23=DRN net048=GATE gnd!=SRC gnd!=BULK }}
+    {INST XI14/MM9=p105 {TYPE MOS} {PROP n="and2/p105" Length=0.03 Width=0.252 Mult=1 }
+	{PIN XI14/net7=DRN W1=GATE vdd!=SRC vdd!=BULK }}
+    {INST XI33/XI2/MM8=n105 {TYPE MOS} {PROP n="four_bit_adder/one_bit_adder/n105" Length=0.03 Width=0.21 Mult=1 }
+	{PIN XI33/XI2/net23=DRN net38=GATE gnd!=SRC gnd!=BULK }}
+    {INST XI43/MM1=p105 {TYPE MOS} {PROP n="d_flip_flop/p105" Length=0.03 Width=0.504 Mult=1 }
+	{PIN XI43/net8=DRN XI43/net7=GATE vdd!=SRC vdd!=BULK }}
+    {INST XI34/MM8=n105 {TYPE MOS} {PROP n="d_flip_flop/n105" Length=0.03 Width=0.94 Mult=1 }
+	{PIN XI34/net13=DRN XI34/net12=GATE gnd!=SRC gnd!=BULK }}
+    {INST XI23/MM8=p105 {TYPE MOS} {PROP n="and2/p105" Length=0.03 Width=0.252 Mult=1 }
+	{PIN XI23/net7=DRN net35=GATE vdd!=SRC vdd!=BULK }}
+    {INST XI43/MM6=p105 {TYPE MOS} {PROP n="d_flip_flop/p105" Length=0.03 Width=0.504 Mult=1 }
+	{PIN XI43/net12=DRN XI43/net05=GATE XI43/net11=SRC vdd!=BULK }}
+    {INST XI33/XI2/MM14=p105 {TYPE MOS} {PROP n="four_bit_adder/one_bit_adder/p105" Length=0.03 Width=0.522 Mult=1 }
+	{PIN XI33/XI2/net19=DRN XI33/net030=GATE vdd!=SRC vdd!=BULK }}
+    {INST XI44/XI0/MM20=p105 {TYPE MOS} {PROP n="four_bit_adder/one_bit_adder/p105" Length=0.03 Width=1.174 Mult=1 }
+	{PIN XI44/XI0/net061=DRN net076=GATE vdd!=SRC vdd!=BULK }}
+    {INST XI31/MM5=n105 {TYPE MOS} {PROP n="and2/n105" Length=0.03 Width=0.42 Mult=1 }
+	{PIN net0135=DRN XI31/net7=GATE gnd!=SRC gnd!=BULK }}
+    {INST XI4/MM4=p105 {TYPE MOS} {PROP n="and2/p105" Length=0.03 Width=0.504 Mult=1 }
+	{PIN net046=DRN XI4/net7=GATE vdd!=SRC vdd!=BULK }}
+    {INST XI33/XI2/MM19=n105 {TYPE MOS} {PROP n="four_bit_adder/one_bit_adder/n105" Length=0.03 Width=0.218 Mult=1 }
+	{PIN XI33/XI2/net033=DRN XI33/net030=GATE gnd!=SRC gnd!=BULK }}
+    {INST XI44/XI0/MM25=n105 {TYPE MOS} {PROP n="four_bit_adder/one_bit_adder/n105" Length=0.03 Width=0.978 Mult=1 }
+	{PIN XI44/XI0/net058=DRN net076=GATE gnd!=SRC gnd!=BULK }}
+    {INST XI5/MM10=n105 {TYPE MOS} {PROP n="d_flip_flop/n105" Length=0.03 Width=1.404 Mult=1 }
+	{PIN net0161=DRN XI5/net13=GATE gnd!=SRC gnd!=BULK }}
+    {INST XI39/MM9=p105 {TYPE MOS} {PROP n="d_flip_flop/p105" Length=0.03 Width=1.674 Mult=1 }
+	{PIN net076=DRN XI39/net13=GATE vdd!=SRC vdd!=BULK }}
+    {INST XI0/XI1/MM23=n105 {TYPE MOS} {PROP n="four_bit_adder/one_bit_adder/n105" Length=0.03 Width=0.978 Mult=1 }
+	{PIN XI0/XI1/net017=DRN XI0/net033=GATE XI0/XI1/net059=SRC gnd!=BULK }}
+    {INST XI33/XI1/MM11=n105 {TYPE MOS} {PROP n="four_bit_adder/one_bit_adder/n105" Length=0.03 Width=0.42 Mult=1 }
+	{PIN XI33/net030=DRN XI33/XI1/net15=GATE gnd!=SRC gnd!=BULK }}
+    {INST XI0/XI1/MM0=p105 {TYPE MOS} {PROP n="four_bit_adder/one_bit_adder/p105" Length=0.03 Width=0.252 Mult=1 }
+	{PIN XI0/XI1/net11=DRN net046=GATE vdd!=SRC vdd!=BULK }}
+    {INST XI33/XI3/MM13=p105 {TYPE MOS} {PROP n="four_bit_adder/one_bit_adder/p105" Length=0.03 Width=0.522 Mult=1 }
+	{PIN XI33/XI3/net19=DRN net0135=GATE vdd!=SRC vdd!=BULK }}
+    {INST XI33/XI2/MM12=p105 {TYPE MOS} {PROP n="four_bit_adder/one_bit_adder/p105" Length=0.03 Width=0.522 Mult=1 }
+	{PIN XI33/XI2/net19=DRN net38=GATE vdd!=SRC vdd!=BULK }}
+    {INST XI43/MM9=p105 {TYPE MOS} {PROP n="d_flip_flop/p105" Length=0.03 Width=1.674 Mult=1 }
+	{PIN net0105=DRN XI43/net13=GATE vdd!=SRC vdd!=BULK }}
+    {INST XI39/MM5=p105 {TYPE MOS} {PROP n="d_flip_flop/p105" Length=0.03 Width=0.504 Mult=1 }
+	{PIN XI39/net11=DRN XI39/net05=GATE XI39/net7=SRC vdd!=BULK }}
+    {INST XI22/MM9=p105 {TYPE MOS} {PROP n="and2/p105" Length=0.03 Width=0.252 Mult=1 }
+	{PIN XI22/net7=DRN W2=GATE vdd!=SRC vdd!=BULK }}
+    {INST XI33/XI1/MM5=p105 {TYPE MOS} {PROP n="four_bit_adder/one_bit_adder/p105" Length=0.03 Width=0.504 Mult=1 }
+	{PIN XI33/XI1/net15=DRN XI33/net033=GATE XI33/XI1/net11=SRC vdd!=BULK }}
+    {INST XI5/MM15=n105 {TYPE MOS} {PROP n="d_flip_flop/n105" Length=0.03 Width=0.42 Mult=1 }
+	{PIN XI5/net05=DRN CLK=GATE gnd!=SRC gnd!=BULK }}
+    {INST XI0/XI0/MM5=p105 {TYPE MOS} {PROP n="four_bit_adder/one_bit_adder/p105" Length=0.03 Width=0.504 Mult=1 }
+	{PIN XI0/XI0/net15=DRN gnd!=GATE XI0/XI0/net11=SRC vdd!=BULK }}
+    {INST XI43/MM8=n105 {TYPE MOS} {PROP n="d_flip_flop/n105" Length=0.03 Width=0.94 Mult=1 }
+	{PIN XI43/net13=DRN XI43/net12=GATE gnd!=SRC gnd!=BULK }}
+    {INST XI0/XI0/MM15=p105 {TYPE MOS} {PROP n="four_bit_adder/one_bit_adder/p105" Length=0.03 Width=0.784 Mult=1 }
+	{PIN XI0/XI0/net017=DRN XI0/XI0/net15=GATE XI0/XI0/net19=SRC vdd!=BULK }}
+    {INST XI34/MM1=p105 {TYPE MOS} {PROP n="d_flip_flop/p105" Length=0.03 Width=0.504 Mult=1 }
+	{PIN XI34/net8=DRN XI34/net7=GATE vdd!=SRC vdd!=BULK }}
+    {INST XI13/MM10=n105 {TYPE MOS} {PROP n="d_flip_flop/n105" Length=0.03 Width=1.404 Mult=1 }
+	{PIN net082=DRN XI13/net13=GATE gnd!=SRC gnd!=BULK }}
+    {INST XI24/MM9=p105 {TYPE MOS} {PROP n="d_flip_flop/p105" Length=0.03 Width=1.674 Mult=1 }
+	{PIN net35=DRN XI24/net13=GATE vdd!=SRC vdd!=BULK }}
+    {INST XI4/MM8=p105 {TYPE MOS} {PROP n="and2/p105" Length=0.03 Width=0.252 Mult=1 }
+	{PIN XI4/net7=DRN net75=GATE vdd!=SRC vdd!=BULK }}
+    {INST XI33/XI1/MM22=p105 {TYPE MOS} {PROP n="four_bit_adder/one_bit_adder/p105" Length=0.03 Width=1.174 Mult=1 }
+	{PIN XI33/XI1/net017=DRN XI33/net033=GATE XI33/XI1/net060=SRC vdd!=BULK }}
+    {INST XI33/XI1/MM1=n105 {TYPE MOS} {PROP n="four_bit_adder/one_bit_adder/n105" Length=0.03 Width=0.42 Mult=1 }
+	{PIN XI33/XI1/net15=DRN net45=GATE XI33/XI1/net32=SRC gnd!=BULK }}
+    {INST XI34/MM2=p105 {TYPE MOS} {PROP n="d_flip_flop/p105" Length=0.03 Width=0.754 Mult=1 }
+	{PIN XI34/net11=DRN XI34/net8=GATE vdd!=SRC vdd!=BULK }}
+    {INST XI24/MM11=n105 {TYPE MOS} {PROP n="d_flip_flop/n105" Length=0.03 Width=0.42 Mult=1 }
+	{PIN XI24/net12=DRN XI24/net05=GATE net35=SRC gnd!=BULK }}
+    {INST XI0/XI1/MM20=p105 {TYPE MOS} {PROP n="four_bit_adder/one_bit_adder/p105" Length=0.03 Width=1.174 Mult=1 }
+	{PIN XI0/XI1/net061=DRN net048=GATE vdd!=SRC vdd!=BULK }}
+    {INST XI16/MM4=n105 {TYPE MOS} {PROP n="d_flip_flop/n105" Length=0.03 Width=0.628 Mult=1 }
+	{PIN XI16/net11=DRN XI16/net8=GATE gnd!=SRC gnd!=BULK }}
+    {INST XI22/MM8=p105 {TYPE MOS} {PROP n="and2/p105" Length=0.03 Width=0.252 Mult=1 }
+	{PIN XI22/net7=DRN net077=GATE vdd!=SRC vdd!=BULK }}
+    {INST XI31/MM8=p105 {TYPE MOS} {PROP n="and2/p105" Length=0.03 Width=0.252 Mult=1 }
+	{PIN XI31/net7=DRN net072=GATE vdd!=SRC vdd!=BULK }}
+    {INST XI33/XI2/MM25=n105 {TYPE MOS} {PROP n="four_bit_adder/one_bit_adder/n105" Length=0.03 Width=0.978 Mult=1 }
+	{PIN XI33/XI2/net058=DRN net060=GATE gnd!=SRC gnd!=BULK }}
+    {INST XI5/MM7=p105 {TYPE MOS} {PROP n="d_flip_flop/p105" Length=0.03 Width=1.128 Mult=1 }
+	{PIN XI5/net13=DRN XI5/net12=GATE vdd!=SRC vdd!=BULK }}
+    {INST XI30/MM5=n105 {TYPE MOS} {PROP n="and2/n105" Length=0.03 Width=0.42 Mult=1 }
+	{PIN net060=DRN XI30/net7=GATE gnd!=SRC gnd!=BULK }}
+    {INST XI33/XI1/MM15=p105 {TYPE MOS} {PROP n="four_bit_adder/one_bit_adder/p105" Length=0.03 Width=0.784 Mult=1 }
+	{PIN XI33/XI1/net017=DRN XI33/XI1/net15=GATE XI33/XI1/net19=SRC vdd!=BULK }}
+    {INST XI0/XI0/MM1=n105 {TYPE MOS} {PROP n="four_bit_adder/one_bit_adder/n105" Length=0.03 Width=0.42 Mult=1 }
+	{PIN XI0/XI0/net15=DRN net095=GATE XI0/XI0/net32=SRC gnd!=BULK }}
+    {INST XI47/MM10=n105 {TYPE MOS} {PROP n="or3/n105" Length=0.03 Width=0.14 Mult=1 }
+	{PIN XI47/net10=DRN net0105=GATE gnd!=SRC gnd!=BULK }}
+    {INST XI16/MM1=p105 {TYPE MOS} {PROP n="d_flip_flop/p105" Length=0.03 Width=0.504 Mult=1 }
+	{PIN XI16/net8=DRN XI16/net7=GATE vdd!=SRC vdd!=BULK }}
+    {INST XI0/XI0/MM27=n105 {TYPE MOS} {PROP n="four_bit_adder/one_bit_adder/n105" Length=0.03 Width=1.014 Mult=1 }
+	{PIN net057=DRN XI0/XI0/net017=GATE gnd!=SRC gnd!=BULK }}
+    {INST XI5/MM6=p105 {TYPE MOS} {PROP n="d_flip_flop/p105" Length=0.03 Width=0.504 Mult=1 }
+	{PIN XI5/net12=DRN XI5/net05=GATE XI5/net11=SRC vdd!=BULK }}
+    {INST XI39/MM6=p105 {TYPE MOS} {PROP n="d_flip_flop/p105" Length=0.03 Width=0.504 Mult=1 }
+	{PIN XI39/net12=DRN XI39/net05=GATE XI39/net11=SRC vdd!=BULK }}
+    {INST XI39/MM15=n105 {TYPE MOS} {PROP n="d_flip_flop/n105" Length=0.03 Width=0.42 Mult=1 }
+	{PIN XI39/net05=DRN CLK=GATE gnd!=SRC gnd!=BULK }}
+    {INST XI39/MM7=p105 {TYPE MOS} {PROP n="d_flip_flop/p105" Length=0.03 Width=1.128 Mult=1 }
+	{PIN XI39/net13=DRN XI39/net12=GATE vdd!=SRC vdd!=BULK }}
+    {INST XI43/MM4=n105 {TYPE MOS} {PROP n="d_flip_flop/n105" Length=0.03 Width=0.628 Mult=1 }
+	{PIN XI43/net11=DRN XI43/net8=GATE gnd!=SRC gnd!=BULK }}
+    {INST XI0/XI0/MM16=n105 {TYPE MOS} {PROP n="four_bit_adder/one_bit_adder/n105" Length=0.03 Width=0.654 Mult=1 }
+	{PIN XI0/XI0/net017=DRN XI0/XI0/net15=GATE XI0/XI0/net033=SRC gnd!=BULK }}
+    {INST XI0/XI1/MM25=n105 {TYPE MOS} {PROP n="four_bit_adder/one_bit_adder/n105" Length=0.03 Width=0.978 Mult=1 }
+	{PIN XI0/XI1/net058=DRN net048=GATE gnd!=SRC gnd!=BULK }}
+    {INST XI33/XI1/MM4=p105 {TYPE MOS} {PROP n="four_bit_adder/one_bit_adder/p105" Length=0.03 Width=0.504 Mult=1 }
+	{PIN XI33/XI1/net15=DRN net45=GATE XI33/XI1/net33=SRC vdd!=BULK }}
+    {INST XI5/MM14=p105 {TYPE MOS} {PROP n="d_flip_flop/p105" Length=0.03 Width=0.504 Mult=1 }
+	{PIN XI5/net05=DRN CLK=GATE vdd!=SRC vdd!=BULK }}
+    {INST XI43/MM7=p105 {TYPE MOS} {PROP n="d_flip_flop/p105" Length=0.03 Width=1.128 Mult=1 }
+	{PIN XI43/net13=DRN XI43/net12=GATE vdd!=SRC vdd!=BULK }}
+    {INST XI11/MM5=n105 {TYPE MOS} {PROP n="and2/n105" Length=0.03 Width=0.42 Mult=1 }
+	{PIN net048=DRN XI11/net7=GATE gnd!=SRC gnd!=BULK }}
+    {INST XI13/MM9=p105 {TYPE MOS} {PROP n="d_flip_flop/p105" Length=0.03 Width=1.674 Mult=1 }
+	{PIN net082=DRN XI13/net13=GATE vdd!=SRC vdd!=BULK }}
+    {INST XI14/MM7=n105 {TYPE MOS} {PROP n="and2/n105" Length=0.03 Width=0.84 Mult=1 }
+	{PIN XI14/net013=DRN W1=GATE gnd!=SRC gnd!=BULK }}
+    {INST XI31/MM9=p105 {TYPE MOS} {PROP n="and2/p105" Length=0.03 Width=0.252 Mult=1 }
+	{PIN XI31/net7=DRN W3=GATE vdd!=SRC vdd!=BULK }}
+    {INST XI43/MM10=n105 {TYPE MOS} {PROP n="d_flip_flop/n105" Length=0.03 Width=1.404 Mult=1 }
+	{PIN net0105=DRN XI43/net13=GATE gnd!=SRC gnd!=BULK }}
+    {INST XI13/MM11=n105 {TYPE MOS} {PROP n="d_flip_flop/n105" Length=0.03 Width=0.42 Mult=1 }
+	{PIN XI13/net12=DRN XI13/net05=GATE net082=SRC gnd!=BULK }}
+    {INST XI33/XI1/MM16=n105 {TYPE MOS} {PROP n="four_bit_adder/one_bit_adder/n105" Length=0.03 Width=0.654 Mult=1 }
+	{PIN XI33/XI1/net017=DRN XI33/XI1/net15=GATE XI33/XI1/net033=SRC gnd!=BULK }}
+    {INST XI33/XI1/MM7=n105 {TYPE MOS} {PROP n="four_bit_adder/one_bit_adder/n105" Length=0.03 Width=0.42 Mult=1 }
+	{PIN XI33/XI1/net15=DRN XI33/net033=GATE XI33/XI1/net23=SRC gnd!=BULK }}
+    {INST XI0/XI0/MM4=p105 {TYPE MOS} {PROP n="four_bit_adder/one_bit_adder/p105" Length=0.03 Width=0.504 Mult=1 }
+	{PIN XI0/XI0/net15=DRN net095=GATE XI0/XI0/net33=SRC vdd!=BULK }}
+    {INST XI0/XI0/MM7=n105 {TYPE MOS} {PROP n="four_bit_adder/one_bit_adder/n105" Length=0.03 Width=0.42 Mult=1 }
+	{PIN XI0/XI0/net15=DRN gnd!=GATE XI0/XI0/net23=SRC gnd!=BULK }}
+    {INST XI16/MM2=p105 {TYPE MOS} {PROP n="d_flip_flop/p105" Length=0.03 Width=0.754 Mult=1 }
+	{PIN XI16/net11=DRN XI16/net8=GATE vdd!=SRC vdd!=BULK }}
+    {INST XI5/MM3=n105 {TYPE MOS} {PROP n="d_flip_flop/n105" Length=0.03 Width=0.42 Mult=1 }
+	{PIN X0<2>=DRN XI5/net05=GATE XI5/net7=SRC gnd!=BULK }}
+    {INST XI34/MM0=n105 {TYPE MOS} {PROP n="d_flip_flop/n105" Length=0.03 Width=0.42 Mult=1 }
+	{PIN XI34/net8=DRN XI34/net7=GATE gnd!=SRC gnd!=BULK }}
+    {INST XI24/MM10=n105 {TYPE MOS} {PROP n="d_flip_flop/n105" Length=0.03 Width=1.404 Mult=1 }
+	{PIN net35=DRN XI24/net13=GATE gnd!=SRC gnd!=BULK }}
+    {INST XI30/MM4=p105 {TYPE MOS} {PROP n="and2/p105" Length=0.03 Width=0.504 Mult=1 }
+	{PIN net060=DRN XI30/net7=GATE vdd!=SRC vdd!=BULK }}
+    {INST XI34/MM4=n105 {TYPE MOS} {PROP n="d_flip_flop/n105" Length=0.03 Width=0.628 Mult=1 }
+	{PIN XI34/net11=DRN XI34/net8=GATE gnd!=SRC gnd!=BULK }}
+    {INST XI0/XI0/MM26=p105 {TYPE MOS} {PROP n="four_bit_adder/one_bit_adder/p105" Length=0.03 Width=1.215 Mult=1 }
+	{PIN net057=DRN XI0/XI0/net017=GATE vdd!=SRC vdd!=BULK }}
+    {INST XI4/MM9=p105 {TYPE MOS} {PROP n="and2/p105" Length=0.03 Width=0.252 Mult=1 }
+	{PIN XI4/net7=DRN W0=GATE vdd!=SRC vdd!=BULK }}
+    {INST XI39/MM14=p105 {TYPE MOS} {PROP n="d_flip_flop/p105" Length=0.03 Width=0.504 Mult=1 }
+	{PIN XI39/net05=DRN CLK=GATE vdd!=SRC vdd!=BULK }}
+    {INST XI43/MM2=p105 {TYPE MOS} {PROP n="d_flip_flop/p105" Length=0.03 Width=0.754 Mult=1 }
+	{PIN XI43/net11=DRN XI43/net8=GATE vdd!=SRC vdd!=BULK }}
+    {INST XI33/XI1/MM23=n105 {TYPE MOS} {PROP n="four_bit_adder/one_bit_adder/n105" Length=0.03 Width=0.978 Mult=1 }
+	{PIN XI33/XI1/net017=DRN XI33/net033=GATE XI33/XI1/net059=SRC gnd!=BULK }}
+    {INST XI5/MM8=n105 {TYPE MOS} {PROP n="d_flip_flop/n105" Length=0.03 Width=0.94 Mult=1 }
+	{PIN XI5/net13=DRN XI5/net12=GATE gnd!=SRC gnd!=BULK }}
+    {INST XI4/MM6=n105 {TYPE MOS} {PROP n="and2/n105" Length=0.03 Width=0.84 Mult=1 }
+	{PIN XI4/net7=DRN net75=GATE XI4/net013=SRC gnd!=BULK }}
+    {INST XI23/MM7=n105 {TYPE MOS} {PROP n="and2/n105" Length=0.03 Width=0.84 Mult=1 }
+	{PIN XI23/net013=DRN W2=GATE gnd!=SRC gnd!=BULK }}
+    {INST XI33/XI2/MM20=p105 {TYPE MOS} {PROP n="four_bit_adder/one_bit_adder/p105" Length=0.03 Width=1.174 Mult=1 }
+	{PIN XI33/XI2/net061=DRN net060=GATE vdd!=SRC vdd!=BULK }}
+    {INST XI16/MM0=n105 {TYPE MOS} {PROP n="d_flip_flop/n105" Length=0.03 Width=0.42 Mult=1 }
+	{PIN XI16/net8=DRN XI16/net7=GATE gnd!=SRC gnd!=BULK }}
+    {INST XI11/MM4=p105 {TYPE MOS} {PROP n="and2/p105" Length=0.03 Width=0.504 Mult=1 }
+	{PIN net048=DRN XI11/net7=GATE vdd!=SRC vdd!=BULK }}
+    {INST XI39/MM3=n105 {TYPE MOS} {PROP n="d_flip_flop/n105" Length=0.03 Width=0.42 Mult=1 }
+	{PIN net062=DRN XI39/net05=GATE XI39/net7=SRC gnd!=BULK }}
+    {INST XI5/MM5=p105 {TYPE MOS} {PROP n="d_flip_flop/p105" Length=0.03 Width=0.504 Mult=1 }
+	{PIN XI5/net11=DRN XI5/net05=GATE XI5/net7=SRC vdd!=BULK }}
+    {INST XI39/MM8=n105 {TYPE MOS} {PROP n="d_flip_flop/n105" Length=0.03 Width=0.94 Mult=1 }
+	{PIN XI39/net13=DRN XI39/net12=GATE gnd!=SRC gnd!=BULK }}
+    {INST XI22/MM6=n105 {TYPE MOS} {PROP n="and2/n105" Length=0.03 Width=0.84 Mult=1 }
+	{PIN XI22/net7=DRN net077=GATE XI22/net013=SRC gnd!=BULK }}
+    {INST XI31/MM6=n105 {TYPE MOS} {PROP n="and2/n105" Length=0.03 Width=0.84 Mult=1 }
+	{PIN XI31/net7=DRN net072=GATE XI31/net013=SRC gnd!=BULK }}
+    {INST XI0/XI0/MM19=n105 {TYPE MOS} {PROP n="four_bit_adder/one_bit_adder/n105" Length=0.03 Width=0.218 Mult=1 }
+	{PIN XI0/XI0/net033=DRN gnd!=GATE gnd!=SRC gnd!=BULK }}
+    {INST XI21/MM11=n105 {TYPE MOS} {PROP n="d_flip_flop/n105" Length=0.03 Width=0.42 Mult=1 }
+	{PIN XI21/net12=DRN XI21/net05=GATE net077=SRC gnd!=BULK }}
+    {INST XI30/MM9=p105 {TYPE MOS} {PROP n="and2/p105" Length=0.03 Width=0.252 Mult=1 }
+	{PIN XI30/net7=DRN W3=GATE vdd!=SRC vdd!=BULK }}
+    {INST XI33/XI1/MM21=p105 {TYPE MOS} {PROP n="four_bit_adder/one_bit_adder/p105" Length=0.03 Width=1.174 Mult=1 }
+	{PIN XI33/XI1/net060=DRN net45=GATE XI33/XI1/net061=SRC vdd!=BULK }}
+    {INST XI32/MM10=n105 {TYPE MOS} {PROP n="d_flip_flop/n105" Length=0.03 Width=1.404 Mult=1 }
+	{PIN net072=DRN XI32/net13=GATE gnd!=SRC gnd!=BULK }}
+    {INST XI0/XI0/MM13=p105 {TYPE MOS} {PROP n="four_bit_adder/one_bit_adder/p105" Length=0.03 Width=0.522 Mult=1 }
+	{PIN XI0/XI0/net19=DRN net045=GATE vdd!=SRC vdd!=BULK }}
+    {INST XI0/XI0/MM12=p105 {TYPE MOS} {PROP n="four_bit_adder/one_bit_adder/p105" Length=0.03 Width=0.522 Mult=1 }
+	{PIN XI0/XI0/net19=DRN net095=GATE vdd!=SRC vdd!=BULK }}
+    {INST XI32/MM9=p105 {TYPE MOS} {PROP n="d_flip_flop/p105" Length=0.03 Width=1.674 Mult=1 }
+	{PIN net072=DRN XI32/net13=GATE vdd!=SRC vdd!=BULK }}
+    {INST XI30/MM8=p105 {TYPE MOS} {PROP n="and2/p105" Length=0.03 Width=0.252 Mult=1 }
+	{PIN XI30/net7=DRN net25=GATE vdd!=SRC vdd!=BULK }}
+    {INST XI24/MM3=n105 {TYPE MOS} {PROP n="d_flip_flop/n105" Length=0.03 Width=0.42 Mult=1 }
+	{PIN X2<3>=DRN XI24/net05=GATE XI24/net7=SRC gnd!=BULK }}
+    {INST XI24/MM6=p105 {TYPE MOS} {PROP n="d_flip_flop/p105" Length=0.03 Width=0.504 Mult=1 }
+	{PIN XI24/net12=DRN XI24/net05=GATE XI24/net11=SRC vdd!=BULK }}
+    {INST XI0/XI0/MM6=n105 {TYPE MOS} {PROP n="four_bit_adder/one_bit_adder/n105" Length=0.03 Width=0.42 Mult=1 }
+	{PIN XI0/XI0/net32=DRN net045=GATE gnd!=SRC gnd!=BULK }}
+    {INST XI5/MM0=n105 {TYPE MOS} {PROP n="d_flip_flop/n105" Length=0.03 Width=0.42 Mult=1 }
+	{PIN XI5/net8=DRN XI5/net7=GATE gnd!=SRC gnd!=BULK }}
+    {INST XI13/MM6=p105 {TYPE MOS} {PROP n="d_flip_flop/p105" Length=0.03 Width=0.504 Mult=1 }
+	{PIN XI13/net12=DRN XI13/net05=GATE XI13/net11=SRC vdd!=BULK }}
+    {INST XI33/XI0/MM11=n105 {TYPE MOS} {PROP n="four_bit_adder/one_bit_adder/n105" Length=0.03 Width=0.42 Mult=1 }
+	{PIN XI33/net033=DRN XI33/XI0/net15=GATE gnd!=SRC gnd!=BULK }}
+    {INST XI5/MM1=p105 {TYPE MOS} {PROP n="d_flip_flop/p105" Length=0.03 Width=0.504 Mult=1 }
+	{PIN XI5/net8=DRN XI5/net7=GATE vdd!=SRC vdd!=BULK }}
+    {INST XI39/MM0=n105 {TYPE MOS} {PROP n="d_flip_flop/n105" Length=0.03 Width=0.42 Mult=1 }
+	{PIN XI39/net8=DRN XI39/net7=GATE gnd!=SRC gnd!=BULK }}
+    {INST XI33/XI0/MM10=p105 {TYPE MOS} {PROP n="four_bit_adder/one_bit_adder/p105" Length=0.03 Width=0.504 Mult=1 }
+	{PIN XI33/net033=DRN XI33/XI0/net15=GATE vdd!=SRC vdd!=BULK }}
+    {INST XI33/XI1/MM6=n105 {TYPE MOS} {PROP n="four_bit_adder/one_bit_adder/n105" Length=0.03 Width=0.42 Mult=1 }
+	{PIN XI33/XI1/net32=DRN net070=GATE gnd!=SRC gnd!=BULK }}
+    {INST XI0/XI0/MM18=n105 {TYPE MOS} {PROP n="four_bit_adder/one_bit_adder/n105" Length=0.03 Width=0.218 Mult=1 }
+	{PIN XI0/XI0/net033=DRN net045=GATE gnd!=SRC gnd!=BULK }}
+    {INST XI0/XI0/MM17=n105 {TYPE MOS} {PROP n="four_bit_adder/one_bit_adder/n105" Length=0.03 Width=0.218 Mult=1 }
+	{PIN XI0/XI0/net033=DRN net095=GATE gnd!=SRC gnd!=BULK }}
+    {INST XI39/MM1=p105 {TYPE MOS} {PROP n="d_flip_flop/p105" Length=0.03 Width=0.504 Mult=1 }
+	{PIN XI39/net8=DRN XI39/net7=GATE vdd!=SRC vdd!=BULK }}
+    {INST XI39/MM4=n105 {TYPE MOS} {PROP n="d_flip_flop/n105" Length=0.03 Width=0.628 Mult=1 }
+	{PIN XI39/net11=DRN XI39/net8=GATE gnd!=SRC gnd!=BULK }}
+    {INST XI21/MM10=n105 {TYPE MOS} {PROP n="d_flip_flop/n105" Length=0.03 Width=1.404 Mult=1 }
+	{PIN net077=DRN XI21/net13=GATE gnd!=SRC gnd!=BULK }}
+    {INST XI33/XI1/MM3=p105 {TYPE MOS} {PROP n="four_bit_adder/one_bit_adder/p105" Length=0.03 Width=0.504 Mult=1 }
+	{PIN XI33/XI1/net33=DRN net070=GATE vdd!=SRC vdd!=BULK }}
+    {INST XI33/XI1/MM18=n105 {TYPE MOS} {PROP n="four_bit_adder/one_bit_adder/n105" Length=0.03 Width=0.218 Mult=1 }
+	{PIN XI33/XI1/net033=DRN net070=GATE gnd!=SRC gnd!=BULK }}
+    {INST XI0/XI0/MM23=n105 {TYPE MOS} {PROP n="four_bit_adder/one_bit_adder/n105" Length=0.03 Width=0.978 Mult=1 }
+	{PIN XI0/XI0/net017=DRN gnd!=GATE XI0/XI0/net059=SRC gnd!=BULK }}
+    {INST XI39/MM2=p105 {TYPE MOS} {PROP n="d_flip_flop/p105" Length=0.03 Width=0.754 Mult=1 }
+	{PIN XI39/net11=DRN XI39/net8=GATE vdd!=SRC vdd!=BULK }}
+    {INST XI21/MM9=p105 {TYPE MOS} {PROP n="d_flip_flop/p105" Length=0.03 Width=1.674 Mult=1 }
+	{PIN net077=DRN XI21/net13=GATE vdd!=SRC vdd!=BULK }}
+    {INST XI3/MM11=n105 {TYPE MOS} {PROP n="d_flip_flop/n105" Length=0.03 Width=0.42 Mult=1 }
+	{PIN XI3/net12=DRN XI3/net05=GATE net75=SRC gnd!=BULK }}
+    {INST XI33/XI1/MM2=p105 {TYPE MOS} {PROP n="four_bit_adder/one_bit_adder/p105" Length=0.03 Width=0.252 Mult=1 }
+	{PIN XI33/XI1/net11=DRN net070=GATE vdd!=SRC vdd!=BULK }}
+    {INST XI11/MM6=n105 {TYPE MOS} {PROP n="and2/n105" Length=0.03 Width=0.84 Mult=1 }
+	{PIN XI11/net7=DRN net59=GATE XI11/net013=SRC gnd!=BULK }}
+    {INST XI33/XI1/MM14=p105 {TYPE MOS} {PROP n="four_bit_adder/one_bit_adder/p105" Length=0.03 Width=0.522 Mult=1 }
+	{PIN XI33/XI1/net19=DRN XI33/net033=GATE vdd!=SRC vdd!=BULK }}
+    {INST XI24/MM5=p105 {TYPE MOS} {PROP n="d_flip_flop/p105" Length=0.03 Width=0.504 Mult=1 }
+	{PIN XI24/net11=DRN XI24/net05=GATE XI24/net7=SRC vdd!=BULK }}
+    {INST XI33/XI1/MM8=n105 {TYPE MOS} {PROP n="four_bit_adder/one_bit_adder/n105" Length=0.03 Width=0.21 Mult=1 }
+	{PIN XI33/XI1/net23=DRN net45=GATE gnd!=SRC gnd!=BULK }}
+    {INST XI13/MM8=n105 {TYPE MOS} {PROP n="d_flip_flop/n105" Length=0.03 Width=0.94 Mult=1 }
+	{PIN XI13/net13=DRN XI13/net12=GATE gnd!=SRC gnd!=BULK }}
+    {INST XI13/MM3=n105 {TYPE MOS} {PROP n="d_flip_flop/n105" Length=0.03 Width=0.42 Mult=1 }
+	{PIN X1<2>=DRN XI13/net05=GATE XI13/net7=SRC gnd!=BULK }}
+    {INST XI22/MM7=n105 {TYPE MOS} {PROP n="and2/n105" Length=0.03 Width=0.84 Mult=1 }
+	{PIN XI22/net013=DRN W2=GATE gnd!=SRC gnd!=BULK }}
+    {INST XI33/XI1/MM24=n105 {TYPE MOS} {PROP n="four_bit_adder/one_bit_adder/n105" Length=0.03 Width=0.978 Mult=1 }
+	{PIN XI33/XI1/net059=DRN net45=GATE XI33/XI1/net058=SRC gnd!=BULK }}
+    {INST XI13/MM7=p105 {TYPE MOS} {PROP n="d_flip_flop/p105" Length=0.03 Width=1.128 Mult=1 }
+	{PIN XI13/net13=DRN XI13/net12=GATE vdd!=SRC vdd!=BULK }}
+    {INST XI3/MM10=n105 {TYPE MOS} {PROP n="d_flip_flop/n105" Length=0.03 Width=1.404 Mult=1 }
+	{PIN net75=DRN XI3/net13=GATE gnd!=SRC gnd!=BULK }}
+    {INST XI33/XI0/MM27=n105 {TYPE MOS} {PROP n="four_bit_adder/one_bit_adder/n105" Length=0.03 Width=1.014 Mult=1 }
+	{PIN net062=DRN XI33/XI0/net017=GATE gnd!=SRC gnd!=BULK }}
+    {INST XI0/XI0/MM3=p105 {TYPE MOS} {PROP n="four_bit_adder/one_bit_adder/p105" Length=0.03 Width=0.504 Mult=1 }
+	{PIN XI0/XI0/net33=DRN net045=GATE vdd!=SRC vdd!=BULK }}
+    {INST XI33/XI1/MM12=p105 {TYPE MOS} {PROP n="four_bit_adder/one_bit_adder/p105" Length=0.03 Width=0.522 Mult=1 }
+	{PIN XI33/XI1/net19=DRN net45=GATE vdd!=SRC vdd!=BULK }}
+    {INST XI13/MM15=n105 {TYPE MOS} {PROP n="d_flip_flop/n105" Length=0.03 Width=0.42 Mult=1 }
+	{PIN XI13/net05=DRN CLK=GATE gnd!=SRC gnd!=BULK }}
+    {INST XI3/MM9=p105 {TYPE MOS} {PROP n="d_flip_flop/p105" Length=0.03 Width=1.674 Mult=1 }
+	{PIN net75=DRN XI3/net13=GATE vdd!=SRC vdd!=BULK }}
+    {INST XI33/XI0/MM26=p105 {TYPE MOS} {PROP n="four_bit_adder/one_bit_adder/p105" Length=0.03 Width=1.215 Mult=1 }
+	{PIN net062=DRN XI33/XI0/net017=GATE vdd!=SRC vdd!=BULK }}
+    {INST XI31/MM7=n105 {TYPE MOS} {PROP n="and2/n105" Length=0.03 Width=0.84 Mult=1 }
+	{PIN XI31/net013=DRN W3=GATE gnd!=SRC gnd!=BULK }}
+    {INST XI13/MM14=p105 {TYPE MOS} {PROP n="d_flip_flop/p105" Length=0.03 Width=0.504 Mult=1 }
+	{PIN XI13/net05=DRN CLK=GATE vdd!=SRC vdd!=BULK }}
+    {INST XI24/MM8=n105 {TYPE MOS} {PROP n="d_flip_flop/n105" Length=0.03 Width=0.94 Mult=1 }
+	{PIN XI24/net13=DRN XI24/net12=GATE gnd!=SRC gnd!=BULK }}
+    {INST XI0/XI0/MM22=p105 {TYPE MOS} {PROP n="four_bit_adder/one_bit_adder/p105" Length=0.03 Width=1.174 Mult=1 }
+	{PIN XI0/XI0/net017=DRN gnd!=GATE XI0/XI0/net060=SRC vdd!=BULK }}
+    {INST XI24/MM7=p105 {TYPE MOS} {PROP n="d_flip_flop/p105" Length=0.03 Width=1.128 Mult=1 }
+	{PIN XI24/net13=DRN XI24/net12=GATE vdd!=SRC vdd!=BULK }}
+    {INST XI11/MM8=p105 {TYPE MOS} {PROP n="and2/p105" Length=0.03 Width=0.252 Mult=1 }
+	{PIN XI11/net7=DRN net59=GATE vdd!=SRC vdd!=BULK }}
+    {INST XI33/XI1/MM19=n105 {TYPE MOS} {PROP n="four_bit_adder/one_bit_adder/n105" Length=0.03 Width=0.218 Mult=1 }
+	{PIN XI33/XI1/net033=DRN XI33/net033=GATE gnd!=SRC gnd!=BULK }}
+    {INST XI11/MM9=p105 {TYPE MOS} {PROP n="and2/p105" Length=0.03 Width=0.252 Mult=1 }
+	{PIN XI11/net7=DRN W1=GATE vdd!=SRC vdd!=BULK }}
+    {INST XI0/XI0/MM9=n105 {TYPE MOS} {PROP n="four_bit_adder/one_bit_adder/n105" Length=0.03 Width=0.21 Mult=1 }
+	{PIN XI0/XI0/net23=DRN net045=GATE gnd!=SRC gnd!=BULK }}
+    {INST XI0/XI0/MM8=n105 {TYPE MOS} {PROP n="four_bit_adder/one_bit_adder/n105" Length=0.03 Width=0.21 Mult=1 }
+	{PIN XI0/XI0/net23=DRN net095=GATE gnd!=SRC gnd!=BULK }}
+    {INST XI5/MM4=n105 {TYPE MOS} {PROP n="d_flip_flop/n105" Length=0.03 Width=0.628 Mult=1 }
+	{PIN XI5/net11=DRN XI5/net8=GATE gnd!=SRC gnd!=BULK }}
+    {INST XI2/MM5=n105 {TYPE MOS} {PROP n="and2/n105" Length=0.03 Width=0.42 Mult=1 }
+	{PIN net095=DRN XI2/net7=GATE gnd!=SRC gnd!=BULK }}
+    {INST XI0/XI0/MM2=p105 {TYPE MOS} {PROP n="four_bit_adder/one_bit_adder/p105" Length=0.03 Width=0.252 Mult=1 }
+	{PIN XI0/XI0/net11=DRN net045=GATE vdd!=SRC vdd!=BULK }}
+    {INST XI0/XI0/MM0=p105 {TYPE MOS} {PROP n="four_bit_adder/one_bit_adder/p105" Length=0.03 Width=0.252 Mult=1 }
+	{PIN XI0/XI0/net11=DRN net095=GATE vdd!=SRC vdd!=BULK }}
+    {INST XI24/MM15=n105 {TYPE MOS} {PROP n="d_flip_flop/n105" Length=0.03 Width=0.42 Mult=1 }
+	{PIN XI24/net05=DRN CLK=GATE gnd!=SRC gnd!=BULK }}
+    {INST XI5/MM2=p105 {TYPE MOS} {PROP n="d_flip_flop/p105" Length=0.03 Width=0.754 Mult=1 }
+	{PIN XI5/net11=DRN XI5/net8=GATE vdd!=SRC vdd!=BULK }}
+    {INST XI30/MM6=n105 {TYPE MOS} {PROP n="and2/n105" Length=0.03 Width=0.84 Mult=1 }
+	{PIN XI30/net7=DRN net25=GATE XI30/net013=SRC gnd!=BULK }}
+    {INST XI2/MM4=p105 {TYPE MOS} {PROP n="and2/p105" Length=0.03 Width=0.504 Mult=1 }
+	{PIN net095=DRN XI2/net7=GATE vdd!=SRC vdd!=BULK }}
+    {INST XI13/MM5=p105 {TYPE MOS} {PROP n="d_flip_flop/p105" Length=0.03 Width=0.504 Mult=1 }
+	{PIN XI13/net11=DRN XI13/net05=GATE XI13/net7=SRC vdd!=BULK }}
+    {INST XI32/MM11=n105 {TYPE MOS} {PROP n="d_flip_flop/n105" Length=0.03 Width=0.42 Mult=1 }
+	{PIN XI32/net12=DRN XI32/net05=GATE net072=SRC gnd!=BULK }}
+    {INST XI33/XI1/MM17=n105 {TYPE MOS} {PROP n="four_bit_adder/one_bit_adder/n105" Length=0.03 Width=0.218 Mult=1 }
+	{PIN XI33/XI1/net033=DRN net45=GATE gnd!=SRC gnd!=BULK }}
+    {INST XI0/XI0/MM14=p105 {TYPE MOS} {PROP n="four_bit_adder/one_bit_adder/p105" Length=0.03 Width=0.522 Mult=1 }
+	{PIN XI0/XI0/net19=DRN gnd!=GATE vdd!=SRC vdd!=BULK }}
+    {INST XI24/MM14=p105 {TYPE MOS} {PROP n="d_flip_flop/p105" Length=0.03 Width=0.504 Mult=1 }
+	{PIN XI24/net05=DRN CLK=GATE vdd!=SRC vdd!=BULK }}
+    {INST XI19/MM5=n105 {TYPE MOS} {PROP n="and2/n105" Length=0.03 Width=0.42 Mult=1 }
+	{PIN net45=DRN XI19/net7=GATE gnd!=SRC gnd!=BULK }}
+    {INST XI4/MM7=n105 {TYPE MOS} {PROP n="and2/n105" Length=0.03 Width=0.84 Mult=1 }
+	{PIN XI4/net013=DRN W0=GATE gnd!=SRC gnd!=BULK }}
+    {INST XI33/XI1/MM9=n105 {TYPE MOS} {PROP n="four_bit_adder/one_bit_adder/n105" Length=0.03 Width=0.21 Mult=1 }
+	{PIN XI33/XI1/net23=DRN net070=GATE gnd!=SRC gnd!=BULK }}
+    {INST XI0/XI0/MM21=p105 {TYPE MOS} {PROP n="four_bit_adder/one_bit_adder/p105" Length=0.03 Width=1.174 Mult=1 }
+	{PIN XI0/XI0/net060=DRN net095=GATE XI0/XI0/net061=SRC vdd!=BULK }}
+    {INST XI19/MM4=p105 {TYPE MOS} {PROP n="and2/p105" Length=0.03 Width=0.504 Mult=1 }
+	{PIN net45=DRN XI19/net7=GATE vdd!=SRC vdd!=BULK }}
+    {INST XI33/XI1/MM0=p105 {TYPE MOS} {PROP n="four_bit_adder/one_bit_adder/p105" Length=0.03 Width=0.252 Mult=1 }
+	{PIN XI33/XI1/net11=DRN net45=GATE vdd!=SRC vdd!=BULK }}
+    {INST XI0/XI0/MM24=n105 {TYPE MOS} {PROP n="four_bit_adder/one_bit_adder/n105" Length=0.03 Width=0.978 Mult=1 }
+	{PIN XI0/XI0/net059=DRN net095=GATE XI0/XI0/net058=SRC gnd!=BULK }}
+    {INST XI33/XI1/MM13=p105 {TYPE MOS} {PROP n="four_bit_adder/one_bit_adder/p105" Length=0.03 Width=0.522 Mult=1 }
+	{PIN XI33/XI1/net19=DRN net070=GATE vdd!=SRC vdd!=BULK }}
+    {INST XI33/XI0/MM23=n105 {TYPE MOS} {PROP n="four_bit_adder/one_bit_adder/n105" Length=0.03 Width=0.978 Mult=1 }
+	{PIN XI33/XI0/net017=DRN gnd!=GATE XI33/XI0/net059=SRC gnd!=BULK }}
+    {INST XI13/MM4=n105 {TYPE MOS} {PROP n="d_flip_flop/n105" Length=0.03 Width=0.628 Mult=1 }
+	{PIN XI13/net11=DRN XI13/net8=GATE gnd!=SRC gnd!=BULK }}
+    {INST XI12/MM10=n105 {TYPE MOS} {PROP n="d_flip_flop/n105" Length=0.03 Width=1.404 Mult=1 }
+	{PIN net59=DRN XI12/net13=GATE gnd!=SRC gnd!=BULK }}
+    {INST XI30/MM7=n105 {TYPE MOS} {PROP n="and2/n105" Length=0.03 Width=0.84 Mult=1 }
+	{PIN XI30/net013=DRN W3=GATE gnd!=SRC gnd!=BULK }}
+    {INST XI27/MM4=p105 {TYPE MOS} {PROP n="and2/p105" Length=0.03 Width=0.504 Mult=1 }
+	{PIN net070=DRN XI27/net7=GATE vdd!=SRC vdd!=BULK }}
+    {INST XI29/MM11=n105 {TYPE MOS} {PROP n="d_flip_flop/n105" Length=0.03 Width=0.42 Mult=1 }
+	{PIN XI29/net12=DRN XI29/net05=GATE net25=SRC gnd!=BULK }}
+    {INST XI33/XI0/MM5=p105 {TYPE MOS} {PROP n="four_bit_adder/one_bit_adder/p105" Length=0.03 Width=0.504 Mult=1 }
+	{PIN XI33/XI0/net15=DRN gnd!=GATE XI33/XI0/net11=SRC vdd!=BULK }}
+    {INST XI24/MM0=n105 {TYPE MOS} {PROP n="d_flip_flop/n105" Length=0.03 Width=0.42 Mult=1 }
+	{PIN XI24/net8=DRN XI24/net7=GATE gnd!=SRC gnd!=BULK }}
+    {INST XI21/MM8=n105 {TYPE MOS} {PROP n="d_flip_flop/n105" Length=0.03 Width=0.94 Mult=1 }
+	{PIN XI21/net13=DRN XI21/net12=GATE gnd!=SRC gnd!=BULK }}
+    {INST XI32/MM6=p105 {TYPE MOS} {PROP n="d_flip_flop/p105" Length=0.03 Width=0.504 Mult=1 }
+	{PIN XI32/net12=DRN XI32/net05=GATE XI32/net11=SRC vdd!=BULK }}
+    {INST XI21/MM5=p105 {TYPE MOS} {PROP n="d_flip_flop/p105" Length=0.03 Width=0.504 Mult=1 }
+	{PIN XI21/net11=DRN XI21/net05=GATE XI21/net7=SRC vdd!=BULK }}
+    {INST XI21/MM6=p105 {TYPE MOS} {PROP n="d_flip_flop/p105" Length=0.03 Width=0.504 Mult=1 }
+	{PIN XI21/net12=DRN XI21/net05=GATE XI21/net11=SRC vdd!=BULK }}
+    {INST XI0/XI0/MM25=n105 {TYPE MOS} {PROP n="four_bit_adder/one_bit_adder/n105" Length=0.03 Width=0.978 Mult=1 }
+	{PIN XI0/XI0/net058=DRN net045=GATE gnd!=SRC gnd!=BULK }}
+    {INST XI33/XI0/MM1=n105 {TYPE MOS} {PROP n="four_bit_adder/one_bit_adder/n105" Length=0.03 Width=0.42 Mult=1 }
+	{PIN XI33/XI0/net15=DRN net46=GATE XI33/XI0/net32=SRC gnd!=BULK }}
+    {INST XI32/MM15=n105 {TYPE MOS} {PROP n="d_flip_flop/n105" Length=0.03 Width=0.42 Mult=1 }
+	{PIN XI32/net05=DRN CLK=GATE gnd!=SRC gnd!=BULK }}
+    {INST XI32/MM7=p105 {TYPE MOS} {PROP n="d_flip_flop/p105" Length=0.03 Width=1.128 Mult=1 }
+	{PIN XI32/net13=DRN XI32/net12=GATE vdd!=SRC vdd!=BULK }}
+    {INST XI29/MM10=n105 {TYPE MOS} {PROP n="d_flip_flop/n105" Length=0.03 Width=1.404 Mult=1 }
+	{PIN net25=DRN XI29/net13=GATE gnd!=SRC gnd!=BULK }}
+    {INST XI3/MM6=p105 {TYPE MOS} {PROP n="d_flip_flop/p105" Length=0.03 Width=0.504 Mult=1 }
+	{PIN XI3/net12=DRN XI3/net05=GATE XI3/net11=SRC vdd!=BULK }}
+    {INST XI2/MM9=p105 {TYPE MOS} {PROP n="and2/p105" Length=0.03 Width=0.252 Mult=1 }
+	{PIN XI2/net7=DRN W0=GATE vdd!=SRC vdd!=BULK }}
+    {INST XI33/XI0/MM15=p105 {TYPE MOS} {PROP n="four_bit_adder/one_bit_adder/p105" Length=0.03 Width=0.784 Mult=1 }
+	{PIN XI33/XI0/net017=DRN XI33/XI0/net15=GATE XI33/XI0/net19=SRC vdd!=BULK }}
+    {INST XI21/MM14=p105 {TYPE MOS} {PROP n="d_flip_flop/p105" Length=0.03 Width=0.504 Mult=1 }
+	{PIN XI21/net05=DRN CLK=GATE vdd!=SRC vdd!=BULK }}
+    {INST XI13/MM1=p105 {TYPE MOS} {PROP n="d_flip_flop/p105" Length=0.03 Width=0.504 Mult=1 }
+	{PIN XI13/net8=DRN XI13/net7=GATE vdd!=SRC vdd!=BULK }}
+    {INST XI21/MM3=n105 {TYPE MOS} {PROP n="d_flip_flop/n105" Length=0.03 Width=0.42 Mult=1 }
+	{PIN X2<2>=DRN XI21/net05=GATE XI21/net7=SRC gnd!=BULK }}
+    {INST XI3/MM14=p105 {TYPE MOS} {PROP n="d_flip_flop/p105" Length=0.03 Width=0.504 Mult=1 }
+	{PIN XI3/net05=DRN CLK=GATE vdd!=SRC vdd!=BULK }}
+    {INST XI3/MM5=p105 {TYPE MOS} {PROP n="d_flip_flop/p105" Length=0.03 Width=0.504 Mult=1 }
+	{PIN XI3/net11=DRN XI3/net05=GATE XI3/net7=SRC vdd!=BULK }}
+    {INST XI19/MM9=p105 {TYPE MOS} {PROP n="and2/p105" Length=0.03 Width=0.252 Mult=1 }
+	{PIN XI19/net7=DRN W2=GATE vdd!=SRC vdd!=BULK }}
+    {INST XI33/XI1/MM25=n105 {TYPE MOS} {PROP n="four_bit_adder/one_bit_adder/n105" Length=0.03 Width=0.978 Mult=1 }
+	{PIN XI33/XI1/net058=DRN net070=GATE gnd!=SRC gnd!=BULK }}
+    {INST XI3/MM7=p105 {TYPE MOS} {PROP n="d_flip_flop/p105" Length=0.03 Width=1.128 Mult=1 }
+	{PIN XI3/net13=DRN XI3/net12=GATE vdd!=SRC vdd!=BULK }}
+    {INST XI27/MM5=n105 {TYPE MOS} {PROP n="and2/n105" Length=0.03 Width=0.42 Mult=1 }
+	{PIN net070=DRN XI27/net7=GATE gnd!=SRC gnd!=BULK }}
+    {INST XI3/MM3=n105 {TYPE MOS} {PROP n="d_flip_flop/n105" Length=0.03 Width=0.42 Mult=1 }
+	{PIN X0<1>=DRN XI3/net05=GATE XI3/net7=SRC gnd!=BULK }}
+    {INST XI32/MM5=p105 {TYPE MOS} {PROP n="d_flip_flop/p105" Length=0.03 Width=0.504 Mult=1 }
+	{PIN XI32/net11=DRN XI32/net05=GATE XI32/net7=SRC vdd!=BULK }}
+    {INST XI33/XI0/MM22=p105 {TYPE MOS} {PROP n="four_bit_adder/one_bit_adder/p105" Length=0.03 Width=1.174 Mult=1 }
+	{PIN XI33/XI0/net017=DRN gnd!=GATE XI33/XI0/net060=SRC vdd!=BULK }}
+    {INST XI32/MM8=n105 {TYPE MOS} {PROP n="d_flip_flop/n105" Length=0.03 Width=0.94 Mult=1 }
+	{PIN XI32/net13=DRN XI32/net12=GATE gnd!=SRC gnd!=BULK }}
+    {INST XI24/MM2=p105 {TYPE MOS} {PROP n="d_flip_flop/p105" Length=0.03 Width=0.754 Mult=1 }
+	{PIN XI24/net11=DRN XI24/net8=GATE vdd!=SRC vdd!=BULK }}
+    {INST XI2/MM8=p105 {TYPE MOS} {PROP n="and2/p105" Length=0.03 Width=0.252 Mult=1 }
+	{PIN XI2/net7=DRN net0174=GATE vdd!=SRC vdd!=BULK }}
+    {INST XI19/MM8=p105 {TYPE MOS} {PROP n="and2/p105" Length=0.03 Width=0.252 Mult=1 }
+	{PIN XI19/net7=DRN net0172=GATE vdd!=SRC vdd!=BULK }}
+    {INST XI2/MM6=n105 {TYPE MOS} {PROP n="and2/n105" Length=0.03 Width=0.84 Mult=1 }
+	{PIN XI2/net7=DRN net0174=GATE XI2/net013=SRC gnd!=BULK }}
+    {INST XI19/MM6=n105 {TYPE MOS} {PROP n="and2/n105" Length=0.03 Width=0.84 Mult=1 }
+	{PIN XI19/net7=DRN net0172=GATE XI19/net013=SRC gnd!=BULK }}
+    {INST XI10/MM4=p105 {TYPE MOS} {PROP n="and2/p105" Length=0.03 Width=0.504 Mult=1 }
+	{PIN net045=DRN XI10/net7=GATE vdd!=SRC vdd!=BULK }}
+    {INST XI21/MM15=n105 {TYPE MOS} {PROP n="d_flip_flop/n105" Length=0.03 Width=0.42 Mult=1 }
+	{PIN XI21/net05=DRN CLK=GATE gnd!=SRC gnd!=BULK }}
+    {INST XI13/MM0=n105 {TYPE MOS} {PROP n="d_flip_flop/n105" Length=0.03 Width=0.42 Mult=1 }
+	{PIN XI13/net8=DRN XI13/net7=GATE gnd!=SRC gnd!=BULK }}
+    {INST XI32/MM3=n105 {TYPE MOS} {PROP n="d_flip_flop/n105" Length=0.03 Width=0.42 Mult=1 }
+	{PIN X3<3>=DRN XI32/net05=GATE XI32/net7=SRC gnd!=BULK }}
+    {INST XI11/MM7=n105 {TYPE MOS} {PROP n="and2/n105" Length=0.03 Width=0.84 Mult=1 }
+	{PIN XI11/net013=DRN W1=GATE gnd!=SRC gnd!=BULK }}
+    {INST XI3/MM15=n105 {TYPE MOS} {PROP n="d_flip_flop/n105" Length=0.03 Width=0.42 Mult=1 }
+	{PIN XI3/net05=DRN CLK=GATE gnd!=SRC gnd!=BULK }}
+    {INST XI13/MM2=p105 {TYPE MOS} {PROP n="d_flip_flop/p105" Length=0.03 Width=0.754 Mult=1 }
+	{PIN XI13/net11=DRN XI13/net8=GATE vdd!=SRC vdd!=BULK }}
+    {INST XI12/MM9=p105 {TYPE MOS} {PROP n="d_flip_flop/p105" Length=0.03 Width=1.674 Mult=1 }
+	{PIN net59=DRN XI12/net13=GATE vdd!=SRC vdd!=BULK }}
+    {INST XI33/XI0/MM4=p105 {TYPE MOS} {PROP n="four_bit_adder/one_bit_adder/p105" Length=0.03 Width=0.504 Mult=1 }
+	{PIN XI33/XI0/net15=DRN net46=GATE XI33/XI0/net33=SRC vdd!=BULK }}
+    {INST XI3/MM8=n105 {TYPE MOS} {PROP n="d_flip_flop/n105" Length=0.03 Width=0.94 Mult=1 }
+	{PIN XI3/net13=DRN XI3/net12=GATE gnd!=SRC gnd!=BULK }}
+    {INST XI24/MM1=p105 {TYPE MOS} {PROP n="d_flip_flop/p105" Length=0.03 Width=0.504 Mult=1 }
+	{PIN XI24/net8=DRN XI24/net7=GATE vdd!=SRC vdd!=BULK }}
+    {INST XI21/MM7=p105 {TYPE MOS} {PROP n="d_flip_flop/p105" Length=0.03 Width=1.128 Mult=1 }
+	{PIN XI21/net13=DRN XI21/net12=GATE vdd!=SRC vdd!=BULK }}
+    {INST XI32/MM14=p105 {TYPE MOS} {PROP n="d_flip_flop/p105" Length=0.03 Width=0.504 Mult=1 }
+	{PIN XI32/net05=DRN CLK=GATE vdd!=SRC vdd!=BULK }}
+    {INST XI33/XI0/MM7=n105 {TYPE MOS} {PROP n="four_bit_adder/one_bit_adder/n105" Length=0.03 Width=0.42 Mult=1 }
+	{PIN XI33/XI0/net15=DRN gnd!=GATE XI33/XI0/net23=SRC gnd!=BULK }}
+    {INST XI24/MM4=n105 {TYPE MOS} {PROP n="d_flip_flop/n105" Length=0.03 Width=0.628 Mult=1 }
+	{PIN XI24/net11=DRN XI24/net8=GATE gnd!=SRC gnd!=BULK }}
+    {INST XI29/MM9=p105 {TYPE MOS} {PROP n="d_flip_flop/p105" Length=0.03 Width=1.674 Mult=1 }
+	{PIN net25=DRN XI29/net13=GATE vdd!=SRC vdd!=BULK }}
+    {INST XI10/MM5=n105 {TYPE MOS} {PROP n="and2/n105" Length=0.03 Width=0.42 Mult=1 }
+	{PIN net045=DRN XI10/net7=GATE gnd!=SRC gnd!=BULK }}
+    {INST XI12/MM11=n105 {TYPE MOS} {PROP n="d_flip_flop/n105" Length=0.03 Width=0.42 Mult=1 }
+	{PIN XI12/net12=DRN XI12/net05=GATE net59=SRC gnd!=BULK }}
+    {INST XI33/XI0/MM16=n105 {TYPE MOS} {PROP n="four_bit_adder/one_bit_adder/n105" Length=0.03 Width=0.654 Mult=1 }
+	{PIN XI33/XI0/net017=DRN XI33/XI0/net15=GATE XI33/XI0/net033=SRC gnd!=BULK }}
+    {INST XI0/XI0/MM20=p105 {TYPE MOS} {PROP n="four_bit_adder/one_bit_adder/p105" Length=0.03 Width=1.174 Mult=1 }
+	{PIN XI0/XI0/net061=DRN net045=GATE vdd!=SRC vdd!=BULK }}
+    {INST XI33/XI1/MM20=p105 {TYPE MOS} {PROP n="four_bit_adder/one_bit_adder/p105" Length=0.03 Width=1.174 Mult=1 }
+	{PIN XI33/XI1/net061=DRN net070=GATE vdd!=SRC vdd!=BULK }}
+    {INST XI29/MM7=p105 {TYPE MOS} {PROP n="d_flip_flop/p105" Length=0.03 Width=1.128 Mult=1 }
+	{PIN XI29/net13=DRN XI29/net12=GATE vdd!=SRC vdd!=BULK }}
+    {INST XI32/MM1=p105 {TYPE MOS} {PROP n="d_flip_flop/p105" Length=0.03 Width=0.504 Mult=1 }
+	{PIN XI32/net8=DRN XI32/net7=GATE vdd!=SRC vdd!=BULK }}
+    {INST XI1/MM10=n105 {TYPE MOS} {PROP n="d_flip_flop/n105" Length=0.03 Width=1.404 Mult=1 }
+	{PIN net0174=DRN XI1/net13=GATE gnd!=SRC gnd!=BULK }}
+    {INST XI33/XI0/MM12=p105 {TYPE MOS} {PROP n="four_bit_adder/one_bit_adder/p105" Length=0.03 Width=0.522 Mult=1 }
+	{PIN XI33/XI0/net19=DRN net46=GATE vdd!=SRC vdd!=BULK }}
+    {INST XI33/XI0/MM14=p105 {TYPE MOS} {PROP n="four_bit_adder/one_bit_adder/p105" Length=0.03 Width=0.522 Mult=1 }
+	{PIN XI33/XI0/net19=DRN gnd!=GATE vdd!=SRC vdd!=BULK }}
+    {INST XI21/MM0=n105 {TYPE MOS} {PROP n="d_flip_flop/n105" Length=0.03 Width=0.42 Mult=1 }
+	{PIN XI21/net8=DRN XI21/net7=GATE gnd!=SRC gnd!=BULK }}
+    {INST XI29/MM15=n105 {TYPE MOS} {PROP n="d_flip_flop/n105" Length=0.03 Width=0.42 Mult=1 }
+	{PIN XI29/net05=DRN CLK=GATE gnd!=SRC gnd!=BULK }}
+    {INST XI21/MM2=p105 {TYPE MOS} {PROP n="d_flip_flop/p105" Length=0.03 Width=0.754 Mult=1 }
+	{PIN XI21/net11=DRN XI21/net8=GATE vdd!=SRC vdd!=BULK }}
+    {INST XI3/MM4=n105 {TYPE MOS} {PROP n="d_flip_flop/n105" Length=0.03 Width=0.628 Mult=1 }
+	{PIN XI3/net11=DRN XI3/net8=GATE gnd!=SRC gnd!=BULK }}
+    {INST XI20/MM9=p105 {TYPE MOS} {PROP n="d_flip_flop/p105" Length=0.03 Width=1.674 Mult=1 }
+	{PIN net0172=DRN XI20/net13=GATE vdd!=SRC vdd!=BULK }}
+    {INST XI33/XI0/MM6=n105 {TYPE MOS} {PROP n="four_bit_adder/one_bit_adder/n105" Length=0.03 Width=0.42 Mult=1 }
+	{PIN XI33/XI0/net32=DRN net052=GATE gnd!=SRC gnd!=BULK }}
+    {INST XI12/MM14=p105 {TYPE MOS} {PROP n="d_flip_flop/p105" Length=0.03 Width=0.504 Mult=1 }
+	{PIN XI12/net05=DRN CLK=GATE vdd!=SRC vdd!=BULK }}
+    {INST XI12/MM8=n105 {TYPE MOS} {PROP n="d_flip_flop/n105" Length=0.03 Width=0.94 Mult=1 }
+	{PIN XI12/net13=DRN XI12/net12=GATE gnd!=SRC gnd!=BULK }}
+    {INST XI10/MM8=p105 {TYPE MOS} {PROP n="and2/p105" Length=0.03 Width=0.252 Mult=1 }
+	{PIN XI10/net7=DRN net64=GATE vdd!=SRC vdd!=BULK }}
+    {INST XI10/MM6=n105 {TYPE MOS} {PROP n="and2/n105" Length=0.03 Width=0.84 Mult=1 }
+	{PIN XI10/net7=DRN net64=GATE XI10/net013=SRC gnd!=BULK }}
+    {INST XI32/MM4=n105 {TYPE MOS} {PROP n="d_flip_flop/n105" Length=0.03 Width=0.628 Mult=1 }
+	{PIN XI32/net11=DRN XI32/net8=GATE gnd!=SRC gnd!=BULK }}
+    {INST XI10/MM9=p105 {TYPE MOS} {PROP n="and2/p105" Length=0.03 Width=0.252 Mult=1 }
+	{PIN XI10/net7=DRN W1=GATE vdd!=SRC vdd!=BULK }}
+    {INST XI3/MM1=p105 {TYPE MOS} {PROP n="d_flip_flop/p105" Length=0.03 Width=0.504 Mult=1 }
+	{PIN XI3/net8=DRN XI3/net7=GATE vdd!=SRC vdd!=BULK }}
+    {INST XI29/MM8=n105 {TYPE MOS} {PROP n="d_flip_flop/n105" Length=0.03 Width=0.94 Mult=1 }
+	{PIN XI29/net13=DRN XI29/net12=GATE gnd!=SRC gnd!=BULK }}
+    {INST XI32/MM0=n105 {TYPE MOS} {PROP n="d_flip_flop/n105" Length=0.03 Width=0.42 Mult=1 }
+	{PIN XI32/net8=DRN XI32/net7=GATE gnd!=SRC gnd!=BULK }}
+    {INST XI18/MM4=p105 {TYPE MOS} {PROP n="and2/p105" Length=0.03 Width=0.504 Mult=1 }
+	{PIN net46=DRN XI18/net7=GATE vdd!=SRC vdd!=BULK }}
+    {INST XI20/MM11=n105 {TYPE MOS} {PROP n="d_flip_flop/n105" Length=0.03 Width=0.42 Mult=1 }
+	{PIN XI20/net12=DRN XI20/net05=GATE net0172=SRC gnd!=BULK }}
+    {INST XI33/XI0/MM2=p105 {TYPE MOS} {PROP n="four_bit_adder/one_bit_adder/p105" Length=0.03 Width=0.252 Mult=1 }
+	{PIN XI33/XI0/net11=DRN net052=GATE vdd!=SRC vdd!=BULK }}
+    {INST XI27/MM8=p105 {TYPE MOS} {PROP n="and2/p105" Length=0.03 Width=0.252 Mult=1 }
+	{PIN XI27/net7=DRN net0149=GATE vdd!=SRC vdd!=BULK }}
+    {INST XI27/MM6=n105 {TYPE MOS} {PROP n="and2/n105" Length=0.03 Width=0.84 Mult=1 }
+	{PIN XI27/net7=DRN net0149=GATE XI27/net013=SRC gnd!=BULK }}
+    {INST XI29/MM6=p105 {TYPE MOS} {PROP n="d_flip_flop/p105" Length=0.03 Width=0.504 Mult=1 }
+	{PIN XI29/net12=DRN XI29/net05=GATE XI29/net11=SRC vdd!=BULK }}
+    {INST XI33/XI0/MM9=n105 {TYPE MOS} {PROP n="four_bit_adder/one_bit_adder/n105" Length=0.03 Width=0.21 Mult=1 }
+	{PIN XI33/XI0/net23=DRN net052=GATE gnd!=SRC gnd!=BULK }}
+    {INST XI33/XI0/MM17=n105 {TYPE MOS} {PROP n="four_bit_adder/one_bit_adder/n105" Length=0.03 Width=0.218 Mult=1 }
+	{PIN XI33/XI0/net033=DRN net46=GATE gnd!=SRC gnd!=BULK }}
+    {INST XI33/XI0/MM19=n105 {TYPE MOS} {PROP n="four_bit_adder/one_bit_adder/n105" Length=0.03 Width=0.218 Mult=1 }
+	{PIN XI33/XI0/net033=DRN gnd!=GATE gnd!=SRC gnd!=BULK }}
+    {INST XI21/MM4=n105 {TYPE MOS} {PROP n="d_flip_flop/n105" Length=0.03 Width=0.628 Mult=1 }
+	{PIN XI21/net11=DRN XI21/net8=GATE gnd!=SRC gnd!=BULK }}
+    {INST XI20/MM10=n105 {TYPE MOS} {PROP n="d_flip_flop/n105" Length=0.03 Width=1.404 Mult=1 }
+	{PIN net0172=DRN XI20/net13=GATE gnd!=SRC gnd!=BULK }}
+    {INST XI27/MM9=p105 {TYPE MOS} {PROP n="and2/p105" Length=0.03 Width=0.252 Mult=1 }
+	{PIN XI27/net7=DRN W3=GATE vdd!=SRC vdd!=BULK }}
+    {INST XI12/MM15=n105 {TYPE MOS} {PROP n="d_flip_flop/n105" Length=0.03 Width=0.42 Mult=1 }
+	{PIN XI12/net05=DRN CLK=GATE gnd!=SRC gnd!=BULK }}
+    {INST XI19/MM7=n105 {TYPE MOS} {PROP n="and2/n105" Length=0.03 Width=0.84 Mult=1 }
+	{PIN XI19/net013=DRN W2=GATE gnd!=SRC gnd!=BULK }}
+    {INST XI33/XI0/MM13=p105 {TYPE MOS} {PROP n="four_bit_adder/one_bit_adder/p105" Length=0.03 Width=0.522 Mult=1 }
+	{PIN XI33/XI0/net19=DRN net052=GATE vdd!=SRC vdd!=BULK }}
+    {INST XI29/MM5=p105 {TYPE MOS} {PROP n="d_flip_flop/p105" Length=0.03 Width=0.504 Mult=1 }
+	{PIN XI29/net11=DRN XI29/net05=GATE XI29/net7=SRC vdd!=BULK }}
+    {INST XI33/XI0/MM3=p105 {TYPE MOS} {PROP n="four_bit_adder/one_bit_adder/p105" Length=0.03 Width=0.504 Mult=1 }
+	{PIN XI33/XI0/net33=DRN net052=GATE vdd!=SRC vdd!=BULK }}
+    {INST XI3/MM0=n105 {TYPE MOS} {PROP n="d_flip_flop/n105" Length=0.03 Width=0.42 Mult=1 }
+	{PIN XI3/net8=DRN XI3/net7=GATE gnd!=SRC gnd!=BULK }}
+    {INST XI1/MM9=p105 {TYPE MOS} {PROP n="d_flip_flop/p105" Length=0.03 Width=1.674 Mult=1 }
+	{PIN net0174=DRN XI1/net13=GATE vdd!=SRC vdd!=BULK }}
+    {INST XI18/MM5=n105 {TYPE MOS} {PROP n="and2/n105" Length=0.03 Width=0.42 Mult=1 }
+	{PIN net46=DRN XI18/net7=GATE gnd!=SRC gnd!=BULK }}
+    {INST XI21/MM1=p105 {TYPE MOS} {PROP n="d_flip_flop/p105" Length=0.03 Width=0.504 Mult=1 }
+	{PIN XI21/net8=DRN XI21/net7=GATE vdd!=SRC vdd!=BULK }}
+    {INST XI29/MM3=n105 {TYPE MOS} {PROP n="d_flip_flop/n105" Length=0.03 Width=0.42 Mult=1 }
+	{PIN X3<2>=DRN XI29/net05=GATE XI29/net7=SRC gnd!=BULK }}
+    {INST XI33/XI0/MM21=p105 {TYPE MOS} {PROP n="four_bit_adder/one_bit_adder/p105" Length=0.03 Width=1.174 Mult=1 }
+	{PIN XI33/XI0/net060=DRN net46=GATE XI33/XI0/net061=SRC vdd!=BULK }}
+    {INST XI29/MM14=p105 {TYPE MOS} {PROP n="d_flip_flop/p105" Length=0.03 Width=0.504 Mult=1 }
+	{PIN XI29/net05=DRN CLK=GATE vdd!=SRC vdd!=BULK }}
+    {INST XI3/MM2=p105 {TYPE MOS} {PROP n="d_flip_flop/p105" Length=0.03 Width=0.754 Mult=1 }
+	{PIN XI3/net11=DRN XI3/net8=GATE vdd!=SRC vdd!=BULK }}
+    {INST XI12/MM5=p105 {TYPE MOS} {PROP n="d_flip_flop/p105" Length=0.03 Width=0.504 Mult=1 }
+	{PIN XI12/net11=DRN XI12/net05=GATE XI12/net7=SRC vdd!=BULK }}
+    {INST XI2/MM7=n105 {TYPE MOS} {PROP n="and2/n105" Length=0.03 Width=0.84 Mult=1 }
+	{PIN XI2/net013=DRN W0=GATE gnd!=SRC gnd!=BULK }}
+    {INST XI33/XI0/MM0=p105 {TYPE MOS} {PROP n="four_bit_adder/one_bit_adder/p105" Length=0.03 Width=0.252 Mult=1 }
+	{PIN XI33/XI0/net11=DRN net46=GATE vdd!=SRC vdd!=BULK }}
+    {INST XI12/MM7=p105 {TYPE MOS} {PROP n="d_flip_flop/p105" Length=0.03 Width=1.128 Mult=1 }
+	{PIN XI12/net13=DRN XI12/net12=GATE vdd!=SRC vdd!=BULK }}
+    {INST XI1/MM11=n105 {TYPE MOS} {PROP n="d_flip_flop/n105" Length=0.03 Width=0.42 Mult=1 }
+	{PIN XI1/net12=DRN XI1/net05=GATE net0174=SRC gnd!=BULK }}
+    {INST XI33/XI0/MM8=n105 {TYPE MOS} {PROP n="four_bit_adder/one_bit_adder/n105" Length=0.03 Width=0.21 Mult=1 }
+	{PIN XI33/XI0/net23=DRN net46=GATE gnd!=SRC gnd!=BULK }}
+    {INST XI33/XI0/MM24=n105 {TYPE MOS} {PROP n="four_bit_adder/one_bit_adder/n105" Length=0.03 Width=0.978 Mult=1 }
+	{PIN XI33/XI0/net059=DRN net46=GATE XI33/XI0/net058=SRC gnd!=BULK }}
+    {INST XI32/MM2=p105 {TYPE MOS} {PROP n="d_flip_flop/p105" Length=0.03 Width=0.754 Mult=1 }
+	{PIN XI32/net11=DRN XI32/net8=GATE vdd!=SRC vdd!=BULK }}
+    {INST XI12/MM3=n105 {TYPE MOS} {PROP n="d_flip_flop/n105" Length=0.03 Width=0.42 Mult=1 }
+	{PIN X1<1>=DRN XI12/net05=GATE XI12/net7=SRC gnd!=BULK }}
+    {INST XI12/MM6=p105 {TYPE MOS} {PROP n="d_flip_flop/p105" Length=0.03 Width=0.504 Mult=1 }
+	{PIN XI12/net12=DRN XI12/net05=GATE XI12/net11=SRC vdd!=BULK }}
+    {INST XI33/XI0/MM18=n105 {TYPE MOS} {PROP n="four_bit_adder/one_bit_adder/n105" Length=0.03 Width=0.218 Mult=1 }
+	{PIN XI33/XI0/net033=DRN net052=GATE gnd!=SRC gnd!=BULK }}
+    {INST XI29/MM2=p105 {TYPE MOS} {PROP n="d_flip_flop/p105" Length=0.03 Width=0.754 Mult=1 }
+	{PIN XI29/net11=DRN XI29/net8=GATE vdd!=SRC vdd!=BULK }}
+    {INST XI9/MM10=n105 {TYPE MOS} {PROP n="d_flip_flop/n105" Length=0.03 Width=1.404 Mult=1 }
+	{PIN net64=DRN XI9/net13=GATE gnd!=SRC gnd!=BULK }}
+    {INST XI20/MM3=n105 {TYPE MOS} {PROP n="d_flip_flop/n105" Length=0.03 Width=0.42 Mult=1 }
+	{PIN X2<1>=DRN XI20/net05=GATE XI20/net7=SRC gnd!=BULK }}
+    {INST XI20/MM14=p105 {TYPE MOS} {PROP n="d_flip_flop/p105" Length=0.03 Width=0.504 Mult=1 }
+	{PIN XI20/net05=DRN CLK=GATE vdd!=SRC vdd!=BULK }}
+    {INST XI29/MM1=p105 {TYPE MOS} {PROP n="d_flip_flop/p105" Length=0.03 Width=0.504 Mult=1 }
+	{PIN XI29/net8=DRN XI29/net7=GATE vdd!=SRC vdd!=BULK }}
+    {INST XI1/MM5=p105 {TYPE MOS} {PROP n="d_flip_flop/p105" Length=0.03 Width=0.504 Mult=1 }
+	{PIN XI1/net11=DRN XI1/net05=GATE XI1/net7=SRC vdd!=BULK }}
+    {INST XI10/MM7=n105 {TYPE MOS} {PROP n="and2/n105" Length=0.03 Width=0.84 Mult=1 }
+	{PIN XI10/net013=DRN W1=GATE gnd!=SRC gnd!=BULK }}
+    {INST XI18/MM9=p105 {TYPE MOS} {PROP n="and2/p105" Length=0.03 Width=0.252 Mult=1 }
+	{PIN XI18/net7=DRN W2=GATE vdd!=SRC vdd!=BULK }}
+    {INST XI1/MM8=n105 {TYPE MOS} {PROP n="d_flip_flop/n105" Length=0.03 Width=0.94 Mult=1 }
+	{PIN XI1/net13=DRN XI1/net12=GATE gnd!=SRC gnd!=BULK }}
+    {INST XI20/MM7=p105 {TYPE MOS} {PROP n="d_flip_flop/p105" Length=0.03 Width=1.128 Mult=1 }
+	{PIN XI20/net13=DRN XI20/net12=GATE vdd!=SRC vdd!=BULK }}
+    {INST XI26/MM5=n105 {TYPE MOS} {PROP n="and2/n105" Length=0.03 Width=0.42 Mult=1 }
+	{PIN net052=DRN XI26/net7=GATE gnd!=SRC gnd!=BULK }}
+    {INST XI28/MM11=n105 {TYPE MOS} {PROP n="d_flip_flop/n105" Length=0.03 Width=0.42 Mult=1 }
+	{PIN XI28/net12=DRN XI28/net05=GATE net0149=SRC gnd!=BULK }}
+    {INST XI1/MM15=n105 {TYPE MOS} {PROP n="d_flip_flop/n105" Length=0.03 Width=0.42 Mult=1 }
+	{PIN XI1/net05=DRN CLK=GATE gnd!=SRC gnd!=BULK }}
+    {INST XI20/MM5=p105 {TYPE MOS} {PROP n="d_flip_flop/p105" Length=0.03 Width=0.504 Mult=1 }
+	{PIN XI20/net11=DRN XI20/net05=GATE XI20/net7=SRC vdd!=BULK }}
+    {INST XI33/XI0/MM20=p105 {TYPE MOS} {PROP n="four_bit_adder/one_bit_adder/p105" Length=0.03 Width=1.174 Mult=1 }
+	{PIN XI33/XI0/net061=DRN net052=GATE vdd!=SRC vdd!=BULK }}
+    {INST XI12/MM0=n105 {TYPE MOS} {PROP n="d_flip_flop/n105" Length=0.03 Width=0.42 Mult=1 }
+	{PIN XI12/net8=DRN XI12/net7=GATE gnd!=SRC gnd!=BULK }}
+    {INST XI12/MM4=n105 {TYPE MOS} {PROP n="d_flip_flop/n105" Length=0.03 Width=0.628 Mult=1 }
+	{PIN XI12/net11=DRN XI12/net8=GATE gnd!=SRC gnd!=BULK }}
+    {INST XI28/MM10=n105 {TYPE MOS} {PROP n="d_flip_flop/n105" Length=0.03 Width=1.404 Mult=1 }
+	{PIN net0149=DRN XI28/net13=GATE gnd!=SRC gnd!=BULK }}
+    {INST XI18/MM8=p105 {TYPE MOS} {PROP n="and2/p105" Length=0.03 Width=0.252 Mult=1 }
+	{PIN XI18/net7=DRN net0155=GATE vdd!=SRC vdd!=BULK }}
+    {INST XI33/XI0/MM25=n105 {TYPE MOS} {PROP n="four_bit_adder/one_bit_adder/n105" Length=0.03 Width=0.978 Mult=1 }
+	{PIN XI33/XI0/net058=DRN net052=GATE gnd!=SRC gnd!=BULK }}
+    {INST XI29/MM4=n105 {TYPE MOS} {PROP n="d_flip_flop/n105" Length=0.03 Width=0.628 Mult=1 }
+	{PIN XI29/net11=DRN XI29/net8=GATE gnd!=SRC gnd!=BULK }}
+    {INST XI9/MM9=p105 {TYPE MOS} {PROP n="d_flip_flop/p105" Length=0.03 Width=1.674 Mult=1 }
+	{PIN net64=DRN XI9/net13=GATE vdd!=SRC vdd!=BULK }}
+    {INST XI20/MM15=n105 {TYPE MOS} {PROP n="d_flip_flop/n105" Length=0.03 Width=0.42 Mult=1 }
+	{PIN XI20/net05=DRN CLK=GATE gnd!=SRC gnd!=BULK }}
+    {INST XI29/MM0=n105 {TYPE MOS} {PROP n="d_flip_flop/n105" Length=0.03 Width=0.42 Mult=1 }
+	{PIN XI29/net8=DRN XI29/net7=GATE gnd!=SRC gnd!=BULK }}
+    {INST XI1/MM7=p105 {TYPE MOS} {PROP n="d_flip_flop/p105" Length=0.03 Width=1.128 Mult=1 }
+	{PIN XI1/net13=DRN XI1/net12=GATE vdd!=SRC vdd!=BULK }}
+    {INST XI20/MM8=n105 {TYPE MOS} {PROP n="d_flip_flop/n105" Length=0.03 Width=0.94 Mult=1 }
+	{PIN XI20/net13=DRN XI20/net12=GATE gnd!=SRC gnd!=BULK }}
+    {INST XI26/MM4=p105 {TYPE MOS} {PROP n="and2/p105" Length=0.03 Width=0.504 Mult=1 }
+	{PIN net052=DRN XI26/net7=GATE vdd!=SRC vdd!=BULK }}
+    {INST XI20/MM6=p105 {TYPE MOS} {PROP n="d_flip_flop/p105" Length=0.03 Width=0.504 Mult=1 }
+	{PIN XI20/net12=DRN XI20/net05=GATE XI20/net11=SRC vdd!=BULK }}
+    {INST XI1/MM6=p105 {TYPE MOS} {PROP n="d_flip_flop/p105" Length=0.03 Width=0.504 Mult=1 }
+	{PIN XI1/net12=DRN XI1/net05=GATE XI1/net11=SRC vdd!=BULK }}
+    {INST XI1/MM14=p105 {TYPE MOS} {PROP n="d_flip_flop/p105" Length=0.03 Width=0.504 Mult=1 }
+	{PIN XI1/net05=DRN CLK=GATE vdd!=SRC vdd!=BULK }}
+    {INST XI1/MM3=n105 {TYPE MOS} {PROP n="d_flip_flop/n105" Length=0.03 Width=0.42 Mult=1 }
+	{PIN X0<0>=DRN XI1/net05=GATE XI1/net7=SRC gnd!=BULK }}
+    {INST XI9/MM11=n105 {TYPE MOS} {PROP n="d_flip_flop/n105" Length=0.03 Width=0.42 Mult=1 }
+	{PIN XI9/net12=DRN XI9/net05=GATE net64=SRC gnd!=BULK }}
+    {INST XI27/MM7=n105 {TYPE MOS} {PROP n="and2/n105" Length=0.03 Width=0.84 Mult=1 }
+	{PIN XI27/net013=DRN W3=GATE gnd!=SRC gnd!=BULK }}
+    {INST XI12/MM1=p105 {TYPE MOS} {PROP n="d_flip_flop/p105" Length=0.03 Width=0.504 Mult=1 }
+	{PIN XI12/net8=DRN XI12/net7=GATE vdd!=SRC vdd!=BULK }}
+    {INST XI12/MM2=p105 {TYPE MOS} {PROP n="d_flip_flop/p105" Length=0.03 Width=0.754 Mult=1 }
+	{PIN XI12/net11=DRN XI12/net8=GATE vdd!=SRC vdd!=BULK }}
+    {INST XI28/MM9=p105 {TYPE MOS} {PROP n="d_flip_flop/p105" Length=0.03 Width=1.674 Mult=1 }
+	{PIN net0149=DRN XI28/net13=GATE vdd!=SRC vdd!=BULK }}
+    {INST XI18/MM6=n105 {TYPE MOS} {PROP n="and2/n105" Length=0.03 Width=0.84 Mult=1 }
+	{PIN XI18/net7=DRN net0155=GATE XI18/net013=SRC gnd!=BULK }}
+    {INST XI9/MM8=n105 {TYPE MOS} {PROP n="d_flip_flop/n105" Length=0.03 Width=0.94 Mult=1 }
+	{PIN XI9/net13=DRN XI9/net12=GATE gnd!=SRC gnd!=BULK }}
+    {INST XI28/MM3=n105 {TYPE MOS} {PROP n="d_flip_flop/n105" Length=0.03 Width=0.42 Mult=1 }
+	{PIN X3<1>=DRN XI28/net05=GATE XI28/net7=SRC gnd!=BULK }}
+    {INST XI28/MM6=p105 {TYPE MOS} {PROP n="d_flip_flop/p105" Length=0.03 Width=0.504 Mult=1 }
+	{PIN XI28/net12=DRN XI28/net05=GATE XI28/net11=SRC vdd!=BULK }}
+    {INST XI9/MM6=p105 {TYPE MOS} {PROP n="d_flip_flop/p105" Length=0.03 Width=0.504 Mult=1 }
+	{PIN XI9/net12=DRN XI9/net05=GATE XI9/net11=SRC vdd!=BULK }}
+    {INST XI17/MM11=n105 {TYPE MOS} {PROP n="d_flip_flop/n105" Length=0.03 Width=0.42 Mult=1 }
+	{PIN XI17/net12=DRN XI17/net05=GATE net0155=SRC gnd!=BULK }}
+    {INST XI9/MM7=p105 {TYPE MOS} {PROP n="d_flip_flop/p105" Length=0.03 Width=1.128 Mult=1 }
+	{PIN XI9/net13=DRN XI9/net12=GATE vdd!=SRC vdd!=BULK }}
+    {INST XI28/MM5=p105 {TYPE MOS} {PROP n="d_flip_flop/p105" Length=0.03 Width=0.504 Mult=1 }
+	{PIN XI28/net11=DRN XI28/net05=GATE XI28/net7=SRC vdd!=BULK }}
+    {INST XI26/MM8=p105 {TYPE MOS} {PROP n="and2/p105" Length=0.03 Width=0.252 Mult=1 }
+	{PIN XI26/net7=DRN net32=GATE vdd!=SRC vdd!=BULK }}
+    {INST XI18/MM7=n105 {TYPE MOS} {PROP n="and2/n105" Length=0.03 Width=0.84 Mult=1 }
+	{PIN XI18/net013=DRN W2=GATE gnd!=SRC gnd!=BULK }}
+    {INST XI20/MM4=n105 {TYPE MOS} {PROP n="d_flip_flop/n105" Length=0.03 Width=0.628 Mult=1 }
+	{PIN XI20/net11=DRN XI20/net8=GATE gnd!=SRC gnd!=BULK }}
+    {INST XI26/MM6=n105 {TYPE MOS} {PROP n="and2/n105" Length=0.03 Width=0.84 Mult=1 }
+	{PIN XI26/net7=DRN net32=GATE XI26/net013=SRC gnd!=BULK }}
+    {INST XI28/MM15=n105 {TYPE MOS} {PROP n="d_flip_flop/n105" Length=0.03 Width=0.42 Mult=1 }
+	{PIN XI28/net05=DRN CLK=GATE gnd!=SRC gnd!=BULK }}
+    {INST XI1/MM0=n105 {TYPE MOS} {PROP n="d_flip_flop/n105" Length=0.03 Width=0.42 Mult=1 }
+	{PIN XI1/net8=DRN XI1/net7=GATE gnd!=SRC gnd!=BULK }}
+    {INST XI20/MM2=p105 {TYPE MOS} {PROP n="d_flip_flop/p105" Length=0.03 Width=0.754 Mult=1 }
+	{PIN XI20/net11=DRN XI20/net8=GATE vdd!=SRC vdd!=BULK }}
+    {INST XI1/MM4=n105 {TYPE MOS} {PROP n="d_flip_flop/n105" Length=0.03 Width=0.628 Mult=1 }
+	{PIN XI1/net11=DRN XI1/net8=GATE gnd!=SRC gnd!=BULK }}
+    {INST XI9/MM3=n105 {TYPE MOS} {PROP n="d_flip_flop/n105" Length=0.03 Width=0.42 Mult=1 }
+	{PIN X1<0>=DRN XI9/net05=GATE XI9/net7=SRC gnd!=BULK }}
+    {INST XI28/MM14=p105 {TYPE MOS} {PROP n="d_flip_flop/p105" Length=0.03 Width=0.504 Mult=1 }
+	{PIN XI28/net05=DRN CLK=GATE vdd!=SRC vdd!=BULK }}
+    {INST XI9/MM15=n105 {TYPE MOS} {PROP n="d_flip_flop/n105" Length=0.03 Width=0.42 Mult=1 }
+	{PIN XI9/net05=DRN CLK=GATE gnd!=SRC gnd!=BULK }}
+    {INST XI1/MM1=p105 {TYPE MOS} {PROP n="d_flip_flop/p105" Length=0.03 Width=0.504 Mult=1 }
+	{PIN XI1/net8=DRN XI1/net7=GATE vdd!=SRC vdd!=BULK }}
+    {INST XI1/MM2=p105 {TYPE MOS} {PROP n="d_flip_flop/p105" Length=0.03 Width=0.754 Mult=1 }
+	{PIN XI1/net11=DRN XI1/net8=GATE vdd!=SRC vdd!=BULK }}
+    {INST XI9/MM5=p105 {TYPE MOS} {PROP n="d_flip_flop/p105" Length=0.03 Width=0.504 Mult=1 }
+	{PIN XI9/net11=DRN XI9/net05=GATE XI9/net7=SRC vdd!=BULK }}
+    {INST XI9/MM14=p105 {TYPE MOS} {PROP n="d_flip_flop/p105" Length=0.03 Width=0.504 Mult=1 }
+	{PIN XI9/net05=DRN CLK=GATE vdd!=SRC vdd!=BULK }}
+    {INST XI20/MM0=n105 {TYPE MOS} {PROP n="d_flip_flop/n105" Length=0.03 Width=0.42 Mult=1 }
+	{PIN XI20/net8=DRN XI20/net7=GATE gnd!=SRC gnd!=BULK }}
+    {INST XI28/MM8=n105 {TYPE MOS} {PROP n="d_flip_flop/n105" Length=0.03 Width=0.94 Mult=1 }
+	{PIN XI28/net13=DRN XI28/net12=GATE gnd!=SRC gnd!=BULK }}
+    {INST XI17/MM10=n105 {TYPE MOS} {PROP n="d_flip_flop/n105" Length=0.03 Width=1.404 Mult=1 }
+	{PIN net0155=DRN XI17/net13=GATE gnd!=SRC gnd!=BULK }}
+    {INST XI20/MM1=p105 {TYPE MOS} {PROP n="d_flip_flop/p105" Length=0.03 Width=0.504 Mult=1 }
+	{PIN XI20/net8=DRN XI20/net7=GATE vdd!=SRC vdd!=BULK }}
+    {INST XI28/MM7=p105 {TYPE MOS} {PROP n="d_flip_flop/p105" Length=0.03 Width=1.128 Mult=1 }
+	{PIN XI28/net13=DRN XI28/net12=GATE vdd!=SRC vdd!=BULK }}
+    {INST XI17/MM9=p105 {TYPE MOS} {PROP n="d_flip_flop/p105" Length=0.03 Width=1.674 Mult=1 }
+	{PIN net0155=DRN XI17/net13=GATE vdd!=SRC vdd!=BULK }}
+    {INST XI26/MM9=p105 {TYPE MOS} {PROP n="and2/p105" Length=0.03 Width=0.252 Mult=1 }
+	{PIN XI26/net7=DRN W3=GATE vdd!=SRC vdd!=BULK }}
+    {INST XI17/MM14=p105 {TYPE MOS} {PROP n="d_flip_flop/p105" Length=0.03 Width=0.504 Mult=1 }
+	{PIN XI17/net05=DRN CLK=GATE vdd!=SRC vdd!=BULK }}
+    {INST XI17/MM15=n105 {TYPE MOS} {PROP n="d_flip_flop/n105" Length=0.03 Width=0.42 Mult=1 }
+	{PIN XI17/net05=DRN CLK=GATE gnd!=SRC gnd!=BULK }}
+    {INST XI17/MM7=p105 {TYPE MOS} {PROP n="d_flip_flop/p105" Length=0.03 Width=1.128 Mult=1 }
+	{PIN XI17/net13=DRN XI17/net12=GATE vdd!=SRC vdd!=BULK }}
+    {INST XI17/MM8=n105 {TYPE MOS} {PROP n="d_flip_flop/n105" Length=0.03 Width=0.94 Mult=1 }
+	{PIN XI17/net13=DRN XI17/net12=GATE gnd!=SRC gnd!=BULK }}
+    {INST XI28/MM2=p105 {TYPE MOS} {PROP n="d_flip_flop/p105" Length=0.03 Width=0.754 Mult=1 }
+	{PIN XI28/net11=DRN XI28/net8=GATE vdd!=SRC vdd!=BULK }}
+    {INST XI28/MM4=n105 {TYPE MOS} {PROP n="d_flip_flop/n105" Length=0.03 Width=0.628 Mult=1 }
+	{PIN XI28/net11=DRN XI28/net8=GATE gnd!=SRC gnd!=BULK }}
+    {INST XI17/MM3=n105 {TYPE MOS} {PROP n="d_flip_flop/n105" Length=0.03 Width=0.42 Mult=1 }
+	{PIN X2<0>=DRN XI17/net05=GATE XI17/net7=SRC gnd!=BULK }}
+    {INST XI26/MM7=n105 {TYPE MOS} {PROP n="and2/n105" Length=0.03 Width=0.84 Mult=1 }
+	{PIN XI26/net013=DRN W3=GATE gnd!=SRC gnd!=BULK }}
+    {INST XI25/MM11=n105 {TYPE MOS} {PROP n="d_flip_flop/n105" Length=0.03 Width=0.42 Mult=1 }
+	{PIN XI25/net12=DRN XI25/net05=GATE net32=SRC gnd!=BULK }}
+    {INST XI9/MM2=p105 {TYPE MOS} {PROP n="d_flip_flop/p105" Length=0.03 Width=0.754 Mult=1 }
+	{PIN XI9/net11=DRN XI9/net8=GATE vdd!=SRC vdd!=BULK }}
+    {INST XI9/MM4=n105 {TYPE MOS} {PROP n="d_flip_flop/n105" Length=0.03 Width=0.628 Mult=1 }
+	{PIN XI9/net11=DRN XI9/net8=GATE gnd!=SRC gnd!=BULK }}
+    {INST XI17/MM6=p105 {TYPE MOS} {PROP n="d_flip_flop/p105" Length=0.03 Width=0.504 Mult=1 }
+	{PIN XI17/net12=DRN XI17/net05=GATE XI17/net11=SRC vdd!=BULK }}
+    {INST XI9/MM1=p105 {TYPE MOS} {PROP n="d_flip_flop/p105" Length=0.03 Width=0.504 Mult=1 }
+	{PIN XI9/net8=DRN XI9/net7=GATE vdd!=SRC vdd!=BULK }}
+    {INST XI9/MM0=n105 {TYPE MOS} {PROP n="d_flip_flop/n105" Length=0.03 Width=0.42 Mult=1 }
+	{PIN XI9/net8=DRN XI9/net7=GATE gnd!=SRC gnd!=BULK }}
+    {INST XI28/MM1=p105 {TYPE MOS} {PROP n="d_flip_flop/p105" Length=0.03 Width=0.504 Mult=1 }
+	{PIN XI28/net8=DRN XI28/net7=GATE vdd!=SRC vdd!=BULK }}
+    {INST XI28/MM0=n105 {TYPE MOS} {PROP n="d_flip_flop/n105" Length=0.03 Width=0.42 Mult=1 }
+	{PIN XI28/net8=DRN XI28/net7=GATE gnd!=SRC gnd!=BULK }}
+    {INST XI25/MM9=p105 {TYPE MOS} {PROP n="d_flip_flop/p105" Length=0.03 Width=1.674 Mult=1 }
+	{PIN net32=DRN XI25/net13=GATE vdd!=SRC vdd!=BULK }}
+    {INST XI25/MM10=n105 {TYPE MOS} {PROP n="d_flip_flop/n105" Length=0.03 Width=1.404 Mult=1 }
+	{PIN net32=DRN XI25/net13=GATE gnd!=SRC gnd!=BULK }}
+    {INST XI17/MM5=p105 {TYPE MOS} {PROP n="d_flip_flop/p105" Length=0.03 Width=0.504 Mult=1 }
+	{PIN XI17/net11=DRN XI17/net05=GATE XI17/net7=SRC vdd!=BULK }}
+    {INST XI25/MM15=n105 {TYPE MOS} {PROP n="d_flip_flop/n105" Length=0.03 Width=0.42 Mult=1 }
+	{PIN XI25/net05=DRN CLK=GATE gnd!=SRC gnd!=BULK }}
+    {INST XI17/MM0=n105 {TYPE MOS} {PROP n="d_flip_flop/n105" Length=0.03 Width=0.42 Mult=1 }
+	{PIN XI17/net8=DRN XI17/net7=GATE gnd!=SRC gnd!=BULK }}
+    {INST XI25/MM14=p105 {TYPE MOS} {PROP n="d_flip_flop/p105" Length=0.03 Width=0.504 Mult=1 }
+	{PIN XI25/net05=DRN CLK=GATE vdd!=SRC vdd!=BULK }}
+    {INST XI17/MM1=p105 {TYPE MOS} {PROP n="d_flip_flop/p105" Length=0.03 Width=0.504 Mult=1 }
+	{PIN XI17/net8=DRN XI17/net7=GATE vdd!=SRC vdd!=BULK }}
+    {INST XI25/MM8=n105 {TYPE MOS} {PROP n="d_flip_flop/n105" Length=0.03 Width=0.94 Mult=1 }
+	{PIN XI25/net13=DRN XI25/net12=GATE gnd!=SRC gnd!=BULK }}
+    {INST XI17/MM4=n105 {TYPE MOS} {PROP n="d_flip_flop/n105" Length=0.03 Width=0.628 Mult=1 }
+	{PIN XI17/net11=DRN XI17/net8=GATE gnd!=SRC gnd!=BULK }}
+    {INST XI25/MM3=n105 {TYPE MOS} {PROP n="d_flip_flop/n105" Length=0.03 Width=0.42 Mult=1 }
+	{PIN X3<0>=DRN XI25/net05=GATE XI25/net7=SRC gnd!=BULK }}
+    {INST XI25/MM6=p105 {TYPE MOS} {PROP n="d_flip_flop/p105" Length=0.03 Width=0.504 Mult=1 }
+	{PIN XI25/net12=DRN XI25/net05=GATE XI25/net11=SRC vdd!=BULK }}
+    {INST XI25/MM7=p105 {TYPE MOS} {PROP n="d_flip_flop/p105" Length=0.03 Width=1.128 Mult=1 }
+	{PIN XI25/net13=DRN XI25/net12=GATE vdd!=SRC vdd!=BULK }}
+    {INST XI17/MM2=p105 {TYPE MOS} {PROP n="d_flip_flop/p105" Length=0.03 Width=0.754 Mult=1 }
+	{PIN XI17/net11=DRN XI17/net8=GATE vdd!=SRC vdd!=BULK }}
+    {INST XI25/MM5=p105 {TYPE MOS} {PROP n="d_flip_flop/p105" Length=0.03 Width=0.504 Mult=1 }
+	{PIN XI25/net11=DRN XI25/net05=GATE XI25/net7=SRC vdd!=BULK }}
+    {INST XI25/MM0=n105 {TYPE MOS} {PROP n="d_flip_flop/n105" Length=0.03 Width=0.42 Mult=1 }
+	{PIN XI25/net8=DRN XI25/net7=GATE gnd!=SRC gnd!=BULK }}
+    {INST XI25/MM2=p105 {TYPE MOS} {PROP n="d_flip_flop/p105" Length=0.03 Width=0.754 Mult=1 }
+	{PIN XI25/net11=DRN XI25/net8=GATE vdd!=SRC vdd!=BULK }}
+    {INST XI25/MM1=p105 {TYPE MOS} {PROP n="d_flip_flop/p105" Length=0.03 Width=0.504 Mult=1 }
+	{PIN XI25/net8=DRN XI25/net7=GATE vdd!=SRC vdd!=BULK }}
+    {INST XI25/MM4=n105 {TYPE MOS} {PROP n="d_flip_flop/n105" Length=0.03 Width=0.628 Mult=1 }
+	{PIN XI25/net11=DRN XI25/net8=GATE gnd!=SRC gnd!=BULK }}
+    {INST XI47/MM13=p105 {TYPE MOS} {PROP n="or3/p105" Length=0.03 Width=1.512 Mult=1 }
+	{PIN XI47/net10=DRN net0105=GATE XI47/net016=SRC vdd!=BULK }}
+    {INST XI47/MM12=p105 {TYPE MOS} {PROP n="or3/p105" Length=0.03 Width=1.512 Mult=1 }
+	{PIN XI47/net016=DRN net079=GATE XI47/net017=SRC vdd!=BULK }}
+}
+}

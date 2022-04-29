@@ -1,0 +1,6 @@
+Parsing option_file: netlist.tech (EX-304)
+  
+Netlist       Elp=00:00:04 Cpu=00:00:00 Usr=0.2    Sys=0.2    Mem=215.6 
+xTractor      Elp=00:00:00 Cpu=00:00:00 Usr=0.0    Sys=0.0    Mem=215.6 
+  
+Done          Elp=00:00:04 Cpu=00:00:00 Usr=0.2    Sys=0.2    Mem=215.6 

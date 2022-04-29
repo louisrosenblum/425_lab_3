@@ -2,13 +2,13 @@
 
 *FLOW: Hercules
 FLOW: ICV
-MILKYWAY_DATABASE: /afs/asu.edu/users/s/w/e/swei15/425_lab/lvs/TOPCELLNAME_MILKYWAY
-*MILKYWAY_DATABASE: /afs/asu.edu/users/s/w/e/swei15/425_lab/lvs/TOPCELLNAME_MILKYWAY
+MILKYWAY_DATABASE: /afs/asu.edu/users/j/n/e/jneuenda/425_proj_final/425_lab_3/lvs/TOPCELLNAME_MILKYWAY
+*MILKYWAY_DATABASE: /afs/asu.edu/users/j/n/e/jneuenda/425_proj_final/425_lab_3/lvs/TOPCELLNAME_MILKYWAY
 
 * Run Cockpit ( page 1 )
 
-DFII_DEVICE_MAP: /afs/asu.edu/users/s/w/e/swei15/425_lab/iPDK/starrc/saed32nm_1p9m_device.map
-DFII_LAYER_MAP: /afs/asu.edu/users/s/w/e/swei15/425_lab/iPDK/starrc/saed32nm_1p9m_layer.map
+DFII_DEVICE_MAP: /afs/asu.edu/users/j/n/e/jneuenda/425_proj_final/425_lab_3/iPDK/starrc/saed32nm_1p9m_device.map
+DFII_LAYER_MAP: /afs/asu.edu/users/j/n/e/jneuenda/425_proj_final/425_lab_3/iPDK/starrc/saed32nm_1p9m_layer.map
 RUN_LVS: YES
 LVS_CLEAN: YES'TCAD_GRD_FILE
 RUN_STARRC_SEXTRACTION: YES
@@ -16,10 +16,10 @@ STARRCVIEWLOG_SEPARATE:: NO
 RUN_STARRC_NETLIST: YES
 CREATE_PHYSICAL_VIEW: YES
 CREATE_FLYLINE: YES
-*LVS_RUNDIR: /afs/asu.edu/users/s/w/e/swei15/425_lab/lvs/
+*LVS_RUNDIR: /afs/asu.edu/users/j/n/e/jneuenda/425_proj_final/425_lab_3/lvs/
 ** for test
-LVS_RUNDIR: /afs/asu.edu/users/s/w/e/swei15/425_lab/lvs_new/
-STARRC_RUNDIR: /afs/asu.edu/users/s/w/e/swei15/425_lab/starrc/
+LVS_RUNDIR: /afs/asu.edu/users/j/n/e/jneuenda/425_proj_final/425_lab_3/lvs_new/
+STARRC_RUNDIR: /afs/asu.edu/users/j/n/e/jneuenda/425_proj_final/425_lab_3/starrc/
 SUBMIT_ON_LSF: NO
 
 * LSF Settings
@@ -44,16 +44,16 @@ CDL_OUT_STOP_LIST: cdl
 CDL_SCALE: meter
 CDL_OUT_CHECK_LDD: NO
 CDL_OUT_MAP_BUSBIT: NO
-* HERCULES_RUNSET: /afs/asu.edu/users/s/w/e/swei15/425_lab/iPDK/hercules/lvs/saed32nm_1p9m_lvs_rules.ev
-ICV_RUNSET: /afs/asu.edu/users/s/w/e/swei15/425_lab/iPDK/icv/lvs/saed32nm_1p9m_lvs_rules.rs
+* HERCULES_RUNSET: /afs/asu.edu/users/j/n/e/jneuenda/425_proj_final/425_lab_3/iPDK/hercules/lvs/saed32nm_1p9m_lvs_rules.ev
+ICV_RUNSET: /afs/asu.edu/users/j/n/e/jneuenda/425_proj_final/425_lab_3/iPDK/icv/lvs/saed32nm_1p9m_lvs_rules.rs
 SCHEMATIC_NETLIST_FORMAT: CDL
 
 * Extract Parasitics ( page 3 )
 
 OA_WRITER: YES
-EXTRA_CMD_FILE: /afs/asu.edu/users/s/w/e/swei15/425_lab/iPDK/starrc/icv_cmd/saed32nm_1p9m_star_nominal.cmd
-TCAD_GRD_FILE: /afs/asu.edu/users/s/w/e/swei15/425_lab/iPDK/starrc/nominal/saed32nm_1p9m_nominal.nxtgrd
-MAPPING_FILE: /afs/asu.edu/users/s/w/e/swei15/425_lab/iPDK/starrc/saed32nm_1p9m_layer.map
+EXTRA_CMD_FILE: /afs/asu.edu/users/j/n/e/jneuenda/425_proj_final/425_lab_3/iPDK/starrc/icv_cmd/saed32nm_1p9m_star_nominal.cmd
+TCAD_GRD_FILE: /afs/asu.edu/users/j/n/e/jneuenda/425_proj_final/425_lab_3/iPDK/starrc/nominal/saed32nm_1p9m_nominal.nxtgrd
+MAPPING_FILE: /afs/asu.edu/users/j/n/e/jneuenda/425_proj_final/425_lab_3/iPDK/starrc/saed32nm_1p9m_layer.map
 EXTRACTION: RC
 COUPLE_TO_GROUND: YES
 NETLIST_GROUND_NODE_NAME: gnd!

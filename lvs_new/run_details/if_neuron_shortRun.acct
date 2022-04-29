@@ -1,0 +1,8 @@
+if_neuron_shortRun
+	Cell Level Device Counts
+		NMOS[n105] = 621
+		PMOS[p105] = 627
+
+********  DEVICE EXTRACTION STATS    TOPBLOCK = if_neuron_shortRun  *******
+		NMOS[n105] = 621
+		PMOS[p105] = 627

@@ -19,4 +19,4 @@ Q rnpoly_wos rnpoly_wos M rnpoly_wos.rnpoly_wos.bincdb N
 Q rpdiff rpdiff M rpdiff.rpdiff.bincdb N
 Q rppoly rppoly M rppoly.rppoly.bincdb N
 Q rppoly_wos rppoly_wos M rppoly_wos.rppoly_wos.bincdb N
-E one_bit_adder_Leg4 one_bit_adder_Leg4 M one_bit_adder_Leg4.one_bit_adder_Leg4.bincdb N
+E if_neuron_shortRun if_neuron_shortRun M if_neuron_shortRun.if_neuron_shortRun.bincdb N

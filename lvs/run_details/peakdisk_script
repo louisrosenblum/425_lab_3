@@ -1,7 +1,7 @@
 #! /bin/sh
 
-GROUPDIR="/afs/asu.edu/users/j/n/e/jneuenda/425_proj/425_lab/lvs/run_details/group"
-DETAILSDIR="/afs/asu.edu/users/j/n/e/jneuenda/425_proj/425_lab/lvs/run_details"
+GROUPDIR="/afs/asu.edu/users/j/n/e/jneuenda/425_proj_final/425_lab_3/lvs/run_details/group"
+DETAILSDIR="/afs/asu.edu/users/j/n/e/jneuenda/425_proj_final/425_lab_3/lvs/run_details"
 TOUT=${DETAILSDIR}/fsize.tmp
 FOUT=${DETAILSDIR}/fsize.txt
 

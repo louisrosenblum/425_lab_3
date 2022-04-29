@@ -1,0 +1,121 @@
+# Tue Apr 26 23:25:44 2022
+
+# icv_vue: RHEL64 O-2018.06-SP1.4289877 2018/07/23
+
+# Hostname     : eecad6.eas.asu.edu
+# Platform type: LINUX.64
+
+# Called as: 
+# /usr/local/synopsys/icv_2018.06-SP1/icvalidator/O-2018.06-SP1/bin/LINUX.64/icv_vue.bin -lay virtuoso -layArgs curWinID 2 curLibName Lab4 curCellName if_neuron_shortRun curViewName layout vuePidAryLength 0 -sch composer -schArgs curWinID 3 curLibName Lab4 curCellName if_neuron_shortRun curViewName schematic vuePidAryLength 0 -skill 
+
+vue_set {runsetFileField} {iPDK/icv/lvs/saed32nm_1p9m_lvs_rules.rs}
+vue_set {binaryNameField} {icv -vue -c if_neuron_shortRun -i if_neuron_shortRun.gdsOut -f GDSII -s if_neuron_shortRun.cdl -sf SPICE -stc if_neuron_shortRun iPDK/icv/lvs/saed32nm_1p9m_lvs_rules.rs}
+vue_set {runDirectoryField} {/afs/asu.edu/users/j/n/e/jneuenda/425_proj_final/425_lab_3/}
+vue_set {runDirectoryField} {/afs/asu.edu/users/j/n/e/jneuenda/425_proj_final/425_lab_3/d}
+vue_set {runDirectoryField} {/afs/asu.edu/users/j/n/e/jneuenda/425_proj_final/425_lab_3/dr}
+vue_set {runDirectoryField} {/afs/asu.edu/users/j/n/e/jneuenda/425_proj_final/425_lab_3/drc}
+vue_set {runDirectoryField} {/afs/asu.edu/users/j/n/e/jneuenda/425_proj_final/425_lab_3/dr}
+vue_set {runDirectoryField} {/afs/asu.edu/users/j/n/e/jneuenda/425_proj_final/425_lab_3/d}
+vue_set {runDirectoryField} {/afs/asu.edu/users/j/n/e/jneuenda/425_proj_final/425_lab_3/dl}
+vue_set {runDirectoryField} {/afs/asu.edu/users/j/n/e/jneuenda/425_proj_final/425_lab_3/dlv}
+vue_set {runDirectoryField} {/afs/asu.edu/users/j/n/e/jneuenda/425_proj_final/425_lab_3/dlvs}
+vue_set {runDirectoryField} {/afs/asu.edu/users/j/n/e/jneuenda/425_proj_final/425_lab_3/dlv}
+vue_set {runDirectoryField} {/afs/asu.edu/users/j/n/e/jneuenda/425_proj_final/425_lab_3/dl}
+vue_set {runDirectoryField} {/afs/asu.edu/users/j/n/e/jneuenda/425_proj_final/425_lab_3/d}
+vue_set {runDirectoryField} {/afs/asu.edu/users/j/n/e/jneuenda/425_proj_final/425_lab_3/}
+vue_set {runDirectoryField} {/afs/asu.edu/users/j/n/e/jneuenda/425_proj_final/425_lab_3/v}
+vue_set {runDirectoryField} {/afs/asu.edu/users/j/n/e/jneuenda/425_proj_final/425_lab_3/}
+vue_set {runDirectoryField} {/afs/asu.edu/users/j/n/e/jneuenda/425_proj_final/425_lab_3/l}
+vue_set {runDirectoryField} {/afs/asu.edu/users/j/n/e/jneuenda/425_proj_final/425_lab_3/lv}
+vue_set {runDirectoryField} {/afs/asu.edu/users/j/n/e/jneuenda/425_proj_final/425_lab_3/lvs}
+vue_select {optionsList} 3
+vue_set {schematicNetlistField} {lvs/if_neuron_shortRun.cd}
+vue_set {schematicNetlistField} {lvs/if_neuron_shortRun.c}
+vue_set {schematicNetlistField} {lvs/if_neuron_shortRun.}
+vue_set {schematicNetlistField} {lvs/if_neuron_shortRun}
+vue_set {schematicNetlistField} {lvs/if_neuron_shortRu}
+vue_set {schematicNetlistField} {lvs/if_neuron_shortR}
+vue_set {schematicNetlistField} {lvs/if_neuron_short}
+vue_set {schematicNetlistField} {lvs/if_neuron_shor}
+vue_set {schematicNetlistField} {lvs/if_neuron_sho}
+vue_set {schematicNetlistField} {lvs/if_neuron_sh}
+vue_set {schematicNetlistField} {lvs/if_neuron_s}
+vue_set {schematicNetlistField} {lvs/if_neuron_}
+vue_set {schematicNetlistField} {lvs/if_neuron}
+vue_set {schematicNetlistField} {lvs/if_neuro}
+vue_set {schematicNetlistField} {lvs/if_neur}
+vue_set {schematicNetlistField} {lvs/if_neu}
+vue_set {schematicNetlistField} {lvs/if_ne}
+vue_set {schematicNetlistField} {lvs/if_n}
+vue_set {schematicNetlistField} {lvs/if_}
+vue_set {schematicNetlistField} {lvs/if}
+vue_set {schematicNetlistField} {lvs/i}
+vue_set {schematicNetlistField} {lvs/}
+vue_set {schematicNetlistField} {lvs/n}
+vue_set {schematicNetlistField} {lvs/ne}
+vue_set {schematicNetlistField} {lvs/net}
+vue_set {schematicNetlistField} {lvs/netl}
+vue_set {schematicNetlistField} {lvs/netli}
+vue_set {schematicNetlistField} {lvs/netlis}
+vue_set {schematicNetlistField} {lvs/netlist}
+vue_set {schematicNetlistField} {lvs/netlist.}
+vue_set {schematicNetlistField} {lvs/netlist.s}
+vue_set {schematicNetlistField} {lvs/netlist.sp}
+vue_click {executeButton}
+vue_wait {HiExecPage}
+vue_select {mainTab} {LVS Errors}
+vue_select {lvsEquivListView} {0:0}
+vue_select {mainTab} {Execution}
+vue_select {execTabWidget} {Options}
+vue_click {importSchInfoPb}
+vue_set {schematicNetlistField} {lvs/if_neuron_shortRun.cd}
+vue_set {schematicNetlistField} {lvs/if_neuron_shortRun.c}
+vue_set {schematicNetlistField} {lvs/if_neuron_shortRun.}
+vue_set {schematicNetlistField} {lvs/if_neuron_shortRun}
+vue_set {schematicNetlistField} {lvs/if_neuron_shortRu}
+vue_set {schematicNetlistField} {lvs/if_neuron_shortR}
+vue_set {schematicNetlistField} {lvs/if_neuron_short}
+vue_set {schematicNetlistField} {lvs/if_neuron_shor}
+vue_set {schematicNetlistField} {lvs/if_neuron_sho}
+vue_set {schematicNetlistField} {lvs/if_neuron_sh}
+vue_set {schematicNetlistField} {lvs/if_neuron_s}
+vue_set {schematicNetlistField} {lvs/if_neuron_}
+vue_set {schematicNetlistField} {lvs/if_neuron}
+vue_set {schematicNetlistField} {lvs/if_neuro}
+vue_set {schematicNetlistField} {lvs/if_neur}
+vue_set {schematicNetlistField} {lvs/if_neu}
+vue_set {schematicNetlistField} {lvs/if_ne}
+vue_set {schematicNetlistField} {lvs/if_n}
+vue_set {schematicNetlistField} {lvs/if_}
+vue_set {schematicNetlistField} {lvs/if}
+vue_set {schematicNetlistField} {lvs/i}
+vue_set {schematicNetlistField} {lvs/}
+vue_set {schematicNetlistField} {lvs/n}
+vue_set {schematicNetlistField} {lvs/ne}
+vue_set {schematicNetlistField} {lvs/net}
+vue_set {schematicNetlistField} {lvs/netl}
+vue_set {schematicNetlistField} {lvs/netli}
+vue_set {schematicNetlistField} {lvs/netlis}
+vue_set {schematicNetlistField} {lvs/netlist}
+vue_set {schematicNetlistField} {lvs/netlist.}
+vue_set {schematicNetlistField} {lvs/netlist.s}
+vue_set {schematicNetlistField} {lvs/netlist.sd}
+vue_set {schematicNetlistField} {lvs/netlist.s}
+vue_set {schematicNetlistField} {lvs/netlist.sp}
+vue_select {optionsList} 0
+vue_click {importLayInfoPb}
+vue_click {executeButton}
+vue_wait {HiExecPage}
+vue_select {mainTab} {LVS Errors}
+vue_select {lvsEquivListView} {0:0}
+vue_click {lvsSummaryWindow} {xref://sv//71}
+vue_click {lvsPrePageBtn}
+vue_click {lvsSummaryWindow} {xref://lv//71}
+vue_click {lvsSummaryWindow} {xref://lnuio//vdd!}
+vue_click {lvsSummaryWindow} {xref://lnui//N435}
+vue_select {mainTab} {Execution}
+vue_select {execTabWidget} {Options}
+vue_click {importLayInfoPb}
+vue_click {executeButton}
+vue_wait {HiExecPage}
+vue_close {HiMain}

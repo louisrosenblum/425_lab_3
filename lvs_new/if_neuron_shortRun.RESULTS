@@ -1,0 +1,135 @@
+                         LVS Compare Results: FAIL
+
+                          #####   ###   #   #
+                          #      #   #  #   #
+                          ####   #####  #   #
+                          #      #   #  #   #
+                          #      #   #  #   #####
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+                     DRC and Extraction Results: CLEAN
+
+                      ####  #      #####   ###   #   #
+                     #      #      #      #   #  ##  #
+                     #      #      ####   #####  # # #
+                     #      #      #      #   #  #  ##
+                      ####  #####  #####  #   #  #   #
+
+===========================================================================
+
+
+---------------------------------------------------------------------------
+ICV Execution
+---------------------------------------------------------------------------
+
+
+                                 IC Validator 
+
+          Version O-2018.06-SP1 for linux64 - Jul 23, 2018 cl#4289877
+
+                    Copyright (c) 1996 - 2018 Synopsys, Inc.
+   This software and the associated documentation are proprietary to Synopsys,
+ Inc. This software may only be used in accordance with the terms and conditions
+ of a written license agreement with Synopsys, Inc. All other use, reproduction,
+            or distribution of this software is strictly prohibited.
+
+Called as: icv -rc /afs/asu.edu/users/j/n/e/jneuenda/425_proj_final/425_lab_3/lvs_new/icv_vi_rcfile -sf SPICE -c if_neuron_shortRun -stc if_neuron_shortRun -s /afs/asu.edu/users/j/n/e/jneuenda/425_proj_final/425_lab_3/if_neuron_shortRun.cdl -i /afs/asu.edu/users/j/n/e/jneuenda/425_proj_final/425_lab_3/if_neuron_shortRun.gds /afs/asu.edu/users/j/n/e/jneuenda/425_proj_final/425_lab_3/iPDK/icv/lvs/saed32nm_1p9m_lvs_rules.rs
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+User name:        jneuenda
+Layout format:    GDSII
+Input file name:  /afs/asu.edu/users/j/n/e/jneuenda/425_proj_final/425_lab_3/if_neuron_shortRun.gds
+Top cell name:    if_neuron_shortRun
+Time started:     2022/04/27 12:43:34AM
+Time ended:       2022/04/27 12:44:24AM
+
+
+---------------------------------------------------------------------------
+Results Summary
+---------------------------------------------------------------------------
+
+Compare Error Summary
+Refer to if_neuron_shortRun.LVS_ERRORS.
+
+LVS Compare Result: FAIL
+TOP equivalence point:
+		[if_neuron_shortRun, if_neuron_shortRun]
+
+    0 successful equivalencies
+  * 1 failed equivalencies
+        1 first priority errors
+        0 second priority errors
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+LVS Device Extraction Error Summary
+
+7 total rules were run.
+0 rules NOT EXECUTED.
+0 rules have violations.
+There are 0 total violations.
+Refer to if_neuron_shortRun.LAYOUT_ERRORS
+
+
+---------------------------------------------------------------------------
+Assign Layer Statistics
+---------------------------------------------------------------------------
+
+Utilized Assign Layers = 54
+ Empty Utilized Assign Layers = 42
+ Non-Empty Utilized Assign Layers = 12
+Pruned Assign Layers = 38
+
+
+---------------------------------------------------------------------------
+Run Configuration
+---------------------------------------------------------------------------
+
+run_options()
+ verbose_results_file = { }
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+hierarchy_options()
+ delete = { }
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+error_options()
+ error_limit_per_check = 100
+ match_errors = { }
+ match_errors_processing_mode = CELL_LEVEL
+ match_errors_tolerance = 0.0000
+ violation_options = { }
+ report_empty_violations = false
+ clean_classifications = { }
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Distributed Processing
+ Distributed Cores = 2
+
+ eecad6.eas.asu.edu (2/12)
+   Commands: 2 in parallel, maximum
+   Model: Intel(R) Xeon(R) E-2136 CPU @ 3.30GHz
+   CPU:   12 cpu 1283 MHz
+   Cores: 6 HT
+   RAM:   32 Gb
+   Swap:  16 Gb
+
+
+---------------------------------------------------------------------------
+Performance Statistics
+---------------------------------------------------------------------------
+
+IC Validator Run Time = 0:00:50
+Peak Single Command Memory = 218.266
+Peak Disk Usage = 1.727
+
+Distributed Host Memory Usage
+ eecad6.eas.asu.edu (2/12)  ....  Average=40.11 Mb, Peak=93 Mb / 32 Gb
+
+Overall Distributed Utilization: not available
+IC Validator is done.

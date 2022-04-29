@@ -43,16 +43,16 @@
 
 BLOCK: XO_2_0
 **MILKYWAY_DATABASE: ./INVX8.icv.lvs/XTROUT
-TCAD_GRD_FILE: /remote/SCRATCH_fs01/PDK/SAED_PDK_32/starrc/nominal/saed32nm_1p9m_nominal.nxtgrd
+TCAD_GRD_FILE: /afs/asu.edu/users/j/n/e/jneuenda/425_proj_final/425_lab_3/iPDK/starrc/nominal/saed32nm_1p9m_nominal.nxtgrd
 **MAPPING_FILE: ./pex_grd_map.nominal
-ICV_RUNSET_REPORT_FILE: ./pex_runset_report
+ICV_RUNSET_REPORT_FILE: 
 
 COUPLE_TO_GROUND: NO
 COUPLING_MULTIPLIER: 1
 *EXTRACTION: RC
 MILKYWAY_EXTRACT_VIEW: YES
 CASE_SENSITIVE: NO
-NETLIST_FORMAT: SPICE
+NETLIST_FORMAT: STAR
 NETLIST_NODE_SECTION: YES
 NETLIST_CONNECT_SECTION: YES
 NETLIST_SUBCKT: YES
@@ -81,4 +81,4 @@ OA_LIB_NAME:
 OA_VIEW_NAME: starrc
 OA_MARKER_SIZE: 0.1
 OA_REMOVE_SPICECARD_PREFIX: NO
-OA_DEVICE_MAPPING_FILE: ../saed32nm_1p9m_device.map
+OA_DEVICE_MAPPING_FILE: /afs/asu.edu/users/j/n/e/jneuenda/425_proj_final/425_lab_3/iPDK/starrc/saed32nm_1p9m_device.map

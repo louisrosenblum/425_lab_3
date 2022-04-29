@@ -1,0 +1,168 @@
+*****************************************************************************
+* CDL Netlist:
+* Cell Name: if_neuron
+* Netlisted on: Apr 25 01:03:00 2022
+*****************************************************************************
+
+
+*****************************************************************************
+* Global Net Declarations
+*****************************************************************************
+*.GLOBAL vdd! gnd!
+
+
+*****************************************************************************
+* PIN Control Statement
+*****************************************************************************
+*.PIN vdd! gnd!
+
+
+*****************************************************************************
+* BIPOLAR Declarations
+*****************************************************************************
+*.BIPOLAR
+*.RESI = 2000.000000
+*.SCALE METER
+
+
+*****************************************************************************
+* Parameter Statement
+*****************************************************************************
+.PARAM
+
+
+*******************************************************************************
+* Sub-Circuit Netlist:                                                        *
+*                                                                             *
+* Library: Lab4                                                               *
+* Cell   : one_bit_adder                                                      *
+* View   : schematic                                                          *
+* Last Time Saved: Apr  3 20:56:03 2022                                       *
+*******************************************************************************
+.subckt one_bit_adder Cout Sum A B Cin
+*.PININFO Cout:O Sum:O A:I B:I Cin:I 
+.ends one_bit_adder
+
+
+*******************************************************************************
+* Sub-Circuit Netlist:                                                        *
+*                                                                             *
+* Library: Lab4                                                               *
+* Cell   : four_bit_adder                                                     *
+* View   : schematic                                                          *
+* Last Time Saved: Apr 22 22:31:20 2022                                       *
+*******************************************************************************
+.subckt four_bit_adder Cout Sum0 Sum1 Sum2 Sum3 A0 A1 A2 A3 B0 B1 B2 B3
+*.NOPIN vdd!
+*.PININFO Cout:O Sum0:O Sum1:O Sum2:O Sum3:O A0:I A1:I A2:I A3:I B0:I B1:I B2:I
+*.PININFO B3:I 
+XI3 Cout Sum3 A3 B3 net35 one_bit_adder
+XI2 net35 Sum2 A2 B2 net030 one_bit_adder
+XI1 net030 Sum1 A1 B1 net033 one_bit_adder
+XI0 net033 Sum0 A0 B0 gnd! one_bit_adder
+.ends four_bit_adder
+
+
+*******************************************************************************
+* Sub-Circuit Netlist:                                                        *
+*                                                                             *
+* Library: Lab4                                                               *
+* Cell   : d_flip_flop                                                        *
+* View   : schematic                                                          *
+* Last Time Saved: Apr 10 02:58:43 2022                                       *
+*******************************************************************************
+.subckt d_flip_flop Q Clk D
+*.PININFO Q:O Clk:I D:I 
+.ends d_flip_flop
+
+
+*******************************************************************************
+* Sub-Circuit Netlist:                                                        *
+*                                                                             *
+* Library: Lab4                                                               *
+* Cell   : and2                                                               *
+* View   : schematic                                                          *
+* Last Time Saved: Apr 21 15:43:33 2022                                       *
+*******************************************************************************
+.subckt and2 F A B
+*.PININFO F:O A:I B:I 
+.ends and2
+
+
+*******************************************************************************
+* Sub-Circuit Netlist:                                                        *
+*                                                                             *
+* Library: Lab4                                                               *
+* Cell   : or3                                                                *
+* View   : schematic                                                          *
+* Last Time Saved: Apr 22 21:36:12 2022                                       *
+*******************************************************************************
+.subckt or3 F A B C
+*.PININFO F:O A:I B:I C:I 
+.ends or3
+
+
+*******************************************************************************
+* Main Circuit Netlist:                                                       *
+*                                                                             *
+* Library: Lab4                                                               *
+* Cell   : if_neuron                                                          *
+* View   : schematic                                                          *
+* Last Time Saved: Apr 24 22:06:02 2022                                       *
+*******************************************************************************
+.subckt if_neuron F CLK W0 W1 W2 W3 X0<0> X0<1> X0<2> X0<3> X1<0> X1<1> X1<2>
++X1<3> X2<0> X2<1> X2<2> X2<3> X3<0> X3<1> X3<2> X3<3>
+*.PININFO F:O CLK:I W0:I W1:I W2:I W3:I X0<0>:I X0<1>:I X0<2>:I X0<3>:I X1<0>:I
+*.PININFO X1<1>:I X1<2>:I X1<3>:I X2<0>:I X2<1>:I X2<2>:I X2<3>:I X3<0>:I
+*.PININFO X3<1>:I X3<2>:I X3<3>:I 
+XI44 net079 net085 net086 net087 net088 net069 net068 net066 net078 net076
++net0158 net0163 net073 four_bit_adder
+XI33 net061 net062 net063 net064 net065 net46 net45 net38 net049 net052 net070
++net060 net0135 four_bit_adder
+XI0 net058 net057 net0102 net0101 net098 net095 net046 net042 net043 net045
++net048 net050 net0103 four_bit_adder
+XI46 F CLK net067 d_flip_flop
+XI43 net0105 CLK net061 d_flip_flop
+XI42 net073 CLK net065 d_flip_flop
+XI41 net0163 CLK net064 d_flip_flop
+XI40 net0158 CLK net063 d_flip_flop
+XI39 net076 CLK net062 d_flip_flop
+XI38 net080 CLK net058 d_flip_flop
+XI37 net078 CLK net098 d_flip_flop
+XI36 net066 CLK net0101 d_flip_flop
+XI35 net068 CLK net0102 d_flip_flop
+XI34 net069 CLK net057 d_flip_flop
+XI32 net072 CLK X3<3> d_flip_flop
+XI29 net25 CLK X3<2> d_flip_flop
+XI28 net0149 CLK X3<1> d_flip_flop
+XI25 net32 CLK X3<0> d_flip_flop
+XI24 net35 CLK X2<3> d_flip_flop
+XI21 net077 CLK X2<2> d_flip_flop
+XI20 net0172 CLK X2<1> d_flip_flop
+XI17 net0155 CLK X2<0> d_flip_flop
+XI16 net0168 CLK X1<3> d_flip_flop
+XI13 net082 CLK X1<2> d_flip_flop
+XI12 net59 CLK X1<1> d_flip_flop
+XI9 net64 CLK X1<0> d_flip_flop
+XI8 net0165 CLK X0<3> d_flip_flop
+XI5 net0161 CLK X0<2> d_flip_flop
+XI3 net75 CLK X0<1> d_flip_flop
+XI1 net0174 CLK X0<0> d_flip_flop
+XI31 net0135 net072 W3 and2
+XI30 net060 net25 W3 and2
+XI27 net070 net0149 W3 and2
+XI26 net052 net32 W3 and2
+XI23 net049 net35 W2 and2
+XI22 net38 net077 W2 and2
+XI19 net45 net0172 W2 and2
+XI18 net46 net0155 W2 and2
+XI15 net0103 net0168 W1 and2
+XI14 net050 net082 W1 and2
+XI11 net048 net59 W1 and2
+XI10 net045 net64 W1 and2
+XI7 net043 net0165 W0 and2
+XI6 net042 net0161 W0 and2
+XI4 net046 net75 W0 and2
+XI2 net095 net0174 W0 and2
+XI47 net067 net080 net079 net0105 or3
+.ends if_neuron

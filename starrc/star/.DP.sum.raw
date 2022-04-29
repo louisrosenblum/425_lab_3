@@ -1,0 +1,14 @@
+1 Layers 1651045513 1651045516 2 0.3 0 293.7 eecad6.eas.asu.edu
+1 Models 1651045516 1651045518 0 0 0 180.9 eecad6.eas.asu.edu
+1 HN 1651045518 1651045522 1 0.1 0 309.8 eecad6.eas.asu.edu
+1 XrefHN 1651045522 1651045525 1 0 0 201.3 eecad6.eas.asu.edu
+1 Cells 1651045525 1651045530 3 0.2 0.1 293.5 eecad6.eas.asu.edu
+1 Translate 1651045530 1651045534 2 0 0 197.9 eecad6.eas.asu.edu
+1 XinMerge 1651045534 1651045536 1 0 0 202 eecad6.eas.asu.edu
+1 NetlistSetup 1651045536 1651045537 0 0 0 197.3 eecad6.eas.asu.edu
+1 Partition_part1 1651045541 1651045544 2 0 0 199.9 eecad6.eas.asu.edu
+1 PartitionPP 1651045544 1651045546 1 0 0 181.6 eecad6.eas.asu.edu
+1 xTract_part1 1651045547 1651045554 6 3.4 0.2 293.9 eecad6.eas.asu.edu
+1 xTractPP 1651045559 1651045563 2 0.1 0.1 179.8 eecad6.eas.asu.edu
+1 ReportViolations 1651045565 1651045566 0 0 0 0 eecad6.eas.asu.edu
+1 Netlist 1651045568 1651045574 4 0.2 0.2 215.6 eecad6.eas.asu.edu

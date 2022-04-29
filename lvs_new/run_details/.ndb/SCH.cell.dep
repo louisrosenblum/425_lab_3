@@ -1,0 +1,5 @@
+four_bit_adder { }
+if_neuron_shortRun { or3 four_bit_adder and2 d_flip_flop }
+d_flip_flop { }
+or3 { }
+and2 { }

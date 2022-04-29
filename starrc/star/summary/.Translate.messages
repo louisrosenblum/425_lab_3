@@ -1,0 +1,17 @@
+create_xin_writer; sort_xin_in_memory NO cut_trap NO text_counter NO
+
+SKIP_CELLS:
+< No skip_cells! >
+  
+ReadHNdb      Elp=00:00:00 Cpu=00:00:00 Usr=0.0    Sys=0.0    Mem=197.4 
+NetSelect     Elp=00:00:00 Cpu=00:00:00 Usr=0.0    Sys=0.0    Mem=197.4 
+CellSelect    Elp=00:00:00 Cpu=00:00:00 Usr=0.0    Sys=0.0    Mem=197.4 
+PlaceTerm     Elp=00:00:00 Cpu=00:00:00 Usr=0.0    Sys=0.0    Mem=197.8 
+PlaceText     Elp=00:00:01 Cpu=00:00:00 Usr=0.0    Sys=0.0    Mem=197.9 
+Db2Xin        Elp=00:00:00 Cpu=00:00:00 Usr=0.0    Sys=0.0    Mem=197.9 
+Translate     Elp=00:00:01 Cpu=00:00:00 Usr=0.0    Sys=0.0    Mem=197.9 
+  
+Done          Elp=00:00:02 Cpu=00:00:00 Usr=0.0    Sys=0.0    Mem=197.9 
+
+End Time: Wed Apr 27 00:45:33 2022
+

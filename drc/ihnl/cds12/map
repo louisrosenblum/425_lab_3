@@ -1,0 +1,14 @@
+( ( net
+( "gnd!" "gnd!" )
+ )
+( inst
+( "I3" "XI3" )
+( "I0" "XI0" )
+( "I1" "XI1" )
+( "I2" "XI2" )
+ )
+( model
+( "four_bit_adder" "four_bit_adder" )
+( "one_bit_adder" "one_bit_adder" )
+ )
+ )

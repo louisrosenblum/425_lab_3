@@ -1,0 +1,13 @@
+
+
+*******************************************************************************
+* Sub-Circuit Netlist:                                                        *
+*                                                                             *
+* Library: Lab4                                                               *
+* Cell   : one_bit_adder                                                      *
+* View   : schematic                                                          *
+* Last Time Saved: Apr  3 20:56:03 2022                                       *
+*******************************************************************************
+.subckt one_bit_adder Cout Sum A B Cin
+*.PININFO Cout:O Sum:O A:I B:I Cin:I 
+.ends one_bit_adder

@@ -1,4 +1,4 @@
-one_bit_adder_Leg4.gdsOut one_bit_adder_Leg4 one_bit_adder_Leg4 SPICE GDSII /usr/local/synopsys/icv_2018.06-SP1/icvalidator/O-2018.06-SP1/bin/LINUX.64/icv ../iPDK/icv/drc/saed32nm_1p9m_drc_rules.rs -vue -stc -sf -i -f -c 
-schematic=one_bit_adder_Leg4.cdl
+if_neuron_shortRun.gdsOut if_neuron_shortRun if_neuron_shortRun SPICE GDSII /usr/local/synopsys/icv_2018.06-SP1/icvalidator/O-2018.06-SP1/bin/LINUX.64/icv ../iPDK/icv/drc/saed32nm_1p9m_drc_rules.rs -vue -stc -sf -i -f -c 
+schematic=if_neuron_shortRun.cdl
 ICV_HOME_DIR=/usr/local/synopsys/icv_2018.06-SP1/icvalidator/O-2018.06-SP1
 ICV_INCLUDES=UNSET

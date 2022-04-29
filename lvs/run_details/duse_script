@@ -1,10 +1,10 @@
 #! /bin/sh
 total=0
-pathsize=`du -s --block-size=1 /afs/asu.edu/users/j/n/e/jneuenda/425_proj/425_lab/lvs/run_details | awk '{print $1}'`
+pathsize=`du -s --block-size=1 /afs/asu.edu/users/j/n/e/jneuenda/425_proj_final/425_lab_3/lvs/run_details | awk '{print $1}'`
 total=$(($total+$pathsize))
-pathsize=`du -s --block-size=1 /afs/asu.edu/users/j/n/e/jneuenda/425_proj/425_lab/lvs/./TOPCELLNAME_err | awk '{print $1}'`
+pathsize=`du -s --block-size=1 /afs/asu.edu/users/j/n/e/jneuenda/425_proj_final/425_lab_3/lvs/./TOPCELLNAME_err | awk '{print $1}'`
 total=$(($total+$pathsize))
-pathsize=`du -s --block-size=1 /afs/asu.edu/users/j/n/e/jneuenda/425_proj/425_lab/lvs/one_bit_adder_Leg4.LAYOUT_ERRORS | awk '{print $1}'`
+pathsize=`du -s --block-size=1 /afs/asu.edu/users/j/n/e/jneuenda/425_proj_final/425_lab_3/lvs/if_neuron_shortRun.LAYOUT_ERRORS | awk '{print $1}'`
 total=$(($total+$pathsize))
-echo $total > /afs/asu.edu/users/j/n/e/jneuenda/425_proj/425_lab/lvs/run_details/duse_master.tmp && \
-mv /afs/asu.edu/users/j/n/e/jneuenda/425_proj/425_lab/lvs/run_details/duse_master.tmp /afs/asu.edu/users/j/n/e/jneuenda/425_proj/425_lab/lvs/run_details/duse_master
+echo $total > /afs/asu.edu/users/j/n/e/jneuenda/425_proj_final/425_lab_3/lvs/run_details/duse_master.tmp && \
+mv /afs/asu.edu/users/j/n/e/jneuenda/425_proj_final/425_lab_3/lvs/run_details/duse_master.tmp /afs/asu.edu/users/j/n/e/jneuenda/425_proj_final/425_lab_3/lvs/run_details/duse_master

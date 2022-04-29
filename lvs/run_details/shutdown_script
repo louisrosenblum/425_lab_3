@@ -1,11 +1,11 @@
 #! /bin/sh
 
-echo $HOSTNAME | grep eecad3.eas.asu.edu > /dev/null 2>&1 
+echo $HOSTNAME | grep eecad6.eas.asu.edu > /dev/null 2>&1 
 if [ $? == 0  ]
 then 
-kill 30122 
+kill 30427 
 else 
-rsh eecad3.eas.asu.edu kill 30122 
+rsh eecad6.eas.asu.edu kill 30427 
  sleep 10 
-rsh eecad3.eas.asu.edu kill -9 30122 
+rsh eecad6.eas.asu.edu kill -9 30427 
 fi

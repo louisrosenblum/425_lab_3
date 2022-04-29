@@ -1,0 +1,23 @@
+Virtuoso Framework License (111) was checked out successfully. Total checkout time was 0.05s.
+*INFO* (icLic-302) License Virtuoso_Schematic_Editor_XL ("Schematics XL") was used to run Schematics L.
+*WARNING* LIB Lab4 from File /afs/asu.edu/users/a/l/r/alrosen2/425_lab/cds.lib Line 29 redefines
+LIB Lab4 from the same file (defined earlier.)
+*WARNING* The directory: '/tmp/jneuenda_vue_LoK3Tv/VUE_HILITE_NDYxXq' does not exist
+	but was defined in libFile '/afs/asu.edu/users/a/l/r/alrosen2/425_lab/cds.lib' for Lib 'VUE_HILITE_NDYxXq'.
+*WARNING* LIB Lab4 from File /afs/asu.edu/users/a/l/r/alrosen2/425_lab/cds.lib Line 29 redefines
+LIB Lab4 from the same file (defined earlier.)
+*WARNING* The directory: '/tmp/jneuenda_vue_LoK3Tv/VUE_HILITE_NDYxXq' does not exist
+	but was defined in libFile '/afs/asu.edu/users/a/l/r/alrosen2/425_lab/cds.lib' for Lib 'VUE_HILITE_NDYxXq'.
+Running Artist Hierarchical Netlisting ...
+WARNING (OSSHNL-117): Ignoring switch view 'schematic' of cell 'vdd' in library 'basic', as it does not contain
+any instance. To netlist this cell, add this switch view to the stop list or to
+ignore any specific instance set the property 'nlAction' to value "ignore" on
+this cell view.
+
+WARNING (OSSHNL-117): Ignoring switch view 'schematic' of cell 'gnd' in library 'basic', as it does not contain
+any instance. To netlist this cell, add this switch view to the stop list or to
+ignore any specific instance set the property 'nlAction' to value "ignore" on
+this cell view.
+
+Loading cdf.cxt 
+End netlisting Apr 19 17:10:50 2022

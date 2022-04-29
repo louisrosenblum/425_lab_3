@@ -1,0 +1,6 @@
+// Coords: partition_bottom cut_bottom lower_partition_top upper_partition_bottom cut_top partition_top
+Partition 1 has 19320 polygons, 0 in overlap region.
+   Coords: -53620 -53620 -53620 254480 254480 254480
+Partition 2 has 0 polygons, 0 in overlap region.
+   Coords: 2147483647 2147483647 -2147483648 2147483647 -2147483648 -2147483648
+Overlap_dist= 4 Cut_thickness= 1 (both in microns)

@@ -1,0 +1,111 @@
+                               RESULTS: CLEAN
+
+                      ####  #      #####   ###   #   #
+                     #      #      #      #   #  ##  #
+                     #      #      ####   #####  # # #
+                     #      #      #      #   #  #  ##
+                      ####  #####  #####  #   #  #   #
+
+===========================================================================
+
+
+---------------------------------------------------------------------------
+ICV Execution
+---------------------------------------------------------------------------
+
+
+                                 IC Validator 
+
+          Version O-2018.06-SP1 for linux64 - Jul 23, 2018 cl#4289877
+
+                    Copyright (c) 1996 - 2018 Synopsys, Inc.
+   This software and the associated documentation are proprietary to Synopsys,
+ Inc. This software may only be used in accordance with the terms and conditions
+ of a written license agreement with Synopsys, Inc. All other use, reproduction,
+            or distribution of this software is strictly prohibited.
+
+Called as: /usr/local/synopsys/icv_2018.06-SP1/icvalidator/O-2018.06-SP1/bin/LINUX.64/icv -vue -c and2 -i and2.gdsOut -f GDSII -s and2.cdl -sf SPICE -stc and2 ../iPDK/icv/drc/saed32nm_1p9m_drc_rules.rs
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+User name:        jneuenda
+Layout format:    GDSII
+Input file name:  and2.gdsOut
+Top cell name:    and2
+Time started:     2022/04/21 03:50:53PM
+Time ended:       2022/04/21 03:51:25PM
+
+
+---------------------------------------------------------------------------
+Results Summary
+---------------------------------------------------------------------------
+
+Rule and DRC Error Summary
+
+425 total rules were run.
+0 rules NOT EXECUTED.
+0 rules have violations.
+There are 0 total violations.
+Refer to and2.LAYOUT_ERRORS
+
+
+---------------------------------------------------------------------------
+Assign Layer Statistics
+---------------------------------------------------------------------------
+
+Utilized Assign Layers = 33
+ Empty Utilized Assign Layers = 25
+ Non-Empty Utilized Assign Layers = 8
+Pruned Assign Layers = 53
+
+
+---------------------------------------------------------------------------
+Run Configuration
+---------------------------------------------------------------------------
+
+run_options()
+ verbose_results_file = { }
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+hierarchy_options()
+ delete = { }
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+error_options()
+ error_limit_per_check = 1000000
+ match_errors = { }
+ match_errors_processing_mode = CELL_LEVEL
+ match_errors_tolerance = 0.0000
+ violation_options = { }
+ report_empty_violations = false
+ clean_classifications = { }
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Distributed Processing
+ Distributed Cores = 2
+
+ eecad103 (2/48)
+   Commands: 2 in parallel, maximum
+   Model: Intel(R) Xeon(R) Silver 4214 CPU @ 2.20GHz
+   CPU:   48 cpu 2700 MHz
+   Cores: 24 HT
+   RAM:   385 Gb
+   Swap:  4 Gb
+
+
+---------------------------------------------------------------------------
+Performance Statistics
+---------------------------------------------------------------------------
+
+IC Validator Run Time = 0:00:32
+Peak Single Command Memory = 49.348
+Peak Disk Usage = 19.380
+
+Distributed Host Memory Usage
+ eecad103 (2/48)  ....  Average=5.68 Mb, Peak=49 Mb / 385 Gb
+
+Overall Distributed Utilization: not available
+IC Validator is done.

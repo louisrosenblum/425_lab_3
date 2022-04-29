@@ -1,0 +1,39 @@
+codiff
+UP: m1
+DOWN: nsd nsdr ntap psd psdr ptap
+copoly
+UP: m1
+DOWN: ngatepl pgatepl ponr
+nwell_cont
+UP: ntap
+DOWN: nwnr
+pwell_cont
+UP: ptap
+DOWN: pwell
+via1
+UP: m2
+DOWN: m1
+via2
+UP: m3
+DOWN: m2
+via3
+UP: m4
+DOWN: m3
+via4
+UP: m5
+DOWN: m4
+via5
+UP: m6
+DOWN: m5
+via6
+UP: m7
+DOWN: m6
+via7
+UP: m8
+DOWN: m7
+via8
+UP: m9
+DOWN: m8
+viardl
+UP: mrdl
+DOWN: m9

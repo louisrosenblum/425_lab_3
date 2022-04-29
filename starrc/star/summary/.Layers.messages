@@ -1,0 +1,30 @@
+WARNING: Database layer "l_0V_BJT_EMIT_NPN" is not included in MAPPING_FILE. Mapping to "SUBSTRATE". (SX-1818)
+WARNING: Database gate layer "ngate_12" is not included in MAPPING_FILE. Mapping to "POLY". (SX-1816)
+WARNING: Database gate layer "pgate_12" is not included in MAPPING_FILE. Mapping to "POLY". (SX-1816)
+WARNING: Database gate layer "ngate_12_lvt" is not included in MAPPING_FILE. Mapping to "POLY". (SX-1816)
+WARNING: Database gate layer "pgate_12_lvt" is not included in MAPPING_FILE. Mapping to "POLY". (SX-1816)
+WARNING: Database gate layer "ngate_12_hvt" is not included in MAPPING_FILE. Mapping to "POLY". (SX-1816)
+WARNING: Database gate layer "pgate_12_hvt" is not included in MAPPING_FILE. Mapping to "POLY". (SX-1816)
+WARNING: Database layer "l_0V_BJT_BASE" is not included in MAPPING_FILE. Mapping to "SUBSTRATE". (SX-1818)
+WARNING: Database layer "l_0V_BJT_COLL" is not included in MAPPING_FILE. Mapping to "SUBSTRATE". (SX-1818)
+WARNING: Database layer "l_0V_BJT_EMIT" is not included in MAPPING_FILE. Mapping to "SUBSTRATE". (SX-1818)
+WARNING: Database layer "l_0V_BJT_COLL_NPN" is not included in MAPPING_FILE. Mapping to "SUBSTRATE". (SX-1818)
+WARNING: Database layer "l_0V_BJT_BASE_NPN" is not included in MAPPING_FILE. Mapping to "SUBSTRATE". (SX-1818)
+WARNING: MOS gate and diffusion layers are co-vertical to each other or to a third layer like field
+         poly. Check your process cross-section and see if the nxtgrd file is correct. (SX-1848)
+WARNING: The precedence is not set for ignored cap layer: nwnr (SX-1794)
+WARNING: The precedence is not set for ignored cap layer: pwell (SX-1794)
+WARNING: The precedence is not set for layers mapped to substrate in the mapping file when
+         TRANSLATE_RETAIN_BULK_LAYERS:YES or CONLY is specified in your command file. Accuracy can
+         be affected. Check the order of substrate layer and set precedence for them in your mapping
+         file whenever the TRANSLATE_RETAIN_BULK_LAYERS:YES or CONLY command is used. (SX-1790)
+WARNING: Setting RPV*AREA value of 1e-6 for pwell_cont (SX-1873)
+WARNING: Setting RPV*AREA value of 1e-6 for nwell_cont (SX-1873)
+  
+InitDB        Elp=00:00:01 Cpu=00:00:00 Usr=0.1    Sys=0.0    Mem=292.5 
+Layers        Elp=00:00:01 Cpu=00:00:00 Usr=0.2    Sys=0.0    Mem=293.7 
+  
+Done          Elp=00:00:02 Cpu=00:00:00 Usr=0.3    Sys=0.0    Mem=293.7 
+
+End Time: Wed Apr 27 00:45:15 2022
+

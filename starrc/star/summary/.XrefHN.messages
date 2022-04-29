@@ -1,0 +1,22 @@
+WARNING: TOP BLOCK "if_neuron_shortRun if_neuron_shortRun U
+         if_neuron_shortRun.if_neuron_shortRun.bincdb E::if_neuron_shortRun U
+         if_neuron_shortRun.if_neuron_shortRun.bincdb E" does not compare. LVS is not clean. (SX-1745)
+pre = 0
+main thread = 0
+_write_tokens = 0
+_write_file = 1
+  
+ReadHNdb      Elp=00:00:00 Cpu=00:00:00 Usr=0.0    Sys=0.0    Mem=197.3 
+LoadXF        Elp=00:00:00 Cpu=00:00:00 Usr=0.0    Sys=0.0    Mem=199.7 
+BldXrefHN     Elp=00:00:01 Cpu=00:00:00 Usr=0.0    Sys=0.0    Mem=201.3 
+ReadXHNdb     Elp=00:00:00 Cpu=00:00:00 Usr=0.0    Sys=0.0    Mem=201.3 
+BldXrefTab    Elp=00:00:00 Cpu=00:00:00 Usr=0.0    Sys=0.0    Mem=201.3 
+SNetSel       Elp=00:00:00 Cpu=00:00:00 Usr=0.0    Sys=0.0    Mem=201.3 
+XrefHN        Elp=00:00:00 Cpu=00:00:00 Usr=0.0    Sys=0.0    Mem=201.3 
+  
+Done          Elp=00:00:01 Cpu=00:00:00 Usr=0.0    Sys=0.0    Mem=201.3 
+WARNING: Without NETLIST_DEVICE_LOCATION_ORIENTATION, PLACEMENT_INFO_FILE will always report angle=0
+         for devices. (SX-1260)
+
+End Time: Wed Apr 27 00:45:23 2022
+

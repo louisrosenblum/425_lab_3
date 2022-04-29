@@ -1,0 +1,5 @@
+
+/* top equiv */
+equiv_options({{"if_neuron", "if_neuron"}});
+
+/* Generated system equivalence points are listed in this section */

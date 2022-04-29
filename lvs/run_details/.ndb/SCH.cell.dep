@@ -1,1 +1,6 @@
-one_bit_adder_Leg4 { }
+one_bit_adder { }
+four_bit_adder { one_bit_adder }
+if_neuron_shortRun { and2 or3 d_flip_flop four_bit_adder }
+d_flip_flop { }
+and2 { }
+or3 { }
